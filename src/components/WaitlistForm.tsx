@@ -33,6 +33,7 @@ export function WaitlistForm({ product, accentColor = '#B02700', accentHover = '
       const params = new URLSearchParams({
         key: apiKey,
         email,
+        listid: '185989',
         'fields[firstname]': firstName,
         'fields[product_interest]': product,
         status: 'active',
