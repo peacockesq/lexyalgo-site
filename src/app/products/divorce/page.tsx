@@ -17,12 +17,6 @@ const features = [
   { title: 'PDF Download + Plain English', desc: 'Download court-ready PDFs and get plain-English summaries explaining what every document says and why it matters.' },
 ]
 
-const behavioralHighlights = [
-  { title: '"How to Explain This" Cards', desc: 'Every generated document comes with a companion card: a plain-English explanation of what this document does, why it\'s needed, and how to explain it to your spouse, family, or mediator.', icon: '💬' },
-  { title: 'Progress Over Overwhelm', desc: 'The intake is broken into small, completable steps. You see exactly where you are, what\'s next, and how much is left. No infinite scroll of legal questions.', icon: '📋' },
-  { title: 'Confidence Through Transparency', desc: 'Every form shows which court requires it, what section of the law it satisfies, and what happens if it\'s missing. You understand your own paperwork.', icon: '🔍' },
-]
-
 export default function DivorcePage() {
   return (
     <>
@@ -81,29 +75,7 @@ export default function DivorcePage() {
         </div>
       </section>
 
-      {/* Behavioral design section */}
-      <section className="bg-slate-950 py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-2xl mx-auto mb-16">
-            <span className="text-sm font-semibold text-[#96B0D9] uppercase tracking-wider">Behavioral Design</span>
-            <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-white mt-3">
-              Paperwork that makes sense
-            </h2>
-            <p className="mt-4 text-slate-400">
-              Legal documents shouldn&rsquo;t feel like a foreign language. Every form comes with context, explanation, and a way to talk about it.
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {behavioralHighlights.map((h) => (
-              <div key={h.title} className="bg-slate-900/50 rounded-2xl border border-slate-800 p-8">
-                <span className="text-3xl">{h.icon}</span>
-                <h3 className="font-[family-name:var(--font-space)] font-bold text-white mt-4">{h.title}</h3>
-                <p className="mt-3 text-slate-400 text-sm leading-relaxed">{h.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+
 
       {/* Disclaimer */}
       <section className="py-12 bg-surface">

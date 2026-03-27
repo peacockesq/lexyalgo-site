@@ -5,7 +5,7 @@ import { RealScreenshot } from '@/components/RealScreenshot'
 
 export const metadata: Metadata = {
   title: 'Asset Divider — Coming Soon — LexyAlgo',
-  description: 'Visual asset division with drag-and-drop allocation, fairness scoring, and behavioral design. Coming soon.',
+  description: 'Visual asset division with drag-and-drop allocation and fairness scoring. Coming soon.',
 }
 
 const features = [
@@ -15,12 +15,6 @@ const features = [
   { title: 'Court-Ready Documents', desc: 'Generate state-specific property settlement agreements, financial declarations, and asset schedules.' },
   { title: 'Retirement Division', desc: 'QDRO-ready calculations with future value projections. See what $30K today means at age 62.' },
   { title: 'PDF Export', desc: 'Download everything as court-formatted PDFs. Print, sign, file.' },
-]
-
-const behavioralHighlights = [
-  { title: 'Hedonic Editing', desc: 'Losses are bundled into one net settlement figure. Gains are itemized with individual checkmarks. You see what you\'re receiving, not what you\'re losing.', icon: '📋' },
-  { title: '"How to Explain This" Cards', desc: 'Every scenario includes a plain-English script: "I traded X for Y, which is worth more because Z." No competitor does this.', icon: '💬' },
-  { title: 'Future Value Timelines', desc: 'Don\'t just see present value. See animated growth curves showing what retirement assets become at 55, 62, and 67.', icon: '📈' },
 ]
 
 export default function AssetDividerPage() {
@@ -81,29 +75,7 @@ export default function AssetDividerPage() {
         </div>
       </section>
 
-      {/* Behavioral design section */}
-      <section className="bg-slate-950 py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-2xl mx-auto mb-16">
-            <span className="text-sm font-semibold text-[#FFB4A3] uppercase tracking-wider">Behavioral Design</span>
-            <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-white mt-3">
-              Built on how people actually decide
-            </h2>
-            <p className="mt-4 text-slate-400">
-              Every screen asks: &ldquo;What bias is the user feeling right now, and how do I reframe the information to help?&rdquo;
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {behavioralHighlights.map((h) => (
-              <div key={h.title} className="bg-slate-900/50 rounded-2xl border border-slate-800 p-8">
-                <span className="text-3xl">{h.icon}</span>
-                <h3 className="font-[family-name:var(--font-space)] font-bold text-white mt-4">{h.title}</h3>
-                <p className="mt-3 text-slate-400 text-sm leading-relaxed">{h.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+
 
       {/* Bottom CTA */}
       <section className="bg-peach py-16 sm:py-20 text-center">

@@ -78,7 +78,7 @@ const allProducts = [
 const trustBadges = [
   { label: '8-State Attorney', detail: 'Built by a licensed attorney' },
   { label: 'Court-Form Driven', detail: 'Uses actual court forms' },
-  { label: 'Behavioral Design', detail: 'Decisions you won\'t regret' },
+  { label: 'Attorney-Built', detail: 'Licensed in 8 states' },
   { label: 'Free Calculators', detail: 'No account required' },
 ]
 
@@ -360,57 +360,6 @@ export default function HomePage() {
               <div className="bg-white px-4 py-2 border-t border-slate-100">
                 <p className="text-xs font-semibold text-slate-700">LexyFiling</p>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Behavioral design highlight */}
-      <section className="py-20 sm:py-28 bg-surface">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <span className="text-sm font-semibold text-primary-container uppercase tracking-wider">Behavioral Design</span>
-              <h2 className="font-[family-name:var(--font-space)] text-3xl sm:text-4xl font-bold text-slate-900 mt-3">
-                Decisions you won&rsquo;t regret
-              </h2>
-              <p className="mt-6 text-lg text-slate-600 leading-relaxed">
-                Every screen is designed around how people actually make decisions during divorce — not how we wish they did. Research-backed behavioral economics help you see the full picture.
-              </p>
-              <div className="mt-8 space-y-4">
-                {[
-                  { title: 'Gains, not losses', desc: 'Every trade-off is framed as what you receive, not what you give up.' },
-                  { title: 'Future value visualized', desc: 'See what retirement assets are worth at 55, 62, and 67 — not just today.' },
-                  { title: '"How to explain this" cards', desc: 'Plain-English scripts for explaining your decisions to family and friends.' },
-                ].map((item) => (
-                  <div key={item.title} className="flex gap-4">
-                    <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-peach flex items-center justify-center text-primary-container">
-                      <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-                    </div>
-                    <div>
-                      <p className="font-semibold text-slate-900">{item.title}</p>
-                      <p className="text-sm text-slate-600 mt-0.5">{item.desc}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-            <div className="rounded-2xl overflow-hidden shadow-xl ring-1 ring-slate-200/80">
-              <div className="flex items-center gap-1.5 px-4 py-2 bg-slate-100 border-b border-slate-200">
-                <div className="w-2 h-2 rounded-full bg-red-400/80" />
-                <div className="w-2 h-2 rounded-full bg-yellow-400/80" />
-                <div className="w-2 h-2 rounded-full bg-green-400/80" />
-                <div className="ml-3 h-4 rounded bg-white border border-slate-200 flex items-center px-2 flex-1 max-w-[200px]">
-                  <span className="text-[10px] text-slate-400">app.lexyalgo.com</span>
-                </div>
-              </div>
-              <Image
-                src="/screenshots/v2-app-homepage.png"
-                alt="LexyAlgo V2 App — division workspace with fairness indicator"
-                width={800}
-                height={600}
-                className="w-full h-auto block"
-              />
             </div>
           </div>
         </div>
