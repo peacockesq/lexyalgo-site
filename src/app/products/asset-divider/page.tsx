@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { WaitlistForm } from '@/components/WaitlistForm'
+import { ProductScreenshots, assetDividerMockups } from '@/components/ProductScreenshots'
 
 export const metadata: Metadata = {
   title: 'Asset Divider — Coming Soon — LexyAlgo',
@@ -53,15 +54,8 @@ export default function AssetDividerPage() {
         </div>
       </section>
 
-      {/* Screenshot placeholder */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 mb-20">
-        <div className="bg-[#B02700] rounded-2xl aspect-[16/9] sm:aspect-[2.2/1] flex items-center justify-center shadow-2xl shadow-ember/10">
-          <div className="text-center p-8">
-            <p className="text-white/80 text-lg font-medium font-[family-name:var(--font-space)]">Asset Division Workspace</p>
-            <p className="text-white/50 text-sm mt-2">Drag-and-drop interface with fairness indicator and live equity calculations</p>
-          </div>
-        </div>
-      </section>
+      {/* Product Screenshots */}
+      <ProductScreenshots color="#B02700" lightBg="#FFEDE8" mockups={assetDividerMockups} />
 
       {/* Features grid */}
       <section className="py-20">

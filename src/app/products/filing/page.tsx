@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { WaitlistForm } from '@/components/WaitlistForm'
+import { ProductScreenshots, filingMockups } from '@/components/ProductScreenshots'
 
 export const metadata: Metadata = {
   title: 'LexyFiling — Coming Soon — LexyAlgo',
@@ -53,6 +54,9 @@ export default function FilingPage() {
           </div>
         </div>
       </section>
+
+      {/* Product Screenshots */}
+      <ProductScreenshots color="#4B3D7A" lightBg="#EDE9F8" mockups={filingMockups} />
 
       {/* CTA */}
       <section className="bg-peach py-16 text-center">

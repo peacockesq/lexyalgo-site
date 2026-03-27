@@ -15,8 +15,9 @@ const companyLinks = [
   { name: 'Mission', href: '/mission' },
   { name: 'Blog', href: '/blog' },
   { name: 'Contact', href: '/contact' },
-  { name: 'Privacy Policy', href: '#' },
-  { name: 'Do Not Sell My Personal Information', href: '#' },
+  { name: 'Privacy Policy', href: '/privacy' },
+  { name: 'Terms of Service', href: '/terms' },
+  { name: 'Do Not Sell My Personal Information', href: '/privacy/do-not-sell' },
 ]
 
 export function Footer() {

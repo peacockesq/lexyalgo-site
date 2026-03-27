@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { WaitlistForm } from '@/components/WaitlistForm'
+import { ProductScreenshots, coParentMockups } from '@/components/ProductScreenshots'
 
 export const metadata: Metadata = {
   title: 'Co-Parent — Coming Soon — LexyAlgo',
@@ -47,15 +48,8 @@ export default function CoParentPage() {
         </div>
       </section>
 
-      {/* Screenshot placeholder */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 mb-20">
-        <div className="bg-sage rounded-2xl aspect-[16/9] sm:aspect-[2.2/1] flex items-center justify-center shadow-2xl shadow-sage/10">
-          <div className="text-center p-8">
-            <p className="text-white/80 text-lg font-medium font-[family-name:var(--font-space)]">Co-Parenting Calendar</p>
-            <p className="text-white/50 text-sm mt-2">Dual-colour calendar showing both parents&apos; positive parenting time</p>
-          </div>
-        </div>
-      </section>
+      {/* Product Screenshots */}
+      <ProductScreenshots color="#2E6B4F" lightBg="#E6F5EC" mockups={coParentMockups} />
 
       {/* Positive framing callout */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">

@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { WaitlistForm } from '@/components/WaitlistForm'
+import { ProductScreenshots, estatePlanningMockups } from '@/components/ProductScreenshots'
 
 export const metadata: Metadata = {
   title: 'Estate Planning — Coming Soon — LexyAlgo',
@@ -53,15 +54,8 @@ export default function EstatePlanningPage() {
         </div>
       </section>
 
-      {/* Screenshot placeholder */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-8 mb-20">
-        <div className="bg-[#7A5C1E] rounded-2xl aspect-[16/9] sm:aspect-[2.2/1] flex items-center justify-center shadow-2xl shadow-[#7A5C1E]/10">
-          <div className="text-center p-8">
-            <p className="text-white/80 text-lg font-medium font-[family-name:var(--font-space)]">Estate Planning Suite</p>
-            <p className="text-white/50 text-sm mt-2">Wills, trusts, powers of attorney — one intake, complete package</p>
-          </div>
-        </div>
-      </section>
+      {/* Product Screenshots */}
+      <ProductScreenshots color="#7A5C1E" lightBg="#FAF2DC" mockups={estatePlanningMockups} />
 
       {/* Features grid */}
       <section className="py-20">

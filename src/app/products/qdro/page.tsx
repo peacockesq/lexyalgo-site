@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { ProductScreenshots, qdroMockups } from '@/components/ProductScreenshots'
 
 export const metadata: Metadata = {
   title: 'QDRO Generator — LexyAlgo',
@@ -10,12 +11,12 @@ export default function QdroPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-gradient-to-br from-ember-light via-white to-white">
+      <section className="bg-gradient-to-br from-bronze-light via-white to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28">
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 mb-6">
-              <span className="inline-flex items-center gap-2 text-sm font-semibold text-ember uppercase tracking-wider">
-                <span className="w-2.5 h-2.5 rounded-full bg-ember" />
+              <span className="inline-flex items-center gap-2 text-sm font-semibold text-bronze uppercase tracking-wider">
+                <span className="w-2.5 h-2.5 rounded-full bg-bronze" />
                 QDRO Generator
               </span>
               <span className="bg-green-100 text-green-700 text-xs font-semibold px-3 py-1 rounded-full">
@@ -30,7 +31,7 @@ export default function QdroPage() {
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a href="https://doc.lexyalgo.com"
-                className="inline-flex items-center justify-center bg-ember text-white font-semibold px-8 py-4 rounded-2xl hover:bg-[#861B00] transition-all shadow-lg shadow-ember/20 hover:shadow-xl hover:shadow-ember/30 active:scale-[0.98]"
+                className="inline-flex items-center justify-center bg-bronze text-white font-semibold px-8 py-4 rounded-2xl hover:bg-[#6F4A2E] transition-all shadow-lg shadow-bronze/20 hover:shadow-xl hover:shadow-bronze/30 active:scale-[0.98]"
               >
                 Generate a QDRO
                 <svg className="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -45,10 +46,13 @@ export default function QdroPage() {
         </div>
       </section>
 
+      {/* Product Screenshots */}
+      <ProductScreenshots color="#8B5E3C" lightBg="#F5EDE5" mockups={qdroMockups} />
+
       {/* Simple pricing */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-4 mb-20">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
         <div className="max-w-xl mx-auto">
-          <div className="rounded-2xl bg-slate-950 text-white p-10 text-center ring-2 ring-ember">
+          <div className="rounded-2xl bg-slate-950 text-white p-10 text-center ring-2 ring-bronze">
             <span className="text-xs font-medium px-2.5 py-1 rounded-full bg-green-100 text-green-700">Available Now</span>
             <div className="mt-6">
               <span className="font-[family-name:var(--font-space)] text-5xl font-bold">$100</span>
@@ -65,14 +69,14 @@ export default function QdroPage() {
                 'Download as PDF',
               ].map((feature) => (
                 <li key={feature} className="flex gap-3 items-start">
-                  <svg className="w-5 h-5 flex-shrink-0 text-[#FFB4A3]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                  <svg className="w-5 h-5 flex-shrink-0 text-[#C9A07A]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
                   <span className="text-sm text-slate-300">{feature}</span>
                 </li>
               ))}
             </ul>
             <div className="mt-8">
               <a href="https://doc.lexyalgo.com"
-                className="block text-center font-semibold py-3 px-6 rounded-xl bg-ember text-white hover:bg-[#861B00] transition-all active:scale-[0.98]"
+                className="block text-center font-semibold py-3 px-6 rounded-xl bg-bronze text-white hover:bg-[#6F4A2E] transition-all active:scale-[0.98]"
               >
                 Get Started
               </a>
@@ -105,7 +109,7 @@ export default function QdroPage() {
       <section className="bg-slate-950 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <span className="text-sm font-semibold text-[#FFB4A3] uppercase tracking-wider">How it works</span>
+            <span className="text-sm font-semibold text-[#C9A07A] uppercase tracking-wider">How it works</span>
             <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-white mt-3">
               Three steps to your QDRO
             </h2>
@@ -117,7 +121,7 @@ export default function QdroPage() {
               { step: '3', title: 'Download your QDRO', desc: 'We generate the order with plan-specific language. Download the PDF and file it with your court.' },
             ].map((s) => (
               <div key={s.step} className="bg-slate-900/50 rounded-2xl border border-slate-800 p-8">
-                <span className="text-sm font-semibold uppercase tracking-wider text-[#FFB4A3]">Step {s.step}</span>
+                <span className="text-sm font-semibold uppercase tracking-wider text-[#C9A07A]">Step {s.step}</span>
                 <h3 className="font-[family-name:var(--font-space)] font-bold text-white mt-4 text-xl">{s.title}</h3>
                 <p className="mt-3 text-slate-400 text-sm leading-relaxed">{s.desc}</p>
               </div>
@@ -136,13 +140,13 @@ export default function QdroPage() {
       </section>
 
       {/* Bottom CTA */}
-      <section className="bg-peach py-16 sm:py-20 text-center">
+      <section className="bg-bronze-light py-16 sm:py-20 text-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900">Ready to divide the retirement plan?</h2>
           <p className="mt-4 text-slate-700 max-w-lg mx-auto">$100 per order. Answer the questions, get your QDRO.</p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <a href="https://doc.lexyalgo.com"
-              className="inline-flex items-center justify-center bg-ember text-white font-semibold px-8 py-4 rounded-2xl hover:bg-[#861B00] transition-all shadow-lg shadow-ember/20 active:scale-[0.98]"
+              className="inline-flex items-center justify-center bg-bronze text-white font-semibold px-8 py-4 rounded-2xl hover:bg-[#6F4A2E] transition-all shadow-lg shadow-bronze/20 active:scale-[0.98]"
             >
               Generate a QDRO
             </a>

@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { WaitlistForm } from '@/components/WaitlistForm'
+import { ProductScreenshots, assetDividerMockups, coParentMockups, calculatorMockups, qdroMockups } from '@/components/ProductScreenshots'
 
 const allProducts = [
   {
@@ -16,8 +17,8 @@ const allProducts = [
     name: 'QDRO Services',
     description: 'Qualified Domestic Relations Order preparation — 33 plan-specific templates, attorney-prepared, flat-fee pricing. Already serving clients.',
     href: '/products/qdro',
-    color: '#B02700',
-    lightBg: '#FFEDE8',
+    color: '#8B5E3C',
+    lightBg: '#F5EDE5',
     icon: '📋',
     badge: 'Live',
     live: true,
@@ -247,6 +248,116 @@ export default function HomePage() {
                 </div>
               </Link>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* See it in action — product screenshots showcase */}
+      <section className="py-20 sm:py-28 bg-slate-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-2xl mx-auto mb-12">
+            <span className="text-sm font-semibold text-teal uppercase tracking-wider">Product Previews</span>
+            <h2 className="font-[family-name:var(--font-space)] text-3xl sm:text-4xl font-bold text-slate-900 mt-3">
+              See it in action
+            </h2>
+            <p className="mt-4 text-lg text-slate-600">
+              We&rsquo;re building real tools, not slide decks. Here&rsquo;s what&rsquo;s taking shape.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* Asset Divider mockup */}
+            <div className="rounded-2xl overflow-hidden shadow-xl" style={{ background: 'linear-gradient(135deg, #B02700, #B02700cc)' }}>
+              <div className="flex items-center gap-1.5 px-3 py-2 bg-black/20">
+                <div className="w-2 h-2 rounded-full bg-white/20" />
+                <div className="w-2 h-2 rounded-full bg-white/20" />
+                <div className="w-2 h-2 rounded-full bg-white/20" />
+              </div>
+              <div className="p-3 min-h-[180px]">
+                <div className="text-[9px] text-white/50 mb-2 font-medium">Asset Divider</div>
+                <div className="flex items-center gap-1 mb-2">
+                  <span className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded-full text-[7px] font-medium bg-white/15 text-white/60">
+                    <span className="w-1 h-1 rounded-full bg-green-400" /> Fairness: 52/48
+                  </span>
+                </div>
+                {['Home — $425K', '401(k) — $180K', 'Savings — $35K', 'Vehicle — $28K'].map(item => (
+                  <div key={item} className="flex items-center gap-1.5 px-2 py-1 rounded bg-white/10 mb-1 text-[8px] text-white/60">
+                    <span className="text-white/25">⋮⋮</span> {item}
+                  </div>
+                ))}
+              </div>
+            </div>
+            {/* Calculator mockup */}
+            <div className="rounded-2xl overflow-hidden shadow-xl" style={{ background: 'linear-gradient(135deg, #1E5F6C, #1E5F6Ccc)' }}>
+              <div className="flex items-center gap-1.5 px-3 py-2 bg-black/20">
+                <div className="w-2 h-2 rounded-full bg-white/20" />
+                <div className="w-2 h-2 rounded-full bg-white/20" />
+                <div className="w-2 h-2 rounded-full bg-white/20" />
+              </div>
+              <div className="p-3 min-h-[180px]">
+                <div className="text-[9px] text-white/50 mb-2 font-medium">Support Calculator</div>
+                <div className="flex items-end gap-0.5 h-12 mb-2">
+                  {[35,55,45,70,50,65,85].map((h,i) => (
+                    <div key={i} className="flex-1 rounded-t" style={{ height: `${h}%`, backgroundColor: i%2===0 ? 'rgba(255,255,255,0.3)' : 'rgba(255,255,255,0.12)' }} />
+                  ))}
+                </div>
+                <div className="border-t border-white/10 pt-1.5 space-y-1">
+                  {['Monthly obligation', 'Combined income %', 'Deviation factors'].map(r => (
+                    <div key={r} className="flex items-center justify-between text-[8px] text-white/50 px-1">
+                      <span>{r}</span><div className="w-8 h-1.5 rounded bg-white/15" />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+            {/* Co-Parent calendar mockup */}
+            <div className="rounded-2xl overflow-hidden shadow-xl" style={{ background: 'linear-gradient(135deg, #2E6B4F, #2E6B4Fcc)' }}>
+              <div className="flex items-center gap-1.5 px-3 py-2 bg-black/20">
+                <div className="w-2 h-2 rounded-full bg-white/20" />
+                <div className="w-2 h-2 rounded-full bg-white/20" />
+                <div className="w-2 h-2 rounded-full bg-white/20" />
+              </div>
+              <div className="p-3 min-h-[180px]">
+                <div className="text-[9px] text-white/50 mb-2 font-medium">Co-Parent Calendar</div>
+                <div className="grid grid-cols-7 gap-0.5">
+                  {['S','M','T','W','T','F','S'].map((d,i) => (
+                    <div key={`h${i}`} className="text-[6px] text-white/25 text-center">{d}</div>
+                  ))}
+                  {Array.from({length:28},(_, i) => i+1).map(d => {
+                    const yours = [3,4,5,10,11,17,18,24,25].includes(d)
+                    const theirs = [12,13,19,20,26,27].includes(d)
+                    return (
+                      <div key={d} className="text-[6px] text-center py-0.5 rounded" style={{
+                        backgroundColor: yours ? 'rgba(255,255,255,0.25)' : theirs ? 'rgba(255,255,255,0.1)' : 'transparent',
+                        color: yours || theirs ? 'rgba(255,255,255,0.7)' : 'rgba(255,255,255,0.25)',
+                      }}>{d}</div>
+                    )
+                  })}
+                </div>
+              </div>
+            </div>
+            {/* QDRO mockup */}
+            <div className="rounded-2xl overflow-hidden shadow-xl" style={{ background: 'linear-gradient(135deg, #8B5E3C, #8B5E3Ccc)' }}>
+              <div className="flex items-center gap-1.5 px-3 py-2 bg-black/20">
+                <div className="w-2 h-2 rounded-full bg-white/20" />
+                <div className="w-2 h-2 rounded-full bg-white/20" />
+                <div className="w-2 h-2 rounded-full bg-white/20" />
+              </div>
+              <div className="p-3 min-h-[180px]">
+                <div className="text-[9px] text-white/50 mb-2 font-medium">QDRO Generator</div>
+                <div className="flex gap-1 mb-2">
+                  <span className="px-1.5 py-0.5 rounded-full text-[7px] bg-white/15 text-white/60">QDRO Ready</span>
+                  <span className="px-1.5 py-0.5 rounded-full text-[7px] bg-white/15 text-white/60">Plan-Specific</span>
+                </div>
+                <div className="space-y-1">
+                  {[100,85,95,70,100,90].map((w,i) => (
+                    <div key={i} className="h-1.5 rounded bg-white/12" style={{ width: `${w}%` }} />
+                  ))}
+                </div>
+                <div className="mt-2 inline-flex items-center gap-1 px-2 py-1 rounded text-[8px] font-medium bg-white/15 text-white/70">
+                  Download PDF →
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
