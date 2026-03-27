@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { WaitlistForm } from '@/components/WaitlistForm'
-import { ProductScreenshots, coParentMockups } from '@/components/ProductScreenshots'
+import { RealScreenshot } from '@/components/RealScreenshot'
 
 export const metadata: Metadata = {
   title: 'Co-Parent — Coming Soon — LexyAlgo',
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 }
 
 const features = [
-  { title: 'Shared Calendar', desc: 'Visual parenting time calendar showing both parents\' schedules in positive, distinct colours. See your time — not what you\'re "missing."' },
+  { title: 'Shared Calendar', desc: 'Visual parenting time calendar showing both parents\' schedules in positive, distinct colors. See your time — not what you\'re "missing."' },
   { title: 'Expense Tracking', desc: 'Log and split child-related expenses as "contributions to [child\'s name]" — not payments to your ex.' },
   { title: 'Communication Hub', desc: 'In-app messaging that keeps everything documented and civil. No more he-said-she-said.' },
   { title: 'Holiday Scheduling', desc: 'Alternating holiday planner with preset templates. Your Thanksgiving ✅, their Christmas ✅, your spring break ✅.' },
@@ -48,8 +48,14 @@ export default function CoParentPage() {
         </div>
       </section>
 
-      {/* Product Screenshots */}
-      <ProductScreenshots color="#2E6B4F" lightBg="#E6F5EC" mockups={coParentMockups} />
+      {/* Product Screenshot */}
+      <RealScreenshot
+        src="/screenshots/coparent-app.png"
+        alt="Co-Parent App — login and sidebar navigation at kid.lexyalgo.com"
+        accentColor="#2E6B4F"
+        label="Product Preview"
+        url="kid.lexyalgo.com"
+      />
 
       {/* Positive framing callout */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
@@ -59,7 +65,7 @@ export default function CoParentPage() {
             <div>
               <h3 className="font-[family-name:var(--font-space)] font-bold text-slate-900 text-lg">Why &ldquo;parenting time,&rdquo; not &ldquo;custody&rdquo;</h3>
               <p className="mt-2 text-slate-600 leading-relaxed">
-                Research shows that framing matters. We never use &ldquo;losing time with children&rdquo; — because both parents gain parenting time. The calendar shows two positive, coloured schedules. Expense sharing is framed as &ldquo;contributions to your child&rdquo; — not payments to an ex. This isn&rsquo;t just feel-good language; it measurably reduces conflict.
+                Research shows that framing matters. We never use &ldquo;losing time with children&rdquo; — because both parents gain parenting time. The calendar shows two positive, color-coded schedules. Expense sharing is framed as &ldquo;contributions to your child&rdquo; — not payments to an ex. This isn&rsquo;t just feel-good language; it measurably reduces conflict.
               </p>
             </div>
           </div>

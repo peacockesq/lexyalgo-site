@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { WaitlistForm } from '@/components/WaitlistForm'
-import { ProductScreenshots, divorceMockups } from '@/components/ProductScreenshots'
+import { RealScreenshot } from '@/components/RealScreenshot'
 
 export const metadata: Metadata = {
   title: 'Divorce Forms — Coming Soon — LexyAlgo',
@@ -54,8 +54,14 @@ export default function DivorcePage() {
         </div>
       </section>
 
-      {/* Product Screenshots */}
-      <ProductScreenshots color="#2B4580" lightBg="#E8EEF8" mockups={divorceMockups} />
+      {/* Product Screenshot */}
+      <RealScreenshot
+        src="/screenshots/v2-app-homepage.png"
+        alt="LexyAlgo V2 Divorce App — form wizard and document generation"
+        accentColor="#2B4580"
+        label="Product Preview"
+        url="app.lexyalgo.com"
+      />
 
       {/* Features grid */}
       <section className="py-20">

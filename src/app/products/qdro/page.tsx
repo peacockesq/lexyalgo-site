@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import { ProductScreenshots, qdroMockups } from '@/components/ProductScreenshots'
 
 export const metadata: Metadata = {
   title: 'QDRO Generator — LexyAlgo',
@@ -46,8 +45,21 @@ export default function QdroPage() {
         </div>
       </section>
 
-      {/* Product Screenshots */}
-      <ProductScreenshots color="#8B5E3C" lightBg="#F5EDE5" mockups={qdroMockups} />
+      {/* No screenshot — QDRO generator lives at doc.lexyalgo.com (Docassemble) */}
+      <section className="py-10 sm:py-14">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="rounded-2xl bg-[#F5EDE5] border border-[#8B5E3C]/15 p-8 text-center">
+            <p className="text-sm font-semibold text-[#8B5E3C] uppercase tracking-wider mb-2">Available Now</p>
+            <p className="text-slate-700 leading-relaxed">
+              The QDRO generator is live at{' '}
+              <a href="https://doc.lexyalgo.com" className="font-semibold text-[#8B5E3C] underline underline-offset-2 hover:text-[#6F4A2E]">
+                doc.lexyalgo.com
+              </a>
+              . Start your order there.
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Simple pricing */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">

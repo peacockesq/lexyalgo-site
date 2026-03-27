@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { WaitlistForm } from '@/components/WaitlistForm'
-import { ProductScreenshots, estatePlanningMockups } from '@/components/ProductScreenshots'
 
 export const metadata: Metadata = {
   title: 'Estate Planning — Coming Soon — LexyAlgo',
@@ -13,7 +12,7 @@ const features = [
   { title: 'Revocable Living Trust', desc: 'Avoid probate with a properly structured living trust. Fund it during your lifetime, and your assets transfer seamlessly.' },
   { title: 'Durable Power of Attorney', desc: 'Designate someone to handle financial decisions if you can\'t. Effective immediately or springing — your choice.' },
   { title: 'Healthcare Proxy / Advance Directive', desc: 'Make your medical wishes known before they\'re needed. Appoint a healthcare agent and document your preferences.' },
-  { title: 'State-Specific Requirements', desc: 'Every state has different rules for witnesses, notarisation, and execution. We build those requirements into the document generation.' },
+  { title: 'State-Specific Requirements', desc: 'Every state has different rules for witnesses, notarization, and execution. We build those requirements into the document generation.' },
   { title: 'One Intake, Complete Package', desc: 'Answer questions once. Your will, trust, POA, and healthcare directive all pull from the same information — no re-entering data.' },
 ]
 
@@ -54,8 +53,7 @@ export default function EstatePlanningPage() {
         </div>
       </section>
 
-      {/* Product Screenshots */}
-      <ProductScreenshots color="#7A5C1E" lightBg="#FAF2DC" mockups={estatePlanningMockups} />
+      {/* No screenshot yet — Coming Soon */}
 
       {/* Features grid */}
       <section className="py-20">

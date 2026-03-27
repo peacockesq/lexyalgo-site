@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { WaitlistForm } from '@/components/WaitlistForm'
-import { ProductScreenshots, assetDividerMockups } from '@/components/ProductScreenshots'
+import { RealScreenshot } from '@/components/RealScreenshot'
 
 export const metadata: Metadata = {
   title: 'Asset Divider — Coming Soon — LexyAlgo',
@@ -18,7 +18,7 @@ const features = [
 ]
 
 const behavioralHighlights = [
-  { title: 'Hedonic Editing', desc: 'Losses are bundled into one net settlement figure. Gains are itemised with individual checkmarks. You see what you\'re receiving, not what you\'re losing.', icon: '📋' },
+  { title: 'Hedonic Editing', desc: 'Losses are bundled into one net settlement figure. Gains are itemized with individual checkmarks. You see what you\'re receiving, not what you\'re losing.', icon: '📋' },
   { title: '"How to Explain This" Cards', desc: 'Every scenario includes a plain-English script: "I traded X for Y, which is worth more because Z." No competitor does this.', icon: '💬' },
   { title: 'Future Value Timelines', desc: 'Don\'t just see present value. See animated growth curves showing what retirement assets become at 55, 62, and 67.', icon: '📈' },
 ]
@@ -54,8 +54,14 @@ export default function AssetDividerPage() {
         </div>
       </section>
 
-      {/* Product Screenshots */}
-      <ProductScreenshots color="#B02700" lightBg="#FFEDE8" mockups={assetDividerMockups} />
+      {/* Product Screenshot */}
+      <RealScreenshot
+        src="/screenshots/v2-app-homepage.png"
+        alt="LexyAlgo V2 App — asset division workspace"
+        accentColor="#B02700"
+        label="Product Preview"
+        url="app.lexyalgo.com"
+      />
 
       {/* Features grid */}
       <section className="py-20">
