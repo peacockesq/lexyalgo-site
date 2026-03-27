@@ -55,13 +55,13 @@ const allProducts = [
   },
   {
     name: 'Estate Planning',
-    description: 'Guided estate planning document generation. Wills, trusts, powers of attorney, healthcare directives — all from one structured intake.',
+    description: 'Generate your Living Trust, Will, Power of Attorney, and Healthcare Directive — free during beta.',
     href: '/products/estate-planning',
     color: '#7A5C1E',
     lightBg: '#FAF2DC',
     icon: '🛡️',
-    badge: 'Coming Soon',
-    live: false,
+    badge: 'Free Beta',
+    live: true,
   },
   {
     name: 'LexyFiling',

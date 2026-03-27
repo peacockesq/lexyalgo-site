@@ -9,7 +9,7 @@ const products = [
   { name: 'Co-Parent', href: '/products/co-parent', color: '#2E6B4F', badge: 'Soon' },
   { name: 'Support Calculator', href: '/calculator', color: '#1E5F6C', badge: 'Live' },
   { name: 'QDRO Services', href: '/products/qdro', color: '#8B5E3C', badge: 'Live' },
-  { name: 'Estate Planning', href: '/products/estate-planning', color: '#7A5C1E', badge: 'Soon' },
+  { name: 'Estate Planning', href: '/products/estate-planning', color: '#7A5C1E', badge: 'Free Beta' },
   { name: 'LexyFiling', href: '/products/filing', color: '#4B3D7A', badge: 'Soon' },
 ]
 
