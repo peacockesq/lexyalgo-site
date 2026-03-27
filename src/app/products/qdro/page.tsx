@@ -2,57 +2,9 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'QDRO Services — Live — LexyAlgo',
-  description: 'Qualified Domestic Relations Order preparation for retirement plan division in divorce. 33 plan-specific templates. Attorney-prepared.',
+  title: 'QDRO Generator — LexyAlgo',
+  description: 'Generate a Qualified Domestic Relations Order (QDRO) for retirement plan division in divorce. Starting at $100 per order. Supports nearly one million plans nationwide.',
 }
-
-const pricingTiers = [
-  {
-    name: 'Legal Pro Review',
-    price: '$300',
-    description: 'For attorneys who draft their own QDROs — we review for plan compliance, TPA formatting requirements, and common rejection issues.',
-    features: [
-      'Plan compliance review',
-      'TPA formatting check',
-      'Rejection risk assessment',
-      'Written feedback with corrections',
-    ],
-  },
-  {
-    name: 'Flat Rate QDRO',
-    price: '$900',
-    description: 'Full QDRO preparation for most private-sector retirement plans. One flat fee — no hourly billing, no surprises.',
-    features: [
-      'Full QDRO preparation',
-      'Plan-specific template (not generic)',
-      'TPA-formatted for your plan administrator',
-      'Pre-approval submission where accepted',
-      'Revisions until approved',
-    ],
-    highlight: true,
-  },
-  {
-    name: 'Federal / Military QDRO',
-    price: '$1,200',
-    description: 'FERS, CSRS, military SBP — these have unique rules, specific agencies, and complex requirements that most attorneys get wrong.',
-    features: [
-      'FERS / CSRS retirement division',
-      'Military SBP orders',
-      'OPM / DFAS formatting requirements',
-      'Agency-specific compliance',
-      'Revisions until approved',
-    ],
-  },
-]
-
-const features = [
-  { title: '33 Plan-Specific Templates', desc: 'Not one-size-fits-all. Each template is tailored to the specific plan type — defined benefit, defined contribution, deferred comp, federal, and military.' },
-  { title: 'All Plan Types Covered', desc: '401(k), pension, 403(b), 457, FERS, CSRS, military — if it\'s a retirement plan that needs dividing in divorce, we handle it.' },
-  { title: 'TPA-Specific Formatting', desc: 'Fidelity, Vanguard, TIAA, Empower, and dozens more. Each TPA has formatting preferences — we know them and write to them.' },
-  { title: 'Pre-Approval Submission', desc: 'Where plan administrators accept pre-approval review, we submit directly. Catch issues before you\'re in front of a judge.' },
-  { title: 'Attorney-Prepared', desc: 'Every QDRO is prepared by Willie Peacock — licensed in 8 states, focused exclusively on retirement division in divorce.' },
-  { title: 'Revisions Until Approved', desc: 'If the plan administrator rejects the order, we revise and resubmit. The flat fee covers revisions until the QDRO is approved.' },
-]
 
 export default function QdroPage() {
   return (
@@ -64,90 +16,84 @@ export default function QdroPage() {
             <div className="inline-flex items-center gap-2 mb-6">
               <span className="inline-flex items-center gap-2 text-sm font-semibold text-ember uppercase tracking-wider">
                 <span className="w-2.5 h-2.5 rounded-full bg-ember" />
-                QDRO Services
+                QDRO Generator
               </span>
               <span className="bg-green-100 text-green-700 text-xs font-semibold px-3 py-1 rounded-full">
-                Live — Accepting Clients
+                Live
               </span>
             </div>
             <h1 className="font-[family-name:var(--font-space)] text-4xl sm:text-5xl font-bold text-slate-900 leading-tight">
-              Retirement division, done right the first time
+              Generate your QDRO. $100 per order.
             </h1>
             <p className="mt-6 text-lg text-slate-600 leading-relaxed">
-              Qualified Domestic Relations Order preparation for retirement plan division in divorce. 33 plan-specific templates covering defined benefit, defined contribution, deferred comp, federal, and military plans. Attorney-prepared, TPA-formatted, revisions until approved.
+              A Qualified Domestic Relations Order divides retirement accounts in divorce. Our generator supports nearly one million plans across the country. Answer a few questions, and we generate the order for your plan.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a href="https://doc.lexyalgo.com"
                 className="inline-flex items-center justify-center bg-ember text-white font-semibold px-8 py-4 rounded-2xl hover:bg-[#861B00] transition-all shadow-lg shadow-ember/20 hover:shadow-xl hover:shadow-ember/30 active:scale-[0.98]"
               >
-                Get Started
+                Generate a QDRO
                 <svg className="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </a>
               <Link href="/contact"
                 className="inline-flex items-center justify-center border-2 border-slate-200 text-slate-700 font-semibold px-8 py-4 rounded-2xl hover:border-slate-300 hover:bg-slate-50 transition-all"
               >
-                Contact Us
+                Questions? Contact Us
               </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Pricing */}
+      {/* Simple pricing */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 -mt-4 mb-20">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {pricingTiers.map((tier) => (
-            <div key={tier.name}
-              className={`rounded-2xl p-8 ${
-                tier.highlight
-                  ? 'bg-slate-950 text-white ring-2 ring-ember'
-                  : 'bg-white border border-slate-200'
-              }`}
-            >
-              <div className="flex items-center justify-between">
-                <h3 className="font-[family-name:var(--font-space)] font-bold text-xl">{tier.name}</h3>
-                <span className="text-xs font-medium px-2.5 py-1 rounded-full bg-green-100 text-green-700">Available</span>
-              </div>
-              <div className="mt-4">
-                <span className="font-[family-name:var(--font-space)] text-4xl font-bold">{tier.price}</span>
-                <span className={`ml-1 text-sm ${tier.highlight ? 'text-slate-400' : 'text-slate-500'}`}>/flat fee</span>
-              </div>
-              <p className={`mt-3 text-sm ${tier.highlight ? 'text-slate-300' : 'text-slate-600'}`}>{tier.description}</p>
-              <ul className="mt-6 space-y-3">
-                {tier.features.map((feature) => (
-                  <li key={feature} className="flex gap-3 items-start">
-                    <svg className={`w-5 h-5 flex-shrink-0 ${tier.highlight ? 'text-[#FFB4A3]' : 'text-ember'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-                    <span className={`text-sm ${tier.highlight ? 'text-slate-300' : 'text-slate-600'}`}>{feature}</span>
-                  </li>
-                ))}
-              </ul>
-              <div className="mt-8">
-                <a href="https://doc.lexyalgo.com"
-                  className={`block text-center font-semibold py-3 px-6 rounded-xl transition-all active:scale-[0.98] ${
-                    tier.highlight
-                      ? 'bg-ember text-white hover:bg-[#861B00]'
-                      : 'border-2 border-slate-200 text-slate-700 hover:border-slate-300 hover:bg-slate-50'
-                  }`}
-                >
-                  Get Started
-                </a>
-              </div>
+        <div className="max-w-xl mx-auto">
+          <div className="rounded-2xl bg-slate-950 text-white p-10 text-center ring-2 ring-ember">
+            <span className="text-xs font-medium px-2.5 py-1 rounded-full bg-green-100 text-green-700">Available Now</span>
+            <div className="mt-6">
+              <span className="font-[family-name:var(--font-space)] text-5xl font-bold">$100</span>
+              <span className="ml-1 text-sm text-slate-400">per order</span>
             </div>
-          ))}
+            <p className="mt-4 text-slate-300 text-sm">
+              One QDRO. One flat price. Answer the intake questions, we generate the order for your retirement plan.
+            </p>
+            <ul className="mt-6 space-y-3 text-left max-w-xs mx-auto">
+              {[
+                'Supports nearly 1 million plans',
+                'Defined benefit & defined contribution',
+                'Answer questions, get your order',
+                'Download as PDF',
+              ].map((feature) => (
+                <li key={feature} className="flex gap-3 items-start">
+                  <svg className="w-5 h-5 flex-shrink-0 text-[#FFB4A3]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                  <span className="text-sm text-slate-300">{feature}</span>
+                </li>
+              ))}
+            </ul>
+            <div className="mt-8">
+              <a href="https://doc.lexyalgo.com"
+                className="block text-center font-semibold py-3 px-6 rounded-xl bg-ember text-white hover:bg-[#861B00] transition-all active:scale-[0.98]"
+              >
+                Get Started
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* Features grid */}
+      {/* What is a QDRO */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900 text-center mb-16">Why LexyAlgo QDROs</h2>
+          <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900 text-center mb-16">What is a QDRO?</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {features.map((f) => (
+            {[
+              { title: 'Divides Retirement in Divorce', desc: 'A QDRO is a court order that tells a retirement plan how to divide benefits between divorcing spouses. Without one, the plan won\'t release funds.', icon: '⚖️' },
+              { title: 'Required for Most Plans', desc: '401(k)s, pensions, 403(b)s, 457 plans — if a retirement account was earned during the marriage, you likely need a QDRO to divide it.', icon: '📋' },
+              { title: 'Plan-Specific Language', desc: 'Every plan has its own rules and required language. A generic order often gets rejected. Our generator uses plan-specific formatting.', icon: '✅' },
+            ].map((f) => (
               <div key={f.title} className="bg-white rounded-2xl border border-slate-100 p-6 hover:shadow-md transition-shadow">
-                <div className="w-10 h-10 rounded-xl bg-ember-light flex items-center justify-center mb-4">
-                  <div className="w-3 h-3 rounded-full bg-ember" />
-                </div>
-                <h3 className="font-[family-name:var(--font-space)] font-bold text-slate-900">{f.title}</h3>
+                <span className="text-3xl">{f.icon}</span>
+                <h3 className="font-[family-name:var(--font-space)] font-bold text-slate-900 mt-4">{f.title}</h3>
                 <p className="mt-2 text-sm text-slate-600 leading-relaxed">{f.desc}</p>
               </div>
             ))}
@@ -155,31 +101,37 @@ export default function QdroPage() {
         </div>
       </section>
 
-      {/* Trust / Attorney section */}
+      {/* How it works */}
       <section className="bg-slate-950 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <span className="text-sm font-semibold text-[#FFB4A3] uppercase tracking-wider">Attorney-Prepared</span>
+            <span className="text-sm font-semibold text-[#FFB4A3] uppercase tracking-wider">How it works</span>
             <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-white mt-3">
-              Not a form generator — a QDRO practice
+              Three steps to your QDRO
             </h2>
-            <p className="mt-4 text-slate-400">
-              Every QDRO is prepared by an attorney licensed in 8 states who has focused exclusively on retirement division in divorce. This isn&rsquo;t a sideline — it&rsquo;s the entire practice.
-            </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { title: '8-State Bar Admission', desc: 'Licensed in CA, NY, NJ, KS, MO, IA, ND, and CT. QDROs are federal instruments — state admission enables nationwide service.', icon: '⚖️' },
-              { title: '33 Plan-Specific Templates', desc: 'Built from years of TPA feedback, plan document review, and rejection analysis. Every template reflects what actually gets approved.', icon: '📋' },
-              { title: 'Revisions Until Approved', desc: 'If a plan administrator sends it back, we fix it and resubmit. The flat fee covers the entire process — no hourly billing for revisions.', icon: '🔄' },
-            ].map((h) => (
-              <div key={h.title} className="bg-slate-900/50 rounded-2xl border border-slate-800 p-8">
-                <span className="text-3xl">{h.icon}</span>
-                <h3 className="font-[family-name:var(--font-space)] font-bold text-white mt-4">{h.title}</h3>
-                <p className="mt-3 text-slate-400 text-sm leading-relaxed">{h.desc}</p>
+              { step: '1', title: 'Tell us about the plan', desc: 'Enter the plan name, type, and basic details. Our system covers nearly one million retirement plans nationwide.' },
+              { step: '2', title: 'Answer the intake questions', desc: 'We\'ll ask about the marriage dates, division method, and any special provisions your divorce decree requires.' },
+              { step: '3', title: 'Download your QDRO', desc: 'We generate the order with plan-specific language. Download the PDF and file it with your court.' },
+            ].map((s) => (
+              <div key={s.step} className="bg-slate-900/50 rounded-2xl border border-slate-800 p-8">
+                <span className="text-sm font-semibold uppercase tracking-wider text-[#FFB4A3]">Step {s.step}</span>
+                <h3 className="font-[family-name:var(--font-space)] font-bold text-white mt-4 text-xl">{s.title}</h3>
+                <p className="mt-3 text-slate-400 text-sm leading-relaxed">{s.desc}</p>
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Disclaimer */}
+      <section className="py-12 bg-slate-50">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-sm text-slate-500">
+            LexyAlgo is a document preparation service, not a law firm. Generated QDROs are based on the information you provide and should be reviewed by a licensed attorney before filing. We do not provide legal advice. Results may vary depending on your plan&apos;s specific requirements.
+          </p>
         </div>
       </section>
 
@@ -187,12 +139,12 @@ export default function QdroPage() {
       <section className="bg-peach py-16 sm:py-20 text-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900">Ready to divide the retirement plan?</h2>
-          <p className="mt-4 text-slate-700 max-w-lg mx-auto">Get started today. Flat-fee pricing, attorney-prepared, revisions until approved.</p>
+          <p className="mt-4 text-slate-700 max-w-lg mx-auto">$100 per order. Answer the questions, get your QDRO.</p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <a href="https://doc.lexyalgo.com"
               className="inline-flex items-center justify-center bg-ember text-white font-semibold px-8 py-4 rounded-2xl hover:bg-[#861B00] transition-all shadow-lg shadow-ember/20 active:scale-[0.98]"
             >
-              Get Started
+              Generate a QDRO
             </a>
             <Link href="/contact"
               className="inline-flex items-center justify-center border-2 border-slate-300 text-slate-700 font-semibold px-8 py-4 rounded-2xl hover:border-slate-400 hover:bg-white transition-all"
