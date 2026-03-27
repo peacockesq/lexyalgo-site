@@ -4,6 +4,7 @@ import Script from 'next/script'
 import './globals.css'
 import { Navbar } from '@/components/Navbar'
 import { Footer } from '@/components/Footer'
+import GoogleAnalytics from '@/components/GoogleAnalytics'
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
@@ -61,6 +62,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             style={{ display: 'none', visibility: 'hidden' }}
           />
         </noscript>
+        <GoogleAnalytics />
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />

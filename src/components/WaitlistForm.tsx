@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { trackWaitlistSignup } from '@/lib/analytics'
 
 interface WaitlistFormProps {
   product: string
@@ -48,11 +49,13 @@ export function WaitlistForm({ product, accentColor = '#B02700', accentHover = '
         throw new Error(data.errorMessage || 'Signup failed')
       }
       setStatus('success')
+      trackWaitlistSignup(product)
     } catch (err) {
       // If CORS blocks it (likely from static site), still show success
       // In production, this would go through an API route or VBOUT's form embed
       console.error('Waitlist signup error:', err)
       setStatus('success')
+      trackWaitlistSignup(product)
     }
   }
 
