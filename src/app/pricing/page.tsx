@@ -140,6 +140,87 @@ export default function PricingPage() {
         </div>
       </section>
 
+      {/* QDRO pricing */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
+        <div className="text-center mb-12">
+          <div className="inline-flex items-center gap-2 bg-green-50 px-4 py-1.5 rounded-full mb-4">
+            <span className="w-2 h-2 rounded-full bg-green-500" />
+            <span className="text-sm font-semibold text-green-700">Available Now</span>
+          </div>
+          <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900">
+            QDRO Services
+          </h2>
+          <p className="mt-3 text-lg text-slate-600 max-w-2xl mx-auto">
+            Attorney-prepared Qualified Domestic Relations Orders. Flat-fee pricing, 33 plan-specific templates, revisions until approved.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {[
+            {
+              name: 'Legal Pro Review',
+              price: '$300',
+              desc: 'For attorneys who draft their own QDROs — we review for plan compliance and TPA formatting.',
+              features: ['Plan compliance review', 'TPA formatting check', 'Written feedback with corrections'],
+              highlight: false,
+            },
+            {
+              name: 'Flat Rate QDRO',
+              price: '$900',
+              desc: 'Full QDRO preparation for most private-sector retirement plans. One flat fee.',
+              features: ['Full QDRO preparation', 'Plan-specific template', 'TPA-formatted', 'Pre-approval submission', 'Revisions until approved'],
+              highlight: true,
+            },
+            {
+              name: 'Federal / Military',
+              price: '$1,200',
+              desc: 'FERS, CSRS, military SBP — complex requirements handled correctly.',
+              features: ['FERS / CSRS division', 'Military SBP orders', 'OPM / DFAS formatting', 'Revisions until approved'],
+              highlight: false,
+            },
+          ].map((tier) => (
+            <div key={tier.name}
+              className={`rounded-2xl p-8 ${
+                tier.highlight
+                  ? 'bg-slate-950 text-white ring-2 ring-ember'
+                  : 'bg-white border border-slate-200'
+              }`}
+            >
+              <div className="flex items-center justify-between">
+                <h3 className="font-[family-name:var(--font-space)] font-bold text-xl">{tier.name}</h3>
+                <span className="text-xs font-medium px-2.5 py-1 rounded-full bg-green-100 text-green-700">Available</span>
+              </div>
+              <div className="mt-4">
+                <span className="font-[family-name:var(--font-space)] text-4xl font-bold">{tier.price}</span>
+                <span className={`ml-1 text-sm ${tier.highlight ? 'text-slate-400' : 'text-slate-500'}`}>/flat fee</span>
+              </div>
+              <p className={`mt-3 text-sm ${tier.highlight ? 'text-slate-300' : 'text-slate-600'}`}>{tier.desc}</p>
+              <ul className="mt-6 space-y-3">
+                {tier.features.map((feature) => (
+                  <li key={feature} className="flex gap-3 items-start">
+                    <svg className={`w-5 h-5 flex-shrink-0 ${tier.highlight ? 'text-[#FFB4A3]' : 'text-ember'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                    <span className={`text-sm ${tier.highlight ? 'text-slate-300' : 'text-slate-600'}`}>{feature}</span>
+                  </li>
+                ))}
+              </ul>
+              <div className="mt-8">
+                <a href="https://doc.lexyalgo.com"
+                  className={`block text-center font-semibold py-3 px-6 rounded-xl transition-all active:scale-[0.98] ${
+                    tier.highlight
+                      ? 'bg-ember text-white hover:bg-[#861B00]'
+                      : 'border-2 border-slate-200 text-slate-700 hover:border-slate-300 hover:bg-slate-50'
+                  }`}
+                >
+                  Get Started
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
+        <p className="text-center text-sm text-slate-500 mt-6">
+          <Link href="/products/qdro" className="text-ember hover:underline">Learn more about QDRO Services →</Link>
+        </p>
+      </section>
+
       {/* Waitlist section */}
       <section id="waitlist" className="bg-peach py-16 sm:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">

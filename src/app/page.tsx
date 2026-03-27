@@ -1,16 +1,37 @@
 import Link from 'next/link'
 import { WaitlistForm } from '@/components/WaitlistForm'
 
-const liveProduct = {
-  name: 'Support Calculator',
-  description: 'Free child support and retirement division calculators — state-specific, future-value aware, plain-English explanations alongside every formula.',
-  href: '/calculator',
-  color: '#1E5F6C',
-  lightBg: '#E4F3F6',
-  icon: '📊',
-}
-
-const comingSoon = [
+const allProducts = [
+  {
+    name: 'Divorce Forms',
+    description: 'Full uncontested divorce document generation. One guided intake → court-form-driven documents for your state. CT and CA launching first.',
+    href: '/products/divorce',
+    color: '#2B4580',
+    lightBg: '#E8EEF8',
+    icon: '📄',
+    badge: 'Coming Soon',
+    live: false,
+  },
+  {
+    name: 'QDRO Services',
+    description: 'Qualified Domestic Relations Order preparation — 33 plan-specific templates, attorney-prepared, flat-fee pricing. Already serving clients.',
+    href: '/products/qdro',
+    color: '#B02700',
+    lightBg: '#FFEDE8',
+    icon: '📋',
+    badge: 'Live',
+    live: true,
+  },
+  {
+    name: 'Support Calculator',
+    description: 'Free child support and retirement division calculators — state-specific, future-value aware, plain-English explanations alongside every formula.',
+    href: '/calculator',
+    color: '#1E5F6C',
+    lightBg: '#E4F3F6',
+    icon: '📊',
+    badge: 'Live',
+    live: true,
+  },
   {
     name: 'Asset Divider',
     description: 'Visual drag-and-drop property division with fairness scoring. Every trade-off framed as a gain, not a loss.',
@@ -18,6 +39,8 @@ const comingSoon = [
     color: '#B02700',
     lightBg: '#FFEDE8',
     icon: '⚖️',
+    badge: 'Coming Soon',
+    live: false,
   },
   {
     name: 'Co-Parent',
@@ -26,14 +49,18 @@ const comingSoon = [
     color: '#2E6B4F',
     lightBg: '#E6F5EC',
     icon: '📅',
+    badge: 'Coming Soon',
+    live: false,
   },
   {
-    name: 'Document Generation',
-    description: 'Court-form-driven divorce documents — property settlements, financial declarations, parenting plans — generated from your answers.',
-    href: '/products/asset-divider',
-    color: '#B02700',
-    lightBg: '#FFEDE8',
-    icon: '📄',
+    name: 'Estate Planning',
+    description: 'Guided estate planning document generation. Wills, trusts, powers of attorney, healthcare directives — all from one structured intake.',
+    href: '/products/estate-planning',
+    color: '#7A5C1E',
+    lightBg: '#FAF2DC',
+    icon: '🛡️',
+    badge: 'Coming Soon',
+    live: false,
   },
   {
     name: 'LexyFiling',
@@ -42,6 +69,8 @@ const comingSoon = [
     color: '#4B3D7A',
     lightBg: '#EDE9F8',
     icon: '📁',
+    badge: 'Coming Soon',
+    live: false,
   },
 ]
 
@@ -85,7 +114,7 @@ export default function HomePage() {
                 Try the Calculators — Free
                 <svg className="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>
-              <Link href="/products/asset-divider"
+              <Link href="/products/divorce"
                 className="inline-flex items-center justify-center border-2 border-slate-200 text-slate-700 font-semibold px-8 py-4 rounded-2xl hover:border-slate-300 hover:bg-slate-50 transition-all"
               >
                 See What&rsquo;s Coming
@@ -180,21 +209,21 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Coming soon products */}
+      {/* All products */}
       <section className="py-20 sm:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <span className="text-sm font-semibold text-primary-container uppercase tracking-wider">Coming Soon</span>
+            <span className="text-sm font-semibold text-primary-container uppercase tracking-wider">The Platform</span>
             <h2 className="font-[family-name:var(--font-space)] text-3xl sm:text-4xl font-bold text-slate-900 mt-3">
-              The full divorce toolkit
+              The full divorce &amp; legal toolkit
             </h2>
             <p className="mt-4 text-lg text-slate-600">
-              Calculators are just the start. We&rsquo;re building a complete platform — from first inventory to final filing.
+              Calculators and QDROs are live today. We&rsquo;re building a complete platform — from first document to final filing.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {comingSoon.map((product) => (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {allProducts.map((product) => (
               <Link key={product.name} href={product.href}
                 className="group relative bg-white rounded-2xl border border-slate-100 p-8 hover:shadow-lg hover:border-slate-200 transition-all duration-300"
               >
@@ -202,16 +231,18 @@ export default function HomePage() {
                   <div className="w-12 h-12 rounded-xl flex items-center justify-center text-2xl" style={{ backgroundColor: product.lightBg }}>
                     {product.icon}
                   </div>
-                  <span className="text-xs font-medium px-3 py-1 rounded-full bg-slate-100 text-slate-600">
-                    Coming Soon
+                  <span className={`text-xs font-medium px-3 py-1 rounded-full ${
+                    product.live ? 'bg-green-100 text-green-700' : 'bg-violet-100 text-violet-700'
+                  }`}>
+                    {product.badge}
                   </span>
                 </div>
                 <h3 className="font-[family-name:var(--font-space)] text-xl font-bold text-slate-900 mt-5 group-hover:text-slate-700 transition-colors">
                   {product.name}
                 </h3>
-                <p className="mt-3 text-slate-600 leading-relaxed">{product.description}</p>
+                <p className="mt-3 text-slate-600 leading-relaxed text-sm">{product.description}</p>
                 <div className="mt-5 flex items-center text-sm font-semibold transition-colors" style={{ color: product.color }}>
-                  Join waitlist
+                  {product.live ? 'Get started' : 'Join waitlist'}
                   <svg className="ml-1 w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
                 </div>
               </Link>

@@ -2,9 +2,12 @@ import Link from 'next/link'
 import { WaitlistForm } from './WaitlistForm'
 
 const productLinks = [
+  { name: 'Divorce Forms', href: '/products/divorce' },
+  { name: 'QDRO Services', href: '/products/qdro', live: true },
   { name: 'Support Calculator', href: '/calculator', live: true },
   { name: 'Asset Divider', href: '/products/asset-divider' },
   { name: 'Co-Parent', href: '/products/co-parent' },
+  { name: 'Estate Planning', href: '/products/estate-planning' },
   { name: 'LexyFiling', href: '/products/filing' },
 ]
 
