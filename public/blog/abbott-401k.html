@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abbott 401(k) QDRO Guide | LexyAlgo</title>
+  <meta name="description" content="Abbott 401(k) QDRO guide for the Stock Retirement Plan, covering SRP vs. ARP, Roth and pre-tax balances, gains/losses, and plan review steps." />
+  <link rel="canonical" href="https://www.lexyalgo.com/deferred-compensation/abbott-401k" />
+  <meta name="author" content="William Peacock" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.linkedin.com/in/williampeacock#person",
+        "name": "William Peacock",
+        "url": "https://www.linkedin.com/in/williampeacock"
+      },
+      {
+        "@type": "Article",
+        "headline": "Abbott 401(k) QDRO Guide",
+        "description": "A practical guide to dividing the Abbott Laboratories Stock Retirement Plan (SRP) in divorce, with drafting notes on plan identification, Roth and pre-tax balances, gains and losses, and administrator review.",
+        "author": {
+          "@id": "https://www.linkedin.com/in/williampeacock#person"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "LexyAlgo"
+        },
+        "mainEntityOfPage": "https://www.lexyalgo.com/deferred-compensation/abbott-401k"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Does the Abbott Laboratories 401(k) plan usually require a QDRO for divorce division?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. A divorce decree by itself is usually not enough to divide an employer 401(k) plan. The Abbott Stock Retirement Plan generally requires a domestic relations order that satisfies ERISA, the Internal Revenue Code, and the plan's qualification procedures before the alternate payee can receive benefits."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between Abbott's SRP and ARP?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The SRP is Abbott's Stock Retirement Plan, a 401(k) defined contribution plan with an individual participant account. The ARP is the Abbott Annuity Retirement Plan, a defined benefit pension. A QDRO must identify the correct plan because the drafting approach and benefit structure differ."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should an Abbott SRP QDRO address Roth and pre-tax money separately?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. If the participant account includes both pre-tax and Roth sources, the order should clearly state whether the alternate payee shares each source pro rata or by another specified method. Clear source treatment helps avoid disputes during implementation and later distribution."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should gains and losses be included in the division formula?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Usually yes. In a defined contribution plan like the Abbott SRP, account values move with market performance. The order should say whether the alternate payee's share is adjusted for investment gains and losses from the valuation date through the date of segregation or distribution."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Was an official public model QDRO found for the Abbott SRP?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No official public model QDRO for the Abbott Stock Retirement Plan was identified in the research used for this page. For current procedures and review requirements, contact the Abbott Benefits Center at 844-306-9222."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --surface: #ffffff;
+      --text: #1f2937;
+      --muted: #667085;
+      --line: #d9e2f0;
+      --brand: #0f4c81;
+      --brand-dark: #0b2e4f;
+      --accent: #e8f1fb;
+      --alert: #fff4e5;
+      --alert-line: #f3c98b;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    a { color: var(--brand); }
+    .container {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+    header.hero {
+      background: linear-gradient(135deg, #eef6ff 0%, #ffffff 62%);
+      border-bottom: 1px solid var(--line);
+      padding: 56px 0 42px;
+    }
+    .eyebrow {
+      display: inline-block;
+      padding: 7px 12px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: var(--brand-dark);
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+    }
+    h1, h2, h3 {
+      line-height: 1.2;
+      margin: 0 0 16px;
+    }
+    h1 {
+      font-size: clamp(34px, 5vw, 54px);
+      margin-top: 16px;
+      max-width: 900px;
+    }
+    h2 { font-size: 30px; }
+    h3 { font-size: 22px; }
+    p { margin: 0 0 16px; }
+    .lead {
+      font-size: 18px;
+      color: #334155;
+      max-width: 900px;
+    }
+    main {
+      padding: 32px 0 64px;
+    }
+    section {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 10px 26px rgba(15, 23, 42, 0.04);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 14px;
+    }
+    th, td {
+      text-align: left;
+      vertical-align: top;
+      padding: 14px;
+      border-bottom: 1px solid var(--line);
+    }
+    thead th {
+      background: #edf4fb;
+      font-size: 14px;
+    }
+    ul, ol {
+      margin: 0 0 16px;
+      padding-left: 22px;
+    }
+    li { margin-bottom: 10px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: #f8fbff;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 18px;
+    }
+    .note {
+      background: var(--alert);
+      border: 1px solid var(--alert-line);
+      border-radius: 14px;
+      padding: 16px;
+    }
+    .faq-item {
+      border-top: 1px solid var(--line);
+      padding: 18px 0 0;
+      margin-top: 18px;
+    }
+    .faq-item:first-of-type {
+      border-top: none;
+      padding-top: 0;
+      margin-top: 0;
+    }
+    .cta {
+      background: linear-gradient(135deg, #0f4c81 0%, #0b2e4f 100%);
+      color: #ffffff;
+    }
+    .cta p, .cta li, .cta h2 {
+      color: #ffffff;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 12px 18px;
+      border-radius: 10px;
+      background: #ffffff;
+      color: var(--brand-dark);
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .small {
+      font-size: 14px;
+      color: var(--muted);
+    }
+    footer {
+      padding-bottom: 56px;
+    }
+    @media (max-width: 860px) {
+      .grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 700px) {
+      section { padding: 22px; }
+      th, td { padding: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <span class="eyebrow">Deferred Compensation QDRO Guide</span>
+      <h1>Abbott Laboratories 401(k) Plan: Stock Retirement Plan (SRP)</h1>
+      <p class="lead">If a divorce involves Abbott Laboratories retirement benefits, the first drafting issue is making sure the order targets the right plan. Abbott's Stock Retirement Plan (SRP) is the company's 401(k) defined contribution plan, while the Abbott Annuity Retirement Plan (ARP) is a separate pension. A clean QDRO for the SRP should identify the correct plan, address pre-tax and Roth balances, and state how gains or losses are handled after the valuation date.</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section aria-labelledby="plan-overview">
+        <h2 id="plan-overview">Plan Overview</h2>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Item</th>
+              <th scope="col">Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Plan name</td>
+              <td>Abbott Stock Retirement Plan (SRP)</td>
+            </tr>
+            <tr>
+              <td>Company</td>
+              <td>Abbott Laboratories</td>
+            </tr>
+            <tr>
+              <td>Plan type</td>
+              <td>401(k) defined contribution plan</td>
+            </tr>
+            <tr>
+              <td>Separate plan to avoid confusing</td>
+              <td>Abbott Annuity Retirement Plan (ARP), which is a defined benefit pension and not the same plan as the SRP</td>
+            </tr>
+            <tr>
+              <td>Known participant features from retirement materials</td>
+              <td>Abbott's retirement guide describes the SRP as the company's 401(k) plan and references participant account distributions and outstanding SRP loans</td>
+            </tr>
+            <tr>
+              <td>Administrator contact</td>
+              <td>Abbott Benefits Center, 844-306-9222, with additional benefits access through AbbottBenefits.com</td>
+            </tr>
+            <tr>
+              <td>Public model QDRO located?</td>
+              <td>No official public model QDRO for the SRP was located in the research used for this page</td>
+            </tr>
+            <tr>
+              <td>Drafting focus</td>
+              <td>Exact plan identification, valuation date, pre-tax and Roth treatment, gains/losses language, and implementation through plan review procedures</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section aria-labelledby="divorce">
+        <h2 id="divorce">401(k) in Divorce</h2>
+        <p>The Abbott SRP is a defined contribution plan, which means the participant has an individual account rather than a pension formula. In divorce, that matters because the account can usually be divided by a fixed dollar amount, a percentage, or a formula tied to a valuation date. Unlike a pension annuity, the account balance can rise or fall with market performance between the date used for division and the date the alternate payee's share is actually segregated or distributed.</p>
+        <p>For Abbott cases, the practical issue is not just <em>how much</em> the alternate payee receives. The order should also say <em>what account sources</em> are being divided. If the participant has both pre-tax and Roth money in the SRP, the order should make clear whether each source is shared proportionally or handled under a different specified method. Without that detail, implementation questions can surface after entry.</p>
+      </section>
+
+      <section aria-labelledby="requirements">
+        <h2 id="requirements">QDRO Requirements</h2>
+        <p>A domestic relations order for the Abbott SRP should be written as a plan-specific implementation document, not just a general divorce provision. At minimum, it should:</p>
+        <ul>
+          <li>Identify the correct plan by name: <strong>Abbott Stock Retirement Plan (SRP)</strong>.</li>
+          <li>Identify the participant and alternate payee with sufficient specificity for administrator review.</li>
+          <li>State the exact amount, percentage, or formula used to determine the alternate payee's share.</li>
+          <li>Specify the valuation date or event used for calculation.</li>
+          <li>Address whether the assigned share is adjusted for investment gains and losses after the valuation date.</li>
+          <li>Clarify treatment of pre-tax and Roth balances so source-level administration is not left to guesswork.</li>
+          <li>Address any outstanding loan issue if the participant account shows an SRP loan balance.</li>
+          <li>Avoid requiring any form or benefit not available under the plan.</li>
+        </ul>
+        <div class="note">
+          <strong>Practice point:</strong> Because no official public model QDRO was found in the source set for the SRP, draft pre-review through the Abbott Benefits Center is a smart step before court entry.
+        </div>
+      </section>
+
+      <section aria-labelledby="formulas">
+        <h2 id="formulas">Division Formulas</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Percentage formula</h3>
+            <p>A percentage award can work well when the parties want the alternate payee to receive a set share of the account as of a certain date, with gains and losses thereafter. Example structure: the alternate payee receives 50% of the participant's vested SRP account balance as of the valuation date, adjusted for subsequent investment gains or losses until segregation.</p>
+          </div>
+          <div class="card">
+            <h3>Fixed dollar formula</h3>
+            <p>A fixed dollar award may be useful when the settlement uses a hard number. If this method is used, the order should still say whether gains and losses apply after the valuation date. Leaving that point unstated can create an avoidable dispute.</p>
+          </div>
+          <div class="card">
+            <h3>Source-based allocation</h3>
+            <p>Where the account includes both pre-tax and Roth money, the order can say that each source is divided pro rata in the same percentage as the total assigned share. This is often cleaner than dividing one source first and leaving the rest implied.</p>
+          </div>
+          <div class="card">
+            <h3>Gains and losses</h3>
+            <p>For a defined contribution plan like the SRP, gains and losses language matters. A precise order states whether the alternate payee's assigned amount is adjusted for all investment experience from the valuation date through the date of segregation, or whether the award is frozen.</p>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="steps">
+        <h2 id="steps">Steps</h2>
+        <ol>
+          <li>Confirm the exact plan from the participant's current statement or benefits records: Abbott Stock Retirement Plan (SRP).</li>
+          <li>Confirm you are not dealing with the separate Abbott Annuity Retirement Plan (ARP) pension.</li>
+          <li>Gather the latest account information, including any pre-tax, Roth, and loan details shown on plan records.</li>
+          <li>Choose the division method: percentage, fixed dollar amount, or another clearly stated formula.</li>
+          <li>Draft gains and losses language that fits the settlement.</li>
+          <li>Send the draft for review through the Abbott Benefits Center or the plan's current QDRO review channel before submitting it for signature.</li>
+          <li>After court entry, submit the certified signed order with any required supporting paperwork and follow through until qualification is confirmed.</li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="mistakes">
+        <h2 id="mistakes">Common Mistakes</h2>
+        <ul>
+          <li><strong>Mixing up SRP and ARP:</strong> this is one of the biggest avoidable Abbott-specific errors. The SRP is the 401(k); the ARP is a different pension plan.</li>
+          <li><strong>Leaving gains and losses unstated:</strong> in a moving investment account, silence can create conflict.</li>
+          <li><strong>Ignoring Roth treatment:</strong> if Roth money exists in the account, the order should say how it is divided instead of assuming the administrator will infer it.</li>
+          <li><strong>Using a generic order:</strong> boilerplate language that works for one employer plan may not map cleanly to the Abbott SRP.</li>
+          <li><strong>Skipping draft review:</strong> when no public model order is available, administrator review before entry can save time and amendments later.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="research">
+        <h2 id="research">Plan-Specific Research</h2>
+        <p>Abbott's retirement guide for eligible U.S. employees distinguishes between two different retirement arrangements: the <strong>Abbott Stock Retirement Plan (SRP)</strong> and the <strong>Abbott Annuity Retirement Plan (ARP)</strong>. The guide describes the SRP as Abbott's <strong>401(k) plan</strong> and separately identifies the ARP as the pension plan. That distinction matters in divorce drafting because a defined contribution account is divided very differently from a defined benefit annuity.</p>
+        <p>The same retirement materials reference SRP account distributions and outstanding SRP loans, which reinforces that the SRP operates as an individual-account plan. Public-facing Abbott benefits information also points participants to official plan materials and the Abbott Benefits Center rather than relying on website summaries alone.</p>
+        <div class="note">
+          <strong>Abbott contact for current procedures:</strong> Abbott Benefits Center — <strong>844-306-9222</strong>. Based on the research used for this page, that is the most direct public contact point to request the current QDRO procedures, submission process, and any administrator-preferred language.
+        </div>
+      </section>
+
+      <section aria-labelledby="faq">
+        <h2 id="faq">FAQ</h2>
+        <div class="faq-item">
+          <h3>Does the Abbott Laboratories 401(k) plan usually require a QDRO for divorce division?</h3>
+          <p>Yes. A divorce judgment alone is usually not enough to divide an employer 401(k) plan. The Abbott SRP generally requires a qualifying domestic relations order before the alternate payee can receive plan benefits.</p>
+        </div>
+        <div class="faq-item">
+          <h3>What is the difference between Abbott's SRP and ARP?</h3>
+          <p>The SRP is Abbott's Stock Retirement Plan, which is the company's 401(k) defined contribution plan. The ARP is the Abbott Annuity Retirement Plan, which is a defined benefit pension. A QDRO should identify the correct one by exact name.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Should pre-tax and Roth balances both be addressed in the order?</h3>
+          <p>Yes. If the participant account includes both sources, the order should clearly state how each is divided. A pro rata allocation across sources is often cleaner than leaving that issue unresolved.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Why do gains and losses matter so much for the SRP?</h3>
+          <p>Because the SRP is a defined contribution account invested over time. The balance can change after the valuation date, so the order should say whether the alternate payee's share tracks those changes until segregation or distribution.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Where can I get Abbott's current QDRO procedures?</h3>
+          <p>Start with the Abbott Benefits Center at 844-306-9222. No official public model QDRO for the SRP was identified in the research used for this page, so direct confirmation of current procedures is important.</p>
+        </div>
+      </section>
+
+      <section class="cta" aria-labelledby="cta">
+        <h2 id="cta">Need help drafting an Abbott SRP QDRO?</h2>
+        <p>LexyAlgo helps law firms and divorcing parties turn plan research into cleaner, more precise retirement division documents. If you are dealing with the Abbott Stock Retirement Plan, use a plan-specific workflow instead of recycling a generic 401(k) order.</p>
+        <a class="button" href="https://www.lexyalgo.com/">Visit LexyAlgo</a>
+      </section>
+
+      <section aria-labelledby="disclaimer">
+        <h2 id="disclaimer">Disclaimer</h2>
+        <p>This page is general educational information, not legal, tax, or investment advice. Plan terms, administrative procedures, and contact channels can change. Abbott's official plan documents and administrator review process control over any summary. Before submitting any domestic relations order, confirm the current requirements with the Abbott Benefits Center and review the participant's latest plan records.</p>
+        <p class="small">Author: William Peacock — <a href="https://www.linkedin.com/in/williampeacock">LinkedIn profile</a>.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="container">
+    <p class="small">© LexyAlgo</p>
+  </footer>
+</body>
+</html>

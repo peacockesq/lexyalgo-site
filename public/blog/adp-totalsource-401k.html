@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ADP TotalSource 401(k) QDRO Guide | LexyAlgo</title>
+  <meta name="description" content="ADP TotalSource 401(k) QDRO guide covering plan identification, Voya administration, valuation-date awards, drafting issues, and divorce division steps." />
+  <link rel="canonical" href="https://www.lexyalgo.com/deferred-compensation/adp-401k" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.linkedin.com/in/williampeacock#person",
+        "name": "William Peacock",
+        "url": "https://www.linkedin.com/in/williampeacock"
+      },
+      {
+        "@type": "Article",
+        "headline": "ADP TotalSource 401(k) QDRO Guide",
+        "description": "A practical guide to dividing the ADP TotalSource Retirement Savings Plan in divorce, with drafting guidance focused on correct plan identification, valuation-date awards, and Voya administration.",
+        "author": {
+          "@id": "https://www.linkedin.com/in/williampeacock#person"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "LexyAlgo"
+        },
+        "mainEntityOfPage": "https://www.lexyalgo.com/deferred-compensation/adp-401k"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why does the order need to identify the ADP TotalSource plan specifically?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Because ADP sponsors or services multiple retirement arrangements, and naming only 'ADP' can be too broad. The domestic relations order should identify the ADP TotalSource Retirement Savings Plan precisely so the administrator can determine which plan is being divided."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who administers the ADP TotalSource Retirement Savings Plan for QDRO purposes?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The research referenced for this page indicates the plan is administered by Voya, with QDRO review handled under the plan's procedures. Parties should confirm current submission details before filing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How should an alternate payee award usually be expressed for this plan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For a defined contribution plan like this one, the award is commonly stated as a specific dollar amount or a percentage of the participant account as of a defined valuation date, plus or minus post-valuation investment experience if intended."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can QDRO processing costs be charged to the account?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The referenced summary plan description indicates QDRO processing costs may be charged to participant accounts, so the order and settlement documents should account for that possibility."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is draft pre-approval a good idea before presenting the order to the court?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Usually yes. Research cited for this guide indicates draft pre-approval is recommended, which can reduce avoidable revisions and help confirm that the order language fits the plan's administrative requirements before entry."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #f6f8fc;
+      --surface: #ffffff;
+      --text: #1f2937;
+      --muted: #667085;
+      --line: #d9e2f0;
+      --brand: #1d4ed8;
+      --brand-dark: #1e3a8a;
+      --accent: #e0edff;
+      --warn-bg: #fff8e8;
+      --warn-line: #f3d38a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.65;
+    }
+    .container {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+    header.hero {
+      background: linear-gradient(135deg, #eff6ff 0%, #ffffff 62%);
+      border-bottom: 1px solid var(--line);
+      padding: 56px 0 40px;
+    }
+    .eyebrow {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: var(--brand-dark);
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+    }
+    h1, h2, h3 {
+      margin: 0 0 16px;
+      line-height: 1.2;
+    }
+    h1 {
+      font-size: clamp(32px, 5vw, 52px);
+      margin-top: 16px;
+    }
+    h2 { font-size: 30px; }
+    h3 { font-size: 22px; }
+    p { margin: 0 0 16px; }
+    .lead {
+      font-size: 18px;
+      color: #344054;
+      max-width: 860px;
+    }
+    main { padding: 32px 0 64px; }
+    section {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 10px 28px rgba(15, 23, 42, 0.04);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 16px;
+    }
+    th, td {
+      text-align: left;
+      padding: 14px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+    }
+    thead th {
+      background: #eef4ff;
+      font-size: 14px;
+    }
+    ul, ol {
+      margin: 0 0 16px;
+      padding-left: 22px;
+    }
+    li { margin-bottom: 10px; }
+    .note {
+      background: var(--warn-bg);
+      border: 1px solid var(--warn-line);
+      border-radius: 14px;
+      padding: 16px;
+      margin-top: 16px;
+    }
+    .faq-item {
+      border-top: 1px solid var(--line);
+      padding: 18px 0;
+    }
+    .faq-item:first-of-type {
+      border-top: none;
+      padding-top: 0;
+    }
+    .cta {
+      background: linear-gradient(135deg, #1d4ed8 0%, #1e3a8a 100%);
+      color: #ffffff;
+    }
+    .cta p, .cta li { color: rgba(255,255,255,0.94); }
+    .cta a {
+      color: #ffffff;
+      font-weight: 700;
+    }
+    .small {
+      font-size: 14px;
+      color: var(--muted);
+    }
+    a { color: var(--brand); }
+    footer { padding: 0 0 56px; }
+    @media (max-width: 700px) {
+      section { padding: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <span class="eyebrow">Deferred Compensation QDRO Guide</span>
+      <h1>ADP TotalSource Retirement Savings Plan</h1>
+      <p class="lead">If a divorce involves the ADP TotalSource Retirement Savings Plan, the order should identify the exact plan variant, use a defined valuation date, and state the alternate payee award as a dollar amount or percentage that the administrator can actually process.</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section aria-labelledby="plan-overview">
+        <h2 id="plan-overview">Plan Overview</h2>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Item</th>
+              <th scope="col">Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Plan name</td>
+              <td>ADP TotalSource Retirement Savings Plan</td>
+            </tr>
+            <tr>
+              <td>Company</td>
+              <td>ADP (TotalSource)</td>
+            </tr>
+            <tr>
+              <td>Plan type</td>
+              <td>401(k) defined contribution plan</td>
+            </tr>
+            <tr>
+              <td>Administrator / recordkeeping research</td>
+              <td>Referenced materials indicate the plan is administered through Voya for retirement plan purposes.</td>
+            </tr>
+            <tr>
+              <td>Typical division method</td>
+              <td>An alternate payee award is usually stated as a specific dollar amount or a percentage of the participant account as of a stated valuation date.</td>
+            </tr>
+            <tr>
+              <td>QDRO fee issue</td>
+              <td>The referenced summary plan description indicates QDRO processing costs may be charged to participant accounts.</td>
+            </tr>
+            <tr>
+              <td>Pre-approval practice</td>
+              <td>Plan-specific research suggests draft review before court entry is prudent.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section aria-labelledby="divorce-overview">
+        <h2 id="divorce-overview">401(k) in Divorce</h2>
+        <p>The ADP TotalSource Retirement Savings Plan is a defined contribution arrangement, which means the number that matters most is the participant's account balance rather than a future monthly pension formula. In divorce, that usually makes the core drafting question more concrete: what share of the account is being awarded, on what date, and how should gains, losses, and fees be treated after that date?</p>
+        <p>For plans like this one, a divorce judgment by itself generally does not move money to a former spouse. The plan administrator typically needs a qualified domestic relations order that satisfies ERISA, the Internal Revenue Code, and the plan's own procedures before a separate account can be established for the alternate payee.</p>
+        <p>Because ADP is a broad corporate label, precision matters. The order should target the ADP TotalSource Retirement Savings Plan specifically, not just "ADP" or a vague reference to a 401(k), so there is no confusion about which plan is being divided.</p>
+      </section>
+
+      <section aria-labelledby="qdro-requirements">
+        <h2 id="qdro-requirements">QDRO Requirements</h2>
+        <p>A usable order for this plan should do the administrative basics cleanly and leave as little room for interpretation as possible. That usually means the document should:</p>
+        <ul>
+          <li>Identify the participant and alternate payee with enough detail for plan administration.</li>
+          <li>Name the ADP TotalSource Retirement Savings Plan exactly and consistently throughout the order.</li>
+          <li>State the award as a dollar amount or percentage tied to a specific valuation date.</li>
+          <li>Explain whether post-valuation gains or losses are included on the awarded share.</li>
+          <li>Address how outstanding loans, if any, are treated in the valuation.</li>
+          <li>Stay within plan terms and avoid asking the administrator to create a benefit form the plan does not offer.</li>
+        </ul>
+        <div class="note">
+          <strong>Drafting note:</strong> Where plan-specific review is available, sending a draft for pre-approval before court entry can save time and reduce rejection risk.
+        </div>
+      </section>
+
+      <section aria-labelledby="division-formulas">
+        <h2 id="division-formulas">Division Formulas</h2>
+        <p>For the ADP TotalSource Retirement Savings Plan, the safest drafting approach is usually straightforward math. Instead of using an abstract marital-service formula, the order should define the alternate payee award in a format the administrator can calculate directly from the account.</p>
+        <ul>
+          <li><strong>Percentage approach:</strong> Award the alternate payee a stated percentage of the participant's vested account balance as of a defined valuation date.</li>
+          <li><strong>Dollar approach:</strong> Award the alternate payee a fixed dollar amount as of a defined valuation date.</li>
+          <li><strong>Investment adjustment:</strong> Specify whether the awarded share is adjusted for gains and losses from the valuation date to segregation or distribution.</li>
+          <li><strong>Source treatment:</strong> If relevant, clarify whether the award is allocated proportionately across plan sources and investment holdings.</li>
+        </ul>
+        <p>The cleaner the valuation language, the better. Defined contribution plan administrators usually want language they can apply directly to account records without reconstructing the marriage timeline from outside evidence.</p>
+      </section>
+
+      <section aria-labelledby="steps">
+        <h2 id="steps">Steps</h2>
+        <ol>
+          <li>Confirm the exact plan name and current QDRO submission procedures for the ADP TotalSource Retirement Savings Plan.</li>
+          <li>Obtain the relevant account statement or valuation support for the agreed date.</li>
+          <li>Draft the order using a clear dollar or percentage award and explicit valuation-date language.</li>
+          <li>Address gains, losses, fees, and any loan treatment so the economics are predictable.</li>
+          <li>Submit a draft for plan-side review if available before seeking final court signature.</li>
+          <li>After entry, submit the signed order promptly and follow through until the administrator confirms qualification and segregation.</li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="mistakes">
+        <h2 id="mistakes">Common Mistakes</h2>
+        <ul>
+          <li>Referring only to "ADP" instead of the full ADP TotalSource Retirement Savings Plan name.</li>
+          <li>Using an undefined or poorly documented valuation date.</li>
+          <li>Failing to state whether gains and losses apply after the valuation date.</li>
+          <li>Ignoring the possibility that QDRO processing charges may be assessed to the account.</li>
+          <li>Submitting the order to the court first without checking whether draft review is available.</li>
+          <li>Using language that requires the administrator to infer intent rather than calculate a concrete award.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="research">
+        <h2 id="research">Plan-Specific Research</h2>
+        <p>This page is based on plan-specific sources identified for the ADP TotalSource Retirement Savings Plan, including the referenced summary plan description hosted through Voya, plan-identification information published by QDRODesk, and plan guidance published by QDRO.com.</p>
+        <ul>
+          <li>The referenced SPD indicates the plan is associated with Voya administration and that QDRO processing costs may be charged to participant accounts.</li>
+          <li>Third-party QDRO research sources identify this as a defined contribution plan and emphasize that the alternate payee award should be expressed in administrable terms.</li>
+          <li>Plan-specific drafting guidance located during research recommends using a draft review process before final entry where possible.</li>
+          <li>The strongest practical takeaway is that "ADP" by itself is too general. The order should name the ADP TotalSource Retirement Savings Plan specifically.</li>
+        </ul>
+        <p class="small">Sources reviewed: Voya-hosted SPD for ADP TotalSource Retirement Savings Plan; QDRODesk plan page; QDRO.com plan page. Administrative practices can change, so current procedures should be confirmed before filing.</p>
+      </section>
+
+      <section aria-labelledby="faq">
+        <h2 id="faq">FAQ</h2>
+        <div class="faq-item">
+          <h3>Why does the order need to identify the ADP TotalSource plan specifically?</h3>
+          <p>Because "ADP" can refer to multiple retirement arrangements or related entities. Precise identification reduces the chance of rejection, delay, or confusion about which plan is being divided.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Who administers the ADP TotalSource Retirement Savings Plan for QDRO purposes?</h3>
+          <p>The research used for this page indicates Voya is involved in plan administration. Before drafting or filing, confirm the current submission address, review procedures, and contact details for this exact plan.</p>
+        </div>
+        <div class="faq-item">
+          <h3>How should the alternate payee award usually be stated?</h3>
+          <p>Most often as a specific dollar amount or percentage of the participant account as of a defined valuation date, with clear language about gains and losses after that date.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Can the plan charge fees related to QDRO processing?</h3>
+          <p>Yes. The referenced SPD indicates QDRO processing costs may be charged to participant accounts, so parties should account for that possibility in settlement planning.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Should the order be submitted for draft review before court entry?</h3>
+          <p>Usually yes. Draft review can help surface plan-specific issues before the order is signed by the judge, which often saves time and reduces revision cycles.</p>
+        </div>
+      </section>
+
+      <section class="cta" aria-labelledby="cta">
+        <h2 id="cta">Need help drafting the order?</h2>
+        <p>LexyAlgo helps law firms and divorcing spouses turn retirement-division terms into cleaner, plan-aware drafting workflows. If you are dealing with the ADP TotalSource Retirement Savings Plan, start with a plan-specific approach instead of generic 401(k) language.</p>
+        <p><a href="https://www.lexyalgo.com/">Visit LexyAlgo</a> to explore QDRO drafting tools and plan research built for retirement division work.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <section aria-labelledby="disclaimer">
+        <h2 id="disclaimer">Disclaimer</h2>
+        <p>This page is general educational information, not legal, tax, or investment advice. QDRO requirements depend on the exact plan terms, the governing judgment or settlement, and current administrator procedures. Review the latest plan materials and confirm submission requirements before relying on any draft language or filing strategy.</p>
+        <p class="small">Author: William Peacock</p>
+      </section>
+    </div>
+  </footer>
+</body>
+</html>

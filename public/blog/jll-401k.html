@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JLL 401(k) QDRO Guide | LexyAlgo</title>
+  <meta name="description" content="JLL 401(k) QDRO guide for the Jones Lang LaSalle plan, covering naming, Roth and pre-tax balances, valuation dates, and Fidelity administration." />
+  <link rel="canonical" href="https://www.lexyalgo.com/deferred-compensation/jll-401k" />
+  <meta name="author" content="William Peacock" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.linkedin.com/in/williampeacock#person",
+        "name": "William Peacock",
+        "url": "https://www.linkedin.com/in/williampeacock"
+      },
+      {
+        "@type": "Article",
+        "headline": "JLL 401(k) QDRO Guide",
+        "description": "A practical guide to dividing the Jones Lang LaSalle Incorporated Savings and Retirement Plan in divorce, with attention to exact plan naming, Roth and pre-tax balances, valuation dates, and implementation issues.",
+        "author": {
+          "@id": "https://www.linkedin.com/in/williampeacock#person"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "LexyAlgo"
+        },
+        "mainEntityOfPage": "https://www.lexyalgo.com/deferred-compensation/jll-401k"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Does the JLL 401(k) plan usually require a QDRO for divorce division?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. A 401(k) plan like the Jones Lang LaSalle Incorporated Savings and Retirement Plan generally requires a domestic relations order that satisfies ERISA and the plan's procedures before an alternate payee can receive a share."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why does the exact plan name matter in a JLL QDRO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Exact plan naming helps the administrator match the order to the correct retirement plan. Using the formal name, Jones Lang LaSalle Incorporated Savings and Retirement Plan, reduces avoidable review delays and clarification requests."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should a JLL QDRO address both Roth and traditional balances?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. If the participant has both Roth and pre-tax money, the order should say whether the alternate payee receives a proportionate share of each source or a different allocation so the tax character stays clear during implementation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What valuation language is important in a JLL 401(k) division?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The order should clearly state the valuation date and whether gains and losses apply after that date until distribution or segregation. Defined contribution balances change over time, so vague language can create disputes or processing delays."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who appears to administer the JLL plan for participant service?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Available plan-specific research points to Fidelity as the participant service contact, including the phone number 800-835-5095 and a Cincinnati mailing address. Administrators and procedures can change, so the latest plan materials should always be confirmed before submission."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --surface: #ffffff;
+      --text: #1f2937;
+      --muted: #5f6b7a;
+      --line: #d7dfeb;
+      --brand: #0d4f8b;
+      --brand-dark: #0a365f;
+      --accent: #e8f1fb;
+      --warm: #fff7ed;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .container {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+    header.hero {
+      background: linear-gradient(135deg, #edf4fb 0%, #ffffff 62%);
+      border-bottom: 1px solid var(--line);
+      padding: 56px 0 40px;
+    }
+    .eyebrow {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: var(--brand-dark);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+    h1, h2, h3 {
+      margin: 0 0 16px;
+      line-height: 1.2;
+    }
+    h1 {
+      font-size: clamp(32px, 5vw, 52px);
+      margin-top: 16px;
+    }
+    h2 {
+      font-size: 30px;
+      margin-bottom: 14px;
+    }
+    h3 {
+      font-size: 22px;
+    }
+    p {
+      margin: 0 0 16px;
+    }
+    .lead {
+      max-width: 900px;
+      font-size: 18px;
+      color: #374151;
+    }
+    main {
+      padding: 32px 0 64px;
+    }
+    section {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 10px 24px rgba(15, 23, 42, 0.04);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 16px;
+    }
+    thead th {
+      text-align: left;
+      background: #eef4fb;
+      padding: 14px;
+      border-bottom: 1px solid var(--line);
+      font-size: 14px;
+    }
+    tbody td {
+      padding: 14px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+    }
+    ul, ol {
+      margin: 0 0 16px;
+      padding-left: 22px;
+    }
+    li { margin-bottom: 10px; }
+    .note {
+      background: var(--warm);
+      border: 1px solid #fed7aa;
+      border-radius: 14px;
+      padding: 16px;
+    }
+    .faq-item {
+      border-top: 1px solid var(--line);
+      padding: 18px 0;
+    }
+    .faq-item:first-of-type {
+      border-top: none;
+      padding-top: 0;
+    }
+    .cta {
+      background: linear-gradient(135deg, var(--brand) 0%, var(--brand-dark) 100%);
+      color: #ffffff;
+    }
+    .cta p,
+    .cta li,
+    .cta .small {
+      color: rgba(255, 255, 255, 0.92);
+    }
+    .cta a {
+      color: #ffffff;
+      font-weight: 700;
+    }
+    a { color: var(--brand); }
+    .small {
+      font-size: 14px;
+      color: var(--muted);
+    }
+    footer {
+      padding: 0 0 56px;
+    }
+    @media (max-width: 700px) {
+      section { padding: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <span class="eyebrow">Deferred Compensation QDRO Guide</span>
+      <h1>Jones Lang LaSalle Incorporated Savings and Retirement Plan</h1>
+      <p class="lead">If a divorce involves the JLL 401(k), the order should do more than say “split the account.” This plan profile focuses on exact plan naming, defined contribution drafting, Roth and traditional balance treatment, valuation mechanics, and practical review points tied to available Fidelity-related plan research.</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section aria-labelledby="plan-overview">
+        <h2 id="plan-overview">Plan Overview</h2>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Item</th>
+              <th scope="col">Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Plan name</td>
+              <td>Jones Lang LaSalle Incorporated Savings and Retirement Plan</td>
+            </tr>
+            <tr>
+              <td>Company</td>
+              <td>JLL (Jones Lang LaSalle)</td>
+            </tr>
+            <tr>
+              <td>Plan type</td>
+              <td>401(k) defined contribution plan</td>
+            </tr>
+            <tr>
+              <td>Likely administrator contact</td>
+              <td>Available research points to Fidelity participant service at 800-835-5095, with a Cincinnati mailing address that should be confirmed against current plan materials before submission.</td>
+            </tr>
+            <tr>
+              <td>Known account sources</td>
+              <td>Plan-specific research suggests the account may include traditional pre-tax and Roth employee deferrals, making source-level drafting important.</td>
+            </tr>
+            <tr>
+              <td>Investment structure</td>
+              <td>Participant-directed account balance subject to market gains and losses, contribution activity, transfers, and any loan-related adjustments.</td>
+            </tr>
+            <tr>
+              <td>Key drafting issue</td>
+              <td>Use the exact formal plan name and specify how the alternate payee share is calculated, valued, and adjusted through implementation.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section aria-labelledby="divorce-treatment">
+        <h2 id="divorce-treatment">401(k) in Divorce</h2>
+        <p>A 401(k) like the JLL plan is not divided the same way as a pension with a future monthly benefit. It is an account-based plan. That means the order needs to identify what piece of the account is being awarded and how that amount changes, if at all, after the selected valuation date.</p>
+        <p>In practice, divorce drafting for a defined contribution plan usually turns on five things: the exact plan name, whether the award is a percentage or fixed dollar amount, the valuation date, whether post-date gains and losses apply, and how separate account sources are treated. If any of those points are fuzzy, implementation gets messy fast.</p>
+        <p>For JLL, the available research makes one issue especially worth flagging: if the participant has both Roth and traditional balances, the order should not leave their treatment to guesswork. Clear language reduces tax-character confusion when the account is segregated or distributed.</p>
+      </section>
+
+      <section aria-labelledby="qdro-requirements">
+        <h2 id="qdro-requirements">QDRO Requirements</h2>
+        <p>A JLL 401(k) domestic relations order should be drafted to satisfy both ERISA requirements and the plan's internal review procedures. The core requirements usually include:</p>
+        <ul>
+          <li>Correct identification of the participant, alternate payee, and the plan being divided.</li>
+          <li>Clear statement of the benefit awarded, typically as a percentage, formula-based fraction of the account, or stated dollar amount.</li>
+          <li>A precise valuation date.</li>
+          <li>Direction on whether investment gains and losses apply after the valuation date until segregation or distribution.</li>
+          <li>Language addressing loans, outstanding distributions, and any source-specific treatment if the account contains multiple money types.</li>
+        </ul>
+        <div class="note">
+          <strong>Practical point:</strong> Exact plan naming matters here. Using the formal name reflected in plan materials helps avoid review delays caused by generic references like “JLL 401(k)” or “company retirement account.”
+        </div>
+      </section>
+
+      <section aria-labelledby="division-formulas">
+        <h2 id="division-formulas">Division Formulas</h2>
+        <p>For a defined contribution plan, the cleanest formula is usually the one the administrator can calculate from a statement and valuation date without legal interpretation. Common approaches include:</p>
+        <ul>
+          <li><strong>Fixed percentage:</strong> the alternate payee receives a stated percentage of the vested account balance as of a specific date, adjusted for gains and losses after that date.</li>
+          <li><strong>Fixed dollar amount:</strong> the alternate payee receives a stated dollar amount from the account, sometimes with or without later investment adjustments.</li>
+          <li><strong>Source-specific allocation:</strong> the alternate payee receives a proportional share of each account source, including traditional and Roth balances, based on the selected valuation date.</li>
+        </ul>
+        <p>When the participant has both Roth and traditional money, it is usually better to state whether the award is drawn proportionally from each source or from only specified sources. That keeps the administrator from having to infer tax treatment.</p>
+      </section>
+
+      <section aria-labelledby="steps">
+        <h2 id="steps">Steps</h2>
+        <ol>
+          <li>Confirm the exact formal plan name from the latest statement, SPD, or administrator materials.</li>
+          <li>Identify the intended marital division method: percentage, dollar amount, or source-specific allocation.</li>
+          <li>Select the valuation date and decide whether later gains and losses apply.</li>
+          <li>Review the participant's statement for Roth, traditional, employer, and loan-related components.</li>
+          <li>Draft the order using implementation-ready language that the administrator can calculate directly.</li>
+          <li>Submit a draft for pre-approval if the administrator permits it before filing with the court.</li>
+          <li>After court entry, submit the signed order and any required administrative forms promptly.</li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="common-mistakes">
+        <h2 id="common-mistakes">Common Mistakes</h2>
+        <ul>
+          <li>Using a shorthand or inaccurate plan name instead of the formal JLL plan name.</li>
+          <li>Failing to state whether gains and losses apply after the valuation date.</li>
+          <li>Ignoring Roth versus traditional balances and leaving source treatment unstated.</li>
+          <li>Using a formula that sounds equitable in settlement discussions but is hard for the administrator to implement from account records.</li>
+          <li>Not checking whether an outstanding participant loan affects the balance shown on the valuation date.</li>
+          <li>Waiting too long after court entry to submit the order for qualification review.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="plan-research">
+        <h2 id="plan-research">Plan-Specific Research</h2>
+        <p>Available public research indicates the likely formal plan name is <strong>Jones Lang LaSalle Incorporated Savings and Retirement Plan</strong>. That exact naming should be verified against current participant materials and then used consistently in the order.</p>
+        <p>Research also points to <strong>Fidelity</strong> as the participant service contact, including phone number <strong>800-835-5095</strong> and a Cincinnati mailing address. Administrators and addresses can change, so current submission instructions should always be confirmed before sending the order package.</p>
+        <p>Public plan references further suggest the account may contain both <strong>traditional pre-tax</strong> and <strong>Roth</strong> deferrals. That matters because the order should make clear whether the alternate payee receives a proportionate share of each source. For an account-based plan, source ambiguity creates unnecessary implementation risk.</p>
+        <p>General defined contribution guidance from public QDRO resources aligns with the usual drafting priorities here: name the plan precisely, define the awarded share clearly, use a concrete valuation date, and specify whether gains and losses apply between valuation and distribution.</p>
+      </section>
+
+      <section aria-labelledby="faq">
+        <h2 id="faq">FAQ</h2>
+        <div class="faq-item">
+          <h3>Does the JLL 401(k) plan usually require a QDRO for divorce division?</h3>
+          <p>Yes. In most divorce cases, a 401(k) plan like this one requires a domestic relations order that qualifies under ERISA and the plan's procedures before an alternate payee can receive a share.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Why does the exact plan name matter in a JLL QDRO?</h3>
+          <p>Because the administrator needs to know exactly which plan is being divided. Using the formal name helps prevent avoidable review delays and back-and-forth over whether the order applies to the correct account.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Should the order address both Roth and traditional balances?</h3>
+          <p>Yes. If both money sources are in the account, the order should say whether the alternate payee receives a proportional share of each source or some different allocation. That protects clarity around tax character and implementation.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Why is the valuation date so important for a 401(k) division?</h3>
+          <p>Because account balances move. Contributions, market performance, transfers, and loans can all change the number. A precise valuation date, plus gain-and-loss language, keeps the calculation anchored.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Who appears to handle participant service for the JLL plan?</h3>
+          <p>Available research points to Fidelity, including 800-835-5095 and a Cincinnati mailing address. That should be verified against the latest plan statement or administrator instructions before submission.</p>
+        </div>
+      </section>
+
+      <section class="cta" aria-labelledby="cta">
+        <h2 id="cta">Need help drafting a JLL 401(k) QDRO?</h2>
+        <p>LexyAlgo helps turn plan-specific retirement division issues into cleaner drafting decisions. If you want a more implementation-ready starting point for the Jones Lang LaSalle Incorporated Savings and Retirement Plan, use LexyAlgo to organize the inputs before the order is finalized.</p>
+        <p><a href="https://www.lexyalgo.com/">Explore LexyAlgo</a></p>
+        <p class="small">LexyAlgo provides planning and drafting support tools for retirement division workflows.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <section aria-labelledby="disclaimer">
+        <h2 id="disclaimer">Disclaimer</h2>
+        <p>This page is general educational information about a specific retirement plan and is not legal, tax, or investment advice. Plan procedures, contacts, and account features can change. Any draft order should be reviewed against the latest plan documents, administrator instructions, and the facts of the case before submission.</p>
+      </section>
+    </div>
+  </footer>
+</body>
+</html>

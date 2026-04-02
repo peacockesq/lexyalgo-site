@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mastercard 401(k) QDRO Guide | LexyAlgo</title>
+  <meta name="description" content="Mastercard Savings Plan QDRO guide covering Roth and pre-tax balances, employer contributions, loans, valuation dates, and Voya administration." />
+  <link rel="canonical" href="https://www.lexyalgo.com/deferred-compensation/mastercard-401k" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.linkedin.com/in/williampeacock#person",
+        "name": "William Peacock",
+        "url": "https://www.linkedin.com/in/williampeacock"
+      },
+      {
+        "@type": "Article",
+        "headline": "Mastercard Savings Plan QDRO Guide",
+        "description": "A practical guide to dividing the Mastercard Savings Plan in divorce, with drafting considerations for Roth, pre-tax, employer contribution, loan, and valuation-date issues.",
+        "author": {
+          "@id": "https://www.linkedin.com/in/williampeacock#person"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "LexyAlgo"
+        },
+        "mainEntityOfPage": "https://www.lexyalgo.com/deferred-compensation/mastercard-401k"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Does the Mastercard Savings Plan require a QDRO for divorce division?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "In most divorce cases, yes. A 401(k) plan like the Mastercard Savings Plan generally requires a domestic relations order that satisfies ERISA and the plan's procedures before an alternate payee can receive a share."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why should a QDRO for this plan address Roth and pre-tax balances separately?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Because the available research indicates the plan includes both Roth and pre-tax money. Clear source-level language helps preserve the intended tax character of the award and reduces ambiguity during implementation."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Should vested employer contributions be included in the division language?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, if the settlement intends to divide them. The order should state whether vested employer contributions are included, excluded, or divided proportionally with the rest of the account."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How should participant loans be handled in a Mastercard Savings Plan QDRO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The order should state how any outstanding loan affects the account used for calculation, because statements may show balances differently depending on whether the loan is treated as part of the account or netted out."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why is the valuation date so important for this plan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A defined contribution plan is tied to an account balance that changes with contributions, withdrawals, loans, and market performance. The QDRO should specify the valuation date and whether later gains or losses apply."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --surface: #ffffff;
+      --text: #1f2937;
+      --muted: #667085;
+      --line: #d9e2ec;
+      --brand: #0f4c81;
+      --brand-dark: #0b355a;
+      --accent: #e6f0fb;
+      --warning: #fff7ed;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .container {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+    header.hero {
+      background: linear-gradient(135deg, #eef5fb 0%, #ffffff 62%);
+      border-bottom: 1px solid var(--line);
+      padding: 56px 0 40px;
+    }
+    .eyebrow {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: var(--brand-dark);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+    h1, h2, h3 {
+      margin: 0 0 16px;
+      line-height: 1.2;
+    }
+    h1 {
+      font-size: clamp(32px, 5vw, 52px);
+      margin-top: 16px;
+    }
+    h2 {
+      font-size: 30px;
+      margin-bottom: 14px;
+    }
+    p {
+      margin: 0 0 16px;
+    }
+    .lead {
+      max-width: 860px;
+      font-size: 18px;
+      color: #374151;
+    }
+    main {
+      padding: 32px 0 64px;
+    }
+    section {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 10px 24px rgba(15, 23, 42, 0.04);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 16px;
+    }
+    thead th {
+      text-align: left;
+      background: #edf4fb;
+      padding: 14px;
+      border-bottom: 1px solid var(--line);
+      font-size: 14px;
+    }
+    tbody td {
+      padding: 14px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+    }
+    tfoot td {
+      padding: 14px;
+      background: #f8fafc;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    ul, ol {
+      margin: 0 0 16px;
+      padding-left: 22px;
+    }
+    li { margin-bottom: 10px; }
+    .note {
+      background: var(--warning);
+      border: 1px solid #fed7aa;
+      border-radius: 14px;
+      padding: 16px;
+    }
+    .faq-item {
+      border-top: 1px solid var(--line);
+      padding: 18px 0;
+    }
+    .faq-item:first-of-type {
+      border-top: none;
+      padding-top: 0;
+    }
+    .cta {
+      background: linear-gradient(135deg, #0f4c81 0%, #0b355a 100%);
+      color: #ffffff;
+    }
+    .cta p { color: rgba(255,255,255,0.92); }
+    .cta a {
+      color: #ffffff;
+      font-weight: 700;
+    }
+    a { color: var(--brand); }
+    .small {
+      font-size: 14px;
+      color: var(--muted);
+    }
+    footer {
+      padding: 0 0 56px;
+    }
+    @media (max-width: 700px) {
+      section { padding: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <span class="eyebrow">Deferred Compensation QDRO Guide</span>
+      <h1>Mastercard Savings Plan</h1>
+      <p class="lead">If a divorce involves the Mastercard Savings Plan, the order needs to be tighter than a generic 401(k) split. Drafting should address Roth and pre-tax assets, vested employer contributions, any participant loan balance, and a clearly defined valuation date so the administrator can implement the award without guesswork.</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section aria-labelledby="plan-overview">
+        <h2 id="plan-overview">Plan Overview</h2>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Item</th>
+              <th scope="col">Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Plan name</td>
+              <td>Mastercard Savings Plan</td>
+            </tr>
+            <tr>
+              <td>Company</td>
+              <td>Mastercard</td>
+            </tr>
+            <tr>
+              <td>Plan type</td>
+              <td>401(k) defined contribution plan</td>
+            </tr>
+            <tr>
+              <td>Known account sources</td>
+              <td>Available research indicates the plan includes pre-tax employee deferrals, Roth contributions, and employer contribution sources.</td>
+            </tr>
+            <tr>
+              <td>Investment structure</td>
+              <td>Participant-directed investments, which means gains and losses after the valuation date can materially affect the final transferred amount.</td>
+            </tr>
+            <tr>
+              <td>QDRO administration</td>
+              <td>Voya appears to administer QDRO processing for the plan through <a href="https://qdro.voya.com/">qdro.voya.com</a>.</td>
+            </tr>
+            <tr>
+              <td>Public plan materials located</td>
+              <td>No official SPD or model QDRO was located publicly in the research used for this page.</td>
+            </tr>
+            <tr>
+              <td>Key drafting issues</td>
+              <td>Roth handling, vested employer contributions, loans, and a specific valuation date should all be addressed directly in the order.</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">Administrative procedures can change. Confirm current requirements, submission mechanics, and review preferences directly with the plan or Voya before filing.</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <section aria-labelledby="divorce-treatment">
+        <h2 id="divorce-treatment">401(k) in Divorce</h2>
+        <p>The Mastercard Savings Plan is a defined contribution plan, so the divorce issue is usually about dividing an account balance rather than valuing a future monthly pension stream. That sounds simple until the order has to translate settlement language into something the plan administrator can actually implement.</p>
+        <p>For a 401(k), the big issues are usually the valuation date, treatment of post-valuation gains and losses, and whether different money sources are divided proportionally or in some other specified way. If the account contains both Roth and pre-tax balances, a vague award can create tax-character confusion fast.</p>
+        <p>Because this plan also appears to include employer contribution sources and may involve participant loans, the order should define exactly what account balance is being divided. Otherwise, one side may think the award applies to gross account value while the administrator calculates off a net figure or separate source buckets.</p>
+      </section>
+
+      <section aria-labelledby="qdro-requirements">
+        <h2 id="qdro-requirements">QDRO Requirements</h2>
+        <p>A workable QDRO for this plan should identify the participant and alternate payee, clearly define the awarded share, and give the administrator a calculation method that can be applied without interpretation. For a participant-directed 401(k), that means precision matters more than fancy language.</p>
+        <ul>
+          <li>State the alternate payee's award as a fixed dollar amount, percentage, or other defined formula tied to a clear valuation date.</li>
+          <li>Say whether investment gains and losses are applied from the valuation date through segregation, transfer, or distribution.</li>
+          <li>Address pre-tax and Roth money directly so the tax buckets are divided intentionally.</li>
+          <li>Specify whether vested employer contributions are included in the assigned share.</li>
+          <li>Clarify how any outstanding participant loan is treated in the calculation.</li>
+          <li>Use naming, notice, and submission details that match current plan procedures once confirmed with Voya or the plan administrator.</li>
+        </ul>
+        <div class="note">
+          <p><strong>Practical point:</strong> No official SPD or model QDRO was found publicly during this research. That means you should not rely on assumptions from another Voya-administered plan. Get the current procedures before locking the final language.</p>
+        </div>
+      </section>
+
+      <section aria-labelledby="division-formulas">
+        <h2 id="division-formulas">Division Formulas</h2>
+        <p>The right formula depends on the settlement, but the order should still be explicit about source balances and post-valuation adjustments. Clean formulas reduce review delays and limit avoidable disputes after the order is submitted.</p>
+        <ul>
+          <li><strong>Fixed percentage as of a stated date:</strong> useful when the alternate payee is receiving a share of the account balance, with gains and losses applied after the valuation date.</li>
+          <li><strong>Fixed dollar amount:</strong> works when the settlement sets a specific sum, but the order still should state whether later earnings or losses apply before distribution.</li>
+          <li><strong>Source-by-source proportional allocation:</strong> often the safest approach when the account includes pre-tax, Roth, and vested employer contributions and the intent is to preserve the existing proportion of each source.</li>
+        </ul>
+        <p>What you do not want here is a loose reference to an account share with no valuation date and no language about gains, losses, loans, or source buckets. That is how a “simple” 401(k) split turns into a post-judgment mess.</p>
+      </section>
+
+      <section aria-labelledby="steps-to-divide">
+        <h2 id="steps-to-divide">Steps</h2>
+        <ol>
+          <li>Collect recent account statements and confirm all contribution sources, including Roth, pre-tax, employer, and any loan balance.</li>
+          <li>Request current QDRO procedures or review guidance from the plan or Voya.</li>
+          <li>Confirm the settlement terms, especially the valuation date and whether gains and losses apply afterward.</li>
+          <li>Draft the order with explicit language for source balances, vested employer contributions, and loan treatment.</li>
+          <li>Use any available pre-approval or review process before presenting the order for court signature.</li>
+          <li>Submit the signed order, monitor qualification, and confirm final segregation or rollover instructions for the alternate payee.</li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="common-mistakes">
+        <h2 id="common-mistakes">Common Mistakes</h2>
+        <ul>
+          <li>Leaving out the valuation date or describing it vaguely.</li>
+          <li>Failing to state whether post-valuation gains and losses apply.</li>
+          <li>Ignoring the difference between Roth and pre-tax assets.</li>
+          <li>Not saying whether vested employer contributions are part of the award.</li>
+          <li>Using account values without explaining how an outstanding loan is treated.</li>
+          <li>Assuming a third-party website reflects current plan procedures when no public SPD or model order has been verified.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="plan-research">
+        <h2 id="plan-research">Plan-Specific Research</h2>
+        <p>The research available for this page indicates that the Mastercard Savings Plan includes pre-tax deferrals, Roth assets, and employer contribution sources, and that investments are participant-directed. Those facts matter because they affect tax treatment, valuation mechanics, and the calculation of gains or losses after the selected valuation date.</p>
+        <p>QDRO administration appears to run through Voya at <a href="https://qdro.voya.com/">qdro.voya.com</a>. No official summary plan description or public model QDRO was located during this research, so the plan's current internal procedures should be requested directly before finalizing language.</p>
+        <p>Third-party references located for this profile include <a href="https://simpleqdro.com/retirement-plans/MASTERCARD-SAVINGS-PLAN/">SimpleQDRO</a> and <a href="https://qdro.com/retirement-qdro/MASTERCARD-SAVINGS-PLAN/">QDRO.com</a>. Those sites can be helpful as secondary pointers, but they are not substitutes for the actual plan documents or the administrator's current review standards.</p>
+      </section>
+
+      <section aria-labelledby="faq">
+        <h2 id="faq">FAQ</h2>
+        <div class="faq-item">
+          <h3>Does the Mastercard Savings Plan require a QDRO for divorce division?</h3>
+          <p>Usually yes. A divorce judgment alone typically does not let the plan distribute part of a participant's 401(k) account to an alternate payee.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Why should the order address Roth and pre-tax money separately?</h3>
+          <p>Because the plan appears to hold both. Clear source-level language helps preserve the intended tax treatment of the transfer.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Should vested employer contributions be included in the award?</h3>
+          <p>Only if the settlement intends that result, but if they are included the order should say so directly rather than leaving it implied.</p>
+        </div>
+        <div class="faq-item">
+          <h3>What about an outstanding participant loan?</h3>
+          <p>The order should explain whether the awarded share is calculated on a balance that includes or excludes the loan so the math is not left to guesswork.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Why is the valuation date such a big deal?</h3>
+          <p>Because a defined contribution account changes over time with market movement, contributions, distributions, and loan activity. The valuation date anchors the calculation.</p>
+        </div>
+      </section>
+
+      <section class="cta" aria-labelledby="cta">
+        <h2 id="cta">Need a cleaner way to manage retirement-division drafting?</h2>
+        <p>LexyAlgo helps organize plan research, track drafting variables, and turn messy retirement-account facts into a more usable workflow for QDRO preparation.</p>
+        <p><a href="https://www.lexyalgo.com/">Explore LexyAlgo</a></p>
+      </section>
+
+      <section aria-labelledby="disclaimer">
+        <h2 id="disclaimer">Disclaimer</h2>
+        <p class="small">This page is for general educational purposes only and is not legal, tax, or investment advice. Plan terms, procedures, and administrative practices can change. Anyone preparing or submitting a QDRO involving the Mastercard Savings Plan should confirm current requirements directly with the plan administrator or Voya before relying on any summary.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p class="small">Author: William Peacock</p>
+    </div>
+  </footer>
+</body>
+</html>
