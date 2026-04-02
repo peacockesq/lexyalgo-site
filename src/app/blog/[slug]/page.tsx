@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
-import { formatPostDate, getAllPosts, getPostBySlug, renderMarkdownParagraphs } from '@/lib/content'
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
+import { formatPostDate, getAllPosts, getPostBySlug } from '@/lib/content'
 
 type Props = {
   params: Promise<{ slug: string }>
@@ -32,8 +34,6 @@ export default async function BlogPostPage({ params }: Props) {
     notFound()
   }
 
-  const paragraphs = renderMarkdownParagraphs(post.body)
-
   return (
     <section className="bg-white py-20">
       <article className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
@@ -47,10 +47,8 @@ export default async function BlogPostPage({ params }: Props) {
           {post.excerpt ? <p className="mt-4 text-lg text-slate-600">{post.excerpt}</p> : null}
         </div>
 
-        <div className="space-y-6 text-lg leading-8 text-slate-700">
-          {paragraphs.map((paragraph) => (
-            <p key={paragraph}>{paragraph}</p>
-          ))}
+        <div className="prose prose-slate max-w-none text-lg text-slate-700 prose-headings:font-[family-name:var(--font-space)] prose-headings:text-slate-900 prose-a:text-primary-container prose-a:no-underline hover:prose-a:underline prose-strong:text-slate-900 prose-blockquote:border-l-primary-container prose-blockquote:text-slate-600 prose-li:marker:text-primary-container">
+          <ReactMarkdown remarkPlugins={[remarkGfm]}>{post.body}</ReactMarkdown>
         </div>
       </article>
     </section>
