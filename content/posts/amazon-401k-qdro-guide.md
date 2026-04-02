@@ -5,29 +5,67 @@ author: "William Peacock"
 description: "Learn how the Amazon 401(k) Plan may be divided in divorce, QDRO requirements, common drafting mistakes, and steps to verify with the plan administrator."
 category: "QDRO"
 tags: ["QDRO", "amazon", "401k", "divorce", "retirement"]
+schema_jsonld: |
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How to Divide the Amazon 401(k) Plan in Divorce — A QDRO Guide",
+    "datePublished": "2026-04-01",
+    "dateModified": "2026-04-01",
+    "author": {
+      "@type": "Person",
+      "name": "William Peacock",
+      "url": "https://www.linkedin.com/in/williampeacock"
+    }
+  }
+faq_schema_jsonld: |
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Can the Amazon 401(k) Plan be divided in divorce?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. The marital portion of the Amazon 401(k) Plan may be divided in divorce through a Qualified Domestic Relations Order, depending on state law and the terms of the divorce judgment or settlement."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Do you need a QDRO for the Amazon 401(k) Plan?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Because the Amazon 401(k) Plan is an ERISA-qualified retirement plan, division in divorce typically requires a Qualified Domestic Relations Order approved by the plan administrator."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should a QDRO say about gains and losses?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The QDRO should specify the valuation date and whether the alternate payee's share includes investment gains or losses between that date and the date the plan processes the order."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do plan loans affect division of an Amazon 401(k)?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "An outstanding participant loan can reduce the divisible balance or otherwise affect the award, so the QDRO and settlement terms should address how the loan is treated."
+        }
+      }
+    ]
+  }
 ---
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "How to Divide the Amazon 401(k) Plan in Divorce — A QDRO Guide",
-  "datePublished": "2026-04-01",
-  "dateModified": "2026-04-01",
-  "author": {
-    "@type": "Person",
-    "name": "William Peacock"
-  }
-}
-</script>
-
-# How to Divide the Amazon 401(K) Plan in Divorce — A QDRO Guide
+# How to Divide the Amazon 401(k) Plan in Divorce — A QDRO Guide
 
 > **Disclaimer:** This page provides general information to help you understand how the Amazon 401(K) Plan is handled in divorce. It does not constitute legal advice, and it does not promise any particular outcome.
 
 ---
 
-## About the Amazon 401(K) Plan
+## About the Amazon 401(k) Plan
 
 The Amazon 401(K) Plan is a defined contribution retirement plan offered to eligible employees of Amazon.com Services, LLC and affiliated employers. According to the most recent Form 5500 filing available through the Department of Labor, the plan reported approximately **1,207,759 active participants** at the end of the most recent plan year.
 
@@ -42,7 +80,7 @@ The Amazon 401(K) Plan is a defined contribution retirement plan offered to elig
 
 Amazon is headquartered in Seattle, Washington, but it operates nationwide. Many Amazon employees work in fulfillment centers, corporate offices, and remote positions across multiple jurisdictions. The plan is a pooled retirement plan that covers a large, diverse workforce.
 
-### What the Amazon 401(K) Plan Covers
+### What the Amazon 401(k) Plan Covers
 
 The plan allows eligible employees to contribute:
 
@@ -60,7 +98,7 @@ Both the employee's contributions and any employer match are subject to division
 
 The portion of the Amazon 401(K) Plan that accrued **during the marriage** may be subject to division in divorce.
 
-This depends heavily on state law and the specific plan terms. The actual division of a 401(k) in divorce is done through a Qualified Domestic Relations Order (QDRO), which specifies the amount or percentage awarded to the alternate payee — not a coverture formula or any specific calculation method. The coverture fraction may be used in some states as part of the property division analysis, but the QDRO itself simply states what the alternate payee gets (and when), without prescribing how that number was calculated.
+This depends heavily on state law and the specific plan terms. The actual division of a 401(k) in divorce is done through a Qualified Domestic Relations Order (QDRO), which specifies the amount or percentage awarded to the alternate payee. The QDRO itself simply states what the alternate payee gets, without prescribing how that number was calculated.
 
 **Separate property tracing:** Depending on state law, premarital contributions and their growth may be separate property. Post-marital contributions are typically marital. State law varies significantly on how growth attributable to separate property during marriage is treated.
 
@@ -70,13 +108,13 @@ A 401(k) is a qualified retirement plan under ERISA. This means it **must** be d
 
 ---
 
-## QDRO Requirements for the Amazon 401(K) Plan
+## QDRO Requirements for the Amazon 401(k) Plan
 
 ### Plan Administrator Contact
 
 When preparing a QDRO for the Amazon 401(K) Plan, the plan administrator to contact is:
 
-- **401(K) Committee, c/o Amazon.com Services, LLC, Seattle, WA**
+- **401(K) Committee**, c/o Amazon.com Services, LLC, Seattle, WA
 
 Always verify the current administrator address and required QDRO procedures directly with Amazon's HR or benefits department. Plan procedures can change, and outdated information can lead to QDRO rejection.
 
@@ -123,7 +161,7 @@ Between the date of separation and QDRO approval, the account may gain or lose v
 
 ---
 
-## Steps to Divide the Amazon 401(K) Plan
+## Steps to Divide the Amazon 401(k) Plan
 
 1. **Request plan documents** — Get a current summary plan description and account statement from Amazon's benefits department
 
@@ -182,49 +220,4 @@ Consider seeking professional assistance if:
 
 **LexyAlgo** can generate a plan-specific QDRO draft for the Amazon 401(K) Plan at a flat fee. Our templates are designed to meet ERISA requirements and plan-specific guidelines.
 
-For full-service QDRO preparation, review, and filing, contact **Peacock QDROs & Divorce Law Firm, Attorney Willie Peacock** for expert assistance.
-
 > **Disclaimer reminder:** This page provides general information about the Amazon 401(K) Plan in the context of divorce. It does not constitute legal advice. Requirements and procedures can change. Always verify with the plan administrator and qualified legal counsel.
-
----
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Can the Amazon 401(k) Plan be divided in divorce?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. The marital portion of the Amazon 401(k) Plan may be divided in divorce through a Qualified Domestic Relations Order, depending on state law and the terms of the divorce judgment or settlement."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you need a QDRO for the Amazon 401(k) Plan?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Because the Amazon 401(k) Plan is an ERISA-qualified retirement plan, division in divorce typically requires a Qualified Domestic Relations Order approved by the plan administrator."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What should a QDRO say about gains and losses?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The QDRO should specify the valuation date and whether the alternate payee's share includes investment gains or losses between that date and the date the plan processes the order."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How do plan loans affect division of an Amazon 401(k)?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "An outstanding participant loan can reduce the divisible balance or otherwise affect the award, so the QDRO and settlement terms should address how the loan is treated."
-      }
-    }
-  ]
-}
-</script>
