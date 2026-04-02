@@ -67,9 +67,3 @@ export function formatPostDate(date: string) {
   }).format(new Date(date))
 }
 
-export function renderMarkdownParagraphs(markdown: string) {
-  return markdown
-    .split(/\n\s*\n/)
-    .map((paragraph) => paragraph.replace(/^#+\s*/gm, '').trim())
-    .filter(Boolean)
-}
