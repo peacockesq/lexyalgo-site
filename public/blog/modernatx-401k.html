@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ModernaTX 401(k) Plan QDRO Guide | LexyAlgo</title>
+  <meta name="description" content="How to divide the ModernaTX, Inc. 401(k) Plan in divorce. Plan data from Form 5500, QDRO requirements, division formulas, and administrator contact information." />
+  <link rel="canonical" href="https://www.lexyalgo.com/retirement-plans/deferred-compensation/modernatx-401k" />
+  <meta name="author" content="William Peacock" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.linkedin.com/in/williampeacock#person",
+        "name": "William Peacock",
+        "url": "https://www.linkedin.com/in/williampeacock"
+      },
+      {
+        "@type": "Article",
+        "headline": "ModernaTX, Inc. 401(k) Plan: QDRO Guide",
+        "description": "A practical guide to dividing the ModernaTX, Inc. 401(k) Plan in divorce, covering plan identification, plan name issues, Roth balances, division formulas, and QDRO drafting considerations.",
+        "author": {
+          "@id": "https://www.linkedin.com/in/williampeacock#person"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "LexyAlgo"
+        },
+        "mainEntityOfPage": "https://www.lexyalgo.com/retirement-plans/deferred-compensation/modernatx-401k"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the correct plan name to use in a ModernaTX QDRO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The Form 5500-registered name is MODERNATX, INC. 401(K) PLAN. Some third-party sources refer to it as 'Moderna Inc. 401(k) Plan' or 'Moderna, Inc. 401(k) Plan.' Always confirm the exact current legal name with the plan administrator before drafting the QDRO."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the ModernaTX 401(k) require a QDRO for divorce division?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. An ERISA-qualified 401(k) plan requires a Qualified Domestic Relations Order for divorce division. A divorce decree alone does not authorize the plan to pay benefits to an alternate payee."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who administers the ModernaTX 401(k) plan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Third-party sources identify John Hancock as the recordkeeper, with a contact of 617-218-1567. This has not been confirmed from an official ModernaTX plan document. Verify directly with Moderna's benefits department before relying on this information for drafting."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does the plan include Roth 401(k) contributions?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. The Form 5500 benefit type codes include code 2S, which indicates a Roth 401(k) feature. If the participant has Roth and pre-tax contributions in the same account, the QDRO should address how each source is divided."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Was an official public model QDRO available for the ModernaTX plan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No official public model QDRO for the ModernaTX, Inc. 401(k) Plan was identified in the research for this page. Contact the plan administrator or recordkeeper directly to request current QDRO procedures."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --surface: #ffffff;
+      --text: #1f2937;
+      --muted: #667085;
+      --line: #d9e2f0;
+      --brand: #0f4c81;
+      --brand-dark: #0b2e4f;
+      --accent: #e8f1fb;
+      --alert: #fff4e5;
+      --alert-line: #f3c98b;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    a { color: var(--brand); }
+    .container {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+    header.hero {
+      background: linear-gradient(135deg, #eef6ff 0%, #ffffff 62%);
+      border-bottom: 1px solid var(--line);
+      padding: 56px 0 42px;
+    }
+    .eyebrow {
+      display: inline-block;
+      padding: 7px 12px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: var(--brand-dark);
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+    }
+    h1, h2, h3 {
+      line-height: 1.2;
+      margin: 0 0 16px;
+    }
+    h1 {
+      font-size: clamp(34px, 5vw, 54px);
+      margin-top: 16px;
+      max-width: 900px;
+    }
+    h2 { font-size: 30px; }
+    h3 { font-size: 22px; }
+    p { margin: 0 0 16px; }
+    .lead {
+      font-size: 18px;
+      color: #334155;
+      max-width: 900px;
+    }
+    main { padding: 32px 0 64px; }
+    section {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 10px 26px rgba(15, 23, 42, 0.04);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 14px;
+    }
+    th, td {
+      text-align: left;
+      vertical-align: top;
+      padding: 14px;
+      border-bottom: 1px solid var(--line);
+    }
+    thead th {
+      background: #edf4fb;
+      font-size: 14px;
+    }
+    ul, ol {
+      margin: 0 0 16px;
+      padding-left: 22px;
+    }
+    li { margin-bottom: 10px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: #f8fbff;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 18px;
+    }
+    .note {
+      background: var(--alert);
+      border: 1px solid var(--alert-line);
+      border-radius: 14px;
+      padding: 16px;
+    }
+    .faq-item {
+      border-top: 1px solid var(--line);
+      padding: 18px 0 0;
+      margin-top: 18px;
+    }
+    .faq-item:first-of-type {
+      border-top: none;
+      padding-top: 0;
+      margin-top: 0;
+    }
+    .cta {
+      background: linear-gradient(135deg, #0f4c81 0%, #0b2e4f 100%);
+      color: #ffffff;
+    }
+    .cta p, .cta li, .cta h2 { color: #ffffff; }
+    .button {
+      display: inline-block;
+      margin-top: 8px;
+      padding: 12px 18px;
+      border-radius: 10px;
+      background: #ffffff;
+      color: var(--brand-dark);
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .small { font-size: 14px; color: var(--muted); }
+    footer { padding-bottom: 56px; }
+    @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }
+    @media (max-width: 700px) { section { padding: 22px; } th, td { padding: 12px; } }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <span class="eyebrow">Deferred Compensation QDRO Guide</span>
+      <h1>ModernaTX, Inc. 401(k) Plan: QDRO Guide for Divorce</h1>
+      <p class="lead">If a divorce involves Moderna retirement benefits, the first thing to confirm is the exact legal plan name. The Form 5500-registered name is "ModernaTX, Inc. 401(K) Plan" — some third-party sources call it "Moderna Inc. 401(k) Plan." Using the wrong name in a QDRO can cause delays or rejection. This guide covers what is known and where the gaps are.</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <section aria-labelledby="plan-overview">
+        <h2 id="plan-overview">Plan Overview</h2>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Item</th>
+              <th scope="col">Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Plan name (Form 5500)</td>
+              <td>ModernaTX, Inc. 401(K) Plan</td>
+            </tr>
+            <tr>
+              <td>Plan sponsor</td>
+              <td>ModernaTX, Inc.</td>
+            </tr>
+            <tr>
+              <td>Sponsor EIN (Form 5500)</td>
+              <td>27-0226313</td>
+            </tr>
+            <tr>
+              <td>Plan type</td>
+              <td>401(k) defined contribution plan with Roth 401(k) and profit-sharing features</td>
+            </tr>
+            <tr>
+              <td>Active participants (Form 5500)</td>
+              <td>Approximately 4,822</td>
+            </tr>
+            <tr>
+              <td>Total participants beginning of year (Form 5500)</td>
+              <td>5,547</td>
+            </tr>
+            <tr>
+              <td>Recordkeeper (third-party sources)</td>
+              <td>John Hancock — not confirmed from official plan documents; verify before relying on this</td>
+            </tr>
+            <tr>
+              <td>Contact (third-party source)</td>
+              <td>617-218-1567 — unverified from official source</td>
+            </tr>
+            <tr>
+              <td>Plan name discrepancy</td>
+              <td>Third-party sources sometimes use "Moderna Inc. 401(k) Plan" — confirm exact current name with administrator</td>
+            </tr>
+            <tr>
+              <td>Public model QDRO located?</td>
+              <td>No official public model QDRO identified for this plan</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="note" style="margin-top:18px;">
+          <strong>Data source note:</strong> Plan name, EIN, participant count, and feature codes are from the DOL Form 5500 database. Recordkeeper identity and contact information are from third-party directories and have not been independently verified from official plan documents. The minor decrease in participant count between periods likely reflects normal workforce turnover at a biopharmaceutical company that saw significant hiring during COVID-19 vaccine production.
+        </div>
+      </section>
+
+      <section aria-labelledby="plan-name">
+        <h2 id="plan-name">The Plan Name Issue</h2>
+        <p>The plan is registered with the Department of Labor under the name <strong>ModernaTX, Inc. 401(K) Plan</strong>. The company trades publicly as Moderna, Inc. (NASDAQ: MRNA), and many sources use "Moderna Inc. 401(k) Plan" or "Moderna, Inc. 401(k) Plan" interchangeably. These name variations may refer to the same plan — but a QDRO should identify the plan precisely.</p>
+        <p>The safest approach: obtain the participant's most recent benefit statement or summary plan description, which will state the exact plan name as maintained by the current plan administrator. Use that name in the QDRO, not a variation from a directory or news source.</p>
+      </section>
+
+      <section aria-labelledby="divorce">
+        <h2 id="divorce">401(k) Plans in Divorce</h2>
+        <p>The ModernaTX, Inc. 401(k) Plan is a defined contribution plan. Each participant maintains an individual account that grows through pre-tax deferrals, Roth deferrals, employer matching contributions, and investment returns. In divorce, the account balance can be divided by dollar amount, percentage, or a formula referencing a specified valuation date.</p>
+        <p>The Form 5500 filing includes benefit code 2S (Roth 401(k)), which means some participants may hold both pre-tax and Roth money in the same plan. The tax treatment of Roth and pre-tax balances differs at distribution, so the QDRO should address each source if both are present — avoiding ambiguity during implementation.</p>
+        <p>The marital portion of the account is generally the amount that accrued during the marriage. A time-based formula comparing months of marriage during plan participation to total participation months is one way to analyze the marital share — but that is an analytical step, not the distribution method. The QDRO specifies the actual award; the administrator applies the plan's procedures to implement it.</p>
+      </section>
+
+      <section aria-labelledby="requirements">
+        <h2 id="requirements">QDRO Requirements</h2>
+        <p>A domestic relations order for the ModernaTX, Inc. 401(k) Plan must satisfy ERISA's requirements and the plan's qualification procedures. At minimum:</p>
+        <ul>
+          <li>Identify the plan by its exact legal name (confirm current name with the administrator).</li>
+          <li>Identify the participant and alternate payee with sufficient specificity.</li>
+          <li>State the amount, percentage, or formula for the alternate payee's share.</li>
+          <li>Specify the valuation date.</li>
+          <li>Address investment gains and losses between the valuation date and segregation.</li>
+          <li>Address Roth and pre-tax sub-accounts if the participant has both.</li>
+          <li>Address any outstanding plan loan balance if applicable.</li>
+          <li>Avoid requiring any benefit not available under the plan.</li>
+        </ul>
+        <div class="note">
+          <strong>Practice point:</strong> No official public model QDRO was found for this plan in the research used for this page. Contact the plan recordkeeper (reportedly John Hancock at 617-218-1567 — verify with Moderna's benefits department) for current procedures and any available model language before court entry.
+        </div>
+      </section>
+
+      <section aria-labelledby="formulas">
+        <h2 id="formulas">Division Formulas</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Percentage formula</h3>
+            <p>The alternate payee receives a specified percentage of the vested account balance as of the valuation date, adjusted for gains and losses until actual segregation. This is the most common approach for 401(k) accounts with an ascertainable balance.</p>
+          </div>
+          <div class="card">
+            <h3>Fixed dollar formula</h3>
+            <p>A specific dollar amount can be awarded. The order should still say whether gains and losses apply after the valuation date to avoid implementation disputes.</p>
+          </div>
+          <div class="card">
+            <h3>Roth and pre-tax source treatment</h3>
+            <p>If the participant holds both Roth and pre-tax dollars in the plan, the QDRO should state explicitly how each source is allocated. A pro-rata split across all sources in proportion to the overall percentage is a clean approach.</p>
+          </div>
+          <div class="card">
+            <h3>Gains and losses</h3>
+            <p>A 401(k) account can move significantly between the valuation date and the date the plan administrator actually segregates the alternate payee's share. The order should clearly address this to avoid a dispute over whether the alternate payee shares in market movements during the review period.</p>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="steps">
+        <h2 id="steps">Steps to Divide the ModernaTX 401(k)</h2>
+        <ol>
+          <li>Confirm the exact current plan name from the participant's benefit statement or the plan's current summary plan description.</li>
+          <li>Verify the current recordkeeper and QDRO procedures directly with Moderna's benefits department.</li>
+          <li>Obtain the latest account statement showing all sub-account balances (pre-tax, Roth, employer match, loans if any).</li>
+          <li>Determine the division method and valuation date.</li>
+          <li>Draft the QDRO addressing award formula, valuation date, gains/losses, and source-level treatment of Roth and pre-tax balances.</li>
+          <li>Submit for administrator pre-review if possible before court entry.</li>
+          <li>After court entry, submit the certified signed order and track through until the alternate payee's account is confirmed segregated.</li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="mistakes">
+        <h2 id="mistakes">Common Mistakes</h2>
+        <ul>
+          <li><strong>Using the wrong plan name:</strong> "Moderna Inc." and "ModernaTX, Inc." are not interchangeable in a legal document. Use the exact name confirmed by the current plan administrator.</li>
+          <li><strong>Ignoring Roth sub-accounts:</strong> If the participant holds Roth money in the plan, the order must address it. Generic orders often miss this.</li>
+          <li><strong>Leaving gains and losses unstated:</strong> Account balances move during the QDRO review period. Silence creates disputes.</li>
+          <li><strong>Using unverified contact information:</strong> The John Hancock contact (617-218-1567) is from third-party sources. Confirm directly with Moderna before submitting a QDRO.</li>
+          <li><strong>Skipping administrator pre-review:</strong> Without a public model QDRO, a draft review through the administrator before court entry can prevent rejection and amendments.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="research">
+        <h2 id="research">Source and Research Quality</h2>
+        <p>Plan name, EIN, participant count, and benefit feature codes are from the DOL Form 5500 database — the official federal filing. These are the most reliable publicly available facts about this plan short of obtaining the plan document itself.</p>
+        <p>Recordkeeper identity (John Hancock at 617-218-1567) and the plan name variant ("Moderna Inc. 401(k) Plan") come exclusively from third-party directories (meetbeagle.com, theretirementgroup.com). These sources are secondary and have not been cross-checked against official Moderna plan documents. No official SPD, model QDRO, or Moderna-published QDRO procedure document was identified in the research for this page. Practitioners should contact Moderna's benefits department directly to confirm current recordkeeper identity, exact plan name, and applicable QDRO procedures.</p>
+      </section>
+
+      <section aria-labelledby="faq">
+        <h2 id="faq">Frequently Asked Questions</h2>
+        <div class="faq-item">
+          <h3>What is the correct plan name for a Moderna QDRO?</h3>
+          <p>The Form 5500-registered name is <strong>ModernaTX, Inc. 401(K) Plan</strong>. Third-party sources sometimes use "Moderna Inc." — confirm the exact current legal name with the plan administrator before drafting.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Does the ModernaTX 401(k) require a QDRO?</h3>
+          <p>Yes. An ERISA-qualified 401(k) cannot be divided by a divorce decree alone. A qualifying domestic relations order is required before the plan will pay any benefit to an alternate payee.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Who is the plan recordkeeper?</h3>
+          <p>Third-party sources say John Hancock at 617-218-1567. This has not been confirmed from an official Moderna plan document. Verify with Moderna's benefits department before drafting or submitting anything.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Does the plan include Roth 401(k) contributions?</h3>
+          <p>Yes — the Form 5500 benefit codes include code 2S (Roth 401(k) feature). If the participant has Roth and pre-tax contributions, the QDRO should address both to avoid implementation ambiguity.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Was an official model QDRO available for this plan?</h3>
+          <p>No official public model QDRO for the ModernaTX, Inc. 401(K) Plan was found in the research for this page. Request current QDRO procedures directly from the plan recordkeeper.</p>
+        </div>
+      </section>
+
+      <section class="cta" aria-labelledby="cta">
+        <h2 id="cta">Need help with a ModernaTX 401(k) QDRO?</h2>
+        <p>LexyAlgo helps law firms and divorcing parties draft plan-specific retirement division documents. Start with the right plan name, verified plan data, and a template designed for defined contribution plans with Roth components.</p>
+        <a class="button" href="https://www.lexyalgo.com/">Visit LexyAlgo</a>
+      </section>
+
+      <section aria-labelledby="disclaimer">
+        <h2 id="disclaimer">Disclaimer</h2>
+        <p>This page provides general educational information about the ModernaTX, Inc. 401(K) Plan in the context of divorce. It does not constitute legal, tax, or investment advice. Plan terms, administrative procedures, recordkeeper identity, and contact information can change. The official plan documents and administrator review process control over any summary on this page. Before submitting any domestic relations order, confirm the current plan name, recordkeeper, and requirements directly with Moderna's benefits department.</p>
+        <p class="small">Plan identification data from the U.S. Department of Labor Form 5500 database. Author: William Peacock — <a href="https://www.linkedin.com/in/williampeacock">LinkedIn profile</a>. Page generated: April 4, 2026.</p>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="container">
+    <p class="small">© LexyAlgo</p>
+  </footer>
+</body>
+</html>

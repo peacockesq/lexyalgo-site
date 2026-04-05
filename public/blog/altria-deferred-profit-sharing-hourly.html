@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Altria Deferred Profit-Sharing Plan (Hourly) QDRO Guide | LexyAlgo</title>
+  <meta name="description" content="How to divide the Altria Deferred Profit-Sharing Plan for Hourly Employees in divorce. Fidelity QDRO procedures, Form 5500 plan data, and drafting requirements." />
+  <link rel="canonical" href="https://www.lexyalgo.com/retirement-plans/deferred-compensation/altria-deferred-profit-sharing-hourly" />
+  <meta name="author" content="William Peacock" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.linkedin.com/in/williampeacock#person",
+        "name": "William Peacock",
+        "url": "https://www.linkedin.com/in/williampeacock"
+      },
+      {
+        "@type": "Article",
+        "headline": "Altria Deferred Profit-Sharing Plan for Hourly Employees — QDRO Guide",
+        "description": "A practical guide to dividing the Altria Deferred Profit-Sharing Plan for Hourly Employees in divorce. Covers Form 5500 data, Fidelity QDRO procedures, division formulas, and drafting requirements.",
+        "author": { "@id": "https://www.linkedin.com/in/williampeacock#person" },
+        "publisher": { "@type": "Organization", "name": "LexyAlgo" },
+        "mainEntityOfPage": "https://www.lexyalgo.com/retirement-plans/deferred-compensation/altria-deferred-profit-sharing-hourly"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Does the Altria Deferred Profit-Sharing Plan for Hourly Employees require a QDRO?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. This is a qualified ERISA plan. A divorce judgment or settlement agreement alone does not authorize the plan to distribute benefits to an alternate payee. A Qualified Domestic Relations Order must be prepared, submitted to Fidelity's QDRO Center, and accepted before any distribution can occur."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What is the recordkeeper for the Altria Hourly Profit-Sharing Plan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Fidelity Investments serves as the recordkeeper. QDRO procedures are available through Fidelity's online QDRO Center at qdro.fidelity.com, which offers a plan-specific drafting tool and publishes the plan's QDRO Approval Guidelines and Procedures."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How long does Fidelity take to review a QDRO for this plan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "For defined contribution plans, Fidelity typically reviews QDROs prepared through the online QDRO Center within 10 business days. Orders drafted manually or altered from the Fidelity-generated template can take up to 60 business days for review."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How large is this plan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "According to the SEC Form 11-K filed for fiscal year ended December 31, 2024, the plan had net assets available for benefits of approximately $962 million. The Form 5500 lists approximately 1,644 active participants. The plan also holds interests in two Master Trusts administered through Altria's benefits structure."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is there an Altria salaried version of this plan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Altria maintains separate deferred profit-sharing plans for hourly and salaried employees. A QDRO must identify the correct plan. This page covers the Deferred Profit-Sharing Plan for Hourly Employees specifically."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #f5f7fb; --surface: #ffffff; --text: #1f2937; --muted: #667085;
+      --line: #d9e2f0; --brand: #0f4c81; --brand-dark: #0b2e4f;
+      --accent: #e8f1fb; --alert: #fff4e5; --alert-line: #f3c98b;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: var(--bg); color: var(--text); line-height: 1.65; }
+    a { color: var(--brand); }
+    .container { width: min(1120px, calc(100% - 32px)); margin: 0 auto; }
+    header.hero { background: linear-gradient(135deg, #eef6ff 0%, #ffffff 62%); border-bottom: 1px solid var(--line); padding: 56px 0 42px; }
+    .eyebrow { display: inline-block; padding: 7px 12px; border-radius: 999px; background: var(--accent); color: var(--brand-dark); text-transform: uppercase; font-size: 12px; font-weight: 700; letter-spacing: 0.06em; }
+    h1, h2, h3 { line-height: 1.2; margin: 0 0 16px; }
+    h1 { font-size: clamp(30px, 5vw, 50px); margin-top: 16px; max-width: 900px; }
+    h2 { font-size: 28px; } h3 { font-size: 20px; }
+    p { margin: 0 0 16px; }
+    .lead { font-size: 18px; color: #334155; max-width: 900px; }
+    main { padding: 32px 0 64px; }
+    section { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 28px; margin-bottom: 24px; box-shadow: 0 10px 26px rgba(15,23,42,0.04); }
+    table { width: 100%; border-collapse: collapse; margin-top: 14px; }
+    th, td { text-align: left; vertical-align: top; padding: 14px; border-bottom: 1px solid var(--line); }
+    thead th { background: #edf4fb; font-size: 14px; }
+    ul, ol { margin: 0 0 16px; padding-left: 22px; }
+    li { margin-bottom: 10px; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+    .card { background: #f8fbff; border: 1px solid var(--line); border-radius: 14px; padding: 18px; }
+    .note { background: var(--alert); border: 1px solid var(--alert-line); border-radius: 14px; padding: 16px; margin-top: 16px; }
+    .faq-item { border-top: 1px solid var(--line); padding: 18px 0 0; margin-top: 18px; }
+    .faq-item:first-of-type { border-top: none; padding-top: 0; margin-top: 0; }
+    .cta { background: linear-gradient(135deg, #0f4c81 0%, #0b2e4f 100%); color: #fff; }
+    .cta p, .cta li, .cta h2 { color: #fff; }
+    .button { display: inline-block; margin-top: 8px; padding: 12px 18px; border-radius: 10px; background: #fff; color: var(--brand-dark); text-decoration: none; font-weight: 700; }
+    .small { font-size: 14px; color: var(--muted); }
+    footer { padding-bottom: 56px; }
+    @media (max-width: 860px) { .grid { grid-template-columns: 1fr; } }
+    @media (max-width: 700px) { section { padding: 22px; } th, td { padding: 12px; } }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <span class="eyebrow">Deferred Compensation QDRO Guide</span>
+      <h1>Deferred Profit-Sharing Plan for Hourly Employees (Altria) — Divorce &amp; QDRO Guide</h1>
+      <p class="lead">The Deferred Profit-Sharing Plan for Hourly Employees is a substantial defined contribution plan sponsored by Altria Client Services LLC with approximately $962 million in plan assets and approximately 1,644 active participants. Fidelity Investments serves as the recordkeeper, and QDRO procedures are available through Fidelity's online QDRO Center. This page covers what you need to know before drafting a QDRO for this plan.</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <section aria-labelledby="plan-overview">
+        <h2 id="plan-overview">Plan Overview</h2>
+        <table>
+          <thead><tr><th scope="col">Item</th><th scope="col">Details</th></tr></thead>
+          <tbody>
+            <tr><td>Plan name</td><td>Deferred Profit-Sharing Plan for Hourly Employees</td></tr>
+            <tr><td>Sponsor</td><td>Altria Client Services LLC</td></tr>
+            <tr><td>Parent company</td><td>Altria Group, Inc. — 6601 West Broad Street, Richmond, Virginia 23230</td></tr>
+            <tr><td>Sponsor EIN</td><td>47-2929146</td></tr>
+            <tr><td>Plan administrator (Form 5500)</td><td>Thomas H. Watson, Plan Administrator (EIN 88-1380953)</td></tr>
+            <tr><td>Plan type</td><td>Defined contribution — 401(k)/profit-sharing</td></tr>
+            <tr><td>Active participants (Form 5500)</td><td>Approximately 1,644</td></tr>
+            <tr><td>Plan net assets (2024 Form 11-K)</td><td>Approximately $962 million</td></tr>
+            <tr><td>Recordkeeper</td><td>Fidelity Investments</td></tr>
+            <tr><td>Fidelity QDRO Center</td><td>qdro.fidelity.com</td></tr>
+            <tr><td>Altria Group Benefits Center</td><td>(800) 872-3777</td></tr>
+            <tr><td>Auditor (Form 11-K)</td><td>PricewaterhouseCoopers LLP, Richmond, VA</td></tr>
+            <tr><td>Related plan to distinguish</td><td>Deferred Profit-Sharing Plan for Salaried Employees (separate plan)</td></tr>
+          </tbody>
+        </table>
+        <div class="note">
+          <strong>Data sources:</strong> Form 5500 (DOL), SEC Form 11-K for fiscal year ended December 31, 2024 (official). Net asset figures from the annual SEC filing. Participant counts from Form 5500. Fidelity recordkeeper role confirmed through multiple sources.
+        </div>
+      </section>
+
+      <section aria-labelledby="plan-structure">
+        <h2 id="plan-structure">Plan Structure</h2>
+        <p>The Deferred Profit-Sharing Plan for Hourly Employees is a large, well-documented defined contribution plan. The plan holds interests in two Master Trusts — Master Trust A and Master Trust B — which are pooled investment vehicles used across multiple Altria employee benefit plans. As of December 31, 2024, the plan's interests in these Master Trusts totaled approximately $768 million at fair value, with an additional approximately $154 million in fully benefit-responsive investment contracts (stable value). Total net assets were approximately $962 million.</p>
+        <p>Participants contribute through pre-tax payroll deferrals. Altria (through Altria Client Services LLC) makes employer contributions, which may include a match or profit-sharing allocations. The plan also carries participant loan balances — approximately $19.5 million in notes receivable from participants as of December 31, 2024 — which must be addressed in any QDRO.</p>
+        <p><strong>Note:</strong> This is the hourly plan. Altria maintains a separate Deferred Profit-Sharing Plan for Salaried Employees. The two plans are distinct and a QDRO must name the correct one.</p>
+      </section>
+
+      <section aria-labelledby="divorce">
+        <h2 id="divorce">Dividing This Plan in Divorce</h2>
+        <p>As a defined contribution plan, the Altria hourly profit-sharing plan divides the same way as a standard 401(k): the marital portion of the account balance is identified, a QDRO awards the alternate payee a percentage or dollar amount, and the plan segregates the alternate payee's share into a separate account or distributes it.</p>
+        <h3>The Marital Portion</h3>
+        <p>The portion of the account that accrued during the marriage is generally considered marital property. If the participant had a premarital account balance, the parties may use historical account records — available from Fidelity — to trace the separate property portion. State law controls what counts as marital versus separate property, and outcomes can vary significantly by jurisdiction.</p>
+        <h3>Outstanding Loans</h3>
+        <p>The plan carries a meaningful participant loan portfolio. If the participant has an outstanding loan, the account balance shown on statements reflects the gross balance before the loan. The QDRO should address whether the alternate payee's share is calculated based on the gross balance or the net-of-loan balance. Leaving this ambiguous can result in a rejection or a revision request from Fidelity.</p>
+        <div class="note">
+          <strong>Coverture fractions and profit-sharing plans:</strong> A coverture fraction is an analytical tool used to calculate the marital share of an account. It is not itself a distribution method. The QDRO specifies the award; the plan administrator (via Fidelity) calculates the dollar value. Parties with significant premarital balances to trace may find a marital-share formula more appropriate than a straight percentage award.
+        </div>
+      </section>
+
+      <section aria-labelledby="requirements">
+        <h2 id="requirements">QDRO Requirements and Fidelity Procedures</h2>
+        <p>Fidelity Investments maintains a dedicated online QDRO Center for this plan at <strong>qdro.fidelity.com</strong>. The QDRO Center provides:</p>
+        <ul>
+          <li>The plan's specific QDRO Approval Guidelines and Procedures</li>
+          <li>A step-by-step drafting tool that generates a plan-compliant order</li>
+          <li>FAQs and a glossary of terms</li>
+        </ul>
+        <p>Fidelity's review timeline:</p>
+        <ul>
+          <li>Orders prepared using the Fidelity QDRO Center: typically reviewed within <strong>10 business days</strong></li>
+          <li>Orders drafted manually or altered from the generated template: up to <strong>60 business days</strong></li>
+        </ul>
+        <p>At a minimum, the QDRO must:</p>
+        <ul>
+          <li>Identify the plan by exact name: <strong>Deferred Profit-Sharing Plan for Hourly Employees</strong>.</li>
+          <li>Identify the participant and alternate payee with sufficient specificity.</li>
+          <li>State the amount, percentage, or formula for the alternate payee's award.</li>
+          <li>Specify the valuation date.</li>
+          <li>Address gains and losses after the valuation date.</li>
+          <li>Address outstanding loan treatment.</li>
+          <li>Address whether pre-tax and any Roth/after-tax sources are divided pro rata or otherwise.</li>
+          <li>Not require any benefit or form of payment not available under the plan.</li>
+        </ul>
+        <div class="note">
+          <strong>Use Fidelity's QDRO Center:</strong> For this plan, the Fidelity QDRO Center at qdro.fidelity.com is the most efficient and reliable starting point. Using the plan-specific tool reduces rejection risk and speeds up the review process. The platform provides the plan's QDRO Approval Guidelines, which are the authoritative source for Fidelity's requirements.
+        </div>
+      </section>
+
+      <section aria-labelledby="formulas">
+        <h2 id="formulas">Division Formulas</h2>
+        <div class="grid">
+          <div class="card">
+            <h3>Percentage of vested account balance</h3>
+            <p>The most common method. The alternate payee receives a stated percentage of the participant's vested account balance as of the valuation date, adjusted for investment gains and losses until segregation. Example: "50% of the participant's vested account balance as of [date], adjusted for earnings and losses thereafter until segregated."</p>
+          </div>
+          <div class="card">
+            <h3>Fixed dollar award</h3>
+            <p>A specific dollar amount as of the valuation date. Should explicitly state whether the amount is adjusted for investment experience after the valuation date. Given the plan's Master Trust structure and pooled investments, gains and losses can be meaningful.</p>
+          </div>
+          <div class="card">
+            <h3>Loan-adjusted basis</h3>
+            <p>With roughly $19.5 million in plan-wide participant loans outstanding, loan treatment is not hypothetical. The QDRO should specify whether the alternate payee's share is based on the gross account balance (before deducting the loan) or the net balance. Fidelity's QDRO Center will prompt for this.</p>
+          </div>
+          <div class="card">
+            <h3>Source-specific allocation</h3>
+            <p>If the account contains both pre-tax deferrals and any Roth or after-tax sources, the order should state whether each source is divided at the same percentage or allocated differently. Pro rata across all sources is the common default.</p>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="steps">
+        <h2 id="steps">Steps to Divide the Altria Hourly Profit-Sharing Plan</h2>
+        <ol>
+          <li>Access Fidelity's QDRO Center at <strong>qdro.fidelity.com</strong> and locate the Deferred Profit-Sharing Plan for Hourly Employees by name or Altria's EIN.</li>
+          <li>Review the plan's QDRO Approval Guidelines and Procedures available on the Fidelity platform.</li>
+          <li>Obtain the participant's current account statement showing balance, loan balances, and account sources (pre-tax, Roth, employer contributions).</li>
+          <li>Determine the division method, valuation date, and loan treatment consistent with the divorce settlement.</li>
+          <li>Use the Fidelity QDRO Center drafting tool to generate the order, or draft manually using the plan's guidelines — understanding that manual drafts face a longer review window.</li>
+          <li>Submit for court entry after review, then send the certified signed order to Fidelity for qualification.</li>
+          <li>Follow up with Fidelity to confirm qualification and monitor the segregation of the alternate payee's share.</li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="mistakes">
+        <h2 id="mistakes">Common Mistakes</h2>
+        <ul>
+          <li><strong>Naming the wrong plan:</strong> Using "Altria Deferred Profit-Sharing Plan" without specifying "Hourly" risks mismatch with the salaried plan.</li>
+          <li><strong>Ignoring the loan balance:</strong> A significant participant loan can substantially affect net account value. Not addressing it creates implementation disputes.</li>
+          <li><strong>Not using the Fidelity QDRO Center:</strong> Fidelity has a purpose-built tool for this plan. Using a generic template instead of the platform-generated order adds processing time and rejection risk.</li>
+          <li><strong>Omitting gains and losses language:</strong> The plan's Master Trust investments produce ongoing gains and losses. The QDRO must say whether the alternate payee's share tracks those changes.</li>
+          <li><strong>Confusing this with the salaried plan:</strong> Altria maintains a separate plan for salaried employees. The hourly and salaried plans are distinct ERISA plans with their own Form 5500 filings.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="research">
+        <h2 id="research">Source and Procedure Quality Assessment</h2>
+        <p>This is the best-sourced plan in Batch B. Three independent source categories confirm key facts. The Department of Labor Form 5500 (official) establishes the plan name, sponsor (Altria Client Services LLC), EIN (47-2929146), plan administrator (Thomas H. Watson), and active participant count (~1,644). The SEC Form 11-K for fiscal year ended December 31, 2024 (official government filing) provides audited financial data: net assets of approximately $962 million, Master Trust A and B participation, participant loan balances, and PricewaterhouseCoopers as auditor since at least 1994. Third-party sources (TheRetirementGroup.com, Fidelity's platform) corroborate the Fidelity recordkeeper role and QDRO Center availability.</p>
+        <p>The main gap is that the actual QDRO Approval Guidelines document from Fidelity's QDRO Center was not retrieved and reviewed for this page. The procedural detail above reflects general Fidelity defined contribution QDRO practice, not the plan-specific Fidelity approval document. Drafters should access qdro.fidelity.com and review the actual guidelines before drafting.</p>
+      </section>
+
+      <section aria-labelledby="faq">
+        <h2 id="faq">FAQ</h2>
+        <div class="faq-item">
+          <h3>Does this plan require a QDRO for divorce division?</h3>
+          <p>Yes. It is a qualified ERISA plan. The plan cannot distribute benefits to an alternate payee without a QDRO accepted by Fidelity as the recordkeeper and plan administrator.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Who is the recordkeeper and how do I submit a QDRO?</h3>
+          <p>Fidelity Investments. Submit through Fidelity's QDRO Center at qdro.fidelity.com. Using the plan-specific drafting tool on that platform reduces rejection risk and speeds up review.</p>
+        </div>
+        <div class="faq-item">
+          <h3>How large is this plan?</h3>
+          <p>Approximately $962 million in net assets as of December 31, 2024, per the plan's SEC Form 11-K. Approximately 1,644 active participants per the Form 5500.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Is this the same as the Altria salaried profit-sharing plan?</h3>
+          <p>No. Altria maintains separate plans for hourly and salaried employees. They are distinct ERISA plans with different Form 5500 filings. A QDRO must name the correct plan.</p>
+        </div>
+        <div class="faq-item">
+          <h3>What happens to an outstanding participant loan in the QDRO?</h3>
+          <p>The QDRO should address it explicitly. Specify whether the alternate payee's percentage or dollar award is calculated before or after deducting the loan balance. Fidelity's QDRO Center will prompt for this choice when generating the order.</p>
+        </div>
+      </section>
+
+      <section class="cta" aria-labelledby="cta">
+        <h2 id="cta">Need help with an Altria profit-sharing QDRO?</h2>
+        <p>LexyAlgo helps law firms and divorcing parties prepare plan-accurate retirement division orders. For Fidelity-administered plans, start with the plan-specific procedures before drafting — it saves time and avoids costly rejections.</p>
+        <a class="button" href="https://www.lexyalgo.com/">Visit LexyAlgo</a>
+      </section>
+
+      <section aria-labelledby="disclaimer">
+        <h2 id="disclaimer">Disclaimer</h2>
+        <p>This page is general educational information, not legal, tax, or investment advice. Plan terms, administrative procedures, and contact channels can change. The net asset figures are from the annual Form 11-K filing for the fiscal year ended December 31, 2024 and reflect plan-year data, not current values. Before drafting or submitting any domestic relations order, access the current QDRO Approval Guidelines at qdro.fidelity.com and confirm the participant's current account information.</p>
+        <p class="small">Author: William Peacock — <a href="https://www.linkedin.com/in/williampeacock">LinkedIn profile</a>.</p>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="container">
+    <p class="small">© LexyAlgo</p>
+  </footer>
+</body>
+</html>
