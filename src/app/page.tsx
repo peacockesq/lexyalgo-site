@@ -2,6 +2,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { WaitlistForm } from '@/components/WaitlistForm'
 
+const TRY_NOW_FREE_URL = 'https://doc.lexyalgo.com/interview?i=docassemble.EstatePlanning:data/questions/estate_planning.yml'
+
 const divorceProducts = [
   {
     name: 'Divorce Forms',
@@ -76,10 +78,10 @@ const estatePlanningProduct = {
 }
 
 const trustBadges = [
-  { label: '8-State Attorney', detail: 'Built by a licensed attorney' },
-  { label: 'Court-Form Driven', detail: 'Uses actual court forms' },
-  { label: 'Attorney-Built', detail: 'Licensed in 8 states' },
-  { label: 'Free Calculators', detail: 'No account required' },
+  { label: '7 Products', detail: 'From calculators to filing' },
+  { label: 'Divorce + Estate', detail: 'Two lanes, one platform' },
+  { label: 'Attorney-Built', detail: 'Designed by a licensed attorney' },
+  { label: 'Free Entry Points', detail: 'Calculators and beta tools live now' },
 ]
 
 const steps = [
@@ -133,33 +135,100 @@ export default function HomePage() {
     <>
       <section className="relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-teal-light/40 via-white to-peach/20" />
-        <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8 lg:py-40">
-          <div className="max-w-3xl">
-            <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-teal-light px-4 py-1.5">
-              <span className="h-2 w-2 animate-pulse rounded-full bg-green-500" />
-              <span className="text-sm font-semibold text-teal">Live Now — Free Calculators</span>
+        <div className="absolute inset-y-0 right-0 hidden w-1/2 bg-[radial-gradient(circle_at_top,_rgba(176,39,0,.10),_transparent_55%)] lg:block" />
+        <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8 lg:py-28">
+          <div className="grid items-center gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:gap-12">
+            <div className="max-w-3xl">
+              <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-teal-light px-4 py-1.5">
+                <span className="h-2 w-2 animate-pulse rounded-full bg-green-500" />
+                <span className="text-sm font-semibold text-teal">Live now: free calculators + estate planning beta</span>
+              </div>
+              <h1 className="font-[family-name:var(--font-space)] text-4xl font-bold leading-tight text-slate-900 sm:text-5xl lg:text-6xl">
+                One platform for divorce and estate planning,
+                <span className="text-teal"> built to lower the cost of getting it done right.</span>
+              </h1>
+              <p className="mt-6 max-w-2xl text-lg leading-relaxed text-slate-600 sm:text-xl">
+                LexyAlgo brings together calculators, QDRO prep, divorce forms, asset division, co-parenting, e-filing, and estate planning, so families can start free, understand their options, and keep moving without getting buried in legal process.
+              </p>
+              <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
+                <Link
+                  href="/#products"
+                  className="inline-flex items-center justify-center rounded-2xl bg-primary-container px-8 py-4 font-semibold text-white shadow-lg shadow-primary-container/20 transition-all hover:bg-primary hover:shadow-xl hover:shadow-primary-container/30 active:scale-[0.98]"
+                >
+                  Explore all 7 tools
+                  <svg className="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
+                </Link>
+                <Link
+                  href={TRY_NOW_FREE_URL}
+                  className="inline-flex items-center justify-center rounded-2xl bg-white px-8 py-4 font-semibold text-slate-900 shadow-lg shadow-slate-200/70 ring-1 ring-slate-200 transition-all hover:-translate-y-0.5 hover:shadow-xl"
+                >
+                  Try it now free
+                </Link>
+                <Link
+                  href="/calculator"
+                  className="inline-flex items-center justify-center rounded-2xl border-2 border-slate-200 px-8 py-4 font-semibold text-slate-700 transition-all hover:border-slate-300 hover:bg-slate-50"
+                >
+                  Open calculators
+                </Link>
+              </div>
+              <p className="mt-4 text-sm text-slate-500">
+                Start with the live tools today, then move into documents, negotiation, filing, and family planning as new lanes launch.
+              </p>
             </div>
-            <h1 className="font-[family-name:var(--font-space)] text-4xl font-bold leading-tight text-slate-900 sm:text-5xl lg:text-6xl">
-              Divorce is hard.<br />
-              <span className="text-teal">Your tools shouldn&rsquo;t be.</span>
-            </h1>
-            <p className="mt-6 max-w-2xl text-lg leading-relaxed text-slate-600 sm:text-xl">
-              Free child support and retirement division calculators — built by an attorney licensed in 8 states. State-specific formulas, future-value timelines, and plain-English explanations. More tools coming soon.
-            </p>
-            <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-              <Link
-                href="/#products"
-                className="inline-flex items-center justify-center rounded-2xl bg-primary-container px-8 py-4 font-semibold text-white shadow-lg shadow-primary-container/20 transition-all hover:bg-primary hover:shadow-xl hover:shadow-primary-container/30 active:scale-[0.98]"
-              >
-                Find your solution
-                <svg className="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
-              </Link>
-              <Link
-                href="/calculator"
-                className="inline-flex items-center justify-center rounded-2xl border-2 border-slate-200 px-8 py-4 font-semibold text-slate-700 transition-all hover:border-slate-300 hover:bg-slate-50"
-              >
-                Open calculators
-              </Link>
+
+            <div className="relative mx-auto w-full max-w-2xl">
+              <div className="overflow-hidden rounded-[2rem] border border-white/70 bg-white/80 p-3 shadow-2xl shadow-slate-300/40 backdrop-blur">
+                <div className="flex items-center gap-1.5 border-b border-slate-200 bg-slate-100 px-4 py-2">
+                  <div className="h-2 w-2 rounded-full bg-red-400/80" />
+                  <div className="h-2 w-2 rounded-full bg-yellow-400/80" />
+                  <div className="h-2 w-2 rounded-full bg-green-400/80" />
+                  <div className="ml-3 flex h-4 max-w-[220px] flex-1 items-center rounded border border-slate-200 bg-white px-2">
+                    <span className="text-[10px] text-slate-400">app.lexyalgo.com</span>
+                  </div>
+                </div>
+                <Image
+                  src="/screenshots/v2-app-homepage.png"
+                  alt="LexyAlgo platform preview showing divorce forms and asset division"
+                  width={900}
+                  height={620}
+                  className="block h-auto w-full rounded-[1.4rem]"
+                  priority
+                />
+              </div>
+
+              <div className="mt-6 flex flex-col gap-4 sm:flex-row lg:absolute lg:-bottom-8 lg:-right-6 lg:mt-0 lg:w-[72%]">
+                <div className="flex-1 rounded-[1.75rem] border border-[color:rgba(46,107,79,.18)] bg-white/95 p-4 shadow-xl shadow-slate-300/30 backdrop-blur">
+                  <div className="mb-3 inline-flex items-center rounded-full bg-[color:rgba(46,107,79,.10)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-[color:#2E6B4F]">
+                    Co-Parent mobile
+                  </div>
+                  <div className="mx-auto max-w-[220px] overflow-hidden rounded-[1.75rem] border-8 border-slate-950 shadow-lg">
+                    <Image
+                      src="/screenshots/coparent-app.png"
+                      alt="Co-Parent mobile app preview"
+                      width={360}
+                      height={640}
+                      className="block h-auto w-full"
+                    />
+                  </div>
+                </div>
+                <div className="flex-1 rounded-[1.75rem] border border-slate-200 bg-white/95 p-6 shadow-xl shadow-slate-300/30 backdrop-blur">
+                  <p className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-500">What&apos;s live now</p>
+                  <div className="mt-4 space-y-3 text-sm text-slate-700">
+                    {[
+                      'Free calculators with state-specific logic',
+                      'Flat-fee QDRO services already serving clients',
+                      'Free estate planning beta on Docassemble',
+                    ].map((item) => (
+                      <div key={item} className="flex items-start gap-3">
+                        <div className="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-teal/10">
+                          <svg className="h-3 w-3 text-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>
+                        </div>
+                        <span>{item}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -400,8 +469,8 @@ export default function HomePage() {
               <Image
                 src="/screenshots/coparent-app.png"
                 alt="Co-Parent App — login and dashboard at kid.lexyalgo.com"
-                width={800}
-                height={540}
+                width={1280}
+                height={800}
                 className="block h-auto w-full"
               />
               <div className="border-t border-slate-100 bg-white px-4 py-2">
