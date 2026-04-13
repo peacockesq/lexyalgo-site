@@ -4,19 +4,28 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "tinacms dev -c \"next dev\"",
+    "build": "tinacms build --local --skip-cloud-checks && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "tsc --noEmit -p tsconfig.lint.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "next": "^16.2.1",
-    "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "@tailwindcss/typography": "^0.5.19",
+    "@tinacms/cli": "^2.2.1",
+    "fs-extra": "^11.3.4",
+    "gray-matter": "^4.0.3",
+    "next": "^16.2.3",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "slate": "^0.124.0",
+    "slate-dom": "^0.124.0",
+    "tinacms": "^3.7.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.2.2",

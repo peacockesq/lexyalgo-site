@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CGI 401(k) QDRO Guide | LexyAlgo</title>
+  <meta name="description" content="CGI 401(k) QDRO guide covering Roth and pre-tax balances, loans, valuation dates, separate-account treatment, and official SPD research." />
+  <link rel="canonical" href="https://www.lexyalgo.com/deferred-compensation/cgi-401k" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://www.linkedin.com/in/williampeacock#person",
+        "name": "William Peacock",
+        "url": "https://www.linkedin.com/in/williampeacock"
+      },
+      {
+        "@type": "Article",
+        "headline": "CGI Technologies and Solutions Inc. 401(k) Savings Plan QDRO Guide",
+        "description": "A practical guide to dividing the CGI Technologies and Solutions Inc. 401(k) Savings Plan in divorce, with drafting considerations for Roth and pre-tax balances, loans, valuation dates, and plan procedures.",
+        "author": {
+          "@id": "https://www.linkedin.com/in/williampeacock#person"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "LexyAlgo"
+        },
+        "mainEntityOfPage": "https://www.lexyalgo.com/deferred-compensation/cgi-401k"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Does the CGI Technologies and Solutions Inc. 401(k) Savings Plan require a QDRO for divorce division?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "In most divorce cases, yes. A 401(k) plan like this one generally needs a domestic relations order that satisfies ERISA and the plan's qualification procedures before an alternate payee can receive a share."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why should a CGI 401(k) QDRO address Roth and pre-tax balances separately?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Because the official SPD states that participants may make pre-tax 401(k) contributions and Roth 401(k) contributions. Clear source-level language helps preserve the intended tax character of the award."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How should loans be handled in a QDRO for this plan?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The order should say whether the awarded share is calculated using an account value that includes or excludes any outstanding participant loan. That avoids disputes over gross versus net account balance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can the alternate payee receive a separate account or rollover after approval?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Available secondary research indicates the plan typically establishes a separate account for the alternate payee and may allow an immediate rollover or lump-sum distribution after approval, subject to the plan's actual procedures at the time of review."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where can the parties get the plan's QDRO procedures?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The official summary plan description states that the administrator has procedures for determining whether an order qualifies and that a copy of those procedures may be obtained without charge from the service provider."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #f6f8fb;
+      --surface: #ffffff;
+      --text: #1f2937;
+      --muted: #667085;
+      --line: #d9e2ec;
+      --brand: #0f4c81;
+      --brand-dark: #0b355a;
+      --accent: #e6f0fb;
+      --warning: #fff7ed;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+    }
+    .container {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+    header.hero {
+      background: linear-gradient(135deg, #eef5fb 0%, #ffffff 62%);
+      border-bottom: 1px solid var(--line);
+      padding: 56px 0 40px;
+    }
+    .eyebrow {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: var(--brand-dark);
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+    h1, h2, h3 {
+      margin: 0 0 16px;
+      line-height: 1.2;
+    }
+    h1 {
+      font-size: clamp(32px, 5vw, 52px);
+      margin-top: 16px;
+    }
+    h2 {
+      font-size: 30px;
+      margin-bottom: 14px;
+    }
+    p {
+      margin: 0 0 16px;
+    }
+    .lead {
+      max-width: 880px;
+      font-size: 18px;
+      color: #374151;
+    }
+    main {
+      padding: 32px 0 64px;
+    }
+    section {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 10px 24px rgba(15, 23, 42, 0.04);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 16px;
+    }
+    thead th {
+      text-align: left;
+      background: #edf4fb;
+      padding: 14px;
+      border-bottom: 1px solid var(--line);
+      font-size: 14px;
+    }
+    tbody td {
+      padding: 14px;
+      border-bottom: 1px solid var(--line);
+      vertical-align: top;
+    }
+    tfoot td {
+      padding: 14px;
+      background: #f8fafc;
+      color: var(--muted);
+      font-size: 14px;
+    }
+    ul, ol {
+      margin: 0 0 16px;
+      padding-left: 22px;
+    }
+    li { margin-bottom: 10px; }
+    .note {
+      background: var(--warning);
+      border: 1px solid #fed7aa;
+      border-radius: 14px;
+      padding: 16px;
+    }
+    .faq-item {
+      border-top: 1px solid var(--line);
+      padding: 18px 0;
+    }
+    .faq-item:first-of-type {
+      border-top: none;
+      padding-top: 0;
+    }
+    .cta {
+      background: linear-gradient(135deg, #0f4c81 0%, #0b355a 100%);
+      color: #ffffff;
+    }
+    .cta p { color: rgba(255,255,255,0.92); }
+    .cta a {
+      display: inline-block;
+      color: #ffffff;
+      font-weight: 700;
+      text-decoration: none;
+      border: 1px solid rgba(255,255,255,0.35);
+      padding: 12px 18px;
+      border-radius: 10px;
+      margin-top: 4px;
+    }
+    a { color: var(--brand); }
+    .small {
+      font-size: 14px;
+      color: var(--muted);
+    }
+    footer {
+      padding: 0 0 56px;
+    }
+    @media (max-width: 700px) {
+      section { padding: 22px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <span class="eyebrow">Deferred Compensation QDRO Guide</span>
+      <h1>CGI Technologies and Solutions Inc. 401(k) Savings Plan</h1>
+      <p class="lead">If a divorce involves the CGI Technologies and Solutions Inc. 401(k) Savings Plan, the order should do more than split a number. The publicly available SPD confirms a real QDRO process and says procedures are available free from the service provider, while plan features like Roth contributions and participant loans make source-level drafting and valuation language especially important.</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section aria-labelledby="plan-overview">
+        <h2 id="plan-overview">Plan Overview</h2>
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Item</th>
+              <th scope="col">Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Plan name</td>
+              <td>CGI Technologies and Solutions Inc. 401(k) Savings Plan</td>
+            </tr>
+            <tr>
+              <td>Company</td>
+              <td>CGI</td>
+            </tr>
+            <tr>
+              <td>Plan type</td>
+              <td>401(k) defined contribution plan</td>
+            </tr>
+            <tr>
+              <td>Official public document found</td>
+              <td><a href="https://www.cgi.com/sites/default/files/2024-02/oe-2024-401k-summary-plan-description.pdf">CGI 401(k) Summary Plan Description</a></td>
+            </tr>
+            <tr>
+              <td>Known contribution sources</td>
+              <td>The SPD states participants may make pre-tax 401(k) contributions and Roth 401(k) contributions, and it also describes employer matching contributions.</td>
+            </tr>
+            <tr>
+              <td>Loan provisions</td>
+              <td>The SPD includes a dedicated loans section, so QDRO drafting should state how any outstanding participant loan affects the assigned share.</td>
+            </tr>
+            <tr>
+              <td>QDRO procedures</td>
+              <td>The SPD says the administrator has procedures for determining whether an order qualifies and that a copy may be obtained without charge from the service provider.</td>
+            </tr>
+            <tr>
+              <td>Distribution mechanics noted in secondary research</td>
+              <td>SimpleQDRO reports that the plan typically creates a separate account for the alternate payee and may allow an immediate rollover or lump-sum distribution after approval.</td>
+            </tr>
+            <tr>
+              <td>Public model QDRO located?</td>
+              <td>No official public model QDRO was located in the research used for this page.</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">Administrative procedures can change. Confirm current submission requirements, review preferences, and payout options directly with the plan or service provider before filing.</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <section aria-labelledby="divorce-treatment">
+        <h2 id="divorce-treatment">401(k) in Divorce</h2>
+        <p>The CGI plan is a defined contribution plan, so the divorce issue is usually how to divide an account balance rather than how to value a future monthly pension benefit. That still does not make it automatic. A plan administrator needs a domestic relations order that can be applied to the account without guesswork.</p>
+        <p>For this plan, the research points to three drafting pressure points. First, the SPD confirms both pre-tax and Roth 401(k) contributions, so the order should make clear whether the alternate payee receives a proportional share of each source or some other specified allocation. Second, the SPD includes loan provisions, which means the order should say whether the division is based on a gross or net balance if a loan is outstanding. Third, because this is an investment-based account, the order should specify the valuation date and whether later gains or losses apply.</p>
+        <p>Even when the settlement sounds simple, vague language can create avoidable disputes at implementation. A clean CGI 401(k) QDRO should translate the settlement into directions the service provider can actually administer.</p>
+      </section>
+
+      <section aria-labelledby="qdro-requirements">
+        <h2 id="qdro-requirements">QDRO Requirements</h2>
+        <p>A workable order for this plan should identify the participant and alternate payee, define the awarded share with precision, and match the plan's qualification process. The official SPD is especially useful here because it confirms that written QDRO procedures exist and are available for free from the service provider.</p>
+        <ul>
+          <li>State the award as a fixed dollar amount, percentage, or another defined formula tied to a specific valuation date.</li>
+          <li>Say whether post-valuation investment gains and losses apply through segregation, transfer, or distribution.</li>
+          <li>Address pre-tax and Roth balances directly so the tax character of the award is intentional rather than accidental.</li>
+          <li>Clarify whether employer matching or other vested employer sources are included in the assigned share.</li>
+          <li>Specify how any outstanding participant loan is handled in the calculation.</li>
+          <li>Check the current plan procedures before final submission instead of assuming another 401(k) plan's review standards will carry over.</li>
+        </ul>
+        <div class="note">
+          <p><strong>Best official source:</strong> The CGI SPD expressly says the administrator has QDRO qualification procedures and that you or your beneficiary may obtain a copy without charge from the service provider. That is stronger and more useful than relying on generic third-party summaries alone.</p>
+        </div>
+      </section>
+
+      <section aria-labelledby="division-formulas">
+        <h2 id="division-formulas">Division Formulas</h2>
+        <p>The right formula depends on the settlement, but the order should still be explicit about account sources, loan treatment, and post-valuation adjustments. For a plan with Roth and pre-tax money, source-level clarity matters.</p>
+        <ul>
+          <li><strong>Fixed percentage as of a stated date:</strong> useful when the alternate payee is receiving a share of the account, usually with gains and losses applied after the valuation date until segregation.</li>
+          <li><strong>Fixed dollar amount:</strong> workable when the settlement sets a specific sum, but the order should still address earnings or losses between the valuation date and actual transfer.</li>
+          <li><strong>Pro rata source allocation:</strong> often the cleanest approach when the intent is for the alternate payee to receive the same relative mix of pre-tax, Roth, and vested employer amounts held in the participant's account.</li>
+        </ul>
+        <p>What should not be left open is whether the award is calculated before or after a participant loan, whether Roth money is included, or whether later market movement follows the assigned share. That kind of silence creates review delays and post-approval arguments.</p>
+      </section>
+
+      <section aria-labelledby="steps-to-divide">
+        <h2 id="steps-to-divide">Steps</h2>
+        <ol>
+          <li>Collect current account statements and identify all money sources, including pre-tax, Roth, employer match, rollovers, and any outstanding loan balance.</li>
+          <li>Request the current CGI QDRO procedures from the service provider, using the SPD's instruction that they are available without charge.</li>
+          <li>Confirm the settlement terms, especially the valuation date, gains and losses treatment, and whether the award is source-proportional.</li>
+          <li>Draft the order with direct language covering source buckets, vested employer money, and loan treatment.</li>
+          <li>Use any available pre-approval or informal review process before presenting the order for signature.</li>
+          <li>After qualification, confirm whether the alternate payee will receive a separate account, direct rollover, or other available payout option under the current procedures.</li>
+        </ol>
+      </section>
+
+      <section aria-labelledby="common-mistakes">
+        <h2 id="common-mistakes">Common Mistakes</h2>
+        <ul>
+          <li>Leaving out the valuation date or defining it in a way the administrator cannot apply.</li>
+          <li>Failing to state whether post-valuation gains and losses follow the awarded share.</li>
+          <li>Ignoring the difference between Roth and pre-tax money.</li>
+          <li>Not addressing whether employer matching contributions are included.</li>
+          <li>Using an account balance without explaining how an outstanding loan affects the calculation.</li>
+          <li>Assuming a third-party website is the plan's official procedure when the SPD confirms that actual QDRO procedures are available directly from the service provider.</li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="plan-research">
+        <h2 id="plan-research">Plan-Specific Research</h2>
+        <p>The strongest official source located for this plan is the <a href="https://www.cgi.com/sites/default/files/2024-02/oe-2024-401k-summary-plan-description.pdf">CGI 401(k) Summary Plan Description</a>. That SPD contains a dedicated QDRO section stating that federal law generally prohibits payment of a participant's account to someone else unless there is a qualified domestic relations order, and it further says the administrator has procedures for determining whether an order meets the legal requirements.</p>
+        <p>Most importantly, the SPD states that you or your beneficiary may obtain a copy of those QDRO procedures <strong>without charge</strong> from the service provider. That is the key practical takeaway for drafting. Instead of guessing at format or review preferences, get the actual procedures and draft to them.</p>
+        <p>The same SPD also confirms that the plan permits both pre-tax and Roth 401(k) contributions and includes loan provisions. Those details matter because the QDRO should preserve tax-bucket intent and explain how any loan balance affects the assigned share. Secondary research from <a href="https://simpleqdro.com/retirement-plans/CGI-TECHNOLOGIES-AND-SOLUTIONS-INC-401K-SAVINGS-PLAN/">SimpleQDRO</a> indicates separate-account treatment and possible immediate rollover or lump-sum availability after approval, but those points should still be verified against the current plan procedures before submission.</p>
+      </section>
+
+      <section aria-labelledby="faq">
+        <h2 id="faq">FAQ</h2>
+        <div class="faq-item">
+          <h3>Does the CGI Technologies and Solutions Inc. 401(k) Savings Plan require a QDRO for divorce division?</h3>
+          <p>Usually yes. A divorce decree by itself typically does not authorize the plan to transfer part of a participant's 401(k) account to an alternate payee.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Why should the order address Roth and pre-tax money separately?</h3>
+          <p>Because the official SPD says participants may make both pre-tax and Roth 401(k) contributions. Clear source language helps preserve the intended tax treatment of the award.</p>
+        </div>
+        <div class="faq-item">
+          <h3>How should an outstanding participant loan be handled?</h3>
+          <p>The order should explain whether the awarded share is calculated using an account balance that includes or excludes the loan so the administrator is not left to decide the math.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Can the alternate payee receive a separate account or rollover after approval?</h3>
+          <p>Available secondary research says that is typically possible, but the actual options should be confirmed through the plan's current procedures at the time the order is reviewed.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Where do the parties get the plan's QDRO procedures?</h3>
+          <p>The SPD says the procedures may be obtained without charge from the service provider, which is exactly where counsel should start before finalizing the order.</p>
+        </div>
+      </section>
+
+      <section class="cta" aria-labelledby="cta">
+        <h2 id="cta">Need a better workflow for retirement-division drafting?</h2>
+        <p>LexyAlgo helps organize plan research, spot drafting variables faster, and turn messy retirement-account facts into a cleaner QDRO workflow.</p>
+        <p><a href="https://www.lexyalgo.com/">Explore LexyAlgo</a></p>
+      </section>
+
+      <section aria-labelledby="disclaimer">
+        <h2 id="disclaimer">Disclaimer</h2>
+        <p class="small">This page is for general educational purposes only and is not legal, tax, or investment advice. Plan terms, procedures, and administrative practices can change. Anyone preparing or submitting a QDRO involving the CGI Technologies and Solutions Inc. 401(k) Savings Plan should confirm current requirements directly with the plan administrator or service provider before relying on any summary.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p class="small">Author: William Peacock</p>
+    </div>
+  </footer>
+</body>
+</html>

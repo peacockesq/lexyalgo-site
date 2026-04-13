@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aramark 401(k) QDRO Guide | LexyAlgo</title>
+  <meta name="description" content="Aramark 401(k) QDRO guide covering plan division, Fidelity contacts, approval steps, and plan-specific research for divorce-related account splits." />
+  <link rel="canonical" href="https://www.lexyalgo.com/deferred-compensation/aramark-401k" />
+  <meta name="robots" content="index,follow" />
+  <style>
+    :root {
+      --bg: #f4f7fb;
+      --surface: #ffffff;
+      --surface-2: #eef3ff;
+      --text: #142033;
+      --muted: #5d6b82;
+      --primary: #2557d6;
+      --primary-dark: #193d96;
+      --border: #d9e2f0;
+      --success: #e9f7ef;
+      --shadow: 0 18px 45px rgba(20, 32, 51, 0.08);
+      --radius: 18px;
+      --max: 1120px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background: linear-gradient(180deg, #f7f9fd 0%, #eef4ff 100%);
+      line-height: 1.65;
+    }
+
+    a { color: var(--primary); }
+    a:hover { color: var(--primary-dark); }
+
+    .wrap {
+      width: min(calc(100% - 32px), var(--max));
+      margin: 0 auto;
+    }
+
+    .hero {
+      padding: 72px 0 48px;
+      background:
+        radial-gradient(circle at top right, rgba(37, 87, 214, 0.14), transparent 32%),
+        linear-gradient(180deg, #f8fbff 0%, #eef4ff 100%);
+      border-bottom: 1px solid rgba(217, 226, 240, 0.9);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 14px;
+      border-radius: 999px;
+      background: rgba(37, 87, 214, 0.08);
+      color: var(--primary-dark);
+      font-size: 0.92rem;
+      font-weight: 700;
+      letter-spacing: 0.01em;
+      margin-bottom: 18px;
+    }
+
+    h1, h2, h3 { line-height: 1.15; margin: 0 0 16px; }
+    h1 { font-size: clamp(2.2rem, 4vw, 3.9rem); max-width: 12ch; }
+    h2 { font-size: clamp(1.55rem, 2.4vw, 2.2rem); }
+    h3 { font-size: 1.12rem; }
+    p { margin: 0 0 16px; }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.25fr 0.95fr;
+      gap: 28px;
+      align-items: stretch;
+    }
+
+    .hero-copy p {
+      font-size: 1.05rem;
+      color: var(--muted);
+      max-width: 62ch;
+    }
+
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 24px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 20px;
+      border-radius: 12px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: #fff;
+      box-shadow: 0 14px 30px rgba(37, 87, 214, 0.22);
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-dark);
+      color: #fff;
+      transform: translateY(-1px);
+    }
+
+    .btn-secondary {
+      background: #fff;
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+
+    .btn-secondary:hover {
+      transform: translateY(-1px);
+      box-shadow: var(--shadow);
+    }
+
+    .hero-card,
+    .card {
+      background: var(--surface);
+      border: 1px solid rgba(217, 226, 240, 0.9);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    .hero-card {
+      padding: 28px;
+      display: grid;
+      gap: 18px;
+      align-content: start;
+    }
+
+    .stat {
+      padding: 16px 18px;
+      border-radius: 14px;
+      background: var(--surface-2);
+      border: 1px solid rgba(37, 87, 214, 0.08);
+    }
+
+    .stat strong {
+      display: block;
+      margin-bottom: 4px;
+      font-size: 1rem;
+    }
+
+    .section {
+      padding: 28px 0;
+    }
+
+    .card {
+      padding: 30px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 24px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      background: #fff;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 760px;
+    }
+
+    thead {
+      background: #edf3ff;
+    }
+
+    th, td {
+      padding: 16px 18px;
+      text-align: left;
+      vertical-align: top;
+      border-bottom: 1px solid var(--border);
+    }
+
+    th {
+      font-size: 0.95rem;
+      color: var(--primary-dark);
+    }
+
+    tfoot td {
+      background: #fafcff;
+      font-weight: 600;
+      color: var(--muted);
+    }
+
+    ul, ol {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li + li { margin-top: 10px; }
+
+    .note,
+    .faq-item,
+    .mistake,
+    .step {
+      padding: 20px;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      background: #fff;
+    }
+
+    .note {
+      background: var(--success);
+      border-color: #cfe9d8;
+    }
+
+    .muted { color: var(--muted); }
+
+    .cta {
+      background: linear-gradient(135deg, #16367e 0%, #2557d6 100%);
+      color: #fff;
+      padding: 34px;
+      border-radius: 22px;
+      box-shadow: 0 20px 50px rgba(22, 54, 126, 0.24);
+    }
+
+    .cta p,
+    .cta li,
+    .cta a { color: rgba(255,255,255,0.94); }
+
+    .cta .btn-primary {
+      background: #fff;
+      color: var(--primary-dark);
+      box-shadow: none;
+    }
+
+    .cta .btn-primary:hover {
+      background: #eef4ff;
+      color: var(--primary-dark);
+    }
+
+    .faq-list {
+      display: grid;
+      gap: 16px;
+    }
+
+    .disclaimer {
+      font-size: 0.96rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 900px) {
+      .hero-grid,
+      .grid-2,
+      .grid-3 {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding-top: 56px;
+      }
+
+      .card,
+      .hero-card,
+      .cta {
+        padding: 24px;
+      }
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Aramark 401(k) Retirement Plan QDRO Guide",
+    "description": "Guide to dividing the Aramark 401(k) Retirement Plan in divorce, including QDRO steps, Fidelity contact details, and plan-specific research.",
+    "mainEntityOfPage": "https://www.lexyalgo.com/deferred-compensation/aramark-401k",
+    "author": {
+      "@type": "Person",
+      "name": "William Peacock",
+      "url": "https://www.linkedin.com/in/williampeacock"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "LexyAlgo",
+      "url": "https://www.lexyalgo.com"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Can the Aramark 401(k) Retirement Plan be divided with a QDRO?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Because this is a 401(k) defined contribution plan, division in divorce is typically handled through a qualified domestic relations order, or QDRO, that directs the plan to create or transfer a separate share for the alternate payee after approval."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Who appears to administer the Aramark plan's QDRO process?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Research indicates Fidelity administers the plan and its QDRO workflow. Publicly available references point participants to Fidelity and the Fidelity QDRO Center for plan-specific intake and procedural information."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is there a public SPD or model QDRO for this plan?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No official public SPD PDF, model QDRO, or formal written QDRO procedures were located in public research. Participants should request the current summary plan description, review rules, and any model language directly from Fidelity or the plan administrator."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How is a 401(k) account usually divided after the order is approved?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Defined contribution plans usually divide by awarding a stated dollar amount or percentage of the participant's account, adjusted according to the order's terms. Once accepted, the plan commonly establishes a separate account or transfer mechanism for the alternate payee."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should someone do before drafting an Aramark 401(k) QDRO?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Before drafting, obtain the current summary plan description, confirm the exact plan name, ask Fidelity or the plan administrator for any review procedures or sample language, and verify whether the plan has its own submission requirements."
+        }
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "William Peacock",
+    "url": "https://www.linkedin.com/in/williampeacock"
+  }
+  </script>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <div class="eyebrow">Deferred Compensation Guide</div>
+        <h1>Aramark 401(k) Retirement Plan QDRO Guide</h1>
+        <p>
+          If an Aramark 401(k) account is being divided in divorce, the key issue is getting the order drafted to fit a defined contribution plan's rules and the administrator's review process. This page summarizes the practical framework, known research findings, and the steps to confirm official requirements before submission.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#steps">See division steps</a>
+          <a class="btn btn-secondary" href="#research">Review plan research</a>
+        </div>
+      </div>
+      <aside class="hero-card" aria-label="Key plan facts">
+        <div class="stat">
+          <strong>Plan type</strong>
+          401(k) defined contribution plan
+        </div>
+        <div class="stat">
+          <strong>Likely administrator</strong>
+          Fidelity, based on public research
+        </div>
+        <div class="stat">
+          <strong>Division result</strong>
+          Approved orders typically create a separate alternate payee account or equivalent transfer structure
+        </div>
+      </aside>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="wrap">
+        <div class="card">
+          <h2>Plan Overview</h2>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">Item</th>
+                  <th scope="col">Details</th>
+                  <th scope="col">Why it matters for divorce</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Plan name</th>
+                  <td>Aramark 401(k) Retirement Plan</td>
+                  <td>The exact plan name should match the order and supporting paperwork.</td>
+                </tr>
+                <tr>
+                  <th scope="row">Company</th>
+                  <td>Aramark</td>
+                  <td>Employer identity helps confirm the correct retirement plan and administrator channel.</td>
+                </tr>
+                <tr>
+                  <th scope="row">Plan category</th>
+                  <td>Defined contribution 401(k)</td>
+                  <td>These plans are usually divided by percentage or fixed dollar amount, not by assigning a monthly benefit.</td>
+                </tr>
+                <tr>
+                  <th scope="row">Administrator research</th>
+                  <td>Fidelity appears to administer the plan's participant and QDRO process.</td>
+                  <td>Submission requirements, review standards, and account setup often run through the recordkeeper.</td>
+                </tr>
+                <tr>
+                  <th scope="row">Public plan documents found</th>
+                  <td>No official public SPD PDF or public model QDRO was located in the research supplied.</td>
+                  <td>Drafting should be based on current official materials obtained directly from the plan, not assumptions.</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="3">Bottom line: confirm the current official procedures with Fidelity or the plan administrator before finalizing any QDRO language.</td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap grid-2">
+        <article class="card">
+          <h2>How 401(k) Plans Are Treated in Divorce</h2>
+          <p>
+            A 401(k) is a defined contribution plan, which means the marital share is generally tied to the account balance and investment performance rather than a promised future pension payment. In a divorce setting, the order usually directs the plan to assign part of the participant's account to the alternate payee.
+          </p>
+          <p>
+            Once the order is approved, the alternate payee commonly receives a separate account or transfer arrangement inside the plan's system. The exact timing of valuation, earnings treatment, and loan handling should be stated clearly in the order and checked against the administrator's current procedures.
+          </p>
+        </article>
+        <article class="card">
+          <h2>QDRO Requirements</h2>
+          <ul>
+            <li>Use the precise legal plan name and identify the participant and alternate payee accurately.</li>
+            <li>State the award as a clear percentage or dollar amount and explain whether gains and losses apply.</li>
+            <li>Confirm the valuation date and whether any outstanding participant loan affects the divisible balance.</li>
+            <li>Make sure the order does not require a form of benefit the plan does not offer.</li>
+            <li>Obtain official plan procedures from Fidelity or the plan administrator before submission because no public model or guideline was located.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap grid-2">
+        <article class="card">
+          <h2>Division Formulas</h2>
+          <p>
+            For a defined contribution plan like this one, the cleanest drafting usually comes from formulas the administrator can apply directly to an account balance.
+          </p>
+          <div class="grid-2">
+            <div class="note">
+              <h3>Percentage award</h3>
+              <p class="muted">Example structure: the alternate payee receives 50% of the vested account balance as of a stated date, adjusted for investment gains and losses from that date to distribution or segregation.</p>
+            </div>
+            <div class="note">
+              <h3>Fixed dollar award</h3>
+              <p class="muted">Example structure: the alternate payee receives a stated dollar amount from the account, with express language explaining whether later gains or losses apply before transfer.</p>
+            </div>
+          </div>
+          <p style="margin-top:16px;">
+            The best formula depends on the settlement terms, the available account records, and what the administrator will accept. Precision matters because vague earnings language can create avoidable disputes.
+          </p>
+        </article>
+        <article class="card" id="steps">
+          <h2>Steps to Divide</h2>
+          <ol>
+            <li class="step">Confirm the exact plan identity, participant details, and whether Fidelity is handling the current QDRO intake.</li>
+            <li class="step">Request the current SPD, any plan-specific QDRO procedures, and any sample or preferred language directly from Fidelity or the plan administrator.</li>
+            <li class="step">Determine the settlement terms, including valuation date, award format, earnings treatment, and loan treatment.</li>
+            <li class="step">Draft the QDRO to match both the divorce terms and the plan's actual administrative requirements.</li>
+            <li class="step">Submit for pre-approval or review if the administrator allows it, then enter the order with the court and provide the signed version for final qualification.</li>
+          </ol>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="card">
+          <h2>Common Mistakes</h2>
+          <div class="grid-3">
+            <div class="mistake">
+              <h3>Using the wrong plan name</h3>
+              <p class="muted">Even small naming errors can delay review or cause the order to be rejected for clarification.</p>
+            </div>
+            <div class="mistake">
+              <h3>Skipping gains and losses language</h3>
+              <p class="muted">If the order does not address post-valuation investment movement, the parties may end up fighting over avoidable math.</p>
+            </div>
+            <div class="mistake">
+              <h3>Assuming a public model exists</h3>
+              <p class="muted">Public research did not surface an official model QDRO or formal guidelines, so the current procedures should be requested directly.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="research">
+      <div class="wrap">
+        <div class="card">
+          <h2>Plan-Specific Research</h2>
+          <div class="grid-2">
+            <div>
+              <p>
+                Based on the research provided, Fidelity appears to administer the Aramark retirement savings plan workflow relevant to QDRO processing. Public references include the <a href="https://nb.fidelity.com/public/QDROFormGen/home#/qdro/main/home" target="_blank" rel="noopener noreferrer">Fidelity QDRO Center</a> and a third-party reference at <a href="https://www.qdrodesk.com/plans/ARAMARK-RETIREMENT-SAVINGS-PLAN-FOR-SALARIED-5895.shtml" target="_blank" rel="noopener noreferrer">QDRODesk</a>.
+              </p>
+              <p>
+                The research also notes an SPD for the Aramark Retirement Savings Plan for Salaried Employees, but no official public SPD PDF surfaced in the materials reviewed. Likewise, no official public model QDRO or written guideline was located.
+              </p>
+            </div>
+            <div>
+              <div class="note">
+                <h3>Recommended verification steps</h3>
+                <ul>
+                  <li>Call Fidelity at <strong>877-236-9472</strong> or <strong>800-835-5095</strong> to confirm the current QDRO process.</li>
+                  <li>Request the current SPD and any plan-specific review procedures directly from plan channels.</li>
+                  <li>Ask whether the plan has sample language, formatting rules, or a preferred submission path before filing the final order.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="card">
+          <h2>FAQ</h2>
+          <div class="faq-list">
+            <div class="faq-item">
+              <h3>Can the Aramark 401(k) Retirement Plan be divided with a QDRO?</h3>
+              <p class="muted">Yes. A 401(k) defined contribution plan is typically divided through a QDRO that awards a share of the participant's account to the alternate payee.</p>
+            </div>
+            <div class="faq-item">
+              <h3>Who appears to handle the plan's QDRO process?</h3>
+              <p class="muted">Public research indicates Fidelity is the relevant administrator or recordkeeping contact for plan-related QDRO procedures.</p>
+            </div>
+            <div class="faq-item">
+              <h3>Is there a public SPD or official model QDRO available?</h3>
+              <p class="muted">No official public SPD PDF, model QDRO, or formal written procedures were identified in the supplied research, so those should be requested directly from the plan.</p>
+            </div>
+            <div class="faq-item">
+              <h3>What does the alternate payee usually receive after approval?</h3>
+              <p class="muted">For a defined contribution plan, the alternate payee usually receives a separate account or equivalent transfer arrangement for the awarded share.</p>
+            </div>
+            <div class="faq-item">
+              <h3>What should be verified before drafting?</h3>
+              <p class="muted">Verify the current SPD, exact plan name, valuation mechanics, treatment of gains and losses, loan treatment, and Fidelity's current submission rules before finalizing language.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="cta">
+          <h2>Need a cleaner way to organize retirement division details?</h2>
+          <p>
+            LexyAlgo helps turn messy retirement-plan information into a clearer drafting workflow. Use it to organize plan facts, track required documents, and structure the details you need before a QDRO goes out for review.
+          </p>
+          <div class="hero-actions" style="margin-top:20px;">
+            <a class="btn btn-primary" href="https://www.lexyalgo.com/" target="_blank" rel="noopener noreferrer">Explore LexyAlgo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="card disclaimer">
+          <h2>Disclaimer</h2>
+          <p>
+            This page is a general informational summary for the Aramark 401(k) Retirement Plan and is not legal, tax, or investment advice. Plan procedures change, and public sources may be incomplete. Before drafting or submitting any QDRO, obtain the current official SPD, procedures, and any model language directly from Fidelity or the plan administrator.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
