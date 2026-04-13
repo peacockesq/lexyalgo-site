@@ -41,6 +41,16 @@ npm run build
 
 Static output goes to `/out/`.
 
+## Deployment
+
+This repo builds to a static export and does not currently auto-publish to `lexyalgo.com`.
+
+- GitHub Actions now builds a deployable static artifact on every push to `main` and on manual dispatch.
+- The artifact name is `site-out` and contains the contents of `/out/`.
+- To publish a release, download the latest successful `Build static export` artifact and sync its contents to the web root on the Hostinger nginx host that serves `lexyalgo.com`.
+
+Detailed runbook: [`docs/deployment.md`](docs/deployment.md)
+
 ## Environment Variables
 
 - `NEXT_PUBLIC_VBOUT_API_KEY` — VBOUT email marketing API key for waitlist signups
