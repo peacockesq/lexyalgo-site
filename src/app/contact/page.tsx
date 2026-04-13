@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { trackContactForm } from '@/lib/analytics'
 
 const contactInfo = [
   { label: 'Address', value: '1174 Whitney Avenue\nHamden, CT 06517-3432', icon: '📍' },
@@ -57,7 +58,7 @@ export default function ContactPage() {
               </div>
             ) : (
               <form
-                onSubmit={(e) => { e.preventDefault(); setSubmitted(true) }}
+                onSubmit={(e) => { e.preventDefault(); setSubmitted(true); trackContactForm() }}
                 className="bg-white rounded-2xl border border-slate-200 p-8 sm:p-10 space-y-6"
               >
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
