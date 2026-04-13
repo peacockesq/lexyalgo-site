@@ -469,8 +469,8 @@ export default function HomePage() {
               <Image
                 src="/screenshots/coparent-app.png"
                 alt="Co-Parent App — login and dashboard at kid.lexyalgo.com"
-                width={800}
-                height={540}
+                width={1280}
+                height={800}
                 className="block h-auto w-full"
               />
               <div className="border-t border-slate-100 bg-white px-4 py-2">
