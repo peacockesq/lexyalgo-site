@@ -27,6 +27,28 @@ export function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false)
   const [productsOpen, setProductsOpen] = useState(false)
   const productsRef = useRef<HTMLDivElement>(null)
+  const closeTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null)
+
+  const clearCloseTimeout = () => {
+    if (closeTimeoutRef.current) {
+      clearTimeout(closeTimeoutRef.current)
+      closeTimeoutRef.current = null
+    }
+  }
+
+  const scheduleClose = () => {
+    clearCloseTimeout()
+    closeTimeoutRef.current = setTimeout(() => {
+      setProductsOpen(false)
+      closeTimeoutRef.current = null
+    }, 150)
+  }
+
+  useEffect(() => {
+    return () => {
+      clearCloseTimeout()
+    }
+  }, [])
 
   useEffect(() => {
     if (!productsOpen) return
@@ -63,12 +85,18 @@ export function Navbar() {
           <div
             ref={productsRef}
             className="relative"
-            onMouseEnter={() => setProductsOpen(true)}
-            onMouseLeave={() => setProductsOpen(false)}
-            onFocusCapture={() => setProductsOpen(true)}
+            onMouseEnter={() => {
+              clearCloseTimeout()
+              setProductsOpen(true)
+            }}
+            onMouseLeave={scheduleClose}
+            onFocusCapture={() => {
+              clearCloseTimeout()
+              setProductsOpen(true)
+            }}
             onBlurCapture={(event) => {
               if (!event.currentTarget.contains(event.relatedTarget as Node | null)) {
-                setProductsOpen(false)
+                scheduleClose()
               }
             }}
           >
@@ -78,16 +106,23 @@ export function Navbar() {
               aria-expanded={productsOpen}
               aria-haspopup="menu"
               aria-controls="products-menu"
-              onClick={() => setProductsOpen((open) => !open)}
+              onClick={() => {
+                clearCloseTimeout()
+                setProductsOpen((open) => !open)
+              }}
             >
               Products
               <svg className={`h-4 w-4 transition-transform ${productsOpen ? 'rotate-180' : ''}`} fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
             </button>
 
-            <div className={`absolute left-0 top-full pt-2 ${productsOpen ? 'pointer-events-auto' : 'pointer-events-none'}`}>
+            <div
+              className={`absolute left-0 top-full ${productsOpen ? 'pointer-events-auto' : 'pointer-events-none'}`}
+              onMouseEnter={clearCloseTimeout}
+              onMouseLeave={scheduleClose}
+            >
               <div
                 id="products-menu"
-                className={`w-[22rem] rounded-3xl border border-slate-200 bg-white p-3 shadow-xl shadow-slate-900/8 transition-all duration-150 ${productsOpen ? 'translate-y-0 opacity-100' : '-translate-y-1 opacity-0'}`}
+                className={`mt-2 w-[22rem] rounded-3xl border border-slate-200 bg-white p-3 shadow-xl shadow-slate-900/8 transition-all duration-150 ${productsOpen ? 'translate-y-0 opacity-100' : '-translate-y-1 opacity-0'}`}
               >
                 {productGroups.map((group, groupIndex) => (
                   <div key={group.label} className={groupIndex === 0 ? '' : 'mt-3 border-t border-slate-100 pt-3'}>
