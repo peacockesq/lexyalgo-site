@@ -37,6 +37,20 @@ rsync -av --delete ./out/ user@host:/var/www/lexyalgo.com/
 
 If the artifact is downloaded as a zip/tar bundle, extract it first, then sync the exported files.
 
+## Contact form activation
+
+The `/contact` page now posts to `https://formsubmit.co/hello@lexyalgo.com` so the static site has a real delivery path without adding server infrastructure.
+
+After the first live submission, FormSubmit will send an activation email to `hello@lexyalgo.com`. Someone with inbox access must click that activation link once before future submissions will deliver normally.
+
+Contact form checks after deploy:
+
+1. Submit a test message on `/contact`
+2. Confirm the browser lands on `/contact/thanks`
+3. Confirm the activation email or submission email arrives in `hello@lexyalgo.com`
+4. If activation was required, click it and repeat one more test submission
+5. Confirm the honeypot field stays empty in the delivered message and CAPTCHA challenged the browser as expected
+
 ## Verification checklist
 
 After deploy, verify at least:
@@ -46,6 +60,7 @@ After deploy, verify at least:
 - `/terms`
 - `/privacy`
 - `/contact`
+- `/contact/thanks`
 
 Recommended proof commands:
 
