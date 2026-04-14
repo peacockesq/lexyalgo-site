@@ -23,7 +23,7 @@ export default function MissionPage() {
         <div className="prose prose-slate prose-lg max-w-none">
           <div className="space-y-6 text-slate-700 leading-relaxed">
             <p className="text-xl text-slate-900 font-medium">
-              I&rsquo;ve practised family law across eight states. I&rsquo;ve drafted thousands of QDROs, reviewed tens of thousands of retirement accounts, and watched how people make decisions at the worst moments of their lives.
+              I&rsquo;ve practiced family law across eight states. I&rsquo;ve drafted thousands of QDROs, reviewed tens of thousands of retirement accounts, and watched how people make decisions at the worst moments of their lives.
             </p>
 
             <p>

@@ -3,6 +3,7 @@ title: "Understanding Asset Division: What You Need to Know Before You Start"
 date: 2026-03-22T09:00:00.000Z
 author: LexyAlgo Team
 excerpt: A practical guide to marital property vs. separate property, community property vs. equitable distribution states, and the biggest mistakes people make when dividing assets.
+draft: true
 seo:
   title: Understanding Asset Division Before Divorce — LexyAlgo
   description: Learn the basics of marital vs. separate property, how different states handle division, and how to avoid common asset-splitting mistakes.

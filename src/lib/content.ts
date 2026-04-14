@@ -15,6 +15,7 @@ export type Post = {
   excerpt?: string
   body: string
   seo?: SeoFields
+  draft?: boolean
 }
 
 const postsDirectory = path.join(process.cwd(), 'content', 'posts')
@@ -50,8 +51,10 @@ export function getAllPosts(): Post[] {
               description: typeof data.seo.description === 'string' ? data.seo.description : undefined,
             }
           : undefined,
+        draft: data.draft === true,
       }
     })
+    .filter((post) => !post.draft)
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
 }
 
