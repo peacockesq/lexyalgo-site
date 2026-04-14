@@ -3,6 +3,7 @@ title: "Retirement Accounts in Divorce: Why $30K Today Isn't the Same as $30K in
 date: 2026-03-18T09:00:00.000Z
 author: LexyAlgo Team
 excerpt: People trade retirement assets for cash all the time without pricing in taxes, growth, or withdrawal rules. Here is the simpler way to think about it.
+draft: true
 seo:
   title: Retirement Accounts in Divorce — LexyAlgo
   description: See why retirement balances should not be treated like cash when dividing assets in divorce.
