@@ -1,17 +1,9 @@
-'use client'
-
-import { useState } from 'react'
-import { trackContactForm } from '@/lib/analytics'
-
 const contactInfo = [
   { label: 'Address', value: '1174 Whitney Avenue\nHamden, CT 06517-3432', icon: '📍' },
-  { label: 'Phone', value: '(929) 437-3767', icon: '📞' },
   { label: 'Email', value: 'hello@lexyalgo.com', icon: '✉️' },
 ]
 
 export default function ContactPage() {
-  const [submitted, setSubmitted] = useState(false)
-
   return (
     <>
       {/* Hero */}
@@ -48,73 +40,33 @@ export default function ContactPage() {
 
           {/* Contact form */}
           <div className="lg:col-span-2">
-            {submitted ? (
-              <div className="bg-white rounded-2xl border border-slate-200 p-12 text-center">
-                <div className="w-16 h-16 rounded-full bg-green-100 flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-                </div>
-                <h3 className="font-[family-name:var(--font-space)] font-bold text-xl text-slate-900">Message sent</h3>
-                <p className="mt-2 text-slate-600">We&rsquo;ll get back to you within one business day.</p>
+            <div className="bg-white rounded-2xl border border-slate-200 p-8 sm:p-10 space-y-6">
+              <div className="rounded-2xl border border-amber-200 bg-amber-50 p-5">
+                <p className="text-sm font-semibold text-amber-900">Secure contact form coming soon</p>
+                <p className="mt-2 text-sm text-amber-800">
+                  We are replacing the old placeholder form with a verified delivery path and anti-spam protection.
+                  Until that is live, please email us directly so your message reaches a real inbox.
+                </p>
               </div>
-            ) : (
-              <form
-                onSubmit={(e) => { e.preventDefault(); setSubmitted(true); trackContactForm() }}
-                className="bg-white rounded-2xl border border-slate-200 p-8 sm:p-10 space-y-6"
+
+              <div className="space-y-3">
+                <h3 className="font-[family-name:var(--font-space)] font-bold text-xl text-slate-900">Email LexyAlgo</h3>
+                <p className="text-slate-600">
+                  For product questions, partnership inquiries, or support, email us and we&rsquo;ll reply within one business day.
+                </p>
+              </div>
+
+              <a
+                href="mailto:hello@lexyalgo.com?subject=LexyAlgo%20inquiry"
+                className="inline-flex items-center justify-center bg-teal text-white font-semibold px-8 py-3 rounded-xl hover:bg-[#12434D] transition-all shadow-sm shadow-teal/20 active:scale-[0.98]"
               >
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-slate-700 mb-2">Name</label>
-                    <input
-                      id="name"
-                      type="text"
-                      placeholder="Your name"
-                      className="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-teal/20 focus:border-teal"
-                      required
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-slate-700 mb-2">Email</label>
-                    <input
-                      id="email"
-                      type="email"
-                      placeholder="you@email.com"
-                      className="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-teal/20 focus:border-teal"
-                      required
-                    />
-                  </div>
-                </div>
-                <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-slate-700 mb-2">Subject</label>
-                  <select
-                    id="subject"
-                    className="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-teal/20 focus:border-teal text-slate-700"
-                  >
-                    <option>General inquiry</option>
-                    <option>Calculator question</option>
-                    <option>Product feedback</option>
-                    <option>Partnership / integration</option>
-                    <option>Press / media</option>
-                    <option>Other</option>
-                  </select>
-                </div>
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-slate-700 mb-2">Message</label>
-                  <textarea
-                    id="message"
-                    rows={6}
-                    placeholder="How can we help?"
-                    className="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-teal/20 focus:border-teal resize-none"
-                    required
-                  />
-                </div>
-                <button
-                  type="submit"
-                  className="bg-teal text-white font-semibold px-8 py-3 rounded-xl hover:bg-[#12434D] transition-all shadow-sm shadow-teal/20 active:scale-[0.98]"
-                >
-                  Send Message
-                </button>
-              </form>
-            )}
+                Email hello@lexyalgo.com
+              </a>
+
+              <p className="text-xs text-slate-500">
+                We are intentionally hiding phone support here until a verified LexyAlgo support number is confirmed.
+              </p>
+            </div>
           </div>
         </div>
       </section>
