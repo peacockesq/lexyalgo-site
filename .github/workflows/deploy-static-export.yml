@@ -23,10 +23,6 @@ on:
 permissions:
   contents: read
 
-concurrency:
-  group: lexyalgo-site-${{ github.event_name == 'push' && 'production' || inputs.environment }}
-  cancel-in-progress: false
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -183,12 +179,16 @@ jobs:
             out/ "$DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH/"
 
       - name: Verify deployed build metadata
-        if: ${{ secrets.DEPLOY_BASE_URL != '' }}
         env:
           DEPLOY_BASE_URL: ${{ secrets.DEPLOY_BASE_URL }}
           EXPECTED_SHA: ${{ needs.build.outputs.deploy_sha }}
         shell: bash
         run: |
+          if [ -z "$DEPLOY_BASE_URL" ]; then
+            echo "DEPLOY_BASE_URL not set for this environment, skipping URL verification."
+            exit 0
+          fi
+
           curl --fail --silent --show-error "$DEPLOY_BASE_URL/build-meta.json" --output deployed-build-meta.json
           python3 <<'PY'
           import json
