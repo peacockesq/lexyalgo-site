@@ -17,72 +17,68 @@ npm ci
 npm run build
 ```
 
-GitHub Actions publishes this directory as an artifact named `site-out` on every push to `main` and on manual runs.
+GitHub Actions publishes this directory as the `static-export` artifact in `.github/workflows/deploy-static-export.yml`.
 
-Each artifact also includes `deploy-manifest.json`, which records the Git SHA, ref, workflow run, and build timestamp. The deploy workflow verifies that the live site is serving the same SHA before marking the run successful.
+Each deploy also stamps `out/build-meta.json`, which records the environment, Git SHA, workflow run, and build timestamp. The deploy workflow uses that file for post-deploy verification.
 
 ## GitHub Actions deployment flow
 
-Workflow: `.github/workflows/build-static-export.yml`
+Primary deploy workflow: `.github/workflows/deploy-static-export.yml`
+
+Related CI workflow: `.github/workflows/build-static-export.yml`
 
 ### Automatic production deploy
 
-On every push to `main`, the workflow will:
+On every push to `main`, `Deploy static export` will:
 
-1. build the static export
-2. upload the `site-out` artifact
-3. deploy to production via `rsync` over SSH, if production deploy has been enabled in repo variables
-4. verify `https://lexyalgo.com/deploy-manifest.json` matches the pushed commit SHA
-5. smoke-test `/`, `/pricing`, `/terms`, `/privacy`, `/contact`, and `/contact/thanks`
+1. resolve the deploy target to `production`
+2. build the static export
+3. upload the `static-export` artifact
+4. deploy to production via `rsync` over SSH
+5. verify `https://lexyalgo.com/build-meta.json` matches the built SHA, if `DEPLOY_BASE_URL` is configured for the environment
 
 ### Manual deploy
 
-You can also run the workflow manually and pick one of:
+You can also run `Deploy static export` manually and choose:
 
-- `none` for build-only
-- `staging` to deploy to the staging Hostinger target
-- `production` to redeploy production from the selected commit
+- `staging`
+- `production`
+
+You can also choose the ref to build and deploy.
 
 ## Required GitHub configuration
 
-### Production repository variables
+The deploy workflow reads from **GitHub environment secrets**, not repo-level variables.
 
-- `HOSTINGER_PROD_DEPLOY_ENABLED=true`
-- `HOSTINGER_PROD_HOST`
-- `HOSTINGER_PROD_PORT` (optional, defaults to `22`)
-- `HOSTINGER_PROD_USER`
-- `HOSTINGER_PROD_WEB_ROOT`
-- `HOSTINGER_PROD_SITE_URL` (for example `https://lexyalgo.com`)
+Environment names:
 
-### Production repository secrets
+- `staging`
+- `production`
 
-- `HOSTINGER_PROD_SSH_KEY`
-- `HOSTINGER_PROD_KNOWN_HOSTS`
+### Required secrets for each environment
 
-### Staging repository variables
+- `DEPLOY_HOST`
+- `DEPLOY_USER`
+- `DEPLOY_PATH`
+- `DEPLOY_SSH_KEY`
 
-- `HOSTINGER_STAGING_HOST`
-- `HOSTINGER_STAGING_PORT` (optional, defaults to `22`)
-- `HOSTINGER_STAGING_USER`
-- `HOSTINGER_STAGING_WEB_ROOT`
-- `HOSTINGER_STAGING_SITE_URL` (for example `https://staging.lexyalgo.com`)
+### Optional but recommended secrets for each environment
 
-### Staging repository secrets
+- `DEPLOY_PORT` (defaults to `22`)
+- `DEPLOY_KNOWN_HOSTS`
+- `DEPLOY_BASE_URL`
 
-- `HOSTINGER_STAGING_SSH_KEY`
-- `HOSTINGER_STAGING_KNOWN_HOSTS`
-
-`HOSTINGER_*_KNOWN_HOSTS` should contain the exact `known_hosts` line for the target box, not a runtime `ssh-keyscan`, so workflow verification stays strict.
+See [`docs/github-environment-bootstrap.md`](./github-environment-bootstrap.md) for the exact bootstrap checklist.
 
 ## Host path expectations
 
-The workflow syncs the contents of `out/` directly into the configured nginx web root:
+The workflow syncs the contents of `out/` directly into the configured web root:
 
 ```bash
 rsync -az --delete ./out/ user@host:/var/www/lexyalgo.com/
 ```
 
-Set `HOSTINGER_*_WEB_ROOT` to the directory nginx already serves for that hostname.
+Set `DEPLOY_PATH` to the directory nginx already serves for that hostname.
 
 ## Contact form activation
 
@@ -108,7 +104,7 @@ After deploy, verify at least:
 - `/privacy`
 - `/contact`
 - `/contact/thanks`
-- `/deploy-manifest.json`
+- `/build-meta.json`
 
 Recommended proof commands:
 
@@ -118,7 +114,7 @@ curl -I https://lexyalgo.com/pricing
 curl -I https://lexyalgo.com/terms
 curl -I https://lexyalgo.com/privacy
 curl -I https://lexyalgo.com/contact
-curl https://lexyalgo.com/deploy-manifest.json
+curl https://lexyalgo.com/build-meta.json
 ```
 
 Capture the workflow run URL, deployed SHA, and verification output in the linked issue or PR.

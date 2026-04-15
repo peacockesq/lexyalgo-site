@@ -45,12 +45,14 @@ Static output goes to `/out/`.
 
 This repo builds to a static export and can deploy it to Hostinger directly from GitHub Actions.
 
-- Every push to `main` builds a deployable `site-out` artifact.
-- The artifact includes `deploy-manifest.json` so the workflow can verify the live site is serving the expected Git SHA.
-- Manual workflow runs can stay build-only or deploy to `staging` / `production`.
-- Automatic production deploys are gated by repo configuration so `main` does not drift once Hostinger variables and secrets are set.
+- `Build static export` runs on push/PR and produces a deployable static artifact.
+- `Deploy static export` builds, deploys, and verifies against the selected GitHub environment.
+- The deployed artifact includes `build-meta.json` so the workflow can verify the live site is serving the expected Git SHA.
+- Manual workflow runs can target `staging` or `production`.
+- Pushes to `main` target the `production` environment automatically.
 
 Detailed runbook: [`docs/deployment.md`](docs/deployment.md)
+Environment bootstrap: [`docs/github-environment-bootstrap.md`](docs/github-environment-bootstrap.md)
 
 
 ## Environment Variables
