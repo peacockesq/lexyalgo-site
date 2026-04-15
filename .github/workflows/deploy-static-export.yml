@@ -129,14 +129,14 @@ jobs:
 
       - name: Configure SSH access
         env:
-          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
-          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
-          DEPLOY_KNOWN_HOSTS: ${{ secrets.DEPLOY_KNOWN_HOSTS }}
+          DEPLOY_HOST: ${{ vars.DEPLOY_HOST != '' && vars.DEPLOY_HOST || secrets.DEPLOY_HOST }}
+          DEPLOY_PORT: ${{ vars.DEPLOY_PORT != '' && vars.DEPLOY_PORT || secrets.DEPLOY_PORT }}
+          DEPLOY_KNOWN_HOSTS: ${{ vars.DEPLOY_KNOWN_HOSTS != '' && vars.DEPLOY_KNOWN_HOSTS || secrets.DEPLOY_KNOWN_HOSTS }}
           DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
         shell: bash
         run: |
           if [ -z "$DEPLOY_HOST" ] || [ -z "$DEPLOY_SSH_KEY" ]; then
-            echo "Missing DEPLOY_HOST or DEPLOY_SSH_KEY for environment ${{ needs.build.outputs.deploy_environment }}" >&2
+            echo "Missing DEPLOY_HOST (env var or secret) or DEPLOY_SSH_KEY (secret) for environment ${{ needs.build.outputs.deploy_environment }}" >&2
             exit 1
           fi
 
@@ -156,14 +156,14 @@ jobs:
 
       - name: Sync artifact to Hostinger
         env:
-          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
-          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
-          DEPLOY_PORT: ${{ secrets.DEPLOY_PORT }}
-          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
+          DEPLOY_HOST: ${{ vars.DEPLOY_HOST != '' && vars.DEPLOY_HOST || secrets.DEPLOY_HOST }}
+          DEPLOY_PATH: ${{ vars.DEPLOY_PATH != '' && vars.DEPLOY_PATH || secrets.DEPLOY_PATH }}
+          DEPLOY_PORT: ${{ vars.DEPLOY_PORT != '' && vars.DEPLOY_PORT || secrets.DEPLOY_PORT }}
+          DEPLOY_USER: ${{ vars.DEPLOY_USER != '' && vars.DEPLOY_USER || secrets.DEPLOY_USER }}
         shell: bash
         run: |
           if [ -z "$DEPLOY_HOST" ] || [ -z "$DEPLOY_USER" ] || [ -z "$DEPLOY_PATH" ]; then
-            echo "Missing one of DEPLOY_HOST, DEPLOY_USER, or DEPLOY_PATH" >&2
+            echo "Missing one of DEPLOY_HOST, DEPLOY_USER, or DEPLOY_PATH (env vars or secrets)" >&2
             exit 1
           fi
 
@@ -180,7 +180,7 @@ jobs:
 
       - name: Verify deployed build metadata
         env:
-          DEPLOY_BASE_URL: ${{ secrets.DEPLOY_BASE_URL }}
+          DEPLOY_BASE_URL: ${{ vars.DEPLOY_BASE_URL != '' && vars.DEPLOY_BASE_URL || secrets.DEPLOY_BASE_URL }}
           EXPECTED_SHA: ${{ needs.build.outputs.deploy_sha }}
         shell: bash
         run: |
