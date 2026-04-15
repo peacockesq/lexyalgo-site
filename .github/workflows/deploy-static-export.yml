@@ -154,21 +154,36 @@ jobs:
           fi
           chmod 644 ~/.ssh/known_hosts
 
-      - name: Sync artifact to Hostinger
+      - name: Stage artifact on Hostinger
         env:
+          DEPLOY_CONTAINER: ${{ vars.DEPLOY_CONTAINER != '' && vars.DEPLOY_CONTAINER || secrets.DEPLOY_CONTAINER }}
+          DEPLOY_CONTAINER_PATH: ${{ vars.DEPLOY_CONTAINER_PATH != '' && vars.DEPLOY_CONTAINER_PATH || secrets.DEPLOY_CONTAINER_PATH }}
           DEPLOY_HOST: ${{ vars.DEPLOY_HOST != '' && vars.DEPLOY_HOST || secrets.DEPLOY_HOST }}
           DEPLOY_PATH: ${{ vars.DEPLOY_PATH != '' && vars.DEPLOY_PATH || secrets.DEPLOY_PATH }}
           DEPLOY_PORT: ${{ vars.DEPLOY_PORT != '' && vars.DEPLOY_PORT || secrets.DEPLOY_PORT }}
           DEPLOY_USER: ${{ vars.DEPLOY_USER != '' && vars.DEPLOY_USER || secrets.DEPLOY_USER }}
+          REMOTE_STAGE_DIR: /tmp/lexyalgo-static-export-${{ github.run_id }}-${{ github.run_attempt }}
         shell: bash
         run: |
-          if [ -z "$DEPLOY_HOST" ] || [ -z "$DEPLOY_USER" ] || [ -z "$DEPLOY_PATH" ]; then
-            echo "Missing one of DEPLOY_HOST, DEPLOY_USER, or DEPLOY_PATH (env vars or secrets)" >&2
+          if [ -z "$DEPLOY_HOST" ] || [ -z "$DEPLOY_USER" ]; then
+            echo "Missing one of DEPLOY_HOST or DEPLOY_USER (env vars or secrets)" >&2
+            exit 1
+          fi
+
+          if [ -n "$DEPLOY_CONTAINER" ] && [ -z "$DEPLOY_CONTAINER_PATH" ]; then
+            echo "DEPLOY_CONTAINER_PATH is required when DEPLOY_CONTAINER is set" >&2
+            exit 1
+          fi
+
+          if [ -z "$DEPLOY_CONTAINER" ] && [ -z "$DEPLOY_PATH" ]; then
+            echo "Missing DEPLOY_PATH for host-path deploy, or set DEPLOY_CONTAINER + DEPLOY_CONTAINER_PATH for container deploy" >&2
             exit 1
           fi
 
           port="$DEPLOY_PORT"
           [ -n "$port" ] || port=22
+
+          ssh -i ~/.ssh/id_ed25519 -p "$port" "$DEPLOY_USER@$DEPLOY_HOST" "rm -rf '$REMOTE_STAGE_DIR' && mkdir -p '$REMOTE_STAGE_DIR'"
 
           rsync \
             --archive \
@@ -176,7 +191,64 @@ jobs:
             --delete \
             --human-readable \
             -e "ssh -i ~/.ssh/id_ed25519 -p $port" \
-            out/ "$DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH/"
+            out/ "$DEPLOY_USER@$DEPLOY_HOST:$REMOTE_STAGE_DIR/"
+
+      - name: Promote staged artifact to live target
+        env:
+          DEPLOY_CONTAINER: ${{ vars.DEPLOY_CONTAINER != '' && vars.DEPLOY_CONTAINER || secrets.DEPLOY_CONTAINER }}
+          DEPLOY_CONTAINER_PATH: ${{ vars.DEPLOY_CONTAINER_PATH != '' && vars.DEPLOY_CONTAINER_PATH || secrets.DEPLOY_CONTAINER_PATH }}
+          DEPLOY_HOST: ${{ vars.DEPLOY_HOST != '' && vars.DEPLOY_HOST || secrets.DEPLOY_HOST }}
+          DEPLOY_PATH: ${{ vars.DEPLOY_PATH != '' && vars.DEPLOY_PATH || secrets.DEPLOY_PATH }}
+          DEPLOY_PORT: ${{ vars.DEPLOY_PORT != '' && vars.DEPLOY_PORT || secrets.DEPLOY_PORT }}
+          DEPLOY_USER: ${{ vars.DEPLOY_USER != '' && vars.DEPLOY_USER || secrets.DEPLOY_USER }}
+          REMOTE_STAGE_DIR: /tmp/lexyalgo-static-export-${{ github.run_id }}-${{ github.run_attempt }}
+          RUN_SUFFIX: ${{ github.run_id }}-${{ github.run_attempt }}
+        shell: bash
+        run: |
+          port="$DEPLOY_PORT"
+          [ -n "$port" ] || port=22
+
+          if [ -n "$DEPLOY_CONTAINER" ]; then
+            ssh -i ~/.ssh/id_ed25519 -p "$port" "$DEPLOY_USER@$DEPLOY_HOST" /bin/sh <<EOF
+          set -e
+          docker inspect '$DEPLOY_CONTAINER' >/dev/null
+          target='$DEPLOY_CONTAINER_PATH'
+          parent=\$(dirname "\$target")
+          base=\$(basename "\$target")
+          incoming="\$parent/.\$base.incoming-$RUN_SUFFIX"
+          backup="\$parent/.\$base.previous-$RUN_SUFFIX"
+          docker exec -e TARGET_PATH="\$target" -e INCOMING_PATH="\$incoming" -e BACKUP_PATH="\$backup" '$DEPLOY_CONTAINER' sh -lc '
+            set -e
+            mkdir -p "\$(dirname "$TARGET_PATH")"
+            rm -rf "$INCOMING_PATH" "$BACKUP_PATH"
+            mkdir -p "$INCOMING_PATH"
+          '
+          tar -C '$REMOTE_STAGE_DIR' -cf - . | docker exec -i -e INCOMING_PATH="\$incoming" '$DEPLOY_CONTAINER' sh -lc 'set -e; tar -xf - -C "$INCOMING_PATH"'
+          docker exec -e TARGET_PATH="\$target" -e INCOMING_PATH="\$incoming" -e BACKUP_PATH="\$backup" '$DEPLOY_CONTAINER' sh -lc '
+            set -e
+            if [ -e "$TARGET_PATH" ]; then mv "$TARGET_PATH" "$BACKUP_PATH"; fi
+            mv "$INCOMING_PATH" "$TARGET_PATH"
+            rm -rf "$BACKUP_PATH"
+          '
+          rm -rf '$REMOTE_STAGE_DIR'
+          EOF
+          else
+            ssh -i ~/.ssh/id_ed25519 -p "$port" "$DEPLOY_USER@$DEPLOY_HOST" /bin/sh <<EOF
+          set -e
+          target='$DEPLOY_PATH'
+          parent=\$(dirname "\$target")
+          base=\$(basename "\$target")
+          incoming="\$parent/.\$base.incoming-$RUN_SUFFIX"
+          backup="\$parent/.\$base.previous-$RUN_SUFFIX"
+          mkdir -p "\$parent"
+          rm -rf "\$incoming" "\$backup"
+          mkdir -p "\$incoming"
+          tar -C '$REMOTE_STAGE_DIR' -cf - . | tar -xf - -C "\$incoming"
+          if [ -e "\$target" ]; then mv "\$target" "\$backup"; fi
+          mv "\$incoming" "\$target"
+          rm -rf "\$backup" '$REMOTE_STAGE_DIR'
+          EOF
+          fi
 
       - name: Verify deployed build metadata
         env:
