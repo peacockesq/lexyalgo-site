@@ -45,15 +45,17 @@ Environment variables:
 - `DEPLOY_HOST` - Hostinger SSH host
 - `DEPLOY_PORT` - optional, defaults to `22`
 - `DEPLOY_USER` - SSH user for the target account
-- `DEPLOY_PATH` - remote publish directory (the confirmed docroot for that environment)
 - `DEPLOY_BASE_URL` - site base URL used for post-deploy verification
 - `DEPLOY_KNOWN_HOSTS` - optional pinned host key block; if omitted the workflow falls back to `ssh-keyscan`
+- choose one target mode:
+  - host-path mode: `DEPLOY_PATH` - remote publish directory already served by the web server
+  - container mode: `DEPLOY_CONTAINER` plus `DEPLOY_CONTAINER_PATH`
 
 Environment secret:
-- `DEPLOY_SSH_KEY` - private key with write access to the publish directory
+- `DEPLOY_SSH_KEY` - private key with write access to the target host
 
 Compatibility note:
-- the workflow accepts `DEPLOY_HOST`, `DEPLOY_PORT`, `DEPLOY_USER`, `DEPLOY_PATH`, `DEPLOY_BASE_URL`, and `DEPLOY_KNOWN_HOSTS` from either environment variables or secrets
+- the workflow accepts `DEPLOY_HOST`, `DEPLOY_PORT`, `DEPLOY_USER`, `DEPLOY_PATH`, `DEPLOY_CONTAINER`, `DEPLOY_CONTAINER_PATH`, `DEPLOY_BASE_URL`, and `DEPLOY_KNOWN_HOSTS` from either environment variables or secrets
 - `DEPLOY_SSH_KEY` must remain a secret
 
 ### What the workflow proves
@@ -66,12 +68,13 @@ Compatibility note:
 
 ### First-time setup checklist
 
-1. confirm the exact Hostinger SSH host, user, and docroot for both staging and production
-2. add the environment variables and `DEPLOY_SSH_KEY` secret above in GitHub
-3. run the workflow manually against `staging`
-4. verify `https://staging.lexyalgo.com/build-meta.json` returns the expected SHA
-5. smoke-test the staging URLs listed below
-6. once staging is clean, let the `main` push path handle production deploys
+1. confirm the exact Hostinger SSH host and user for both staging and production
+2. decide whether each environment is a host-path deploy or a container deploy
+3. add the environment variables and `DEPLOY_SSH_KEY` secret above in GitHub
+4. run the workflow manually against `staging`
+5. verify `https://staging.lexyalgo.com/build-meta.json` returns the expected SHA
+6. smoke-test the staging URLs listed below
+7. once staging is clean, let the `main` push path handle production deploys
 
 ## Minimum smoke checklist
 

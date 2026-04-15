@@ -2,9 +2,11 @@
 
 ## Current hosting shape
 
-Known production proof from issue tracking:
+Known production proof from issue tracking and live Hostinger inspection:
 
-- `lexyalgo.com` is serving through nginx on a Hostinger-hosted server.
+- `lexyalgo.com` and `staging.lexyalgo.com` are fronted by Traefik on a Hostinger-hosted server.
+- Production currently routes to container `lexyalgo-site` on port `3000`.
+- Staging currently routes to container `lexyalgo-site-staging` on port `3000`.
 - The site is a static Next.js export.
 - This repository is the source of truth for the build and now also carries the deploy workflow for Hostinger.
 
@@ -34,8 +36,9 @@ On every push to `main`, `Deploy static export` will:
 1. resolve the deploy target to `production`
 2. build the static export
 3. upload the `static-export` artifact
-4. deploy to production via `rsync` over SSH
-5. verify `https://lexyalgo.com/build-meta.json` matches the built SHA, if `DEPLOY_BASE_URL` is configured for the environment
+4. stage the built artifact on Hostinger over SSH
+5. promote the staged artifact either into a live container or a plain host path, depending on environment wiring
+6. verify `https://lexyalgo.com/build-meta.json` matches the built SHA, if `DEPLOY_BASE_URL` is configured for the environment
 
 ### Manual deploy
 
@@ -60,7 +63,7 @@ Environment names:
 Environment variables:
 - `DEPLOY_HOST`
 - `DEPLOY_USER`
-- `DEPLOY_PATH`
+- either `DEPLOY_PATH` for a plain host-path deploy, or both `DEPLOY_CONTAINER` and `DEPLOY_CONTAINER_PATH` for a container-backed deploy
 
 Environment secret:
 - `DEPLOY_SSH_KEY`
@@ -74,15 +77,28 @@ Environment variables or secrets:
 
 See [`docs/github-environment-bootstrap.md`](./github-environment-bootstrap.md) for the exact bootstrap checklist.
 
-## Host path expectations
+## Target path expectations
 
-The workflow syncs the contents of `out/` directly into the configured web root:
+The workflow always stages the built `out/` directory onto the Hostinger box first.
 
-```bash
-rsync -az --delete ./out/ user@host:/var/www/lexyalgo.com/
-```
+From there it supports two deploy modes:
 
-Set `DEPLOY_PATH` to the directory nginx already serves for that hostname.
+### Container-backed deploy
+
+If `DEPLOY_CONTAINER` is set, the workflow streams the staged artifact into the running container and replaces the configured container path.
+
+Current known live Lexy targets:
+
+- production container: `lexyalgo-site`
+- production container path: `/usr/share/nginx/html`
+- staging container: `lexyalgo-site-staging`
+- staging container path: `/app/out`
+
+### Plain host-path deploy
+
+If `DEPLOY_CONTAINER` is not set, the workflow replaces the configured host path directly.
+
+Set `DEPLOY_PATH` to the directory the web server already serves for that hostname.
 
 ## Contact form activation
 
