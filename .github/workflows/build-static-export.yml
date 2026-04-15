@@ -4,7 +4,20 @@ on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
   workflow_dispatch:
+    inputs:
+      target:
+        description: "Optional deploy target"
+        required: false
+        default: none
+        type: choice
+        options:
+          - none
+          - staging
+          - production
 
 permissions:
   contents: read
@@ -12,6 +25,8 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      deploy_target: ${{ steps.resolve-target.outputs.target }}
 
     steps:
       - name: Check out repository
@@ -29,9 +44,150 @@ jobs:
       - name: Build static export
         run: npm run build
 
+      - name: Write deploy manifest
+        run: |
+          cat <<EOF > out/deploy-manifest.json
+          {
+            "gitSha": "${GITHUB_SHA}",
+            "ref": "${GITHUB_REF}",
+            "runId": "${GITHUB_RUN_ID}",
+            "runNumber": "${GITHUB_RUN_NUMBER}",
+            "builtAt": "$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          }
+          EOF
+
+      - name: Resolve deploy target
+        id: resolve-target
+        run: |
+          target="none"
+          if [ "${{ github.event_name }}" = "push" ] && [ "${{ github.ref }}" = "refs/heads/main" ] && [ "${{ vars.HOSTINGER_PROD_DEPLOY_ENABLED || '' }}" = "true" ]; then
+            target="production"
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            target="${{ inputs.target || 'none' }}"
+          fi
+          echo "target=$target" >> "$GITHUB_OUTPUT"
+
       - name: Upload static artifact
         uses: actions/upload-artifact@v4
         with:
           name: site-out
           path: out
           if-no-files-found: error
+
+  deploy:
+    needs: build
+    if: ${{ needs.build.outputs.deploy_target != 'none' }}
+    runs-on: ubuntu-latest
+    environment: ${{ needs.build.outputs.deploy_target }}
+
+    steps:
+      - name: Download static artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: site-out
+          path: out
+
+      - name: Resolve target configuration
+        id: config
+        env:
+          TARGET: ${{ needs.build.outputs.deploy_target }}
+          PROD_HOST: ${{ vars.HOSTINGER_PROD_HOST }}
+          PROD_PORT: ${{ vars.HOSTINGER_PROD_PORT }}
+          PROD_USER: ${{ vars.HOSTINGER_PROD_USER }}
+          PROD_PATH: ${{ vars.HOSTINGER_PROD_WEB_ROOT }}
+          PROD_URL: ${{ vars.HOSTINGER_PROD_SITE_URL }}
+          PROD_KNOWN_HOSTS: ${{ secrets.HOSTINGER_PROD_KNOWN_HOSTS }}
+          STAGING_HOST: ${{ vars.HOSTINGER_STAGING_HOST }}
+          STAGING_PORT: ${{ vars.HOSTINGER_STAGING_PORT }}
+          STAGING_USER: ${{ vars.HOSTINGER_STAGING_USER }}
+          STAGING_PATH: ${{ vars.HOSTINGER_STAGING_WEB_ROOT }}
+          STAGING_URL: ${{ vars.HOSTINGER_STAGING_SITE_URL }}
+          STAGING_KNOWN_HOSTS: ${{ secrets.HOSTINGER_STAGING_KNOWN_HOSTS }}
+        run: |
+          set -eu
+          if [ "$TARGET" = "production" ]; then
+            host="$PROD_HOST"
+            port="${PROD_PORT:-22}"
+            user="$PROD_USER"
+            path="$PROD_PATH"
+            url="$PROD_URL"
+            known_hosts="$PROD_KNOWN_HOSTS"
+          elif [ "$TARGET" = "staging" ]; then
+            host="$STAGING_HOST"
+            port="${STAGING_PORT:-22}"
+            user="$STAGING_USER"
+            path="$STAGING_PATH"
+            url="$STAGING_URL"
+            known_hosts="$STAGING_KNOWN_HOSTS"
+          else
+            echo "Unsupported target: $TARGET" >&2
+            exit 1
+          fi
+
+          for value_name in host user path url known_hosts; do
+            value=$(eval "printf '%s' \"\${$value_name}\"")
+            if [ -z "$value" ]; then
+              echo "Missing deploy configuration value: $value_name for target $TARGET" >&2
+              exit 1
+            fi
+          done
+
+          {
+            echo "host=$host"
+            echo "port=$port"
+            echo "user=$user"
+            echo "path=$path"
+            echo "url=$url"
+          } >> "$GITHUB_OUTPUT"
+
+          printf '%s\n' "$known_hosts" > "$RUNNER_TEMP/known_hosts"
+          echo "known_hosts_file=$RUNNER_TEMP/known_hosts" >> "$GITHUB_OUTPUT"
+
+      - name: Start SSH agent for production
+        if: ${{ needs.build.outputs.deploy_target == 'production' }}
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.HOSTINGER_PROD_SSH_KEY }}
+
+      - name: Start SSH agent for staging
+        if: ${{ needs.build.outputs.deploy_target == 'staging' }}
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.HOSTINGER_STAGING_SSH_KEY }}
+
+      - name: Sync static export to Hostinger
+        env:
+          DEPLOY_HOST: ${{ steps.config.outputs.host }}
+          DEPLOY_PORT: ${{ steps.config.outputs.port }}
+          DEPLOY_USER: ${{ steps.config.outputs.user }}
+          DEPLOY_PATH: ${{ steps.config.outputs.path }}
+          KNOWN_HOSTS_FILE: ${{ steps.config.outputs.known_hosts_file }}
+        run: |
+          rsync -az --delete \
+            -e "ssh -p $DEPLOY_PORT -o StrictHostKeyChecking=yes -o UserKnownHostsFile=$KNOWN_HOSTS_FILE" \
+            out/ "$DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH/"
+
+      - name: Verify deployed manifest
+        env:
+          SITE_URL: ${{ steps.config.outputs.url }}
+        run: |
+          curl --fail --silent --show-error "$SITE_URL/deploy-manifest.json" -o deploy-manifest.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          manifest = json.loads(Path('deploy-manifest.json').read_text())
+          expected = "${{ github.sha }}"
+          actual = manifest.get('gitSha')
+          if actual != expected:
+              raise SystemExit(f"deployed gitSha {actual!r} did not match expected {expected!r}")
+          print(f"Verified deployed gitSha: {actual}")
+          PY
+
+      - name: Smoke-test public routes
+        env:
+          SITE_URL: ${{ steps.config.outputs.url }}
+        run: |
+          for route in / /pricing /terms /privacy /contact /contact/thanks; do
+            curl --fail --silent --show-error --location "$SITE_URL$route" > /dev/null
+          done
