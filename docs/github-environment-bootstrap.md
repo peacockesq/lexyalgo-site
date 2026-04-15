@@ -9,17 +9,21 @@ Create or reuse exactly these two GitHub environments:
 - `staging`
 - `production`
 
-## Required environment secrets
+## Required environment configuration
 
-Set these secrets on **each** environment:
+Set these values on **each** environment.
 
+Environment variables:
 - `DEPLOY_HOST`
 - `DEPLOY_USER`
 - `DEPLOY_PATH`
+
+Environment secret:
 - `DEPLOY_SSH_KEY`
 
-## Optional environment secrets
+## Optional environment configuration
 
+Environment variables or secrets:
 - `DEPLOY_PORT` (defaults to `22`)
 - `DEPLOY_KNOWN_HOSTS` (recommended, otherwise the workflow falls back to `ssh-keyscan`)
 - `DEPLOY_BASE_URL` (recommended, enables post-deploy `build-meta.json` verification)
@@ -40,7 +44,7 @@ For each environment:
 
 1. Open `Settings` → `Environments`
 2. Select `staging` or `production`
-3. Add the required secrets above
+3. Add the required environment variables and `DEPLOY_SSH_KEY` secret above
 4. Save `DEPLOY_BASE_URL` so the workflow can verify `/build-meta.json`
 5. Rerun `Deploy static export`
 
@@ -60,6 +64,6 @@ After wiring `production`:
 
 ## Quick operator note
 
-The workflow currently reads **environment secrets**, not repository-level vars, for the deploy connection values. If the environment exists but these secret names are empty, the run will fail early with:
+The workflow now accepts the non-sensitive deploy connection values from **environment variables or environment secrets**. `DEPLOY_SSH_KEY` must still be stored as an environment secret. If the environment exists but `DEPLOY_HOST` or `DEPLOY_SSH_KEY` is missing, the run will still fail early with:
 
-`Missing DEPLOY_HOST or DEPLOY_SSH_KEY for environment <name>`
+`Missing DEPLOY_HOST (env var or secret) or DEPLOY_SSH_KEY (secret) for environment <name>`

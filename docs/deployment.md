@@ -48,22 +48,26 @@ You can also choose the ref to build and deploy.
 
 ## Required GitHub configuration
 
-The deploy workflow reads from **GitHub environment secrets**, not repo-level variables.
+The deploy workflow accepts the non-sensitive deploy values from **GitHub environment variables or environment secrets**. `DEPLOY_SSH_KEY` must remain an environment secret.
 
 Environment names:
 
 - `staging`
 - `production`
 
-### Required secrets for each environment
+### Required configuration for each environment
 
+Environment variables:
 - `DEPLOY_HOST`
 - `DEPLOY_USER`
 - `DEPLOY_PATH`
+
+Environment secret:
 - `DEPLOY_SSH_KEY`
 
-### Optional but recommended secrets for each environment
+### Optional but recommended configuration for each environment
 
+Environment variables or secrets:
 - `DEPLOY_PORT` (defaults to `22`)
 - `DEPLOY_KNOWN_HOSTS`
 - `DEPLOY_BASE_URL`

@@ -35,17 +35,26 @@ This repo includes `.github/workflows/deploy-static-export.yml` so `main` can pu
 - push to `main` -> build and deploy to the `production` GitHub environment
 - manual dispatch -> build any ref and deploy it to `staging` or `production`
 
-### Required GitHub environment secrets
+### Required GitHub environment configuration
 
-Create GitHub environments named `staging` and `production`, then set these secrets in each environment:
+Create GitHub environments named `staging` and `production`.
 
+Recommended split:
+
+Environment variables:
 - `DEPLOY_HOST` - Hostinger SSH host
 - `DEPLOY_PORT` - optional, defaults to `22`
 - `DEPLOY_USER` - SSH user for the target account
 - `DEPLOY_PATH` - remote publish directory (the confirmed docroot for that environment)
-- `DEPLOY_SSH_KEY` - private key with write access to the publish directory
 - `DEPLOY_BASE_URL` - site base URL used for post-deploy verification
 - `DEPLOY_KNOWN_HOSTS` - optional pinned host key block; if omitted the workflow falls back to `ssh-keyscan`
+
+Environment secret:
+- `DEPLOY_SSH_KEY` - private key with write access to the publish directory
+
+Compatibility note:
+- the workflow accepts `DEPLOY_HOST`, `DEPLOY_PORT`, `DEPLOY_USER`, `DEPLOY_PATH`, `DEPLOY_BASE_URL`, and `DEPLOY_KNOWN_HOSTS` from either environment variables or secrets
+- `DEPLOY_SSH_KEY` must remain a secret
 
 ### What the workflow proves
 
@@ -58,7 +67,7 @@ Create GitHub environments named `staging` and `production`, then set these secr
 ### First-time setup checklist
 
 1. confirm the exact Hostinger SSH host, user, and docroot for both staging and production
-2. add the environment secrets above in GitHub
+2. add the environment variables and `DEPLOY_SSH_KEY` secret above in GitHub
 3. run the workflow manually against `staging`
 4. verify `https://staging.lexyalgo.com/build-meta.json` returns the expected SHA
 5. smoke-test the staging URLs listed below
