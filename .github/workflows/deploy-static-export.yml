@@ -202,25 +202,52 @@ jobs:
           DEPLOY_PORT: ${{ vars.DEPLOY_PORT != '' && vars.DEPLOY_PORT || secrets.DEPLOY_PORT }}
           DEPLOY_USER: ${{ vars.DEPLOY_USER != '' && vars.DEPLOY_USER || secrets.DEPLOY_USER }}
           REMOTE_STAGE_DIR: /tmp/lexyalgo-static-export-${{ github.run_id }}-${{ github.run_attempt }}
+          RUN_SUFFIX: ${{ github.run_id }}-${{ github.run_attempt }}
         shell: bash
         run: |
           port="$DEPLOY_PORT"
           [ -n "$port" ] || port=22
 
           if [ -n "$DEPLOY_CONTAINER" ]; then
-            ssh -i ~/.ssh/id_ed25519 -p "$port" "$DEPLOY_USER@$DEPLOY_HOST" \
-              "set -e; \
-              docker inspect '$DEPLOY_CONTAINER' >/dev/null; \
-              docker exec '$DEPLOY_CONTAINER' sh -lc 'mkdir -p '\''$DEPLOY_CONTAINER_PATH'\''' ; \
-              tar -C '$REMOTE_STAGE_DIR' -cf - . | docker exec -i '$DEPLOY_CONTAINER' sh -lc 'rm -rf '\''$DEPLOY_CONTAINER_PATH'\''/* '\''$DEPLOY_CONTAINER_PATH'\''/.[!.]* '\''$DEPLOY_CONTAINER_PATH'\''/..?* 2>/dev/null || true; mkdir -p '\''$DEPLOY_CONTAINER_PATH'\''; tar -xf - -C '\''$DEPLOY_CONTAINER_PATH'\''' ; \
-              rm -rf '$REMOTE_STAGE_DIR'"
+            ssh -i ~/.ssh/id_ed25519 -p "$port" "$DEPLOY_USER@$DEPLOY_HOST" /bin/sh <<EOF
+          set -e
+          docker inspect '$DEPLOY_CONTAINER' >/dev/null
+          target='$DEPLOY_CONTAINER_PATH'
+          parent=\$(dirname "\$target")
+          base=\$(basename "\$target")
+          incoming="\$parent/.\$base.incoming-$RUN_SUFFIX"
+          backup="\$parent/.\$base.previous-$RUN_SUFFIX"
+          docker exec -e TARGET_PATH="\$target" -e INCOMING_PATH="\$incoming" -e BACKUP_PATH="\$backup" '$DEPLOY_CONTAINER' sh -lc '
+            set -e
+            mkdir -p "\$(dirname "$TARGET_PATH")"
+            rm -rf "$INCOMING_PATH" "$BACKUP_PATH"
+            mkdir -p "$INCOMING_PATH"
+          '
+          tar -C '$REMOTE_STAGE_DIR' -cf - . | docker exec -i -e INCOMING_PATH="\$incoming" '$DEPLOY_CONTAINER' sh -lc 'set -e; tar -xf - -C "$INCOMING_PATH"'
+          docker exec -e TARGET_PATH="\$target" -e INCOMING_PATH="\$incoming" -e BACKUP_PATH="\$backup" '$DEPLOY_CONTAINER' sh -lc '
+            set -e
+            if [ -e "$TARGET_PATH" ]; then mv "$TARGET_PATH" "$BACKUP_PATH"; fi
+            mv "$INCOMING_PATH" "$TARGET_PATH"
+            rm -rf "$BACKUP_PATH"
+          '
+          rm -rf '$REMOTE_STAGE_DIR'
+          EOF
           else
-            ssh -i ~/.ssh/id_ed25519 -p "$port" "$DEPLOY_USER@$DEPLOY_HOST" \
-              "set -e; \
-              mkdir -p '$DEPLOY_PATH'; \
-              rm -rf '$DEPLOY_PATH'/* '$DEPLOY_PATH'/.[!.]* '$DEPLOY_PATH'/..?* 2>/dev/null || true; \
-              tar -C '$REMOTE_STAGE_DIR' -cf - . | tar -xf - -C '$DEPLOY_PATH'; \
-              rm -rf '$REMOTE_STAGE_DIR'"
+            ssh -i ~/.ssh/id_ed25519 -p "$port" "$DEPLOY_USER@$DEPLOY_HOST" /bin/sh <<EOF
+          set -e
+          target='$DEPLOY_PATH'
+          parent=\$(dirname "\$target")
+          base=\$(basename "\$target")
+          incoming="\$parent/.\$base.incoming-$RUN_SUFFIX"
+          backup="\$parent/.\$base.previous-$RUN_SUFFIX"
+          mkdir -p "\$parent"
+          rm -rf "\$incoming" "\$backup"
+          mkdir -p "\$incoming"
+          tar -C '$REMOTE_STAGE_DIR' -cf - . | tar -xf - -C "\$incoming"
+          if [ -e "\$target" ]; then mv "\$target" "\$backup"; fi
+          mv "\$incoming" "\$target"
+          rm -rf "\$backup" '$REMOTE_STAGE_DIR'
+          EOF
           fi
 
       - name: Verify deployed build metadata
