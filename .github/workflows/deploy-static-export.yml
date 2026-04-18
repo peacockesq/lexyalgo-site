@@ -211,26 +211,26 @@ jobs:
           if [ -n "$DEPLOY_CONTAINER" ]; then
             ssh -i ~/.ssh/id_ed25519 -p "$port" "$DEPLOY_USER@$DEPLOY_HOST" /bin/sh <<EOF
           set -e
-          docker inspect '$DEPLOY_CONTAINER' >/dev/null
-          target='$DEPLOY_CONTAINER_PATH'
-          parent=\$(dirname "\$target")
-          base=\$(basename "\$target")
-          incoming="\$parent/.\$base.incoming-$RUN_SUFFIX"
-          backup="\$parent/.\$base.previous-$RUN_SUFFIX"
-          docker exec -e TARGET_PATH="\$target" -e INCOMING_PATH="\$incoming" -e BACKUP_PATH="\$backup" '$DEPLOY_CONTAINER' sh -lc '
+          docker inspect "$DEPLOY_CONTAINER" >/dev/null
+          target="$DEPLOY_CONTAINER_PATH"
+          parent=$(dirname "$target")
+          base=$(basename "$target")
+          incoming="$parent/.$base.incoming-$RUN_SUFFIX"
+          backup="$parent/.$base.previous-$RUN_SUFFIX"
+          docker exec -e TARGET_PATH="$DEPLOY_CONTAINER_PATH" -e TARGET_PARENT="$parent" -e INCOMING_PATH="$incoming" -e BACKUP_PATH="$backup" "$DEPLOY_CONTAINER" sh -lc '
             set -e
-            mkdir -p "\$(dirname "$TARGET_PATH")"
+            mkdir -p "$TARGET_PARENT"
             rm -rf "$INCOMING_PATH" "$BACKUP_PATH"
             mkdir -p "$INCOMING_PATH"
           '
-          tar -C '$REMOTE_STAGE_DIR' -cf - . | docker exec -i -e INCOMING_PATH="\$incoming" '$DEPLOY_CONTAINER' sh -lc 'set -e; tar -xf - -C "$INCOMING_PATH"'
-          docker exec -e TARGET_PATH="\$target" -e INCOMING_PATH="\$incoming" -e BACKUP_PATH="\$backup" '$DEPLOY_CONTAINER' sh -lc '
+          tar -C "$REMOTE_STAGE_DIR" -cf - . | docker exec -i -e INCOMING_PATH="$incoming" "$DEPLOY_CONTAINER" sh -lc 'set -e; tar -xf - -C "$INCOMING_PATH"'
+          docker exec -e TARGET_PATH="$DEPLOY_CONTAINER_PATH" -e INCOMING_PATH="$incoming" -e BACKUP_PATH="$backup" "$DEPLOY_CONTAINER" sh -lc '
             set -e
             if [ -e "$TARGET_PATH" ]; then mv "$TARGET_PATH" "$BACKUP_PATH"; fi
             mv "$INCOMING_PATH" "$TARGET_PATH"
             rm -rf "$BACKUP_PATH"
           '
-          rm -rf '$REMOTE_STAGE_DIR'
+          rm -rf "$REMOTE_STAGE_DIR"
           EOF
           else
             ssh -i ~/.ssh/id_ed25519 -p "$port" "$DEPLOY_USER@$DEPLOY_HOST" /bin/sh <<EOF
