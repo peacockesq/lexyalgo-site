@@ -134,18 +134,18 @@ export default function HomePage() {
   return (
     <>
       <section className="relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-teal-light/40 via-white to-peach/20" />
-        <div className="absolute inset-y-0 right-0 hidden w-1/2 bg-[radial-gradient(circle_at_top,_rgba(176,39,0,.10),_transparent_55%)] lg:block" />
+        <div className="absolute inset-0 bg-gradient-to-br from-[color:var(--color-brand-primary-fixed)] via-white to-peach/20" />
+        <div className="absolute inset-y-0 right-0 hidden w-1/2 bg-[radial-gradient(circle_at_top,_rgba(81,95,116,.12),_transparent_55%)] lg:block" />
         <div className="relative mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8 lg:py-28">
           <div className="grid items-center gap-14 lg:grid-cols-[1.05fr_0.95fr] lg:gap-12">
             <div className="max-w-3xl">
-              <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-teal-light px-4 py-1.5">
+              <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-[color:var(--color-brand-primary-fixed)] px-4 py-1.5">
                 <span className="h-2 w-2 animate-pulse rounded-full bg-green-500" />
-                <span className="text-sm font-semibold text-teal">Live now: free calculators + estate planning beta</span>
+                <span className="text-sm font-semibold text-[color:var(--color-brand-primary-container)]">Live now: free calculators + estate planning beta</span>
               </div>
               <h1 className="font-[family-name:var(--font-space)] text-4xl font-bold leading-tight text-slate-900 sm:text-5xl lg:text-6xl">
                 One platform for divorce and estate planning,
-                <span className="text-teal"> built to lower the cost of getting it done right.</span>
+                <span className="text-[color:var(--color-brand-primary-container)]"> built to lower the cost of getting it done right.</span>
               </h1>
               <p className="mt-6 max-w-2xl text-lg leading-relaxed text-slate-600 sm:text-xl">
                 LexyAlgo brings together calculators, QDRO prep, divorce forms, asset division, co-parenting, e-filing, and estate planning, so families can start free, understand their options, and keep moving without getting buried in legal process.
@@ -153,7 +153,8 @@ export default function HomePage() {
               <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:flex-wrap">
                 <Link
                   href="/#products"
-                  className="inline-flex items-center justify-center rounded-2xl bg-primary-container px-8 py-4 font-semibold text-white shadow-lg shadow-primary-container/20 transition-all hover:bg-primary hover:shadow-xl hover:shadow-primary-container/30 active:scale-[0.98]"
+                  className="inline-flex items-center justify-center rounded-2xl bg-[color:var(--color-brand-primary-container)] px-8 py-4 font-semibold text-[color:var(--color-brand-on-primary)] transition-all hover:bg-[color:var(--color-brand-primary)] active:scale-[0.98]"
+                  style={{ boxShadow: '0 20px 45px var(--color-brand-surface-tint)' }}
                 >
                   Explore all 7 tools
                   <svg className="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
@@ -220,8 +221,8 @@ export default function HomePage() {
                       'Free estate planning beta on Docassemble',
                     ].map((item) => (
                       <div key={item} className="flex items-start gap-3">
-                        <div className="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-teal/10">
-                          <svg className="h-3 w-3 text-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>
+                        <div className="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-[color:var(--color-brand-primary-fixed)]">
+                          <svg className="h-3 w-3 text-[color:var(--color-brand-primary-container)]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>
                         </div>
                         <span>{item}</span>
                       </div>
@@ -408,7 +409,7 @@ export default function HomePage() {
       <section className="bg-slate-50 py-20 sm:py-28">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto mb-12 max-w-2xl text-center">
-            <span className="text-sm font-semibold uppercase tracking-wider text-teal">Product Previews</span>
+            <span className="text-sm font-semibold uppercase tracking-wider text-[color:var(--color-brand-primary-container)]">Product Previews</span>
             <h2 className="mt-3 font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900 sm:text-4xl">
               See it in action
             </h2>

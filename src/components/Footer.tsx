@@ -31,7 +31,7 @@ export function Footer() {
               <h3 className="font-[family-name:var(--font-space)] font-bold text-xl text-white">Stay in the loop</h3>
               <p className="mt-2 text-sm text-slate-400">Get notified when we launch new tools. No spam — just product updates.</p>
             </div>
-            <WaitlistForm product="LexyAlgo Newsletter" accentColor="#1E5F6C" accentHover="#12434D" compact />
+            <WaitlistForm product="LexyAlgo Newsletter" accentColor="#515F74" accentHover="#3A4A5C" compact />
           </div>
         </div>
       </div>
