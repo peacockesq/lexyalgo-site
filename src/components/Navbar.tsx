@@ -154,7 +154,8 @@ export function Navbar() {
 
           <Link
             href="/#products"
-            className="rounded-xl bg-primary-container px-5 py-2.5 text-sm font-semibold text-white shadow-sm shadow-primary-container/20 transition-colors hover:bg-primary active:scale-[0.98]"
+            className="rounded-xl bg-[color:var(--color-brand-primary-container)] px-5 py-2.5 text-sm font-semibold text-[color:var(--color-brand-on-primary)] shadow-sm transition-colors hover:bg-[color:var(--color-brand-primary)] active:scale-[0.98]"
+            style={{ boxShadow: '0 8px 24px var(--color-brand-surface-tint)' }}
           >
             Find your solution
           </Link>
@@ -206,7 +207,8 @@ export function Navbar() {
 
           <Link
             href="/#products"
-            className="mt-4 block rounded-xl bg-primary-container px-5 py-3 text-center text-sm font-semibold text-white transition-colors hover:bg-primary"
+            className="mt-4 block rounded-xl bg-[color:var(--color-brand-primary-container)] px-5 py-3 text-center text-sm font-semibold text-[color:var(--color-brand-on-primary)] transition-colors hover:bg-[color:var(--color-brand-primary)]"
+            style={{ boxShadow: '0 8px 24px var(--color-brand-surface-tint)' }}
             onClick={() => setMobileOpen(false)}
           >
             Find your solution

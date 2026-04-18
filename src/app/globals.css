@@ -6,6 +6,15 @@
   --color-primary-container: #B02700;
   --color-on-primary: #FFFFFF;
   --color-secondary: #515F74;
+  --color-brand-primary: #3A4A5C;
+  --color-brand-primary-container: #515F74;
+  --color-brand-on-primary: #FFFFFF;
+  --color-brand-on-primary-container: #C8D4E3;
+  --color-brand-primary-fixed: #EBF0F6;
+  --color-brand-primary-fixed-dim: #C4CFE0;
+  --color-brand-surface-tint: rgba(81, 95, 116, 0.07);
+  --color-brand-outline: #6B7D94;
+  --color-brand-outline-variant: #C0CCDA;
   --color-surface: #F7F9FB;
   --color-surface-container: #ECEEF0;
   --color-on-surface: #191C1E;
