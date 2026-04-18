@@ -1,32 +1,46 @@
-'use client'
-
-import { useState } from 'react'
+import Link from 'next/link'
 
 const contactInfo = [
-  { label: 'Address', value: '1174 Whitney Avenue\nHamden, CT 06517-3432', icon: '📍' },
-  { label: 'Phone', value: '(929) 437-3767', icon: '📞' },
-  { label: 'Email', value: 'hello@lexyalgo.com', icon: '✉️' },
+  { label: 'Mailing address', value: '1174 Whitney Avenue\nHamden, CT 06517-3432', icon: '📍' },
+  { label: 'Support line', value: 'Publishing soon, once the dedicated LexyAlgo number is live.', icon: '📞' },
+  { label: 'General inbox', value: 'Publishing soon, once the production contact inbox is verified.', icon: '✉️' },
+]
+
+const contactLanes = [
+  {
+    title: 'Product updates',
+    body: 'Want to hear when calculators, filing, or co-parenting tools launch? Join the waitlist and we will send product updates there.',
+    href: '/pricing',
+    cta: 'View pricing and waitlists',
+  },
+  {
+    title: 'Privacy requests',
+    body: 'Need a privacy or data-rights contact path right now? Use the documented privacy lane instead of a generic inbox.',
+    href: '/privacy',
+    cta: 'Open privacy policy',
+  },
+  {
+    title: 'Terms and legal notices',
+    body: 'For formal legal notices or terms questions, use the legal contact path listed on the terms page.',
+    href: '/terms',
+    cta: 'Open terms',
+  },
 ]
 
 export default function ContactPage() {
-  const [submitted, setSubmitted] = useState(false)
-
   return (
     <>
-      {/* Hero */}
       <section className="bg-gradient-to-b from-surface to-white py-20 sm:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="font-[family-name:var(--font-space)] text-4xl sm:text-5xl font-bold text-slate-900">Get in touch</h1>
-          <p className="mt-4 text-lg text-slate-600 max-w-2xl">
-            Questions about our tools, partnership opportunities, or just want to say hello? We&rsquo;d love to hear from you.
+          <h1 className="font-[family-name:var(--font-space)] text-4xl sm:text-5xl font-bold text-slate-900">Contact routing is being finalized</h1>
+          <p className="mt-4 text-lg text-slate-600 max-w-3xl">
+            We removed the old placeholder form because it did not send anywhere. Until the production inbox, anti-spam flow, and dedicated support number are verified, this page shows only confirmed contact paths.
           </p>
         </div>
       </section>
 
-      {/* Content */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-          {/* Contact info */}
           <div className="space-y-8">
             {contactInfo.map((item) => (
               <div key={item.label} className="flex gap-4">
@@ -38,82 +52,40 @@ export default function ContactPage() {
               </div>
             ))}
 
-            <div className="bg-slate-100 rounded-2xl p-6 mt-8">
+            <div className="bg-amber-50 border border-amber-200 rounded-2xl p-6 mt-8">
+              <p className="text-sm text-amber-900 font-medium">Why this changed</p>
+              <p className="mt-2 text-sm text-amber-800">
+                The previous contact form showed a success state without delivering a real message. It is better to be explicit than to pretend a message was sent.
+              </p>
+            </div>
+
+            <div className="bg-slate-100 rounded-2xl p-6">
               <p className="text-xs text-slate-500 italic">
-                LexyAlgo provides document preparation tools, not legal advice. If you need an attorney, we&rsquo;re happy to point you in the right direction.
+                LexyAlgo provides document preparation tools, not legal advice. If you need legal advice, consult a licensed attorney in your jurisdiction.
               </p>
             </div>
           </div>
 
-          {/* Contact form */}
-          <div className="lg:col-span-2">
-            {submitted ? (
-              <div className="bg-white rounded-2xl border border-slate-200 p-12 text-center">
-                <div className="w-16 h-16 rounded-full bg-green-100 flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-                </div>
-                <h3 className="font-[family-name:var(--font-space)] font-bold text-xl text-slate-900">Message sent</h3>
-                <p className="mt-2 text-slate-600">We&rsquo;ll get back to you within one business day.</p>
-              </div>
-            ) : (
-              <form
-                onSubmit={(e) => { e.preventDefault(); setSubmitted(true) }}
-                className="bg-white rounded-2xl border border-slate-200 p-8 sm:p-10 space-y-6"
-              >
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                  <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-slate-700 mb-2">Name</label>
-                    <input
-                      id="name"
-                      type="text"
-                      placeholder="Your name"
-                      className="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-teal/20 focus:border-teal"
-                      required
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-slate-700 mb-2">Email</label>
-                    <input
-                      id="email"
-                      type="email"
-                      placeholder="you@email.com"
-                      className="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-teal/20 focus:border-teal"
-                      required
-                    />
-                  </div>
-                </div>
-                <div>
-                  <label htmlFor="subject" className="block text-sm font-medium text-slate-700 mb-2">Subject</label>
-                  <select
-                    id="subject"
-                    className="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-teal/20 focus:border-teal text-slate-700"
+          <div className="lg:col-span-2 bg-white rounded-2xl border border-slate-200 p-8 sm:p-10">
+            <h2 className="font-[family-name:var(--font-space)] font-bold text-2xl text-slate-900">Use a confirmed lane</h2>
+            <p className="mt-3 text-slate-600 max-w-2xl">
+              We will add the general contact form back only after it reaches a real inbox and includes verified anti-spam protection. Until then, use one of the confirmed paths below.
+            </p>
+
+            <div className="mt-8 grid gap-4">
+              {contactLanes.map((lane) => (
+                <div key={lane.title} className="rounded-2xl border border-slate-200 p-6">
+                  <h3 className="font-[family-name:var(--font-space)] font-bold text-lg text-slate-900">{lane.title}</h3>
+                  <p className="mt-2 text-sm text-slate-600">{lane.body}</p>
+                  <Link
+                    href={lane.href}
+                    className="mt-4 inline-flex items-center rounded-xl bg-teal px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#12434D] transition-all active:scale-[0.98]"
                   >
-                    <option>General inquiry</option>
-                    <option>Calculator question</option>
-                    <option>Product feedback</option>
-                    <option>Partnership / integration</option>
-                    <option>Press / media</option>
-                    <option>Other</option>
-                  </select>
+                    {lane.cta}
+                  </Link>
                 </div>
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-slate-700 mb-2">Message</label>
-                  <textarea
-                    id="message"
-                    rows={6}
-                    placeholder="How can we help?"
-                    className="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-teal/20 focus:border-teal resize-none"
-                    required
-                  />
-                </div>
-                <button
-                  type="submit"
-                  className="bg-teal text-white font-semibold px-8 py-3 rounded-xl hover:bg-[#12434D] transition-all shadow-sm shadow-teal/20 active:scale-[0.98]"
-                >
-                  Send Message
-                </button>
-              </form>
-            )}
+              ))}
+            </div>
           </div>
         </div>
       </section>
