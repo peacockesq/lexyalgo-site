@@ -219,7 +219,7 @@ jobs:
           backup="$parent/.$base.previous-$RUN_SUFFIX"
           docker exec -e TARGET_PATH="$DEPLOY_CONTAINER_PATH" -e INCOMING_PATH="$incoming" -e BACKUP_PATH="$backup" "$DEPLOY_CONTAINER" sh -lc '
             set -e
-            mkdir -p "$(dirname "$TARGET_PATH")"
+            mkdir -p "\$(dirname "$TARGET_PATH")"
             rm -rf "$INCOMING_PATH" "$BACKUP_PATH"
             mkdir -p "$INCOMING_PATH"
           '
