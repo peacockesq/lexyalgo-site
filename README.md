@@ -4,11 +4,13 @@ Marketing site for [lexyalgo.com](https://lexyalgo.com) — a house of brands fo
 
 ## Live Products
 - **Support Calculator** — Free child support and retirement division calculators
+- **QDRO Services** — Live intake and document generation flow
+- **Estate Planning** — Free beta access for wills, trusts, POAs, and healthcare directives
 
-## Coming Soon
+## Public Alpha Products
+- **Divorce Forms** — Court-form-driven divorce documents
 - **Asset Divider** — Visual property division with behavioral design
 - **Co-Parent** — Shared calendar, expense tracking, communication
-- **Document Generation** — Court-form-driven divorce documents
 - **LexyFiling** — E-filing integration
 
 ## Tech Stack
@@ -40,6 +42,9 @@ npm run build
 ```
 
 Static output goes to `/out/`.
+
+Release/runbook reference:
+- `docs/STAGING-AND-RELEASE.md`
 
 ## Environment Variables
 

@@ -5,12 +5,12 @@ import { WaitlistForm } from '@/components/WaitlistForm'
 const divorceProducts = [
   {
     name: 'Divorce Forms',
-    description: 'Full uncontested divorce document generation. One guided intake → court-form-driven documents for your state. CT and CA launching first.',
+    description: 'Full uncontested divorce document generation is now public alpha. One guided intake leads to court-form-driven documents for your state, with CT and CA first.',
     href: '/products/divorce',
     color: '#2B4580',
     lightBg: '#E8EEF8',
     icon: '📄',
-    badge: 'Coming Soon',
+    badge: 'Public Alpha',
     live: false,
   },
   {
@@ -35,32 +35,32 @@ const divorceProducts = [
   },
   {
     name: 'Asset Divider',
-    description: 'Visual drag-and-drop property division with fairness scoring. Every trade-off framed as a gain, not a loss.',
+    description: 'Visual drag-and-drop property division with fairness scoring, now exposed on the site as a public alpha.',
     href: '/products/asset-divider',
     color: '#B02700',
     lightBg: '#FFEDE8',
     icon: '⚖️',
-    badge: 'Coming Soon',
+    badge: 'Public Alpha',
     live: false,
   },
   {
     name: 'Co-Parent',
-    description: 'Shared calendar, expense tracking, and communication tools designed around positive parenting time — not conflict.',
+    description: 'Shared calendar, expense tracking, and communication tools designed around positive parenting time, now visible as a public alpha.',
     href: '/products/co-parent',
     color: '#2E6B4F',
     lightBg: '#E6F5EC',
     icon: '📅',
-    badge: 'Coming Soon',
+    badge: 'Public Alpha',
     live: false,
   },
   {
     name: 'LexyFiling',
-    description: 'E-filing integration that submits your completed documents directly to the court. No printing, no mailing, no courthouse lines.',
+    description: 'E-filing integration that submits completed documents directly to the court, now exposed on the site as a public alpha.',
     href: '/products/filing',
     color: '#4B3D7A',
     lightBg: '#EDE9F8',
     icon: '📁',
-    badge: 'Coming Soon',
+    badge: 'Public Alpha',
     live: false,
   },
 ]
@@ -112,7 +112,7 @@ function ProductCard({
         <div className="flex h-12 w-12 items-center justify-center rounded-xl text-2xl" style={{ backgroundColor: product.lightBg }}>
           {product.icon}
         </div>
-        <span className={`rounded-full px-3 py-1 text-xs font-medium ${product.live ? 'bg-green-100 text-green-700' : product.badge === 'Free Beta' ? 'bg-amber-100 text-amber-700' : 'bg-violet-100 text-violet-700'}`}>
+        <span className={`rounded-full px-3 py-1 text-xs font-medium ${product.live ? 'bg-green-100 text-green-700' : product.badge === 'Free Beta' ? 'bg-amber-100 text-amber-700' : product.badge === 'Public Alpha' ? 'bg-sky-100 text-sky-700' : 'bg-violet-100 text-violet-700'}`}>
           {product.badge}
         </span>
       </div>
@@ -121,7 +121,7 @@ function ProductCard({
       </h3>
       <p className="mt-3 text-sm leading-relaxed text-slate-600">{product.description}</p>
       <div className="mt-5 flex items-center text-sm font-semibold transition-colors" style={{ color: product.color }}>
-        {product.live ? 'Get started' : 'Join waitlist'}
+        {product.live ? 'Get started' : product.badge === 'Public Alpha' ? 'Open public alpha' : product.badge === 'Free Beta' ? 'Open free beta' : 'Learn more'}
         <svg className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
       </div>
     </Link>
@@ -139,12 +139,16 @@ export default function HomePage() {
               <span className="h-2 w-2 animate-pulse rounded-full bg-green-500" />
               <span className="text-sm font-semibold text-teal">Live Now — Free Calculators</span>
             </div>
+            <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-sky-50 px-4 py-1.5 text-sky-700">
+              <span className="h-2 w-2 rounded-full bg-sky-500" />
+              <span className="text-sm font-semibold">Public alpha across the broader platform</span>
+            </div>
             <h1 className="font-[family-name:var(--font-space)] text-4xl font-bold leading-tight text-slate-900 sm:text-5xl lg:text-6xl">
               Divorce is hard.<br />
               <span className="text-teal">Your tools shouldn&rsquo;t be.</span>
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-slate-600 sm:text-xl">
-              Free child support and retirement division calculators — built by an attorney licensed in 8 states. State-specific formulas, future-value timelines, and plain-English explanations. More tools coming soon.
+              Free child support and retirement division calculators are live now. The broader platform is public alpha, so visitors can see what is shipping next while we tighten the workflows in public.
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Link
@@ -266,7 +270,7 @@ export default function HomePage() {
               Find the right path for your legal work
             </h2>
             <p className="mt-4 text-lg text-slate-600">
-              Calculators and QDROs are live today. The rest of the divorce workflow is on deck — and estate planning now stands on its own.
+              Calculators and QDROs are live today. Divorce Forms, Asset Divider, Co-Parent, and LexyFiling are now shown publicly as alpha surfaces while we keep shipping.
             </p>
           </div>
 
@@ -328,7 +332,7 @@ export default function HomePage() {
                   {estatePlanningProduct.description}
                 </p>
                 <div className="mt-6 border-l-4 border-[color:#7A5C1E] bg-[color:rgba(122,92,30,.08)] px-4 py-3 text-sm text-slate-700">
-                  Free beta access now, with the same Sanctuary-style clarity and guided workflow as the rest of LexyAlgo.
+                  Free beta access is live now, with the same plain-English clarity and guided workflow as the rest of LexyAlgo.
                 </div>
               </div>
             </div>
@@ -435,10 +439,10 @@ export default function HomePage() {
       <section className="bg-peach">
         <div className="mx-auto max-w-7xl px-4 py-16 text-center sm:px-6 sm:py-20 lg:px-8">
           <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900 sm:text-4xl">
-            Get notified when new tools launch
+            Explore the platform as it ships
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-lg text-slate-700">
-            Free calculators are live today. Join the waitlist for Asset Divider, Co-Parent, document generation, and e-filing.
+            Free calculators are live today. Divorce Forms, Asset Divider, Co-Parent, and LexyFiling are all exposed on the main site as public alpha or beta products.
           </p>
           <div className="mx-auto mt-8 max-w-xl">
             <WaitlistForm product="LexyAlgo — All Products" accentColor="#B02700" accentHover="#861B00" compact />
