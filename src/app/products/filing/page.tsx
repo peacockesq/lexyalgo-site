@@ -1,12 +1,13 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
-import { WaitlistForm } from '@/components/WaitlistForm'
 import { RealScreenshot } from '@/components/RealScreenshot'
 
 export const metadata: Metadata = {
-  title: 'LexyFiling — Coming Soon — LexyAlgo',
-  description: 'E-filing integration that submits your completed divorce documents directly to the court.',
+  title: 'LexyFiling — Public Alpha — LexyAlgo',
+  description: 'E-filing integration that submits completed divorce documents directly to the court, now visible as a public alpha.',
 }
+
+const PUBLIC_ALPHA_URL = 'https://filing.lexyalgo.com'
 
 export default function FilingPage() {
   return (
@@ -18,23 +19,43 @@ export default function FilingPage() {
             <div className="text-center lg:text-left">
               <span className="inline-flex items-center gap-2 text-sm font-semibold text-violet uppercase tracking-wider">
                 <span className="w-2.5 h-2.5 rounded-full bg-violet" />
-                LexyFiling — Coming Soon
+                LexyFiling — Public Alpha
               </span>
               <h1 className="font-[family-name:var(--font-space)] text-4xl sm:text-5xl font-bold text-slate-900 mt-4 leading-tight">
                 File without the courthouse
               </h1>
               <p className="mt-6 text-lg text-slate-600 leading-relaxed">
-                E-filing integration that takes your completed LexyAlgo documents and submits them directly to the court. No printing, no mailing, no waiting in line.
+                E-filing integration, now visible as a public alpha, that takes your completed LexyAlgo documents and submits them directly to the court. No printing, no mailing, no waiting in line.
               </p>
-              <div className="mt-6">
-                <Link href="/calculator"
-                  className="inline-flex items-center text-sm font-semibold text-teal hover:underline"
+              <div className="mt-8 flex flex-col sm:flex-row gap-4">
+                <a href={PUBLIC_ALPHA_URL}
+                  className="inline-flex items-center justify-center bg-violet text-white font-semibold px-8 py-4 rounded-2xl hover:bg-[#342A57] transition-all shadow-lg shadow-violet/20 active:scale-[0.98]"
                 >
-                  Try our free calculators while you wait →
+                  Open Public Alpha
+                </a>
+                <Link href="/calculator"
+                  className="inline-flex items-center justify-center border-2 border-slate-200 text-slate-700 font-semibold px-8 py-4 rounded-2xl hover:border-slate-300 hover:bg-slate-50 transition-all"
+                >
+                  Open calculators
                 </Link>
               </div>
             </div>
-            <WaitlistForm product="LexyFiling" accentColor="#4B3D7A" accentHover="#342A57" />
+            <div className="rounded-3xl border border-violet/10 bg-white p-8 shadow-xl shadow-violet/10">
+              <div className="inline-flex items-center gap-2 rounded-full bg-violet-light px-3 py-1 text-xs font-semibold uppercase tracking-wider text-violet">
+                Public Alpha Access
+              </div>
+              <h2 className="mt-5 font-[family-name:var(--font-space)] text-2xl font-bold text-slate-900">
+                LexyFiling is reachable now
+              </h2>
+              <p className="mt-3 text-sm leading-relaxed text-slate-600">
+                The e-filing product is no longer presented as a waitlist-only concept on the marketing site. Visitors can open the alpha directly.
+              </p>
+              <a href={PUBLIC_ALPHA_URL}
+                className="mt-8 inline-flex w-full items-center justify-center rounded-2xl bg-violet px-6 py-4 text-center font-semibold text-white transition-all hover:bg-[#342A57] active:scale-[0.98]"
+              >
+                Launch LexyFiling Alpha
+              </a>
+            </div>
           </div>
 
           <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-2xl mx-auto lg:max-w-none">
