@@ -55,12 +55,12 @@ const divorceProducts = [
   },
   {
     name: 'LexyFiling',
-    description: 'E-filing integration that submits completed documents directly to the court, now exposed on the site as a public alpha.',
+    description: 'E-filing integration is planned, but not started yet. It stays on the roadmap as a coming-soon product.',
     href: '/products/filing',
     color: '#4B3D7A',
     lightBg: '#EDE9F8',
     icon: '📁',
-    badge: 'Public Alpha',
+    badge: 'Coming Soon',
     live: false,
   },
 ]
