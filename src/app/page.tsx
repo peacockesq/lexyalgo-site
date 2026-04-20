@@ -270,7 +270,7 @@ export default function HomePage() {
               Find the right path for your legal work
             </h2>
             <p className="mt-4 text-lg text-slate-600">
-              Calculators and QDROs are live today. Divorce Forms, Asset Divider, Co-Parent, and LexyFiling are now shown publicly as alpha surfaces while we keep shipping.
+              Calculators and QDROs are live today. Divorce Forms, Asset Divider, and Co-Parent are shown publicly as alpha surfaces while we keep shipping. LexyFiling remains a coming-soon roadmap item.
             </p>
           </div>
 
@@ -442,7 +442,7 @@ export default function HomePage() {
             Explore the platform as it ships
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-lg text-slate-700">
-            Free calculators are live today. Divorce Forms, Asset Divider, Co-Parent, and LexyFiling are all exposed on the main site as public alpha or beta products.
+            Free calculators are live today. Divorce Forms, Asset Divider, and Co-Parent are exposed on the main site for public testing, while LexyFiling stays marked coming soon.
           </p>
           <div className="mx-auto mt-8 max-w-xl">
             <WaitlistForm product="LexyAlgo — All Products" accentColor="#B02700" accentHover="#861B00" compact />
