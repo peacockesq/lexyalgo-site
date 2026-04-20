@@ -84,8 +84,15 @@ After a staging or production push, verify:
 2. primary product sections render
 3. nav links work without routing failures
 4. blog/content pages render from the built static output
-5. waitlist or contact surfaces do not throw client errors
+5. contact and public-alpha entry surfaces do not throw client errors
 6. `build-meta.json` reports the expected commit SHA
+
+## Content/release notes
+
+Current live product framing in this repo:
+- Support Calculator and QDRO Services are live references
+- Estate Planning is a free beta reference
+- Divorce Forms, Asset Divider, Co-Parent, and LexyFiling are public-alpha references exposed on the main site
 
 ## Proof to keep with each release
 

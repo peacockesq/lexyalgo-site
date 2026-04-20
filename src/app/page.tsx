@@ -7,12 +7,12 @@ const TRY_NOW_FREE_URL = 'https://doc.lexyalgo.com/interview?i=docassemble.Estat
 const divorceProducts = [
   {
     name: 'Divorce Forms',
-    description: 'Full uncontested divorce document generation. One guided intake → court-form-driven documents for your state. CT and CA launching first.',
+    description: 'Full uncontested divorce document generation is now public alpha. One guided intake leads to court-form-driven documents for your state, with CT and CA first.',
     href: '/products/divorce',
     color: '#2B4580',
     lightBg: '#E8EEF8',
     icon: '📄',
-    badge: 'Coming Soon',
+    badge: 'Public Alpha',
     live: false,
   },
   {
@@ -37,32 +37,32 @@ const divorceProducts = [
   },
   {
     name: 'Asset Divider',
-    description: 'Visual drag-and-drop property division with fairness scoring. Every trade-off framed as a gain, not a loss.',
+    description: 'Visual drag-and-drop property division with fairness scoring, now exposed on the site as a public alpha.',
     href: '/products/asset-divider',
     color: '#B02700',
     lightBg: '#FFEDE8',
     icon: '⚖️',
-    badge: 'Coming Soon',
+    badge: 'Public Alpha',
     live: false,
   },
   {
     name: 'Co-Parent',
-    description: 'Shared calendar, expense tracking, and communication tools designed around positive parenting time — not conflict.',
+    description: 'Shared calendar, expense tracking, and communication tools designed around positive parenting time, now visible as a public alpha.',
     href: '/products/co-parent',
     color: '#2E6B4F',
     lightBg: '#E6F5EC',
     icon: '📅',
-    badge: 'Coming Soon',
+    badge: 'Public Alpha',
     live: false,
   },
   {
     name: 'LexyFiling',
-    description: 'E-filing integration that submits your completed documents directly to the court. No printing, no mailing, no courthouse lines.',
+    description: 'E-filing integration that submits completed documents directly to the court, now exposed on the site as a public alpha.',
     href: '/products/filing',
     color: '#4B3D7A',
     lightBg: '#EDE9F8',
     icon: '📁',
-    badge: 'Coming Soon',
+    badge: 'Public Alpha',
     live: false,
   },
 ]
@@ -114,7 +114,7 @@ function ProductCard({
         <div className="flex h-12 w-12 items-center justify-center rounded-xl text-2xl" style={{ backgroundColor: product.lightBg }}>
           {product.icon}
         </div>
-        <span className={`rounded-full px-3 py-1 text-xs font-medium ${product.live ? 'bg-green-100 text-green-700' : product.badge === 'Free Beta' ? 'bg-amber-100 text-amber-700' : 'bg-violet-100 text-violet-700'}`}>
+        <span className={`rounded-full px-3 py-1 text-xs font-medium ${product.live ? 'bg-green-100 text-green-700' : product.badge === 'Free Beta' ? 'bg-amber-100 text-amber-700' : product.badge === 'Public Alpha' ? 'bg-sky-100 text-sky-700' : 'bg-violet-100 text-violet-700'}`}>
           {product.badge}
         </span>
       </div>
@@ -123,7 +123,7 @@ function ProductCard({
       </h3>
       <p className="mt-3 text-sm leading-relaxed text-slate-600">{product.description}</p>
       <div className="mt-5 flex items-center text-sm font-semibold transition-colors" style={{ color: product.color }}>
-        {product.live ? 'Get started' : 'Join waitlist'}
+        {product.live ? 'Get started' : product.badge === 'Public Alpha' ? 'Open public alpha' : product.badge === 'Free Beta' ? 'Open free beta' : 'Learn more'}
         <svg className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
       </div>
     </Link>
@@ -398,7 +398,7 @@ export default function HomePage() {
                   {estatePlanningProduct.description}
                 </p>
                 <div className="mt-6 border-l-4 border-[color:#7A5C1E] bg-[color:rgba(122,92,30,.08)] px-4 py-3 text-sm text-slate-700">
-                  Free beta access now, with the same Sanctuary-style clarity and guided workflow as the rest of LexyAlgo.
+                  Free beta access is live now, with the same plain-English clarity and guided workflow as the rest of LexyAlgo.
                 </div>
               </div>
             </div>
