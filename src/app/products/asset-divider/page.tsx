@@ -34,7 +34,7 @@ export default function AssetDividerPage() {
                 Divide property without the heartache
               </h1>
               <p className="mt-6 text-lg text-slate-600 leading-relaxed">
-                A visual workspace, now visible in public alpha, that turns the most stressful part of divorce, splitting everything you built together, into clear, fair decisions. Every trade-off framed as a gain.
+                A visual workspace for weighing tradeoffs, dividing property, and seeing balance in real time. Asset Divider is available as an early release while the workflow keeps improving.
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
                 <a href={PUBLIC_ALPHA_URL}
@@ -54,10 +54,10 @@ export default function AssetDividerPage() {
                 Public Alpha Access
               </div>
               <h2 className="mt-5 font-[family-name:var(--font-space)] text-2xl font-bold text-slate-900">
-                This workspace is exposed for public testing
+                Explore the current release
               </h2>
               <p className="mt-3 text-sm leading-relaxed text-slate-600">
-                Asset Divider is no longer buried behind a waitlist on the marketing site. People can reach the alpha directly from here.
+                People can reach Asset Divider directly from the site and see how the product experience is taking shape.
               </p>
               <a href={PUBLIC_ALPHA_URL}
                 className="mt-8 inline-flex w-full items-center justify-center rounded-2xl bg-ember px-6 py-4 text-center font-semibold text-white transition-all hover:bg-[#861B00] active:scale-[0.98]"
@@ -102,17 +102,17 @@ export default function AssetDividerPage() {
       <section className="bg-peach py-16 sm:py-20 text-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900">Test Asset Divider now</h2>
-          <p className="mt-4 text-slate-700 max-w-lg mx-auto">Public alpha is open on the site. Get into the workflow and pressure-test the property split experience.</p>
+          <p className="mt-4 max-w-lg mx-auto text-slate-700">Open the product, walk through the property-split workflow, and see how balance updates in real time.</p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <a href={PUBLIC_ALPHA_URL}
               className="inline-flex items-center justify-center bg-ember text-white font-semibold px-8 py-4 rounded-2xl hover:bg-[#861B00] transition-all shadow-lg shadow-ember/20 active:scale-[0.98]"
             >
               Open Public Alpha
             </a>
-            <Link href="/contact"
+            <Link href="/calculator"
               className="inline-flex items-center justify-center border-2 border-slate-300 text-slate-700 font-semibold px-8 py-4 rounded-2xl hover:border-slate-400 hover:bg-white transition-all"
             >
-              Send feedback
+              Open calculators
             </Link>
           </div>
         </div>

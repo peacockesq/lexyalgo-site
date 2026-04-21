@@ -1,11 +1,10 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { WaitlistForm } from '@/components/WaitlistForm'
 
 const divorceProducts = [
   {
     name: 'Divorce Forms',
-    description: 'Full uncontested divorce document generation is now public alpha. One guided intake leads to court-form-driven documents for your state, with CT and CA first.',
+    description: 'Guided divorce-document workflows that turn one intake into the court forms your state requires, starting with Connecticut and California.',
     href: '/products/divorce',
     color: '#2B4580',
     lightBg: '#E8EEF8',
@@ -15,7 +14,7 @@ const divorceProducts = [
   },
   {
     name: 'QDRO Services',
-    description: 'Qualified Domestic Relations Order preparation — 33 plan-specific templates, attorney-prepared, flat-fee pricing. Already serving clients.',
+    description: 'Flat-fee QDRO generation for retirement-plan division, with plan-specific language and a live self-serve workflow.',
     href: '/products/qdro',
     color: '#8B5E3C',
     lightBg: '#F5EDE5',
@@ -25,7 +24,7 @@ const divorceProducts = [
   },
   {
     name: 'Calculators',
-    description: 'Free child support calculator, live now, with plain-English explanations and more calculators queued behind it.',
+    description: 'Free child support and retirement calculators with plain-English explanations and downloadable summaries.',
     href: '/calculator',
     color: '#1E5F6C',
     lightBg: '#E4F3F6',
@@ -35,7 +34,7 @@ const divorceProducts = [
   },
   {
     name: 'Asset Divider',
-    description: 'Visual drag-and-drop property division with fairness scoring, now exposed on the site as a public alpha.',
+    description: 'A visual property-division workspace for weighing tradeoffs, testing scenarios, and seeing balance in real time.',
     href: '/products/asset-divider',
     color: '#B02700',
     lightBg: '#FFEDE8',
@@ -45,7 +44,7 @@ const divorceProducts = [
   },
   {
     name: 'Co-Parent',
-    description: 'Shared calendar, expense tracking, and communication tools designed around positive parenting time, now visible as a public alpha.',
+    description: 'Shared calendars, expense tracking, and communication tools built to reduce friction after separation.',
     href: '/products/co-parent',
     color: '#2E6B4F',
     lightBg: '#E6F5EC',
@@ -55,7 +54,7 @@ const divorceProducts = [
   },
   {
     name: 'LexyFiling',
-    description: 'E-filing integration is planned, but not started yet. It stays on the roadmap as a coming-soon product.',
+    description: 'The future filing layer for completed workflows. It stays marked coming soon until the build is real.',
     href: '/products/filing',
     color: '#4B3D7A',
     lightBg: '#EDE9F8',
@@ -67,7 +66,7 @@ const divorceProducts = [
 
 const estatePlanningProduct = {
   name: 'Estate Planning',
-  description: 'Generate your Living Trust, Will, Power of Attorney, and Healthcare Directive with the same plain-English guidance — free during beta.',
+  description: 'Generate your living trust, will, power of attorney, and healthcare directive with the same plain-English guidance, free during beta.',
   href: '/products/estate-planning',
   color: '#7A5C1E',
   lightBg: '#FAF2DC',
@@ -76,17 +75,17 @@ const estatePlanningProduct = {
 }
 
 const trustBadges = [
-  { label: '8-State Attorney', detail: 'Built by a licensed attorney' },
-  { label: 'Court-Form Driven', detail: 'Uses actual court forms' },
-  { label: 'Attorney-Built', detail: 'Licensed in 8 states' },
-  { label: 'Free Calculators', detail: 'No account required' },
+  { label: 'Court-form driven', detail: 'Built around real legal workflows' },
+  { label: 'Plain English', detail: 'Clarity without the jargon wall' },
+  { label: 'Live products', detail: 'Use calculators, QDROs, and estate planning today' },
+  { label: 'More on the way', detail: 'New tools roll out in focused public releases' },
 ]
 
 const steps = [
-  { num: '01', title: 'Pick Your State', desc: 'Select your jurisdiction. We load that state\'s guidelines, formulas, and court-form requirements.' },
-  { num: '02', title: 'Enter Your Numbers', desc: 'Income, overnights, retirement accounts — plain-English questions, no legal jargon.' },
-  { num: '03', title: 'See the Full Picture', desc: 'Support calculations with future-value timelines. What $30K today means at age 62.' },
-  { num: '04', title: 'Download Results', desc: 'Export calculation summaries as PDFs for your attorney, mediator, or records.' },
+  { num: '01', title: 'Pick your state', desc: 'We load the right rules, formulas, and workflow details for your jurisdiction.' },
+  { num: '02', title: 'Answer plain questions', desc: 'Income, overnights, retirement accounts, family details, no legal-jargon obstacle course.' },
+  { num: '03', title: 'See clear outputs', desc: 'Calculations, timelines, and document workflows that show the practical next step.' },
+  { num: '04', title: 'Move forward faster', desc: 'Download results, start a product workflow, or bring cleaner information into attorney review.' },
 ]
 
 function ProductCard({
@@ -121,7 +120,7 @@ function ProductCard({
       </h3>
       <p className="mt-3 text-sm leading-relaxed text-slate-600">{product.description}</p>
       <div className="mt-5 flex items-center text-sm font-semibold transition-colors" style={{ color: product.color }}>
-        {product.live ? 'Get started' : product.badge === 'Public Alpha' ? 'Open public alpha' : product.badge === 'Free Beta' ? 'Open free beta' : 'Learn more'}
+        {product.live ? 'Get started' : product.badge === 'Public Alpha' ? 'Explore product' : product.badge === 'Free Beta' ? 'Open free beta' : 'Learn more'}
         <svg className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" /></svg>
       </div>
     </Link>
@@ -137,32 +136,29 @@ export default function HomePage() {
           <div className="max-w-3xl">
             <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-teal-light px-4 py-1.5">
               <span className="h-2 w-2 animate-pulse rounded-full bg-green-500" />
-              <span className="text-sm font-semibold text-teal">Live Now — Free Calculators</span>
-            </div>
-            <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-sky-50 px-4 py-1.5 text-sky-700">
-              <span className="h-2 w-2 rounded-full bg-sky-500" />
-              <span className="text-sm font-semibold">Public alpha across the broader platform</span>
+              <span className="text-sm font-semibold text-teal">Live now: calculators, QDRO, and estate planning beta</span>
             </div>
             <h1 className="font-[family-name:var(--font-space)] text-4xl font-bold leading-tight text-slate-900 sm:text-5xl lg:text-6xl">
-              Divorce is hard.<br />
-              <span className="text-teal">Your tools shouldn&rsquo;t be.</span>
+              Legal tools that help people
+              <br />
+              <span className="text-teal">get organized and move forward.</span>
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-slate-600 sm:text-xl">
-              The free child support calculator is live now. The broader platform is public alpha, so visitors can see what is shipping next while we tighten the workflows in public.
+              LexyAlgo makes divorce and family-law workflows easier to understand, from free calculators to guided document tools and retirement-division products. Start with what is live today, then follow the products that are rolling out next.
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Link
                 href="/#products"
                 className="inline-flex items-center justify-center rounded-2xl bg-primary-container px-8 py-4 font-semibold text-white shadow-lg shadow-primary-container/20 transition-all hover:bg-primary hover:shadow-xl hover:shadow-primary-container/30 active:scale-[0.98]"
               >
-                Find your solution
+                Explore products
                 <svg className="ml-2 h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </Link>
               <Link
                 href="/calculator"
                 className="inline-flex items-center justify-center rounded-2xl border-2 border-slate-200 px-8 py-4 font-semibold text-slate-700 transition-all hover:border-slate-300 hover:bg-slate-50"
               >
-                Open calculators
+                Start with calculators
               </Link>
             </div>
           </div>
@@ -182,106 +178,26 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="py-20 sm:py-28">
-        <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-16 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
-          <div>
-            <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-teal-light px-3 py-1">
-              <span className="h-2 w-2 rounded-full bg-green-500" />
-              <span className="text-xs font-semibold uppercase tracking-wider text-teal">Available Now</span>
-            </div>
-            <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900 sm:text-4xl">
-              Child Support Calculator
-            </h2>
-            <p className="mt-4 text-lg leading-relaxed text-slate-600">
-              State-specific child support guideline estimates with plain-English explanations so people can get a fast, useful starting point before they talk strategy.
-            </p>
-            <div className="mt-6 space-y-3">
-              {[
-                'Child support guideline calculations by state',
-                'Available across all 50 states plus DC',
-                'Plain-English explanations alongside every estimate',
-                'Fast starting point before attorney review',
-                'More calculators are on the roadmap',
-              ].map((item) => (
-                <div key={item} className="flex items-start gap-3">
-                  <div className="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-teal/10">
-                    <svg className="h-3 w-3 text-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>
-                  </div>
-                  <span className="text-sm text-slate-700">{item}</span>
-                </div>
-              ))}
-            </div>
-            <Link
-              href="/calculator"
-              className="mt-8 inline-flex items-center justify-center rounded-2xl bg-teal px-8 py-4 font-semibold text-white shadow-lg shadow-teal/20 transition-all hover:bg-[#12434D] active:scale-[0.98]"
-            >
-              Open calculators
-            </Link>
-          </div>
-          <div className="overflow-hidden rounded-2xl shadow-2xl ring-1 ring-slate-200/60">
-            <div className="flex items-center gap-1.5 border-b border-slate-200 bg-slate-100 px-4 py-2">
-              <div className="h-2 w-2 rounded-full bg-red-400/80" />
-              <div className="h-2 w-2 rounded-full bg-yellow-400/80" />
-              <div className="h-2 w-2 rounded-full bg-green-400/80" />
-              <div className="ml-3 flex h-4 max-w-[200px] flex-1 items-center rounded border border-slate-200 bg-white px-2">
-                <span className="text-[10px] text-slate-400">lexyalgo.com/calculator</span>
-              </div>
-            </div>
-            <Image
-              src="/screenshots/calculator-ct.png"
-              alt="Connecticut child support calculator — state-specific guidelines and future-value timeline"
-              width={800}
-              height={600}
-              className="block h-auto w-full"
-              priority
-            />
-          </div>
-        </div>
-      </section>
-
-      <section className="bg-slate-950 py-20 sm:py-28">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto mb-16 max-w-2xl text-center">
-            <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-white sm:text-4xl">
-              How it works
-            </h2>
-            <p className="mt-4 text-lg text-slate-400">
-              Four steps from confused to confident. No law degree required.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
-            {steps.map((step) => (
-              <div key={step.num} className="relative">
-                <span className="font-[family-name:var(--font-space)] text-5xl font-bold text-slate-800">{step.num}</span>
-                <h3 className="mt-4 font-[family-name:var(--font-space)] text-lg font-bold text-white">{step.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-slate-400">{step.desc}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       <section id="products" className="scroll-mt-24 py-20 sm:py-28">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto mb-16 max-w-2xl text-center">
-            <span className="text-sm font-semibold uppercase tracking-wider text-primary-container">The Platform</span>
+            <span className="text-sm font-semibold uppercase tracking-wider text-primary-container">The platform</span>
             <h2 className="mt-3 font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900 sm:text-4xl">
-              Find the right path for your legal work
+              Start with the right product for the job
             </h2>
             <p className="mt-4 text-lg text-slate-600">
-              The child support calculator and QDRO services are live today. Divorce Forms, Asset Divider, and Co-Parent are shown publicly as alpha surfaces while we keep shipping. LexyFiling remains a coming-soon roadmap item.
+              Some parts of LexyAlgo are ready to use today, and others are visible as early product releases. Every page should make it clear what is live, what is in beta, and what is still on the roadmap.
             </p>
           </div>
 
           <div className="rounded-[2rem] border border-slate-200 bg-slate-50/70 p-6 sm:p-8">
             <div className="max-w-2xl">
-              <span className="text-sm font-semibold uppercase tracking-wider text-slate-500">Divorce &amp; family law</span>
+              <span className="text-sm font-semibold uppercase tracking-wider text-slate-500">Divorce and family law</span>
               <h3 className="mt-3 font-[family-name:var(--font-space)] text-2xl font-bold text-slate-900 sm:text-3xl">
-                One place for forms, calculations, negotiation, and filing
+                Calculations, forms, coordination, and filing in one product family
               </h3>
               <p className="mt-3 text-slate-600">
-                Start with calculators, move into QDRO work, then keep going through documents, asset division, co-parenting, and filing.
+                Use calculators now, start a QDRO order today, and explore the document, asset-division, and co-parenting products that are rolling out next.
               </p>
             </div>
             <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -299,7 +215,7 @@ export default function HomePage() {
                   A separate lane for wills, trusts, and directives
                 </h3>
                 <p className="mt-4 max-w-2xl text-slate-700">
-                  Estate planning isn&rsquo;t a divorce add-on. It&rsquo;s its own product line for families who need trusts, wills, powers of attorney, and healthcare directives handled cleanly.
+                  Estate planning is its own product line for families who need trusts, wills, powers of attorney, and healthcare directives handled cleanly.
                 </p>
                 <div className="mt-6 flex flex-wrap gap-3 text-sm text-slate-700">
                   {['Living Trust', 'Will', 'Power of Attorney', 'Healthcare Directive'].map((item) => (
@@ -332,7 +248,7 @@ export default function HomePage() {
                   {estatePlanningProduct.description}
                 </p>
                 <div className="mt-6 border-l-4 border-[color:#7A5C1E] bg-[color:rgba(122,92,30,.08)] px-4 py-3 text-sm text-slate-700">
-                  Free beta access is live now, with the same plain-English clarity and guided workflow as the rest of LexyAlgo.
+                  Free beta access is available now, with guided flows and downloadable documents.
                 </div>
               </div>
             </div>
@@ -340,15 +256,95 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="py-20 sm:py-28">
+        <div className="mx-auto grid max-w-7xl grid-cols-1 items-center gap-16 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
+          <div>
+            <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-teal-light px-3 py-1">
+              <span className="h-2 w-2 rounded-full bg-green-500" />
+              <span className="text-xs font-semibold uppercase tracking-wider text-teal">Available now</span>
+            </div>
+            <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900 sm:text-4xl">
+              Child Support Calculator
+            </h2>
+            <p className="mt-4 text-lg leading-relaxed text-slate-600">
+              State-specific child support estimates with plain-English explanations, so people can get a fast, useful starting point before they decide what comes next.
+            </p>
+            <div className="mt-6 space-y-3">
+              {[
+                'Child support guideline calculations by state',
+                'Available across all 50 states plus DC',
+                'Plain-English explanations alongside every estimate',
+                'Fast starting point before attorney review',
+                'Downloadable summaries for your records',
+              ].map((item) => (
+                <div key={item} className="flex items-start gap-3">
+                  <div className="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-teal/10">
+                    <svg className="h-3 w-3 text-teal" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>
+                  </div>
+                  <span className="text-sm text-slate-700">{item}</span>
+                </div>
+              ))}
+            </div>
+            <Link
+              href="/calculator"
+              className="mt-8 inline-flex items-center justify-center rounded-2xl bg-teal px-8 py-4 font-semibold text-white shadow-lg shadow-teal/20 transition-all hover:bg-[#12434D] active:scale-[0.98]"
+            >
+              Open calculators
+            </Link>
+          </div>
+          <div className="overflow-hidden rounded-2xl shadow-2xl ring-1 ring-slate-200/60">
+            <div className="flex items-center gap-1.5 border-b border-slate-200 bg-slate-100 px-4 py-2">
+              <div className="h-2 w-2 rounded-full bg-red-400/80" />
+              <div className="h-2 w-2 rounded-full bg-yellow-400/80" />
+              <div className="h-2 w-2 rounded-full bg-green-400/80" />
+              <div className="ml-3 flex h-4 max-w-[200px] flex-1 items-center rounded border border-slate-200 bg-white px-2">
+                <span className="text-[10px] text-slate-400">lexyalgo.com/calculator</span>
+              </div>
+            </div>
+            <Image
+              src="/screenshots/calculator-ct.png"
+              alt="Connecticut child support calculator with state-specific guidelines and future-value timeline"
+              width={800}
+              height={600}
+              className="block h-auto w-full"
+              priority
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-slate-950 py-20 sm:py-28">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto mb-16 max-w-2xl text-center">
+            <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-white sm:text-4xl">
+              How it works
+            </h2>
+            <p className="mt-4 text-lg text-slate-400">
+              A simpler path from confusion to a useful next step.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+            {steps.map((step) => (
+              <div key={step.num} className="relative">
+                <span className="font-[family-name:var(--font-space)] text-5xl font-bold text-slate-800">{step.num}</span>
+                <h3 className="mt-4 font-[family-name:var(--font-space)] text-lg font-bold text-white">{step.title}</h3>
+                <p className="mt-2 text-sm leading-relaxed text-slate-400">{step.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="bg-slate-50 py-20 sm:py-28">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto mb-12 max-w-2xl text-center">
-            <span className="text-sm font-semibold uppercase tracking-wider text-teal">Product Previews</span>
+            <span className="text-sm font-semibold uppercase tracking-wider text-teal">Product previews</span>
             <h2 className="mt-3 font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900 sm:text-4xl">
-              See it in action
+              See the product family taking shape
             </h2>
             <p className="mt-4 text-lg text-slate-600">
-              We&rsquo;re building real tools, not slide decks. Here&rsquo;s what&rsquo;s taking shape.
+              Real interfaces, real workflows, and honest labels for what is live today versus still emerging.
             </p>
           </div>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
@@ -363,13 +359,13 @@ export default function HomePage() {
               </div>
               <Image
                 src="/screenshots/v2-app-homepage.png"
-                alt="LexyAlgo V2 App — Divorce Forms and Asset Divider"
+                alt="LexyAlgo app preview for divorce forms and asset division"
                 width={800}
                 height={540}
                 className="block h-auto w-full"
               />
               <div className="border-t border-slate-100 bg-white px-4 py-2">
-                <p className="text-xs font-semibold text-slate-700">Divorce Forms &amp; Asset Divider</p>
+                <p className="text-xs font-semibold text-slate-700">Divorce Forms and Asset Divider</p>
               </div>
             </div>
             <div className="overflow-hidden rounded-2xl shadow-xl ring-1 ring-slate-200/80">
@@ -403,7 +399,7 @@ export default function HomePage() {
               </div>
               <Image
                 src="/screenshots/coparent-app.png"
-                alt="Co-Parent App — login and dashboard at kid.lexyalgo.com"
+                alt="Co-Parent app preview"
                 width={800}
                 height={540}
                 className="block h-auto w-full"
@@ -423,13 +419,13 @@ export default function HomePage() {
               </div>
               <Image
                 src="/screenshots/filing-app.png"
-                alt="LexyFiling E-Filing App — court submission portal"
+                alt="LexyFiling product concept preview"
                 width={800}
                 height={540}
                 className="block h-auto w-full"
               />
               <div className="border-t border-slate-100 bg-white px-4 py-2">
-                <p className="text-xs font-semibold text-slate-700">LexyFiling</p>
+                <p className="text-xs font-semibold text-slate-700">LexyFiling roadmap preview</p>
               </div>
             </div>
           </div>
@@ -439,13 +435,24 @@ export default function HomePage() {
       <section className="bg-peach">
         <div className="mx-auto max-w-7xl px-4 py-16 text-center sm:px-6 sm:py-20 lg:px-8">
           <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900 sm:text-4xl">
-            Explore the platform as it ships
+            Start with what is live today
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-lg text-slate-700">
-            Free calculators are live today. Divorce Forms, Asset Divider, and Co-Parent are exposed on the main site for public testing, while LexyFiling stays marked coming soon.
+            Open the free calculators, start a QDRO order, or explore estate planning beta without hunting through mixed signals.
           </p>
-          <div className="mx-auto mt-8 max-w-xl">
-            <WaitlistForm product="LexyAlgo — All Products" accentColor="#B02700" accentHover="#861B00" compact />
+          <div className="mt-8 flex flex-col justify-center gap-4 sm:flex-row">
+            <Link
+              href="/calculator"
+              className="inline-flex items-center justify-center rounded-2xl bg-ember px-8 py-4 font-semibold text-white transition-all hover:bg-[#861B00] active:scale-[0.98]"
+            >
+              Open calculators
+            </Link>
+            <Link
+              href="/pricing"
+              className="inline-flex items-center justify-center rounded-2xl border-2 border-slate-300 px-8 py-4 font-semibold text-slate-700 transition-all hover:border-slate-400 hover:bg-white"
+            >
+              View pricing
+            </Link>
           </div>
         </div>
       </section>

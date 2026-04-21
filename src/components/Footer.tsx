@@ -43,8 +43,8 @@ export function Footer() {
             <Link href="/" className="font-[family-name:var(--font-space)] font-bold text-xl text-white tracking-tight">
               LEXY <span className="text-slate-600 font-light">/</span> ALGO
             </Link>
-            <p className="mt-4 text-sm leading-relaxed max-w-md">
-              Court-form-driven divorce document preparation tools, asset division calculators, and co-parenting solutions — built by an attorney licensed in 8 states.
+            <p className="mt-4 max-w-md text-sm leading-relaxed">
+              Court-form-driven document preparation tools, calculators, and family-law workflows designed to help people get organized before they spend more on legal help.
             </p>
             {/* Social placeholders */}
             <div className="flex gap-4 mt-6">
