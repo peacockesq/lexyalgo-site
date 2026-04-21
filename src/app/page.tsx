@@ -148,7 +148,7 @@ export default function HomePage() {
               <span className="text-teal">Your tools shouldn&rsquo;t be.</span>
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-slate-600 sm:text-xl">
-              Free child support and retirement division calculators are live now. The broader platform is public alpha, so visitors can see what is shipping next while we tighten the workflows in public.
+              The free child support calculator is live now. The broader platform is public alpha, so visitors can see what is shipping next while we tighten the workflows in public.
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Link
@@ -190,18 +190,18 @@ export default function HomePage() {
               <span className="text-xs font-semibold uppercase tracking-wider text-teal">Available Now</span>
             </div>
             <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900 sm:text-4xl">
-              Support &amp; Retirement Calculators
+              Child Support Calculator
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-slate-600">
-              State-specific child support guidelines. Retirement division with coverture fractions. Future value timelines that show what your money becomes — not just what it&rsquo;s worth today.
+              State-specific child support guideline estimates with plain-English explanations so people can get a fast, useful starting point before they talk strategy.
             </p>
             <div className="mt-6 space-y-3">
               {[
                 'Child support guideline calculations by state',
-                'Retirement division with QDRO-ready numbers',
-                'Future value at ages 55, 62, and 67',
-                'Plain-English explanations alongside every formula',
-                'Export results as PDF',
+                'Available across all 50 states plus DC',
+                'Plain-English explanations alongside every estimate',
+                'Fast starting point before attorney review',
+                'More calculators are on the roadmap',
               ].map((item) => (
                 <div key={item} className="flex items-start gap-3">
                   <div className="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-teal/10">
