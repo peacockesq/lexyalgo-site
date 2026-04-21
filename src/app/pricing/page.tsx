@@ -210,6 +210,14 @@ export default function PricingPage() {
           </div>
         </div>
       </section>
+
+      <section className="py-12">
+        <div className="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
+          <p className="text-xs text-slate-400">
+            LexyAlgo provides document preparation assistance and calculation tools only. It does not constitute legal advice. Consult a licensed attorney for legal guidance specific to your situation.
+          </p>
+        </div>
+      </section>
     </>
   )
 }

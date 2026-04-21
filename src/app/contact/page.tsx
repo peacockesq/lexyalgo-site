@@ -1,6 +1,6 @@
 const contactInfo = [
   { label: 'Address', value: '1174 Whitney Avenue\nHamden, CT 06517-3432', icon: '📍' },
-  { label: 'Response times', value: 'We usually reply by email within 1 to 2 business days.', icon: '⏱️' },
+  { label: 'Response times', value: 'We usually reply within 1 to 2 business days.', icon: '⏱️' },
 ]
 
 const formAction = 'https://formsubmit.co/hello@lexyalgo.com'
@@ -9,7 +9,6 @@ const thankYouUrl = 'https://lexyalgo.com/contact/thanks'
 export default function ContactPage() {
   return (
     <>
-      {/* Hero */}
       <section className="bg-gradient-to-b from-surface to-white py-20 sm:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="font-[family-name:var(--font-space)] text-4xl sm:text-5xl font-bold text-slate-900">Get in touch</h1>
@@ -19,10 +18,8 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Content */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-          {/* Contact info */}
           <div className="space-y-8">
             {contactInfo.map((item) => (
               <div key={item.label} className="flex gap-4">
@@ -34,17 +31,13 @@ export default function ContactPage() {
               </div>
             ))}
 
-            <div className="mt-8 space-y-3 rounded-2xl bg-slate-100 p-6">
+            <div className="mt-8 rounded-2xl bg-slate-100 p-6">
               <p className="text-xs italic text-slate-500">
-                LexyAlgo provides document preparation tools and educational information, not legal advice.
-              </p>
-              <p className="text-xs text-slate-500">
-                For account or product questions, the contact form is the fastest way to reach us.
+                LexyAlgo provides document preparation tools, not legal advice. If you need an attorney, we&rsquo;re happy to point you in the right direction.
               </p>
             </div>
           </div>
 
-          {/* Contact form */}
           <div className="lg:col-span-2">
             <form
               action={formAction}
@@ -52,9 +45,9 @@ export default function ContactPage() {
               className="bg-white rounded-2xl border border-slate-200 p-8 sm:p-10 space-y-6"
             >
               <div className="rounded-2xl border border-teal/20 bg-teal/5 p-5">
-                <p className="text-sm font-semibold text-slate-900">Tell us what you need</p>
+                <p className="text-sm font-semibold text-slate-900">Send us a message</p>
                 <p className="mt-2 text-sm text-slate-700">
-                  Share a little context and we&rsquo;ll follow up with the best next step.
+                  Use the form below for product questions, feedback, partnerships, or press inquiries.
                 </p>
               </div>
 
@@ -87,6 +80,7 @@ export default function ContactPage() {
                   />
                 </div>
               </div>
+
               <div>
                 <label htmlFor="subject" className="block text-sm font-medium text-slate-700 mb-2">Subject</label>
                 <select
@@ -103,6 +97,7 @@ export default function ContactPage() {
                   <option>Other</option>
                 </select>
               </div>
+
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-slate-700 mb-2">Message</label>
                 <textarea
@@ -114,6 +109,7 @@ export default function ContactPage() {
                   required
                 />
               </div>
+
               <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                 <button
                   type="submit"
@@ -121,10 +117,7 @@ export default function ContactPage() {
                 >
                   Send message
                 </button>
-
-                <p className="text-sm text-slate-500">
-                  We review every message and reply by email.
-                </p>
+                <p className="text-sm text-slate-500">We usually reply within 1 to 2 business days.</p>
               </div>
             </form>
           </div>
