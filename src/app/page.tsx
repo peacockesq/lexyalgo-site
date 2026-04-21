@@ -25,7 +25,7 @@ const divorceProducts = [
   },
   {
     name: 'Calculators',
-    description: 'Free child support and retirement division calculators with state-specific logic, future-value context, and plain-English explanations.',
+    description: 'Free child support calculator, live now, with plain-English explanations and more calculators queued behind it.',
     href: '/calculator',
     color: '#1E5F6C',
     lightBg: '#E4F3F6',
@@ -270,7 +270,7 @@ export default function HomePage() {
               Find the right path for your legal work
             </h2>
             <p className="mt-4 text-lg text-slate-600">
-              Calculators and QDROs are live today. Divorce Forms, Asset Divider, and Co-Parent are shown publicly as alpha surfaces while we keep shipping. LexyFiling remains a coming-soon roadmap item.
+              The child support calculator and QDRO services are live today. Divorce Forms, Asset Divider, and Co-Parent are shown publicly as alpha surfaces while we keep shipping. LexyFiling remains a coming-soon roadmap item.
             </p>
           </div>
 
