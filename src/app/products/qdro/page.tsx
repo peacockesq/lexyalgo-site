@@ -35,10 +35,10 @@ export default function QdroPage() {
                 Generate a QDRO
                 <svg className="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </a>
-              <Link href="/contact"
+              <Link href="/pricing"
                 className="inline-flex items-center justify-center border-2 border-slate-200 text-slate-700 font-semibold px-8 py-4 rounded-2xl hover:border-slate-300 hover:bg-slate-50 transition-all"
               >
-                Questions? Contact Us
+                See pricing
               </Link>
             </div>
           </div>
@@ -162,10 +162,10 @@ export default function QdroPage() {
             >
               Generate a QDRO
             </a>
-            <Link href="/contact"
+            <Link href="/pricing"
               className="inline-flex items-center justify-center border-2 border-slate-300 text-slate-700 font-semibold px-8 py-4 rounded-2xl hover:border-slate-400 hover:bg-white transition-all"
             >
-              Questions? Contact Us
+              See pricing
             </Link>
           </div>
         </div>
