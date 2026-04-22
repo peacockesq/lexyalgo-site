@@ -50,7 +50,7 @@ export default function DivorcePage() {
                 </Link>
               </div>
               <p className="mt-4 text-xs text-slate-500">
-                Public alpha, open for real-world testing while we tighten the workflows in public.
+                Early product release, open for hands-on testing while state coverage and workflow depth continue to expand.
               </p>
             </div>
             <div className="rounded-3xl border border-[#2B4580]/10 bg-white p-8 shadow-xl shadow-[#2B4580]/10">
@@ -58,10 +58,10 @@ export default function DivorcePage() {
                 Public Alpha Access
               </div>
               <h2 className="mt-5 font-[family-name:var(--font-space)] text-2xl font-bold text-slate-900">
-                The tool is out on the site now
+                Explore the current release
               </h2>
               <p className="mt-3 text-sm leading-relaxed text-slate-600">
-                We are exposing Divorce Forms directly so the public can test the product while we keep expanding the state coverage and workflow depth.
+                Divorce Forms is available for hands-on testing now, with more state coverage and workflow depth still in progress.
               </p>
               <ul className="mt-6 space-y-3 text-sm text-slate-700">
                 {['Public alpha is live', 'Court-form-driven workflow', 'CT and CA lead the rollout'].map((item) => (
@@ -125,17 +125,17 @@ export default function DivorcePage() {
       <section className="bg-[#E8EEF8] py-16 sm:py-20 text-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900">Test Divorce Forms now</h2>
-          <p className="mt-4 text-slate-700 max-w-lg mx-auto">Public alpha is open. Run the workflow, pressure-test it, and tell us where it breaks.</p>
+          <p className="mt-4 max-w-lg mx-auto text-slate-700">Open the current release, walk through the workflow, and see how LexyAlgo handles document prep today.</p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <a href={PUBLIC_ALPHA_URL}
               className="inline-flex items-center justify-center bg-[#2B4580] text-white font-semibold px-8 py-4 rounded-2xl hover:bg-[#1C305A] transition-all shadow-lg shadow-[#2B4580]/20 active:scale-[0.98]"
             >
               Open Public Alpha
             </a>
-            <Link href="/contact"
+            <Link href="/pricing"
               className="inline-flex items-center justify-center border-2 border-slate-300 text-slate-700 font-semibold px-8 py-4 rounded-2xl hover:border-slate-400 hover:bg-white transition-all"
             >
-              Send feedback
+              View pricing
             </Link>
           </div>
         </div>

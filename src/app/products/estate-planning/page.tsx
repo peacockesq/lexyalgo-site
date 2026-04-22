@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -27,7 +26,6 @@ const steps = [
 export default function EstatePlanningPage() {
   return (
     <>
-      {/* Hero */}
       <section className="bg-gradient-to-br from-[#FAF2DC] via-white to-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28">
           <div className="max-w-3xl">
@@ -53,10 +51,10 @@ export default function EstatePlanningPage() {
                 Try It Now — FREE
                 <svg className="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </a>
-              <Link href="/contact"
+              <Link href="/pricing"
                 className="inline-flex items-center justify-center border-2 border-slate-200 text-slate-700 font-semibold px-8 py-4 rounded-2xl hover:border-slate-300 hover:bg-slate-50 transition-all"
               >
-                Questions? Contact Us
+                See pricing
               </Link>
             </div>
             <p className="mt-4 text-xs text-slate-500">
@@ -66,7 +64,6 @@ export default function EstatePlanningPage() {
         </div>
       </section>
 
-      {/* How it works */}
       <section className="bg-slate-950 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-16">
@@ -87,7 +84,6 @@ export default function EstatePlanningPage() {
         </div>
       </section>
 
-      {/* Features grid */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900 text-center mb-16">Four documents, one intake</h2>
@@ -105,7 +101,6 @@ export default function EstatePlanningPage() {
         </div>
       </section>
 
-      {/* Beta disclaimer */}
       <section className="py-12 bg-slate-50">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-flex items-center gap-2 mb-4">
@@ -117,7 +112,6 @@ export default function EstatePlanningPage() {
         </div>
       </section>
 
-      {/* Bottom CTA */}
       <section className="bg-[#FAF2DC] py-16 sm:py-20 text-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900">Protect your family. Start now.</h2>
@@ -128,10 +122,10 @@ export default function EstatePlanningPage() {
             >
               Try It Now — FREE
             </a>
-            <Link href="/contact"
+            <Link href="/pricing"
               className="inline-flex items-center justify-center border-2 border-slate-300 text-slate-700 font-semibold px-8 py-4 rounded-2xl hover:border-slate-400 hover:bg-white transition-all"
             >
-              Questions? Contact Us
+              Compare plans
             </Link>
           </div>
         </div>
