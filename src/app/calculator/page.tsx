@@ -1,6 +1,5 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { CalculatorFooter } from '@/components/calculator';
 
 export const metadata: Metadata = {
   title: 'Free Legal Calculators | LexyAlgo',
@@ -99,7 +98,6 @@ export default function CalculatorHubPage() {
         </p>
       </div>
 
-      <CalculatorFooter />
     </div>
   );
 }

@@ -4,7 +4,6 @@ import { notFound } from 'next/navigation';
 import { getStateBySlug, getAllStates } from '@/lib/state-formulas';
 import { CalculatorForm } from '@/components/calculator/CalculatorForm';
 import { Disclaimer } from '@/components/calculator/Disclaimer';
-import { CalculatorFooter } from '@/components/calculator/Footer';
 
 interface PageProps {
   params: Promise<{ state: string }>;
@@ -93,7 +92,6 @@ export default async function StateCalculatorPage({ params }: PageProps) {
         </Link>
       </div>
 
-      <CalculatorFooter />
     </div>
   );
 }
