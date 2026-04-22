@@ -16,7 +16,7 @@ const tiers = [
     features: [
       'Child support calculators (all states)',
       'Retirement division calculators',
-      'Asset Divider preview access',
+      'Asset Divider workspace access',
       'Future value timelines',
       'Coverture fraction calculations',
       'Plain-English explanations',

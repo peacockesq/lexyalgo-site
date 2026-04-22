@@ -10,7 +10,7 @@ const productGroups = [
       { name: 'Calculators', href: '/calculator', color: '#1E5F6C', badge: 'Live' },
       { name: 'QDRO Services', href: '/products/qdro', color: '#8B5E3C', badge: 'Live' },
       { name: 'Divorce Forms', href: '/products/divorce', color: '#2B4580', badge: 'Soon' },
-      { name: 'Asset Divider', href: '/products/asset-divider', color: '#B02700', badge: 'Soon' },
+      { name: 'Asset Divider', href: '/products/asset-divider', color: '#B02700', badge: 'Live' },
       { name: 'Co-Parent', href: '/products/co-parent', color: '#2E6B4F', badge: 'Soon' },
       { name: 'LexyFiling', href: '/products/filing', color: '#4B3D7A', badge: 'Soon' },
     ],
