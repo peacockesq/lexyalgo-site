@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: 'Visual asset division workspace with drag-and-drop allocation, balanced settlement guidance, and court-ready outputs.',
 }
 
-const WORKSPACE_URL = 'https://app.lexyalgo.com'
+const WORKSPACE_URL = 'https://calc.lexyalgo.com'
 
 const features = [
   { title: 'Visual Asset Inventory', desc: 'See every asset and debt in one dashboard — house, cars, retirement, bank accounts, personal property.' },
@@ -72,16 +72,16 @@ export default function AssetDividerPage() {
       {/* Product Screenshot */}
       <RealScreenshot
         src="/screenshots/v2-app-homepage.png"
-        alt="LexyAlgo V2 App — asset division workspace"
+        alt="LexyAlgo Asset Divider workspace"
         accentColor="#B02700"
-        label="Product Preview"
-        url="app.lexyalgo.com"
+        label="Live Workspace"
+        url="calc.lexyalgo.com"
       />
 
       {/* Features grid */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900 text-center mb-16">What&rsquo;s coming</h2>
+          <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900 text-center mb-16">What you can do inside the workspace</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((f) => (
               <div key={f.title} className="bg-white rounded-2xl border border-slate-100 p-6 hover:shadow-md transition-shadow">
