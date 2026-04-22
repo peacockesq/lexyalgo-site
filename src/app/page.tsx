@@ -34,13 +34,13 @@ const divorceProducts = [
   },
   {
     name: 'Asset Divider',
-    description: 'A visual property-division workspace for weighing tradeoffs, testing scenarios, and seeing balance in real time.',
+    description: 'A live property-division workspace for weighing tradeoffs, testing scenarios, and seeing balance in real time.',
     href: '/products/asset-divider',
     color: '#B02700',
     lightBg: '#FFEDE8',
     icon: '⚖️',
-    badge: 'Public Alpha',
-    live: false,
+    badge: 'Live',
+    live: true,
   },
   {
     name: 'Co-Parent',
@@ -144,7 +144,7 @@ export default function HomePage() {
               <span className="text-teal">get organized and move forward.</span>
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-slate-600 sm:text-xl">
-              LexyAlgo makes divorce and family-law workflows easier to understand, from free calculators to guided document tools and retirement-division products. Start with what is live today, then follow the products that are rolling out next.
+              LexyAlgo makes divorce and family-law workflows easier to understand, from free calculators to guided document tools, retirement-division products, and the live Asset Divider workspace. Start with what is live today, then follow the products that are rolling out next.
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Link
@@ -197,7 +197,7 @@ export default function HomePage() {
                 Calculations, forms, coordination, and filing in one product family
               </h3>
               <p className="mt-3 text-slate-600">
-                Use calculators now, start a QDRO order today, and explore the document, asset-division, and co-parenting products that are rolling out next.
+                Use calculators now, start a QDRO order today, open the live Asset Divider workspace, and explore the document and co-parenting products that are rolling out next.
               </p>
             </div>
             <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -354,7 +354,7 @@ export default function HomePage() {
                 <div className="h-2 w-2 rounded-full bg-yellow-400/80" />
                 <div className="h-2 w-2 rounded-full bg-green-400/80" />
                 <div className="ml-2 flex h-4 max-w-[200px] flex-1 items-center rounded border border-slate-200 bg-white px-2">
-                  <span className="text-[10px] text-slate-400">app.lexyalgo.com</span>
+                  <span className="text-[10px] text-slate-400">calc.lexyalgo.com</span>
                 </div>
               </div>
               <Image
@@ -365,7 +365,7 @@ export default function HomePage() {
                 className="block h-auto w-full"
               />
               <div className="border-t border-slate-100 bg-white px-4 py-2">
-                <p className="text-xs font-semibold text-slate-700">Divorce Forms and Asset Divider</p>
+                <p className="text-xs font-semibold text-slate-700">Asset Divider workspace</p>
               </div>
             </div>
             <div className="overflow-hidden rounded-2xl shadow-xl ring-1 ring-slate-200/80">
