@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { getAllStates, getStatesByModel, getModelTypeLabel, getModelTypeDescription } from '@/lib/state-formulas';
 import { StateCard } from '@/components/calculator/StateCard';
 import { Disclaimer } from '@/components/calculator/Disclaimer';
-import { CalculatorFooter } from '@/components/calculator/Footer';
 
 export const metadata: Metadata = {
   title: 'Child Support Calculator — All 50 States + DC | LexyAlgo',
@@ -77,7 +76,6 @@ export default function ChildSupportHubPage() {
         <Disclaimer position="bottom" />
       </div>
 
-      <CalculatorFooter />
     </div>
   );
 }
