@@ -4,6 +4,16 @@ import { WaitlistForm } from '@/components/WaitlistForm'
 
 const divorceProducts = [
   {
+    name: 'Atlas',
+    description: 'The Lexy front door that keeps one case, one login, and one roadmap across divorce, financial, filing, and family workflows.',
+    href: 'https://atlas.lexyalgo.com',
+    color: '#515F74',
+    lightBg: '#EBF0F6',
+    icon: '🧭',
+    badge: 'Preview',
+    live: false,
+  },
+  {
     name: 'Calculators',
     description: 'Free child support and retirement division calculators with state-specific logic, future-value context, and plain-English explanations.',
     href: '/calculator',
@@ -76,10 +86,10 @@ const estatePlanningProduct = {
 }
 
 const trustBadges = [
-  { label: 'Attorney-Built', detail: 'Built for real divorce and estate-planning workflows' },
-  { label: 'Court-Form Driven', detail: 'Built around real court forms and workflows' },
-  { label: 'Financial Clarity', detail: 'Future-value context, not just present-day math' },
-  { label: 'Free Calculators', detail: 'No account required to start' },
+  { label: 'Nearly All Tools Free', detail: 'Mission-first access with no catch' },
+  { label: 'Court-Form Driven', detail: 'Built around real legal workflows and forms' },
+  { label: 'Data-Driven Decisions', detail: 'Automated math, valuation context, and cleaner tradeoffs' },
+  { label: 'Estate Planning Included', detail: 'Wills, trusts, and directives are free in beta' },
 ]
 
 const steps = [
@@ -141,15 +151,18 @@ export default function HomePage() {
             </div>
             <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-sky-50 px-4 py-1.5 text-sky-700">
               <span className="h-2 w-2 rounded-full bg-sky-500" />
-              <span className="text-sm font-semibold">Explore live tools and guided product previews</span>
+              <span className="text-sm font-semibold">Building in public — early alpha and beta releases</span>
             </div>
             <h1 className="font-[family-name:var(--font-space)] text-4xl font-bold leading-tight text-slate-900 sm:text-5xl lg:text-6xl">
-              Divorce is hard.<br />
-              <span className="text-teal">Your tools shouldn&rsquo;t be.</span>
+              Better divorce decisions.<br />
+              <span className="text-teal">Less acrimony. Less baggage. A cleaner start.</span>
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-slate-600 sm:text-xl">
-              Start with free calculators, then explore the rest of the LexyAlgo platform, from QDRO services to guided divorce paperwork, asset division, co-parenting, and estate planning.
+              LexyAlgo gives people free tools to do the math, understand the tradeoffs, and move through divorce with more clarity. We automate valuations, calculate shares of assets, help with legal forms, and make estate planning free too.
             </p>
+            <div className="mt-6 max-w-2xl rounded-2xl border border-sky-100 bg-sky-50/80 p-4 text-sm leading-relaxed text-slate-700">
+              Most of LexyAlgo is in early alpha or pre-release. We&rsquo;re shipping quickly because people need help sooner, not later — but you should expect rough edges and occasional bugs.
+            </div>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Link
                 href="/#products"
@@ -190,18 +203,18 @@ export default function HomePage() {
               <span className="text-xs font-semibold uppercase tracking-wider text-teal">Available Now</span>
             </div>
             <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900 sm:text-4xl">
-              Support &amp; Retirement Calculators
+              We do the math so you can make the call
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-slate-600">
-              State-specific child support guidelines. Retirement division with coverture fractions. Future value timelines that show what your money becomes — not just what it&rsquo;s worth today.
+              Use LexyAlgo to turn confusion into numbers you can actually work with: support estimates, retirement division, asset-share calculations, and future-value context that helps you compare real outcomes instead of guessing under stress.
             </p>
             <div className="mt-6 space-y-3">
               {[
-                'Child support guideline calculations by state',
-                'Retirement division with QDRO-ready numbers',
+                'Child support and retirement calculations with state-specific logic',
+                'Automated share and valuation context for asset division decisions',
                 'Future value at ages 55, 62, and 67',
                 'Plain-English explanations alongside every formula',
-                'Export results as PDF',
+                'Export results to use with your attorney, mediator, or records',
               ].map((item) => (
                 <div key={item} className="flex items-start gap-3">
                   <div className="mt-0.5 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-teal/10">
@@ -267,10 +280,10 @@ export default function HomePage() {
           <div className="mx-auto mb-16 max-w-2xl text-center">
             <span className="text-sm font-semibold uppercase tracking-wider text-primary-container">The Platform</span>
             <h2 className="mt-3 font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900 sm:text-4xl">
-              Find the right path for your legal work
+              Free tools for the decisions that matter most
             </h2>
             <p className="mt-4 text-lg text-slate-600">
-              Start with the tools that are live today, then explore product previews for the next parts of the workflow. LexyFiling remains a coming-soon roadmap item.
+              Nearly everything at LexyAlgo is free because the mission comes first. Start with what is live now, use the previews to see what is coming next, and know exactly which tools are early releases before you rely on them.
             </p>
           </div>
 
@@ -278,10 +291,10 @@ export default function HomePage() {
             <div className="max-w-2xl">
               <span className="text-sm font-semibold uppercase tracking-wider text-slate-500">Divorce &amp; family law</span>
               <h3 className="mt-3 font-[family-name:var(--font-space)] text-2xl font-bold text-slate-900 sm:text-3xl">
-                One place for forms, calculations, negotiation, and filing
+                Math, forms, and workflow support in one product family
               </h3>
               <p className="mt-3 text-slate-600">
-                Start with calculators, move into QDRO work when needed, then continue into documents, asset division, co-parenting, and filing.
+                Start with Atlas as the front door, move into calculators or QDRO work when needed, then keep going with guided forms, asset division, co-parenting, and filing support designed to reduce friction with your ex instead of adding to it.
               </p>
             </div>
             <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -296,10 +309,10 @@ export default function HomePage() {
               <div>
                 <span className="text-sm font-semibold uppercase tracking-wider text-[color:#7A5C1E]">Estate planning</span>
                 <h3 className="mt-3 font-[family-name:var(--font-space)] text-2xl font-bold text-slate-900 sm:text-3xl">
-                  A separate lane for wills, trusts, and directives
+                  Free estate planning, too
                 </h3>
                 <p className="mt-4 max-w-2xl text-slate-700">
-                  Estate planning isn&rsquo;t a divorce add-on. It&rsquo;s its own product line for families who need trusts, wills, powers of attorney, and healthcare directives handled cleanly.
+                  Estate planning isn&rsquo;t a side feature. It&rsquo;s a core part of helping families get organized and move forward, which is why wills, trusts, powers of attorney, and healthcare directives are free during beta.
                 </p>
                 <div className="mt-6 flex flex-wrap gap-3 text-sm text-slate-700">
                   {['Living Trust', 'Will', 'Power of Attorney', 'Healthcare Directive'].map((item) => (
@@ -332,7 +345,7 @@ export default function HomePage() {
                   {estatePlanningProduct.description}
                 </p>
                 <div className="mt-6 border-l-4 border-[color:#7A5C1E] bg-[color:rgba(122,92,30,.08)] px-4 py-3 text-sm text-slate-700">
-                  Free beta access is live now, with the same plain-English clarity and guided workflow as the rest of LexyAlgo.
+                  Free beta access is live now. It&rsquo;s useful today, but still early-stage — expect ongoing improvements and some bugs while we build in public.
                 </div>
               </div>
             </div>
@@ -348,7 +361,7 @@ export default function HomePage() {
               See it in action
             </h2>
             <p className="mt-4 text-lg text-slate-600">
-              We&rsquo;re building real tools, not slide decks. Here&rsquo;s what visitors can explore today.
+              We&rsquo;re building real tools, not slide decks. These are live or preview interfaces from products shipping in public, so what you see is useful — but still evolving.
             </p>
           </div>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
@@ -439,10 +452,10 @@ export default function HomePage() {
       <section className="bg-peach">
         <div className="mx-auto max-w-7xl px-4 py-16 text-center sm:px-6 sm:py-20 lg:px-8">
           <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900 sm:text-4xl">
-            Explore the right next step for your case
+            Start free. Make cleaner decisions. Keep moving.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-lg text-slate-700">
-            Start with live calculators today, then get updates as LexyAlgo expands into documents, asset division, co-parenting, and filing.
+            Use the free tools that are live now, then follow the next releases as LexyAlgo expands across divorce and estate planning.
           </p>
           <div className="mx-auto mt-8 max-w-xl">
             <WaitlistForm product="LexyAlgo — All Products" accentColor="#B02700" accentHover="#861B00" compact />

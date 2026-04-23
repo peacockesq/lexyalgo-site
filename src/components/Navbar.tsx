@@ -7,12 +7,13 @@ const productGroups = [
   {
     label: 'Divorce & family law',
     items: [
+      { name: 'Atlas', href: 'https://atlas.lexyalgo.com', color: '#515F74', badge: 'Preview' },
       { name: 'Calculators', href: '/calculator', color: '#1E5F6C', badge: 'Live' },
       { name: 'QDRO Services', href: '/products/qdro', color: '#8B5E3C', badge: 'Live' },
-      { name: 'Divorce Forms', href: '/products/divorce', color: '#2B4580', badge: 'Soon' },
-      { name: 'Asset Divider', href: '/products/asset-divider', color: '#B02700', badge: 'Soon' },
-      { name: 'Co-Parent', href: '/products/co-parent', color: '#2E6B4F', badge: 'Soon' },
-      { name: 'LexyFiling', href: '/products/filing', color: '#4B3D7A', badge: 'Soon' },
+      { name: 'Divorce Forms', href: '/products/divorce', color: '#2B4580', badge: 'Preview' },
+      { name: 'Asset Divider', href: '/products/asset-divider', color: '#B02700', badge: 'Preview' },
+      { name: 'Co-Parent', href: '/products/co-parent', color: '#2E6B4F', badge: 'Preview' },
+      { name: 'LexyFiling', href: '/products/filing', color: '#4B3D7A', badge: 'Coming Soon' },
     ],
   },
   {
@@ -102,7 +103,7 @@ export function Navbar() {
                         >
                           <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: item.color }} />
                           <span className="text-sm font-medium text-slate-700 group-hover:text-slate-900">{item.name}</span>
-                          <span className={`ml-auto rounded-full px-2 py-0.5 text-xs font-medium ${item.badge === 'Live' ? 'bg-green-100 text-green-700' : item.badge === 'Free Beta' ? 'bg-amber-100 text-amber-700' : 'bg-violet-100 text-violet-700'}`}>{item.badge}</span>
+                          <span className={`ml-auto rounded-full px-2 py-0.5 text-xs font-medium ${item.badge === 'Live' ? 'bg-green-100 text-green-700' : item.badge === 'Free Beta' ? 'bg-amber-100 text-amber-700' : item.badge === 'Preview' ? 'bg-sky-100 text-sky-700' : 'bg-violet-100 text-violet-700'}`}>{item.badge}</span>
                         </Link>
                       ))}
                     </div>
@@ -121,7 +122,7 @@ export function Navbar() {
             href="/#products"
             className="rounded-xl bg-primary-container px-5 py-2.5 text-sm font-semibold text-white shadow-sm shadow-primary-container/20 transition-colors hover:bg-primary active:scale-[0.98]"
           >
-            Find your solution
+            Explore tools
           </Link>
         </div>
 
@@ -155,7 +156,7 @@ export function Navbar() {
                   >
                     <span className="h-2 w-2 rounded-full" style={{ backgroundColor: item.color }} />
                     <span className="text-sm font-medium text-slate-700">{item.name}</span>
-                    <span className={`ml-auto rounded-full px-2 py-0.5 text-xs ${item.badge === 'Live' ? 'bg-green-100 text-green-700' : item.badge === 'Free Beta' ? 'bg-amber-100 text-amber-700' : 'bg-violet-100 text-violet-700'}`}>{item.badge}</span>
+                    <span className={`ml-auto rounded-full px-2 py-0.5 text-xs ${item.badge === 'Live' ? 'bg-green-100 text-green-700' : item.badge === 'Free Beta' ? 'bg-amber-100 text-amber-700' : item.badge === 'Preview' ? 'bg-sky-100 text-sky-700' : 'bg-violet-100 text-violet-700'}`}>{item.badge}</span>
                   </Link>
                 ))}
               </div>
@@ -174,7 +175,7 @@ export function Navbar() {
             className="mt-4 block rounded-xl bg-primary-container px-5 py-3 text-center text-sm font-semibold text-white transition-colors hover:bg-primary"
             onClick={() => setMobileOpen(false)}
           >
-            Find your solution
+            Explore tools
           </Link>
         </div>
       )}
