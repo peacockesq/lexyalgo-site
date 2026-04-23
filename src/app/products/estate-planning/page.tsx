@@ -3,24 +3,24 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Estate Planning — Free Beta — LexyAlgo',
-  description: 'Generate wills, trusts, powers of attorney, and healthcare directives for free. One intake, four documents. State-specific requirements built in.',
+  description: 'Free beta for wills, trusts, powers of attorney, and healthcare directives. One intake, four documents, and clear early-beta expectations.',
 }
 
 const DA_INTERVIEW_URL = 'https://doc.lexyalgo.com/interview?i=docassemble.EstatePlanning:data/questions/estate_planning.yml'
 
 const features = [
-  { title: 'Last Will and Testament', desc: 'A guided questionnaire produces a state-aware will — asset distribution, guardianship, executor appointment — all in one document.' },
-  { title: 'Revocable Living Trust', desc: 'Avoid probate with a properly structured living trust. Fund it during your lifetime, and your assets transfer seamlessly.' },
-  { title: 'Durable Power of Attorney', desc: 'Designate someone to handle financial decisions if you can\'t. Effective immediately or springing — your choice.' },
-  { title: 'Healthcare Proxy / Advance Directive', desc: 'Make your medical wishes known before they\'re needed. Appoint a healthcare agent and document your preferences.' },
-  { title: 'State-Specific Requirements', desc: 'Every state has different rules for witnesses, notarization, and execution. We build those requirements into the document generation.' },
-  { title: 'One Intake, Complete Package', desc: 'Answer questions once. Your will, trust, POA, and healthcare directive all pull from the same information — no re-entering data.' },
+  { title: 'Last Will and Testament', desc: 'A guided questionnaire produces a state-aware will covering distribution, guardianship, and executor appointment.' },
+  { title: 'Revocable Living Trust', desc: 'Create a properly structured living trust so probate avoidance and successor planning are not left to guesswork.' },
+  { title: 'Durable Power of Attorney', desc: 'Designate someone to handle financial decisions if you cannot, with clear plain-English guidance around the choices.' },
+  { title: 'Healthcare Proxy / Advance Directive', desc: 'Document medical preferences and appoint a healthcare agent before those decisions become urgent.' },
+  { title: 'State-Specific Requirements', desc: 'Witness, notarization, and signing requirements vary by state, and the workflow is built to surface those differences.' },
+  { title: 'One Intake, Complete Package', desc: 'Answer the questions once and reuse the information across the trust, will, POA, and healthcare directive.' },
 ]
 
 const steps = [
-  { step: '1', title: 'Tell us about yourself', desc: 'Single or couple, your state, basic info. The intake adapts to your situation — if you\'re married, we\'ll collect spouse info too.' },
-  { step: '2', title: 'Make your choices', desc: 'Who gets what, who makes decisions if you can\'t, who raises your kids. We ask plain questions and translate to legal language.' },
-  { step: '3', title: 'Download your documents', desc: 'Living Trust, Pour-Over Will, Durable POA, and Healthcare Directive — all generated as downloadable documents ready for review and signing.' },
+  { step: '1', title: 'Tell us about yourself', desc: 'The intake adapts to whether you are single or planning as a couple and gathers the information the full package needs.' },
+  { step: '2', title: 'Make your choices', desc: 'We ask plain questions about beneficiaries, decision-makers, and priorities, then translate those answers into legal document structure.' },
+  { step: '3', title: 'Download your documents', desc: 'Generate the living trust, will, durable POA, and healthcare directive for review, signing, and next-step discussion with counsel if needed.' },
 ]
 
 export default function EstatePlanningPage() {
@@ -39,27 +39,27 @@ export default function EstatePlanningPage() {
               </span>
             </div>
             <h1 className="font-[family-name:var(--font-space)] text-4xl sm:text-5xl font-bold text-slate-900 leading-tight">
-              Generate your estate plan. Free.
+              Estate planning should not be the expensive part you keep putting off
             </h1>
             <p className="mt-6 text-lg text-slate-600 leading-relaxed">
-              One intake generates four documents: Living Trust, Pour-Over Will, Durable Power of Attorney, and Healthcare Directive. State-specific signing requirements built in. Works for individuals and couples.
+              One intake generates a living trust, will, durable power of attorney, and healthcare directive. We keep this free during beta because getting the basics in place should be easier, clearer, and cheaper than it usually is.
             </p>
+            <div className="mt-6 rounded-2xl border border-amber-100 bg-amber-50/80 p-4 text-sm leading-relaxed text-slate-700">
+              Estate Planning is still in beta. It is useful now, but you should expect ongoing improvements, possible bugs, and state-coverage limitations while we keep tightening the workflow.
+            </div>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a href={DA_INTERVIEW_URL}
                 className="inline-flex items-center justify-center bg-[#7A5C1E] text-white font-semibold px-8 py-4 rounded-2xl hover:bg-[#573F0E] transition-all shadow-lg shadow-[#7A5C1E]/20 hover:shadow-xl hover:shadow-[#7A5C1E]/30 active:scale-[0.98]"
               >
-                Try It Now — FREE
+                Try it now free
                 <svg className="ml-2 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
               </a>
-              <Link href="/pricing"
+              <Link href="/mission"
                 className="inline-flex items-center justify-center border-2 border-slate-200 text-slate-700 font-semibold px-8 py-4 rounded-2xl hover:border-slate-300 hover:bg-slate-50 transition-all"
               >
-                See pricing
+                Why it is free
               </Link>
             </div>
-            <p className="mt-4 text-xs text-slate-500">
-              Beta — documents should be reviewed by a licensed attorney before signing or filing.
-            </p>
           </div>
         </div>
       </section>
@@ -107,7 +107,10 @@ export default function EstatePlanningPage() {
             <span className="bg-amber-100 text-amber-700 text-xs font-semibold px-3 py-1 rounded-full">Beta</span>
           </div>
           <p className="text-sm text-slate-600">
-            This tool generates estate planning document drafts. <strong>These documents should be reviewed by a licensed attorney before signing or filing.</strong> LexyAlgo is a document preparation service, not a law firm. We do not provide legal advice. State-specific signing requirements (witnesses, notarization) are included for 12 major states, but you should verify the requirements for your state.
+            This tool generates estate planning document drafts. <strong>These documents should be reviewed by a licensed attorney before signing or filing.</strong> LexyAlgo is a document preparation service, not a law firm. We do not provide legal advice.
+          </p>
+          <p className="mt-3 text-sm text-slate-600">
+            State-specific signing requirements are included where supported, but the product is still in beta and you should confirm execution requirements for your state before relying on the output.
           </p>
         </div>
       </section>
@@ -115,17 +118,17 @@ export default function EstatePlanningPage() {
       <section className="bg-[#FAF2DC] py-16 sm:py-20 text-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900">Protect your family. Start now.</h2>
-          <p className="mt-4 text-slate-700 max-w-lg mx-auto">Generate your Living Trust, Will, Power of Attorney, and Healthcare Directive — free during beta.</p>
+          <p className="mt-4 text-slate-700 max-w-lg mx-auto">Generate your trust, will, power of attorney, and healthcare directive free during beta — then review and sign with eyes open.</p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <a href={DA_INTERVIEW_URL}
               className="inline-flex items-center justify-center bg-[#7A5C1E] text-white font-semibold px-8 py-4 rounded-2xl hover:bg-[#573F0E] transition-all shadow-lg shadow-[#7A5C1E]/20 active:scale-[0.98]"
             >
-              Try It Now — FREE
+              Try it now free
             </a>
-            <Link href="/pricing"
+            <Link href="/contact"
               className="inline-flex items-center justify-center border-2 border-slate-300 text-slate-700 font-semibold px-8 py-4 rounded-2xl hover:border-slate-400 hover:bg-white transition-all"
             >
-              Compare plans
+              Questions? Contact us
             </Link>
           </div>
         </div>
