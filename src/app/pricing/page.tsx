@@ -4,7 +4,7 @@ import { WaitlistForm } from '@/components/WaitlistForm'
 
 export const metadata: Metadata = {
   title: 'Pricing — LexyAlgo',
-  description: 'Most LexyAlgo tools are free: divorce tools, calculators, estate planning, and CoParent. Premium financial valuation features use a one-time fee when live.',
+  description: 'Most of LexyAlgo is free: divorce tools, calculators, estate planning, and CoParent. Premium pricing only shows up for deeper financial analysis when it matters.',
 }
 
 const freeProducts = [
@@ -28,7 +28,7 @@ const freeProducts = [
   },
   {
     name: 'Estate planning',
-    description: 'Wills, trusts, powers of attorney, and healthcare directives are free during beta.',
+    description: 'Wills, trusts, powers of attorney, and healthcare directives are free. Period.',
     points: [
       'Living trust',
       'Will',
@@ -65,13 +65,13 @@ export default function PricingPage() {
             <span className="text-sm font-semibold text-green-700">As free as we can make it</span>
           </div>
           <h1 className="mt-6 font-[family-name:var(--font-space)] text-4xl sm:text-5xl font-bold text-slate-900">
-            Most of LexyAlgo is free. On purpose.
+            Most of LexyAlgo is free.
           </h1>
           <p className="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">
-            Divorce tools are free. Calculators are free. Estate planning is free in beta. CoParent is free. When we charge, it is for premium financial valuation features that create real third-party or automation costs — not for basic clarity.
+            The core tools people actually need should be accessible. So divorce tools are free. Calculators are free. Estate planning is free. CoParent is free. We only charge where the work gets materially more complex.
           </p>
           <div className="mt-6 max-w-3xl mx-auto rounded-2xl border border-sky-100 bg-sky-50/80 px-6 py-5 text-sm leading-relaxed text-slate-700">
-            Most LexyAlgo products are still in early alpha or pre-release. We&rsquo;re building in public and shipping quickly so people can use the tools sooner, which means bugs and rough edges should be expected.
+            Some products are still early, and we&rsquo;ll say that plainly where it matters. But the pricing story is simple: we are not trying to turn basic legal clarity into a subscription trap.
           </div>
         </div>
       </section>
@@ -101,12 +101,12 @@ export default function PricingPage() {
       <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
         <div className="rounded-3xl border border-[#E3BEB6] bg-[#FFEDE8] p-8 sm:p-10">
           <div className="max-w-3xl">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary-container">Premium only where it actually adds cost</p>
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary-container">Premium only where it earns its place</p>
             <h2 className="mt-3 font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900">
-              Premium financial valuation is a one-time fee
+              Pay once for deeper financial analysis
             </h2>
             <p className="mt-4 text-slate-700 leading-relaxed">
-              For higher-cost automation like pulling financial statements and account data through Plaid, LexyAlgo plans a one-time case fee instead of a subscription. That means you pay for the premium valuation workflow when you need it, not every month just to keep access alive.
+              Some cases need more than forms and calculators. When you want deeper account analysis, statement pulls, or heavier valuation support, that belongs in a one-time premium workflow — not a forever monthly bill.
             </p>
             <ul className="mt-6 space-y-3">
               {premiumFeatures.map((feature) => (
@@ -117,11 +117,11 @@ export default function PricingPage() {
               ))}
             </ul>
             <div className="mt-6 rounded-2xl border border-white/70 bg-white/70 px-5 py-4 text-sm text-slate-700">
-              See the Asset Divider page for the feature comparison. That is where the premium valuation layer belongs — not as the main message of LexyAlgo pricing.
+              Premium is for heavier-lift financial work, not for access to the basics.
             </div>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
               <Link href="/products/asset-divider" className="inline-flex items-center justify-center rounded-2xl bg-primary-container px-8 py-4 font-semibold text-white transition-all hover:bg-primary active:scale-[0.98]">
-                See Asset Divider comparison
+                Explore premium analysis
               </Link>
               <Link href="/#products" className="inline-flex items-center justify-center rounded-2xl border-2 border-slate-300 px-8 py-4 font-semibold text-slate-700 transition-all hover:border-slate-400 hover:bg-white">
                 Explore free tools
@@ -135,12 +135,12 @@ export default function PricingPage() {
         <div className="rounded-3xl border border-[#E3BEB6] bg-[#FFEDE8] p-8 sm:p-10">
           <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary-container">Free right now</p>
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary-container">Always free</p>
               <h2 className="mt-3 font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900">
-                Try LexyAlgo estate planning on Docassemble
+                Estate planning is free
               </h2>
               <p className="mt-4 text-slate-700 max-w-2xl">
-                Generate a living trust, will, power of attorney, and healthcare directive during beta at no cost.
+                Create a living trust, will, power of attorney, and healthcare directive without paying just to get the basics in place.
               </p>
             </div>
             <div className="flex flex-col gap-4 sm:flex-row lg:justify-end">
@@ -158,10 +158,10 @@ export default function PricingPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900">
-            Need premium launch updates?
+            Want to hear when premium analysis launches?
           </h2>
           <p className="mt-4 text-slate-700">
-            Leave your email if you want updates on the premium financial valuation release. Everything else should already read as free first.
+            Leave your email for updates on deeper financial analysis features. The rest of the platform is built to stay free-first.
           </p>
           <div className="mt-8 max-w-xl mx-auto">
             <WaitlistForm product="LexyAlgo Premium Financial Valuation" accentColor="#B02700" accentHover="#861B00" compact />

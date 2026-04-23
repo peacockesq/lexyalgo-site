@@ -2,8 +2,8 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Estate Planning — Free Beta — LexyAlgo',
-  description: 'Free beta for wills, trusts, powers of attorney, and healthcare directives. One intake, four documents, and clear early-beta expectations.',
+  title: 'Estate Planning — Free — LexyAlgo',
+  description: 'Free wills, trusts, powers of attorney, and healthcare directives. One intake, four core documents, and a clearer way to get your estate plan started.',
 }
 
 const DA_INTERVIEW_URL = 'https://doc.lexyalgo.com/interview?i=docassemble.EstatePlanning:data/questions/estate_planning.yml'
@@ -35,14 +35,14 @@ export default function EstatePlanningPage() {
                 Estate Planning
               </span>
               <span className="bg-green-100 text-green-700 text-xs font-semibold px-3 py-1 rounded-full">
-                Free Beta
+                Free
               </span>
             </div>
             <h1 className="font-[family-name:var(--font-space)] text-4xl sm:text-5xl font-bold text-slate-900 leading-tight">
               Estate planning should not be the expensive part you keep putting off
             </h1>
             <p className="mt-6 text-lg text-slate-600 leading-relaxed">
-              One intake generates a living trust, will, durable power of attorney, and healthcare directive. We keep this free during beta because getting the basics in place should be easier, clearer, and cheaper than it usually is.
+              One intake generates a living trust, will, durable power of attorney, and healthcare directive. Getting the basics in place should not be expensive, confusing, or easy to postpone forever.
             </p>
             <div className="mt-6 rounded-2xl border border-amber-100 bg-amber-50/80 p-4 text-sm leading-relaxed text-slate-700">
               Estate Planning is still in beta. It is useful now, but you should expect ongoing improvements, possible bugs, and state-coverage limitations while we keep tightening the workflow.
@@ -104,7 +104,7 @@ export default function EstatePlanningPage() {
       <section className="py-12 bg-slate-50">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="inline-flex items-center gap-2 mb-4">
-            <span className="bg-amber-100 text-amber-700 text-xs font-semibold px-3 py-1 rounded-full">Beta</span>
+            <span className="bg-amber-100 text-amber-700 text-xs font-semibold px-3 py-1 rounded-full">Early product</span>
           </div>
           <p className="text-sm text-slate-600">
             This tool generates estate planning document drafts. <strong>These documents should be reviewed by a licensed attorney before signing or filing.</strong> LexyAlgo is a document preparation service, not a law firm. We do not provide legal advice.
@@ -118,7 +118,7 @@ export default function EstatePlanningPage() {
       <section className="bg-[#FAF2DC] py-16 sm:py-20 text-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900">Protect your family. Start now.</h2>
-          <p className="mt-4 text-slate-700 max-w-lg mx-auto">Generate your trust, will, power of attorney, and healthcare directive free during beta — then review and sign with eyes open.</p>
+          <p className="mt-4 text-slate-700 max-w-lg mx-auto">Generate your trust, will, power of attorney, and healthcare directive for free — then review and sign with eyes open.</p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <a href={DA_INTERVIEW_URL}
               className="inline-flex items-center justify-center bg-[#7A5C1E] text-white font-semibold px-8 py-4 rounded-2xl hover:bg-[#573F0E] transition-all shadow-lg shadow-[#7A5C1E]/20 active:scale-[0.98]"
