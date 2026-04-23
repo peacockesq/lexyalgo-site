@@ -4,7 +4,7 @@ import { WaitlistForm } from '@/components/WaitlistForm'
 
 export const metadata: Metadata = {
   title: 'Pricing — LexyAlgo',
-  description: 'Most of LexyAlgo is free: divorce tools, calculators, estate planning, and CoParent. Premium pricing only shows up for deeper financial analysis when it matters.',
+  description: 'Most of LexyAlgo is free: divorce tools, calculators, estate planning, and CoParent. Premium pricing only appears when you need deeper financial analysis.',
 }
 
 const freeProducts = [
@@ -47,13 +47,11 @@ const freeProducts = [
 ]
 
 const premiumFeatures = [
-  'Automated statement and account pulling via Plaid',
+  'Secure account and statement gathering when a case needs it',
   'Premium financial valuation workflows',
   'Higher-complexity asset analysis and scenario support',
   'One-time case-based pricing instead of a subscription loop',
 ]
-
-const estatePlanningUrl = 'https://doc.lexyalgo.com/interview?i=docassemble.EstatePlanning:data/questions/estate_planning.yml'
 
 export default function PricingPage() {
   return (
@@ -71,7 +69,7 @@ export default function PricingPage() {
             The core tools people actually need should be accessible. So divorce tools are free. Calculators are free. Estate planning is free. CoParent is free. We only charge where the work gets materially more complex.
           </p>
           <div className="mt-6 max-w-3xl mx-auto rounded-2xl border border-sky-100 bg-sky-50/80 px-6 py-5 text-sm leading-relaxed text-slate-700">
-            Some products are still early, and we&rsquo;ll say that plainly where it matters. But the pricing story is simple: we are not trying to turn basic legal clarity into a subscription trap.
+            The pricing story is simple: everyday legal clarity should be accessible, and premium pricing should only show up when a case truly needs deeper financial work.
           </div>
         </div>
       </section>
@@ -106,7 +104,7 @@ export default function PricingPage() {
               Pay once for deeper financial analysis
             </h2>
             <p className="mt-4 text-slate-700 leading-relaxed">
-              Some cases need more than forms and calculators. When you want deeper account analysis, statement pulls, or heavier valuation support, that belongs in a one-time premium workflow — not a forever monthly bill.
+              Some cases need more than forms and calculators. When you need deeper financial analysis and higher-lift support, that belongs in a one-time premium workflow — not a forever monthly bill.
             </p>
             <ul className="mt-6 space-y-3">
               {premiumFeatures.map((feature) => (
@@ -140,13 +138,13 @@ export default function PricingPage() {
                 Estate planning is free
               </h2>
               <p className="mt-4 text-slate-700 max-w-2xl">
-                Create a living trust, will, power of attorney, and healthcare directive without paying just to get the basics in place.
+                Create a living trust, will, power of attorney, and healthcare directive without paying just to get the basics in place. No limited-time catch.
               </p>
             </div>
             <div className="flex flex-col gap-4 sm:flex-row lg:justify-end">
-              <a href={estatePlanningUrl} className="inline-flex items-center justify-center rounded-2xl bg-primary-container px-8 py-4 font-semibold text-white transition-all hover:bg-primary active:scale-[0.98]">
-                Try it now free
-              </a>
+              <Link href="/products/estate-planning" className="inline-flex items-center justify-center rounded-2xl bg-primary-container px-8 py-4 font-semibold text-white transition-all hover:bg-primary active:scale-[0.98]">
+                Try it free
+              </Link>
               <Link href="/products/estate-planning" className="inline-flex items-center justify-center rounded-2xl border-2 border-white bg-white/70 px-8 py-4 font-semibold text-slate-700 transition-all hover:bg-white">
                 Learn more
               </Link>
