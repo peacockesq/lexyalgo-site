@@ -4,66 +4,53 @@ import { WaitlistForm } from '@/components/WaitlistForm'
 
 export const metadata: Metadata = {
   title: 'Pricing — LexyAlgo',
-  description: 'Free calculators, live QDRO pricing, and honest rollout pricing for the rest of the LexyAlgo product line.',
+  description: 'Most LexyAlgo tools are free: divorce tools, calculators, estate planning, and CoParent. Premium financial valuation features use a one-time fee when live.',
 }
 
-const tiers = [
+const freeProducts = [
   {
-    name: 'Free',
-    price: '$0',
-    period: 'forever',
-    description: 'Start here for calculators, core planning tools, and estate-planning beta access.',
-    features: [
-      'Child support calculators (all states)',
-      'Retirement division calculators',
-      'Asset Divider workspace access',
-      'Future value timelines',
-      'Coverture fraction calculations',
-      'Plain-English explanations',
-      'PDF export of calculations',
-      'Estate planning beta access',
+    name: 'Divorce tools',
+    description: 'Guided divorce workflows, forms, and core planning tools are designed to be free because basic clarity should not sit behind a paywall.',
+    points: [
+      'Core divorce workflow access',
+      'Guided forms and planning tools',
+      'Data-driven decision support',
     ],
-    cta: 'Start free',
-    ctaHref: '/calculator',
-    highlight: true,
-    available: true,
   },
   {
-    name: 'Premium valuation',
-    price: 'TBD',
-    period: '',
-    description: 'Reserved for higher-complexity valuation workflows. We are not publishing a fixed public price until that release is final.',
-    features: [
-      'Everything in Free',
-      'Advanced business and asset valuation workflows',
-      'Premium retirement valuation tools',
-      'Scenario comparison for higher-complexity assets',
-      'Attorney-ready export packages',
-      'Priority access to new valuation releases',
+    name: 'Calculators',
+    description: 'Child support, retirement division, coverture fractions, and future-value context stay free.',
+    points: [
+      'State-specific child support estimates',
+      'Retirement division math',
+      'Plain-English explanations and exports',
     ],
-    cta: 'Join waitlist',
-    ctaHref: '#waitlist',
-    highlight: false,
-    available: false,
   },
   {
-    name: 'Co-Parent',
-    price: 'TBD',
-    period: '',
-    description: 'Shared calendar, expenses, and communication for ongoing family coordination.',
-    features: [
-      'Parenting time calendar',
-      'Expense tracking and splitting',
-      'In-app messaging',
-      'Holiday scheduling',
-      'Decision tracking',
-      'Document storage',
+    name: 'Estate planning',
+    description: 'Wills, trusts, powers of attorney, and healthcare directives are free during beta.',
+    points: [
+      'Living trust',
+      'Will',
+      'Power of attorney and healthcare directive',
     ],
-    cta: 'Explore product',
-    ctaHref: '/products/co-parent',
-    highlight: false,
-    available: false,
   },
+  {
+    name: 'CoParent',
+    description: 'Shared parenting coordination is intended to stay free for families who need less friction, not another bill.',
+    points: [
+      'Calendar and scheduling tools',
+      'Expense and communication workflow',
+      'Built to reduce conflict, not add to it',
+    ],
+  },
+]
+
+const premiumFeatures = [
+  'Automated statement and account pulling via Plaid',
+  'Premium financial valuation workflows',
+  'Higher-complexity asset analysis and scenario support',
+  'One-time case-based pricing instead of a subscription loop',
 ]
 
 const estatePlanningUrl = 'https://doc.lexyalgo.com/interview?i=docassemble.EstatePlanning:data/questions/estate_planning.yml'
@@ -72,69 +59,79 @@ export default function PricingPage() {
   return (
     <>
       <section className="bg-gradient-to-b from-surface to-white py-20 sm:py-28">
-        <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-          <h1 className="font-[family-name:var(--font-space)] text-4xl font-bold text-slate-900 sm:text-5xl">
-            Straightforward pricing, with free where it should be free
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="inline-flex items-center gap-2 rounded-full bg-green-50 px-4 py-1.5">
+            <span className="h-2 w-2 rounded-full bg-green-500" />
+            <span className="text-sm font-semibold text-green-700">As free as we can make it</span>
+          </div>
+          <h1 className="mt-6 font-[family-name:var(--font-space)] text-4xl sm:text-5xl font-bold text-slate-900">
+            Most of LexyAlgo is free. On purpose.
           </h1>
-          <p className="mx-auto mt-4 max-w-3xl text-lg text-slate-600">
-            Use calculators and estate-planning beta without paying for basic clarity. When a product has live pricing, we show it plainly. When it does not, we say that too.
+          <p className="mt-4 text-lg text-slate-600 max-w-3xl mx-auto">
+            Divorce tools are free. Calculators are free. Estate planning is free in beta. CoParent is free. When we charge, it is for premium financial valuation features that create real third-party or automation costs — not for basic clarity.
           </p>
+          <div className="mt-6 max-w-3xl mx-auto rounded-2xl border border-sky-100 bg-sky-50/80 px-6 py-5 text-sm leading-relaxed text-slate-700">
+            Most LexyAlgo products are still in early alpha or pre-release. We&rsquo;re building in public and shipping quickly so people can use the tools sooner, which means bugs and rough edges should be expected.
+          </div>
         </div>
       </section>
 
-      <section className="mx-auto -mt-8 mb-20 max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
-          {tiers.map((tier) => (
-            <div key={tier.name}
-              className={`rounded-2xl p-8 ${
-                tier.highlight
-                  ? 'bg-slate-950 text-white ring-2 ring-primary-container shadow-2xl shadow-primary-container/10'
-                  : 'border border-slate-200 bg-white'
-              }`}
-            >
-              <div className="flex items-center justify-between gap-3">
-                <h3 className="font-[family-name:var(--font-space)] text-xl font-bold">{tier.name}</h3>
-                {!tier.available && (
-                  <span className={`rounded-full px-2.5 py-1 text-xs font-medium ${
-                    tier.highlight ? 'bg-primary-container/20 text-[#FFB4A3]' : 'bg-slate-100 text-slate-600'
-                  }`}>Coming soon</span>
-                )}
-                {tier.available && (
-                  <span className="rounded-full bg-[#FFB4A3]/20 px-2.5 py-1 text-xs font-medium text-[#FFB4A3]">Available</span>
-                )}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-4">
+          {freeProducts.map((product) => (
+            <div key={product.name} className="rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
+              <div className="inline-flex rounded-full bg-green-100 px-3 py-1 text-xs font-semibold text-green-700">
+                Free
               </div>
-              <div className="mt-4">
-                <span className="font-[family-name:var(--font-space)] text-4xl font-bold">{tier.price}</span>
-                {tier.period && <span className={`ml-1 text-sm ${tier.highlight ? 'text-slate-400' : 'text-slate-500'}`}>/{tier.period}</span>}
-              </div>
-              <p className={`mt-3 text-sm ${tier.highlight ? 'text-slate-300' : 'text-slate-600'}`}>{tier.description}</p>
+              <h2 className="mt-4 font-[family-name:var(--font-space)] text-2xl font-bold text-slate-900">{product.name}</h2>
+              <p className="mt-3 text-sm leading-relaxed text-slate-600">{product.description}</p>
               <ul className="mt-6 space-y-3">
-                {tier.features.map((feature) => (
-                  <li key={feature} className="flex items-start gap-3">
-                    <svg className={`h-5 w-5 flex-shrink-0 ${tier.highlight ? 'text-[#FFB4A3]' : 'text-primary-container'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-                    <span className={`text-sm ${tier.highlight ? 'text-slate-300' : 'text-slate-600'}`}>{feature}</span>
+                {product.points.map((point) => (
+                  <li key={point} className="flex items-start gap-3">
+                    <svg className="mt-0.5 h-5 w-5 flex-shrink-0 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                    <span className="text-sm text-slate-700">{point}</span>
                   </li>
                 ))}
               </ul>
-              <div className="mt-8">
-                <Link href={tier.ctaHref}
-                  className={`block rounded-xl px-6 py-3 text-center font-semibold transition-all active:scale-[0.98] ${
-                    tier.highlight
-                      ? 'bg-primary-container text-white shadow-sm hover:bg-primary'
-                      : tier.available
-                        ? 'bg-primary-container text-white hover:bg-primary'
-                        : 'border-2 border-slate-200 text-slate-700 hover:border-slate-300'
-                  }`}
-                >
-                  {tier.cta}
-                </Link>
-              </div>
             </div>
           ))}
         </div>
       </section>
 
-      <section className="mx-auto mb-20 max-w-7xl px-4 sm:px-6 lg:px-8">
+      <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
+        <div className="rounded-3xl border border-[#E3BEB6] bg-[#FFEDE8] p-8 sm:p-10">
+          <div className="max-w-3xl">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary-container">Premium only where it actually adds cost</p>
+            <h2 className="mt-3 font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900">
+              Premium financial valuation is a one-time fee
+            </h2>
+            <p className="mt-4 text-slate-700 leading-relaxed">
+              For higher-cost automation like pulling financial statements and account data through Plaid, LexyAlgo plans a one-time case fee instead of a subscription. That means you pay for the premium valuation workflow when you need it, not every month just to keep access alive.
+            </p>
+            <ul className="mt-6 space-y-3">
+              {premiumFeatures.map((feature) => (
+                <li key={feature} className="flex items-start gap-3">
+                  <svg className="mt-0.5 h-5 w-5 flex-shrink-0 text-primary-container" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
+                  <span className="text-sm text-slate-700">{feature}</span>
+                </li>
+              ))}
+            </ul>
+            <div className="mt-6 rounded-2xl border border-white/70 bg-white/70 px-5 py-4 text-sm text-slate-700">
+              See the Asset Divider page for the feature comparison. That is where the premium valuation layer belongs — not as the main message of LexyAlgo pricing.
+            </div>
+            <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+              <Link href="/products/asset-divider" className="inline-flex items-center justify-center rounded-2xl bg-primary-container px-8 py-4 font-semibold text-white transition-all hover:bg-primary active:scale-[0.98]">
+                See Asset Divider comparison
+              </Link>
+              <Link href="/#products" className="inline-flex items-center justify-center rounded-2xl border-2 border-slate-300 px-8 py-4 font-semibold text-slate-700 transition-all hover:border-slate-400 hover:bg-white">
+                Explore free tools
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
         <div className="rounded-3xl border border-[#E3BEB6] bg-[#FFEDE8] p-8 sm:p-10">
           <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
             <div>
@@ -142,13 +139,13 @@ export default function PricingPage() {
               <h2 className="mt-3 font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900">
                 Try LexyAlgo estate planning on Docassemble
               </h2>
-              <p className="mt-4 max-w-2xl text-slate-700">
-                Generate a living trust, will, power of attorney, and healthcare directive during beta at no cost. It is one of the clearest ways to experience the product today.
+              <p className="mt-4 text-slate-700 max-w-2xl">
+                Generate a living trust, will, power of attorney, and healthcare directive during beta at no cost.
               </p>
             </div>
             <div className="flex flex-col gap-4 sm:flex-row lg:justify-end">
               <a href={estatePlanningUrl} className="inline-flex items-center justify-center rounded-2xl bg-primary-container px-8 py-4 font-semibold text-white transition-all hover:bg-primary active:scale-[0.98]">
-                Try it free
+                Try it now free
               </a>
               <Link href="/products/estate-planning" className="inline-flex items-center justify-center rounded-2xl border-2 border-white bg-white/70 px-8 py-4 font-semibold text-slate-700 transition-all hover:bg-white">
                 Learn more
@@ -158,61 +155,22 @@ export default function PricingPage() {
         </div>
       </section>
 
-      <section className="mx-auto mb-20 max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="mb-12 text-center">
-          <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-green-50 px-4 py-1.5">
-            <span className="h-2 w-2 rounded-full bg-green-500" />
-            <span className="text-sm font-semibold text-green-700">Available now</span>
-          </div>
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
+        <div className="max-w-3xl mx-auto text-center">
           <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900">
-            QDRO Generator
+            Need premium launch updates?
           </h2>
-          <p className="mx-auto mt-3 max-w-2xl text-lg text-slate-600">
-            Generate a Qualified Domestic Relations Order for retirement plan division in divorce. Supports nearly one million plans nationwide.
+          <p className="mt-4 text-slate-700">
+            Leave your email if you want updates on the premium financial valuation release. Everything else should already read as free first.
           </p>
-        </div>
-        <div className="mx-auto max-w-md">
-          <div className="rounded-2xl bg-slate-950 p-10 text-center text-white ring-2 ring-ember">
-            <span className="rounded-full bg-green-100 px-2.5 py-1 text-xs font-medium text-green-700">Available now</span>
-            <div className="mt-6">
-              <span className="font-[family-name:var(--font-space)] text-5xl font-bold">$100</span>
-              <span className="ml-1 text-sm text-slate-400">per order</span>
-            </div>
-            <p className="mt-4 text-sm text-slate-300">
-              One order, one flat price. Answer the intake questions and generate the document for your plan.
-            </p>
-            <ul className="mx-auto mt-6 max-w-xs space-y-3 text-left">
-              {['Supports nearly 1 million plans', 'Defined benefit and defined contribution', 'Answer questions, get your order', 'Download as PDF'].map((f) => (
-                <li key={f} className="flex items-start gap-3">
-                  <svg className="h-5 w-5 flex-shrink-0 text-[#FFB4A3]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-                  <span className="text-sm text-slate-300">{f}</span>
-                </li>
-              ))}
-            </ul>
-            <div className="mt-8">
-              <a href="https://doc.lexyalgo.com" className="block rounded-xl bg-ember px-6 py-3 text-center font-semibold text-white transition-all hover:bg-[#861B00] active:scale-[0.98]">
-                Generate a QDRO
-              </a>
-            </div>
-          </div>
-        </div>
-        <p className="mt-6 text-center text-sm text-slate-500">
-          <Link href="/products/qdro" className="text-ember hover:underline">Learn more about QDRO Generator →</Link>
-        </p>
-      </section>
-
-      <section id="waitlist" className="bg-peach py-16 sm:py-20">
-        <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
-          <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900">Get notified when new paid tools launch</h2>
-          <p className="mx-auto mt-4 max-w-lg text-slate-700">Premium valuation tools and the full Co-Parent release are still coming soon. Join the waitlist for launch updates only.</p>
-          <div className="mx-auto mt-8 max-w-xl">
-            <WaitlistForm product="LexyAlgo Premium" accentColor="#B02700" accentHover="#861B00" compact />
+          <div className="mt-8 max-w-xl mx-auto">
+            <WaitlistForm product="LexyAlgo Premium Financial Valuation" accentColor="#B02700" accentHover="#861B00" compact />
           </div>
         </div>
       </section>
 
       <section className="py-12">
-        <div className="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
+        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-xs text-slate-400">
             LexyAlgo provides document preparation assistance and calculation tools only. It does not constitute legal advice. Consult a licensed attorney for legal guidance specific to your situation.
           </p>
