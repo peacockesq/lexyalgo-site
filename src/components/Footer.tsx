@@ -2,7 +2,8 @@ import Link from 'next/link'
 import { WaitlistForm } from './WaitlistForm'
 
 const productLinks = [
-  { name: 'Divorce Forms', href: '/products/divorce' },
+  { name: 'Atlas', href: 'https://atlas.lexyalgo.com' },
+  { name: 'Calculators', href: '/calculator', live: true },
   { name: 'QDRO Services', href: '/products/qdro', live: true },
   { name: 'Support Calculator', href: '/calculator', live: true },
   { name: 'Asset Divider', href: '/products/asset-divider', live: true },
@@ -29,7 +30,7 @@ export function Footer() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
             <div>
               <h3 className="font-[family-name:var(--font-space)] font-bold text-xl text-white">Stay in the loop</h3>
-              <p className="mt-2 text-sm text-slate-400">Get notified when we launch new tools. No spam — just product updates.</p>
+              <p className="mt-2 text-sm text-slate-400">Get launch updates for new tools and major product releases. No spam, just useful updates.</p>
             </div>
             <WaitlistForm product="LexyAlgo Newsletter" accentColor="#515F74" accentHover="#3A4A5C" compact />
           </div>
@@ -46,13 +47,13 @@ export function Footer() {
             <p className="mt-4 max-w-md text-sm leading-relaxed">
               Court-form-driven document preparation tools, calculators, and family-law workflows designed to help people get organized before they spend more on legal help.
             </p>
-            {/* Social placeholders */}
-            <div className="flex gap-4 mt-6">
-              {['Twitter', 'LinkedIn', 'Facebook'].map((s) => (
-                <a key={s} href="#" className="text-slate-500 hover:text-slate-300 transition-colors text-sm">
-                  {s}
-                </a>
-              ))}
+            <div className="mt-6 space-y-2 text-sm text-slate-400">
+              <p>
+                <Link href="/contact" className="transition-colors hover:text-slate-200">Use the contact form</Link>
+              </p>
+              <p>
+                <a href="tel:+19294373767" className="transition-colors hover:text-slate-200">(929) 437-3767</a>
+              </p>
             </div>
           </div>
 
