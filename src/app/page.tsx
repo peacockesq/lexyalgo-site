@@ -4,6 +4,16 @@ import { WaitlistForm } from '@/components/WaitlistForm'
 
 const divorceProducts = [
   {
+    name: 'Atlas',
+    description: 'The Lexy front door that keeps one case, one login, and one roadmap across divorce, financial, filing, and family workflows.',
+    href: 'https://atlas.lexyalgo.com',
+    color: '#515F74',
+    lightBg: '#EBF0F6',
+    icon: '🧭',
+    badge: 'Preview',
+    live: false,
+  },
+  {
     name: 'Calculators',
     description: 'Free child support and retirement division calculators with state-specific logic, future-value context, and plain-English explanations.',
     href: '/calculator',
@@ -284,7 +294,7 @@ export default function HomePage() {
                 Math, forms, and workflow support in one product family
               </h3>
               <p className="mt-3 text-slate-600">
-                Start with calculators, move into QDRO work when needed, then keep going with guided forms, asset division, co-parenting, and filing support designed to reduce friction with your ex instead of adding to it.
+                Start with Atlas as the front door, move into calculators or QDRO work when needed, then keep going with guided forms, asset division, co-parenting, and filing support designed to reduce friction with your ex instead of adding to it.
               </p>
             </div>
             <div className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">

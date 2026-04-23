@@ -7,6 +7,7 @@ const productGroups = [
   {
     label: 'Divorce & family law',
     items: [
+      { name: 'Atlas', href: 'https://atlas.lexyalgo.com', color: '#515F74', badge: 'Preview' },
       { name: 'Calculators', href: '/calculator', color: '#1E5F6C', badge: 'Live' },
       { name: 'QDRO Services', href: '/products/qdro', color: '#8B5E3C', badge: 'Live' },
       { name: 'Divorce Forms', href: '/products/divorce', color: '#2B4580', badge: 'Soon' },
@@ -137,7 +138,7 @@ export function Navbar() {
                         >
                           <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: item.color }} />
                           <span className="text-sm font-medium text-slate-700 group-hover:text-slate-900">{item.name}</span>
-                          <span className={`ml-auto rounded-full px-2 py-0.5 text-xs font-medium ${item.badge === 'Live' ? 'bg-green-100 text-green-700' : item.badge === 'Free Beta' ? 'bg-amber-100 text-amber-700' : 'bg-violet-100 text-violet-700'}`}>{item.badge}</span>
+                          <span className={`ml-auto rounded-full px-2 py-0.5 text-xs font-medium ${item.badge === 'Live' ? 'bg-green-100 text-green-700' : item.badge === 'Free Beta' ? 'bg-amber-100 text-amber-700' : item.badge === 'Preview' ? 'bg-sky-100 text-sky-700' : 'bg-violet-100 text-violet-700'}`}>{item.badge}</span>
                         </Link>
                       ))}
                     </div>
@@ -157,7 +158,7 @@ export function Navbar() {
             className="rounded-xl bg-[color:var(--color-brand-primary-container)] px-5 py-2.5 text-sm font-semibold text-[color:var(--color-brand-on-primary)] shadow-sm transition-colors hover:bg-[color:var(--color-brand-primary)] active:scale-[0.98]"
             style={{ boxShadow: '0 8px 24px var(--color-brand-surface-tint)' }}
           >
-            Find your solution
+            Explore tools
           </Link>
         </div>
 
@@ -191,7 +192,7 @@ export function Navbar() {
                   >
                     <span className="h-2 w-2 rounded-full" style={{ backgroundColor: item.color }} />
                     <span className="text-sm font-medium text-slate-700">{item.name}</span>
-                    <span className={`ml-auto rounded-full px-2 py-0.5 text-xs ${item.badge === 'Live' ? 'bg-green-100 text-green-700' : item.badge === 'Free Beta' ? 'bg-amber-100 text-amber-700' : 'bg-violet-100 text-violet-700'}`}>{item.badge}</span>
+                    <span className={`ml-auto rounded-full px-2 py-0.5 text-xs ${item.badge === 'Live' ? 'bg-green-100 text-green-700' : item.badge === 'Free Beta' ? 'bg-amber-100 text-amber-700' : item.badge === 'Preview' ? 'bg-sky-100 text-sky-700' : 'bg-violet-100 text-violet-700'}`}>{item.badge}</span>
                   </Link>
                 ))}
               </div>
@@ -211,7 +212,7 @@ export function Navbar() {
             style={{ boxShadow: '0 8px 24px var(--color-brand-surface-tint)' }}
             onClick={() => setMobileOpen(false)}
           >
-            Find your solution
+            Explore tools
           </Link>
         </div>
       )}
