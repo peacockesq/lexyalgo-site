@@ -1,13 +1,14 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import { RealScreenshot } from '@/components/RealScreenshot'
+import { sharedAuthLinks } from '@/lib/shared-auth-links'
 
 export const metadata: Metadata = {
   title: 'Divorce Forms — Free Public Alpha — LexyAlgo',
   description: 'Free public alpha for court-form-driven uncontested divorce workflows. One guided intake, state-specific forms, and clear early-alpha expectations.',
 }
 
-const PUBLIC_ALPHA_URL = 'https://app.lexyalgo.com'
+const PUBLIC_ALPHA_URL = sharedAuthLinks.divorceAlpha
 
 const features = [
   { title: 'Court-Form-Mapped Documents', desc: 'Not generic templates — every document maps directly to your state’s official court forms.' },

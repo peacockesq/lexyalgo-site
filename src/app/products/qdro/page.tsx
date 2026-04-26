@@ -1,10 +1,13 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { sharedAuthLinks } from '@/lib/shared-auth-links'
 
 export const metadata: Metadata = {
   title: 'QDRO Generator — LexyAlgo',
   description: 'Generate a Qualified Domestic Relations Order (QDRO) for retirement plan division in divorce. Starting at $100 per order. Supports nearly one million plans nationwide.',
 }
+
+const QDRO_URL = sharedAuthLinks.qdro
 
 export default function QdroPage() {
   return (
@@ -28,7 +31,7 @@ export default function QdroPage() {
               A Qualified Domestic Relations Order divides retirement accounts in divorce. Our generator supports nearly one million plans across the country. Answer a few questions, and we generate the order for your plan.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
-              <a href="https://doc.lexyalgo.com"
+              <a href={QDRO_URL}
                 className="inline-flex items-center justify-center bg-bronze text-white font-semibold px-8 py-4 rounded-2xl hover:bg-[#6F4A2E] transition-all shadow-lg shadow-bronze/20 hover:shadow-xl hover:shadow-bronze/30 active:scale-[0.98]"
               >
                 Generate a QDRO
@@ -50,7 +53,7 @@ export default function QdroPage() {
             <p className="text-sm font-semibold text-[#8B5E3C] uppercase tracking-wider mb-2">Available now</p>
             <p className="text-slate-700 leading-relaxed">
               The QDRO generator is live at{' '}
-              <a href="https://doc.lexyalgo.com" className="font-semibold text-[#8B5E3C] underline underline-offset-2 hover:text-[#6F4A2E]">
+              <a href={QDRO_URL} className="font-semibold text-[#8B5E3C] underline underline-offset-2 hover:text-[#6F4A2E]">
                 doc.lexyalgo.com
               </a>
               . Start your order there.
@@ -84,7 +87,7 @@ export default function QdroPage() {
               ))}
             </ul>
             <div className="mt-8">
-              <a href="https://doc.lexyalgo.com"
+              <a href={QDRO_URL}
                 className="block text-center font-semibold py-3 px-6 rounded-xl bg-bronze text-white hover:bg-[#6F4A2E] transition-all active:scale-[0.98]"
               >
                 Get Started
@@ -150,7 +153,7 @@ export default function QdroPage() {
           <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900">Ready to divide the retirement plan?</h2>
           <p className="mt-4 text-slate-700 max-w-lg mx-auto">$100 per order. Answer the questions, get your QDRO.</p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="https://doc.lexyalgo.com"
+            <a href={QDRO_URL}
               className="inline-flex items-center justify-center bg-bronze text-white font-semibold px-8 py-4 rounded-2xl hover:bg-[#6F4A2E] transition-all shadow-lg shadow-bronze/20 active:scale-[0.98]"
             >
               Generate a QDRO
