@@ -1,12 +1,13 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { sharedAuthLinks } from '@/lib/shared-auth-links'
 
 export const metadata: Metadata = {
   title: 'Estate Planning — Free — LexyAlgo',
   description: 'Free wills, trusts, powers of attorney, and healthcare directives. One intake, four core documents, and a clearer way to get your estate plan started.',
 }
 
-const DA_INTERVIEW_URL = 'https://doc.lexyalgo.com/interview?i=docassemble.EstatePlanning:data/questions/estate_planning.yml'
+const DA_INTERVIEW_URL = sharedAuthLinks.estatePlanning
 
 const features = [
   { title: 'Last Will and Testament', desc: 'A guided questionnaire produces a state-aware will covering distribution, guardianship, and executor appointment.' },
