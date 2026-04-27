@@ -4,6 +4,7 @@ const contactInfo = [
 ]
 
 const formAction = 'https://formsubmit.co/hello@lexyalgo.com'
+const contactPageUrl = 'https://lexyalgo.com/contact'
 const thankYouUrl = 'https://lexyalgo.com/contact/thanks'
 
 export default function ContactPage() {
@@ -47,12 +48,13 @@ export default function ContactPage() {
               <div className="rounded-2xl border border-teal/20 bg-teal/5 p-5">
                 <p className="text-sm font-semibold text-slate-900">Send us a message</p>
                 <p className="mt-2 text-sm text-slate-700">
-                  Use the form below for product questions, feedback, partnerships, or press inquiries.
+                  Use the form below for product questions, feedback, partnerships, or press inquiries. Please do not include confidential case details here.
                 </p>
               </div>
 
               <input type="hidden" name="_subject" value="New LexyAlgo contact form submission" />
               <input type="hidden" name="_next" value={thankYouUrl} />
+              <input type="hidden" name="_url" value={contactPageUrl} />
               <input type="hidden" name="_template" value="table" />
               <input type="text" name="_honey" className="hidden" tabIndex={-1} autoComplete="off" />
 
