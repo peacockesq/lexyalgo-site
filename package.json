@@ -7,7 +7,8 @@
     "dev": "tinacms dev -c \"next dev\"",
     "build": "tinacms build --local --skip-cloud-checks && next build",
     "start": "next start",
-    "lint": "tsc --noEmit -p tsconfig.lint.json"
+    "lint": "tsc --noEmit -p tsconfig.lint.json",
+    "verify:shared-auth-links": "node scripts/verify-shared-auth-links.mjs"
   },
   "keywords": [],
   "author": "",
