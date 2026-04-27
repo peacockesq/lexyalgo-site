@@ -51,9 +51,6 @@ export function Footer() {
               <p>
                 <Link href="/contact" className="transition-colors hover:text-slate-200">Use the contact form</Link>
               </p>
-              <p>
-                <a href="tel:+19294373767" className="transition-colors hover:text-slate-200">(929) 437-3767</a>
-              </p>
             </div>
           </div>
 
