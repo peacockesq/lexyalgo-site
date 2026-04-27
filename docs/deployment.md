@@ -102,7 +102,7 @@ Set `DEPLOY_PATH` to the directory the web server already serves for that hostna
 
 ## Contact form activation
 
-The `/contact` page now posts to `https://formsubmit.co/hello@lexyalgo.com` so the static site has a real delivery path without adding server infrastructure.
+The `/contact` page now posts to `https://formsubmit.co/hello@lexyalgo.com` so the static site has a real delivery path without adding server infrastructure. The form includes the FormSubmit honeypot (`_honey`) plus an explicit `_url=https://lexyalgo.com/contact` source marker so mailbox reviewers can tie activation/delivery mail back to the live page.
 
 After the first live submission, FormSubmit will send an activation email to `hello@lexyalgo.com`. Someone with inbox access must click that activation link once before future submissions will deliver normally.
 
