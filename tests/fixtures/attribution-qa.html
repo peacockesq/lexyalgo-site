@@ -3,6 +3,14 @@
 <head>
   <meta charset="utf-8">
   <title>Attribution persistence QA</title>
+  <script>
+    window.__attributionConsentGranted = false;
+    window.AttributionPersistenceConfig = {
+      autoInit: false,
+      consentMode: 'required',
+      hasConsent: function () { return window.__attributionConsentGranted === true; }
+    };
+  </script>
   <script src="/public/attribution-persistence.js"></script>
 </head>
 <body>
@@ -19,6 +27,7 @@
     <button type="submit">Submit</button>
   </form>
   <div id="step-two"></div>
+  <button id="grant-consent" type="button">Grant marketing consent</button>
   <pre id="proof"></pre>
   <script>
     function snapshot() {
@@ -35,6 +44,11 @@
       step.dispatchEvent(new Event('submit'));
       snapshot();
     }, 50);
+    document.getElementById('grant-consent').addEventListener('click', () => {
+      window.__attributionConsentGranted = true;
+      window.AttributionPersistence.init();
+      snapshot();
+    });
     window.addEventListener('load', snapshot);
   </script>
 </body>

@@ -72,6 +72,7 @@ function createStorage() {
     getItem(key) { return data.has(key) ? data.get(key) : null; },
     setItem(key, value) { data.set(key, String(value)); },
     removeItem(key) { data.delete(key); },
+    hasItem(key) { return data.has(key); },
   };
 }
 
@@ -165,6 +166,79 @@ function addForm(document, names) {
   const byName = Object.fromEntries(form.querySelectorAll('input[type="hidden"][name]').map((input) => [input.name, input.value]));
   assert.equal(byName.latest_msclkid, 'MS-123');
   assert.equal(JSON.parse(byName.attribution_payload).latest_touch.msclkid, 'MS-123');
+}
+
+{
+  const localStorage = createStorage();
+  loadAttribution({
+    localStorage,
+    url: 'https://example.com/default-load?utm_source=google&gclid=DEFAULT',
+  });
+  assert.equal(localStorage.hasItem('agency_attribution_v1'), false);
+}
+
+{
+  const localStorage = createStorage();
+  let hasConsent = false;
+  const { window, document } = loadAttribution({
+    localStorage,
+    AttributionPersistenceConfig: {
+      consentMode: 'required',
+      hasConsent: () => hasConsent,
+    },
+    url: 'https://example.com/pre-consent?utm_source=google&gclid=NOPE',
+  });
+  const form = addForm(document, ['first_utm_source', 'latest_gclid', 'attribution_payload']);
+
+  assert.equal(localStorage.hasItem('agency_attribution_v1'), false);
+  window.AttributionPersistence.init();
+  window.AttributionPersistence.hydrateForms();
+  form.dispatchEvent({ type: 'submit' });
+  const beforeConsent = Object.fromEntries(form.querySelectorAll('input[type="hidden"][name]').map((input) => [input.name, input.value]));
+  assert.equal(localStorage.hasItem('agency_attribution_v1'), false);
+  assert.equal(beforeConsent.first_utm_source, '');
+  assert.equal(beforeConsent.latest_gclid, '');
+  assert.equal(beforeConsent.attribution_payload, '');
+
+  hasConsent = true;
+  window.AttributionPersistence.init();
+  const afterConsent = Object.fromEntries(form.querySelectorAll('input[type="hidden"][name]').map((input) => [input.name, input.value]));
+  assert.equal(localStorage.hasItem('agency_attribution_v1'), true);
+  assert.equal(afterConsent.first_utm_source, 'google');
+  assert.equal(afterConsent.latest_gclid, 'NOPE');
+  assert.equal(JSON.parse(afterConsent.attribution_payload).first_touch.gclid, 'NOPE');
+}
+
+{
+  let granted = false;
+  const localStorage = createStorage();
+  loadAttribution({
+    localStorage,
+    AttributionPersistenceConfig: { consentMode: 'required', hasConsent: () => granted },
+    url: 'https://example.com/first?utm_source=google&gclid=FIRST',
+  });
+  assert.equal(localStorage.hasItem('agency_attribution_v1'), false);
+
+  granted = true;
+  loadAttribution({
+    localStorage,
+    AttributionPersistenceConfig: { consentMode: 'required', hasConsent: () => granted },
+    url: 'https://example.com/first?utm_source=google&gclid=FIRST',
+  }).window.AttributionPersistence.init();
+  const { window, document } = loadAttribution({
+    localStorage,
+    AttributionPersistenceConfig: { consentMode: 'required', hasConsent: () => granted },
+    url: 'https://example.com/second?utm_source=linkedin&li_fat_id=LATEST',
+  });
+  window.AttributionPersistence.capture();
+  const form = addForm(document, ['first_utm_source', 'first_gclid', 'latest_utm_source', 'latest_li_fat_id', 'landing_page_url']);
+  window.AttributionPersistence.hydrateForms();
+  const byName = Object.fromEntries(form.querySelectorAll('input[type="hidden"][name]').map((input) => [input.name, input.value]));
+  assert.equal(byName.first_utm_source, 'google');
+  assert.equal(byName.first_gclid, 'FIRST');
+  assert.equal(byName.latest_utm_source, 'linkedin');
+  assert.equal(byName.latest_li_fat_id, 'LATEST');
+  assert.equal(byName.landing_page_url, 'https://example.com/second?utm_source=linkedin&li_fat_id=LATEST');
 }
 
 console.log('attribution-persistence tests passed');

@@ -9,8 +9,13 @@
  *   window.AttributionPersistenceConfig = {
  *     storageKey: 'agency_attribution_v1',
  *     maxAgeDays: 90,
- *     autoInit: true
+ *     autoInit: false,
+ *     consentMode: 'required',
+ *     hasConsent: function () { return window.Cookiebot && window.Cookiebot.consent.marketing; }
  *   };
+ *
+ * Load the script before consent if needed, then call AttributionPersistence.init()
+ * after your consent banner/CMP grants marketing-storage consent.
  */
 (function attributionPersistenceFactory(window) {
   'use strict';
@@ -86,6 +91,36 @@
     return store;
   }
 
+  function canCapture() {
+    if (typeof config.shouldCapture === 'function') {
+      try {
+        return config.shouldCapture({ config: config }) !== false;
+      } catch (error) {
+        return false;
+      }
+    }
+
+    if (typeof config.hasConsent === 'function') {
+      try {
+        return config.hasConsent({ config: config }) === true;
+      } catch (error) {
+        return false;
+      }
+    }
+
+    if (typeof config.hasConsent === 'boolean') return config.hasConsent;
+
+    if (config.consentMode === 'denied' || config.consentMode === false) return false;
+    if (config.consentMode === 'granted' || config.consentMode === true) return true;
+    if (config.consentMode === 'required') return false;
+
+    return true;
+  }
+
+  function emptyPayload() {
+    return { version: 1, first_touch: {}, latest_touch: {}, updated_at: '' };
+  }
+
   function paramsFromLocation() {
     var params = new URLSearchParams(window.location.search || '');
     var touch = {};
@@ -131,6 +166,8 @@
   }
 
   function capture() {
+    if (!canCapture()) return emptyPayload();
+
     var currentTouch = compactTouch(paramsFromLocation());
     var existing = readStore();
     var priorFirst = existing.first_touch && typeof existing.first_touch === 'object'
@@ -148,6 +185,8 @@
   }
 
   function getPayload() {
+    if (!canCapture()) return emptyPayload();
+
     var store = readStore();
     if (!store.first_touch || !store.latest_touch) store = capture();
     return store;
@@ -195,7 +234,7 @@
   }
 
   function hydrateForm(form, payload) {
-    if (!form || !form.querySelectorAll) return;
+    if (!form || !form.querySelectorAll || !canCapture()) return;
     var data = payload || getPayload();
     var inputs = form.querySelectorAll('input[type="hidden"][name]');
     for (var i = 0; i < inputs.length; i += 1) {
@@ -206,6 +245,8 @@
   }
 
   function hydrateForms(root) {
+    if (!canCapture()) return emptyPayload();
+
     var payload = getPayload();
     var scope = root && root.querySelectorAll ? root : document;
     if (scope.matches && scope.matches('form')) hydrateForm(scope, payload);
@@ -215,6 +256,8 @@
   }
 
   function attachSubmitHydration(root) {
+    if (!canCapture()) return;
+
     var scope = root && root.querySelectorAll ? root : document;
     var forms = [];
     if (scope.matches && scope.matches('form')) forms.push(scope);
@@ -250,11 +293,19 @@
   }
 
   function init() {
+    if (!canCapture()) return { payload: emptyPayload(), observer: null, consent: false };
+
     capture();
     hydrateForms();
     attachSubmitHydration();
     var observer = observeDynamicForms();
     return { payload: getPayload(), observer: observer };
+  }
+
+  function setConsent(granted) {
+    config.hasConsent = granted === true;
+    if (config.hasConsent) return init();
+    return { payload: emptyPayload(), observer: null, consent: false };
   }
 
   window.AttributionPersistence = {
@@ -263,10 +314,12 @@
     hydrateForm: hydrateForm,
     hydrateForms: hydrateForms,
     init: init,
+    setConsent: setConsent,
+    canCapture: canCapture,
     fields: ATTRIBUTION_FIELDS.slice()
   };
 
-  if (config.autoInit !== false) {
+  if (config.autoInit === true) {
     if (document.readyState === 'loading') {
       document.addEventListener('DOMContentLoaded', init, { once: true });
     } else {

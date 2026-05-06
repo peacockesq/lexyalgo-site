@@ -16,24 +16,62 @@ Kanban: t_0208da0a
 
 ## Install
 
-Add the snippet once per landing page, preferably before the closing body tag:
+Add the snippet once per landing page, preferably before the closing body tag. The snippet is consent-safe by default: loading it does not write attribution data to `localStorage` until you explicitly initialize it.
 
 ```html
 <script src="/attribution-persistence.js" defer></script>
 ```
 
-Optional config before loading:
+Recommended consent-gated config before loading:
 
 ```html
 <script>
   window.AttributionPersistenceConfig = {
     storageKey: 'agency_attribution_v1',
     maxAgeDays: 90,
-    autoInit: true
+    autoInit: false,
+    consentMode: 'required',
+    hasConsent: function () {
+      return window.Cookiebot && window.Cookiebot.consent && window.Cookiebot.consent.marketing === true;
+    }
   };
 </script>
 <script src="/attribution-persistence.js" defer></script>
 ```
+
+## Consent banner / CMP integration
+
+Use your CMP's marketing-storage approval event to initialize capture after consent. Before `hasConsent` returns `true`, `capture()`, `hydrateForms()`, submit hydration, and `init()` are no-ops and `agency_attribution_v1` is not written.
+
+Cookiebot-style example:
+
+```html
+<script>
+  window.AttributionPersistenceConfig = {
+    autoInit: false,
+    consentMode: 'required',
+    hasConsent: function () {
+      return window.Cookiebot && window.Cookiebot.consent && window.Cookiebot.consent.marketing === true;
+    }
+  };
+
+  window.addEventListener('CookiebotOnAccept', function () {
+    if (window.AttributionPersistence) window.AttributionPersistence.init();
+  });
+</script>
+<script src="/attribution-persistence.js" defer></script>
+```
+
+Generic CMP example:
+
+```js
+cmp.on('consentChanged', function (consent) {
+  if (!consent.marketingStorage || !window.AttributionPersistence) return;
+  window.AttributionPersistence.setConsent(true);
+});
+```
+
+Sites that load the script only after consent can skip `hasConsent` and call `window.AttributionPersistence.init()` immediately after appending the script.
 
 ## Hidden fields supported
 
@@ -78,6 +116,8 @@ Minimum form field set recommended for CRM/n8n:
 window.AttributionPersistence.capture();
 window.AttributionPersistence.hydrateForms();
 window.AttributionPersistence.getPayload();
+window.AttributionPersistence.init();
+window.AttributionPersistence.setConsent(true);
 ```
 
 Use `hydrateForms(stepContainer)` after a custom multi-step form renders a new step if the site blocks MutationObserver or uses a shadow DOM form provider.
@@ -105,10 +145,11 @@ Browser QA fixture:
 
 Browser QA should verify:
 
-1. Load a page with synthetic UTMs and click IDs.
-2. Confirm hidden form fields are populated with first/latest touch values.
-3. Navigate or reload with a different source and confirm first-touch remains stable while latest-touch updates.
-4. Insert a later-step form dynamically and confirm hidden fields hydrate before submit.
+1. Load the snippet before consent with synthetic UTMs and click IDs; confirm `agency_attribution_v1` is absent from localStorage and hidden fields remain empty.
+2. Grant marketing-storage consent and call `window.AttributionPersistence.init()`.
+3. Confirm hidden form fields are populated with first/latest touch values.
+4. Navigate or reload with a different source and confirm first-touch remains stable while latest-touch updates.
+5. Insert a later-step form dynamically and confirm hidden fields hydrate before submit.
 
 Observed browser QA proof for this implementation:
 
