@@ -7,7 +7,7 @@ function PrimaryLink({ href, children }: { href: string; children: React.ReactNo
   return (
     <Link
       href={href}
-      className={`inline-flex min-h-11 items-center justify-center rounded-lg bg-[#4F46E5] px-5 py-3 text-sm font-semibold text-white shadow-[0_16px_35px_rgba(79,70,229,.22)] transition hover:-translate-y-0.5 hover:bg-[#3730A3] ${focusRing}`}
+      className={`inline-flex min-h-11 items-center justify-center rounded-lg bg-[#4F46E5] px-5 py-3 text-sm font-semibold text-white shadow-[0_16px_35px_rgba(79,70,229,.22)] motion-safe:transition motion-safe:hover:-translate-y-0.5 hover:bg-[#3730A3] ${focusRing}`}
     >
       {children}
     </Link>
@@ -18,7 +18,7 @@ function SecondaryLink({ href, children, dark = false }: { href: string; childre
   return (
     <Link
       href={href}
-      className={`inline-flex min-h-11 items-center justify-center rounded-lg border px-5 py-3 text-sm font-semibold transition hover:-translate-y-0.5 ${focusRing} ${
+      className={`inline-flex min-h-11 items-center justify-center rounded-lg border px-5 py-3 text-sm font-semibold motion-safe:transition motion-safe:hover:-translate-y-0.5 ${focusRing} ${
         dark
           ? 'border-[#253250] bg-white text-[#0A0F1F] hover:border-white'
           : 'border-[#D8E1EC] bg-white text-[#0B1020] hover:border-[#B8C7D9]'
@@ -43,15 +43,15 @@ function HeroLoopCard() {
   const nodes = ['Query intent', 'Landing-page test', 'Qualified lead', 'Budget decision']
 
   return (
-    <div className="relative rounded-[1.5rem] border border-[#D8E1EC] bg-white p-4 shadow-[0_24px_70px_rgba(25,42,70,.16)] sm:p-6">
+    <div className="relative min-w-0 rounded-[1.5rem] border border-[#D8E1EC] bg-white p-4 shadow-[0_24px_70px_rgba(25,42,70,.16)] sm:p-6">
       <div className="flex items-center gap-2 border-b border-[#D8E1EC] pb-4">
         <span className="h-3 w-3 rounded-full bg-[#F87171]" />
         <span className="h-3 w-3 rounded-full bg-[#FBBF24]" />
         <span className="h-3 w-3 rounded-full bg-[#34D399]" />
-        <span className="ml-3 rounded-md border border-[#D8E1EC] bg-[#F7F9FC] px-2 py-1 text-[11px] font-medium text-[#596579]">growth-os.internal/loop</span>
+        <span className="ml-3 min-w-0 truncate rounded-md border border-[#D8E1EC] bg-[#F7F9FC] px-2 py-1 text-[11px] font-medium text-[#596579]">growth-os.internal/loop</span>
       </div>
       <div className="mt-5 rounded-2xl bg-gradient-to-br from-[#F7F9FC] via-white to-[#E6F6FE] p-5">
-        <div className="grid gap-3 sm:grid-cols-2">
+        <div className="grid min-w-0 gap-3 sm:grid-cols-2">
           {nodes.map((node, index) => (
             <div key={node} className="rounded-xl border border-[#D8E1EC] bg-white/90 p-4 shadow-[0_1px_2px_rgba(11,16,32,.06)]">
               <span className="text-[11px] font-bold uppercase tracking-[0.18em] text-[#4F46E5]">0{index + 1}</span>
@@ -126,7 +126,7 @@ function ServicesGrid() {
         <SectionHeader eyebrow="Services" title="Six modules, one acquisition loop." copy="Each card describes the constraint, the system output, and the measurement family instead of a generic service blurb." />
         <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {services.map((service) => (
-            <Link key={service.title} href={service.href} className={`group rounded-[1.125rem] border border-[#D8E1EC] bg-white p-6 shadow-[0_1px_2px_rgba(11,16,32,.06)] transition hover:-translate-y-1 hover:border-[#B8C7D9] hover:shadow-[0_16px_40px_rgba(25,42,70,.10)] ${focusRing}`}>
+            <Link key={service.title} href={service.href} className={`group rounded-[1.125rem] border border-[#D8E1EC] bg-white p-6 shadow-[0_1px_2px_rgba(11,16,32,.06)] motion-safe:transition motion-safe:hover:-translate-y-1 hover:border-[#B8C7D9] hover:shadow-[0_16px_40px_rgba(25,42,70,.10)] ${focusRing}`}>
               <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#4F46E5]">{service.constraint}</p>
               <h3 className="mt-4 text-xl font-semibold tracking-[-0.02em] text-[#0B1020]">{service.title}</h3>
               <p className="mt-3 text-sm leading-6 text-[#596579]">{service.output}</p>
@@ -221,10 +221,10 @@ function DiagnosticForm() {
           <h2 className="mt-3 text-3xl font-semibold tracking-[-0.035em]">Start with the constraint, not a retainer pitch.</h2>
           <p className="mt-4 text-base leading-7 text-[#AEBBD0]">No generic audit deck. You get the likely constraint, the evidence behind it, and the next decision it supports.</p>
           <div className="mt-6 rounded-xl border border-[#253250] bg-[#111B33] p-4 text-sm leading-6 text-[#AEBBD0]">
-            Stub only: this internal form uses a GET action back to this route. No live lead capture or outbound delivery is connected.
+            Stub only: this internal form posts to this route without putting values in the URL. No live lead capture, analytics event, or outbound delivery is connected.
           </div>
         </div>
-        <form action="/internal/legal-growth-os#diagnostic-stub" method="get" className="rounded-2xl border border-[#253250] bg-white p-5 text-[#0B1020] sm:p-6">
+        <form action="/internal/legal-growth-os#diagnostic-stub" method="post" className="rounded-2xl border border-[#253250] bg-white p-5 text-[#0B1020] sm:p-6">
           <div id="diagnostic-stub" className="sr-only">Diagnostic form stub endpoint target.</div>
           <label className="block text-sm font-semibold" htmlFor="problem">Current acquisition problem</label>
           <textarea id="problem" name="problem" rows={3} className={`mt-2 w-full rounded-lg border border-[#B8C7D9] bg-white px-3 py-3 text-sm ${focusRing}`} placeholder="Lead quality, tracking confidence, AI visibility, paid efficiency..." />
@@ -234,7 +234,7 @@ function DiagnosticForm() {
             <label className="block text-sm font-semibold" htmlFor="tracking">Tracking confidence <span className="text-[#596579]">0-10</span><input id="tracking" name="tracking" type="number" min="0" max="10" className={`mt-2 w-full rounded-lg border border-[#B8C7D9] bg-white px-3 py-3 text-sm ${focusRing}`} /></label>
             <label className="block text-sm font-semibold" htmlFor="clarity">Page clarity <span className="text-[#596579]">0-10</span><input id="clarity" name="clarity" type="number" min="0" max="10" className={`mt-2 w-full rounded-lg border border-[#B8C7D9] bg-white px-3 py-3 text-sm ${focusRing}`} /></label>
           </div>
-          <button type="submit" className={`mt-5 min-h-11 w-full rounded-lg bg-[#4F46E5] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#3730A3] ${focusRing}`}>Preview diagnostic request</button>
+          <button type="submit" className={`mt-5 min-h-11 w-full rounded-lg bg-[#4F46E5] px-5 py-3 text-sm font-semibold text-white motion-safe:transition hover:bg-[#3730A3] ${focusRing}`}>Preview diagnostic request</button>
           <p className="mt-3 text-xs leading-5 text-[#596579]">Validation states must include text and icon when this becomes a real endpoint.</p>
         </form>
       </div>
@@ -270,15 +270,15 @@ function FaqAndFinalCta() {
 
 export function AgencyHomeShell() {
   return (
-    <div className="bg-[#F7F9FC] text-[#182033]">
+    <div className="agency-artifact overflow-x-clip bg-[#F7F9FC] text-[#182033]">
       <div className="border-b border-[#F8D8A7] bg-[#FFF4DA] px-4 py-3 text-center text-sm font-semibold text-[#A15C07]">
         Internal staging artifact only — not linked in public navigation and not approved for publication.
       </div>
       <header className="sticky top-0 z-40 border-b border-[#D8E1EC] bg-white/90 backdrop-blur-lg">
-        <nav className="mx-auto flex max-w-[1180px] items-center justify-between gap-4 px-4 py-4 lg:px-8" aria-label="Legal Growth OS internal navigation">
-          <Link href="/internal/legal-growth-os" className={`flex items-center gap-3 text-sm font-bold text-[#0B1020] ${focusRing}`}>
-            <span className="grid h-9 w-9 place-items-center rounded-lg bg-[#0A0F1F] text-white">OS</span>
-            <span>Legal Growth OS</span>
+        <nav className="mx-auto flex max-w-[1180px] items-center justify-between gap-3 px-4 py-4 lg:px-8" aria-label="Legal Growth OS internal navigation">
+          <Link href="/internal/legal-growth-os" className={`flex min-w-0 items-center gap-3 text-sm font-bold text-[#0B1020] ${focusRing}`}>
+            <span className="grid h-9 w-9 shrink-0 place-items-center rounded-lg bg-[#0A0F1F] text-white">OS</span>
+            <span className="min-w-0 truncate">Legal Growth OS</span>
           </Link>
           <div className="hidden items-center gap-6 lg:flex">
             <Link href="#services" className={`text-sm font-semibold text-[#596579] hover:text-[#0B1020] ${focusRing}`}>Services</Link>
@@ -294,13 +294,13 @@ export function AgencyHomeShell() {
         </nav>
       </header>
       <main>
-        <section className="relative overflow-hidden px-4 py-20 sm:py-28 lg:px-8 lg:py-32">
-          <div className="absolute right-[-18rem] top-[-16rem] h-[34rem] w-[34rem] rounded-full bg-[#E9E7FF] blur-3xl" />
-          <div className="absolute bottom-[-14rem] left-[-16rem] h-[30rem] w-[30rem] rounded-full bg-[#E6F6FE] blur-3xl" />
+        <section className="relative overflow-hidden px-4 py-16 sm:py-28 lg:px-8 lg:py-32">
+          <div className="absolute right-0 top-0 h-48 w-48 rounded-full bg-[#E9E7FF] blur-3xl sm:h-[20rem] sm:w-[20rem] lg:right-[-18rem] lg:top-[-16rem] lg:h-[34rem] lg:w-[34rem]" />
+          <div className="absolute bottom-0 left-0 h-44 w-44 rounded-full bg-[#E6F6FE] blur-3xl sm:h-[18rem] sm:w-[18rem] lg:bottom-[-14rem] lg:left-[-16rem] lg:h-[30rem] lg:w-[30rem]" />
           <div className="relative mx-auto grid max-w-[1180px] items-center gap-12 lg:grid-cols-[1.03fr_.97fr]">
             <div>
-              <p className="text-xs font-bold uppercase tracking-[0.22em] text-[#4F46E5]">Measurement-literate acquisition systems</p>
-              <h1 className="mt-5 max-w-4xl text-[2.55rem] font-semibold leading-[.98] tracking-[-0.045em] text-[#0B1020] sm:text-6xl lg:text-[4.5rem] lg:leading-[.94] lg:tracking-[-0.065em]">Build an acquisition system you can actually measure.</h1>
+              <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#4F46E5] sm:tracking-[0.22em]">Measurement-literate acquisition systems</p>
+              <h1 className="mt-5 max-w-4xl text-[2.15rem] font-semibold leading-[1.04] tracking-[-0.035em] text-[#0B1020] sm:text-6xl lg:text-[4.5rem] lg:leading-[.94] lg:tracking-[-0.065em]">Build an acquisition system you can actually measure.</h1>
               <p className="mt-6 max-w-2xl text-lg leading-8 text-[#596579]">We connect paid media, AI search visibility, landing pages, tracking, and automation so you can see what is producing qualified demand — and what is just spending budget.</p>
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">
                 <PrimaryLink href="#diagnostic">Get a Growth Diagnostic</PrimaryLink>
@@ -327,11 +327,11 @@ export function AgencyHomeShell() {
 
 export function AgencyTemplatesShell() {
   return (
-    <div className="bg-[#F7F9FC] px-4 py-16 text-[#182033] lg:px-8">
+    <div className="agency-artifact overflow-x-clip bg-[#F7F9FC] px-4 py-12 text-[#182033] sm:py-16 lg:px-8">
       <div className="mx-auto max-w-[1180px]">
         <div className="rounded-[1.5rem] border border-[#D8E1EC] bg-white p-6 shadow-[0_16px_40px_rgba(25,42,70,.10)] sm:p-8">
-          <p className="text-xs font-bold uppercase tracking-[0.22em] text-[#4F46E5]">Internal template library</p>
-          <h1 className="mt-3 text-4xl font-semibold tracking-[-0.045em] text-[#0B1020] sm:text-5xl">Reusable page shells for service, landing, proof, and intake pages.</h1>
+          <p className="text-xs font-bold uppercase tracking-[0.16em] text-[#4F46E5] sm:tracking-[0.22em]">Internal template library</p>
+          <h1 className="mt-3 text-3xl font-semibold leading-tight tracking-[-0.035em] text-[#0B1020] sm:text-5xl sm:tracking-[-0.045em]">Reusable page shells for service, landing, proof, and intake pages.</h1>
           <p className="mt-5 max-w-3xl text-base leading-7 text-[#596579]">These modules mirror the Seven handoff and remain staging-only until publication approval. Each template keeps a first-viewport CTA, mid-page diagnostic CTA, proof-safe case slots, and a final conversion panel.</p>
         </div>
         <div className="mt-8 grid gap-5 md:grid-cols-2">
@@ -345,7 +345,7 @@ export function AgencyTemplatesShell() {
                   <li key={module} className="rounded-lg border border-[#D8E1EC] bg-[#F7F9FC] px-3 py-2 text-sm text-[#182033]">{module}</li>
                 ))}
               </ul>
-              <p className="mt-5 text-sm font-semibold text-[#0B1020]">Primary CTA: {template.primaryCta}</p>
+              <a href={template.href} className={`mt-5 inline-flex min-h-11 items-center rounded-lg border border-[#D8E1EC] bg-[#F7F9FC] px-4 py-2 text-sm font-semibold text-[#0B1020] hover:border-[#B8C7D9] ${focusRing}`}>Primary CTA: {template.primaryCta}</a>
             </article>
           ))}
         </div>

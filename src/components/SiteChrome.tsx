@@ -9,7 +9,7 @@ export function SiteChrome({ children }: { children: React.ReactNode }) {
   const isInternalAgencyArtifact = pathname?.startsWith('/internal/legal-growth-os')
 
   if (isInternalAgencyArtifact) {
-    return <main className="flex-1">{children}</main>
+    return <div className="flex-1">{children}</div>
   }
 
   return (
