@@ -10,6 +10,7 @@ const productLinks = [
   { name: 'Co-Parent', href: '/products/co-parent' },
   { name: 'Estate Planning', href: '/products/estate-planning' },
   { name: 'LexyFiling', href: '/products/filing' },
+  { name: 'LexySign', href: 'https://sign.lexyalgo.com', live: true },
 ]
 
 const companyLinks = [

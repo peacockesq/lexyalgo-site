@@ -22,6 +22,12 @@ const productGroups = [
       { name: 'Estate Planning', href: '/products/estate-planning', color: '#7A5C1E', badge: 'Free Beta' },
     ],
   },
+  {
+    label: 'Legal professional tools',
+    items: [
+      { name: 'LexySign', href: 'https://sign.lexyalgo.com', color: '#D46B0F', badge: '$5/mo' },
+    ],
+  },
 ] as const
 
 export function Navbar() {
