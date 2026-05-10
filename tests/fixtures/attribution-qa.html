@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Attribution persistence QA</title>
+  <script>
+    window.__attributionConsentGranted = false;
+    window.AttributionPersistenceConfig = {
+      autoInit: false,
+      consentMode: 'required',
+      hasConsent: function () { return window.__attributionConsentGranted === true; }
+    };
+  </script>
+  <script src="/public/attribution-persistence.js"></script>
+</head>
+<body>
+  <h1>Attribution persistence QA</h1>
+  <form id="lead-form">
+    <input type="hidden" name="first_utm_source">
+    <input type="hidden" name="first_gclid">
+    <input type="hidden" name="latest_utm_campaign">
+    <input type="hidden" name="latest_fbclid">
+    <input type="hidden" name="utm_source">
+    <input type="hidden" name="gclid">
+    <input type="hidden" name="referrer">
+    <input type="hidden" name="attribution_payload">
+    <button type="submit">Submit</button>
+  </form>
+  <div id="step-two"></div>
+  <button id="grant-consent" type="button">Grant marketing consent</button>
+  <pre id="proof"></pre>
+  <script>
+    function snapshot() {
+      window.AttributionPersistence.hydrateForms();
+      const values = Object.fromEntries(Array.from(document.querySelectorAll('input[type="hidden"][name]')).map((input) => [input.name, input.value]));
+      document.getElementById('proof').textContent = JSON.stringify(values, null, 2);
+      return values;
+    }
+    setTimeout(() => {
+      const step = document.createElement('form');
+      step.id = 'dynamic-step';
+      step.innerHTML = '<input type="hidden" name="latest_msclkid"><input type="hidden" name="attribution_payload"><button>Next</button>';
+      document.getElementById('step-two').appendChild(step);
+      step.dispatchEvent(new Event('submit'));
+      snapshot();
+    }, 50);
+    document.getElementById('grant-consent').addEventListener('click', () => {
+      window.__attributionConsentGranted = true;
+      window.AttributionPersistence.init();
+      snapshot();
+    });
+    window.addEventListener('load', snapshot);
+  </script>
+</body>
+</html>
