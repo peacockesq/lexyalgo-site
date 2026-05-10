@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: 'Free asset division workspace for manual scenario planning, with one-time premium valuation features for higher-cost automation like Plaid imports.',
 }
 
-const LAUNCH_URL = 'https://calc.lexyalgo.com/launch/asset-divider'
+const CONTACT_URL = '/contact'
 
 const features = [
   { title: 'Visual Asset Inventory', desc: 'See every asset and debt in one dashboard — house, cars, retirement, bank accounts, and personal property.' },
@@ -27,7 +27,7 @@ export default function AssetDividerPage() {
             <div>
               <span className="inline-flex items-center gap-2 text-sm font-semibold text-ember uppercase tracking-wider">
                 <span className="w-2.5 h-2.5 rounded-full bg-ember" />
-                Asset Divider — Early Alpha Workspace
+                Asset Divider — Internal Alpha Workspace
               </span>
               <h1 className="font-[family-name:var(--font-space)] text-4xl sm:text-5xl font-bold text-slate-900 mt-4 leading-tight">
                 Split assets with clearer math and less friction
@@ -36,13 +36,13 @@ export default function AssetDividerPage() {
                 Asset Divider helps you compare proposals, balance tradeoffs, and understand what different settlement paths actually do. The core workspace is meant to stay accessible, while higher-cost valuation automation belongs in a one-time premium layer when needed.
               </p>
               <div className="mt-6 rounded-2xl border border-amber-100 bg-amber-50/80 p-4 text-sm leading-relaxed text-slate-700">
-                Asset Divider is still in early alpha. Useful today, yes — but expect rough edges, incomplete workflows, and ongoing changes as we build it in public.
+                Asset Divider is still in internal alpha. Public beta is paused until the Plaid-free demo workflow and support path finish QA, so access is limited to approved internal reviewers for now.
               </div>
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
-                <a href={LAUNCH_URL}
+                <a href={CONTACT_URL}
                   className="inline-flex items-center justify-center bg-ember text-white font-semibold px-8 py-4 rounded-2xl hover:bg-[#861B00] transition-all shadow-lg shadow-ember/20 active:scale-[0.98]"
                 >
-                  Launch Asset Divider
+                  Request internal demo
                 </a>
                 <Link href="/pricing"
                   className="inline-flex items-center justify-center border-2 border-slate-200 text-slate-700 font-semibold px-8 py-4 rounded-2xl hover:border-slate-300 hover:bg-slate-50 transition-all"
@@ -61,10 +61,10 @@ export default function AssetDividerPage() {
               <p className="mt-3 text-sm leading-relaxed text-slate-600">
                 Manual asset comparison, scenario planning, and settlement framing should be easy to open and pressure-test. Premium only shows up where outside integrations or heavier valuation automation create real cost.
               </p>
-              <a href={LAUNCH_URL}
+              <a href={CONTACT_URL}
                 className="mt-8 inline-flex w-full items-center justify-center rounded-2xl bg-ember px-6 py-4 text-center font-semibold text-white transition-all hover:bg-[#861B00] active:scale-[0.98]"
               >
-                Launch Asset Divider
+                Request internal demo
               </a>
             </div>
           </div>
@@ -75,8 +75,8 @@ export default function AssetDividerPage() {
         src="/screenshots/v2-app-homepage.png"
         alt="LexyAlgo V2 App — asset division workspace"
         accentColor="#B02700"
-        label="Live Workspace"
-        url="calc.lexyalgo.com/launch/asset-divider"
+        label="Internal Preview"
+        url="access gated pending QA"
       />
 
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20">
@@ -135,13 +135,13 @@ export default function AssetDividerPage() {
 
       <section className="bg-peach py-16 sm:py-20 text-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900">Open Asset Divider now</h2>
-          <p className="mt-4 text-slate-700 max-w-lg mx-auto">Start with the workspace, use the free core workflow, and layer in premium valuation only when your case actually needs it.</p>
+          <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900">Request internal alpha access</h2>
+          <p className="mt-4 text-slate-700 max-w-lg mx-auto">Asset Divider is gated while the internal demo path finishes QA. Contact us if you should be included in the review group.</p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-            <a href={LAUNCH_URL}
+            <a href={CONTACT_URL}
               className="inline-flex items-center justify-center bg-ember text-white font-semibold px-8 py-4 rounded-2xl hover:bg-[#861B00] transition-all shadow-lg shadow-ember/20 active:scale-[0.98]"
             >
-              Launch Asset Divider
+              Request internal demo
             </a>
             <Link href="/contact"
               className="inline-flex items-center justify-center border-2 border-slate-300 text-slate-700 font-semibold px-8 py-4 rounded-2xl hover:border-slate-400 hover:bg-white transition-all"
