@@ -1,0 +1,52 @@
+{
+  "document_id": "5df45177-04cb-4082-a4e5-bcb1a123c557",
+  "slug": "courtlistener-opinion-3687877-3687877",
+  "title": "CourtListener opinion 3687877",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 1
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3687877 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "ension. It was appellant's desire to retain this asset and to have appellee's interest therein, based on a stipulated present value at the time of divorce, offset by granting her a greater share of other available assets. Appellee, on the other hand, sought a qualified domestic relations order (\\QDRO\\\") entitling her to an equal share of the marital portion of this fund at the time of its actual distribution upon appellant's retirement. The lower court"
+    },
+    {
+      "label": "pension",
+      "quote": "he parties were granted a divorce. In its order, the court divided the marital property and ordered appellant to pay appellee spousal support. Appellant appeals, naming two assignments of error. I. THE TRIAL COURT ERRED BY FAILING TO DIVIDE THE VALUE OF THE PENSION AT THE TIME OF DIVORCE. The issue under this assignment of error concerns the method by which the lower court divided appellant's UAW pension. It was appellant's desire to retain this asset and to have appellee's interest therein, based on a stipulated present value at the time of divorce, offset by granting her a greater share of other available assets. A"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "was appellant's desire to retain this asset and to have appellee's interest therein, based on a stipulated present value at the time of divorce, offset by granting her a greater share of other available assets. Appellee, on the other hand, sought a qualified domestic relations order (\\QDRO\\\") entitling her to an equal share of the marital portion of this fund at the time of its actual distribution upon appellant's retirement. The lower court"
+    },
+    {
+      "label": "valuation/division",
+      "quote": "st therein, based on a stipulated present value at the time of divorce, offset by granting her a greater share of other available assets. Appellee, on the other hand, sought a qualified domestic relations order (\\QDRO\\\") entitling her to an equal share of the marital portion of this fund at the time of its actual distribution upon appellant's retirement. The lower court"
+    }
+  ],
+  "full_text": "DECISION AND JOURNAL ENTRY \nThis cause was heard upon the record in the trial court. Each error assigned has been reviewed and the following disposition is made:\nAppellant, Harry Joseph Haynes, appeals the judgment of the Summit County Domestic Relations Court. We affirm. \n Appellant and appellee, Mary Ellen Haynes, were married on September 18, 1971. In March 1997, the parties were granted a divorce. In its order, the court divided the marital property and ordered appellant to pay appellee spousal support. Appellant appeals, naming two assignments of error. \n I. THE TRIAL COURT ERRED BY FAILING TO DIVIDE THE VALUE OF THE PENSION AT THE TIME OF DIVORCE. \nThe issue under this assignment of error concerns the method by which the lower court divided appellant's UAW pension. It was appellant's desire to retain this asset and to have appellee's interest therein, based on a stipulated present value at the time of divorce, offset by granting her a greater share of other available assets. Appellee, on the other hand, sought a qualified domestic relations order (\\QDRO\\\") entitling her to an equal share of the marital portion of this fund at the time of its actual distribution upon appellant's retirement. The lower court",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

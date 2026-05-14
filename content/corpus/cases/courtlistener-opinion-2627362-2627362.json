@@ -1,0 +1,52 @@
+{
+  "document_id": "8afb29a8-ec50-4cbc-b562-17f6d18c06b4",
+  "slug": "courtlistener-opinion-2627362-2627362",
+  "title": "CourtListener opinion 2627362",
+  "citation": "Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 1,
+    "pension": 1,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 2627362 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "Petitioner/Appellant. R.L. Buckelew, Buckelew & Buckelew, Oklahoma City, OK, for Respondent/Appellee. KENNETH L. BUETTNER, Presiding Judge. ¶ 1 Petitioner/Appellant Randall James Ritchie (Husband) appeals the provisions of the Domestic Relations Order (QDRO) entered pursuant to the Agreed Journal Entry *525 Decree of Dissolution of Marriage (\\\"Consent Decree\\\") ending Husband's marriage to Respondent/Appellee Lisa Ann Ritchie (Wife). Husband asserts the QDRO's formula for dividing his military retirement benefits differs from the parties' agreed division reached in the Consent Decree. The QDRO prescribes the c"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "ations Order (QDRO) entered pursuant to the Agreed Journal Entry *525 Decree of Dissolution of Marriage (\\\"Consent Decree\\\") ending Husband's marriage to Respondent/Appellee Lisa Ann Ritchie (Wife). Husband asserts the QDRO's formula for dividing his military retirement benefits differs from the parties' agreed division reached in the Consent Decree. The QDRO prescribes the correct formula for dividing Husband's military pension benefits and it is in accord with the parties' Consent Decree. We therefore affirm."
+    },
+    {
+      "label": "pension",
+      "quote": "Appellee Lisa Ann Ritchie (Wife). Husband asserts the QDRO's formula for dividing his military retirement benefits differs from the parties' agreed division reached in the Consent Decree. The QDRO prescribes the correct formula for dividing Husband's military pension benefits and it is in accord with the parties' Consent Decree. We therefore affirm."
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "ce, Oklahoma City, OK, for Petitioner/Appellant. R.L. Buckelew, Buckelew & Buckelew, Oklahoma City, OK, for Respondent/Appellee. KENNETH L. BUETTNER, Presiding Judge. ¶ 1 Petitioner/Appellant Randall James Ritchie (Husband) appeals the provisions of the Domestic Relations Order (QDRO) entered pursuant to the Agreed Journal Entry *525 Decree of Dissolution of Marriage (\\\"Consent Decree\\\") ending Husband's marriage to Respondent/Appellee Lisa Ann Ritchie (Wife). Husband asserts the QDRO's formula for dividing his military retirement benefits differs from the parties' agreed division reached in the Consent Decree. The QDRO prescribes"
+    }
+  ],
+  "full_text": "197 P.3d 524 (2008) \n 2008 OK CIV APP 106 \n In re the MARRIAGE OF RITCHIE. \nRandall James Ritchie, Petitioner/Appellant, \nv. \nLisa Ann Ritchie, Respondent/Appellee. \n No. 105,063. Released for Publication by Order of the Court of Civil Appeals of Oklahoma, Division No. 3. \n Court of Civil Appeals of Oklahoma, Division No. 3. \n November 7, 2008. \n Sandi S. Seale, Seale Law Office, Oklahoma City, OK, for Petitioner/Appellant. \n R.L. Buckelew, Buckelew & Buckelew, Oklahoma City, OK, for Respondent/Appellee. \n KENNETH L. BUETTNER, Presiding Judge. \n ¶ 1 Petitioner/Appellant Randall James Ritchie (Husband) appeals the provisions of the Domestic Relations Order (QDRO) entered pursuant to the Agreed Journal Entry *525 Decree of Dissolution of Marriage (\\\"Consent Decree\\\") ending Husband's marriage to Respondent/Appellee Lisa Ann Ritchie (Wife). Husband asserts the QDRO's formula for dividing his military retirement benefits differs from the parties' agreed division reached in the Consent Decree. The QDRO prescribes the correct formula for dividing Husband's military pension benefits and it is in accord with the parties' Consent Decree. We therefore affirm.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

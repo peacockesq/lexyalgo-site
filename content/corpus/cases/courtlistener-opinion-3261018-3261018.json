@@ -1,0 +1,52 @@
+{
+  "document_id": "7a7b3d0e-4f06-4306-98e7-dbe5e888212b",
+  "slug": "courtlistener-opinion-3261018-3261018",
+  "title": "CourtListener opinion 3261018",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 6,
+    "retirement benefits": 1,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 1,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3261018 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "Box 1122 Hope, AR 71801-1122 Dear Representative Wood: This is in response to your request for an opinion regarding Act 1143 of 1993, which is codified at A.C.A. &#167;&#167; 9-18-101 through -103 (Repl. 1993). This act authorized chancery courts to enter qualified domestic relations orders to reach retirement annuities and benefits of retirement plans. Your specific questions regarding Act 1143 are as follows: 1. In calculating the amount of benefits to be received by an Alternate Payee pursuant to the approved QDRO (Qualified Domestic Relations Order), are the member's accrued annuity benefits calculated using the member's salary as of th"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "your request for an opinion regarding Act 1143 of 1993, which is codified at A.C.A. &#167;&#167; 9-18-101 through -103 (Repl. 1993). This act authorized chancery courts to enter qualified domestic relations orders to reach retirement annuities and benefits of retirement plans. Your specific questions regarding Act 1143 are as follows: 1. In calculating the amount of benefits to be received by an Alternate Payee pursuant to the approved QDRO (Qualified Domestic Relations Order), are the member's accrued annuity benefits calculated using the member's salary as of the date of his actual retirement and the years of service as of"
+    },
+    {
+      "label": "alternate payee",
+      "quote": "authorized chancery courts to enter qualified domestic relations orders to reach retirement annuities and benefits of retirement plans. Your specific questions regarding Act 1143 are as follows: 1. In calculating the amount of benefits to be received by an Alternate Payee pursuant to the approved QDRO (Qualified Domestic Relations Order), are the member's accrued annuity benefits calculated using the member's salary as of the date of his actual retirement and the years of service as of the date of divorce; or, are the benefits calculated using the member's salary as of the date of the divorce and his years of service as of t"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "ope, AR 71801-1122 Dear Representative Wood: This is in response to your request for an opinion regarding Act 1143 of 1993, which is codified at A.C.A. &#167;&#167; 9-18-101 through -103 (Repl. 1993). This act authorized chancery courts to enter qualified domestic relations orders to reach retirement annuities and benefits of retirement plans. Your specific questions regarding Act 1143 are as follows: 1. In calculating the amount of benefits to be received by an Alternate Payee pursuant to the approved QDRO (Qualified Domestic Relations Order), are the member's accrued annuity benefits calculated using the member's salary as of th"
+    }
+  ],
+  "full_text": "The Honorable Keith N. Wood State Representative P.O. Box 1122 Hope, AR 71801-1122 \n Dear Representative Wood: \n This is in response to your request for an opinion regarding Act 1143 of 1993, which is codified at A.C.A. &#167;&#167; 9-18-101 through -103 (Repl. 1993). This act authorized chancery courts to enter qualified domestic relations orders to reach retirement annuities and benefits of retirement plans. Your specific questions regarding Act 1143 are as follows: \n 1. In calculating the amount of benefits to be received by an Alternate Payee pursuant to the approved QDRO (Qualified Domestic Relations Order), are the member's accrued annuity benefits calculated using the member's salary as of the date of his actual retirement and the years of service as of the date of divorce; or, are the benefits calculated using the member's salary as of the date of the divorce and his years of service as of the date of divorce? \n 2. Are increases in the member's salary received after the date of divorce `benefit enhancements' as contemplated by Paragraph V(d) of the model QDRO used by APERS (Arkansas Public Employees Retirement System)? \n 3. Are cost of living adjustments passed by the Arkansas Legislature the type of `benefit enhancements' contemplated by Paragraph V(d) of the model QDRO? \n With regard to your first question, it appears that under the current uniform legal form for use in preparing QDRO orders, 1 the alternative payee is paid either a fixed percentage of or a dollar amount from the member's accrued annuity as of the date of the divorce. (A copy of the form is enclosed for your convenience.) Thus the calculation would",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

@@ -1,0 +1,48 @@
+{
+  "document_id": "7c90c228-2b6f-43ee-8e47-40f444f723e2",
+  "slug": "courtlistener-opinion-1038717-1038717",
+  "title": "CourtListener opinion 1038717",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 1,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1038717 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "A decade later they returned to court to resolve their respective interests in Richard's Wells Fargo Retirement Annuity (Annuity).1 The trial court awarded each party a 50 percent interest in the Annuity and left it to the parties to resolve the language of a qualified domestic relations order (QDRO) consistent with the court's findings and order. They could not agree on the language. Without notice to either Diane or the court, Richard waived any survivor benefits in the Annuity and began 1 \\As is customary in family law proceedings"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "ater they returned to court to resolve their respective interests in Richard's Wells Fargo Retirement Annuity (Annuity).1 The trial court awarded each party a 50 percent interest in the Annuity and left it to the parties to resolve the language of a qualified domestic relations order (QDRO) consistent with the court's findings and order. They could not agree on the language. Without notice to either Diane or the court, Richard waived any survivor benefits in the Annuity and began 1 \\As is customary in family law proceedings"
+    },
+    {
+      "label": "survivor benefits",
+      "quote": "the Annuity and left it to the parties to resolve the language of a qualified domestic relations order (QDRO) consistent with the court's findings and order. They could not agree on the language. Without notice to either Diane or the court, Richard waived any survivor benefits in the Annuity and began 1 \\As is customary in family law proceedings"
+    }
+  ],
+  "full_text": "Filed 8/28/13 Marriage of Kahdeman CA2/6\n NOT TO BE PUBLISHED IN THE OFFICIAL REPORTS\nCalifornia Rules of Court, rule 8.1115(a), prohibits courts and parties from citing or relying on opinions not certified for\npublication or ordered published, except as specified by rule 8.1115(b). This opinion has not been certified for publication\nor ordered published for purposes of rule 8.1115.\n\n IN THE COURT OF APPEAL OF THE STATE OF CALIFORNIA\n\n SECOND APPELLATE DISTRICT\n\n DIVISION SIX\n\nIn re the Marriage of RICHARD J. and 2d Civil No. B243812\nDIANE CLARE KAHDEMAN. (Super. Ct. No. SD 011277)\n (Ventura County)\n\nRICHARD J. KAHDEMAN,\n\n Appellant,\n\nv.\n\nDIANE CLARE KAHDEMAN,\n\n Respondent.\n\n In 1993 appellant Richard J. Kahdeman and respondent Diane Clare\nKahdeman ended their marriage. A decade later they returned to court to resolve their\nrespective interests in Richard's Wells Fargo Retirement Annuity (Annuity).1 The trial\ncourt awarded each party a 50 percent interest in the Annuity and left it to the parties to\nresolve the language of a qualified domestic relations order (QDRO) consistent with the\ncourt's findings and order. They could not agree on the language. Without notice to\neither Diane or the court, Richard waived any survivor benefits in the Annuity and began\n\n 1 \\As is customary in family law proceedings",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "document_id": "3525aada-3d65-4ffd-947c-654275717666",
+  "slug": "andrew-mckenzie-v-lisa-mckenzie-3339491",
+  "title": "Andrew McKenzie v. Lisa McKenzie",
+  "citation": "QDRO",
+  "source_url": "https://www.courtlistener.com/opinion/3343976/mckenzie-v-mckenzie-no-fa90-027-66-45-s-mar-13-1997/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "1997-03-13",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 2,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 1,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: Andrew McKenzie v. Lisa McKenzie is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 2/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": ". The only way the bill could be paid would be if there is any equity left in the house but he has agreed to give that to the defendant. The only other basis for payment would be his pension with the city. The court orders the defendant's counsel to prepare a QDRO for $500.00 for the contempt proceedings only and the court will sign it. The court does approve both agreements with respect to the child support and the sale of the house and makes the provisions orders of the court. The court further orders the plaintiff to pay $500.00 as sanctions for the contempt proceedings. The court sees no basis for ordering any"
+    },
+    {
+      "label": "pension",
+      "quote": "testimony do establish his present inability to pay out of his current wages. The only way the bill could be paid would be if there is any equity left in the house but he has agreed to give that to the defendant. The only other basis for payment would be his pension with the city. The court orders the defendant's counsel to prepare a QDRO for $500.00 for the contempt proceedings only and the court will sign it. The court does approve both agreements with respect to the child support and the sale of the house and makes the provisions orders of the court. The court further orders the plaintiff to pay $500.00 as sanctio"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] MEMORANDUM OF DECISION \nThis case came before the court on two motions, one to hold the plaintiff in contempt for failure to pay the mortgage on the house owned by the parties and also to maintain it and the other CT Page 3229 for failure to pay child support. \n The parties reached agreement on the issues involved in both of these motions as follows: \n 1. The parties agreed to modify child support by providing that for 13 weeks beginning February 8, 1997, the plaintiff shall pay to the defendant by way of wage execution the sum of $187.50 per week, the present order; thereafter, the amount to be paid is $93.00 by way of immediate wage execution. The parties state that this is based on the current living conditions and arrangements of the children; that is, one child with each party. It may be changed if the situation changes. \n 2. The parties have also agreed to put the house up for sale with the Stollman Agency with the agent having the right to set the listing price and/or the sales price, and they started that procedure before they left the court. The only thing for the court to determine at this point is \n whether and what sanctions should be issued against Mr. McKenzie whom the court finds in contempt for failure to pay the child support arrearages and failure to maintain the house and pay the mortgage. \n However, a review of Mr. McKenzie's financial affidavit and his testimony do establish his present inability to pay out of his current wages. The only way the bill could be paid would be if there is any equity left in the house but he has agreed to give that to the defendant. The only other basis for payment would be his pension with the city. The court orders the defendant's counsel to prepare a QDRO for $500.00 for the contempt proceedings only and the court will sign it. \n The court does approve both agreements with respect to the child support and the sale of the house and makes the provisions orders of the court. The court further orders the plaintiff to pay $500.00 as sanctions for the contempt proceedings. The court sees no basis for ordering any other counsel fees since, on the face of it, the defendant appears to be much abler to pay counsel fees than the plaintiff. \n It is so ordered. CT Page 3230 \n MARGARET C. DRISCOLL JUDGE TRIAL REFEREE",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

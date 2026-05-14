@@ -1,0 +1,52 @@
+{
+  "document_id": "851a7d69-ccd1-4414-bc77-1090d3803961",
+  "slug": "frederick-k-depino-v-linda-depino-3349325",
+  "title": "Frederick K. Depino v. Linda Depino",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": "https://www.courtlistener.com/opinion/3353801/depino-v-depino-no-29-05-13-nov-7-1990/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "1990-11-07",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 1,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 1,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: Frederick K. Depino v. Linda Depino is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "expenses of the defendant. 5. The defendant wife is hereby awarded the maximum survivor annuity benefit available under the husband's Sargent retirement benefits. Defendant's counsel shall inform the plan administrator of the Court's award, and prepare any Qualified Domestic Relations Order which may be necessary. The court retains jurisdiction over the same. CT Page 3814 6. The personal property in the marital home is awarded to the defendant. By the Court: Elaine Gordon, Judge."
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "d by law. Each party shall be responsible for one half the non-insured non-reimbursed psychiatric and psychological expenses of the defendant. 5. The defendant wife is hereby awarded the maximum survivor annuity benefit available under the husband's Sargent retirement benefits. Defendant's counsel shall inform the plan administrator of the Court's award, and prepare any Qualified Domestic Relations Order which may be necessary. The court retains jurisdiction over the same. CT Page 3814 6. The personal property in the marital home is awarded to the defendant. By the Court: Elaine Gordon, Judge."
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "of the defendant. 5. The defendant wife is hereby awarded the maximum survivor annuity benefit available under the husband's Sargent retirement benefits. Defendant's counsel shall inform the plan administrator of the Court's award, and prepare any Qualified Domestic Relations Order which may be necessary. The court retains jurisdiction over the same. CT Page 3814 6. The personal property in the marital home is awarded to the defendant. By the Court: Elaine Gordon, Judge."
+    },
+    {
+      "label": "survivor benefits",
+      "quote": "are available through his employment for the full period allowed by law. Each party shall be responsible for one half the non-insured non-reimbursed psychiatric and psychological expenses of the defendant. 5. The defendant wife is hereby awarded the maximum survivor annuity benefit available under the husband's Sargent retirement benefits. Defendant's counsel shall inform the plan administrator of the Court's award, and prepare any Qualified Domestic Relations Order which may be necessary. The court retains jurisdiction over the same. CT Page 3814 6. The personal property in the marital home is awarded to the defendant. B"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] \nMEMORANDUM OF DECISION\nThe parties were married on November 6, 1965 at New Haven, Connecticut. \n All jurisdictional requirements have been met. \n The marriage of the parties has broken down irretrievably and the same is hereby dissolved. \n The Court has considered the statutory criteria contained in Connecticut General Statutes 46b-81 and 46b-82 , and enters the following orders: \n 1. The plaintiff shall quitclaim all his right, title and interest in the property located at 87 Judith Terrace, New Haven, to the defendant. The defendant shall execute a mortgage note and deed in favor of the plaintiff in the amount of $10,000.00, payable no later than September 30, 1991. \n 2. The plaintiff shall pay $50.00 per week as alimony to the defendant until her death or remarriage. \n 3. The parties shall equally divide the 1989 tax refund. \n 4. The defendant shall cooperate in maintaining health benefits for the benefit of the defendant, at her cost, as they are available through his employment for the full period allowed by law. Each party shall be responsible for one half the non-insured non-reimbursed psychiatric and psychological expenses of the defendant. \n 5. The defendant wife is hereby awarded the maximum survivor annuity benefit available under the husband's Sargent retirement benefits. Defendant's counsel shall inform the plan administrator of the Court's award, and prepare any Qualified Domestic Relations Order which may be necessary. The court retains jurisdiction over the same. CT Page 3814 \n 6. The personal property in the marital home is awarded to the defendant. \n By the Court: Elaine Gordon, Judge.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

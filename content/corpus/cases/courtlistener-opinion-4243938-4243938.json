@@ -1,0 +1,44 @@
+{
+  "document_id": "06d2edcb-3735-4cdc-ad15-1fbed35e78ff",
+  "slug": "courtlistener-opinion-4243938-4243938",
+  "title": "CourtListener opinion 4243938",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 2
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4243938 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "mstances of this case, Appellant satisfied the spirit of Rule 1925(b), and therefore, we should not find waiver of that basis. Herein, Appellant timely appealed the trial court's November 14, 2016 order denying his petitions challenging the September 2016 QDRO order and the February 11, 2016 equitable distribution order. The trial court directed Appellant to file a Rule 1925(b) statement. Appellant failed to file or serve a Rule 1925(b) statement with the trial court. Instead, Appellant filed a letter with this Court, setting forth his claimed errors. The trial court considered this letter and authored a res"
+    },
+    {
+      "label": "valuation/division",
+      "quote": "fied the spirit of Rule 1925(b), and therefore, we should not find waiver of that basis. Herein, Appellant timely appealed the trial court's November 14, 2016 order denying his petitions challenging the September 2016 QDRO order and the February 11, 2016 equitable distribution order. The trial court directed Appellant to file a Rule 1925(b) statement. Appellant failed to file or serve a Rule 1925(b) statement with the trial court. Instead, Appellant filed a letter with this Court, setting forth his claimed errors. The trial court considered this letter and authored a responsive Rule 1925(a) opinion. Thus, appellate review of"
+    }
+  ],
+  "full_text": "J-A26043-17\n\nNON-PRECEDENTIAL DECISION - SEE SUPERIOR COURT I.O.P. 65.37\n\nJACQUELINE EDWARDS IN THE SUPERIOR COURT\n OF\n PENNSYLVANIA\n\n v.\n\nROBERT EDWARDS\n\n Appellant No. 1956 MDA 2016\n\n Appeal from the Order Entered November 14, 2016\n In the Court of Common Pleas of Centre County\n Civil Division at No(s): 14-0012\n\nBEFORE: BOWES, J., OLSON, J., and RANSOM, J.\n\nCONCURRING STATEMENT BY BOWES, J.: FILED FEBRUARY 09, 2018\n\n Although I concur with the learned Majority's conclusion that Appellant's\n\nattempt to appeal the trial court's February 11, 2016 decision was untimely, I\n\nwrite separately to voice my disagreement with its determination that\n\nAppellant waived all his issues by failing to file a Rule 1925(b) concise\n\nstatement of errors complained of on appeal.\n\n I acknowledge that the Supreme Court established a bright-line rule in\n\nCommonwealth v. Lord, 719 A.2d 306 (Pa. 1998), re-affirmed in\n\nCommonwealth v. Castillo, 888 A.2d 775 (Pa. 2005), which mandates a\n\nfinding of waiver when an appellant fails to file a court-ordered Rule 1925(b)\n\nstatement. Further, I recognize that our case law dictates that a failure to\n\nserve a copy of the Rule 1925(b) statement on the trial court, when directed\n\nto do so, is also fatal to an appeal. Forest Highlands Community Ass'n v.\n J-A26043-17\n\nHammer, 879 A.2d 223 (Pa.Super. 2005). Nevertheless, I believe that, under\n\nthe circumstances of this case, Appellant satisfied the spirit of Rule 1925(b),\n\nand therefore, we should not find waiver of that basis.\n\n Herein, Appellant timely appealed the trial court's November 14, 2016\n\norder denying his petitions challenging the September 2016 QDRO order and\n\nthe February 11, 2016 equitable distribution order. The trial court directed\n\nAppellant to file a Rule 1925(b) statement. Appellant failed to file or serve a\n\nRule 1925(b) statement with the trial court. Instead, Appellant filed a letter\n\nwith this Court, setting forth his claimed errors. The trial court considered\n\nthis letter and authored a responsive Rule 1925(a) opinion. Thus, appellate\n\nreview of Appellant's issues was not hampered by his procedural miscue. As\n\nsuch, I believe this Court, in the spirit of judicial economy and fairness, ought\n\nto reach the merits of this appeal.\n\n Although the Appellant herein failed to comply with the language of Rule\n\n1925, or the trial court's express directive, he nevertheless satisfied its\n\npurpose. As such, I would find that Appellant's letter to this Court constituted\n\nhis Rule 1925(b) statement. Since the trial court filed a responsive opinion to\n\nthe claimed errors raised in that letter, we can conduct meaningful appellate\n\nreview. Accordingly, I would not find his issues waived on that ground.\n\nNevertheless, I agree with the Majority's holding that his issues were waived\n\nfor failing to timely appeal the February 11, 2016 equitable distribution order.\n\nHence, this concurring statement.\n\n Judge Olson joins this concurring statement.\n\n -2-",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

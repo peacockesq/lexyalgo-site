@@ -1,0 +1,40 @@
+{
+  "document_id": "31d197dd-e5ba-41d5-8502-1305a01937eb",
+  "slug": "don-carmichael-v-julie-carmichael-3354555",
+  "title": "Don Carmichael v. Julie Carmichael",
+  "citation": "QDRO",
+  "source_url": "https://www.courtlistener.com/opinion/3359023/carmichael-v-carmichael-no-fa91-0115017-s-jan-31-1995/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "1995-01-31",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 2,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: Don Carmichael v. Julie Carmichael is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 2/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "The plaintiff has clearly established a substantial change of his circumstances since the original alimony order was entered. He is entitled to a modification. The periodic alimony order is reduced to $1.00 per year. The plaintiff also seeks to terminate a QDRO designed to collect the alimony. This request is denied. The plaintiff also seeks to terminate life insurance. Article VI of the Separation Agreement provides for various contingencies that were not addressed in this hearing. The court declines to address the insurance issue. The modification is entered. No retroactivity is ordered, &#167; 46b-86 (a)."
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] MEMORANDUM OF DECISION RE: THE DEFENDANT'S NOTION FOR MODIFICATION (#111) AND THE PLAINTIFF'S MOTION FOR CONTEMPT (#112) \nThe parties' marriage was dissolved by judgment entered on May 15, 1992 at which time a separation agreement was approved. The plaintiff husband agreed to pay $2,000.00 monthly periodic alimony based on his annual income of $86,000.00 annually being paid to him by IBM, his employer. CT Page 684 \n The plaintiff received a severance package upon his subsequent separation from IBM, an event beyond his control. Since then he has attempted to distribute a newsletter, an activity similar to his duties at his erstwhile employer. This activity generated minimal income. \n On October 17, 1994, the hearing on these motions was recessed at which time the court, finding that the plaintiff's newsletter would not generate a living wage, instructed the plaintiff that he had to intensify his search for new employment. \n The hearing resumed on January 23, 1995. The plaintiff presented evidence that he had made extensive efforts to find employment without success. The court now finds that these efforts demonstrate that he has been unable to find employment that would utilize his skills, training and experience. \n The plaintiff has clearly established a substantial change of his circumstances since the original alimony order was entered. He is entitled to a modification. The periodic alimony order is reduced to $1.00 per year. \n The plaintiff also seeks to terminate a QDRO designed to collect the alimony. This request is denied. \n The plaintiff also seeks to terminate life insurance. Article VI of the Separation Agreement provides for various contingencies that were not addressed in this hearing. The court declines to address the insurance issue. \n The modification is entered. No retroactivity is ordered, &#167; 46b-86 (a). \n No contempt is found and the defendant's motion is denied. \n HARRIGAN, J.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

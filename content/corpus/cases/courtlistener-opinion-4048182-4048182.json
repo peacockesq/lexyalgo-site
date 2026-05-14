@@ -1,0 +1,40 @@
+{
+  "document_id": "79f5a40c-c3ea-45f7-be52-26a5bad4a1e1",
+  "slug": "courtlistener-opinion-4048182-4048182",
+  "title": "CourtListener opinion 4048182",
+  "citation": "Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4048182 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "domestic relations order",
+      "quote": "ect the trial court's final decree of divorce and order for military retirement. 1. The trial court, cause number, and style of this case are as shown in the caption above. 2. On May 24, 2011, the trial court signed a Corrected Final Decree of Divorce and a Domestic Relations Order for Military Retirement in this suit. 3. On January 8, 2015, TRACIE MARIE SCHEFFLER, Petitioner, filed her Petition to Correct or Amend Domestic Relations Order for Military Retirement in this case. 4. On February 13, 2015, the trial court signed an Order sustaining the plea to the jurisdiction filed by Respondent, PAUL MICHAEL PARSON, and dismissed Petit"
+    }
+  ],
+  "full_text": "ACCEPTED\n 04-15-00140-CV\n FOURTH COURT OF APPEALS\n 04-15-00140-CV SAN ANTONIO, TEXAS\n 3/13/2015 4:25:31 PM\n KEITH HOTTLE\n CLERK\n\n NO. 10-10-0579-CVW\n\nIN THE MATTER OF § IN THE DISTRICT COURT\n FILED IN\nTHE MARRIAGE OF § 4th COURT OF APPEALS\n § SAN ANTONIO, TEXAS\nTRACIE MARIE PARSON § 03/13/2015 4:25:31 PM\nAND § 81ST JUDICIAL DISTRICT\n KEITH E. HOTTLE\nPAUL MICHAEL PARSON § Clerk\n §\nAND IN THE INTEREST OF §\nF.G.P. AND §\n WILSON COUNTY, TEXAS\nR.D.P., CHILDREN §\n\n NOTICE OF APPEAL\n\n This Notice of Appeal is filed by TRACIE MARIE SCHEFFLER, Petitioner, formerly\nknown as Tracie Marie Parson, a party to this proceeding who seeks to correct the trial court's\nfinal decree of divorce and order for military retirement.\n 1. The trial court, cause number, and style of this case are as shown in the caption\nabove.\n 2. On May 24, 2011, the trial court signed a Corrected Final Decree of Divorce and\na Domestic Relations Order for Military Retirement in this suit.\n 3. On January 8, 2015, TRACIE MARIE SCHEFFLER, Petitioner, filed her Petition\nto Correct or Amend Domestic Relations Order for Military Retirement in this case.\n 4. On February 13, 2015, the trial court signed an Order sustaining the plea to the\njurisdiction filed by Respondent, PAUL MICHAEL PARSON, and dismissed Petitioner's\npetition to correct the order for military retirement for lack of jurisdiction.\n 5. This appeal is being taken to the Fourth Court of Appeals.\n 6. This notice is being filed by TRACIE MARIE SCHEFFLER, who was the\npetitioner in the original suit for divorce.\n Respectfully submitted,\n\n The Law Offices of\n DONAHO & DOCKERY, P. C.\n P. O. Box 459\n Floresville, Texas 78114\n (830) 393-2700\n (830) 393-3029 Telecopier\n\nNOTICE OF APPEAL Page 1\n /s/ Kirk Dockery\n By: _________________________\n Kirk Dockery, Attorney in Charge\n State Bar No. 05929220\n Email: kirkdockery@gmail.com\n Scott R. Donaho\n State Bar No. 05967755\n Email: srdonaho@floresville.net\n Attorneys for Tracie Marie Scheffler\n\n CERTIFICATE OF SERVICE\n I certify that a true copy of this Notice of Appeal was served in accordance with Rule 9.5\nof the Texas Rules of Appellate Procedure on each party or that party's lead counsel as follows:\n\n Party: PAUL MICHAEL PARSON\n Lead attorney: Jason J. Jakob\n Address of service: 115 E. Travis, Suite 333, San Antonio, Texas\n Method of service: by electronic service\n Date of service: March ______, 2015.\n\n /s/ Kirk Dockery\n ___________________________________\n Kirk Dockery\n Attorney for Tracie Marie Scheffler\n\n10201b-#26.wpd\n\nNOTICE OF APPEAL Page 2",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

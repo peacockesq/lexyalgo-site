@@ -1,0 +1,44 @@
+{
+  "document_id": "9949b0d9-4eb8-4d3f-b871-9a2d61eddf39",
+  "slug": "courtlistener-opinion-4461826-4461826",
+  "title": "CourtListener opinion 4461826",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 5,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4461826 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "amus in this court. See Tex. Gov't Code Ann. § 22.221; see also Tex. R. App. P. 52. In the petition, relator asks this court to compel the Honorable John R. Milliard, presiding judge of the 328th District Court of Fort Bend County, to vacate his first amended qualified domestic relations order signed October 31, 2019. Relator has also filed a motion for temporary relief, asking our court to issue an injunction against the plan administrator pending our decision on the petition. See Tex. R. App. P. 52.10. With certain exceptions, to obtain mandamus relief a relator must show both that the trial court clearly abused its discretion and that relat"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "is court. See Tex. Gov't Code Ann. § 22.221; see also Tex. R. App. P. 52. In the petition, relator asks this court to compel the Honorable John R. Milliard, presiding judge of the 328th District Court of Fort Bend County, to vacate his first amended qualified domestic relations order signed October 31, 2019. Relator has also filed a motion for temporary relief, asking our court to issue an injunction against the plan administrator pending our decision on the petition. See Tex. R. App. P. 52.10. With certain exceptions, to obtain mandamus relief a relator must show both that the trial court clearly abused its discretion and that relat"
+    }
+  ],
+  "full_text": "Emergency Motion for Injunction Denied; Petition for Writ of Mandamus\nDenied and Opinion filed December 5, 2019.\n\n In The\n\n Fourteenth Court of Appeals\n\n NO. 14-19-00927-CV\n\n IN RE BABATUNDE AOGO, Relator\n\n ORIGINAL PROCEEDING\n WRIT OF MANDAMUS\n 328th District Court\n Fort Bend County, Texas\n Trial Court Cause No. 17-DCV-244478\n\n OPINION\n\n On Tuesday, November 19, 2019, relator Babatunde Aogo filed a petition\nfor writ of mandamus in this court. See Tex. Gov't Code Ann. § 22.221; see also\nTex. R. App. P. 52. In the petition, relator asks this court to compel the Honorable\nJohn R. Milliard, presiding judge of the 328th District Court of Fort Bend County,\nto vacate his first amended qualified domestic relations order signed October 31,\n2019.\n Relator has also filed a motion for temporary relief, asking our court to issue\nan injunction against the plan administrator pending our decision on the petition.\nSee Tex. R. App. P. 52.10.\n\n With certain exceptions, to obtain mandamus relief a relator must show both\nthat the trial court clearly abused its discretion and that relator has no adequate\nremedy by appeal. In re Prudential Ins. Co. of Am., 148 S.W.3d 124, 135–36 (Tex.\n2004) (orig. proceeding). Relator has an adequate remedy by appeal. Relator can raise\nhis issues regarding the amended qualified domestic relations order (QDRO) on appeal.\nSee In re Husted, No. 14-13-00561-CV, 2013 WL 3958500 at *2 (Tex. App.—Houston\n[14th Dist.] 2013, no pet.) (mem. op.) (denying mandamus relief because relator had\nadequate remedy by appeal to address issues regarding QDRO). The Family Code\nprovides that QDRO proceedings \"shall be conducted in the same manner as civil cases\ngenerally.\" Tex. Fam. Code Ann. § 9.102(d); see Tex. Civ. Prac. & Rem. Code Ann. §\n51.012 (appeals in civil cases from final judgment).\n\n Relator has not shown that he is entitled to mandamus relief. We therefore\ndeny relator's petition for writ of mandamus and motion for temporary relief.\n\n /s/ Charles A. Spain\n Justice\n\nPanel consists of Justices Zimmerer, Spain, and Hassan\n\n 2",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

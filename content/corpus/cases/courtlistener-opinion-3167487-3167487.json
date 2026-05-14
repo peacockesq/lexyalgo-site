@@ -1,0 +1,44 @@
+{
+  "document_id": "11e9d2fc-5f8e-4d49-8848-1726180c4a96",
+  "slug": "courtlistener-opinion-3167487-3167487",
+  "title": "CourtListener opinion 3167487",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3167487 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "he trial court for further proceedings to determine whether the mediated settlement agreement entered into by the parties is ambiguous, and, if so, to conduct an evidentiary hearing as to the proper interpretation of that agreement and to enter an appropriate qualified domestic relations order that comports with its terms. Teague v. Teague, 122 So. 2d 3d 938 (Fla. 4th DCA 2013). Reversed and Remanded. LEVINE, CONNER and KLINGENSMITH, JJ., concur. * * * Not final until disposition of timely filed motion for rehearing."
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "ourt for further proceedings to determine whether the mediated settlement agreement entered into by the parties is ambiguous, and, if so, to conduct an evidentiary hearing as to the proper interpretation of that agreement and to enter an appropriate qualified domestic relations order that comports with its terms. Teague v. Teague, 122 So. 2d 3d 938 (Fla. 4th DCA 2013). Reversed and Remanded. LEVINE, CONNER and KLINGENSMITH, JJ., concur. * * * Not final until disposition of timely filed motion for rehearing."
+    }
+  ],
+  "full_text": "DISTRICT COURT OF APPEAL OF THE STATE OF FLORIDA\n FOURTH DISTRICT\n\n REGINA FAZIO,\n Appellant,\n\n v.\n\n MICHAEL FAZIO,\n Appellee.\n\n No. 4D15-272\n\n [January 6, 2016]\n\n Appeal from the Circuit Court for the Seventeenth Judicial Circuit,\nBroward County; Laura M. Watson, Judge; L.T. Case No. FMCE13-\n001559(42).\n\n Nancy A. Hass of Nancy A. Hass, P.A., Hollywood, for appellant.\n\n Rocco G. Marucci, Fort Lauderdale, for appellee.\n\n CONFESSION OF ERROR\n\nPER CURIAM.\n\n Upon consideration of the record and the appellee's soundly based\nconfession of error, we reverse the trial court's order denying the\nappellant's motion to vacate the fourth amended qualified domestic\nrelations order. We remand this matter to the trial court for further\nproceedings to determine whether the mediated settlement agreement\nentered into by the parties is ambiguous, and, if so, to conduct an\nevidentiary hearing as to the proper interpretation of that agreement and\nto enter an appropriate qualified domestic relations order that comports\nwith its terms. Teague v. Teague, 122 So. 2d 3d 938 (Fla. 4th DCA\n2013).\n\n Reversed and Remanded.\n\nLEVINE, CONNER and KLINGENSMITH, JJ., concur.\n\n * * *\n\n Not final until disposition of timely filed motion for rehearing.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

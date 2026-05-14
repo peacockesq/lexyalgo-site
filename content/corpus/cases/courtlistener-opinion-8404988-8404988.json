@@ -1,0 +1,40 @@
+{
+  "document_id": "5efccdbe-b800-4748-bfbf-72794e70d153",
+  "slug": "courtlistener-opinion-8404988-8404988",
+  "title": "CourtListener opinion 8404988",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 8404988 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "DB CATHERINE MARIE DELAO, Respondent. OCT 24 2022 aie psn BY DEPUTY CLERK ORDER DISMISSING APPEAL This is a pro se appeal from a post-divorce decree district court order directing (1) appellant to obtain a life insurance policy, (2) that an indemnification QDRO will not be entered if appellant obtains the required life insurance, (3) counsel for respondent to notify the court if a compliant life insurance policy is obtained, and (4) that if appellant fails to timely obtain life insurance, the indemnification QDRO shall be submitted to the court for signature. Eighth Judicial District Court, Family Court Division,"
+    }
+  ],
+  "full_text": "Supreme Court\nOF\nNEVADA\n\n(O) [7A BEBE\n\nIN THE SUPREME COURT OF THE STATE OF NEVADA\n\nJESUS LUIS AREVALO, No. 85169\nAppellant,\nvs.\nCATHERINE MARIE AREVALO, N/K/A ie Hl f E DB\nCATHERINE MARIE DELAO,\nRespondent. OCT 24 2022\naie psn\nBY DEPUTY CLERK\n\nORDER DISMISSING APPEAL\n\nThis is a pro se appeal from a post-divorce decree district court\norder directing (1) appellant to obtain a life insurance policy, (2) that an\nindemnification QDRO will not be entered if appellant obtains the required\nlife insurance, (3) counsel for respondent to notify the court if a compliant\nlife insurance policy is obtained, and (4) that if appellant fails to timely\nobtain life insurance, the indemnification QDRO shall be submitted to the\ncourt for signature. Eighth Judicial District Court, Family Court Division,\nClark County; Charles J. Hoskin, Judge.\n\nReview of the notice of appeal and documents before this court\nreveals a jurisdictional defect. The order challenged on appeal does not\nappear to be substantively appealable. See Brown v. MHC Stagecoach,\nLLC, 129 Nev. 343, 345, 301 P.3d 850, 851 (2013) (this court \"may only\nconsider appeals authorized by statute or court rule\"). In particular, the\norder does not appear appealable as a special order after final judgment\nbecause it relates to the mere enforcement of a prior district court order.\n\nSee Gumm v. Mainor, 118 Nev. 912, 59, P.3d 1220 (2002) (recognizing that\n\n22-83346\n\n Supreme Court\nOF\nNEvADA\n\n(Oy PUSTA eSB\n\na post-judgment order must affect rights growing out of the final judgment\n\nto be appealable). Accordingly, this court concludes that it lacks jurisdiction\n\nand\nORDERS this appeal DISMISSED.\n/ A. Law, od.\nHardesty ‘\nAho. val. A Jd.\nStiglich e Herndon\n\ncc: Hon. Charles J. Hoskin, District Judge, Family Court Division\nJesus Luis Arevalo\nWillick Law Group\nEighth District Court Clerk",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

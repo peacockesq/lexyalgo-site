@@ -1,0 +1,40 @@
+{
+  "document_id": "6a52e4ea-96d2-4cdd-b2db-5f2c61f82380",
+  "slug": "courtlistener-opinion-1075459-1075459",
+  "title": "CourtListener opinion 1075459",
+  "citation": "Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1075459 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "domestic relations order",
+      "quote": "James W. Haley, Jr., Judge (Sandra C. Graves; Rinehart & Strentz, on briefs), for appellant. (Owaiian M. Jones, on brief), for appellee. George A. Langhorne appeals the decision of the circuit judge denying his Motion for Entry of an Amended Qualified Domestic Relations Order. He contends that the trial judge's ruling did not comport with the formula in the final decree of divorce or the recommendations of the commissioner in chancery. Upon reviewing the record and briefs of the parties, we conclude that this appeal is without merit. Accordingly, we summarily affirm the trial judge's decision. See Rule 5A:27. The record o"
+    }
+  ],
+  "full_text": "COURT OF APPEALS OF VIRGINIA\n\nPresent: Judges Benton, Coleman and Willis\n\nGEORGE A. LANGHORNE\n MEMORANDUM OPINION *\nv. Record No. 0810-98-4 PER CURIAM\n NOVEMBER 10, 1998\nJOANNE LANGHORNE\n\n FROM THE CIRCUIT COURT OF STAFFORD COUNTY\n James W. Haley, Jr., Judge\n\n (Sandra C. Graves; Rinehart & Strentz, on\n briefs), for appellant.\n (Owaiian M. Jones, on brief), for appellee.\n\n George A. Langhorne appeals the decision of the circuit\n\njudge denying his Motion for Entry of an Amended Qualified\n\nDomestic Relations Order. He contends that the trial judge's\n\nruling did not comport with the formula in the final decree of\n\ndivorce or the recommendations of the commissioner in chancery.\n\nUpon reviewing the record and briefs of the parties, we conclude\n\nthat this appeal is without merit. Accordingly, we summarily\n\naffirm the trial judge's decision. See Rule 5A:27.\n\n The record on appeal contains neither a transcript nor a\n\nwritten statement of facts. However, we conclude that the record\n\nis sufficient to decide the question raised by Langhorne because\n\nthe final decree of divorce stated that the commissioner's report\n\nwas adopted \\and made a part of this Decree of Divorce.\\\" The",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

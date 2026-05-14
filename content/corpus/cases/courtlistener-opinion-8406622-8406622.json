@@ -1,0 +1,40 @@
+{
+  "document_id": "25325038-ffdc-4b8b-bb5e-ce7e739f44e1",
+  "slug": "courtlistener-opinion-8406622-8406622",
+  "title": "CourtListener opinion 8406622",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 8406622 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "espondent. oCT 2 4 2022 ELETH BPOWN CLE EME COURT BY DEPUTY CLERK ORDER DISMISSING APPEAL This is a pro se appeal from a post-divorce decree district court order directing (1) appellant to obtain a life insurance policy, (2) that an indemnification QDRO will not be entered if appellant obtains the required life insurance, (3) counsel for respondent to notify the court if a compliant life insurance policy is obtained, and (4) that if appellant fails to timely obtain life insurance, the indemnification QDRO shall be submitted to the court for signature. Eighth Judicial District Court, Family Court Divis"
+    }
+  ],
+  "full_text": "IN THE SUPREME COURT OF THE STATE OF NEVADA\n\n JESUS LUIS AREVALO, No. 85169\n Appellant,\n vs.\n CATHERINE MARIE AREVALO, N/K/A FILE\n CATHERINE MARIE DELAO,\n Respondent. oCT 2 4 2022\n ELETH BPOWN\n CLE EME COURT\n\n BY\n DEPUTY CLERK\n\n ORDER DISMISSING APPEAL\n\n This is a pro se appeal from a post-divorce decree district court\n order directing (1) appellant to obtain a life insurance policy, (2) that an\n indemnification QDRO will not be entered if appellant obtains the required\n life insurance, (3) counsel for respondent to notify the court if a compliant\n life insurance policy is obtained, and (4) that if appellant fails to timely\n\n obtain life insurance, the indemnification QDRO shall be submitted to the\n court for signature. Eighth Judicial District Court, Family Court Division,\n Clark County; Charles J. Hoskin, Judge.\n Review of the notice of appeal and documents before this court\n\n reveals a jurisdictional defect. The order challenged on appeal does not\n appear to be substantively appealable. See Brown v. MHC Stagecoach,\n LLC, 129 Nev. 343, 345, 301 P.3d 850, 851 (2013) (this court \\may only",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

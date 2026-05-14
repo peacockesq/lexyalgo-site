@@ -1,0 +1,44 @@
+{
+  "document_id": "39a15aad-e3c8-4c5e-9b3f-a620de8f8c70",
+  "slug": "courtlistener-opinion-2719306-2719306",
+  "title": "CourtListener opinion 2719306",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 3,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 2719306 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "domestic relations order",
+      "quote": "m civil service, we vacate and remand. I Ms. Smith and her former spouse, Paul Marshall, di- vorced in March 1987 while Mr. Marshall was a federal employee. A divorce judgment issued that year, dividing the couple's marital property. It included a qualified domestic relations order (1987 order) allocating Mr. Marshall's accrued benefits. In 1999, a court modi- fied the 1987 order (1999 order). Mr. Marshall retired from federal service in 2005 and died in 2006. Following Mr. Marshall's death, Ms. Smith applied for a former spouse annuity. In 2013, an adminis- trative judge found that the 1987 order provided Ms. Smith a former spouse a"
+    },
+    {
+      "label": "survivor benefits",
+      "quote": "d by rule, law, or regulation, or unsupported by substantial evidence.\" Addison v. Dep't of Health & Human Servs., 945 F.2d 1184, 1186 (Fed. Cir. 1991); see also 5 U.S.C. § 7703(c). The law provides that a former spouse of a federal employee is entitled to a survivor annuity if and to the extent a divorce decree or court order expressly so pro- vides. 5 U.S.C. § 8341(h)(1). A modification of the provi- sions involving an annuity in such a decree or order shall not be effective if made after the retirement or death of the employee concerned. 5 U.S.C. § 8341(h)(4). OPM's regulations state: For purposes of awarding, increasing,"
+    }
+  ],
+  "full_text": "NOTE: This disposition is nonprecedential.\n\n United States Court of Appeals\n for the Federal Circuit\n ______________________\n\n ARLENE SMITH,\n Petitioner,\n\n v.\n\n OFFICE OF PERSONNEL MANAGEMENT,\n Respondent.\n ______________________\n\n 2014-3084\n ______________________\n\n Petition for review of the Merit Systems Protection\nBoard in No. AT-0831-10-0059-B-2.\n ______________________\n\n Decided: August 20, 2014\n ______________________\n\n JEFFREY S. STEPHENS, Quindlen Law Firm, P.A., of\nBeaufort, South Carolina, argued for petitioner.\n\n BARBARA E. THOMAS, Trial Attorney, Commercial Lit-\nigation Branch, Civil Division, United States Department\nof Justice, of Washington, DC, argued for respondent.\nWith her on the brief were STUART F. DELERY, Assistant\nAttorney General, ROBERT E. KIRSCHMAN, JR., Director,\nand REGINALD T. BLADES, JR., Assistant Director.\n ______________________\n 2 SMITH v. OPM\n\nBefore PROST, Chief Judge, NEWMAN and HUGHES, Circuit\n Judges.\nPER CURIAM.\n Arlene Smith alleges that a court order, as modified\nby a second order, dividing marital property between her\nand her former spouse entitle her to an annuity under the\nFederal Civil Service Retirement System. The law gives\neffect to a modification of an order involving annuities,\nprovided that it is issued before the retirement or death of\nthe employee. Because the Merit Systems Protection\nBoard erred by not considering the second court order,\neven though it issued before Ms. Smith's former spouse\nretired from civil service, we vacate and remand.\n I\n Ms. Smith and her former spouse, Paul Marshall, di-\nvorced in March 1987 while Mr. Marshall was a federal\nemployee. A divorce judgment issued that year, dividing\nthe couple's marital property. It included a qualified\ndomestic relations order (1987 order) allocating\nMr. Marshall's accrued benefits. In 1999, a court modi-\nfied the 1987 order (1999 order).\n Mr. Marshall retired from federal service in 2005 and\ndied in 2006. Following Mr. Marshall's death, Ms. Smith\napplied for a former spouse annuity. In 2013, an adminis-\ntrative judge found that the 1987 order provided\nMs. Smith a former spouse annuity. The judge, however,\nordered a remand to the Office of Personnel Management\nto consider what effect the 1999 order had on the 1987\norder. Martha Marshall, as an intervenor and as Mr.\nMarshall's spouse at the time of his death, then filed a\npetition for review. The Board reversed, concluding that\nthe 1987 order did not grant Ms. Smith a survivor annui-\nty. The Board also concluded that it need not address the\neffect of the 1999 order because it was not the first order\n SMITH v. OPM 3\n\ndividing Ms. Smith's and Mr. Marshall's marital property.\nSee 5 C.F.R. § 838.1004(e)(1)(ii).\n Ms. Smith appeals. We have jurisdiction under 28\nU.S.C. § 1295(a)(9).\n II\n \"We must affirm the Board's decision unless it is arbi-\ntrary, capricious, an abuse of discretion or otherwise not\nin accordance with law, obtained without procedures\nrequired by rule, law, or regulation, or unsupported by\nsubstantial evidence.\" Addison v. Dep't of Health &\nHuman Servs., 945 F.2d 1184, 1186 (Fed. Cir. 1991); see\nalso 5 U.S.C. § 7703(c).\n The law provides that a former spouse of a federal\nemployee is entitled to a survivor annuity if and to the\nextent a divorce decree or court order expressly so pro-\nvides. 5 U.S.C. § 8341(h)(1). A modification of the provi-\nsions involving an annuity in such a decree or order shall\nnot be effective if made after the retirement or death of\nthe employee concerned. 5 U.S.C. § 8341(h)(4). OPM's\nregulations state:\n For purposes of awarding, increasing, reducing, or\n eliminating a former spouse survivor annuity, or\n explaining, interpreting, or clarifying a court or-\n der that awards, increases, reduces or eliminates\n a former spouse annuity, the court order must be--\n (i) Issued on a day prior to the date of re-\n tirement or date of death of the employee;\n or\n (ii) The first order dividing the marital\n property of the retiree and the former\n spouse.\n5 C.F.R. § 838.1004(e)(1) (emphasis added); see also 5\nC.F.R. § 838.806(a)–(b).\n 4 SMITH v. OPM\n\n In this case, the 1999 order satisfies 5 C.F.R.\n§ 838.1004(e)(1)(i), as Mr. Marshall retired from federal\nservice in 2005 and died in 2006. Thus, as OPM concedes,\nthe Board erred by failing to address the 1999 order.\n OPM argues that, despite the Board's error, we may\naffirm the Board's result on different grounds. According\nto OPM, the 1987 order, as modified by the 1999 order,\ncannot be read as awarding a survivor annuity. But in\nthis case, neither the Board nor OPM specifically ad-\ndressed the 1999 order or its effect on the 1987 order. We\ndecline to do so in the first instance on appeal. See Byrum\nv. Office of Pers. Mgmt., 618 F.3d 1323, 1332 (Fed. Cir.\n2010) (citing SEC v. Chenery Corp., 332 U.S. 194, 196\n(1947)). On remand, the Board and OPM should expedi-\ntiously determine the effect, if any, the 1999 order has on\nthe 1987 order.\n III\n Because the Board incorrectly determined that it did\nnot have to address the 1999 order, the Board's decision is\nnot in accordance with the law. Accordingly, we vacate\nand remand.\n VACATED AND REMANDED\n No costs.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

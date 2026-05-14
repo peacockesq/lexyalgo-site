@@ -1,0 +1,40 @@
+{
+  "document_id": "cab89e7b-f71c-4b28-93d9-d5464eb106f5",
+  "slug": "courtlistener-opinion-11192480-11192480",
+  "title": "CourtListener opinion 11192480",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 11192480 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "domestic relations order",
+      "quote": "t's order finding C. L. W. to be dependent and awarding temporary custody of the child to his foster parents. No application is required, however, because the juvenile court's order is directly appealable. This case is a dependency proceeding, and although a domestic relations order or an order terminating parental rights is subject to the discretionary appeal procedures, a dependency finding may be appealed directly. See OCGA § 5-6-35 (a) (2) & (12); In the Interest of J. P., 267 Ga. 492, 493 (480 SE2d 8) (1997) (deprivation/dependency cases do not fall within the purview of OCGA § 5-6-35 (a) (2) and therefore are directly appealable)"
+    }
+  ],
+  "full_text": "Court of Appeals\nof the State of Georgia\n\n ATLANTA,____________________\n August 20, 2020\n\nThe Court of Appeals hereby passes the following order:\n\nA21D0016. IN THE INTEREST OF C. L. W., A CHILD.\n\n The uncle and former custodian of minor child C. L. W. has filed an application\nfor discretionary review of the juvenile court's order finding C. L. W. to be dependent\nand awarding temporary custody of the child to his foster parents. No application is\nrequired, however, because the juvenile court's order is directly appealable.\n This case is a dependency proceeding, and although a domestic relations order\nor an order terminating parental rights is subject to the discretionary appeal\nprocedures, a dependency finding may be appealed directly. See OCGA § 5-6-35 (a)\n(2) & (12); In the Interest of J. P., 267 Ga. 492, 493 (480 SE2d 8) (1997)\n(deprivation/dependency cases do not fall within the purview of OCGA § 5-6-35 (a)\n(2) and therefore are directly appealable); In the Interest of W. P. B., 269 Ga. App.\n101, 101 (1) (603 SE2d 454) (2004). This includes interlocutory orders in dependency\ncases deciding temporary custody of children. See In the Interest of S. J., 270 Ga.\nApp. 598, 608 (1) (a), (b) (607 SE2d 225) (2004) (interim order within a\ndependency/deprivation proceeding that decides temporary custody of the child is a\n\"final order\" within the meaning of OCGA § 5-6-34 (a) (1) and may be appealed\ndirectly). The uncle, therefore, was not required to file a discretionary application in\nthis case.\n We will grant an otherwise timely discretionary application if the lower court's\norder is subject to direct appeal. See OCGA § 5-6-35 (j). Accordingly, this\napplication is hereby GRANTED. The applicant shall have ten days from the date of\nthis order to file a notice of appeal with the juvenile court. If, however, he has already\nfiled a notice of appeal, he need not file a second notice. The clerk of the juvenile\n court is DIRECTED to include a copy of this order in the record transmitted to the\nCourt of Appeals.\n\n Court of Appeals of the State of Georgia\n Clerk's Office, Atlanta,____________________\n 08/20/2020\n I certify that the above is a true extract from\n the minutes of the Court of Appeals of Georgia.\n Witness my signature and the seal of said court\n hereto affixed the day and year last above written.\n\n , Clerk.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

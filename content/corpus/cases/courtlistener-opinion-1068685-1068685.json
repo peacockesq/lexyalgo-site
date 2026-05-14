@@ -1,0 +1,48 @@
+{
+  "document_id": "36a88083-6353-4d94-b5ed-300ba42d9db5",
+  "slug": "courtlistener-opinion-1068685-1068685",
+  "title": "CourtListener opinion 1068685",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1068685 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "equally divide all stock in Mr. Woody's Roadway Services, Incorporated, Stock Retirement Income Plan, as of April 20, 1993. The total number of shares to be divided is 3,168. Each party will receive 1,584 shares. These shares will be distributed as per the Qualified Domestic Relations Order which will issue from this Court and be fully adopted as if fully set forth herein. Thereafter, in accord with the above provision, the Trial Court entered a qualified domestic relations order (hereinafter \"QDRO\") which orders distribution to Ms. Woody of her designated share of the stock in the above referenced stock retirement income plan, which the QD"
+    },
+    {
+      "label": "pension",
+      "quote": "Chancellor FILED OCTOBER 29, 2002 No. E2001-02078-COA-R3-CV In this case from the Chancery Court of Hamblen County the Appellant, Floyd Michael Woody contends that the Trial Court erred in amending a final judgment for divorce to include one half of his pension fund as part of the marital property to be awarded the Appellee, Joy Darlene Woody. The judgment of the Trial Court is affirmed as modified. Tenn.R.App.P. 3 Appeal as of Right; Judgment of the Chancery Court Affirmed as Modified; Cause Remanded HOUSTON M. GODDARD , P.J., delivered the opinion of the court, in which HERSCHEL P. FRANKS and CHARLES D. SUSA"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "vide all stock in Mr. Woody's Roadway Services, Incorporated, Stock Retirement Income Plan, as of April 20, 1993. The total number of shares to be divided is 3,168. Each party will receive 1,584 shares. These shares will be distributed as per the Qualified Domestic Relations Order which will issue from this Court and be fully adopted as if fully set forth herein. Thereafter, in accord with the above provision, the Trial Court entered a qualified domestic relations order (hereinafter \"QDRO\") which orders distribution to Ms. Woody of her designated share of the stock in the above referenced stock retirement income plan, which the QD"
+    }
+  ],
+  "full_text": "IN THE COURT OF APPEALS OF TENNESSEE\n AT KNOXVILLE\n September 30, 2002 Session\n\n FLOYD MICHAEL WOODY v. JOY DARLENE WOODY\n\n Appeal from the Chancery Court for Hamblen County\n No. 92-179 Thomas R. Frierson, II, Chancellor\n\n FILED OCTOBER 29, 2002\n\n No. E2001-02078-COA-R3-CV\n\nIn this case from the Chancery Court of Hamblen County the Appellant, Floyd Michael Woody\ncontends that the Trial Court erred in amending a final judgment for divorce to include one half of\nhis pension fund as part of the marital property to be awarded the Appellee, Joy Darlene Woody.\nThe judgment of the Trial Court is affirmed as modified.\n\n Tenn.R.App.P. 3 Appeal as of Right; Judgment of the Chancery Court Affirmed as\n Modified; Cause Remanded\n\nHOUSTON M. GODDARD , P.J., delivered the opinion of the court, in which HERSCHEL P. FRANKS and\nCHARLES D. SUSANO, JR., JJ., joined.\n\nP. Richard Talley, Dandridge, Tennessee, for the Appellant, Floyd Michael Woody\n\nPaul Whetstone, Mosheim, Tennessee, for the Appellee, Joy Darlene Woody\n\n OPINION\n\n In this divorce case from the Chancery Court for Hamblen County the Appellant, Floyd\nMichael Woody, raises one issue for our review which we restate as follows:\n\n Did the Trial Court err in amending the final decree of divorce between the Appellant, Floyd\nMichael Woody, and the Appellee, Joy Darlene Woody, to include one-half of Mr. Woody's pension\nfund as a portion of the marital property awarded to Ms. Woody?\n\n The parties to this appeal were divorced by judgment of the Trial Court1 entered on July 20,\n1993, which provided for the distribution of marital property and included the following:\n\n 1\n The record shows that Judge William Jenkins was sitting by interchange as the presiding judge o f this case\nat the time of divo rce.\n 4. The parties are to equally divide all stock in Mr. Woody's Roadway Services,\n Incorporated, Stock Retirement Income Plan, as of April 20, 1993. The total\n number of shares to be divided is 3,168. Each party will receive 1,584 shares.\n These shares will be distributed as per the Qualified Domestic Relations Order\n which will issue from this Court and be fully adopted as if fully set forth herein.\n\n Thereafter, in accord with the above provision, the Trial Court entered a qualified domestic\nrelations order (hereinafter \"QDRO\") which orders distribution to Ms. Woody of her designated\nshare of the stock in the above referenced stock retirement income plan, which the QDRO described\nas the \\Stock Bonus Plan",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

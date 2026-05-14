@@ -1,0 +1,44 @@
+{
+  "document_id": "ecce807a-d2b5-49de-9b8c-bc3eb5cc85cc",
+  "slug": "courtlistener-opinion-1077613-1077613",
+  "title": "CourtListener opinion 1077613",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1077613 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "FROM THE CIRCUIT COURT OF THE CITY OF PETERSBURG James F. D'Alton, Jr., Judge (Beverly D. Crawford; El-Amin & Crawford, on brief), for appellant. (James Edward Sheffield, on brief), for appellee. Eunice P. Todd (wife) appeals from the circuit court's qualified domestic relations order and final decree awarding a divorce to James E. Todd (husband). Upon reviewing the record and briefs of the parties, we conclude that this appeal is without merit. Accordingly, we summarily affirm the decision of the trial court. Rule 5A:27. Wife contends that the commissioner abused his discretion by refusing to allow her to submit additional eviden"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "IRCUIT COURT OF THE CITY OF PETERSBURG James F. D'Alton, Jr., Judge (Beverly D. Crawford; El-Amin & Crawford, on brief), for appellant. (James Edward Sheffield, on brief), for appellee. Eunice P. Todd (wife) appeals from the circuit court's qualified domestic relations order and final decree awarding a divorce to James E. Todd (husband). Upon reviewing the record and briefs of the parties, we conclude that this appeal is without merit. Accordingly, we summarily affirm the decision of the trial court. Rule 5A:27. Wife contends that the commissioner abused his discretion by refusing to allow her to submit additional eviden"
+    }
+  ],
+  "full_text": "COURT OF APPEALS OF VIRGINIA\n\nPresent: Judges Bray, Annunziata and Overton\n\nEUNICE PAULINE TODD\n MEMORANDUM OPINION *\nv. Record No. 2115-95-2 PER CURIAM\n JULY 30, 1996\nJAMES EDWARD TODD\n\n FROM THE CIRCUIT COURT OF THE CITY OF PETERSBURG\n James F. D'Alton, Jr., Judge\n\n (Beverly D. Crawford; El-Amin & Crawford, on\n brief), for appellant.\n (James Edward Sheffield, on brief), for\n appellee.\n\n Eunice P. Todd (wife) appeals from the circuit court's\n\nqualified domestic relations order and final decree awarding a\n\ndivorce to James E. Todd (husband). Upon reviewing the record\n\nand briefs of the parties, we conclude that this appeal is\n\nwithout merit. Accordingly, we summarily affirm the decision of\n\nthe trial court. Rule 5A:27.\n\n Wife contends that the commissioner abused his discretion by\n\nrefusing to allow her to submit additional evidence following a\n\nhearing of which she had notice but did not appear. Wife's\n\ncounsel stated that wife told him why she was not going to\n\nappear, \\but that is a matter of privileged information unless",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

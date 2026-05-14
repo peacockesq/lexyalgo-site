@@ -1,0 +1,48 @@
+{
+  "document_id": "d162e998-9462-4d8d-a401-cf5377cff9a2",
+  "slug": "courtlistener-opinion-76899-76899",
+  "title": "CourtListener opinion 76899",
+  "citation": "Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 4,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 2
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 76899 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "fore DUBINA and FAY, Circuit Judges, and GOLDBERG*, Judge. PER CURIAM: In this appeal, defendant-appellant Joan Thomas Guth (f. k. a. Joan Thomas Fontaine) appeals from the district court's determination that the 1986 Qualified Domestic Relations Order (\"QDRO\") governing the equitable division of marital assets between defendant-appellant and plaintiff-appellee Richard Charles Fontaine remains in effect. Defendant-appellant requests that the Court reverse the district court's determination that the 1990 and 1991 QDROs, which were mutual modifications of the original 1986 QDRO, are null and void. Georgia do"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "orgia (March 8, 2005) Before DUBINA and FAY, Circuit Judges, and GOLDBERG*, Judge. PER CURIAM: In this appeal, defendant-appellant Joan Thomas Guth (f. k. a. Joan Thomas Fontaine) appeals from the district court's determination that the 1986 Qualified Domestic Relations Order (\"QDRO\") governing the equitable division of marital assets between defendant-appellant and plaintiff-appellee Richard Charles Fontaine remains in effect. Defendant-appellant requests that the Court reverse the district court's determination that the 1990 and 1991 QDROs, which were mutual modifications of the original 1986 QDRO, are null and void. Geo"
+    },
+    {
+      "label": "valuation/division",
+      "quote": "rict court's determination that the 1990 and 1991 QDROs, which were mutual modifications of the original 1986 QDRO, are null and void. Georgia domestic relations law makes clear that post-judgment modification by a court of a divorce decree concerning the equitable distribution of property is normally not permissible. See, e.g., Williams v. Williams, 268 Ga. 126, 129, 485 S.E.2d 772, 775 (Ga. 1997) (\"[A]n unexpected increase in the value of a risky * Honorable Richard W. Goldberg, Judge, United States Court of International Trade, sitting by designation. 2 asset is insufficient grounds to upset the policy disfavoring modif"
+    }
+  ],
+  "full_text": "[PUBLISH]\n\n IN THE UNITED STATES COURT OF APPEALS\n FILED\n FOR THE ELEVENTH CIRCUIT\n U.S. COURT OF APPEALS\n ELEVENTH CIRCUIT\n March 8, 2005\n THOMAS K. KAHN\n No. 04-12343 CLERK\n\n D. C. Docket No. 02-00067-CV-JTC-3\n\nRICHARD CHARLES FONTAINE,\n\n Plaintiff-Appellee,\n\n versus\n\nJOAN THOMAS GUTH,\nf.k.a. Joan Thomas Fontaine,\n\n Defendant- Cross-Defendant-\n Appellant,\n\nDELTA AIR LINES, INC.,\n\n Defendant-Cross-Claimant-\n Appellee,\n\nLARRY H. EVANS,\n\n Defendant.\n Appeal from the United States District Court\n for the Northern District of Georgia\n\n (March 8, 2005)\n\nBefore DUBINA and FAY, Circuit Judges, and GOLDBERG*, Judge.\n\nPER CURIAM:\n\n In this appeal, defendant-appellant Joan Thomas Guth (f. k. a. Joan Thomas\n\nFontaine) appeals from the district court's determination that the 1986 Qualified\n\nDomestic Relations Order (\"QDRO\") governing the equitable division of marital\n\nassets between defendant-appellant and plaintiff-appellee Richard Charles\n\nFontaine remains in effect. Defendant-appellant requests that the Court reverse\n\nthe district court's determination that the 1990 and 1991 QDROs, which were\n\nmutual modifications of the original 1986 QDRO, are null and void.\n\n Georgia domestic relations law makes clear that post-judgment modification\n\nby a court of a divorce decree concerning the equitable distribution of property is\n\nnormally not permissible. See, e.g., Williams v. Williams, 268 Ga. 126, 129, 485\n\nS.E.2d 772, 775 (Ga. 1997) (\"[A]n unexpected increase in the value of a risky\n\n *\n Honorable Richard W. Goldberg, Judge, United States Court of International Trade,\nsitting by designation.\n\n 2\n asset is insufficient grounds to upset the policy disfavoring modification of fixed\n\nallocations of economic resources distributed in a property settlement.\"); Spivey v.\n\nMcClellan, 259 Ga. 181, 181-82, 378 S.E.2d 123, 124 (Ga. 1989) (\"Fixed\n\nallocations of economic resources between spouses, those that are already vested\n\nor perfected, are not subject to modification by the court while terminable\n\nallocations are.\"); Coffey v. Alembik, 221 Ga. App. 501, 502, 471 S.E.2d 590, 591\n\n(Ga. Ct. App. 1996) (\"[A] modification of the provisions of the divorce decree for\n\nthe equitable division of property . . . is not permissible.\").\n\n Defendant-appellant nonetheless contends that the 1986 QDRO may be\n\nmodified by a court because the parties thereto made a \"mutual mistake\" in\n\ndrafting the terms of the court-approved settlement agreement. In support of this\n\nproposition, defendant-appellant cites Georgia Supreme Court decisions which\n\npermitted post-judgment modifications of divorce settlements in the limited\n\ncontexts of alimony and child support. See Douglas v. Cook, 266 Ga. 644, 645,\n\n469 S.E.2d 656, 657 (Ga. 1996); Smith v. Smith, 230 Ga. 238, 240, 196 S.E.2d\n\n437, 439 (Ga. 1973); see also O.C.G.A. § 19-6-19 (modification of child support\n\nand alimony awards specifically allowed by statute). Because this case involves\n\nthe equitable distribution of property and not alimony or child support, the Court\n\ndeclines to adopt defendant-appellant's fractured interpretation of Georgia law.\n\n 3\n Defendant-appellant also contends that the 1986 QDRO may be modified by\n\na court in order to correct a clerical or scrivener's error therein. Defendant-\n\nappellant is correct that Georgia law gives courts the authority to correct clerical\n\nmistakes or other similar non-substantive errors arising from oversight or omission\n\nin judgments, orders and other parts of the record. O.C.G.A. § 9-11-60(g). Upon\n\na close examination of the record, however, the Court has uncovered no evidence\n\nof such an error.\n\n After reviewing the record, reading the parties' briefs and having the benefit\n\nof oral argument, we affirm the judgment of the district court filed on October 6,\n\n2003.\n\n AFFIRMED.\n\n 4",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

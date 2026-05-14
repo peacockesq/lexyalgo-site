@@ -1,0 +1,40 @@
+{
+  "document_id": "43f3ab38-ae28-4347-9c10-28543c6982c4",
+  "slug": "courtlistener-opinion-4393836-4393836",
+  "title": "CourtListener opinion 4393836",
+  "citation": "Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4393836 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "domestic relations order",
+      "quote": "filed his petition, Ms. Dowell informed him that she was moving out of her apartment in Naples, but she did not specify that she was moving out of Naples to Tampa. Ms. Dowell was served with the paternity petition and the trial court's Standing Temporary Domestic Relations Order at her address in Naples on June 30, 2018. The standing order included the following directive: \\Neither party will remove"
+    }
+  ],
+  "full_text": "NOT FINAL UNTIL TIME EXPIRES TO FILE REHEARING\n MOTION AND, IF FILED, DETERMINED\n\n IN THE DISTRICT COURT OF APPEAL\n OF FLORIDA\n SECOND DISTRICT\n\nJURATE KLIZAITE DOWELL, )\n )\n Appellant, )\n )\nv. )\n ) Case No. 2D18-4420\nMANTAS KNORAS, )\n )\n Appellee. )\n )\n\nOpinion filed May 3, 2019.\n\nAppeal from the Circuit Court for Collier\nCounty; Scott H. Cupp, Judge.\n\nElizabeth A. Wolt of Law Offices of\nElizabeth A. Wolt, P.A., Naples, for\nAppellant.\n\nToni A. Butler of Alderuccio & Butler,\nLLC, Naples, for Appellee.\n\nSLEET, Judge.\n\n Jurate Klizaite Dowell challenges the trial court's contempt order entered\n\nagainst her in Mantas Knoras' action for determination of paternity of the minor child Ms.\n\nDowell and Mr. Knoras share. In its contempt order, the court found Ms. Dowell to be in\n\ncontempt for violating a standing order of the court by moving the minor child from\n\nCollier County to Tampa without the court's permission. However, the unrefuted\n evidence presented below establishes that Ms. Dowell had moved her child before she\n\nwas served with the court's standing order. Accordingly, we reverse.\n\n When the minor child was born in 2011, Ms. Dowell and Mr. Knoras were\n\nliving together as a family. However, they separated in 2016 and, at that time, agreed\n\nto a timesharing schedule without the aid of the courts. Ms. Dowell has never disputed\n\nthat Mr. Knoras is the father of the minor child.\n\n At some point, Ms. Dowell, who ran a business in Naples, began talking of\n\nmoving with the child to Tampa in order to grow her business. Shortly thereafter, Mr.\n\nKnoras filed his petition for determination of paternity on June 26, 2018, asking the court\n\nto enter a parenting plan and timesharing schedule. On the same day that Mr. Knoras\n\nfiled his petition, Ms. Dowell informed him that she was moving out of her apartment in\n\nNaples, but she did not specify that she was moving out of Naples to Tampa.\n\n Ms. Dowell was served with the paternity petition and the trial court's\n\nStanding Temporary Domestic Relations Order at her address in Naples on June 30,\n\n2018. The standing order included the following directive: \\Neither party will remove",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

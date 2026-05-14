@@ -1,0 +1,40 @@
+{
+  "document_id": "82d3dbf9-80d5-42a5-9c41-1d64d833f7be",
+  "slug": "courtlistener-opinion-4353020-4353020",
+  "title": "CourtListener opinion 4353020",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_family_retirement_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 1,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "family-law retirement/property division context",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 1
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4353020 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to family-law retirement/property division context. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 1/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "valuation/division",
+      "quote": "pellant filed a complaint for legal separation on September 24, 2008. The parties had two children, both of whom were emancipated at the time of the divorce proceedings. Appellant's complaint sought temporary and permanent spousal No. 17AP-560 2 support, an equitable distribution of the marital assets, and an order that appellee share in the payment of all marital debts. On December 10, 2008, the trial court issued temporary orders. {¶ 3} On January 18, 2011, the parties entered into a decree of divorce. The decree required appellee to pay permanent spousal support to appellant in the amount of $6,500 per month, as well as 50 perce"
+    }
+  ],
+  "full_text": "[Cite as Ogle v. Ogle, 2018-Ohio-5141.]\n\n IN THE COURT OF APPEALS OF OHIO\n\n TENTH APPELLATE DISTRICT\n\nKathleen H. Ogle, :\n\n Plaintiff-Appellant, : No. 17AP-560\n (C.P.C. No. 08DR-3733)\nv. :\n (REGULAR CALENDAR)\nBrian H. Ogle, :\n\n Defendant-Appellee. :\n\n D E C I S I O N\n\n Rendered on December 20, 2018\n\n On brief: The Nigh Law Group, LLC, and Joseph A. Nigh,\n for appellant.\n\n On brief: Wolinetz & Horvath, and Barry Wolinetz, for\n appellee.\n\n APPEAL from the Franklin County Court of Common Pleas,\n Division of Domestic Relations\n\nBROWN, P.J.\n {¶ 1} This is an appeal by plaintiff-appellant, Kathleen H. Ogle, from a judgment\nof the Franklin County Court of Common Pleas, Division of Domestic Relations,\noverruling appellant's objections to a magistrate's decision modifying the spousal support\nobligation of defendant-appellee, Brian H. Ogle.\n {¶ 2} The following background facts are drawn primarily from the magistrate's\ndecision rendered on February 3, 2017. Appellant and appellee were married on\nSeptember 25, 1982. Appellant filed a complaint for legal separation on September 24,\n2008. The parties had two children, both of whom were emancipated at the time of the\ndivorce proceedings. Appellant's complaint sought temporary and permanent spousal\n No. 17AP-560 2\n\nsupport, an equitable distribution of the marital assets, and an order that appellee share\nin the payment of all marital debts. On December 10, 2008, the trial court issued\ntemporary orders.\n {¶ 3} On January 18, 2011, the parties entered into a decree of divorce. The\ndecree required appellee to pay permanent spousal support to appellant in the amount of\n$6,500 per month, as well as 50 percent of his net annual bonuses for years 2011 through\n2014. During the marriage, appellee was employed by Battelle Memorial Institute\n(\\Battelle\\\")",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

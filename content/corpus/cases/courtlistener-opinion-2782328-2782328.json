@@ -1,0 +1,52 @@
+{
+  "document_id": "10952a38-741c-4bf3-8077-d8a6e236c22b",
+  "slug": "courtlistener-opinion-2782328-2782328",
+  "title": "CourtListener opinion 2782328",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 1,
+    "401(k)": 1,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 1,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 2782328 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "HIEF JUSTICE LEMONS and SENIOR JUSTICE KOONTZ join, dissenting. Because I conclude that ERISA-governed death benefits successfully vested in his surviving spouse at David Griffin's death, and are therefore not subject to limitation by a posthumously entered Qualified Domestic Relations Order (QDRO), I must respectfully dissent. In 1996, in the course of their original divorce action, David and Sandra Griffin entered into a Property Settlement Agreement (PSA) in which they agreed to name their children as beneficiaries in \\401(k) plans and other such plans which would be distributed"
+    },
+    {
+      "label": "ERISA",
+      "quote": "sex County, and shall be published in the Virginia Reports. Justice Kelsey took no part in the consideration of this case. _______________ JUSTICE MILLETTE, with whom CHIEF JUSTICE LEMONS and SENIOR JUSTICE KOONTZ join, dissenting. Because I conclude that ERISA-governed death benefits successfully vested in his surviving spouse at David Griffin's death, and are therefore not subject to limitation by a posthumously entered Qualified Domestic Relations Order (QDRO), I must respectfully dissent. In 1996, in the course of their original divorce action, David and Sandra Griffin entered into a Property Settlement Agree"
+    },
+    {
+      "label": "401(k)",
+      "quote": "omestic Relations Order (QDRO), I must respectfully dissent. In 1996, in the course of their original divorce action, David and Sandra Griffin entered into a Property Settlement Agreement (PSA) in which they agreed to name their children as beneficiaries in \\401(k) plans and other such plans which would be distributed"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "CE LEMONS and SENIOR JUSTICE KOONTZ join, dissenting. Because I conclude that ERISA-governed death benefits successfully vested in his surviving spouse at David Griffin's death, and are therefore not subject to limitation by a posthumously entered Qualified Domestic Relations Order (QDRO), I must respectfully dissent. In 1996, in the course of their original divorce action, David and Sandra Griffin entered into a Property Settlement Agreement (PSA) in which they agreed to name their children as beneficiaries in \\401(k) plans and other such plans which would be distributed"
+    }
+  ],
+  "full_text": "VIRGINIA:\n In the Supreme Court of Virginia held at the Supreme Court\nBuilding in the City of Richmond, on Thursday, the 26th day of\nFebruary, 2015.\n\nKimberley Cowser-Griffin, Executrix\n of the Estate of David Griffin, Appellant,\n\n against Record No. 140350\n Court of Appeals No. 1177-13-1\n\nSandra D.T. Griffin, Appellee.\n\n Upon an appeal from a\n judgment rendered by the Court\n of Appeals of Virginia.\n\n Upon consideration of the record, briefs, and argument of\ncounsel, the Court is of opinion that the Court of Appeals of\nVirginia did not err.\n For the reasons stated in the majority opinion of the Court of\nAppeals in Griffin v. Griffin, 62 Va. App. 736, 753 S.E.2d 574\n(2014), the judgment of the Court of Appeals is affirmed. The\nappellant shall pay to the appellee two hundred and fifty dollars\ndamages.\n This order shall be certified to the Court of Appeals of\nVirginia and to the Circuit Court of Sussex County, and shall be\npublished in the Virginia Reports.\n Justice Kelsey took no part in the consideration of this case.\n_______________\n JUSTICE MILLETTE, with whom CHIEF JUSTICE LEMONS and SENIOR JUSTICE\nKOONTZ join, dissenting.\n\n Because I conclude that ERISA-governed death benefits\nsuccessfully vested in his surviving spouse at David Griffin's\ndeath, and are therefore not subject to limitation by a posthumously\nentered Qualified Domestic Relations Order (QDRO), I must\nrespectfully dissent.\n In 1996, in the course of their original divorce action, David\nand Sandra Griffin entered into a Property Settlement Agreement\n(PSA) in which they agreed to name their children as beneficiaries\nin \\401(k) plans and other such plans which would be distributed",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

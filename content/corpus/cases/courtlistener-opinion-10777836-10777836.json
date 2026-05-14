@@ -1,0 +1,44 @@
+{
+  "document_id": "6b775456-43c8-40d9-b600-61ec21ad0614",
+  "slug": "courtlistener-opinion-10777836-10777836",
+  "title": "CourtListener opinion 10777836",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 4,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 10777836 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "County from 1991 to 2000. The divorce decree incorporated a marital settlement agreement (MSA), which awarded Latimer one-half of Walker's PERS retirement benefit and provided that Latimer's share would be secured by a qualified domestic relations order (QDRO) that allowed Latimer to elect Option 2. The QDRO provided that Latimer \\is entitled to a portion of the Participant's"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "., Advance Opinion c2 IN THE SUPREME COURT OF THE STATE OF NEVADA LAURA J. WALKER, N/K/A LAURA J. No. 86548 LATIMER, Appellant, vs. FILED r EGAN KIRK WALKER, JAN 09 2025 Respondent. Appeal from a district court post-divorce-decree order regarding retirement benefits. Second Judicial District Court, Washoe County; William A. Maddox, Sr. Judge. Affirrned in part, reversed in part, and remanded. Dietrich Law Group and Raymond S. Dietrich, Las Vegas, for Appellant. Smith Jain Stutzman and Kimberly A. Stutzman and Radford J. Smith, Henderson, for Respondent. Public Employees' Retirement System of Nevada and Ian"
+    }
+  ],
+  "full_text": "141 Nev., Advance Opinion c2\n\n IN THE SUPREME COURT OF THE STATE OF NEVADA\n\n LAURA J. WALKER, N/K/A LAURA J. No. 86548\n LATIMER,\n Appellant,\n vs. FILED r\n EGAN KIRK WALKER,\n JAN 09 2025\n Respondent.\n\n Appeal from a district court post-divorce-decree order regarding\n retirement benefits. Second Judicial District Court, Washoe County;\n William A. Maddox, Sr. Judge.\n Affirrned in part, reversed in part, and remanded.\n\n Dietrich Law Group and Raymond S. Dietrich, Las Vegas,\n for Appellant.\n\n Smith Jain Stutzman and Kimberly A. Stutzman and Radford J. Smith,\n Henderson,\n for Respondent.\n\n Public Employees' Retirement System of Nevada and Ian E. Carr, Carson\n City,\n for Amicus Curiae.\n\n BEFORE THE SUPREME COURT, HERNDON, C.J., and LEE and BELL,\n JJ.\n\nSUPREME COURT\n OF\n NEVADA\n 2.s-- Of 151\n(0) 1947A cgD:.\n OPINION\n\n By the Court, LEE, J.:\n Members of the Public Employees' Retirement System of\n Nevada (PERS) and the Judicial Retirement System of Nevada (JRS) may,\n upon retirement, designate a beneficiary to be paid the member's\n retirement benefits for the life of the beneficiary following the member's\n death. The option for payment to a beneficiary after the death of the\n member is known as Option 2. In this case, a PERS member left public\n employment to enter private practice as an attorney and subsequently\n agreed as part of a divorce decree to designate his ex-wife as the Option 2\n beneficiary of his PERS account. Thereafter, the member remarried, re-\n entered public employment as a judge, transferred his PERS service credits\n to JRS, and wished to designate his current wife the Option 2 beneficiary of\n his JRS account.\n The question before us is whether, under NRS 1A.450(1)(a), a\n JRS member may designate more than one Option 2 beneficiary. We\n conclude that a JRS member can designate both a former spouse and a\n current spouse as Option 2 beneficiaries when the former spouse is entitled\n to only a percentage of the benefit as part of a divorce decree—meaning if\n the member predeceases both the former and current spouses, both must be\n paid as Option 2 beneficiaries in accordance with their respective portion of\n the benefits. We further hold that when a former spouse of a PERS member\n possesses a protected interest in the member's PERS retirement benefits,\n that interest is not extinguished if the member transfers the benefits from\n PERS to JRS.\n FACTS AND PROCEDURAL HISTORY\n After 13 years of marriage, respondent Egan Walker and\n appellant Laura Latimer divorced in 2002. During their marriage, Walker\nSUPREME COURT\n OF\n NEVADA\n\n 2\n(0) 1947A\n earned 8.54 years of PERS credits while employed as a deputy district\n attorney with Carson City and Washoe County from 1991 to 2000. The\n divorce decree incorporated a marital settlement agreement (MSA), which\n awarded Latimer one-half of Walker's PERS retirement benefit and\n provided that Latimer's share would be secured by a qualified domestic\n relations order (QDRO) that allowed Latimer to elect Option 2. The QDRO\n provided that Latimer \\is entitled to a portion of the Participant's",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

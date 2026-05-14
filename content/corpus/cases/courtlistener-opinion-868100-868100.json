@@ -1,0 +1,48 @@
+{
+  "document_id": "179f828f-3989-44da-ae32-f6d67e6fdc29",
+  "slug": "courtlistener-opinion-868100-868100",
+  "title": "CourtListener opinion 868100",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 0,
+    "pension": 1,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 868100 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "uant to Wis. Stat. § 809.61 (2009-10). It concerns a dispute over the enforceability of a pension award in a divorce judgment. The specific question we address is whether the circuit court erred when it denied Patricia Johnson's motion for the entry of a qualified domestic relations order (QDRO) on the grounds that the motion was barred by Wis. Stat. § 893.40, a statute of No. 2011AP1240 repose,1 which states that \\action upon a judgment or"
+    },
+    {
+      "label": "pension",
+      "quote": "County, Kathryn W. Foster, Judge. Reversed and cause remanded. ¶1 N. PATRICK CROOKS, J. This case is before the court on certification from the court of appeals pursuant to Wis. Stat. § 809.61 (2009-10). It concerns a dispute over the enforceability of a pension award in a divorce judgment. The specific question we address is whether the circuit court erred when it denied Patricia Johnson's motion for the entry of a qualified domestic relations order (QDRO) on the grounds that the motion was barred by Wis. Stat. § 893.40, a statute of No. 2011AP1240 repose,1 which states that \\action upon a judgment or"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "s. Stat. § 809.61 (2009-10). It concerns a dispute over the enforceability of a pension award in a divorce judgment. The specific question we address is whether the circuit court erred when it denied Patricia Johnson's motion for the entry of a qualified domestic relations order (QDRO) on the grounds that the motion was barred by Wis. Stat. § 893.40, a statute of No. 2011AP1240 repose,1 which states that \\action upon a judgment or"
+    }
+  ],
+  "full_text": "2013 WI 43\n\n SUPREME COURT OF WISCONSIN\nCASE NO.: 2011AP1240\nCOMPLETE TITLE:\n In re the marriage of:\n\n Patricia A. Johnson, p/k/a Patricia Masters,\n Petitioner-Appellant,\n v.\n Michael R. Masters,\n Respondent-Respondent.\n ON CERTIFICATION FROM THE COURT OF APPEALS\n\nOPINION FILED: May 17, 2013\nSUBMITTED ON BRIEFS:\nORAL ARGUMENT: September 7, 2012\n\nSOURCE OF APPEAL:\n COURT: Circuit\n COUNTY: Waukesha\n JUDGE: Kathryn W. Foster\n\nJUSTICES:\n CONCURRED: ABRAHAMSON, C.J., concurs. (Opinion filed.)\n BRADLEY, J., ABRAHAMSON, C.J., concur. (Opinion\n filed.) ZIEGLER, ROGGENSACK, GABLEMAN concur.\n (Opinion filed.)\n DISSENTED: PROSSER, J., dissents. (Opinion filed.)\n NOT PARTICIPATING:\n\nATTORNEYS:\n For the petitioner-appellant, there was a brief (in court\nof appeals) by Joseph F. Owens and Law Offices of Joseph F.\nOwens, New Berlin, and Debra K. Riedel and Law Offices of Debra\nK. Riedel, New Berlin, and a reply brief to the Supreme Court by\nJoseph Owens and Debra K. Riedel. Oral argument by Joseph F.\nOwens.\n For the respondent-respondent, there was a brief by Erik I.\nColque and Colque Law, LLC, Waukesha, and oral argument by Erik\nI. Colque.\n 2013 WI 43\n NOTICE\n This opinion is subject to further\n editing and modification. The final\n version will appear in the bound\n volume of the official reports.\nNo. 2011AP1240\n(L.C. No. 1988FA73)\n\nSTATE OF WISCONSIN : IN SUPREME COURT\n\nPatricia A. Johnson,\n\n Petitioner–Appellant\n FILED\n v. MAY 17, 2013\n\nMichael R. Masters, Diane M. Fremgen\n Clerk of Supreme Court\n\n Respondent–Respondent\n\n APPEAL from an order of the Circuit Court for Waukesha\n\nCounty, Kathryn W. Foster, Judge. Reversed and cause remanded.\n\n ¶1 N. PATRICK CROOKS, J. This case is before the court\n\non certification from the court of appeals pursuant to Wis.\n\nStat. § 809.61 (2009-10). It concerns a dispute over the\n\nenforceability of a pension award in a divorce judgment. The\n\nspecific question we address is whether the circuit court erred\n\nwhen it denied Patricia Johnson's motion for the entry of a\n\nqualified domestic relations order (QDRO) on the grounds that\n\nthe motion was barred by Wis. Stat. § 893.40, a statute of\n No. 2011AP1240\n\nrepose,1 which states that \\action upon a judgment or",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

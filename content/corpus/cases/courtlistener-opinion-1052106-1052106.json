@@ -1,0 +1,48 @@
+{
+  "document_id": "49b151ca-5894-4531-b8b2-05ca002d8328",
+  "slug": "courtlistener-opinion-1052106-1052106",
+  "title": "CourtListener opinion 1052106",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 5,
+    "pension": 8,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1052106 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "divorce does not mean that we ignore the change in the value of money over time. To award Ms. Ziobrowski only $338.30 in 2007 dollars is to ignore the trial court's statement of its overall intent: \"The court intends an equal division of these assets.\" The QDRO signed by the trial court to implement its 1995 decree gives Ms. Ziobrowski half of Mr. Ziobrowski's \"accrued vested benefit as of September 27, 1995, or the next closest valuation date . . . .\" This appears to be an appropriate implementation of the final decree, and so I would affirm. In the alternative, I would award Ms. Ziobrowski half of the present da"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "59-COA-R3-CV - Filed December 20, 2007 DISSENT ________________________ HOLLY M. KIRBY, J., DISSENTING: I must respectfully dissent from the majority's interpretation of the 1995 final decree of divorce to award only $338.30 per month out of the monthly retirement benefit to Ms. Ziobrowski. In its discussion of the language used in the final decree, the majority notes that the trial court observed that the value of certain assets, including the GM retirement plan, were \"not discernible,\" and that it went on to amend Ms. Ziobrowski's \"one-half of the $676.60 monthly benefit payable on account of the old General Motors retire"
+    },
+    {
+      "label": "pension",
+      "quote": "wo techniques for valuing and distributing pensions. The first technique is the present value method; the second is the retained jurisdiction or deferred distribution method. The present value method requires the court to place a present cash value on the pension interest acquired during the marriage . . . . Once the court computes the present cash value of the pension rights, it awards the pension to the employee spouse and then awards the other spouse marital property of equal value. If the marital estate is insufficient to make an offsetting award, then the court may make an award payable in installments. Th"
+    }
+  ],
+  "full_text": "IN THE COURT OF APPEALS OF TENNESSEE\n AT NASHVILLE\n SEPTEMBER 13, 2007 Session\n\n ANTHONY JOSEPH ZIOBROWSKI v. MARCY HAYS ZIOBROWSKI\n\n Direct Appeal from the Circuit Court for Williamson County\n No. 95160 Russ Heldman, Judge\n\n No. M2006-02359-COA-R3-CV - Filed December 20, 2007\n\n DISSENT\n ________________________\n\nHOLLY M. KIRBY, J., DISSENTING:\n\n I must respectfully dissent from the majority's interpretation of the 1995 final decree of\ndivorce to award only $338.30 per month out of the monthly retirement benefit to Ms. Ziobrowski.\n In its discussion of the language used in the final decree, the majority notes that the trial court\nobserved that the value of certain assets, including the GM retirement plan, were \"not discernible,\"\nand that it went on to amend Ms. Ziobrowski's \"one-half of the $676.60 monthly benefit payable on\naccount of the old General Motors retirement account.\" Importantly, however, the majority skims\nover the trial court's statement of its intent. The final decree states:\n\n The value of the parties' household furnishings, the GM retirement benefits (old) and\n the cause of action . . . are not discernable. The court intends an equal division of\n these assets.\n\nThis decree was not appealed. Our job, then, is to implement the original intent of the final decree.\n\n This Court discussed the valuation and distribution of pensions at length in Kendrick v.\nKendrick, 902 S.W.2d 918, 926-30 (Tenn. Ct. App. 1994); see also JANET L. RICHARDS, RICHARDS\nON TENNESSEE FAMILY LAW § 11-13 (2d ed. 2004). In Kendrick, the Court explained:\n\n Like the courts in other states, this court has recognized two techniques for\n valuing and distributing pensions. The first technique is the present value method;\n the second is the retained jurisdiction or deferred distribution method.\n The present value method requires the court to place a present cash value on\n the pension interest acquired during the marriage . . . . Once the court computes the\n present cash value of the pension rights, it awards the pension to the employee spouse\n and then awards the other spouse marital property of equal value. If the marital estate\n is insufficient to make an offsetting award, then the court may make an award\n payable in installments.\n The retained jurisdiction method, as its name indicates, requires the court to\n retain jurisdiction over the case and to defer dividing the pension interest until the\n pension vests or matures. In some jurisdictions, the courts using this method\n determine the nonemployee spouse's share in advance and then enter an order\n identifying the portion that the spouse will receive if and when the employee spouse\n begins drawing his or her retirement benefits. The nonemployee spouse's share is\n commonly expressed as a fraction or a percent of the employee spouse's monthly\n pension benefit.\n\nKendrick, 902 S.W. 2d at 927 (internal citations and footnotes omitted). Here, it appears that the\ntrial court may have done a combination of the two methods, valuing the present value of the\nmonthly benefit payable at that time at $676.60. However, the trial court did not make an immediate\naward to the wife; under the order, she was to receive her benefits when the husband retires. Thus,\nthe trial court retained jurisdiction and stated the wife's share \"as a fraction or a percent of the\nemployee spouse's monthly pension benefit.\" Id.\n\n The majority interprets this to give Ms. Ziobrowski the worst of both worlds; she gets half\nof the benefit in 1995 dollars. Our mandate to value pension rights as of the date of the divorce does\nnot mean that we ignore the change in the value of money over time. To award Ms. Ziobrowski only\n$338.30 in 2007 dollars is to ignore the trial court's statement of its overall intent: \"The court\nintends an equal division of these assets.\"\n\n The QDRO signed by the trial court to implement its 1995 decree gives Ms. Ziobrowski half\nof Mr. Ziobrowski's \"accrued vested benefit as of September 27, 1995, or the next closest valuation\ndate . . . .\" This appears to be an appropriate implementation of the final decree, and so I would\naffirm. In the alternative, I would award Ms. Ziobrowski half of the present day value of a 1995\nmonthly benefit of $676.60.\n\n For these reasons, I respectfully dissent.\n\n __________________________________________\n HOLLY M. KIRBY, JUDGE\n\n -2-",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

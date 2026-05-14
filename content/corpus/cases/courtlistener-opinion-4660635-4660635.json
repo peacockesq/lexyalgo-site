@@ -1,0 +1,40 @@
+{
+  "document_id": "aa845f1b-88b9-4c57-91ef-c82b3651c85f",
+  "slug": "courtlistener-opinion-4660635-4660635",
+  "title": "CourtListener opinion 4660635",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4660635 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "domestic relations order",
+      "quote": "69), along with two misdemeanors, providing false information to a peace officer (Pen. Code, § 148.9, subd. (a)) and disobeying a domestic relations order (Pen. Code, § 273.6, subd. (a)). Defendant was held to answer on all charges except for the disobeying a domestic relations order. The jury found defendant guilty of aggravated resisting an executive officer and providing false information. The jury could not reach a verdict on the battery against a peace officer charge, so the trial court declared a mistrial as to that charge. The trial court sentenced defendant to the upper term of three years for the felony resisting an officer c"
+    }
+  ],
+  "full_text": "Filed 2/16/21 P. v. Williamson CA3\n NOT TO BE PUBLISHED\nCalifornia Rules of Court, rule 8.1115(a), prohibits courts and parties from citing or relying on opinions not certified for\npublication or ordered published, except as specified by rule 8.1115(b). This opinion has not been certified for publication\nor ordered published for purposes of rule 8.1115.\n\n IN THE COURT OF APPEAL OF THE STATE OF CALIFORNIA\n THIRD APPELLATE DISTRICT\n (Trinity)\n ----\n\nTHE PEOPLE,\n\n Plaintiff and Respondent, C091751\n\n v. (Super. Ct. No. 19F134)\n\nTIMOTHY MICHAEL WILLIAMSON,\n\n Defendant and Appellant.\n\n Appointed counsel for defendant Timothy Michael Williamson asked this court\nto review the record and determine whether there are any arguable issues on appeal.\n(People v. Wende (1979) 25 Cal.3d 436 (Wende).) Finding no arguable error that would\nresult in a disposition more favorable to defendant, we will affirm the judgment.\n I\n Trinity County Sheriff's Deputy Jacob Hess contacted defendant when he was\nsitting in a silver SUV after Hess received a report of an individual looking through\nwindows in the area and getting into a silver SUV. Defendant was in the car with\nJessica S. -- who was pregnant with defendant's child and had a restraining order\n\n 1\n protecting her from contact with defendant -- to discuss issues related to their expected\nchild.\n Deputy Hess asked defendant for his name and date of birth and defendant\nprovided false information. Deputy Hess suspected the information was false and was\naware of a warrant out for defendant's arrest, so he asked defendant to get out of the\nvehicle. Defendant initially complied but then attempted to run away. Deputy Hess tried\nto restrain defendant and the two struggled before two California Highway Patrol officers\narrived and helped arrest defendant. Deputy Hess had cuts on his knees, an injury to the\ntendon in his right hand, and two black eyes from the struggle with defendant.\n Defendant was charged with two felonies, battery against a peace officer\n(Pen. Code, § 243, subd. (c)(2)) and aggravated resisting of an executive officer in the\nperformance of a duty (Pen. Code, § 69), along with two misdemeanors, providing false\ninformation to a peace officer (Pen. Code, § 148.9, subd. (a)) and disobeying a domestic\nrelations order (Pen. Code, § 273.6, subd. (a)). Defendant was held to answer on all\ncharges except for the disobeying a domestic relations order.\n The jury found defendant guilty of aggravated resisting an executive officer and\nproviding false information. The jury could not reach a verdict on the battery against a\npeace officer charge, so the trial court declared a mistrial as to that charge.\n The trial court sentenced defendant to the upper term of three years for the felony\nresisting an officer conviction and a concurrent six months for the misdemeanor false\ninformation conviction. The trial court dismissed the battery against a peace officer\ncharge.\n Defendant did not obtain a certificate of probable cause.\n II\n Appointed counsel filed an opening brief setting forth the facts of the case and\nasking this court to review the record and determine whether there are any arguable\nissues on appeal. (Wende, supra, 25 Cal.3d 436.) Defendant was advised by counsel of\n\n 2\n the right to file a supplemental brief within 30 days of the date of filing the opening brief.\nMore than 30 days elapsed, and we received no communication from defendant. Having\nundertaken an examination of the entire record, we find no arguable error that would\nresult in a disposition more favorable to defendant.\n DISPOSITION\n The judgment is affirmed.\n\n /S/\n MAURO, Acting P. J.\n\nWe concur:\n\n /S/\nDUARTE, J.\n\n /S/\nKRAUSE, J.\n\n 3",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

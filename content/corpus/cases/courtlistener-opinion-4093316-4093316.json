@@ -1,0 +1,44 @@
+{
+  "document_id": "3b160285-2a86-4be9-b037-8ee1217079e3",
+  "slug": "courtlistener-opinion-4093316-4093316",
+  "title": "CourtListener opinion 4093316",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4093316 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "(Darren H. Fairlie of counsel), for respondent. __________ McCarthy, J. Appeal from an order of the Supreme Court (Schick, J.), entered January 2, 2015 in Sullivan County, which, upon reargument, among other things, granted plaintiff's motion to vacate a qualified domestic relations order. In October 2006, the parties entered into a stipulation that was incorporated, but not merged, into their judgment of divorce. The stipulation provided, among other things, that \\the"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "Fairlie of counsel), for respondent. __________ McCarthy, J. Appeal from an order of the Supreme Court (Schick, J.), entered January 2, 2015 in Sullivan County, which, upon reargument, among other things, granted plaintiff's motion to vacate a qualified domestic relations order. In October 2006, the parties entered into a stipulation that was incorporated, but not merged, into their judgment of divorce. The stipulation provided, among other things, that \\the"
+    }
+  ],
+  "full_text": "State of New York\n Supreme Court, Appellate Division\n Third Judicial Department\nDecided and Entered: October 27, 2016 521960\n________________________________\n\nJENNIFER SANDERS,\n Respondent,\n v\n MEMORANDUM AND ORDER\nMITCHELL SANDERS,\n Appellant.\n________________________________\n\nCalendar Date: September 16, 2016\n\nBefore: Peters, P.J., McCarthy, Garry, Clark and Aarons, JJ.\n\n __________\n\n Law Office of Terry D. Horner, Poughkeepsie (Terry D.\nHorner of counsel), for appellant.\n\n Stenger, Roberts, Davis & Diamond, LLP, Wappingers Falls\n(Darren H. Fairlie of counsel), for respondent.\n\n __________\n\nMcCarthy, J.\n\n Appeal from an order of the Supreme Court (Schick, J.),\nentered January 2, 2015 in Sullivan County, which, upon\nreargument, among other things, granted plaintiff's motion to\nvacate a qualified domestic relations order.\n\n In October 2006, the parties entered into a stipulation\nthat was incorporated, but not merged, into their judgment of\ndivorce. The stipulation provided, among other things, that \\the",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

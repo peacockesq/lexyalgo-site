@@ -1,0 +1,44 @@
+{
+  "document_id": "70216374-4536-428d-ae87-46fb4264cc2a",
+  "slug": "courtlistener-opinion-4331479-4331479",
+  "title": "CourtListener opinion 4331479",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4331479 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "Court of the State of California, County of Los Angeles (Superior Court), issued an interlocutory judgment that dissolved the marriage and awarded Mrs. Glassman a portion of Mr. Oddino's retirement benefits. On March 24, 1989, the Superior Court issued a Qualified Domestic Relations Order (QDRO) that modified and clarified the interlocutory judgment. The QDRO directed the Hughes Plan to: (1) Pay Mrs. Glassman 36.6231 percent of Mr. Oddino's \\accrued benefit[s] as of April 1"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "the State of California, County of Los Angeles (Superior Court), issued an interlocutory judgment that dissolved the marriage and awarded Mrs. Glassman a portion of Mr. Oddino's retirement benefits. On March 24, 1989, the Superior Court issued a Qualified Domestic Relations Order (QDRO) that modified and clarified the interlocutory judgment. The QDRO directed the Hughes Plan to: (1) Pay Mrs. Glassman 36.6231 percent of Mr. Oddino's \\accrued benefit[s] as of April 1"
+    }
+  ],
+  "full_text": "T.C. Memo. 1997-497\n\n UNITED STATES TAX COURT\n\n JEFFREY A. GLASSMAN and MARY K. GLASSMAN, Petitioners v.\n COMMISSIONER OF INTERNAL REVENUE, Respondent\n\n Docket No. 27001-95. Filed November 5, 1997.\n\n Terrence J. Moore, for petitioner.\n\n Mary Tseng Klaasen, for respondent.\n\n MEMORANDUM FINDINGS OF FACT AND OPINION\n\n FOLEY, Judge: Respondent determined a deficiency of\n\n$17,047.96 in petitioners' 1992 Federal income tax. Unless\n\notherwise indicated, all section references are to the Internal\n\nRevenue Code in effect for the year in issue, and all Rule\n\nreferences are to the Tax Court Rules of Practice and Procedure.\n - 2 -\n\nAfter concessions, the issues for decision are whether\n\npetitioners' expenditures for legal services, which respondent\n\nagrees are deductible pursuant to section 212, are subject to\n\nsection 67(a), and alternatively whether such expenditures are\n\ncapital expenditures. We hold that petitioners' section 212\n\ndeduction is subject to section 67(a) and that their expenditures\n\nare not capital expenditures.\n\n FINDINGS OF FACT\n\n The parties submitted this case fully stipulated pursuant to\n\nRule 122. At the time Jeffrey and Mary Glassman filed their\n\npetition, they resided in Lake Forest, California.\n\n In 1954, Mary Glassman married James M. Oddino. During\n\ntheir marriage, Mr. Oddino was employed by the Hughes Aircraft\n\nCompany and participated in the Hughes Non-Bargaining Retirement\n\nPlan (Hughes Plan). On January 19, 1983, the Superior Court of\n\nthe State of California, County of Los Angeles (Superior Court),\n\nissued an interlocutory judgment that dissolved the marriage and\n\nawarded Mrs. Glassman a portion of Mr. Oddino's retirement\n\nbenefits. On March 24, 1989, the Superior Court issued a\n\nQualified Domestic Relations Order (QDRO) that modified and\n\nclarified the interlocutory judgment. The QDRO directed the\n\nHughes Plan to: (1) Pay Mrs. Glassman 36.6231 percent of Mr.\n\nOddino's \\accrued benefit[s] as of April 1",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

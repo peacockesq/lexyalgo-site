@@ -1,0 +1,52 @@
+{
+  "document_id": "8927e729-3cd9-403a-af89-69d34b1a852f",
+  "slug": "courtlistener-opinion-1494072-1494072",
+  "title": "CourtListener opinion 1494072",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 2,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 1
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1494072 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "BERTO HINOJOSA, Justice. Appellant appeals from a divorce decree signed and entered by the trial court subsequent to an oral pronouncement from the bench. By one point of error, appellant asserts that the trial court erred in entering the divorce decree and qualified domestic relations order since the two instruments did not comport with the oral rendition of judgment. We affirm. In December 1991, Rebecca Cook filed for divorce from her husband, William Cook. On July 30, 1992, the trial court executed a temporary order which superseded two prior temporary orders until further order of the court. During the divorce trial, the parties stipulate"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "divorce from her husband, William Cook. On July 30, 1992, the trial court executed a temporary order which superseded two prior temporary orders until further order of the court. During the divorce trial, the parties stipulated that 42% of Mr. Cook's federal retirement benefits constituted his separate property and the remaining 58% constituted community property. At the close of the trial, the trial court announced that it would render a decision on January 29, 1992. After a postponement, the court orally announced its ruling on February 11, 1993. The trial court granted the divorce and divided the property and debts owned by"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "JOSA, Justice. Appellant appeals from a divorce decree signed and entered by the trial court subsequent to an oral pronouncement from the bench. By one point of error, appellant asserts that the trial court erred in entering the divorce decree and qualified domestic relations order since the two instruments did not comport with the oral rendition of judgment. We affirm. In December 1991, Rebecca Cook filed for divorce from her husband, William Cook. On July 30, 1992, the trial court executed a temporary order which superseded two prior temporary orders until further order of the court. During the divorce trial, the parties stipulate"
+    },
+    {
+      "label": "valuation/division",
+      "quote": "mporary order which superseded two prior temporary orders until further order of the court. During the divorce trial, the parties stipulated that 42% of Mr. Cook's federal retirement benefits constituted his separate property and the remaining 58% constituted community property. At the close of the trial, the trial court announced that it would render a decision on January 29, 1992. After a postponement, the court orally announced its ruling on February 11, 1993. The trial court granted the divorce and divided the property and debts owned by the parties. Among her other awards, Mrs. Cook received 60% of the community interest in"
+    }
+  ],
+  "full_text": "888 S.W.2d 130 (1994) \n William K. COOK, Appellant, \nv. \nRebecca M. COOK, Appellee. \n No. 13-93-423-CV. \n Court of Appeals of Texas, Corpus Christi. \n October 28, 1994. \n Thomas B. Foster, Jr., James F. Tyson, Houston, for appellant. \n Joel A. Nass, Nass & Brown, Marchris G. Robinson, Chamberlain, Hrdlicka & White, Houston, for appellee. \n Before KENNEDY, GILBERTO HINOJOSA, and YAÑEZ, JJ. \n \n OPINION \n GILBERTO HINOJOSA, Justice. \n Appellant appeals from a divorce decree signed and entered by the trial court subsequent to an oral pronouncement from the bench. By one point of error, appellant asserts that the trial court erred in entering the divorce decree and qualified domestic relations order since the two instruments did not comport with the oral rendition of judgment. We affirm. \n In December 1991, Rebecca Cook filed for divorce from her husband, William Cook. On July 30, 1992, the trial court executed a temporary order which superseded two prior temporary orders until further order of the court. During the divorce trial, the parties stipulated that 42% of Mr. Cook's federal retirement benefits constituted his separate property and the remaining 58% constituted community property. At the close of the trial, the trial court announced that it would render a decision on January 29, 1992. \n After a postponement, the court orally announced its ruling on February 11, 1993. The trial court granted the divorce and divided the property and debts owned by the parties. Among her other awards, Mrs. Cook received 60% of the community interest in Mr. Cook's U.S. Civil Service Panama *131 Canal Commission retirement benefits. Thus",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

@@ -1,0 +1,48 @@
+{
+  "document_id": "27ead36c-5d6f-44a9-b6ac-ea0c25202042",
+  "slug": "courtlistener-opinion-2982613-2982613",
+  "title": "CourtListener opinion 2982613",
+  "citation": "Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 1,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 2982613 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "pension",
+      "quote": "Y, and GRIFFIN, Circuit Judges. This case originated from Belen Cuellar's long-closed divorce case. In a strange series of procedural events, Cuellar filed a motion against General Motors (\"GM\") in her divorce case demanding benefits from her ex-husband's pension plan pursuant to the Employee Retirement Income Security Act of 1974, as amended, ERISA, 29 U.S.C. § 1132, and the Qualified Domestic Relations Order entered in her divorce case. GM removed the case to federal court. Cuellar now appeals the district court's grant of summary judgment in favor of defendant GM. We dismiss. After this case was appealed an"
+    },
+    {
+      "label": "ERISA",
+      "quote": "orce case. In a strange series of procedural events, Cuellar filed a motion against General Motors (\"GM\") in her divorce case demanding benefits from her ex-husband's pension plan pursuant to the Employee Retirement Income Security Act of 1974, as amended, ERISA, 29 U.S.C. § 1132, and the Qualified Domestic Relations Order entered in her divorce case. GM removed the case to federal court. Cuellar now appeals the district court's grant of summary judgment in favor of defendant GM. We dismiss. After this case was appealed and fully briefed, GM filed a notice of bankruptcy, and this appeal was held in abeyance p"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "l events, Cuellar filed a motion against General Motors (\"GM\") in her divorce case demanding benefits from her ex-husband's pension plan pursuant to the Employee Retirement Income Security Act of 1974, as amended, ERISA, 29 U.S.C. § 1132, and the Qualified Domestic Relations Order entered in her divorce case. GM removed the case to federal court. Cuellar now appeals the district court's grant of summary judgment in favor of defendant GM. We dismiss. After this case was appealed and fully briefed, GM filed a notice of bankruptcy, and this appeal was held in abeyance pursuant to 11 U.S.C. § 362 of the Bankruptcy Code. In March 20"
+    }
+  ],
+  "full_text": "NOT FOR PUBLICATION\n File Name: 14a0804n.06\n\n Case No. 09-3226\n\n UNITED STATES COURT OF APPEALS\n FOR THE SIXTH CIRCUIT\n\n FILED\nMARY CAMPOS, Executor, ) Oct 23, 2014\n ) DEBORAH S. HUNT, Clerk\n Plaintiff, )\n ) ON APPEAL FROM THE UNITED\nv. ) STATES DISTRICT COURT FOR\n ) THE NORTHERN DISTRICT OF\nBELEN CUELLAR, ) OHIO\n )\n Defendant-Appellant, )\n ) ORDER\nGENERAL MOTORS CORPORATION, )\n\n Defendant-Appellee.\n\nBefore: SILER, CLAY, and GRIFFIN, Circuit Judges.\n\n This case originated from Belen Cuellar's long-closed divorce case. In a strange series of\n\nprocedural events, Cuellar filed a motion against General Motors (\"GM\") in her divorce case\n\ndemanding benefits from her ex-husband's pension plan pursuant to the Employee Retirement\n\nIncome Security Act of 1974, as amended, ERISA, 29 U.S.C. § 1132, and the Qualified\n\nDomestic Relations Order entered in her divorce case. GM removed the case to federal court.\n\nCuellar now appeals the district court's grant of summary judgment in favor of defendant GM.\n\nWe dismiss.\n\n After this case was appealed and fully briefed, GM filed a notice of bankruptcy, and this\n\nappeal was held in abeyance pursuant to 11 U.S.C. § 362 of the Bankruptcy Code. In March\n\n2014, counsel for GM moved to withdraw as counsel, as GM was dissolved in 2012 under the\n Case No. 09-3226\nCampos v. Cuellar\n\nliquidation plan of reorganization. In April 2014, we issued an order for Cuellar to show cause\n\nwhy this appeal is not moot due to the dissolution of GM.\n\n Cuellar responded to our order and reasoned that: (1) her case was asserted against the\n\nGM Pension Administration Center as Plan Administrator, not GM itself; (2) \"many questions\n\nneed to be addressed before dismissal\"; (3) she was not a party in the bankruptcy case; and\n\n(4) \"New GM\" may be liable for \"Old GM's\" debts. We granted GM counsel's motion to\n\nwithdraw as counsel.\n\n Cuellar's arguments that this case is not moot are without merit. First, the caption of this\n\ncase recognizes appellee as \"General Motors Corporation,\" and without Cuellar providing any\n\nadditional evidence to indicate that the wrong party has been included throughout the course of\n\nthis appeal, it is unclear why some other entity of GM, which may or may not be under the\n\npurview of the bankruptcy case, should be substituted. Moreover, Cuellar has not shown that the\n\nappellee in this case, whether it be GM or one of its subsidiaries, was not covered under the\n\nbankruptcy proceedings. Cuellar initiated this case, and it was up to her to have clarified any\n\nerrors at the commencement of this appeal.\n\n Cuellar should have been aware that GM was in bankruptcy in 2009, when GM filed its\n\nnotice of bankruptcy in this case. She had sufficient time to investigate and determine if she\n\nshould have intervened in the bankruptcy case through a proof of claim in bankruptcy court.\n\nRegardless of what Cuellar should have done, this court is unable to provide Cuellar any relief\n\nnow that GM, as it formerly existed, has been dissolved.\n\n Finally, Cuellar also theorizes, without pointing to any evidence or law, that because a\n\n\"New GM\" has emerged, perhaps it assumed the liabilities of the \"Old GM.\" Cuellar suggests\n\nthat the \"New GM\" has a website, and the website is evidence that GM survived in some\n\n -2-\n Case No. 09-3226\nCampos v. Cuellar\n\ncapacity or assumed the debts of \"Old GM.\" However, GM\"s website states, \"a new General\n\nMotors Company, which acquired many . . . assets of the old company, was created July 10,\n\n2009 . . . .\" GENERAL MOTORS, http://www.gm.com/company/historyAndHeritage/rebirth.html\n\n(last visited Oct. 20, 2014). \"The universally-accepted general rule is that where one corporation\n\npurchases business assets from another corporation, and a fair consideration was paid, the\n\npurchaser does not, simply by virtue of the asset purchase transaction, become responsible for\n\nthe seller's liabilities.\" City Env't, Inc. v. U.S. Chem. Co., 814 F. Supp. 624, 634 (E.D. Mich.\n\n1993), aff'd, 43 F.3d 244 (6th Cir. 1994) (noting that Michigan follows the universally-accepted\n\ngeneral rule).1 Even supposing \"New GM\" assumed some of the debts of \"Old GM,\" Cuellar\n\nhas not provided this court with evidence or law to show that the \"New GM\" did so in this case.\n\n In short, Cuellar has not provided any reason to resolve an appeal based on an unsecured\n\nclaim against a dissolved corporation, and her response to our order to show cause why this\n\nappeal is not rendered moot is insufficient.\n\n DISMISSED FOR MOOTNESS.\n\n1\n The applicable rule in this case would be a matter of state law.\n\n -3-",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

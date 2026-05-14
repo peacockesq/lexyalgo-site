@@ -1,0 +1,52 @@
+{
+  "document_id": "a19e276a-1641-4505-8852-0d4f862ebc2c",
+  "slug": "courtlistener-opinion-4330939-4330939",
+  "title": "CourtListener opinion 4330939",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 3,
+    "pension": 1,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4330939 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "xable on the entire distribution. P contends that he is not liable for tax on the portion of the distribution paid to his former wife and the portion used to satisfy the mortgage because the payments were made pursuant to a qualified domestic relations order (QDRO), as defined by sec. 414(p), I.R.C. Held: The divorce decree rendered after the lump-sum distribution to P does not meet the requirements of sec. 414(p), I.R.C., and is thus not a - 2 - QDRO. Therefore, P is liable for tax on the entire lump-sum distribution. Held, further, P is liable for additional tax on the entire lump-sum as a result of the early"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "rements of sec. 414(p), I.R.C., and is thus not a - 2 - QDRO. Therefore, P is liable for tax on the entire lump-sum distribution. Held, further, P is liable for additional tax on the entire lump-sum as a result of the early distribution from a qualified retirement plan pursuant to sec. 72(t), I.R.C. John L. Onesto, for petitioner. Donald K. Rogers and Matthew J. Fritz, for respondent. MEMORANDUM OPINION NIMS, Judge:* Respondent determined a deficiency in the 1991 Federal income tax of petitioner Jerry L. Burton in the amount of $53,916, stemming from funds received by petitioner in connection with the closing"
+    },
+    {
+      "label": "pension",
+      "quote": "T.C. Memo. 1997-20 UNITED STATES TAX COURT JERRY L. BURTON, Petitioner v. COMMISSIONER OF INTERNAL REVENUE, Respondent Docket No. 6115-95. Filed January 13, 1997. P received a lump-sum distribution from two accounts under a qualified pension plan in 1991. Pursuant to a divorce decree entered shortly thereafter, part of the distribution was used to pay off the mortgage on P's former residence and to pay his ex-wife $30,000. P reported the distribution as income on his 1991 Federal income tax return, but included the amount used to satisfy his mortgage obligation and the amount paid to his ex-wif"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "nd determined that P is taxable on the entire distribution. P contends that he is not liable for tax on the portion of the distribution paid to his former wife and the portion used to satisfy the mortgage because the payments were made pursuant to a qualified domestic relations order (QDRO), as defined by sec. 414(p), I.R.C. Held: The divorce decree rendered after the lump-sum distribution to P does not meet the requirements of sec. 414(p), I.R.C., and is thus not a - 2 - QDRO. Therefore, P is liable for tax on the entire lump-sum distribution. Held, further, P is liable for additional tax on the entire lump-sum as a result of the"
+    }
+  ],
+  "full_text": "T.C. Memo. 1997-20\n\n UNITED STATES TAX COURT\n\n JERRY L. BURTON, Petitioner v.\n COMMISSIONER OF INTERNAL REVENUE, Respondent\n\nDocket No. 6115-95. Filed January 13, 1997.\n\n P received a lump-sum distribution from two\naccounts under a qualified pension plan in 1991.\nPursuant to a divorce decree entered shortly\nthereafter, part of the distribution was used to pay\noff the mortgage on P's former residence and to pay his\nex-wife $30,000. P reported the distribution as income\non his 1991 Federal income tax return, but included the\namount used to satisfy his mortgage obligation and the\namount paid to his ex-wife as part of an alimony\ndeduction. R disallowed the alimony deduction and\ndetermined that P is taxable on the entire\ndistribution. P contends that he is not liable for tax\non the portion of the distribution paid to his former\nwife and the portion used to satisfy the mortgage\nbecause the payments were made pursuant to a qualified\ndomestic relations order (QDRO), as defined by sec.\n414(p), I.R.C. Held: The divorce decree rendered\nafter the lump-sum distribution to P does not meet the\nrequirements of sec. 414(p), I.R.C., and is thus not a\n - 2 -\n\n QDRO. Therefore, P is liable for tax on the entire\n lump-sum distribution. Held, further, P is liable for\n additional tax on the entire lump-sum as a result of\n the early distribution from a qualified retirement plan\n pursuant to sec. 72(t), I.R.C.\n\n John L. Onesto, for petitioner.\n\n Donald K. Rogers and Matthew J. Fritz, for respondent.\n\n MEMORANDUM OPINION\n\n NIMS, Judge:* Respondent determined a deficiency in the\n\n1991 Federal income tax of petitioner Jerry L. Burton in the\n\namount of $53,916, stemming from funds received by petitioner in\n\nconnection with the closing of his retirement benefits accounts.\n\nA petition was filed on April 24, 1995. An Answer was filed on\n\nJune 13, 1995. Respondent thereafter filed an Amendment to\n\nAnswer, claiming an increased deficiency of $17,676 based upon\n\nsection 72(t).\n\n Unless otherwise indicated, all section references are to\n\nsections of the Internal Revenue Code in effect for the year in\n\nissue, and all Rule references are to the Tax Court Rules of\n\nPractice and Procedure.\n\n The sole issue for decision is whether the portion of\n\npetitioner's retirement account distribution used to pay off the\n\nmortgage on petitioner's former residence and to pay his ex-wife\n\n *This case was reassigned to Judge Arthur L. Nims, III, by\nOrder of the Chief Judge.\n - 3 -\n\n$30,000 pursuant to their divorce decree constituted taxable\n\nincome to petitioner in the amount of $156,099.46 for 1991.\n\n This case was submitted to the Court on a full stipulation\n\nof facts, which are so found. The stipulation of facts and the\n\nattached exhibits are incorporated herein by this reference. At\n\nthe time the petition was filed, petitioner resided in Jackson,\n\nOhio.\n\n Background\n\n Petitioner's employment with Fluor Daniel, Inc. (Fluor\n\nDaniel) was terminated on March 8, 1991. Petitioner subsequently\n\ndivorced Linda Gayle Burton (Mrs. Burton) on June 11, 1991; an\n\n\\Agreed Decree of Divorce\\\" (Decree) was entered with the District",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

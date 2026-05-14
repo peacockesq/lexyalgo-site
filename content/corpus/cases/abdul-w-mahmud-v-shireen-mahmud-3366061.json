@@ -1,0 +1,44 @@
+{
+  "document_id": "b7d1f04f-de9e-4383-9716-bc3847408ee2",
+  "slug": "abdul-w-mahmud-v-shireen-mahmud-3366061",
+  "title": "Abdul W. Mahmud v. Shireen Mahmud",
+  "citation": "QDRO",
+  "source_url": "https://www.courtlistener.com/opinion/3370521/mahmud-v-mahmud-no-fa94-0071257-s-jan-2-1996/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "1996-01-02",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 2,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 1,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: Abdul W. Mahmud v. Shireen Mahmud is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 2/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "is ordered sold and the net proceeds remaining after payment of normal costs of sale (taxes commission and adjustments) shall be divided 70% to the wife and 30% to the husband. 9. The plaintiff's pension plan shall be equally divided between the parties, by QDRO and the court retains jurisdiction to enter said order. 10. The plaintiff is to name the defendant as irrevocable beneficiary of $100,000.00 in life insurance for so long as he is obligated to pay alimony. 11. The plaintiff shall transfer $19,000 00 of the M.D. Health plan proceeds to the defendant. He shall retain the balance and be responsible for all"
+    },
+    {
+      "label": "pension",
+      "quote": "half of the 1994 tax refund. 8. The Bear Rock Road property is ordered sold and the net proceeds remaining after payment of normal costs of sale (taxes commission and adjustments) shall be divided 70% to the wife and 30% to the husband. 9. The plaintiff's pension plan shall be equally divided between the parties, by QDRO and the court retains jurisdiction to enter said order. 10. The plaintiff is to name the defendant as irrevocable beneficiary of $100,000.00 in life insurance for so long as he is obligated to pay alimony. 11. The plaintiff shall transfer $19,000 00 of the M.D. Health plan proceeds to the defend"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] MEMORANDUM OF DECISION \nThe parties were married on April 10 1966 in District-Chittagong, Bangladesh. \n All jurisdictional requirements have been met. \n The marriage of the parties has broken down irretrievably and the same is hereby dissolved. \n The court has considered all the statutory criteria in 46b-81 \nand 46b-82 and enters the following orders: \n 1. The plaintiff shall pay to the defendant as alimony $575.00 per week. Said order shall terminate upon the remarriage of the defendant, the death of either party or in accordance with the statute regarding cohabitation. \n 2. The husband is awarded all right title and interest in properties located at South Main Street Middletown; Almar Drive, and Boca Isle, Florida. \nCT Page 324 \n 3. The husband is awarded the IRA Fleet Bank Credit Union accounts and automobiles shown on his affidavit. \n 4. The wife is awarded the jewelry. \n 5. The wife is awarded the IRA Fleet Bank account, and automobiles listed on her financial affidavit. \n 6. The wife is awarded the monies held in escrow by Attorney Lang. \n 7. Each party is awarded one half of the 1994 tax refund. \n 8. The Bear Rock Road property is ordered sold and the net proceeds remaining after payment of normal costs of sale (taxes commission and adjustments) shall be divided 70% to the wife and 30% to the husband. \n 9. The plaintiff's pension plan shall be equally divided between the parties, by QDRO and the court retains jurisdiction to enter said order. \n 10. The plaintiff is to name the defendant as irrevocable beneficiary of $100,000.00 in life insurance for so long as he is obligated to pay alimony. \n 11. The plaintiff shall transfer $19,000 00 of the M.D. Health plan proceeds to the defendant. He shall retain the balance and be responsible for all taxes associated with the asset. \n 12. The plaintiff shall be responsible for all costs associated with the Bear Rock Road property until it is sold and shall indemnify and hold the defendant harmless thereon. \n 13. The plaintiff shall maintain the defendant on his medical plan for three years. Each party shall pay one-half the premium. \n 14. The plaintiff shall pay all arrearages due within thirty days. There is no finding of contempt. \n 15. The defendant is awarded all personal property on her list of requests filed with the court. \n By the Court, CT Page 325 \n ELAINE GORDAN, J.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

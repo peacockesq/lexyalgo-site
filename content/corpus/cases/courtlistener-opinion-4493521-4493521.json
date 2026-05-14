@@ -1,0 +1,44 @@
+{
+  "document_id": "8089ddf9-7549-4800-87ab-0b68396a5e45",
+  "slug": "courtlistener-opinion-4493521-4493521",
+  "title": "CourtListener opinion 4493521",
+  "citation": "Qualified Domestic Relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4493521 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "or lack of jurisdiction because of an untimely notice of appeal. On January 2, 2020, appellant filed a response stating he is seeking a restricted appeal. A review of the clerk's record reflects appellant filed his notice of appeal within six months after the Qualified Domestic Relations order was signed, did not participate in the underlying proceeding, and did not file a postjudgment motion. See TEX. R. APP. P. 25.1(d)(7), 26.1(c). We therefore retain this appeal on this court's docket. On December 5, 2019, appellant filed a Statement of Inability to Afford Payment of Court Cost in this court, and it does not appear that appellant filed the st"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "jurisdiction because of an untimely notice of appeal. On January 2, 2020, appellant filed a response stating he is seeking a restricted appeal. A review of the clerk's record reflects appellant filed his notice of appeal within six months after the Qualified Domestic Relations order was signed, did not participate in the underlying proceeding, and did not file a postjudgment motion. See TEX. R. APP. P. 25.1(d)(7), 26.1(c). We therefore retain this appeal on this court's docket. On December 5, 2019, appellant filed a Statement of Inability to Afford Payment of Court Cost in this court, and it does not appear that appellant filed the st"
+    }
+  ],
+  "full_text": "Fourth Court of Appeals\n San Antonio, Texas\n January 17, 2020\n\n No. 04-19-00818-CV\n\n IN THE INTEREST OF K.R.C., A CHILD,\n\n From the 25th Judicial District Court, Guadalupe County, Texas\n Trial Court No. 18-1390-CV-A\n Honorable Dulce Madrigal, Judge Presiding\n\n ORDER\n On December 11, 2019, we ordered appellant to file a response showing cause why this\nappeal should not be dismissed for lack of jurisdiction because of an untimely notice of appeal.\nOn January 2, 2020, appellant filed a response stating he is seeking a restricted appeal. A review\nof the clerk's record reflects appellant filed his notice of appeal within six months after the\nQualified Domestic Relations order was signed, did not participate in the underlying proceeding,\nand did not file a postjudgment motion. See TEX. R. APP. P. 25.1(d)(7), 26.1(c). We therefore\nretain this appeal on this court's docket.\n On December 5, 2019, appellant filed a Statement of Inability to Afford Payment of\nCourt Cost in this court, and it does not appear that appellant filed the statement in the trial court.\nIt is therefore ORDERED that the clerk of this court provide a copy of appellant's statement to\nthe other parties, the trial court clerk, and the court reporter. It is further ORDERED that any\nobjection to appellant's indigence must be filed no later than by January 27, 2020.\n\n _________________________________\n Beth Watkins, Justice\n\n IN WITNESS WHEREOF, I have hereunto set my hand and affixed the seal of the said\ncourt on this 17th day of January, 2020.\n\n ___________________________________\n MICHAEL A. CRUZ,\n Clerk of Court",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

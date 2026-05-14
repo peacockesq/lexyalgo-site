@@ -1,0 +1,52 @@
+{
+  "document_id": "d94e1fcc-6ebd-4951-9bdc-7db6ca9f817f",
+  "slug": "courtlistener-opinion-3735597-3735597",
+  "title": "CourtListener opinion 3735597",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 4,
+    "retirement benefits": 1,
+    "pension": 5,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3735597 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "ecree also stated that the parties would divide equally all rights to pension and Social Security benefits which were acquired during marriage. At the time, appellant was receiving monthly distributions from a fully vested pension. Almost two years later, a Qualified Domestic Relations Order (QDRO) was filed, assigning half of the monthly pension distributions to appellee. The court stated that it retained jurisdiction to amend the QDRO to effectuate the court's intent under the QDRO and the judgment and to provide for the equalization of the total pension and social security benefits received by the parties. Both parties individually received"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "2 a month from the pension plan. In February 1999, the monthly distribution decreased to $378.52 each. This decrease was the result of appellant reaching age 62 and thus becoming eligible to apply for early retirement Social Security benefits. 1 These early retirement benefits would total approximately $800 per month. Rather than apply for these benefits"
+    },
+    {
+      "label": "pension",
+      "quote": "mes eligible for governmental- or employer-sponsored health care. This spousal support provision contained no reservation of jurisdiction, and appellee did not appeal the lack thereof. The decree also stated that the parties would divide equally all rights to pension and Social Security benefits which were acquired during marriage. At the time, appellant was receiving monthly distributions from a fully vested pension. Almost two years later, a Qualified Domestic Relations Order (QDRO) was filed, assigning half of the monthly pension distributions to appellee. The court stated that it retained jurisdiction to amend the"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "stated that the parties would divide equally all rights to pension and Social Security benefits which were acquired during marriage. At the time, appellant was receiving monthly distributions from a fully vested pension. Almost two years later, a Qualified Domestic Relations Order (QDRO) was filed, assigning half of the monthly pension distributions to appellee. The court stated that it retained jurisdiction to amend the QDRO to effectuate the court's intent under the QDRO and the judgment and to provide for the equalization of the total pension and social security benefits received by the parties. Both parties individually received"
+    }
+  ],
+  "full_text": "OPINION \nDefendant-appellant Donald Camsky appeals the decision of the Belmont County Common Pleas Court, Domestic Relations Division, which incorporated an in-court agreement by appellant to apply for early retirement Social Security benefits into an order of the court. For the following reasons, the trial court's judgment is reversed and this cause is remanded. \n STATEMENT OF FACTS \nAppellant and appellee Irene Camsky were divorced by decree on November 8, 1993. The decree ordered appellant to pay $50 per month in spousal support to appellee until she dies, remarries or becomes eligible for governmental- or employer-sponsored health care. This spousal support provision contained no reservation of jurisdiction, and appellee did not appeal the lack thereof. The decree also stated that the parties would divide equally all rights to pension and Social Security benefits which were acquired during marriage. At the time, appellant was receiving monthly distributions from a fully vested pension. \n Almost two years later, a Qualified Domestic Relations Order (QDRO) was filed, assigning half of the monthly pension distributions to appellee. The court stated that it retained jurisdiction to amend the QDRO to effectuate the court's intent under the QDRO and the judgment and to provide for the equalization of the total pension and social security benefits received by the parties. Both parties individually received $752.52 a month from the pension plan. \n In February 1999, the monthly distribution decreased to $378.52 each. This decrease was the result of appellant reaching age 62 and thus becoming eligible to apply for early retirement Social Security benefits. 1 These early retirement benefits would total approximately $800 per month. Rather than apply for these benefits",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

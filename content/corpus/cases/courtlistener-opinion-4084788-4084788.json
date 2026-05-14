@@ -1,0 +1,48 @@
+{
+  "document_id": "438880dc-f813-4edd-a52d-e25de0ed41d3",
+  "slug": "courtlistener-opinion-4084788-4084788",
+  "title": "CourtListener opinion 4084788",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 0,
+    "pension": 11,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4084788 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "id defendant starts to obtain his pension.\" Defendant began receiving pension benefits in March 1991. Plaintiff, however, was unaware that defendant was receiving such benefits and she did not begin to receive her share until October 2005, when she obtained a qualified domestic relations order (QDRO). By notice of motion filed October 21, 2010, plaintiff sought her share of pension benefits received by defendant from the date of his retirement in March 1991 until October 2005, when plaintiff began prospectively receiving her share of such benefits pursuant to the QDRO. Supreme Court erred in granting plaintiff's motion in its entirety. Plaintif"
+    },
+    {
+      "label": "pension",
+      "quote": "granted the motion of plaintiff for a money judgment against defendant. It is hereby ORDERED that the order so appealed from is unanimously modified on the law by denying plaintiff's motion in part and directing that defendant pay plaintiff her share of any pension payment defendant received on or after October 21, 2004, and as modified the order is affirmed without costs. Memorandum: In this post-matrimonial proceeding, defendant appeals from an order that granted plaintiff's motion seeking a money judgment for sums allegedly due to plaintiff as her share of defendant's pension benefits. The judgment of divorce, en"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "nt starts to obtain his pension.\" Defendant began receiving pension benefits in March 1991. Plaintiff, however, was unaware that defendant was receiving such benefits and she did not begin to receive her share until October 2005, when she obtained a qualified domestic relations order (QDRO). By notice of motion filed October 21, 2010, plaintiff sought her share of pension benefits received by defendant from the date of his retirement in March 1991 until October 2005, when plaintiff began prospectively receiving her share of such benefits pursuant to the QDRO. Supreme Court erred in granting plaintiff's motion in its entirety. Plaintif"
+    }
+  ],
+  "full_text": "SUPREME COURT OF THE STATE OF NEW YORK\n Appellate Division, Fourth Judicial Department\n\n264\nCA 12-01303\nPRESENT: SMITH, J.P., FAHEY, SCONIERS, VALENTINO, AND WHALEN, JJ.\n\nINEZ BIELECKI, PLAINTIFF-RESPONDENT,\n\n V MEMORANDUM AND ORDER\n\nRICHARD BIELECKI, DEFENDANT-APPELLANT.\n\nBENNETT, DIFILIPPO & KURTZHALTS, LLP, EAST AURORA (DAVID S. WHITTEMORE\nOF COUNSEL), FOR DEFENDANT-APPELLANT.\n\nHOLLY BAUM, BUFFALO (JAMES P. RENDA OF COUNSEL), FOR\nPLAINTIFF-RESPONDENT.\n\n Appeal from an order of the Supreme Court, Wyoming County\n(Michael F. Griffith, A.J.), entered October 5, 2011. The order\ngranted the motion of plaintiff for a money judgment against\ndefendant.\n\n It is hereby ORDERED that the order so appealed from is\nunanimously modified on the law by denying plaintiff's motion in part\nand directing that defendant pay plaintiff her share of any pension\npayment defendant received on or after October 21, 2004, and as\nmodified the order is affirmed without costs.\n\n Memorandum: In this post-matrimonial proceeding, defendant\nappeals from an order that granted plaintiff's motion seeking a money\njudgment for sums allegedly due to plaintiff as her share of\ndefendant's pension benefits. The judgment of divorce, entered in\n1985, provided that plaintiff was entitled to her Majauskas share of\ndefendant's pension \"when said defendant starts to obtain his\npension.\" Defendant began receiving pension benefits in March 1991.\nPlaintiff, however, was unaware that defendant was receiving such\nbenefits and she did not begin to receive her share until October\n2005, when she obtained a qualified domestic relations order (QDRO).\nBy notice of motion filed October 21, 2010, plaintiff sought her share\nof pension benefits received by defendant from the date of his\nretirement in March 1991 until October 2005, when plaintiff began\nprospectively receiving her share of such benefits pursuant to the\nQDRO.\n\n Supreme Court erred in granting plaintiff's motion in its\nentirety. Plaintiff's claim with respect to defendant's pension\nbenefits is subject to the six-year statute of limitations set forth\nin CPLR 213 (1) (see Tauber v Lebow, 65 NY2d 596, 598; Patricia A.M. v\nEugene W.M., 24 Misc 3d 1012, 1015; see also Woronoff v Woronoff, 70\n -2- 264\n CA 12-01303\n\nAD3d 933, 934, lv denied 14 NY3d 713). The statute began to run when\ndefendant began receiving his pension in March 1991 (see Duhamel v\nDuhamel, 188 Misc 2d 754, 756, affd 4 AD3d 739; Patricia A.M., 24 Misc\n3d at 1015; see also Bayen v Bayen, 81 AD3d 865, 866). Because\ndefendant's obligation to pay plaintiff her share of the pension was\nongoing, the statute began to run anew with each missed payment (see\nPatricia A.M., 24 Misc 3d at 1015-1016; see generally Medalie v\nJacobson, 120 AD2d 652). Thus, plaintiff's claim is timely to the\nextent that it seeks payments missed within six years prior to her\nmotion filed on October 21, 2010. To the extent that plaintiff sought\nher share of pension payments made more than six years prior to\nOctober 21, 2010, however, plaintiff's claim is untimely. We\ntherefore modify the order accordingly. Finally, we reject\nplaintiff's contention that defendant is equitably estopped from\nraising the statute of limitations as a defense inasmuch as defendant\nmade no affirmative misrepresentation to her, and his silence or\nfailure to disclose the date on which he began receiving his pension\nbenefits is insufficient to invoke the doctrine of equitable estoppel\n(see generally Doe v Holy See [State of Vatican City], 17 AD3d 793,\n795, lv denied 6 NY3d 707).\n\nEntered: May 3, 2013 Frances E. Cafarell\n Clerk of the Court",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

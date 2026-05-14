@@ -1,0 +1,52 @@
+{
+  "document_id": "caaa4e42-82c6-4d69-b29a-1499a96c82d4",
+  "slug": "teresa-m-drew-v-steven-r-drew-3354552",
+  "title": "Teresa M. Drew v. Steven R. Drew.",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": "https://www.courtlistener.com/opinion/3359020/drew-v-drew-no-fa-01-0181713-s-jan-23-2002/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "2002-01-23",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 1,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 1,
+    "alternate payee": 0,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: Teresa M. Drew v. Steven R. Drew. is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "l be applied to the wife's one-half interest due to real estate commissions and closing costs in the event that the husband retains the residence. 2. Pension and Retirement Accounts (a) The husband agrees that the Court in the pending action shall enter a Qualified Domestic Relations Order assigning to the wife one-half of the husband's accrued benefit in the R. R, Donnelly Sons Pension Plan as of the date of dissolution of marriage. (b) The husband agrees that the Court in the pending action shall enter a Qualified Domestic Relations Order assigning to the wife one-half of the husband's accrued benefit in the R. R. Donnelly Sons 401 k Plan"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "permitted to retain possession of the residence. (c) The amount, if any, of credits that shall be applied to the wife's one-half interest due to real estate commissions and closing costs in the event that the husband retains the residence. 2. Pension and Retirement Accounts (a) The husband agrees that the Court in the pending action shall enter a Qualified Domestic Relations Order assigning to the wife one-half of the husband's accrued benefit in the R. R, Donnelly Sons Pension Plan as of the date of dissolution of marriage. (b) The husband agrees that the Court in the pending action shall enter a Qualified Domestic Relat"
+    },
+    {
+      "label": "pension",
+      "quote": "e husband is permitted to retain possession of the residence. (c) The amount, if any, of credits that shall be applied to the wife's one-half interest due to real estate commissions and closing costs in the event that the husband retains the residence. 2. Pension and Retirement Accounts (a) The husband agrees that the Court in the pending action shall enter a Qualified Domestic Relations Order assigning to the wife one-half of the husband's accrued benefit in the R. R, Donnelly Sons Pension Plan as of the date of dissolution of marriage. (b) The husband agrees that the Court in the pending action shall enter a Q"
+    },
+    {
+      "label": "401(k)",
+      "quote": "s Pension Plan as of the date of dissolution of marriage. (b) The husband agrees that the Court in the pending action shall enter a Qualified Domestic Relations Order assigning to the wife one-half of the husband's accrued benefit in the R. R. Donnelly Sons 401 k Plan as of the date of dissolution of marriage. (c) Each party shall retain their own Fleet IRA. (d) The husband shall transfer an amount necessary to equalize the parties' AMEX IRA accounts, utilizing values as of the date of transfer. (e) The Court shall retain jurisdiction as to who shall bear the cost for the preparation of the QUADROS. THE PLAI"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] STIPULATION \nThe parties stipulate that the Court shall enter the following orders upon its entry of the decree of dissolution. \n 1. Marital Residence \n That the parties shell equally divide the equity in the marital residence and the court shall determine the following issues pertaining to the marital residence, \n (a) When and if the marital residence shall be sold; CT Page 1297-ck \n (b) The amount and time of payment of the wife's one-half interest if the husband is permitted to retain possession of the residence. \n (c) The amount, if any, of credits that shall be applied to the wife's one-half interest due to real estate commissions and closing costs in the event that the husband retains the residence. \n 2. Pension and Retirement Accounts \n (a) The husband agrees that the Court in the pending action shall enter a Qualified Domestic Relations Order assigning to the wife one-half of the husband's accrued benefit in the R. R, Donnelly Sons Pension Plan as of the date of dissolution of marriage. \n (b) The husband agrees that the Court in the pending action shall enter a Qualified Domestic Relations Order assigning to the wife one-half of the husband's accrued benefit in the R. R. Donnelly Sons 401 k Plan as of the date of dissolution of marriage. \n (c) Each party shall retain their own Fleet IRA. \n (d) The husband shall transfer an amount necessary to equalize the parties' AMEX IRA accounts, utilizing values as of the date of transfer. \n (e) The Court shall retain jurisdiction as to who shall bear the cost for the preparation of the QUADROS. \n THE PLAINTIFF THE DEFENDANT \n __________________________ ___________________________ TERESA DREW STEVEN DREW \n __________________________ ___________________________ MARY BADOYANNIS THOMAS M. SHANLEY Attorney for the Plaintiff Attorney for the Defendant",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

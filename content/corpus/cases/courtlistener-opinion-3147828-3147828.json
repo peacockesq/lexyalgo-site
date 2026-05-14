@@ -1,0 +1,48 @@
+{
+  "document_id": "0321088e-0e97-4a6e-82c0-af94dd8590a3",
+  "slug": "courtlistener-opinion-3147828-3147828",
+  "title": "CourtListener opinion 3147828",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 2,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3147828 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "payment in the amount of $8,483 to be paid from petitioner's share of the proceeds from the marital home. In addition, the judgment awarded an equal division of petitioner's retirement account from McGraw-Hill Publishers pursuant to a -2- No. 1-10-1452 qualified domestic relations order. Lastly, respondent was awarded spousal support in the sum of $3,000 per month continuing \\until the death of either party"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "ployed and had no income from wages or business. Pursuant to the judgment, petitioner was awarded a vacation home located in Minoqua, Wisconsin, one half of the proceeds from the sale of the marital home located in San Diego, California and six individual retirement accounts (IRAs) held in his name. Respondent was awarded one-half of the proceeds from the marital home, four IRAs held in her name, Southwestern Bell bonds, and an equalization payment in the amount of $8,483 to be paid from petitioner's share of the proceeds from the marital home. In addition, the judgment awarded an equal division of petitioner's retirement"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "n the amount of $8,483 to be paid from petitioner's share of the proceeds from the marital home. In addition, the judgment awarded an equal division of petitioner's retirement account from McGraw-Hill Publishers pursuant to a -2- No. 1-10-1452 qualified domestic relations order. Lastly, respondent was awarded spousal support in the sum of $3,000 per month continuing \\until the death of either party"
+    }
+  ],
+  "full_text": "No. 1-10-1452\n\n FIFTH DIVISION\n March 31, 2011\n\n No. 1-10-1452\n_____________________________________________________________________________\n\n IN THE\n APPELLATE COURT OF ILLINOIS\n FIRST JUDICIAL DISTRICT\n_____________________________________________________________________________\n\nIN RE THE MARRIAGE OF ) Appeal from the\n ) Circuit Court of\nJAMES A. ANDERSON ) Cook County, Illinois.\n )\n Petitioner-Appellee, )\n )\n ) No. 99 D 06640\n and )\n )\nPATRICIA M. ANDERSON, ) The Honorable\n ) Raul Vega,\n Respondent-Appellant. ) Judge Presiding.\n )\n )\n )\n____________________________________________________________________________\n\n JUSTICE JOSEPH GORDON delivered the judgment of the court, with opinion.\n Justices Smith and Howse concurred in the judgment and opinion.\n\n OPINION\n\n Respondent Patricia Anderson appeals from an order from the circuit court of Cook\n\nCounty terminating her maintenance and denying her petition for rule to show cause for indirect\n\ncivil contempt. Respondent contends that the trial court erred in terminating her maintenance\n\nbecause petitioner James Anderson failed to establish the existence of a substantial change and\n\nthat, in any event, petitioner has sufficient income and assets to continue to pay maintenance to\n No. 1-10-1452\n\nrespondent, while respondent is financially dependent. In addition, respondent contends that the\n\ncourt erred in not finding petitioner in contempt for his noncompliance with the court's previous\n\norder denying petitioner's motion to modify maintenance. While the trial court properly found\n\nthat petitioner showed a substantial change in circumstances since the entry of the previous order\n\non maintenance, it erred in taking into account respondent's eligibility for public assistance when\n\ndetermining whether maintenance should be terminated.\n\n BACKGROUND\n\n Respondent and petitioner were married on February 3, 1951. On November 4, 1988, a\n\njudgment of dissolution of marriage, which incorporated a marital settlement agreement, was\n\nentered by the superior court of the State of California, County of San Diego, and on June 1,\n\n1992, that judgment was enrolled in the circuit court of Cook County. At the time the judgment\n\nwas entered, the parties had been married for 37 years and had no minor children. Also at that\n\ntime, petitioner was self-employed in sales and expected to a net income of $105,000 for the year\n\nof 1988. Respondent was unemployed and had no income from wages or business.\n\n Pursuant to the judgment, petitioner was awarded a vacation home located in Minoqua,\n\nWisconsin, one half of the proceeds from the sale of the marital home located in San Diego,\n\nCalifornia and six individual retirement accounts (IRAs) held in his name. Respondent was\n\nawarded one-half of the proceeds from the marital home, four IRAs held in her name,\n\nSouthwestern Bell bonds, and an equalization payment in the amount of $8,483 to be paid from\n\npetitioner's share of the proceeds from the marital home. In addition, the judgment awarded an\n\nequal division of petitioner's retirement account from McGraw-Hill Publishers pursuant to a\n\n -2-\n No. 1-10-1452\n\nqualified domestic relations order. Lastly, respondent was awarded spousal support in the sum of\n\n$3,000 per month continuing \\until the death of either party",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

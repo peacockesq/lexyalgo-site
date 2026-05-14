@@ -1,0 +1,44 @@
+{
+  "document_id": "ce0ef1b5-9ece-4f1a-919b-1ef75ee014e0",
+  "slug": "courtlistener-opinion-2758554-2758554",
+  "title": "CourtListener opinion 2758554",
+  "citation": "Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 2758554 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "bus, Ohio 43212-2710 Licking County, Case No. 14 CA 28 2 Wise, J. {¶1}. Appellant Kent Ware appeals the decision of the Court of Common Pleas, Domestic Relations Division, Licking County, which issued a nunc pro tunc Qualified Domestic Relations Order (\\QDRO\\\") following his divorce from Appellee Barbara Ware."
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "Columbus, Ohio 43215 Columbus, Ohio 43212-2710 Licking County, Case No. 14 CA 28 2 Wise, J. {¶1}. Appellant Kent Ware appeals the decision of the Court of Common Pleas, Domestic Relations Division, Licking County, which issued a nunc pro tunc Qualified Domestic Relations Order (\\QDRO\\\") following his divorce from Appellee Barbara Ware."
+    }
+  ],
+  "full_text": "[Cite as Ware v. Ware, 2014-Ohio-5410.]\n\n COURT OF APPEALS\n LICKING COUNTY, OHIO\n FIFTH APPELLATE DISTRICT\n\nKENT WARE JUDGES:\n Hon. W. Scott Gwin, P. J.\n Plaintiff-Appellant Hon. Sheila G. Farmer, J.\n Hon. John W. Wise, J.\n-vs-\n Case No. 14 CA 28\nBARBARA WARE\n\n Defendant-Appellee OPINION\n\nCHARACTER OF PROCEEDING: Civil Appeal from the Court of Common\n Pleas, Domestic Relations Division, Case\n No. 10 DR 554 RPW\n\nJUDGMENT: Affirmed\n\nDATE OF JUDGMENT ENTRY: December 4, 2014\n\nAPPEARANCES:\n\nFor Plaintiff-Appellant For Defendant-Appellee\n\nEUGENE R. BUTLER PAUL GIORGIANNI\nEUGENE R. BUTLER CO. LPA GIORGIANNI LAW LLC\n145 East Rich Street, Second Floor 1538 Arlington Avenue\nColumbus, Ohio 43215 Columbus, Ohio 43212-2710\n Licking County, Case No. 14 CA 28 2\n\nWise, J.\n\n {¶1}. Appellant Kent Ware appeals the decision of the Court of Common Pleas,\n\nDomestic Relations Division, Licking County, which issued a nunc pro tunc Qualified\n\nDomestic Relations Order (\\QDRO\\\") following his divorce from Appellee Barbara Ware.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

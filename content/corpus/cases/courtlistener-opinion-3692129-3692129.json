@@ -1,0 +1,48 @@
+{
+  "document_id": "ecf1ce87-8e45-446e-bbb5-8691d127c238",
+  "slug": "courtlistener-opinion-3692129-3692129",
+  "title": "CourtListener opinion 3692129",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3692129 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "cript, overruled the objections, but modified the child support retroactive to June 10, 1997. Subsequently on March 25, 1998, the court granted the divorce and followed the magistrate's recommendation in that it ordered Denise to pay John $6,495 by means of a Qualified Domestic Relations Order which transferred funds from her TRW pension to John's TRW pension, and also required John to pay 28% of Dr. Thomas Hall's fee. John now appeals raising four assignments of error for our review. I. THE TRIAL COURT COMMITTED REVERSIBLE ERROR WHEN IT DENIED APPELLANT'S MOTION FOR ATTORNEYS FEES. John asserts the court abused its discretion when it denied"
+    },
+    {
+      "label": "pension",
+      "quote": "ive to June 10, 1997. Subsequently on March 25, 1998, the court granted the divorce and followed the magistrate's recommendation in that it ordered Denise to pay John $6,495 by means of a Qualified Domestic Relations Order which transferred funds from her TRW pension to John's TRW pension, and also required John to pay 28% of Dr. Thomas Hall's fee. John now appeals raising four assignments of error for our review. I. THE TRIAL COURT COMMITTED REVERSIBLE ERROR WHEN IT DENIED APPELLANT'S MOTION FOR ATTORNEYS FEES. John asserts the court abused its discretion when it denied his motion for attorney fees in connection wi"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "rruled the objections, but modified the child support retroactive to June 10, 1997. Subsequently on March 25, 1998, the court granted the divorce and followed the magistrate's recommendation in that it ordered Denise to pay John $6,495 by means of a Qualified Domestic Relations Order which transferred funds from her TRW pension to John's TRW pension, and also required John to pay 28% of Dr. Thomas Hall's fee. John now appeals raising four assignments of error for our review. I. THE TRIAL COURT COMMITTED REVERSIBLE ERROR WHEN IT DENIED APPELLANT'S MOTION FOR ATTORNEYS FEES. John asserts the court abused its discretion when it denied"
+    }
+  ],
+  "full_text": "JOURNAL ENTRY AND OPINION\nJohn Cilenti appeals from a judgment of the Domestic Relations Court which granted him a divorce from his ex-wife, Denise Cilenti, urging that the court improperly denied his motion for attorney fees, incorrectly imputed income to him, failed to consider the liquidity of certain marital assets, and erroneously ordered him to pay a portion of the Family Conciliation Services fee. \n After examining the record and the applicable law, we modify the judgment and, as modified, affirm the judgment of the court. \n The history of the case reveals that on January 17, 1995, John filed a complaint seeking a divorce from his spouse, Denise. In response, she sought reconciliation which the court granted, ordering her to pay the fees of Dr. Thomas Hall, an expert whom she had retained. At that time, however, the court provided that this expense would be presented at trial as a litigation expense. Thereafter, a magistrate heard the matter on December 5 and 9, 1996, January 30 and 31, February 5 and 7, and March 12 and 13, 1997, and on August 27, 1997, the magistrate filed its decision. On September 9, 1997. John objected to the decision, and on December 12, 1997, the court, after noting that he had not prepared or filed a transcript, overruled the objections, but modified the child support retroactive to June 10, 1997. Subsequently on March 25, 1998, the court granted the divorce and followed the magistrate's recommendation in that it ordered Denise to pay John $6,495 by means of a Qualified Domestic Relations Order which transferred funds from her TRW pension to John's TRW pension, and also required John to pay 28% of Dr. Thomas Hall's fee. John now appeals raising four assignments of error for our review. \n I. THE TRIAL COURT COMMITTED REVERSIBLE ERROR WHEN IT DENIED APPELLANT'S MOTION FOR ATTORNEYS FEES. \n John asserts the court abused its discretion when it denied his motion for attorney fees in connection with his motion to show cause alleging that since he prevailed on the motion and substantially complied with Dom. Rel. Loc. R. 21, he should be awarded attorney fees on that motion. Denise maintains that John is not entitled to attorney fees because his counsel failed to provide the court with an itemized statement of attorney fees as required by Dom. Rel. Loc. R. 21. The issue here then for our review concerns whether the court abused its discretion when it denied John's claims for attorney fees. \n An award of attorney fees in a domestic relations action lies within the sound discretion of the trial court. Gullia v. Gullia \n(1994) 93 Ohio App.3d 653 , 661 ; citing Swanson v. Swanson \n(1976), 48 Ohio App.2d 85 . \n The term \\abuse of discretion\\\" connotes more than an error of law or judgment. It implies that the court's attitude is unreasonable",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "document_id": "e4e70129-b848-44f8-b1c1-1a63be4b09bb",
+  "slug": "courtlistener-opinion-4908539-4908539",
+  "title": "CourtListener opinion 4908539",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4908539 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "domestic relations order",
+      "quote": "not award, refuse to change, or modify custody; nor does it hold or decline to hold a person in contempt of such an order. It simply vacates a prior order declining to hold a person in contempt, and it schedules further proceedings. Because the interlocutory domestic relations order that Sinclair-Jamison wishes to appeal does not come within the ambit of OCGA § 5-6-34 (a) (11), she was required to file an interlocutory application to obtain appellate review at this juncture. Her failure to do so deprives us of jurisdiction over this direct appeal, which is hereby DISMISSED. See Bailey v. Bailey, 266 Ga. 832, 833 (471 SE2d 213) (1996);"
+    }
+  ],
+  "full_text": "Court of Appeals\nof the State of Georgia\n\n ATLANTA,____________________\n September 02, 2021\n\nThe Court of Appeals hereby passes the following order:\n\nA22A0202. ANNA SINCLAIR-JAMISON v. DEMETRISE PINKERTON.\n\n Anna Sinclair-Jamison and Demetrise Pinkerton are the parents of minor child\nJ. S.-P. In a prior action, the trial court awarded custody of J. S.-P. to Sinclair-Jamison\nand granted visitation to Pinkerton. Pinkerton filed this petition seeking to hold\nSinclair-Jamison in contempt for willfully interfering with his visitation. The trial\ncourt entered a final order denying Pinkerton's petition, and he filed a \"Motion to Set\nAside, for Reconsideration, and/or Clarification\" of that order. The trial court granted\nPinkerton's motion without explanation, set aside its prior order, and scheduled a\nhearing. Sinclair-Jamison appeals, claiming that this Court has jurisdiction under\nOCGA § 5-6-34 (a) (11).\n A party seeking review of an order entered in a domestic relations case\ngenerally must file an application for discretionary appeal. See OCGA § 5-6-35 (a)\n(2). When the case remains pending in the trial court, the party generally must satisfy\nthe additional requirements for an interlocutory application, including obtaining a\ncertificate of immediate review from the trial court and complying with the time\nlimitations of OCGA § 5-6-34 (b).\n Under OCGA § 5-6-34 (a) (11), however, a direct appeal is permitted from\n\"[a]ll judgments or orders in child custody cases awarding, refusing to change, or\nmodifying child custody or holding or declining to hold persons in contempt of such\nchild custody judgments or orders.\" It is well established that visitation privileges are\npart of custody, see Moore v. Moore-McKinney, 297 Ga. App. 703, 705 (1) (678 SE2d\n152) (2009), and that interlocutory custody orders may be appealed directly. See Lacy\nv. Lacy, 320 Ga. App. 739, 742 (3) (740 SE2d 695) (2013). Nevertheless, the order\n on appeal here does not fall within the scope of OCGA § 5-6-34 (a) (11) because it\nis not a custody order. It does not award, refuse to change, or modify custody; nor\ndoes it hold or decline to hold a person in contempt of such an order. It simply\nvacates a prior order declining to hold a person in contempt, and it schedules further\nproceedings.\n Because the interlocutory domestic relations order that Sinclair-Jamison wishes\nto appeal does not come within the ambit of OCGA § 5-6-34 (a) (11), she was\nrequired to file an interlocutory application to obtain appellate review at this juncture.\nHer failure to do so deprives us of jurisdiction over this direct appeal, which is hereby\nDISMISSED. See Bailey v. Bailey, 266 Ga. 832, 833 (471 SE2d 213) (1996); Scruggs\nv. Ga. Dept. of Human Resources, 261 Ga. 587, 589 (1) (408 SE2d 103) (1991).\n\n Court of Appeals of the State of Georgia\n Clerk's Office, Atlanta,____________________\n 09/02/2021\n I certify that the above is a true extract from\n the minutes of the Court of Appeals of Georgia.\n Witness my signature and the seal of said court\n hereto affixed the day and year last above written.\n\n , Clerk.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

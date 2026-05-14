@@ -1,0 +1,44 @@
+{
+  "document_id": "ac1e553e-9a90-4c8d-881b-adf793a6f592",
+  "slug": "courtlistener-opinion-3364741-3364741",
+  "title": "CourtListener opinion 3364741",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3364741 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "be solely responsible for all costs associated with that residence, including the mortgage, taxes, insurance and condominium fees. The agreement further provided that the defendant would transfer to the plaintiff the sum of $18,000.00 from his Fidelity IRA by Qualified Domestic Relations Order, and, in consideration of a release from a debt, the defendant would pay to the plaintiff the sum of $5,000.00 cash within 30 days from the date of the dissolution. 1"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "responsible for all costs associated with that residence, including the mortgage, taxes, insurance and condominium fees. The agreement further provided that the defendant would transfer to the plaintiff the sum of $18,000.00 from his Fidelity IRA by Qualified Domestic Relations Order, and, in consideration of a release from a debt, the defendant would pay to the plaintiff the sum of $5,000.00 cash within 30 days from the date of the dissolution. 1"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] MEMORANDUM OF DECISION \nBefore this court is the plaintiff's Motion to Transfer by Statute, Post Judgment. The plaintiff is requesting the court to transfer by decree real property owned by the defendant and assigned to him under the CT Page 13681 terms of the dissolution of marriage in order to satisfy other obligations under the judgment. \n The marriage of the parties was dissolved by decree on May 1, 2001, and pursuant to the Separation Agreement incorporated into the judgment the defendant was to retain sole ownership of property located at 80 Wellswood Lane, Unit 25, Amston, Connecticut, (the condominium) and be solely responsible for all costs associated with that residence, including the mortgage, taxes, insurance and condominium fees. The agreement further provided that the defendant would transfer to the plaintiff the sum of $18,000.00 from his Fidelity IRA by Qualified Domestic Relations Order, and, in consideration of a release from a debt, the defendant would pay to the plaintiff the sum of $5,000.00 cash within 30 days from the date of the dissolution. 1",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

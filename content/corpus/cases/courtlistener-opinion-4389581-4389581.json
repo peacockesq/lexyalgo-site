@@ -1,0 +1,44 @@
+{
+  "document_id": "4517aadc-aad1-45da-9161-ce92ac1a1986",
+  "slug": "courtlistener-opinion-4389581-4389581",
+  "title": "CourtListener opinion 4389581",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4389581 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "appears that it was filed more than 30 days after service of written notice of entry of the judgment or order. See NRAP 4(a)(1); NRAP 26(c). The decree of divorce was entered on October 16, 2018, with written notice of entry served on October 17, 2018. A Qualified Domestic Relations Order was filed January 9, 2019, with written notice of entry served on January 10, 2019, but the notice of appeal was not filed until March 26, 2019, and a second notice of appeal was filed on April 5, 2019, both well after the expiration of the 30- day time period to appeal. NRAP 4(a). An untimely notice of appeal fails to vest jurisdiction in this court."
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "hat it was filed more than 30 days after service of written notice of entry of the judgment or order. See NRAP 4(a)(1); NRAP 26(c). The decree of divorce was entered on October 16, 2018, with written notice of entry served on October 17, 2018. A Qualified Domestic Relations Order was filed January 9, 2019, with written notice of entry served on January 10, 2019, but the notice of appeal was not filed until March 26, 2019, and a second notice of appeal was filed on April 5, 2019, both well after the expiration of the 30- day time period to appeal. NRAP 4(a). An untimely notice of appeal fails to vest jurisdiction in this court."
+    }
+  ],
+  "full_text": "IN THE SUPREME COURT OF THE STATE OF NEVADA\n\n JEFFREY K. BROWN, No. 78554\n Appellant,\n vs.\n FARHA BROWN,\n Respondent.\n FL\n APR 2 2 2019\n ELIZALiEll , A. 11::'...:YWN\n CLERK OF 'Zi.iPh.•1).. C.:, COURT\n\n BY—S—S-CS\n DEPUTI Cu:7Jc_ if\n\n ORDER DISMISSING APPEAL\n\n This is a pro se appeal from a divorce decree. Eighth Judicial\n District Court, Family Court Division, Clark County; Denise L. Gentile,\n Judge.\n Review of the documents submitted to this court pursuant to\n NRAP 3(g) reveals a jurisdictional defect. Specifically, the notice of appeal\n appears to be untimely filed under NRAP 4(a) because it appears that it was\n filed more than 30 days after service of written notice of entry of the\n judgment or order. See NRAP 4(a)(1); NRAP 26(c). The decree of divorce\n was entered on October 16, 2018, with written notice of entry served on\n October 17, 2018. A Qualified Domestic Relations Order was filed January\n 9, 2019, with written notice of entry served on January 10, 2019, but the\n notice of appeal was not filed until March 26, 2019, and a second notice of\n appeal was filed on April 5, 2019, both well after the expiration of the 30-\n day time period to appeal. NRAP 4(a). An untimely notice of appeal fails to\n vest jurisdiction in this court. See Healy v. Volkswagenwerk\n\nSUPREME COURT\n OF\n NEVADA\n\n 004.\n(0) 1947A\n - 1,7 s coct\n Aktiengesellschaft, 103 Nev. 329, 331, 741 P.2d 432, 433 (1987) (noting that\n an untimely notice of appeal fails to vest jurisdiction in an appellate court).\n This court lacks jurisdiction over this appeal and therefore\n ORDERS this appeal DISMISSED.\n\n Pick ring °L-2111t.r.\n\n J.\n\n 0\n\n Cadish\n 6694 J.\n\n cc: Hon. Denise L. Gentile, District Judge, Family Court Division\n Jeffrey K. Brown\n Farha Brown\n Eighth District Court Clerk\n\nSUPREME COURT\n OF\n NEVADA\n\n(0) 1947A e\n 2",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

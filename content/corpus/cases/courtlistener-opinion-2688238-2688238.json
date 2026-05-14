@@ -1,0 +1,52 @@
+{
+  "document_id": "20685e67-f309-43ec-addb-d3b9af135e0d",
+  "slug": "courtlistener-opinion-2688238-2688238",
+  "title": "CourtListener opinion 2688238",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 10,
+    "retirement benefits": 1,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 1,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 2688238 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "CKLEY, Plaintiff-Appellant, vs. JAMES ALLEN HINCKLEY, Defendant-Appellee. ________________________________________________________________ Appeal from the Iowa District Court for Washington County, Myron L. Gookin, Judge. A divorced spouse contends a qualified domestic relations order entitles her to an amount specified in the order and not an amount that accounts for investment losses. AFFIRMED. Joseph W. Younker of Bradley & Riley, P.C., Iowa City, for appellant. Leslie D. Lamping of Lamping, Schlegel & Salazar, L.L.P., Washington, for appellee. Considered by Danilson, C.J., and Vaitheswaran and Potterfield, JJ. 2 VAITHESWAR"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "in the order or an amount that accounted for investment losses. I. Background Facts and Proceedings Cindy and James Hinckley dissolved their marriage. The dissolution decree incorporated a stipulation under which Cindy was to receive $165,746 of Jim's retirement account, to be distributed pursuant to a QDRO. The QDRO was executed two months after the dissolution decree was filed, and funds were transmitted to Cindy five months after the decree was filed. In the interim, the account value plummeted from $342,139.55 to $220,916.33. Cindy only received $103,981.25. Cindy filed an application seeking a declaration of th"
+    },
+    {
+      "label": "alternate payee",
+      "quote": "61,844.75. The district court concluded that the amount Cindy received \"was proper and correct.\" Cindy appealed. II. Analysis Cindy contends the language governing this appeal appears in a section of the QDRO titled \"amount of benefit to be paid to the alternate payee.\" 1 That section states Cindy's interest in the plan will be \"$165,746 of [Jim's] Account Balance as of October 3, 2008\" (the date the dissolution decree was filed) and the interest will \"be subject to earnings and losses subsequent to October 3, 1 Cindy does not argue that the QDRO is inconsistent with the language of the dissolution decree. See In re"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "aintiff-Appellant, vs. JAMES ALLEN HINCKLEY, Defendant-Appellee. ________________________________________________________________ Appeal from the Iowa District Court for Washington County, Myron L. Gookin, Judge. A divorced spouse contends a qualified domestic relations order entitles her to an amount specified in the order and not an amount that accounts for investment losses. AFFIRMED. Joseph W. Younker of Bradley & Riley, P.C., Iowa City, for appellant. Leslie D. Lamping of Lamping, Schlegel & Salazar, L.L.P., Washington, for appellee. Considered by Danilson, C.J., and Vaitheswaran and Potterfield, JJ. 2 VAITHESWAR"
+    }
+  ],
+  "full_text": "IN THE COURT OF APPEALS OF IOWA\n\n No. 3-1113 / 13-0534\n Filed February 19, 2014\n\nCINDY SUE HINCKLEY,\n Plaintiff-Appellant,\n\nvs.\n\nJAMES ALLEN HINCKLEY,\n Defendant-Appellee.\n________________________________________________________________\n\n Appeal from the Iowa District Court for Washington County, Myron L.\n\nGookin, Judge.\n\n A divorced spouse contends a qualified domestic relations order entitles\n\nher to an amount specified in the order and not an amount that accounts for\n\ninvestment losses. AFFIRMED.\n\n Joseph W. Younker of Bradley & Riley, P.C., Iowa City, for appellant.\n\n Leslie D. Lamping of Lamping, Schlegel & Salazar, L.L.P., Washington, for\n\nappellee.\n\n Considered by Danilson, C.J., and Vaitheswaran and Potterfield, JJ.\n 2\n\nVAITHESWARAN, J.\n\n We must decide whether a qualified domestic relations order (QDRO)\n\nentitled a divorced spouse to the amount specified in the order or an amount that\n\naccounted for investment losses.\n\n I. Background Facts and Proceedings\n\n Cindy and James Hinckley dissolved their marriage. The dissolution\n\ndecree incorporated a stipulation under which Cindy was to receive $165,746 of\n\nJim's retirement account, to be distributed pursuant to a QDRO.\n\n The QDRO was executed two months after the dissolution decree was\n\nfiled, and funds were transmitted to Cindy five months after the decree was filed.\n\nIn the interim, the account value plummeted from $342,139.55 to $220,916.33.\n\nCindy only received $103,981.25.\n\n Cindy filed an application seeking a declaration of the parties' rights under\n\nthe QDRO and an order requiring payment of an additional $61,844.75. The\n\ndistrict court concluded that the amount Cindy received \"was proper and correct.\"\n\nCindy appealed.\n\n II. Analysis\n\n Cindy contends the language governing this appeal appears in a section\n\nof the QDRO titled \"amount of benefit to be paid to the alternate payee.\" 1 That\n\nsection states Cindy's interest in the plan will be \"$165,746 of [Jim's] Account\n\nBalance as of October 3, 2008\" (the date the dissolution decree was filed) and\n\nthe interest will \"be subject to earnings and losses subsequent to October 3,\n\n1\n Cindy does not argue that the QDRO is inconsistent with the language of the\ndissolution decree. See In re Marriage of Brown, 776 N.W.2d 644, 650 (Iowa 2009).\n 3\n\n2008.\" The QDRO also states benefits will \"be calculated on a pro-rata basis\n\nunless specifically indicated otherwise\" and\n\n [i]f the total amount of $165,746 assigned to [Cindy] in the Order is\n not immediately available for distribution due to . . . investment\n losses, then [Cindy] shall receive 100% of [Jim's] account balance\n as of the date of distribution.\n\nCindy focuses on the term \"distribution\" in this final clause. She contends the\n\ndistrict court misinterpreted the term.\n\n We need not interpret \"distribution\" to determine whether Cindy is entitled\n\nto receive $165,746.00 or a lesser amount because the first part of the quoted\n\nsection clearly answers the question. It states that, while Cindy's interest will be\n\n$165,746 \"as of October 3, 2008,\" that interest \"shall be subject to earnings and\n\nlosses subsequent to October 3, 2008.\" Applying this sentence, Cindy's interest\n\nhad to be reduced by the losses sustained after October 3, 2008.\n\n The last sentence of the section does not alter our analysis. It addresses\n\nthe possibility that \"the total amount of\" Cindy's interest \"might not immediately\n\n[be] available for distribution\" due to specified occurrences, including investment\n\nlosses. That possibility did not become a reality. The total amount of Cindy's\n\ninterest was $165,746.00—subject to earnings and losses—and Jim's account\n\ncontained more than that balance on the date of the dissolution decree, the date\n\nof the QDRO, and the date Cindy received the funds. The last sentence was\n\nsimply not applicable.\n 4\n\n We conclude Cindy was entitled to $165,746 minus losses incurred after\n\nOctober 3, 2008. This was the amount Cindy received and the amount the\n\ndistrict court confirmed in its declaratory ruling. We discern no error in the ruling.\n\n AFFIRMED.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

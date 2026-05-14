@@ -1,0 +1,52 @@
+{
+  "document_id": "ece4f711-5339-4584-9858-522083ea4ef3",
+  "slug": "courtlistener-opinion-3694046-3694046",
+  "title": "CourtListener opinion 3694046",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 1,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 3
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3694046 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "s additional proceeds from appellee's personal injury settlement. The magistrate also awarded appellee one-half of the marital portion of appellant's Detroit Edison Savings Plan; one-half of the marital portion of appellant's pension plan to be divided by a Qualified Domestic Relations Order (\\QDRO\\\"); one-half of the marital portion of the Detroit Edison stock (no less than one hundred fifty-five shares); one-half of the Olde Discount Market Accounts; one-half of the Montgomery Fund; and two U.S. Savings Bonds at $250 each."
+    },
+    {
+      "label": "pension",
+      "quote": "o be employed by Detroit Edison and earns approximately $80,000 per year. The court found the following assets to be marital: 1) Detroit Edison Savings Plan: $103,180 ($123,564 total, less $20,834 pre-marital value attributed to appellant); 2) Appellant's pension plan; 3) Detroit Edison Stock (310 shares); 4) Olde Discount Market Account: $41,312; 5) Appellant's Olde Discount IRA: $10,375 ($15,871 less $5,496 premarital value attributed to appellant); 6) Appellee's Montgomery Fund: $2,243; 7) Four U.S. Savings Bonds valued at $250 each. The court awarded to appellee the following as non-marital property:"
+    },
+    {
+      "label": "401(k)",
+      "quote": "tion, appellant owned an Olde Discount Account which contained nine hundred sixty shares of Detroit Edison stock, six hundred fifty of the shares were considered pre-marital; the remaining three hundred ten shares were marital property. Appellant also owned a 401(k) account which was worth $123,564, with $20,384 of the assets attributed to pre-marital funds. The parties further stipulated that appellee owned the residence prior to the marriage; that appellee's Edward Jones IRA account, valued at $7,486, was marital property; that the remainder of the Edward Jones Account (approximately $17,000) was what was left of a"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "al proceeds from appellee's personal injury settlement. The magistrate also awarded appellee one-half of the marital portion of appellant's Detroit Edison Savings Plan; one-half of the marital portion of appellant's pension plan to be divided by a Qualified Domestic Relations Order (\\QDRO\\\"); one-half of the marital portion of the Detroit Edison stock (no less than one hundred fifty-five shares); one-half of the Olde Discount Market Accounts; one-half of the Montgomery Fund; and two U.S. Savings Bonds at $250 each."
+    }
+  ],
+  "full_text": "DECISION AND JUDGMENT ENTRY \nThis appeal comes to us from a decree of divorce issued by the Wood County Court of Common Pleas. Because we conclude that the trial court erred in the division of certain property, we reverse in part. \n Appellant, Ronald V. Johnson and appellee, Joyce A. Johnson, were married in 1988. In April 1996, appellee filed for divorce. On August 22, 1997, a magistrate conducted a trial on many unresolved issues. \n At the trial, the following facts were presented. The parties stipulated that at the time of separation, appellant owned an Olde Discount Account which contained nine hundred sixty shares of Detroit Edison stock, six hundred fifty of the shares were considered pre-marital; the remaining three hundred ten shares were marital property. Appellant also owned a 401(k) account which was worth $123,564, with $20,384 of the assets attributed to pre-marital funds. \n The parties further stipulated that appellee owned the residence prior to the marriage; that appellee's Edward Jones IRA account, valued at $7,486, was marital property; that the remainder of the Edward Jones Account (approximately $17,000) was what was left of a personal injury settlement paid to appellee for injuries she sustained in a 1989 car accident. The parties also agreed that a Montgomery Fund account totaling $2,243 at the time of separation was marital property and would be divided equally between the parties. \n On February 2, 1998, the magistrate issued his decision. Based upon the testimony and evidence presented, \n the court found that appellee was disabled due to injuries received in a 1994 auto accident. As a result, appellee receives disability income of approximately $27,000 per year. Appellant was found to be employed by Detroit Edison and earns approximately $80,000 per year. The court found the following assets to be marital: \n 1) Detroit Edison Savings Plan: $103,180 ($123,564 total, less $20,834 pre-marital value attributed to appellant); \n 2) Appellant's pension plan; \n 3) Detroit Edison Stock (310 shares); \n 4) Olde Discount Market Account: $41,312; \n 5) Appellant's Olde Discount IRA: $10,375 ($15,871 less $5,496 premarital value attributed to appellant); \n 6) Appellee's Montgomery Fund: $2,243; \n 7) Four U.S. Savings Bonds valued at $250 each. \n The court awarded to appellee the following as non-marital property: \n 1) Residence valued at $120,000; \n 2) Edward D. Jones Account in appellee's name, $17,511, as proceeds of appellee's personal injury settlement; \n 3) Edward D. Jones IRA in appellee's name valued at $7,486, as additional proceeds from appellee's personal injury settlement. \n The magistrate also awarded appellee one-half of the marital portion of appellant's Detroit Edison Savings Plan; one-half of the marital portion of appellant's pension plan to be divided by a Qualified Domestic Relations Order (\\QDRO\\\"); one-half of the marital portion of the Detroit Edison stock (no less than one hundred fifty-five shares); one-half of the Olde Discount Market Accounts; one-half of the Montgomery Fund; and two U.S. Savings Bonds at $250 each.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

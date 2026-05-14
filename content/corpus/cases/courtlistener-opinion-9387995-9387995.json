@@ -1,0 +1,48 @@
+{
+  "document_id": "2021b436-fd1a-4234-a8f9-19b18d2a323d",
+  "slug": "courtlistener-opinion-9387995-9387995",
+  "title": "CourtListener opinion 9387995",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "ERISA / defined contribution issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 3,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 9387995 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to ERISA / defined contribution issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "hat: (1) The pro se appellant (\"Husband\") filed this appeal from a Family Court order, dated November 30, 2022, that dismissed Husband's petition for a rule to show cause concerning a dispute regarding whether the appellee (\"Wife\") was required to sign a qualified domestic relations order dividing her 401(k) account. The Family Court scheduled a case management teleconference for October 30, 2022. The notice of the conference directed the parties to provide the court with a 1 The Court previously assigned pseudonyms to the parties pursuant to Supreme Court Rule 7(d). phone number where they could be reached for the teleconference. Wife'"
+    },
+    {
+      "label": "401(k)",
+      "quote": "d this appeal from a Family Court order, dated November 30, 2022, that dismissed Husband's petition for a rule to show cause concerning a dispute regarding whether the appellee (\"Wife\") was required to sign a qualified domestic relations order dividing her 401(k) account. The Family Court scheduled a case management teleconference for October 30, 2022. The notice of the conference directed the parties to provide the court with a 1 The Court previously assigned pseudonyms to the parties pursuant to Supreme Court Rule 7(d). phone number where they could be reached for the teleconference. Wife's counsel complied"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "The pro se appellant (\"Husband\") filed this appeal from a Family Court order, dated November 30, 2022, that dismissed Husband's petition for a rule to show cause concerning a dispute regarding whether the appellee (\"Wife\") was required to sign a qualified domestic relations order dividing her 401(k) account. The Family Court scheduled a case management teleconference for October 30, 2022. The notice of the conference directed the parties to provide the court with a 1 The Court previously assigned pseudonyms to the parties pursuant to Supreme Court Rule 7(d). phone number where they could be reached for the teleconference. Wife'"
+    }
+  ],
+  "full_text": "IN THE SUPREME COURT OF THE STATE OF DELAWARE\n\n GRANT BELL,1 §\n § No. 486, 2022\n Petitioner Below, §\n Appellant, § Court Below—Family Court\n § of the State of Delaware\n v. §\n § File No. CN19-04920\n HAZEL MOORE, § Petition No. 22-20359\n §\n Respondent Below, §\n Appellee. §\n\n Submitted: April 18, 2023\n Decided: April 18, 2023\n\nBefore SEITZ, Chief Justice; VALIHURA and TRAYNOR, Justices.\n\n ORDER\n\n After consideration of the appellee's motion for remand, it appears to the\n\nCourt that:\n\n (1) The pro se appellant (\"Husband\") filed this appeal from a Family Court\n\norder, dated November 30, 2022, that dismissed Husband's petition for a rule to\n\nshow cause concerning a dispute regarding whether the appellee (\"Wife\") was\n\nrequired to sign a qualified domestic relations order dividing her 401(k) account.\n\nThe Family Court scheduled a case management teleconference for October 30,\n\n2022. The notice of the conference directed the parties to provide the court with a\n\n1\n The Court previously assigned pseudonyms to the parties pursuant to Supreme Court Rule 7(d).\n phone number where they could be reached for the teleconference. Wife's counsel\n\ncomplied with that direction; Husband did not. Based on Husband's failure to\n\nprovide a phone number for the teleconference, the Family Court entered an order\n\ndismissing Husband's petition with prejudice.\n\n (2) Husband has filed his opening brief in this appeal from the Family\n\nCourt's order. He argues that the Family Court erred by (i) dismissing his petition\n\nfor his inadvertent failure to provide a phone number for the teleconference and (ii)\n\ngiving the dismissal prejudicial effect without \"determin[ing] after a hearing,\" that\n\nHusband's intent in filing the petition \"was to harass or annoy or for other good\n\ncause shown,\" as required by Family Court Rule of Civil Procedure 41(b)(1).2\n\n (3) On April 4, 2023, Wife, through counsel, filed a motion for remand. In\n\nthe motion, Wife concedes that dismissal with prejudice was contrary to Family\n\nCourt Rule of Civil Procedure Rule 41(b)(1). Wife states that further proceedings\n\nin the appeal should result in either vacatur of the dismissal order or reversal of the\n\nprejudicial effect of the dismissal order, either of which will require the Family Court\n\nto address the dispute regarding the 401(k) on the merits. Wife therefore contends\n\nthat \"[r]emand—rather than full . . . briefing on what is effectively a moot issue—is\n\nin the interests of the judicial economy of this Court and the Family Court as well as\n\n2\n The Family Court's November 30, 2022 order also addressed certain matters other than the 401(k)\nissue. Husband's opening brief does not assert any claims of error as to the Family Court's\nresolution of those matters.\n 2\n the parties' personal economy.\" Husband has not responded to the motion for\n\nremand.\n\n (4) In light of Wife's concession that dismissal with prejudice was in error\n\nand that resolution of this matter on the merits by the Family Court is appropriate—\n\nand in the absence of any opposition from Husband to the motion for remand—we\n\nconclude that the matter should be remanded to the Family Court for further\n\nproceedings.\n\n NOW, THEREFORE, IT IS ORDERED that the motion for remand is\n\nGRANTED. The matter is REMANDED to the Family Court for further\n\nproceedings consistent with this order. Jurisdiction is not retained.\n\n BY THE COURT:\n\n /s/ Collins J. Seitz, Jr.\n Chief Justice\n\n 3",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

@@ -1,0 +1,52 @@
+{
+  "document_id": "5a377467-a03a-4c03-aeb1-305e7ada16d5",
+  "slug": "courtlistener-opinion-1066991-1066991",
+  "title": "CourtListener opinion 1066991",
+  "citation": "Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 2,
+    "pension": 1,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 2
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1066991 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "nd Husband were divorced the first time in 1989, Wife admittedly made no claim for any of Husband's Tier II benefits and was awarded none. The parties then remarried in 1992 and were divorced for the second time in 1996. A Qualified Domestic Relations Order (\"QDRO\") eventually was entered in the second divorce which awarded Wife 100% of Husband's Tier II benefits. After Husband became disabled, Wife began receiving all of his Tier II benefits which had accumulated during Husband's 31 years of employment with the railroad. Husband claims he then realized for the first time the true effect of the QDRO and filed a Tenn."
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "Consolidated Appeals from the Chancery Courts for Knox County No. 124417-2 Daryl Fansler, Chancellor No. 96068-2 Sharon Bell, Chancellor FILED MAY 2, 2003 No. E2002-01425-COA-R3-CV These appeals involve an equitable distribution of the Tier II railroad retirement benefits of C.A. Beason (\"Husband\"). When Alice Beason (\"Wife\") and Husband were divorced the first time in 1989, Wife admittedly made no claim for any of Husband's Tier II benefits and was awarded none. The parties then remarried in 1992 and were divorced for the second time in 1996. A Qualified Domestic Relations Order (\"QDRO\") eventually was entered in the secon"
+    },
+    {
+      "label": "pension",
+      "quote": "J. Mikel Dixon, Knoxville, Tennessee, for the Appellant Alice Kaye Beason. Brent R. Watson and Suzanne N. Price, Knoxville, Tennessee, for the Appellee C.A. Beason. OPINION Background These consolidated appeals concern the division of Husband's Tier II pension benefits under the federal Railroad Retirement Act and applicable Tennessee law. At the outset, a brief description of how the Railroad Retirement Act operates is in order. In Norton v. Norton, No. 02A01-9609-CV-00222, 1997 Tenn. App. LEXIS 666 (Tenn. Ct. App. Oct. 1, 1997), appeal granted and remanded, this Court stated the following with regard to the def"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "hen Alice Beason (\"Wife\") and Husband were divorced the first time in 1989, Wife admittedly made no claim for any of Husband's Tier II benefits and was awarded none. The parties then remarried in 1992 and were divorced for the second time in 1996. A Qualified Domestic Relations Order (\"QDRO\") eventually was entered in the second divorce which awarded Wife 100% of Husband's Tier II benefits. After Husband became disabled, Wife began receiving all of his Tier II benefits which had accumulated during Husband's 31 years of employment with the railroad. Husband claims he then realized for the first time the true effect of the QDRO and filed"
+    }
+  ],
+  "full_text": "IN THE COURT OF APPEALS OF TENNESSEE\n AT KNOXVILLE\n March 31, 2003 Session\n\n ALICE KAYE BEASON v. C.A. BEASON\n\n Consolidated Appeals from the Chancery Courts for Knox County\n No. 124417-2 Daryl Fansler, Chancellor\n No. 96068-2 Sharon Bell, Chancellor\n FILED MAY 2, 2003\n\n No. E2002-01425-COA-R3-CV\n\nThese appeals involve an equitable distribution of the Tier II railroad retirement benefits of C.A.\nBeason (\"Husband\"). When Alice Beason (\"Wife\") and Husband were divorced the first time in\n1989, Wife admittedly made no claim for any of Husband's Tier II benefits and was awarded none.\nThe parties then remarried in 1992 and were divorced for the second time in 1996. A Qualified\nDomestic Relations Order (\"QDRO\") eventually was entered in the second divorce which awarded\nWife 100% of Husband's Tier II benefits. After Husband became disabled, Wife began receiving\nall of his Tier II benefits which had accumulated during Husband's 31 years of employment with the\nrailroad. Husband claims he then realized for the first time the true effect of the QDRO and filed\na Tenn. R. Civ. P. 60.02(5) motion seeking relief from the judgment. Husband's Rule 60.02(5)\nmotion was granted and the Trial Court entered a new QDRO awarding Wife only 100% of the Tier\nII benefits which had accrued during the second marriage. Wife then sought relief by Rule 60.02(5)\nfrom the judgment entered in the first divorce in 1989, asking that Trial Court to award her an\nequitable distribution of the Tier II benefits which had accrued during the first marriage. Wife's\nmotion was denied. Wife appeals both decisions. On appeal, we affirm the Trial Court's decision\nto grant Husband relief from the judgment in the second divorce, and we also affirm the Trial Court's\nrefusal to grant Wife relief from the judgment in the first divorce.\n\n Tenn. R. App. P. 3 Appeals as of Right; Judgments of the\n Chancery Courts Affirmed; Cases Remanded.\n\nD. MICHAEL SWINEY, J., delivered the opinion of the court, in which HOUSTON M. GODDARD , P.J.,\nand CHARLES D. SUSANO, JR., J., joined.\n\nJ. Mikel Dixon, Knoxville, Tennessee, for the Appellant Alice Kaye Beason.\n\nBrent R. Watson and Suzanne N. Price, Knoxville, Tennessee, for the Appellee C.A. Beason.\n OPINION\n\n Background\n\n These consolidated appeals concern the division of Husband's Tier II pension benefits\nunder the federal Railroad Retirement Act and applicable Tennessee law. At the outset, a brief\ndescription of how the Railroad Retirement Act operates is in order. In Norton v. Norton, No.\n02A01-9609-CV-00222, 1997 Tenn. App. LEXIS 666 (Tenn. Ct. App. Oct. 1, 1997), appeal granted\nand remanded, this Court stated the following with regard to the defendant/husband's retirement\nbenefits at issue in that case:\n\n Retirement benefits for railroad employees are governed by\n federal statute. As a railroad employee the defendant, upon\n retirement, is entitled to benefits under the Railroad Retirement Act\n of 1974, (hereinafter the \\Act\\\") 45 U.S.C. § 231 et seq. The Act's",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

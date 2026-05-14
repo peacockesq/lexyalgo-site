@@ -1,0 +1,52 @@
+{
+  "document_id": "c8e075b8-62b5-4128-9cd5-2d6d781ae0a6",
+  "slug": "courtlistener-opinion-4275575-4275575",
+  "title": "CourtListener opinion 4275575",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 0,
+    "pension": 8,
+    "ERISA": 0,
+    "401(k)": 1,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 4
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4275575 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "The parties agree that they will each retain any and all IRA/401K plans held in their individual names. Except that the husband has a FRS plan with BSO his employer. The wife is entitled to 50% of the marital portion of this plan through the entry of a Qualified Domestic Relations Order. This QDRO will be entered and the funds transferred within the next (30) days. The marital portion is defined as the amount from the date of the marriage through the date of the filing of the Petition for Dissolution of Marriage. (Emphasis added) (the \"Agreement provision\"). The parties married in 1987 when the former husband was employed by the Tam"
+    },
+    {
+      "label": "pension",
+      "quote": "ision. In 2013, the trial court entered a final judgment for dissolution of marriage, which incorporated the parties' mediated settlement agreement (the \"Agreement\"). The Agreement contained a provision for the equitable distribution of the Former Husband's pension, which provides in pertinent part: The parties agree that they will each retain any and all IRA/401K plans held in their individual names. Except that the husband has a FRS plan with BSO his employer. The wife is entitled to 50% of the marital portion of this plan through the entry of a Qualified Domestic Relations Order. This QDRO will be entered an"
+    },
+    {
+      "label": "401(k)",
+      "quote": "the parties' mediated settlement agreement (the \"Agreement\"). The Agreement contained a provision for the equitable distribution of the Former Husband's pension, which provides in pertinent part: The parties agree that they will each retain any and all IRA/401K plans held in their individual names. Except that the husband has a FRS plan with BSO his employer. The wife is entitled to 50% of the marital portion of this plan through the entry of a Qualified Domestic Relations Order. This QDRO will be entered and the funds transferred within the next (30) days. The marital portion is defined as the amount from t"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "ties agree that they will each retain any and all IRA/401K plans held in their individual names. Except that the husband has a FRS plan with BSO his employer. The wife is entitled to 50% of the marital portion of this plan through the entry of a Qualified Domestic Relations Order. This QDRO will be entered and the funds transferred within the next (30) days. The marital portion is defined as the amount from the date of the marriage through the date of the filing of the Petition for Dissolution of Marriage. (Emphasis added) (the \"Agreement provision\"). The parties married in 1987 when the former husband was employed by the Tam"
+    }
+  ],
+  "full_text": "DISTRICT COURT OF APPEAL OF THE STATE OF FLORIDA\n FOURTH DISTRICT\n\n MICHAEL FAZIO,\n Appellant,\n\n v.\n\n REGINA FAZIO,\n Appellee.\n\n No. 4D17-1562\n\n [May 16, 2018]\n\n Appeal from the Circuit Court for the Seventeenth Judicial Circuit,\nBroward County; Merrilee Ehrlich, Judge; L.T. Case No. 13-001559 (FMCE\n42/90).\n\n Rocco G. Marucci of Rocco G. Marucci, P.A., Fort Lauderdale, for\nappellant.\n\n Paulina Forrest and Daniel E. Forrest of Law Office of Daniel E. Forrest,\nP.A., Plantation, for appellee.\n\nGROSS, J.\n\n This case concerns the construction of a provision in a marital\nsettlement agreement. The circuit court held that the provision was \"clear\nand unambiguous\" and entered a final order consistent with the former\nwife's interpretation. Because we find the provision to be ambiguous, we\nreverse and remand to the circuit court to hold an evidentiary hearing\nwhere the parties may offer evidence as to the meaning of the provision.\n\n In 2013, the trial court entered a final judgment for dissolution of\nmarriage, which incorporated the parties' mediated settlement agreement\n(the \"Agreement\"). The Agreement contained a provision for the equitable\ndistribution of the Former Husband's pension, which provides in pertinent\npart:\n\n The parties agree that they will each retain any and all\n IRA/401K plans held in their individual names. Except that\n the husband has a FRS plan with BSO his employer. The\n wife is entitled to 50% of the marital portion of this plan\n through the entry of a Qualified Domestic Relations Order.\n This QDRO will be entered and the funds transferred within\n the next (30) days. The marital portion is defined as the\n amount from the date of the marriage through the date of\n the filing of the Petition for Dissolution of Marriage.\n\n(Emphasis added) (the \"Agreement provision\").\n\n The parties married in 1987 when the former husband was employed\nby the Tamarac Police Department, where he had worked since 1980.\nSeveral years later, the Broward County Sheriff's Office (\"BSO\") absorbed\nthe Tamarac Police Department. The parties cashed out the Tamarac\npension and spent the money, so that the previous accumulation was not\nabsorbed into the former husband's Florida Retirement System (\"FRS\")\naccount with BSO.\n\n During the marriage, the parties used marital funds to purchase an\nenhancement to the FRS pension for the years that the former husband\nworked in Tamarac prior to joining BSO.\n\n The parties disagree about how the Agreement provision applies to the\nFRS enhancement that was purchased during the marriage. The wife\ncontends that the entire pension is marital because the enhancement was\npurchased with marital funds; the former husband argues that the\npurpose of the Agreement provision was to divide the pension 50/50,\nexcept for the enhancement portion. He says that to obtain a larger slice\nof the FRS pie, he paid the wife $100,000 in lump sum alimony and\nassumed other debts.\n\n In Fazio v. Fazio, 181 So. 3d 585 (Fla. 4th DCA 2016), we remanded the\ncase to the circuit court to rule on whether there was an ambiguity in the\nAgreement provision, and if so, to conduct an evidentiary hearing as to the\nproper interpretation of the agreement. On remand, the trial judge found\nthe provision to be clear and unambiguous and awarded the wife 50\npercent of the entire FRS plan.\n\n A marital settlement is construed in accordance with its terms, so that\n\n [w]here the terms of a marital settlement agreement are clear\n and unambiguous, the parties' intent must be gleaned from\n the four corners of the document. It is only when a term in a\n marital settlement agreement is ambiguous or unclear that\n the trial court may consider extrinsic evidence as well as the\n\n -2-\n parties' interpretation of the contract to explain or clarify the\n language.\n\nJones v. Treasure, 984 So. 2d 634, 636 (Fla. 4th DCA 2008) (quoting Levitt\nv. Levitt, 699 So. 2d 755, 756 (Fla. 4th DCA 1997)). \"On review, the\nappellate court considers whether the contractual provision was actually\nambiguous; if not, ‘the language itself is the best evidence of the parties'\nintent, and its plain meaning controls.'\" Teague v. Teague, 122 So. 3d 938,\n942 (Fla. 4th DCA 2013) (quoting Richter v. Richter, 666 So. 2d 559, 561\n(Fla. 4th DCA 1995)). \"In determining whether a provision is ambiguous,\nthe court should consider a ‘reading of the entire agreement [to] clarify\nwhat the parties meant' by including the provision.\" Id. (quoting Bacardi\nv. Bacardi, 386 So. 2d 1201, 1203 (Fla. 3d DCA 1980)). \"A provision is\nambiguous if ‘it is fairly susceptible to different constructions.'\" Id.\n(quoting Mariner Cay Prop. Owners Ass'n, Inc. v. Topside Marina, Inc., 714\nSo. 2d 1130, 1132 (Fla. 4th DCA 1998).\n\n The Agreement provision is ambiguous because it is fairly susceptible\nto different constructions. At the time the provision was drafted in 2013,\nboth parties were fully aware of the facts surrounding the FRS pension\nand the purchased enhancement. If the Agreement intended to split the\npension equally, it could easily have said that the pension would be divided\n50/50, a result fully consistent with the purchase of the enhancement\nwith marital funds and the husband's employment with BSO during the\nmarriage.\n\n Yet, the Agreement refers to the \"marital portion\" of the FRS plan, a\nwording that suggests that the parties contemplated that some portion of\nthe plan was non-marital. One possible reading of the Agreement\nprovision is that the marital portion of the plan is only that portion\nattributable to the former husband's time of service with BSO.\n\n Because of the ambiguity in the Agreement provision, we remand to the\ncircuit court to hold an evidentiary hearing where the trial court may\nconsider extrinsic evidence to determine the meaning of the disputed\nlanguage.\n\nWARNER and TAYLOR, JJ., concur.\n\n * * *\n\n Not final until disposition of timely filed motion for rehearing.\n\n -3-",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

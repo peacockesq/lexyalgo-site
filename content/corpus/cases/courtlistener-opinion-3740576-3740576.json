@@ -1,0 +1,44 @@
+{
+  "document_id": "c6969805-b959-4536-b7f5-68ff70494514",
+  "slug": "courtlistener-opinion-3740576-3740576",
+  "title": "CourtListener opinion 3740576",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3740576 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "rial court modified the magistrate's decision in a judgment entry dated May 24, 2000. These modifications are incorporated in the final judgment entry, filed September 15, 2000. It awarded appellee half of appellant's pension fund and SASP fund, to be held in QDRO, and awarded appellee $1000 per month spousal support, for an indefinite period. The court's judgment maintained an equal division of the marital property. Appellant raises the following assignments of error: \\[1.] The trial court abused its discretion in its division of the property."
+    },
+    {
+      "label": "pension",
+      "quote": "worked for a large portion of the marriage, made approximately $16,000 per year. The case was first tried before the magistrate. Appellant presented the magistrate with a plan for the division of the marital property whereby appellant would keep his entire pension and employer SASP account, and appellee would receive the marital home and other property to create an equal division. The magistrate adopted appellant's plan and included it in his decision. The magistrate also recommended that appellant pay appellee $500 per month for twenty-four months as spousal support. Appellee filed her objections to the magistrate"
+    }
+  ],
+  "full_text": "OPINION \nThis is an accelerated appeal taken from the decision of the Lake County Court of Common Pleas, Division of Domestic Relations, granting a divorce, dividing marital property, and awarding spousal support. \n On November 20, 1998, appellee, Linda Buchal, filed a complaint for divorce against appellant, Jeffrey Buchal. At the time of the complaint, the parties had been married nearly 31 years, appellant's wages were approximately $63,000 per year, and appellee, who had not worked for a large portion of the marriage, made approximately $16,000 per year. \n The case was first tried before the magistrate. Appellant presented the magistrate with a plan for the division of the marital property whereby appellant would keep his entire pension and employer SASP account, and appellee would receive the marital home and other property to create an equal division. The magistrate adopted appellant's plan and included it in his decision. The magistrate also recommended that appellant pay appellee $500 per month for twenty-four months as spousal support. \n Appellee filed her objections to the magistrate's decision. The trial court modified the magistrate's decision in a judgment entry dated May 24, 2000. These modifications are incorporated in the final judgment entry, filed September 15, 2000. It awarded appellee half of appellant's pension fund and SASP fund, to be held in QDRO, and awarded appellee $1000 per month spousal support, for an indefinite period. The court's judgment maintained an equal division of the marital property. \n Appellant raises the following assignments of error: \n \\[1.] The trial court abused its discretion in its division of the property.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

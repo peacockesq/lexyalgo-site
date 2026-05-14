@@ -1,0 +1,48 @@
+{
+  "document_id": "c3735a34-862e-4121-a3dc-e43854069e67",
+  "slug": "courtlistener-opinion-1781904-1781904",
+  "title": "CourtListener opinion 1781904",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 1
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1781904 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "parties executed a voluntary community property partition on October 15, 1985 which was approved by the Court on joint motion of the parties on October 17, 1985. Defendant retired from LL & E on May 1, 1992. *1211 A joint motion to amend and supplement the qualified domestic relations order (QDRO) was filed by the parties on May 13"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "xecuted a voluntary community property partition on October 15, 1985 which was approved by the Court on joint motion of the parties on October 17, 1985. Defendant retired from LL & E on May 1, 1992. *1211 A joint motion to amend and supplement the qualified domestic relations order (QDRO) was filed by the parties on May 13"
+    },
+    {
+      "label": "valuation/division",
+      "quote": "er 7, 1966. The parties were domiciled in and resided in Louisiana at all times during defendant's employment with LL & E. Plaintiff filed for divorce on August 5, 1985 and a judgment of divorce was signed on October 17, 1985. The parties executed a voluntary community property partition on October 15, 1985 which was approved by the Court on joint motion of the parties on October 17, 1985. Defendant retired from LL & E on May 1, 1992. *1211 A joint motion to amend and supplement the qualified domestic relations order (QDRO) was filed by the parties on May 13"
+    }
+  ],
+  "full_text": "639 So.2d 1210 (1994) \n Mary Kilday GOODWYNE \nv. \nAlvin C. GOODWYNE. \n No. 94-CA-0079. \n Court of Appeal of Louisiana, Fourth Circuit. \n June 30, 1994. \n Philip R. Riegel, Jr., New Orleans, for plaintiff/appellant. \n Ford J. Dieth, Marsha B. Higbee, New Orleans, for defendant/appellant. \n Before KLEES, JONES and WALTZER, JJ. \n JONES, Judge. \n Plaintiff, Mary Goodwyne and defendant, Alvin Goodwyne appeal portions of a judgment rendered by the trial court. \n \n FACTS \n At the trial of the matter, the parties stipulated to the following facts: \n Plaintiff and defendant were married on August 22, 1959. A community of acquets and gains existed between them at the time that defendant, Alvin Goodwyne commenced employment at Louisiana Land & Exploration (LL & E) on November 7, 1966. The parties were domiciled in and resided in Louisiana at all times during defendant's employment with LL & E. Plaintiff filed for divorce on August 5, 1985 and a judgment of divorce was signed on October 17, 1985. The parties executed a voluntary community property partition on October 15, 1985 which was approved by the Court on joint motion of the parties on October 17, 1985. Defendant retired from LL & E on May 1, 1992. \n *1211 A joint motion to amend and supplement the qualified domestic relations order (QDRO) was filed by the parties on May 13",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

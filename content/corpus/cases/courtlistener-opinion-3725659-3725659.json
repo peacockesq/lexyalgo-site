@@ -1,0 +1,48 @@
+{
+  "document_id": "864692dc-f43b-47f9-947c-e5901b8792cc",
+  "slug": "courtlistener-opinion-3725659-3725659",
+  "title": "CourtListener opinion 3725659",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 3,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3725659 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "DECISION AND JUDGMENT ENTRY {&#182; 1} This is an appeal from an order of the Erie County Court of Common Pleas, Domestic Relations Division, approving a Qualified Domestic Relations Order. {&#182; 2} When appellant, Robert Huckle, and appellee, Shirley Huckle, were divorced in 1985, the court ordered appellant's employer to pay $224.50 per month, \\* * * at such time as the [appellant] begins to collect any pension benefits or other similar benefits or benefits paid to him in lieu of pension benefits by his employer. This order shall be dee"
+    },
+    {
+      "label": "pension",
+      "quote": "Qualified Domestic Relations Order. {&#182; 2} When appellant, Robert Huckle, and appellee, Shirley Huckle, were divorced in 1985, the court ordered appellant's employer to pay $224.50 per month, \\* * * at such time as the [appellant] begins to collect any pension benefits or other similar benefits or benefits paid to him in lieu of pension benefits by his employer. This order shall be deemed to be a qualifying order in regard to the [appellant] Robert J. Huckle's pension. This Court specifically reserves the jurisdiction and right to enter any further orders that may be necessary from time to time in the future in o"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "DECISION AND JUDGMENT ENTRY {&#182; 1} This is an appeal from an order of the Erie County Court of Common Pleas, Domestic Relations Division, approving a Qualified Domestic Relations Order. {&#182; 2} When appellant, Robert Huckle, and appellee, Shirley Huckle, were divorced in 1985, the court ordered appellant's employer to pay $224.50 per month, \\* * * at such time as the [appellant] begins to collect any pension benefits or other similar benefits or benefits paid to him in lieu of pension benefits by his employer. This order shall be dee"
+    }
+  ],
+  "full_text": "DECISION AND JUDGMENT ENTRY \n {&#182; 1} This is an appeal from an order of the Erie County Court of Common Pleas, Domestic Relations Division, approving a Qualified Domestic Relations Order. \n {&#182; 2} When appellant, Robert Huckle, and appellee, Shirley Huckle, were divorced in 1985, the court ordered appellant's employer to pay $224.50 per month, \\* * * at such time as the [appellant] begins to collect any pension benefits or other similar benefits or benefits paid to him in lieu of pension benefits by his employer. This order shall be deemed to be a qualifying order in regard to the [appellant] Robert J. Huckle's pension. This Court specifically reserves the jurisdiction and right to enter any further orders that may be necessary from time to time in the future in order to effectuate and carry out the terms of this paragraph of this Judgment Entry in order to insure that the [appellee] receives the sum of Two Hundred Twenty-four and 50/100 ($224.50) Dollars per month in accordance with the terms of this Entry. This court specifically reserves the right to make any other individuals",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

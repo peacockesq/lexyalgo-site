@@ -1,0 +1,48 @@
+{
+  "document_id": "53a140c8-f70d-4936-980a-29b806843555",
+  "slug": "courtlistener-opinion-3764034-3764034",
+  "title": "CourtListener opinion 3764034",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 0,
+    "pension": 4,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 3
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3764034 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "nsion, of which defendant-appellee was awarded half through stipulation. For the following reasons, the trial court's decision is reversed, the cash award is vacated, and this case is remanded with instructions that the trial court see to the amendment of the QDRO in order that it utilizes a modified coverture formula. STATEMENT OF THE CASE {&#182; 2} Janet Presby began working for the United States Postal Authority in October 1983. She married Mark Presby in October 1989. Ms. Presby filed for divorce in January 2003. The parties stipulated that Ms. Presby would be the residential parent and that child support for"
+    },
+    {
+      "label": "pension",
+      "quote": "on Pleas Court, Domestic Relations Division, ordering her to pay defendant-appellee Mark Presby $9,089.16 for half of her accumulated sick leave where such sick leave can never be cashed out but rather can later be used to increase the years of service on her pension, of which defendant-appellee was awarded half through stipulation. For the following reasons, the trial court's decision is reversed, the cash award is vacated, and this case is remanded with instructions that the trial court see to the amendment of the QDRO in order that it utilizes a modified coverture formula. STATEMENT OF THE CASE {&#182; 2} Janet Pre"
+    },
+    {
+      "label": "valuation/division",
+      "quote": "pport for Ms. Presby would be offset by spousal support for Mr. Presby for eighteen months, after which Ms. Presby could file a motion for court-ordered child support. The parties stipulated to the division of property. For instance, Ms. Presby's pension, the marital portion of which was estimated to be worth over $97,000, was to be divided by a standard coverture fraction at the time of retirement in approximately ten years. After the stipulations, the only issues that remained for trial concerned Ms. Presby's accumulated sick and vacation leave. {&#182; 3} Regarding vacation leave, testimony established that Ms. Presby carr"
+    }
+  ],
+  "full_text": "OPINION \n {&#182; 1} Plaintiff-appellant Janet Presby appeals the decision of the Mahoning County Common Pleas Court, Domestic Relations Division, ordering her to pay defendant-appellee Mark Presby $9,089.16 for half of her accumulated sick leave where such sick leave can never be cashed out but rather can later be used to increase the years of service on her pension, of which defendant-appellee was awarded half through stipulation. For the following reasons, the trial court's decision is reversed, the cash award is vacated, and this case is remanded with instructions that the trial court see to the amendment of the QDRO in order that it utilizes a modified coverture formula. \n STATEMENT OF THE CASE {&#182; 2} Janet Presby began working for the United States Postal Authority in October 1983. She married Mark Presby in October 1989. Ms. Presby filed for divorce in January 2003. The parties stipulated that Ms. Presby would be the residential parent and that child support for Ms. Presby would be offset by spousal support for Mr. Presby for eighteen months, after which Ms. Presby could file a motion for court-ordered child support. The parties stipulated to the division of property. For instance, Ms. Presby's pension, the marital portion of which was estimated to be worth over $97,000, was to be divided by a standard coverture fraction at the time of retirement in approximately ten years. After the stipulations, the only issues that remained for trial concerned Ms. Presby's accumulated sick and vacation leave. \n {&#182; 3} Regarding vacation leave, testimony established that Ms. Presby carried over the maximum of 440 hours of vacation time annually. When her employment terminates, she can cash in up to 440 hours of vacation time but loses any excess. The court found that 191.25 hours of the accumulated vacation time was marital property. The court multiplied these hours by Ms. Presby's $20.58 hourly rate and concluded that the marital portion of Ms. Presby's accumulated vacation time was $3,935.93. The court thus ordered Ms. Presby to immediately pay Mr. Presby half of this amount. The recitation of facts regarding vacation leave is merely for informational and comparative purposes since Ms. Presby does not raise any issues surrounding the division of vacation time on appeal. \n {&#182; 4} Testimony then demonstrated that Ms. Presby's accumulated sick leave can never be liquidated. Rather, as Ms. Presby, a postal human resource specialist, and the expert pension evaluator testified, any sick leave remaining at the time of retirement will be added to her pension, giving her a greater length of service upon which to compute her benefits. (Tr. 32, 58, 115). The expert also testified that any sick leave remaining at retirement will be covered by the coverture fraction in the QDRO. \n {&#182; 5} The trial court found that 883.3 hours of Ms. Presby's 1,378.83 hours of sick leave constituted marital property. Like it did for the vacation leave, the court multiplied the marital hours by Ms. Presby's hourly rate of $20.58 and concluded that the marital portion of Ms. Presby's sick leave was $18,230.79. The court thus ordered Ms. Presby to pay Mr. Presby $9,089.16 within ninety days. Ms. Presby filed timely notice of appeal only on the issue of sick leave. \n ASSIGNMENT OF ERROR {&#182; 6} Ms. Presby's sole assignment of error provides: \n {&#182; 7} \\The court erred in placing a present value on the sick leave and awarding the defendant $9",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

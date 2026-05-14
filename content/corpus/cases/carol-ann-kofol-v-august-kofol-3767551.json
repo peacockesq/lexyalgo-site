@@ -1,0 +1,52 @@
+{
+  "document_id": "8fcbb5c5-f248-444b-b1dd-7e605b9f00bb",
+  "slug": "carol-ann-kofol-v-august-kofol-3767551",
+  "title": "Carol Ann Kofol v. August Kofol",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": "https://www.courtlistener.com/opinion/4012429/kofol-v-kofol-unpublished-decision-6-17-1999/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "1999-06-17",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 4,
+    "retirement benefits": 2,
+    "pension": 1,
+    "ERISA": 0,
+    "401(k)": 1,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 1
+  },
+  "generated_headnote": "Machine-draft public headnote: Carol Ann Kofol v. August Kofol is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "The lower court, in its judgment entry issued February 24, 1998, ordered, inter alia: IT IS FURTHER ORDERED, ADJUDGED AND DECREED that the parties' retirement benefits shall be divided through Qualified Domestic Relations Orders (QDRO). Counsel for the Plaintiff shall, within thirty (30) days, prepare a QDRO which divides the marital portion of the Defendant's Key Corp Cash Balance Pension Plan and his 401 (K). Counsel for Defendant shall, within thirty (30) days, prepare a QDRO which divides the plaintiff's PraxAir Retirement Program Plan and Advanced Ceramics Corporation Retirem"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "The lower court, in its judgment entry issued February 24, 1998, ordered, inter alia: IT IS FURTHER ORDERED, ADJUDGED AND DECREED that the parties' retirement benefits shall be divided through Qualified Domestic Relations Orders (QDRO). Counsel for the Plaintiff shall, within thirty (30) days, prepare a QDRO which divides the marital portion of the Defendant's Key Corp Cash Balance Pension Plan and his 401 (K). Counsel for Defendant shall, within thirty (30) days, prepare a QDRO which divides the plaintiff's PraxAir Reti"
+    },
+    {
+      "label": "pension",
+      "quote": "REED that the parties' retirement benefits shall be divided through Qualified Domestic Relations Orders (QDRO). Counsel for the Plaintiff shall, within thirty (30) days, prepare a QDRO which divides the marital portion of the Defendant's Key Corp Cash Balance Pension Plan and his 401 (K). Counsel for Defendant shall, within thirty (30) days, prepare a QDRO which divides the plaintiff's PraxAir Retirement Program Plan and Advanced Ceramics Corporation Retirement Plan and Severance Pay Plan in conformity with this Judgment Entry. The Court shall retain continuing jurisdiction to effectuate this order. Since neither appe"
+    },
+    {
+      "label": "401(k)",
+      "quote": "' retirement benefits shall be divided through Qualified Domestic Relations Orders (QDRO). Counsel for the Plaintiff shall, within thirty (30) days, prepare a QDRO which divides the marital portion of the Defendant's Key Corp Cash Balance Pension Plan and his 401 (K). Counsel for Defendant shall, within thirty (30) days, prepare a QDRO which divides the plaintiff's PraxAir Retirement Program Plan and Advanced Ceramics Corporation Retirement Plan and Severance Pay Plan in conformity with this Judgment Entry. The Court shall retain continuing jurisdiction to effectuate this order. Since neither appellant nor appellee ha"
+    }
+  ],
+  "full_text": "The lower court, in its judgment entry issued February 24, 1998, ordered, inter alia: \n IT IS FURTHER ORDERED, ADJUDGED AND DECREED that the parties' retirement benefits shall be divided through Qualified Domestic Relations Orders (QDRO). Counsel for the Plaintiff shall, within thirty (30) days, prepare a QDRO which divides the marital portion of the Defendant's Key Corp Cash Balance Pension Plan and his 401 (K). Counsel for Defendant shall, within thirty (30) days, prepare a QDRO which divides the plaintiff's PraxAir Retirement Program Plan and Advanced Ceramics Corporation Retirement Plan and Severance Pay Plan in conformity with this Judgment Entry. The Court shall retain continuing jurisdiction to effectuate this order. \n Since neither appellant nor appellee has filed the requisite judgment entry, no final appealable order exists and this court is without jurisdiction to rule on the appeal. \n It is ordered that appellee and appellant share equally in the costs herein taxed. \n The Court finds there were reasonable grounds for this appeal. \n It is ordered that a special mandate issue out of this Court directing the Cuyahoga County Court of Common Pleas, Domestic Relations Division, to carry this judgment into execution. \n A certified copy of this entry shall constitute the mandate pursuant to Rule 27 of the Rules of Appellate Procedure. \n JAMES M. PORTER, A.J. and TERRENCE O'DONNELL, J. CONCUR . \n ____________________________________ KENNETH A. ROCCO JUDGE",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

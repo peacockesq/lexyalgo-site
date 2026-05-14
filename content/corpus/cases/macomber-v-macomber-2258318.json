@@ -1,0 +1,40 @@
+{
+  "document_id": "3f537609-846c-4dc5-ba57-9f9360e65639",
+  "slug": "macomber-v-macomber-2258318",
+  "title": "MacOmber v. MacOmber",
+  "citation": "814 A.2d 456",
+  "source_url": "https://www.courtlistener.com/opinion/2258318/macomber-v-macomber/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "2003-01-07",
+  "strict_qdro_relevance": 1,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "family-law retirement/property division context",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: MacOmber v. MacOmber is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to family-law retirement/property division context. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 1/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "opening text",
+      "quote": "814 A.2d 456 (2003) 2003 ME 1 Steven MACOMBER v. Roxanne MACOMBER. Supreme Judicial Court of Maine. Argued: May 9, 2002. Decided: January 7, 2003. Donald J. Gasink (orally), Augusta, for plaintiff. David S. Abramson (orally), Givertz, Lunt, Hambley, Schefee & Abramson, P.A., Portland, for defendant. Panel: SAUFLEY, C.J. and CLIFFORD, RUDMAN, DANA, ALEXANDER, CALKINS, and LEVY, JJ. DANA, J. [¶ 1] Roxanne Macomber appeals from a divorce judgment entered in the District Court (Ellsworth, Staples, J. ), contending that the court erred in determining Steven Macomber's income and abused its discretion in its award of general and transitional support. She asserts that the cour"
+    }
+  ],
+  "full_text": "814 A.2d 456 (2003) \n 2003 ME 1 \n Steven MACOMBER \nv. \nRoxanne MACOMBER. \n Supreme Judicial Court of Maine. \n Argued: May 9, 2002. \n Decided: January 7, 2003. \n Donald J. Gasink (orally), Augusta, for plaintiff. \n David S. Abramson (orally), Givertz, Lunt, Hambley, Schefee & Abramson, P.A., Portland, for defendant. \n Panel: SAUFLEY, C.J. and CLIFFORD, RUDMAN, DANA, ALEXANDER, CALKINS, and LEVY, JJ. \n DANA, J. \n [¶ 1] Roxanne Macomber appeals from a divorce judgment entered in the District Court (Ellsworth, Staples, J. ), contending that the court erred in determining Steven Macomber's income and abused its discretion in its award of general and transitional support. She asserts that the court erred in failing adequately to consider the impact of her physical disability on her work capacity and in finding Steven had not committed economic misconduct. Because we conclude that the court erred in its calculation of Steven's income, we vacate the judgment in part and remand to the District Court for reconsideration of its award of spousal support. \n [¶ 2] The parties were married in 1972 when Roxanne turned eighteen. They have six children, all of whom are now adults. Steven graduated from college and became an engineer, working away from home at least seventy-five percent of the time. Roxanne was a homemaker throughout the marriage and has held temporary or part-time employment in *457 minimum wage jobs over the past few years. Steven filed for a divorce in 1998.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

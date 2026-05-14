@@ -1,0 +1,52 @@
+{
+  "document_id": "0dbb2278-74c8-4f7c-962e-197af8f13e1c",
+  "slug": "courtlistener-opinion-5133423-5133423",
+  "title": "CourtListener opinion 5133423",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 2,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 1,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 1
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 5133423 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "r payment because Richard had been terminated from his position as a marshal and earned no other income. The court also deferred resolving the vacation and sick pay issue. Also in June 2015, the district court entered a qualified domestic relations order (QDRO) dividing Richard's PERS benefits and a QDRO dividing Eleni's PERS benefits. The QDRO dividing Richard's PERS benefits recognized Richard as the participant in PERS and Eleni as the alternate payee. It \\assign[ed] to Eleni[ the right to receive a portion of"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "GORE, No. 73977 Appellant/Cross-Respondent, vs. FILE ELENI KILGORE, Respondent/Cross-Appellant. OCT 0 3 2019 BY ct Appeal and cross-appeal from orders resolving a motion to allocate omitted assets and modifying a divorce decree as it relates to PERS retirement benefits. Eighth Judicial District Court, Family Court Division, Clark County; Cheryl B. Moss, Judge. Affirmed. Law Office of Betsy Allen and Betsy Allen, Las Vegas, for Appellant/Cross-Respondent. Page Law Office and Fred Page, Las Vegas, for Respondent/Cross-Appellant. BEFORE PICKERING, PARRAGUIRRE and CADISH, JJ. OPINION By the Court, PARRAGUIRRE,"
+    },
+    {
+      "label": "pension",
+      "quote": "Eleni Kilgore's divorce. Specifically, we consider whether the district court abused its discretion or otherwise erred when it concluded that Eleni was entitled to her community SUPREME COURT OF NEVADA (0) 1947A ICI -41-0 1 property share of Richard's pension benefits even though Richard had not yet retired, reduced this amount to judgment, and ordered Richard to pay Eleni a monthly amount it deemed fair. We also consider whether the district court erred when it concluded that Richard's vacation and sick pay were omitted from the divorce decree and thereafter divided them equally between Richard and Eleni."
+    },
+    {
+      "label": "alternate payee",
+      "quote": "15, the district court entered a qualified domestic relations order (QDRO) dividing Richard's PERS benefits and a QDRO dividing Eleni's PERS benefits. The QDRO dividing Richard's PERS benefits recognized Richard as the participant in PERS and Eleni as the alternate payee. It \\assign[ed] to Eleni[ the right to receive a portion of"
+    }
+  ],
+  "full_text": "135 Nev., Advance Opinion 47\n IN THE SUPREME COURT OF THE STATE OF NEVADA\n\n RICHARD KILGORE, No. 73977\n Appellant/Cross-Respondent,\n vs. FILE\n ELENI KILGORE,\n Respondent/Cross-Appellant. OCT 0 3 2019\n\n BY\n ct\n Appeal and cross-appeal from orders resolving a motion to\n allocate omitted assets and modifying a divorce decree as it relates to PERS\n retirement benefits. Eighth Judicial District Court, Family Court Division,\n Clark County; Cheryl B. Moss, Judge.\n Affirmed.\n\n Law Office of Betsy Allen and Betsy Allen, Las Vegas,\n for Appellant/Cross-Respondent.\n\n Page Law Office and Fred Page, Las Vegas,\n for Respondent/Cross-Appellant.\n\n BEFORE PICKERING, PARRAGUIRRE and CADISH, JJ.\n\n OPINION\n\n By the Court, PARRAGUIRRE, J.:\n In this appeal, we review the district court's distribution of\n community property upon Richard Kilgore and Eleni Kilgore's divorce.\n Specifically, we consider whether the district court abused its discretion or\n otherwise erred when it concluded that Eleni was entitled to her community\nSUPREME COURT\n OF\n NEVADA\n\n(0) 1947A\n ICI -41-0 1\n property share of Richard's pension benefits even though Richard had not\n yet retired, reduced this amount to judgment, and ordered Richard to pay\n Eleni a monthly amount it deemed fair. We also consider whether the\n district court erred when it concluded that Richard's vacation and sick pay\n were omitted from the divorce decree and thereafter divided them equally\n between Richard and Eleni.\n We hold that a district court has significant discretion when\n determining whether to grant or deny a non-employee spouse's request for\n pension payments before the employee spouse has retired and conclude that\n the district court did not abuse that discretion here. Further, the district\n court did not err in considering the omitted assets and dividing them\n equally between the parties.\n FACTS\n Richard Kilgore and Eleni Kilgore were married in December\n 1992. During their marriage, both worked for Clark County—Richard as a\n marshal and Eleni as a teacher—and received retirement benefits through\n the Nevada Public Employees Retirement System (PERS). They divorced\n in March 2013, and the divorce decree provided for the division of each\n party's PERS benefits in accordance with applicable caselaw.1 The decree\n did not address vacation or sick pay earned and accrued during the\n marriage.\n In March 2015, Eleni moved the district court to compel Richard\n to begin paying her share of his PERS benefits because he had become\n eligible for retirement. She also requested a one-half interest in Richard's\n\n iThe divorce decree also resolved child custody, visitation, and\n support issues involving Richard's and Eleni's three minor children, none of\n which are disputed in this appeal.\nSUPREME CouRT\n OF\n NEVADA\n 2\nCo) 1947A carfil\n ).\n\n 11111MIIEL\n vacation and sick pay earned and accrued during their marriage, noting\n that such assets were omitted from the divorce decree. In June 2015, the\n court temporarily denied Eleni's request for payment because Richard had\n been terminated from his position as a marshal and earned no other income.\n The court also deferred resolving the vacation and sick pay issue.\n Also in June 2015, the district court entered a qualified\n domestic relations order (QDRO) dividing Richard's PERS benefits and a\n QDRO dividing Eleni's PERS benefits. The QDRO dividing Richard's PERS\n benefits recognized Richard as the participant in PERS and Eleni as the\n alternate payee. It \\assign[ed] to Eleni[ the right to receive a portion of",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

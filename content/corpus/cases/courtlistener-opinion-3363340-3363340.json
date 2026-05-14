@@ -1,0 +1,48 @@
+{
+  "document_id": "ce445eda-eb53-48c8-956a-42dc6db142bf",
+  "slug": "courtlistener-opinion-3363340-3363340",
+  "title": "CourtListener opinion 3363340",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3363340 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "t the value of the Merril Lynch Account #87712717 which was shown on Mr. McManus' financial affidavit as having a balance of $9,280 at the time of trial, was the amount transferred to the wife by court order thereafter. It was the court's intention that the Qualified Domestic Relations Order entered concerning the Amerada Hess Pension was CT Page 3385 also to be valued as of the date or the trial. It is also clear to this court that the court did not expect any payments on the daughter's education at Laurelton Hall to be paid by him, post her reaching age eighteen. This court did not consider the contractual relationship with her school as bi"
+    },
+    {
+      "label": "pension",
+      "quote": ". McManus' financial affidavit as having a balance of $9,280 at the time of trial, was the amount transferred to the wife by court order thereafter. It was the court's intention that the Qualified Domestic Relations Order entered concerning the Amerada Hess Pension was CT Page 3385 also to be valued as of the date or the trial. It is also clear to this court that the court did not expect any payments on the daughter's education at Laurelton Hall to be paid by him, post her reaching age eighteen. This court did not consider the contractual relationship with her school as binding the father post age eighteen. He is on"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "e of the Merril Lynch Account #87712717 which was shown on Mr. McManus' financial affidavit as having a balance of $9,280 at the time of trial, was the amount transferred to the wife by court order thereafter. It was the court's intention that the Qualified Domestic Relations Order entered concerning the Amerada Hess Pension was CT Page 3385 also to be valued as of the date or the trial. It is also clear to this court that the court did not expect any payments on the daughter's education at Laurelton Hall to be paid by him, post her reaching age eighteen. This court did not consider the contractual relationship with her school as bi"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] \nMEMORANDUM OF DECISION RE: MOTION FOR CONTEMPT (111.00)\nThis case comes to this court on a Motion for Contempt dated May 12, 1992. The original Motion For Contempt addressed eight items. The parties have resolved all but three. \n On December 26, 1991, this court wrote a Memorandum of Decision addressing the financial issues of the parties. It was the court's intention that the value of the Merril Lynch Account #87712717 which was shown on Mr. McManus' financial affidavit as having a balance of $9,280 at the time of trial, was the amount transferred to the wife by court order thereafter. \n It was the court's intention that the Qualified Domestic Relations Order entered concerning the Amerada Hess Pension was CT Page 3385 also to be valued as of the date or the trial. \n It is also clear to this court that the court did not expect any payments on the daughter's education at Laurelton Hall to be paid by him, post her reaching age eighteen. This court did not consider the contractual relationship with her school as binding the father post age eighteen. He is only obligated to pay whatever expenses were due up to age eighteen. Educational service provided after the child reaches the age of eighteen are not the responsibility of the father. This court is not influenced by the accounting methods of the institution. Because the wife and daughter were billed prospectively before the daughter was age eighteen for services to be rendered after age eighteen, does not cause the father to be responsible for the daughters education post eighteen. \n Accordingly, orders are entered consistent with this decision in that: (1) The Amerada Hess Pension is transferred to the wife with a value as of the date of the trial which trial date is November 5th. (2) That the Merril Lynch Account had a value of $9,280. If less was transferred by the husband to the wife, the amount shall be made up within 20 days of this order. (3) That the father's obligation to pay educational expenses is not to be beyond age eighteen as set forth above. \n This court does not find the husband/father in wilfull violation of a court order and accordingly, denies any relief requested claiming expenses incurred including, but not limited to attorney's fees. The court finds there was bona fide dispute as to the court's orders. \n In rendering this decision, the court has taken into consideration the arguments of the parties made in court and their very excellent memo's of law setting forth their respective positions and the cases cited therein. The court notes that 463 of the Practice Book requires sworn financial affidavits to be filed at the time of trial which is what the court relied on. Cuneo v. Cuneo, 12 Conn. App. 702 (1987), indicates that financial awards in marital dissolution cases should be based on the parties' current financial circumstances to the extent reasonably possible. \n This is and was the intention of the court in this case. \n KARAZIN, J. CT Page 3386",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

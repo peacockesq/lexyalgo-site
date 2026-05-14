@@ -1,0 +1,48 @@
+{
+  "document_id": "245bed2f-a667-4acc-b859-6dd7bd27c48b",
+  "slug": "courtlistener-opinion-3015955-3015955",
+  "title": "CourtListener opinion 3015955",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 0,
+    "pension": 1,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3015955 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "Vantage Footwear, Inc., and Vantage Footwear, Inc. Said award shall be deemed a judgment lien against Respondent's interest in said plan and his interest in the stock of Vantage Footwear, Inc., which is held in or by said plan. Respondent shall execute a Qualified Domestic Relations Order consistent with this Decree and the Court retains jurisdiction thereof. On February 7, 1990, the above language was modified, for reasons not in the record, on Ronald's motion to alter and amend the judgment. The only change of substance was the deletion of the last sentence requiring Ronald to execute a Qualified Domestic Relations Order (QDRO). In an"
+    },
+    {
+      "label": "pension",
+      "quote": "ree of Dissolution, which reads as follows: As and for her partial share of the parties' marital property, Petitioner [Susan] is awarded Three Hundred Thousand Dollars ($300,000.00) to be paid to her by Respondent [Ronald], as her interest in Respondent's pension and profit sharing plan with Vantage Footwear, Inc., and Vantage Footwear, Inc. Said award shall be deemed a judgment lien against Respondent's interest in said plan and his interest in the stock of Vantage Footwear, Inc., which is held in or by said plan. Respondent shall execute a Qualified Domestic Relations Order consistent with this Decree and th"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "ootwear, Inc., and Vantage Footwear, Inc. Said award shall be deemed a judgment lien against Respondent's interest in said plan and his interest in the stock of Vantage Footwear, Inc., which is held in or by said plan. Respondent shall execute a Qualified Domestic Relations Order consistent with this Decree and the Court retains jurisdiction thereof. On February 7, 1990, the above language was modified, for reasons not in the record, on Ronald's motion to alter and amend the judgment. The only change of substance was the deletion of the last sentence requiring Ronald to execute a Qualified Domestic Relations Order (QDRO). In an"
+    }
+  ],
+  "full_text": "___________\n\n No. 95-1020\n ___________\n\nIn re: Ronald Ellis, *\n *\n Debtor. *\n *\n_____________________________ *\n * Appeal from the United States\nSusan Ellis, * District Court for the Eastern\n * District of Missouri.\n Appellee, *\n *\n v. *\n *\nRonald Ellis, *\n *\n Appellant. *\n\n ___________\n\n Submitted: May 18, 1995\n\n Filed: December 18, 1995\n ___________\n\nBefore BOWMAN, MAGILL, and LOKEN, Circuit Judges.\n\n ___________\n\nBOWMAN, Circuit Judge.\n\n Ronald Ellis appeals from the decision of the District Court\naffirming the Bankruptcy Court's decision holding nondischargeable in\nbankruptcy a $300,000 obligation Ronald owed to his former wife Susan Ellis\nby virtue of a dissolution decree. We reverse.\n\n Susan and Ronald Ellis were divorced in November 1989. At issue here\nis paragraph 1 of the attachment to the Ellises' Decree of Dissolution,\nwhich reads as follows:\n As and for her partial share of the parties' marital\n property, Petitioner [Susan] is awarded Three Hundred Thousand\n Dollars ($300,000.00) to be paid to her by Respondent [Ronald],\n as her interest in Respondent's pension and profit sharing plan\n with Vantage Footwear, Inc., and Vantage Footwear, Inc. Said\n award shall be deemed a judgment lien against Respondent's\n interest in said plan and his interest in the stock of Vantage\n Footwear, Inc., which is held in or by said plan. Respondent\n shall execute a Qualified Domestic Relations Order consistent\n with this Decree and the Court retains jurisdiction thereof.\n\nOn February 7, 1990, the above language was modified, for reasons not in\nthe record, on Ronald's motion to alter and amend the judgment. The only\nchange of substance was the deletion of the last sentence requiring Ronald\nto execute a Qualified Domestic Relations Order (QDRO).\n\n In an opinion filed January 22, 1991, the Missouri Court of Appeals\nfound that the $300,000 award was not an abuse of discretion. Ellis v.\nEllis, 802 S.W.2d 546, 549 (Mo. Ct. App. 1991). The court of appeals\nmodified the award, at Ronald's request, so that $50,000 was to be paid to\nSusan on July 1, 1991; thereafter, every six months, Ronald was to pay\nSusan $50,000 plus interest \\until the amount is paid in full.\\\" Id. The",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

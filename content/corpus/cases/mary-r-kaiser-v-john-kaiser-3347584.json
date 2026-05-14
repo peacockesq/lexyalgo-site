@@ -1,0 +1,48 @@
+{
+  "document_id": "f96902dc-a8af-4a79-9a52-4bdf78b1587a",
+  "slug": "mary-r-kaiser-v-john-kaiser-3347584",
+  "title": "Mary R. Kaiser v. John Kaiser",
+  "citation": "Qualified Domestic Relations order",
+  "source_url": "https://www.courtlistener.com/opinion/3352061/kaiser-v-kaiser-no-fa86-0226902-apr-22-1996/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "1996-04-22",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 4,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: Mary R. Kaiser v. John Kaiser is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "laintiff became employed shortly after the dissolution and has been steadily employed since then. She earns $552.30 weekly gross and net of $380.63. In addition to this earned income, she receives a pension of $250 from Southern Connecticut Gas derived from a Qualified Domestic Relations order granted by the court when the marriage was dissolved. If the $50 weekly alimony is factored into the income, her weekly net is about $625.19. Her total weekly expenses are $270.79. Plaintiff's financial affidavit shows assets of about $70,000 including a one-half interest in a home. Plaintiff is social security eligible both by virtue of her employment and"
+    },
+    {
+      "label": "pension",
+      "quote": "dy of seven children, three of whom were minors at the time of the dissolution. The defendant retired as of January 1, 1996 at age 64. His financial affidavit indicates that he receives a social security benefit of $265 weekly, plus a Southern Connecticut Gas pension of $269.25 weekly. Against a total weekly income of $491.62 per week, he has listed expenses of $448.82. Defendant has remarried. His present wife is unemployed. Factoring in the $50 per week alimony gives him a small shortfall. Defendant has significant assets, a mortgage-free home valued at $160,000 and other assets totalling $265,000. These assets at pre"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "ecame employed shortly after the dissolution and has been steadily employed since then. She earns $552.30 weekly gross and net of $380.63. In addition to this earned income, she receives a pension of $250 from Southern Connecticut Gas derived from a Qualified Domestic Relations order granted by the court when the marriage was dissolved. If the $50 weekly alimony is factored into the income, her weekly net is about $625.19. Her total weekly expenses are $270.79. Plaintiff's financial affidavit shows assets of about $70,000 including a one-half interest in a home. Plaintiff is social security eligible both by virtue of her employment and"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] MEMORANDUM OF DECISION \nIn this motion for modification of judgment of a dissolution decree, the defendant represents that there has been a substantial change in circumstances making the continued payment of $50 per week alimony unreasonable. \n Section 46b-86 (a) authorizes the court after a finding of a substantial change in the circumstances of either party to continue, set aside, alter or modify any final order for the periodic payment of permanent alimony. Once a trial court finds a substantial change in circumstance, it can properly consider a modification giving weight to the factors embraced in &#167; 46b-82 , such as the length of marriage, the age, health, station, occupation, amount and source of income and the award given pursuant to &#167; 46b-81 . \n The parties' marriage of thirty-three years was dissolved on December 18, 1986. \n Each party received substantial assets by way of an assignment of properties. At that time the defendant-husband was employed by Southern Connecticut Gas Company with a net income of approximately $523 per week. The plaintiff-wife was a homemaker who had devoted her married life to the care and custody of seven children, three of whom were minors at the time of the dissolution. The defendant retired as of January 1, 1996 at age 64. His financial affidavit indicates that he receives a social security benefit of $265 weekly, plus a Southern Connecticut Gas pension of $269.25 weekly. Against a total weekly income of $491.62 per week, he has listed expenses of $448.82. Defendant has remarried. His present wife is unemployed. Factoring in the $50 per week alimony gives him a small shortfall. Defendant has significant assets, a mortgage-free home valued at $160,000 and other assets totalling $265,000. These assets at present do not generate any liquid available income. They could generate present CT Page 3165 income; however, the defendant prefers the income to accumulate tax free. \n Plaintiff became employed shortly after the dissolution and has been steadily employed since then. She earns $552.30 weekly gross and net of $380.63. In addition to this earned income, she receives a pension of $250 from Southern Connecticut Gas derived from a Qualified Domestic Relations order granted by the court when the marriage was dissolved. If the $50 weekly alimony is factored into the income, her weekly net is about $625.19. Her total weekly expenses are $270.79. Plaintiff's financial affidavit shows assets of about $70,000 including a one-half interest in a home. Plaintiff is social security eligible both by virtue of her employment and her former marriage. Plaintiff is presently sixty-three years of age, in reasonably good health, unmarried. She expects to retire in December of 1996. In retirement she anticipates a pension from Saint Raphael of $90 monthly, a continuation of her pension rights from Southern Connecticut Gas guaranteed by QUADRO, $250 weekly and a social security benefit of approximately $122 weekly. In addition, the plaintiff will be eligible for some retirement health benefits from St. Raphael, cost unknown. \n On the basis of this evidence, the court finds a substantial change in the circumstances affecting the plaintiff's income contrasted with her income ($115 weekly payments from children for board) at the time of dissolution. \n Giving consideration to all of the factors listed in &#167; 46b-82 , the court will reopen the judgment and modify the award of periodic alimony from $50 per week to $30 per week. \n Dorsey, J. State Trial Referee",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

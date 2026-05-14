@@ -1,0 +1,40 @@
+{
+  "document_id": "55c7c457-578d-4958-a8a9-68328c9efa46",
+  "slug": "courtlistener-opinion-3713457-3713457",
+  "title": "CourtListener opinion 3713457",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 1,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "family-law retirement/property division context",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3713457 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to family-law retirement/property division context. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 1/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "opening text",
+      "quote": "{&#182; 1} Although I agree with much of the majority's rationale and its ultimate resolution of the case, I cannot agree at this time with &#182; 27 and 28 of its opinion. The majority gives three reasons for overruling Appellant's first assignment of error. In the first of those reasons, the majority concludes that the separation agreement would be an illegal contract if it required the parties to go to mediation before taking any legal action. According to the majority, any such provision would conflict with R.C. 3105.65 (B), which grants courts continuing jurisdiction over issues regarding parental rights and responsibilities. In making this novel conclusion, the majority ignores the fac"
+    }
+  ],
+  "full_text": "{&#182; 1} Although I agree with much of the majority's rationale and its ultimate resolution of the case, I cannot agree at this time with &#182; 27 and 28 of its opinion. The majority gives three reasons for overruling Appellant's first assignment of error. In the first of those reasons, the majority concludes that the separation agreement would be an illegal contract if it required the parties to go to mediation before taking any legal action. According to the majority, any such provision would conflict with R.C. 3105.65 (B), which grants courts continuing jurisdiction over issues regarding parental rights and responsibilities. In making this novel conclusion, the majority ignores the fact that mediation is, by definition, non-binding. R.C. 2317.023 (A)(1); Black's Law Dictionary (7th ed. 1999), 996. If the parties do not agree in mediation, they can still invoke the trial court's continuing jurisdiction. \n {&#182; 2} When concluding that the mediation clause in the separation agreement is illegal, the majority cites no legal precedent and ignores authority to the contrary. As the following quote makes clear, mediation clauses like the one in this case are encouraged in domestic relations cases. \n {&#182; 3} \\The practice of inserting `mediation clauses' into agreements is becoming far more common and is routinely used in business contracts",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

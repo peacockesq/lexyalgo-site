@@ -1,0 +1,52 @@
+{
+  "document_id": "34bfaa05-c14e-44ea-9ddb-50b99fce98ad",
+  "slug": "courtlistener-opinion-3355114-3355114",
+  "title": "CourtListener opinion 3355114",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 0,
+    "pension": 1,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 1
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3355114 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "dividual. At the time of the dissolution the plaintiff was a Major in the Army National Guard Reserve Program. The trial court dissolution order included provisions for property division. Paragraph 14 of that judgment provided: The husband shall execute a Qualified Domestic Relations Order when his United States Army pension vests giving the wife an interest equal to twenty percent of what he would have been entitled to receive if he were vested as of the date of this decree. Pursuant to the trial court's judgment, the plaintiff's counsel prepared a Qualified Domestic Relations Order (QDRO). In that September 12, 1994, document both parties"
+    },
+    {
+      "label": "pension",
+      "quote": "Major in the Army National Guard Reserve Program. The trial court dissolution order included provisions for property division. Paragraph 14 of that judgment provided: The husband shall execute a Qualified Domestic Relations Order when his United States Army pension vests giving the wife an interest equal to twenty percent of what he would have been entitled to receive if he were vested as of the date of this decree. Pursuant to the trial court's judgment, the plaintiff's counsel prepared a Qualified Domestic Relations Order (QDRO). In that September 12, 1994, document both parties stipulated in relevant part: CT Pag"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "At the time of the dissolution the plaintiff was a Major in the Army National Guard Reserve Program. The trial court dissolution order included provisions for property division. Paragraph 14 of that judgment provided: The husband shall execute a Qualified Domestic Relations Order when his United States Army pension vests giving the wife an interest equal to twenty percent of what he would have been entitled to receive if he were vested as of the date of this decree. Pursuant to the trial court's judgment, the plaintiff's counsel prepared a Qualified Domestic Relations Order (QDRO). In that September 12, 1994, document both parties"
+    },
+    {
+      "label": "valuation/division",
+      "quote": "order dissolving the marriage of these litigants. Individual counsel represented each individual. At the time of the dissolution the plaintiff was a Major in the Army National Guard Reserve Program. The trial court dissolution order included provisions for property division. Paragraph 14 of that judgment provided: The husband shall execute a Qualified Domestic Relations Order when his United States Army pension vests giving the wife an interest equal to twenty percent of what he would have been entitled to receive if he were vested as of the date of this decree. Pursuant to the trial court's judgment, the plaintiff's couns"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] MEMORANDUM OF DECISION ON MOTION FOR CLARIFICATION (DATED AUGUST 7, 2001), MOTION FOR CONTEMPT (DATED AUGUST 7, 2001), MOTION TO DISMISS POST-JUDGMENT PLAINTIFF'S MOTION FOR CLARIFICATION ORDER (DATED SEPTEMBER 25, 2001), AND MOTION FOR MODIFICATION POST JUDGMENT (DATED OCTOBER 4, 2001) \nOn January 24, 1992, a trial court, Ballen, J., entered an order dissolving the marriage of these litigants. Individual counsel represented each individual. \n At the time of the dissolution the plaintiff was a Major in the Army National Guard Reserve Program. The trial court dissolution order included provisions for property division. Paragraph 14 of that judgment provided: \n The husband shall execute a Qualified Domestic Relations Order when his United States Army pension vests giving the wife an interest equal to twenty percent of what he would have been entitled to receive if he were vested as of the date of this decree. \n Pursuant to the trial court's judgment, the plaintiff's counsel prepared a Qualified Domestic Relations Order (QDRO). In that September 12, 1994, document both parties stipulated in relevant part: CT Page 6815 \n \\The Decision",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

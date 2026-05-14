@@ -1,0 +1,44 @@
+{
+  "document_id": "f0988a8d-5727-4370-8563-e2f4986ca74a",
+  "slug": "courtlistener-opinion-10844884-10844884",
+  "title": "CourtListener opinion 10844884",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 10844884 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "YS COUNTY NO. 12-2533, THE HONORABLE KARL HAYS, JUDGE PRESIDING MEMORANDUM OPINION On January 13, 2025, David Fountain attempted an appeal from the district court's \"Final Order Clarifying Final Decree of Divorce and Order Authorizing the Issuance of a Qualified Domestic Relations Order\" and \"Qualified Domestic Relations Order,\" both signed on September 3, 2024. After the orders were signed, Fountain timely filed a motion for new trial, which extended the deadline for filing a notice of appeal to December 2, 2024. See Tex. R. App. 26.1(a)(1). The clerk of this Court sent a letter to Fountain's counsel questioning jurisdiction over this"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "NO. 12-2533, THE HONORABLE KARL HAYS, JUDGE PRESIDING MEMORANDUM OPINION On January 13, 2025, David Fountain attempted an appeal from the district court's \"Final Order Clarifying Final Decree of Divorce and Order Authorizing the Issuance of a Qualified Domestic Relations Order\" and \"Qualified Domestic Relations Order,\" both signed on September 3, 2024. After the orders were signed, Fountain timely filed a motion for new trial, which extended the deadline for filing a notice of appeal to December 2, 2024. See Tex. R. App. 26.1(a)(1). The clerk of this Court sent a letter to Fountain's counsel questioning jurisdiction over this"
+    }
+  ],
+  "full_text": "TEXAS COURT OF APPEALS, THIRD DISTRICT, AT AUSTIN\n\n NO. 03-25-00019-CV\n\n David Fountain, Appellant\n\n v.\n\n Rebekah Ross, Appellee\n\n FROM THE 22ND DISTRICT COURT OF HAYS COUNTY\n NO. 12-2533, THE HONORABLE KARL HAYS, JUDGE PRESIDING\n\n MEMORANDUM OPINION\n\n On January 13, 2025, David Fountain attempted an appeal from the district\n\ncourt's \"Final Order Clarifying Final Decree of Divorce and Order Authorizing the Issuance of a\n\nQualified Domestic Relations Order\" and \"Qualified Domestic Relations Order,\" both signed on\n\nSeptember 3, 2024. After the orders were signed, Fountain timely filed a motion for new trial,\n\nwhich extended the deadline for filing a notice of appeal to December 2, 2024. See Tex. R. App.\n\n26.1(a)(1). The clerk of this Court sent a letter to Fountain's counsel questioning jurisdiction\n\nover this appeal and requesting that he provide proof of timely filing of a notice of appeal or\n\nrisk dismissal of this appeal for want of jurisdiction. See id. R. 42.3(a). No response was filed.\n\nOnce the time for filing a notice of appeal and seeking an extension of time to file the notice of\n\nappeal have expired, a party cannot invoke an appellate court's jurisdiction. See Verburgt v.\n\nDorner, 959 S.W.2d 615, 617 (Tex. 1997). Accordingly, we dismiss this appeal for want of\n jurisdiction. See Tex. R. App. P. 42.3(a); Crites v. Collins, 284 S.W.3d 839, 840 (Tex. 2009)\n\n(indicating that timely notice of appeal is jurisdictional).\n\n __________________________________________\n Karin Crump, Justice\n\nBefore Justices Triana, Theofanis, and Crump\n\nDismissed for Want of Jurisdiction\n\nFiled: April 10, 2025\n\n 2",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

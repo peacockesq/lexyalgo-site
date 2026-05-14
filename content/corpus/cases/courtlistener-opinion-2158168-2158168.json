@@ -1,0 +1,48 @@
+{
+  "document_id": "0c37a947-a74d-4178-8d7b-c7a1ec97873a",
+  "slug": "courtlistener-opinion-2158168-2158168",
+  "title": "CourtListener opinion 2158168",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "ERISA / defined contribution issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 2,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 2158168 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to ERISA / defined contribution issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "as E. Griffith, Erickson, Davis, Murphy, Griffith & Walsh, Ltd., Decatur, Guardian ad Litem. Justice LUND delivered the opinion of the court: Respondent Diana L. Norfleet appeals from an order of the circuit court of Macon County denying her request for a qualified domestic relations order (QDRO), assigning her an interest in her deceased ex-husband's 401(k) deferred benefit plan (401(k)). FACTS Jim E. Norfleet and Diana L. Norfleet were married in 1978. One child, Carie L. Norfleet (born November 4, 1970), was adopted by Jim and Diana; and one child, Joshua J. Norfleet (born October 16, 1980), was born to Jim and Diana. Diana is disabl"
+    },
+    {
+      "label": "401(k)",
+      "quote": "tice LUND delivered the opinion of the court: Respondent Diana L. Norfleet appeals from an order of the circuit court of Macon County denying her request for a qualified domestic relations order (QDRO), assigning her an interest in her deceased ex-husband's 401(k) deferred benefit plan (401(k)). FACTS Jim E. Norfleet and Diana L. Norfleet were married in 1978. One child, Carie L. Norfleet (born November 4, 1970), was adopted by Jim and Diana; and one child, Joshua J. Norfleet (born October 16, 1980), was born to Jim and Diana. Diana is disabled by multiple sclerosis. Jim filed a petition for dissolution of th"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "fith, Erickson, Davis, Murphy, Griffith & Walsh, Ltd., Decatur, Guardian ad Litem. Justice LUND delivered the opinion of the court: Respondent Diana L. Norfleet appeals from an order of the circuit court of Macon County denying her request for a qualified domestic relations order (QDRO), assigning her an interest in her deceased ex-husband's 401(k) deferred benefit plan (401(k)). FACTS Jim E. Norfleet and Diana L. Norfleet were married in 1978. One child, Carie L. Norfleet (born November 4, 1970), was adopted by Jim and Diana; and one child, Joshua J. Norfleet (born October 16, 1980), was born to Jim and Diana. Diana is disabl"
+    }
+  ],
+  "full_text": "612 N.E.2d 939 (1993) \n 243 Ill. App.3d 925 \n 184 Ill.Dec. 63 \n In re the MARRIAGE OF Jim E. NORFLEET, Petitioner (Diana L. Norfleet, Respondent-Appellant; Joshua Norfleet, a Minor by and through the Guardian of his Estate, and Person, Geneva Norfleet, Intervenor-Appellee). \n No. 4-92-0780. \n Appellate Court of Illinois, Fourth District. \n Argued March 17, 1993. \n Decided April 22, 1993. \n Darrell E. Statzer, Jr., argued, Wilson, Dyar, Moss & Statzer, Decatur, for respondent-appellant. \n Jerrold H. Stocks, argued, Armstrong, Winters, Prince, Featherstun & Johnson, Decatur, for intervenor-appellee. \n Thomas E. Griffith, Erickson, Davis, Murphy, Griffith & Walsh, Ltd., Decatur, Guardian ad Litem. \n Justice LUND delivered the opinion of the court: \n Respondent Diana L. Norfleet appeals from an order of the circuit court of Macon County denying her request for a qualified domestic relations order (QDRO), assigning her an interest in her deceased ex-husband's 401(k) deferred benefit plan (401(k)). \n \n FACTS \n Jim E. Norfleet and Diana L. Norfleet were married in 1978. One child, Carie L. Norfleet (born November 4, 1970), was adopted by Jim and Diana; and one child, Joshua J. Norfleet (born October 16, 1980), was born to Jim and Diana. Diana is disabled by multiple sclerosis. \n Jim filed a petition for dissolution of the marriage on August 14, 1991. The petition stated that Jim was employed at Caterpillar and Diana was not employed. On February 7, 1992, a judgment of dissolution of marriage, based upon a marital settlement agreement, was entered in the circuit court of Macon County. That judgment provided in relevant part: \n \\9. That said marital settlement agreement will settle all issues",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

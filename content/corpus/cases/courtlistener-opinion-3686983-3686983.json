@@ -1,0 +1,48 @@
+{
+  "document_id": "e182ddb5-4be3-498e-8299-37bbeacf27b6",
+  "slug": "courtlistener-opinion-3686983-3686983",
+  "title": "CourtListener opinion 3686983",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 3,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3686983 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "in Hoyt v. Hoyt (1990), 53 Ohio St.3d 177 , 559 N.E.2d 1292 , which would result in her receiving $89,695.70 of Robert's retirement benefits. We conclude that Hoyt, supra, is distinguishable from this case because it involved a contested divorce decree and a Qualified Domestic Relations Order (QDRO), whereas this case does not involve a QDRO and involves a decree of dissolution incorporating a separation agreement entered into by the parties. We conclude that the determinative issue in this case is the interpretation of the phrase \\accrued through 6/30/88\\\" in the separation agreement"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "OPINION {&#182; 1} Plaintiff-appellant Sharron M. Pohl appeals from an order dismissing her motion for contempt against defendant-appellee Robert J. Pohl and ordering Robert to pay Sharron $12,681.67, her share of his retirement benefits, pursuant to their separation agreement. Sharron contends that the trial court abused its discretion in its calculation of her share of Robert's retirement benefits, because it failed to use the coverture fraction analysis articulated in Hoyt v. Hoyt (1990), 53 Ohio St.3d 177 , 559 N.E.2d 1292 , which would result in her receiving $89,695.70 of Robert's re"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": ". Hoyt (1990), 53 Ohio St.3d 177 , 559 N.E.2d 1292 , which would result in her receiving $89,695.70 of Robert's retirement benefits. We conclude that Hoyt, supra, is distinguishable from this case because it involved a contested divorce decree and a Qualified Domestic Relations Order (QDRO), whereas this case does not involve a QDRO and involves a decree of dissolution incorporating a separation agreement entered into by the parties. We conclude that the determinative issue in this case is the interpretation of the phrase \\accrued through 6/30/88\\\" in the separation agreement"
+    }
+  ],
+  "full_text": "OPINION \n {&#182; 1} Plaintiff-appellant Sharron M. Pohl appeals from an order dismissing her motion for contempt against defendant-appellee Robert J. Pohl and ordering Robert to pay Sharron $12,681.67, her share of his retirement benefits, pursuant to their separation agreement. Sharron contends that the trial court abused its discretion in its calculation of her share of Robert's retirement benefits, because it failed to use the coverture fraction analysis articulated in Hoyt v. Hoyt (1990), 53 Ohio St.3d 177 , 559 N.E.2d 1292 , which would result in her receiving $89,695.70 of Robert's retirement benefits. We conclude that Hoyt, supra, is distinguishable from this case because it involved a contested divorce decree and a Qualified Domestic Relations Order (QDRO), whereas this case does not involve a QDRO and involves a decree of dissolution incorporating a separation agreement entered into by the parties. We conclude that the determinative issue in this case is the interpretation of the phrase \\accrued through 6/30/88\\\" in the separation agreement",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

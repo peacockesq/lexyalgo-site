@@ -1,0 +1,48 @@
+{
+  "document_id": "b0798e76-21d0-4810-9303-0e25b908e154",
+  "slug": "courtlistener-opinion-3152701-3152701",
+  "title": "CourtListener opinion 3152701",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 4,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3152701 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "f the parties' interests in the marital estate. 3. A party may execute on a judgment in a divorce decree that divides a party's retirement accounts governed by the Employee Retirement Income Security Act of 1974, 29 U.S.C. § 1001 (2012) et seq., by filing a qualified domestic relations order with the retirement plan administrator for each retirement account. 1 4. Under the tolling provision of K.S.A. 2014 Supp. 60-2403(c), the dormancy period does not run \\during any period in which the enforcement of the judgment by legal"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "r which a district judge must release the judgment of record. Because any judgment of any court of record in this state is subject to dormancy, K.S.A. 2014 Supp. 60-2403(a)(1) is not limited to monetary judgments. 2. A district court's division of a party's retirement accounts in a divorce decree constitutes a judgment subject to dormancy under K.S.A. 2014 Supp. 60-2403 when the division qualifies as a final determination of the parties' interests in the marital estate. 3. A party may execute on a judgment in a divorce decree that divides a party's retirement accounts governed by the Employee Retirement Income Security Act of"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "ies' interests in the marital estate. 3. A party may execute on a judgment in a divorce decree that divides a party's retirement accounts governed by the Employee Retirement Income Security Act of 1974, 29 U.S.C. § 1001 (2012) et seq., by filing a qualified domestic relations order with the retirement plan administrator for each retirement account. 1 4. Under the tolling provision of K.S.A. 2014 Supp. 60-2403(c), the dormancy period does not run \\during any period in which the enforcement of the judgment by legal"
+    }
+  ],
+  "full_text": "No. 112,422\n\n IN THE COURT OF APPEALS OF THE STATE OF KANSAS\n\n In the Matter of the Marriage of\n\n DAVID E. LARIMORE,\n Appellee,\n\n and\n\n JANICE M. LARIMORE,\n Appellant.\n\n SYLLABUS BY THE COURT\n\n1.\n The Kansas dormancy statute, K.S.A. 2014 Supp. 60-2403, governs when a\njudgment becomes dormant and establishes the circumstances under which a district\njudge must release the judgment of record. Because any judgment of any court of record\nin this state is subject to dormancy, K.S.A. 2014 Supp. 60-2403(a)(1) is not limited to\nmonetary judgments.\n\n2.\n A district court's division of a party's retirement accounts in a divorce decree\nconstitutes a judgment subject to dormancy under K.S.A. 2014 Supp. 60-2403 when the\ndivision qualifies as a final determination of the parties' interests in the marital estate.\n\n3.\n A party may execute on a judgment in a divorce decree that divides a party's\nretirement accounts governed by the Employee Retirement Income Security Act of 1974,\n29 U.S.C. § 1001 (2012) et seq., by filing a qualified domestic relations order with the\nretirement plan administrator for each retirement account.\n\n 1\n 4.\n Under the tolling provision of K.S.A. 2014 Supp. 60-2403(c), the dormancy period\ndoes not run \\during any period in which the enforcement of the judgment by legal",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

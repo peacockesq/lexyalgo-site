@@ -1,0 +1,52 @@
+{
+  "document_id": "243f6209-d9e9-47a6-b35f-b47c39ee8149",
+  "slug": "courtlistener-opinion-4347428-4347428",
+  "title": "CourtListener opinion 4347428",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 4,
+    "retirement benefits": 1,
+    "pension": 11,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 2,
+    "domestic relations order": 1,
+    "survivor benefits": 1,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4347428 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "Office, Davenport, for appellee. Considered by Vaitheswaran, P.J., and Doyle and Mullins, JJ. 2 VAITHESWARAN, Presiding Judge. We must decide whether the district court erred in dismissing a petition to modify the language of a dissolution decree and qualified domestic relations order (QDRO) filed in 2006. The decree dissolving the marriage of Deborah and Richard Whitford ordered the division of Richard's pension by the following equation: [D]ivide the pension payment in half and multiply the result by the percentage arrived at by dividing the number of years of this marriage by the number of years Richard was employed by John D"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "n years later. He alleged, \"The Court in both the decree and the QDRO made a mistake in the calculation of the formula to be used in dividing [his] pension.\" He also alleged \"the Court made a mistake in awarding the Petitioner survivor benefits under [his] retirement plan.\" Deborah moved to dismiss the petition on the ground that \"there is absolutely no mistake in this matter and the trial court judge has denied [him] each and every time he has asserted this argument regarding a modification of the 3 formula used to divide his pension benefits.\" She premised her motion on the principle of res judicata. In dismissing"
+    },
+    {
+      "label": "pension",
+      "quote": "district court erred in dismissing a petition to modify the language of a dissolution decree and qualified domestic relations order (QDRO) filed in 2006. The decree dissolving the marriage of Deborah and Richard Whitford ordered the division of Richard's pension by the following equation: [D]ivide the pension payment in half and multiply the result by the percentage arrived at by dividing the number of years of this marriage by the number of years Richard was employed by John Deere. In the event he should die before or while he is receiving pension payments Deborah shall be entitled to receive any survivor b"
+    },
+    {
+      "label": "alternate payee",
+      "quote": "ore or while he is receiving pension payments Deborah shall be entitled to receive any survivor benefits on his pension authorized under the pension plan. The \"uncontested\" QDRO filed shortly thereafter used the following language to divide the pension: Alternate Payee, Deborah L. Whitford, as Alternate Payee of the benefit of Richard H. Whitford, Participant under the John Deere Pension Plan is awarded one half of the pension benefit multiplied by a fraction wherein the numerator is the number of months married and the denominator shall be the total number of months worked by the Participant, Richard H. Whitford. R"
+    }
+  ],
+  "full_text": "IN THE COURT OF APPEALS OF IOWA\n\n No. 17-2081\n Filed December 5, 2018\n\nIN RE THE MARRIAGE OF DEBORAH WHITFORD\nAND RICHARD WHITFORD\n\nUpon the Petition of\nDEBORAH WHITFORD,\n Petitioner-Appellee,\n\nAnd Concerning\nRICHARD WHITFORD,\n Respondent-Appellant.\n________________________________________________________________\n\n Appeal from the Iowa District Court for Scott County, John D. Telleen,\n\nJudge.\n\n Richard Whitford appeals the district court's dismissal of his petition to\n\nmodify the parties' dissolution decree. AFFIRMED.\n\n Eric D. Puryear and Eric S. Mail of Puryear Law, PC, Davenport, for\n\nappellant.\n\n Jennie L. Clausen and Ryan M. Beckenbaugh of H.J. Dane Law Office,\n\nDavenport, for appellee.\n\n Considered by Vaitheswaran, P.J., and Doyle and Mullins, JJ.\n 2\n\nVAITHESWARAN, Presiding Judge.\n\n We must decide whether the district court erred in dismissing a petition to\n\nmodify the language of a dissolution decree and qualified domestic relations order\n\n(QDRO) filed in 2006.\n\n The decree dissolving the marriage of Deborah and Richard Whitford\n\nordered the division of Richard's pension by the following equation:\n\n [D]ivide the pension payment in half and multiply the result by the\n percentage arrived at by dividing the number of years of this\n marriage by the number of years Richard was employed by John\n Deere. In the event he should die before or while he is receiving\n pension payments Deborah shall be entitled to receive any survivor\n benefits on his pension authorized under the pension plan.\n\nThe \"uncontested\" QDRO filed shortly thereafter used the following language to\n\ndivide the pension:\n\n Alternate Payee, Deborah L. Whitford, as Alternate Payee of\n the benefit of Richard H. Whitford, Participant under the John Deere\n Pension Plan is awarded one half of the pension benefit multiplied\n by a fraction wherein the numerator is the number of months married\n and the denominator shall be the total number of months worked by\n the Participant, Richard H. Whitford.\n\nRichard's appeal was dismissed as untimely. Richard then filed a motion for new\n\ntrial challenging the cited language. The district court denied the motion.\n\n Richard's modification petition was filed eleven years later. He alleged,\n\n\"The Court in both the decree and the QDRO made a mistake in the calculation of\n\nthe formula to be used in dividing [his] pension.\" He also alleged \"the Court made\n\na mistake in awarding the Petitioner survivor benefits under [his] retirement plan.\"\n\n Deborah moved to dismiss the petition on the ground that \"there is\n\nabsolutely no mistake in this matter and the trial court judge has denied [him] each\n\nand every time he has asserted this argument regarding a modification of the\n 3\n\nformula used to divide his pension benefits.\" She premised her motion on the\n\nprinciple of res judicata.\n\n In dismissing the petition, the district court applied the issue preclusion\n\ndoctrine, which is a form of res judicata. See Pavone v. Kirke, 807 N.W.2d 828,\n\n835 (Iowa 2011) (\"The doctrine of res judicata includes both claim preclusion and\n\nissue preclusion\" (citation omitted)). \"Issue preclusion prevents parties ‘from\n\nrelitigating in a subsequent action issues raised and resolved in [a] previous\n\naction.'\" Emp'rs Mut. Cas. Co. v. Van Haaften, 815 N.W.2d 17, 22 (Iowa 2012)\n\n(citations omitted).\n\n The party invoking issue preclusion must establish four elements:\n \"(1) the issue in the present case must be identical, (2) the issue must\n have been raised and litigated in the prior action, (3) the issue must\n have been material and relevant to the disposition of the prior case,\n and (4) the determination of the issue in the prior action must have\n been essential to the resulting judgment.\"\n\nId. The district court concluded:\n\n It is apparent . . . [Richard] has already raised years ago the\n very same argument he sets forth in his current petition to modify and\n the same judge who presided over the underlying trial in this matter\n denied the same.\n The claim asserted in [his] petition to modify is plainly barred\n by the doctrine of issue preclusion.\n ....\n . . . First, the issue presently raised, the appropriate division\n of [Richard's] pension under the Benson formula, is clearly the issue\n raised and previously decided by the trial court. Second, the issue\n was not only raised and litigated in the prior action but raised and\n litigated in post-trial motions. Next, the issue was clearly relevant and\n material to the disposition of the prior action and, finally, the\n determination made of the issue in the prior action was necessary\n and essential to the resulting judgment.\n\n We discern no error in the court's conclusion. See Grant v. Iowa Dep't of\n\nHuman Servs., 722 N.W.2d 169, 173 (Iowa 2006) (noting decision as to\n 4\n\napplicability of issue preclusion reviewed for errors of law). The dissolution decree\n\n\"was final when entered.\" See In re Marriage of Brown, 776 N.W.2d 644, 649\n\n(Iowa 2009). Even if the formula was wrong, \"[t]he res judicata consequences of\n\na final unappealed judgment are not altered by the fact that the judgment may have\n\nrested on incorrect legal principles.\" In re Petition of Bisenius, 573 N.W.2d 258,\n\n260 (Iowa 1998); see also Gail v. W. Convenience Stores, 434 N.W.2d 862, 863\n\n(Iowa 1989) (\"A judgment merely voidable because based upon an erroneous view\n\nof the law is not open to collateral attack, but can be corrected only by a direct\n\nreview.\"). \"[O]nce set, absent fraud, duress, coercion, mistake, or other similar\n\ngrounds which would support modification of an ordinary judgment, property\n\nsettlements in dissolution decrees are not subject to modification.\\ In re Marriage",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

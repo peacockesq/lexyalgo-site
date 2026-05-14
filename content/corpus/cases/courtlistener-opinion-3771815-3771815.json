@@ -1,0 +1,48 @@
+{
+  "document_id": "97d15f94-54cc-44a8-978a-869ee4d61014",
+  "slug": "courtlistener-opinion-3771815-3771815",
+  "title": "CourtListener opinion 3771815",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3771815 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "share of twenty years of Plaintiff's pension with the Central States Southeast and Southwest Areas Health and Welfare Fund, and the Court specifically reserves the right to make all future orders necessary to effectuate this provision. The Court orders that a Qualified Domestic Relations Order relating to Defendant's interest in said pension plan, shall be made into a Judgment Entry and filed herein and incorporated into this Judgment Entry and made a part hereof. Prior to the entry being journalized, Plaintiff initialed an interlineation that appeared in the above paragraph. The interlineation was inserted after the word `Fund' and stated \\as"
+    },
+    {
+      "label": "pension",
+      "quote": "of the Lorain County Common Pleas Court. The court entered a divorce decree, which stated: IT IS FURTHER ORDERED, ADJUDGED AND DECREED that the Defendant shall receive as and for a division of marital assets, a one-half share of twenty years of Plaintiff's pension with the Central States Southeast and Southwest Areas Health and Welfare Fund, and the Court specifically reserves the right to make all future orders necessary to effectuate this provision. The Court orders that a Qualified Domestic Relations Order relating to Defendant's interest in said pension plan, shall be made into a Judgment Entry and filed herein a"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "wenty years of Plaintiff's pension with the Central States Southeast and Southwest Areas Health and Welfare Fund, and the Court specifically reserves the right to make all future orders necessary to effectuate this provision. The Court orders that a Qualified Domestic Relations Order relating to Defendant's interest in said pension plan, shall be made into a Judgment Entry and filed herein and incorporated into this Judgment Entry and made a part hereof. Prior to the entry being journalized, Plaintiff initialed an interlineation that appeared in the above paragraph. The interlineation was inserted after the word `Fund' and stated \\as"
+    }
+  ],
+  "full_text": "DECISION AND JOURNAL ENTRY \nDefendant-Appellant, Mary Lou Longacre, has appealed from an order of the Domestic Relations Division of the Lorain County Common Pleas Court that denied her motion to correct an amended judgment entry nunc pro tunc . This Court reverses and remands the cause for further action. \n I. \nPlaintiff-Appellee, Clair Rairigh, filed a complaint against Defendant for divorce in the Domestic Relations Division of the Lorain County Common Pleas Court. The court entered a divorce decree, which stated: \n IT IS FURTHER ORDERED, ADJUDGED AND DECREED that the Defendant shall receive as and for a division of marital assets, a one-half share of twenty years of Plaintiff's pension with the Central States Southeast and Southwest Areas Health and Welfare Fund, and the Court specifically reserves the right to make all future orders necessary to effectuate this provision. The Court orders that a Qualified Domestic Relations Order relating to Defendant's interest in said pension plan, shall be made into a Judgment Entry and filed herein and incorporated into this Judgment Entry and made a part hereof. \n Prior to the entry being journalized, Plaintiff initialed an interlineation that appeared in the above paragraph. The interlineation was inserted after the word `Fund' and stated \\as if the Plaintiff terminated his employment as of Sept. 1",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

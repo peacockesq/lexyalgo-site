@@ -1,0 +1,52 @@
+{
+  "document_id": "a81e6dd8-30e5-4abc-ba63-999f104f2507",
+  "slug": "courtlistener-opinion-1066315-1066315",
+  "title": "CourtListener opinion 1066315",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 0,
+    "pension": 6,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 2
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1066315 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": ", Judge David D. Masterman (Condo & Masterman, P.C., on briefs), for appellant. Richard J. Colten (Surovell, Jackson, Colten & Dugan, P.C., on brief), for appellee. R. Keith Hastie (husband) appeals the entry of a qualified domestic relations order (QDRO), pursuant to Code § 20-107.3(K)(4), which he alleges materially increased the amount to be paid from his pension to Ellen D. Hastie (wife). Husband contends on appeal that the QDRO effected a substantive change to the divorce decree and, under Rule 1:1, the trial court did not have the authority to modify the decree. For the reasons that follow, we r"
+    },
+    {
+      "label": "pension",
+      "quote": "Jackson, Colten & Dugan, P.C., on brief), for appellee. R. Keith Hastie (husband) appeals the entry of a qualified domestic relations order (QDRO), pursuant to Code § 20-107.3(K)(4), which he alleges materially increased the amount to be paid from his pension to Ellen D. Hastie (wife). Husband contends on appeal that the QDRO effected a substantive change to the divorce decree and, under Rule 1:1, the trial court did not have the authority to modify the decree. For the reasons that follow, we reverse and remand the case to the trial court for entry of a proper QDRO in accordance with the provisions of Code"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "AX COUNTY Thomas S. Kenny, Judge David D. Masterman (Condo & Masterman, P.C., on briefs), for appellant. Richard J. Colten (Surovell, Jackson, Colten & Dugan, P.C., on brief), for appellee. R. Keith Hastie (husband) appeals the entry of a qualified domestic relations order (QDRO), pursuant to Code § 20-107.3(K)(4), which he alleges materially increased the amount to be paid from his pension to Ellen D. Hastie (wife). Husband contends on appeal that the QDRO effected a substantive change to the divorce decree and, under Rule 1:1, the trial court did not have the authority to modify the decree. For the reasons that follow"
+    },
+    {
+      "label": "valuation/division",
+      "quote": "e marital share of husband's military retirement pension. The language of the divorce decree provided the following: [Wife] be and she hereby is awarded and allocated forty percent (40%) of the marital portion of the [husband's] retirement pension, said marital portion being sixty point one percent (60.1%) of the total pension, payable monthly as received, to- wit, an award to the [wife] of One Hundred Two Thousand Four Hundred Ninety-six Dollars and Forty cents ($102,496.40), payable in the amount of $575.04 each month until paid in full; . . . . (Emphasis added). The fixed sum of $102,496.40 constituted wife's"
+    }
+  ],
+  "full_text": "COURT OF APPEALS OF VIRGINIA\n\nPresent: Chief Judge Fitzpatrick, Judge Lemons and\n Senior Judge Duff\nArgued at Alexandria, Virginia\n\nR. KEITH HASTIE\n OPINION BY\nv. Record No. 0958-98-4 CHIEF JUDGE JOHANNA L. FITZPATRICK\n JUNE 1, 1999\nELLEN D. HASTIE\n\n FROM THE CIRCUIT COURT OF FAIRFAX COUNTY\n Thomas S. Kenny, Judge\n\n David D. Masterman (Condo & Masterman, P.C.,\n on briefs), for appellant.\n\n Richard J. Colten (Surovell, Jackson,\n Colten & Dugan, P.C., on brief), for\n appellee.\n\n R. Keith Hastie (husband) appeals the entry of a qualified\n\ndomestic relations order (QDRO), pursuant to Code\n\n§ 20-107.3(K)(4), which he alleges materially increased the\n\namount to be paid from his pension to Ellen D. Hastie (wife).\n\nHusband contends on appeal that the QDRO effected a substantive\n\nchange to the divorce decree and, under Rule 1:1, the trial\n\ncourt did not have the authority to modify the decree. For the\n\nreasons that follow, we reverse and remand the case to the trial\n\ncourt for entry of a proper QDRO in accordance with the\n\nprovisions of Code § 20-107.3(K)(4).\n I.\n\n A final decree of divorce entered on February 28, 1988 set\n\nforth a payment scheme by which husband would pay wife a portion\n\nof the marital share of husband's military retirement pension.\n\nThe language of the divorce decree provided the following:\n\n [Wife] be and she hereby is awarded and\n allocated forty percent (40%) of the marital\n portion of the [husband's] retirement\n pension, said marital portion being sixty\n point one percent (60.1%) of the total\n pension, payable monthly as received, to-\n wit, an award to the [wife] of One Hundred\n Two Thousand Four Hundred Ninety-six Dollars\n and Forty cents ($102,496.40), payable in\n the amount of $575.04 each month until paid\n in full; . . . .\n\n(Emphasis added). The fixed sum of $102,496.40 constituted\n\nwife's share as determined by the trial court, or 40% of\n\n$256,216, the then present value of the marital portion of\n\nthe pension.\n\n Beginning in February 1987, husband paid directly to\n\nwife her share of the pension as ordered by the trial court.\n\nThe parties dispute whether husband's payments to wife,\n\nwhich increased over the years, reflected an intentional\n\noverpayment by husband to reduce the fixed sum award or a\n\ncost-of-living increase. Husband alleged that his payments\n\nfrom February 1987 through March 1996 consisted of the\n\ncourt-ordered $575.04 per month plus any additional amounts\n\nhe chose to pay in order to retire the debt sooner. Wife\n\nalleged that husband's payments increased over the years to\n - 2 -\n reflect the 40% of the marital share of his monthly\n\ninstallments, which included normal cost-of-living\n\nincreases.\n\n In March 1996, wife submitted the divorce decree to the\n\nDefense Finance and Accounting Service (DFAS), which\n\nadministers the military retirement program. She sought and\n\nbegan receiving direct payment from DFAS of her share of\n\nhusband's retired pay in the amount of $575.04 per month.\n\nIn December 1996, husband moved the trial court for the\n\nentry of an order pursuant to Code § 20-107.3(K)(4) to\n\nconform its terms to the express intent of the final decree\n\nto allow wife to receive a total of $102,496.40 and no more.\n\nConsequently, wife also moved the trial court for a\n\n\\clarifying order\\\" specifying her entitlement to the decreed",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

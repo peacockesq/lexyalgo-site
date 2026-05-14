@@ -1,0 +1,40 @@
+{
+  "document_id": "80c21f6c-9fba-45ce-8658-0429f47d6927",
+  "slug": "courtlistener-opinion-1418413-1418413",
+  "title": "CourtListener opinion 1418413",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_family_retirement_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 1,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "family-law retirement/property division context",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 5
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1418413 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to family-law retirement/property division context. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 1/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "valuation/division",
+      "quote": "for plaintiff-appellee. Lennard D. Tucker, Winston-Salem, for defendant-appellant. McGEE, Judge. Plaintiff filed a complaint for absolute divorce on 12 January 2000. Defendant filed an answer and counterclaim on 16 March 2000, that included a claim for equitable distribution. In a reply to the counterclaim, plaintiff requested a hearing on equitable distribution. The case was heard at the 4 September 2001 session of District Court in Forsyth County. The parties advised the trial court that they had resolved by stipulation all of the issues in the case. The terms of their agreement and stipulations were read into the record by t"
+    }
+  ],
+  "full_text": "591 S.E.2d 560 (2004) \n James A. HARRIS, Plaintiff-Appellee, \nv. \nPatricia F. HARRIS, Defendant-Appellant. \n No. COA02-1722. \n Court of Appeals of North Carolina. \n February 3, 2004. \n David B. Hough, Winston-Salem, for plaintiff-appellee. \n Lennard D. Tucker, Winston-Salem, for defendant-appellant. \n McGEE, Judge. \n Plaintiff filed a complaint for absolute divorce on 12 January 2000. Defendant filed an answer and counterclaim on 16 March 2000, that included a claim for equitable distribution. In a reply to the counterclaim, plaintiff requested a hearing on equitable distribution. The case was heard at the 4 September 2001 session of District Court in Forsyth County. The parties advised the trial court that they had resolved by stipulation all of the issues in the case. The terms of their agreement and stipulations were read into the record by the attorneys representing the parties. The trial court signed an equitable distribution consent judgment dated 26 September 2001. \n Paragraph fourteen of the equitable distribution consent judgment provided for a distributive award by plaintiff to defendant with the following language: \n In order to effectuate the equitable distribution of the marital property of the parties as set forth herein, the Plaintiff shall pay as a distributive award to the Defendant the sum of Eighty-one Thousand *561 Dollars ($81",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "document_id": "a6375ad7-2ae5-4e41-8960-3b6df18bba99",
+  "slug": "courtlistener-opinion-9988343-9988343",
+  "title": "CourtListener opinion 9988343",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 2,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 9988343 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "retirement benefits",
+      "quote": "e and commerce against restraints and monopolies. . . .\" 28 U.S.C. § 1337(a). He argues that Finnerty v. Cowen, 508 F.2d 979 (2nd Cir. 1974), supports his contention that a district court has subject matter jurisdiction over cases involving the receipt of retirement benefits. The circumstances of Finnerty, however, are distinguishable. In Finnerty, a widow receiving retirement benefits sought to enjoin, as unconstitutional, the operation of certain sections of the Railroad Retirement Act (\"the Act\") requiring the reduction of annuities to offset earnings of recipients. Id. In this case, Powell does not challenge the const"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "the operation of certain sections of the Railroad Retirement Act (\"the Act\") requiring the reduction of annuities to offset earnings of recipients. Id. In this case, Powell does not challenge the constitutionality of the Act. Instead, Powell challenges a domestic relations order of the Circuit Court of Cook County regarding the distribution of his Railroad Retirement Act benefits to his ex-wife and/or seeks review of a decision by the Railroad Retirement Board to comply with the domestic relations order. Consequently, this Court agrees with the Magistrate Judge that this court lacks subject matter jurisdiction. Accordingly, u"
+    }
+  ],
+  "full_text": "IN THE UNITED STATES DISTRICT COURT \n FOR THE MIDDLE DISTRICT OF ALABAMA \n EASTERN DIVISION \n\nDAVID POWELL, ) \n ) \n Plaintiff, ) \n ) \n v. ) CASE NO. 3:23-CV-26-RAH \n ) \nRAILROAD RETIREMENT ) \nBOARD, ) \n ) \n Defendant. ) \n ORDER \n On May 15, 2023, the Magistrate Judge recommended this case be dismissed \nwithout prejudice for lack of subject matter jurisdiction and that the motion to amend be \ndenied as futile. (Doc. 25.) On May 24, 2023, Plaintiff David Powell filed Plaintiff's \nMotion and Answer to this Court of Proper Jurisdiction, which the Court has construed as \nObjections (Doc. 26) to the Recommendation. \n When a party objects to a Magistrate Judge's Report and Recommendation, the \ndistrict court must review the disputed portions de novo. 28 U.S.C. § 636(b)(1). The district \ncourt \"may accept, reject, or modify the recommended disposition; receive further \nevidence; or resubmit the matter to the magistrate judge with instructions.\" Fed.R.Civ.P. \n72(b)(3). De novo review requires that the district court independently consider factual \nissues based on the record. Jeffrey S. ex rel. Ernest S. v. State Bd. of Educ., 896 F.2d 507, \n513 (11th Cir. 1990). See also United States v. Gopie, 347 F. App'x 495, 499 n.1 (11th Cir. \n2009). However, objections to the Magistrate Judge's Report and Recommendation must \nbe sufficiently specific in order to warrant de novo review. See Macort v. Prem, Inc., 208 \nF. App'x 781, 783-85 (11th Cir. 2006). Otherwise, a Report and Recommendation is \nreviewed for clear error. Id. \n\n Plaintiff objects to the Magistrate Judge's determination that this Court lacks subject \nmatter jurisdiction. He contends this Court has jurisdiction pursuant to the Federal \nInterstate Commerce Act, which provides, in pertinent part, that \"[t]he district courts shall \nhave original jurisdiction of any civil action or proceeding arising under any Act of \nCongress regulating commerce or protecting trade and commerce against restraints and \n\nmonopolies. . . .\" 28 U.S.C. § 1337(a). He argues that Finnerty v. Cowen, 508 F.2d 979 \n(2nd Cir. 1974), supports his contention that a district court has subject matter jurisdiction \nover cases involving the receipt of retirement benefits. The circumstances of Finnerty, \nhowever, are distinguishable. In Finnerty, a widow receiving retirement benefits sought to \nenjoin, as unconstitutional, the operation of certain sections of the Railroad Retirement Act \n\n(\"the Act\") requiring the reduction of annuities to offset earnings of recipients. Id. In this \ncase, Powell does not challenge the constitutionality of the Act. Instead, Powell challenges \na domestic relations order of the Circuit Court of Cook County regarding the distribution \nof his Railroad Retirement Act benefits to his ex-wife and/or seeks review of a decision by \nthe Railroad Retirement Board to comply with the domestic relations order. Consequently, \n\nthis Court agrees with the Magistrate Judge that this court lacks subject matter jurisdiction. \n Accordingly, upon an independent review of the record, it is \n ORDERED as follows: \n1. The Objections (Doc. 26) are OVERRULED; \n2. The Recommendation (Doc. 25) is ADOPTED; \n3. Defendant's Motion to Dismiss for Lack of Subject Matter Jurisdiction (Doc. 9) is \n GRANTED; \n4. Plaintiff's Motion for Judgment (Doc. 18) be DENIED; and \n5. This case is DISMISSED without prejudice. \nDONE, on this the 30th day of May 2023. \n\n R. AUSTIN ‘fe JR. \n UNITED STATES DISTRICT JUDGE",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

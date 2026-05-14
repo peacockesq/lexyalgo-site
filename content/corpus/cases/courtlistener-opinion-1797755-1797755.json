@@ -1,0 +1,52 @@
+{
+  "document_id": "e6cbdaf1-0c2d-47fc-bed8-2710427b9895",
+  "slug": "courtlistener-opinion-1797755-1797755",
+  "title": "CourtListener opinion 1797755",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 10,
+    "retirement benefits": 2,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 2,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1797755 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "43, 580 N.W.2d 516 (1998). FACTS On January 8, 1999, the marriage of Donna and Rodney was dissolved pursuant to a decree that incorporated a property settlement agreement dividing the marital estate. In the agreement, the parties agreed that an attached qualified domestic relations order (QDRO) dividing Rodney's military retirement account should be entered. The agreement stated that the proposed QDRO should provide Donna 43 percent of Rodney's monthly military retirement benefits and make her the beneficiary of the survivor benefit plan (SBP). The document specified that the parties had chosen the survivor benefit for Donna in lieu of an e"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "ge of Donna and Rodney was dissolved pursuant to a decree that incorporated a property settlement agreement dividing the marital estate. In the agreement, the parties agreed that an attached qualified domestic relations order (QDRO) dividing Rodney's military retirement account should be entered. The agreement stated that the proposed QDRO should provide Donna 43 percent of Rodney's monthly military retirement benefits and make her the beneficiary of the survivor benefit plan (SBP). The document specified that the parties had chosen the survivor benefit for Donna in lieu of an equal 50-percent distribution of the monthly benefits."
+    },
+    {
+      "label": "pension",
+      "quote": ", CONNOLLY, GERRARD, STEPHAN, McCORMACK, and MILLER-LERMAN, JJ. WRIGHT, J. NATURE OF CASE The district court entered a decree in January 1999, dissolving the marriage of Donna Schwartz and Rodney Schwartz. In 2005, Donna alleged that Rodney's military pension was not being properly divided, and after a trial, the court entered an order effecting a division of the pension that was different than the decree. The main issue is whether the court could modify the dissolution decree. SCOPE OF REVIEW [1] Modification of a dissolution decree is a matter entrusted to the discretion of the trial court, whose order i"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "W.2d 516 (1998). FACTS On January 8, 1999, the marriage of Donna and Rodney was dissolved pursuant to a decree that incorporated a property settlement agreement dividing the marital estate. In the agreement, the parties agreed that an attached qualified domestic relations order (QDRO) dividing Rodney's military retirement account should be entered. The agreement stated that the proposed QDRO should provide Donna 43 percent of Rodney's monthly military retirement benefits and make her the beneficiary of the survivor benefit plan (SBP). The document specified that the parties had chosen the survivor benefit for Donna in lieu of an e"
+    }
+  ],
+  "full_text": "275 Neb. 492 \n DONNA SCHWARTZ, APPELLEE AND CROSS-APPELLANT, \nv. \nRODNEY SCHWARTZ, APPELLANT AND CROSS-APPELLEE. \n No. S-06-1271. \n Supreme Court of Nebraska. \n Filed April 18, 2008. \n Robert B. Creager, of Anderson, Creager & Wittstruck, P.C., for appellant. \n Jane F. Langan, of Rembolt Ludtke, L.L.P., for appellee. \n WRIGHT, CONNOLLY, GERRARD, STEPHAN, McCORMACK, and MILLER-LERMAN, JJ. \n WRIGHT, J. \n \n NATURE OF CASE \n The district court entered a decree in January 1999, dissolving the marriage of Donna Schwartz and Rodney Schwartz. In 2005, Donna alleged that Rodney's military pension was not being properly divided, and after a trial, the court entered an order effecting a division of the pension that was different than the decree. The main issue is whether the court could modify the dissolution decree. \n \n SCOPE OF REVIEW \n [1] Modification of a dissolution decree is a matter entrusted to the discretion of the trial court, whose order is reviewed de novo on the record, and which will be affirmed absent an abuse of discretion by the trial court. Gruber v. Gruber, 261 Neb. 914, 626 N.W.2d 582 (2001). An abuse of discretion occurs when a trial court's decision is based upon reasons that are untenable or unreasonable or if its action is clearly against justice or conscience, reason, and evidence. Zahl v. Zahl, 273 Neb. 1043, 736 N.W.2d 365 (2007). \n [2] An appellate court, reviewing a final judgment or order in a contempt proceeding, reviews for errors appearing on the record. Klinginsmith v. Wichmann, 252 Neb. 889, 567 N.W.2d 172 (1997). When reviewing a judgment for errors appearing on the record, the inquiry is whether the decision conforms to the law, is supported by competent evidence, and is neither arbitrary, capricious, nor unreasonable. Id. \n [3] On appeal, a trial court's decision awarding or denying attorney fees will be upheld absent an abuse of discretion. See Hoshor v. Hoshor, 254 Neb. 743, 580 N.W.2d 516 (1998). \n \n FACTS \n On January 8, 1999, the marriage of Donna and Rodney was dissolved pursuant to a decree that incorporated a property settlement agreement dividing the marital estate. In the agreement, the parties agreed that an attached qualified domestic relations order (QDRO) dividing Rodney's military retirement account should be entered. The agreement stated that the proposed QDRO should provide Donna 43 percent of Rodney's monthly military retirement benefits and make her the beneficiary of the survivor benefit plan (SBP). The document specified that the parties had chosen the survivor benefit for Donna in lieu of an equal 50-percent distribution of the monthly benefits. The agreement further provided that the proposed QDRO was attached and marked as an exhibit. However, unknown to the parties, the proposed QDRO was not entered by the district court, though it appeared in the file. \n We pause here to note that although the parties and the district court refer to this order as a QDRO, the order is actually a military court order, which is the military's version of a QDRO. To prevent confusion, we will also refer to the order as a QDRO. \n The proposed QDRO was sent to the Defense Finance and Accounting Service (DFAS) office in January 1999, immediately following the district court's entry of the decree and property settlement agreement. In a letter dated January 21, 1999, the Denver, Colorado, DFAS office informed Rodney that it had received a QDRO pertaining to his divorce and that in order to comply with this order, the DFAS needed him to complete \\ARPC Form 64",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

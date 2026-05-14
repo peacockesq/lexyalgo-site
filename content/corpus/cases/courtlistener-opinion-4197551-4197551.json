@@ -1,0 +1,48 @@
+{
+  "document_id": "1aae7df7-e1cb-4400-8b12-db667261d659",
+  "slug": "courtlistener-opinion-4197551-4197551",
+  "title": "CourtListener opinion 4197551",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 11,
+    "retirement benefits": 1,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4197551 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "UBLISHED August 17, 2017 Plaintiff-Appellant, v No. 333880 Kalamazoo Circuit Court SHERRY SUE DORKO, LC No. 2004-005765-DM Defendant-Appellee. Before: BOONSTRA, P.J., and RONAYNE KRAUSE and SWARTZLE, JJ. PER CURIAM. The parties disagree on whether a qualified domestic relations order (QDRO) is subject to a ten-year statute of limitations. Concluding that this case is controlled by a recently issued, binding decision of this Court, we hold that a QDRO is not subject to the statute of limitations and affirm. On August 3, 2005, the Kalamazoo Circuit Court entered a consent judgment of divorce dissolving the parties' 28-year marriage. The"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "t to the statute of limitations and affirm. On August 3, 2005, the Kalamazoo Circuit Court entered a consent judgment of divorce dissolving the parties' 28-year marriage. The consent judgment awarded defendant one half of the marital interest in plaintiff's retirement plan via a QDRO. Ten years and eight days later, defendant submitted a proposed QDRO to the trial court; several months later, defendant filed a revised proposed QDRO in January 2016. Plaintiff moved to set aside the revised proposed QDRO, arguing that it was time-barred under the ten-year statute of limitations set forth in MCL 600.5809(3) for enforcing a judgm"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "August 17, 2017 Plaintiff-Appellant, v No. 333880 Kalamazoo Circuit Court SHERRY SUE DORKO, LC No. 2004-005765-DM Defendant-Appellee. Before: BOONSTRA, P.J., and RONAYNE KRAUSE and SWARTZLE, JJ. PER CURIAM. The parties disagree on whether a qualified domestic relations order (QDRO) is subject to a ten-year statute of limitations. Concluding that this case is controlled by a recently issued, binding decision of this Court, we hold that a QDRO is not subject to the statute of limitations and affirm. On August 3, 2005, the Kalamazoo Circuit Court entered a consent judgment of divorce dissolving the parties' 28-year marriage. The"
+    }
+  ],
+  "full_text": "STATE OF MICHIGAN\n\n COURT OF APPEALS\n\nRICHARD WILLIAM DORKO, UNPUBLISHED\n August 17, 2017\n Plaintiff-Appellant,\n\nv No. 333880\n Kalamazoo Circuit Court\nSHERRY SUE DORKO, LC No. 2004-005765-DM\n\n Defendant-Appellee.\n\nBefore: BOONSTRA, P.J., and RONAYNE KRAUSE and SWARTZLE, JJ.\n\nPER CURIAM.\n\n The parties disagree on whether a qualified domestic relations order (QDRO) is subject to\na ten-year statute of limitations. Concluding that this case is controlled by a recently issued,\nbinding decision of this Court, we hold that a QDRO is not subject to the statute of limitations\nand affirm.\n\n On August 3, 2005, the Kalamazoo Circuit Court entered a consent judgment of divorce\ndissolving the parties' 28-year marriage. The consent judgment awarded defendant one half of\nthe marital interest in plaintiff's retirement plan via a QDRO. Ten years and eight days later,\ndefendant submitted a proposed QDRO to the trial court; several months later, defendant filed a\nrevised proposed QDRO in January 2016. Plaintiff moved to set aside the revised proposed\nQDRO, arguing that it was time-barred under the ten-year statute of limitations set forth in MCL\n600.5809(3) for enforcing a judgment. The trial court denied plaintiff's motion, concluding that\nthe statute of limitations did not begin to run until plaintiff began receiving disbursements from\nthe plan. We affirm, but for a different reason. See Groves v Dep't of Corrections, 295 Mich\nApp 1, 13 n 3; 811 NW2d 563 (2011).\n\n The question of whether MCL 600.5809(3) covers QDROs was recently answered by a\npanel of this Court. In Joughin v Joughin, ___ Mich App ___; ___ NW2d ___ (2017) (Docket\nNo. 329993), slip op at 4, the panel majority held that \"the act to obtain entry of a proposed\nQDRO is a ministerial task done in conjunction with the divorce judgment itself.\" \"Accordingly,\nwhen a party complies with the court's instructions [in the divorce judgment to submit a\nproposed QDRO], albeit late, as here, the party is simply engaged in supplying documents and\ninformation to the court, to comply with its ministerial obligations under the judgment—nothing\nmore, nothing less.\" Id. Therefore, the Joughin court held that \"because the entry of the\nproposed QDRO is not an enforcement of a noncontractual money obligation, the 10-year period\n\n -1-\n of limitations provided in MCL 600.5809(3) does not apply, and plaintiff's request to have the\nproposed QDRO entered by the trial court was not time-barred.\" Id. at ___; slip op at 5.\n\n This panel is bound by the holding in Joughin under MCR 7.215(J)(1). Accordingly, we\nconclude that defendant's submissions of the proposed QDROs were merely ministerial tasks\nattendant to the judgment of divorce, which are not time-barred by MCL 600.5809(3).\n\n Affirmed.\n\n /s/ Mark T. Boonstra\n /s/ Amy Ronayne Krause\n /s/ Brock A. Swartzle\n\n -2-",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

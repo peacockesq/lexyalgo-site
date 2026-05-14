@@ -1,0 +1,44 @@
+{
+  "document_id": "c3144340-393d-48cf-85ee-f323c7333fc4",
+  "slug": "courtlistener-opinion-10654158-10654158",
+  "title": "CourtListener opinion 10654158",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 10654158 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "(Doc. No. 22.) As explained in the Court's Order, Plaintiff failed to exhaust the administrative remedies available to her through both the Duke Energy Retirement Cash Balance Plan and the Duke Energy Retirement Savings Plan, and failed to present a valid Qualified Domestic Relations Order entitling her to any portion of the Plans in the first instance. (Doc. No. 20, pp. 6–11.) The Court believes Plaintiff intended to file her Motion pursuant to Federal Rule of Civil Procedure 60(b), which provides relief from a final judgment, order, or proceeding. Relief under this rule constitutes \"an extraordinary remedy that should not be awarded ex"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "22.) As explained in the Court's Order, Plaintiff failed to exhaust the administrative remedies available to her through both the Duke Energy Retirement Cash Balance Plan and the Duke Energy Retirement Savings Plan, and failed to present a valid Qualified Domestic Relations Order entitling her to any portion of the Plans in the first instance. (Doc. No. 20, pp. 6–11.) The Court believes Plaintiff intended to file her Motion pursuant to Federal Rule of Civil Procedure 60(b), which provides relief from a final judgment, order, or proceeding. Relief under this rule constitutes \"an extraordinary remedy that should not be awarded ex"
+    }
+  ],
+  "full_text": "UNITED STATES DISTRICT COURT \n WESTERN DISTRICT OF NORTH CAROLINA \n CHARLOTTE DIVISION \n CASE NO. 3:23-CV-00369-FDW-DCK \nAUDREY KIMNER, ) \n ) \n Plaintiff, ) \n ) \n v. ) ORDER \n ) \nDUKE ENERGY CORPORATION, ) \n ) \n Defendant. ) \n ) \n\n THIS MATTER is before the Court on Plaintiff's pro se Motion to Vacate the Clerk's \nJudgment, Vacate the Order granting Plaintiff's Application to proceed in forma pauperis and \ndismissing Plaintiff's Complaint with prejudice, and Motion for Recusal.1 (Doc. No. 22.) As \nexplained in the Court's Order, Plaintiff failed to exhaust the administrative remedies available to \nher through both the Duke Energy Retirement Cash Balance Plan and the Duke Energy Retirement \nSavings Plan, and failed to present a valid Qualified Domestic Relations Order entitling her to any \nportion of the Plans in the first instance. (Doc. No. 20, pp. 6–11.) \n The Court believes Plaintiff intended to file her Motion pursuant to Federal Rule of Civil \nProcedure 60(b), which provides relief from a final judgment, order, or proceeding. Relief under \nthis rule constitutes \"an extraordinary remedy that should not be awarded except under exceptional \ncircumstances.\" Mayfield v. Nat'l Ass'n for Stock Car Auto Racing, Inc., 674 F.3d 369, 378 (4th \n\n1 The Court notes Plaintiff's Motion's caption states it is a \"Request to . . . Recuse . . . .\" (Doc. No. \n22, p. 1.) Plaintiff writes \"these two judges who should recuse . . . .\" (Id., p. 2.) As Plaintiff does \nnot identify the judges she is referring to and does not make any specific arguments, the Court \nfinds this argument for recusal to be without merit, particularly in light of the undersigned's \"duty \nto sit.\" Tallant v. Tallant, No. 520CV00129KDBDCK, 2020 WL 6813227, at *3 (W.D.N.C. Oct. \n14, 2020). \nCir. 2012). The moving party must initially show timeliness, a meritorious defense, a lack of unfair \nprejudice to the opposing party, and exceptional circumstances. Dowell v. State Farm Fire & Cas. \nAuto. Ins. Co., 993 F.2d 46, 48 (4th Cir. 1993). Then, the moving party must satisfy the \nrequirements of Rule 60(b). Id. The Court finds there is no basis to vacate the Clerk's Judgment \nand no basis to vacate its Order granting Plaintiff's Application to proceed in forma pauperis and \ndismissing Plaintiff's Complaint with prejudice. \n Plaintiff is once again strongly cautioned against repeatedly filing frivolous or improper \nactions. Doing so may result in the imposition of sanctions and/or prefiling injunctions that would \nlimit Plaintiffs ability to file further lawsuits in this Court. \n IT IS THEREFORE ORDERED that Plaintiff's pro se Motion to Vacate the Clerk's \nJudgment, Vacate the Order granting Plaintiff's Application to proceed in forma pauperis and \ndismissing Plaintiffs Complaint with prejudice, and Motion for Recusal, (Doc. No. 22), is \nDENIED. \n IT IS SO ORDERED. \n Signed: September 17, 2024 \n\n Frank D. Whitney ; < \n United States District Judge □□□",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

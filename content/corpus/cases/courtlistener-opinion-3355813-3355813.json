@@ -1,0 +1,48 @@
+{
+  "document_id": "33f10f87-8c9e-4172-8415-616db3899f47",
+  "slug": "courtlistener-opinion-3355813-3355813",
+  "title": "CourtListener opinion 3355813",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 1,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3355813 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "ssolution. The parties also stipulated that they would not testify as to the reasons for the breakdown of the marriage. There are three issues which are not resolved. They are alimony, life insurance, and whether any alimony order should be the subject of a Qualified Domestic Relations Order. Alimony The plaintiff requests periodic alimony at the rate of $135 per week to be paid through a QUADRO from the defendant's Connecticut State Teacher's Retirement System. The defendant proposes an order of $50 to $60 to be paid directly by him without a QUADRO. The wife is fifty-six years old. She has an M.A. in education. She taught school from 19"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "reasonable although some modest savings might be effected. There is unquestionably a substantial shortfall, which has been met by financial aid from her family and friends. Her retirement income will likely consist of social security in addition to her own retirement plan, which has a modest present value. CT Page 5523 The defendant has an M.S. in Education and a Sixth year certificate. He taught school in the 1960's and was an associate professor at Eastern Connecticut State University. In 1968 he became principal of a school in Hebron. He held that position for twenty-one years, taking an early retirement in 1989. Since"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "The parties also stipulated that they would not testify as to the reasons for the breakdown of the marriage. There are three issues which are not resolved. They are alimony, life insurance, and whether any alimony order should be the subject of a Qualified Domestic Relations Order. Alimony The plaintiff requests periodic alimony at the rate of $135 per week to be paid through a QUADRO from the defendant's Connecticut State Teacher's Retirement System. The defendant proposes an order of $50 to $60 to be paid directly by him without a QUADRO. The wife is fifty-six years old. She has an M.A. in education. She taught school from 19"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] MEMORANDUM OF DECISION \nThis is an action for dissolution of marriage and related ancillary and equitable relief. Both parties were represented by counsel at the trial of this matter. \n The parties intermarried at New London, Connecticut on August 28, 1965. Both have resided in Connecticut for at least one year next preceding the filing of the complaint. There were two children born to the parties of this twenty-eight year union, both of whom are of majority age. \n The marriage has broken down irretrievably without any reasonable prospect of reconciliation. \n Many of the financial issues between the parties have been resolved and they have entered into a stipulation as to those matters. The stipulation entered into between the parties dated CT Page 5522 May 13, 1994 has been submitted to the court and the court finds it to be reasonably fair and equitable to both parties. It is ordered incorporated by reference into the decree of dissolution. The parties also stipulated that they would not testify as to the reasons for the breakdown of the marriage. \n There are three issues which are not resolved. They are alimony, life insurance, and whether any alimony order should be the subject of a Qualified Domestic Relations Order. \n Alimony \n The plaintiff requests periodic alimony at the rate of $135 per week to be paid through a QUADRO from the defendant's Connecticut State Teacher's Retirement System. The defendant proposes an order of $50 to $60 to be paid directly by him without a QUADRO. \n The wife is fifty-six years old. She has an M.A. in education. She taught school from 1959 to 1966 when she left the workplace to raise her children. From 1974 to 1982 she did some substitute teaching. In 1986, she obtained work as a library assistant for the Town of Mansfield and she is presently so employed. Her terms of employment require that she take twenty days of unpaid leave scattered throughout the year. \n Although she is qualified to teach Social Studies there are few such openings and at her age, and the salary level a school would have to pay her because of her experience, her prospects of finding work as a teacher are dim. Substitute teaching is not viable because it is irregular and an unreliable source of income. Her gross pay is $380 per week and her net $264. The defendant has been paying alimony of $60 per week bringing her total net to $312.42 (although she is over-deducting for taxes somewhat &#8212; the court calculates approximately five to ten dollars). \n Her weekly expenses of approximately $446 appear reasonable although some modest savings might be effected. There is unquestionably a substantial shortfall, which has been met by financial aid from her family and friends. \n Her retirement income will likely consist of social security in addition to her own retirement plan, which has a modest present value. CT Page 5523 \n The defendant has an M.S. in Education and a Sixth year certificate. He taught school in the 1960's and was an associate professor at Eastern Connecticut State University. In 1968 he became principal of a school in Hebron. He held that position for twenty-one years, taking an early retirement in 1989. Since retiring he has worked as an interim principal, a consultant at the Natchaug Hospital, a teacher coordinator, and a substitute teacher. These jobs were temporary. In addition, he has been the organist at a church in Willimantic for close to fourteen years, resigning only recently because he intends to move to Florida. He earned about $10,000 per year as the organist plus additional income from playing at weddings or funerals from time to time. \n He has a present net income from his retirement of almost $500 weekly. He shows no other income although in 1993, he earned approximately $35,000 in his \\side\\\" jobs. It should be noted that his weekly expenses of $1000 do include $55 for medical insurance (as well as $60 weekly for uninsured medicals) whereas the plaintiff's medical insurance through her employer is $5 weekly.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

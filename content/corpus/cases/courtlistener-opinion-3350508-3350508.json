@@ -1,0 +1,40 @@
+{
+  "document_id": "680b3f88-e3b1-4783-a00b-b65731be98a5",
+  "slug": "courtlistener-opinion-3350508-3350508",
+  "title": "CourtListener opinion 3350508",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 1,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "family-law retirement/property division context",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3350508 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to family-law retirement/property division context. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 1/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "opening text",
+      "quote": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] MEMORANDUM OF DECISION This is an administrative appeal under UAPA C.G.S. 4-166 , et seq. CT Page 3048 Plaintiff is the son of an incompetent person appealing the decision of a Fair Hearing Officer designated by the Commissioner of Income Maintenance under C.G.S. 17-2a. The question at issue is whether the sum of $800.00 per month which is paid as alimony under a Superior Court decree can lawfully be deducted from his father's income for Title XIX purposes. Plaintiff's parents were married in 1947. In 1983 his father was diagnosed as having Alzheimer's disease which he still has and for which, with other infirm"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] \nMEMORANDUM OF DECISION\nThis is an administrative appeal under UAPA C.G.S. 4-166 , et seq. CT Page 3048 \n Plaintiff is the son of an incompetent person appealing the decision of a Fair Hearing Officer designated by the Commissioner of Income Maintenance under C.G.S. 17-2a. The question at issue is whether the sum of $800.00 per month which is paid as alimony under a Superior Court decree can lawfully be deducted from his father's income for Title XIX purposes. \n Plaintiff's parents were married in 1947. In 1983 his father was diagnosed as having Alzheimer's disease which he still has and for which, with other infirmities of mind and body, he has been institutionalized. \n In November, 1989, his wife instituted dissolution of marriage proceedings in Superior Court. In December, 1989, plaintiff was appointed conservator by the probate court and appeared as conservator for his father. The court dissolved the marriage and adjudged a separation agreement between the parties as \\fair and equitable\\\" and incorporated it by reference in the judgment. (C.G.S. 46b-66 .) It provided \\\"as alimony\\\" for $9",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

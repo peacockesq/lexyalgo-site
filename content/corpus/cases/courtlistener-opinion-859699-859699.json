@@ -1,0 +1,44 @@
+{
+  "document_id": "0bfacfb7-7c09-4a93-846d-054b07f8d805",
+  "slug": "courtlistener-opinion-859699-859699",
+  "title": "CourtListener opinion 859699",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 859699 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "a one-half interest in Ronald B. Holloman's Savings and Investment Plan maintained through his employer. The chancellor was asked to interpret two clauses of the property settlement agreement, the modification of the final decree of divorce and the entry of a Qualified Domestic Relations Order, and additionally to determine whether Ronald was in contempt for failure to provide income and retirement fund information. ¶2. The chancellor held that the issue was the \\interpretation of a contract"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "interest in Ronald B. Holloman's Savings and Investment Plan maintained through his employer. The chancellor was asked to interpret two clauses of the property settlement agreement, the modification of the final decree of divorce and the entry of a Qualified Domestic Relations Order, and additionally to determine whether Ronald was in contempt for failure to provide income and retirement fund information. ¶2. The chancellor held that the issue was the \\interpretation of a contract"
+    }
+  ],
+  "full_text": "IN THE SUPREME COURT OF MISSISSIPPI\n NO. 94-CA-00025-SCT\nJOAN WILLIAMS HOLLOMAN\nv.\nRONALD B. HOLLOMAN\n\nDATE OF JUDGMENT: 12/06/93\nTRIAL JUDGE: HON. WOODROW WILSON BRAND JR.\nCOURT FROM WHICH APPEALED: OKTIBBEHA COUNTY CHANCERY COURT\nATTORNEY FOR APPELLANT: CHARLES T. YOST\nATTORNEY FOR APPELLEE: REX F. SANDERSON\nNATURE OF THE CASE: CIVIL - DOMESTIC RELATIONS\nDISPOSITION: REVERSED, RENDERED, AND REMANDED - 9/19/96\nMOTION FOR REHEARING FILED: 10/3/96\nMANDATE ISSUED: 5/5/97\n\n EN BANC.\n\n SMITH, JUSTICE, FOR THE COURT:\n\n¶1. Joan Williams Holloman appeals to this Court from an adverse decision of the Oktibbeha County\nChancery Court where she had sought a one-half interest in Ronald B. Holloman's Savings and\nInvestment Plan maintained through his employer. The chancellor was asked to interpret two clauses\nof the property settlement agreement, the modification of the final decree of divorce and the entry of\na Qualified Domestic Relations Order, and additionally to determine whether Ronald was in contempt\nfor failure to provide income and retirement fund information.\n\n¶2. The chancellor held that the issue was the \\interpretation of a contract",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

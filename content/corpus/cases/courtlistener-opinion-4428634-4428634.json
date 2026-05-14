@@ -1,0 +1,48 @@
+{
+  "document_id": "22e74940-7175-41ed-8268-b6f7278dcf13",
+  "slug": "courtlistener-opinion-4428634-4428634",
+  "title": "CourtListener opinion 4428634",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 3,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4428634 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "GEIGER, J.A.D. In this post-judgment matrimonial appeal, we consider whether a court may compel reimbursement of college tuition, forensic accountant's fees, and counsel fees, through an enhanced wage garnishment and a Qualified Domestic Relations Order (QDRO) against the obligor's individual annuity account funds on deposit in an annuity governed by the Employee Retirement Income Security Act of 1974 (ERISA), 29 U.S.C. §§ 1001 to 1461. We hold that unpaid awards for counsel fees and expert witness fees relating to child support, property distribution, and college tuition reimbursement are enforceable by QDR"
+    },
+    {
+      "label": "pension",
+      "quote": "e Security Act of 1974 (ERISA), 29 U.S.C. §§ 1001 to 1461. We hold that unpaid awards for counsel fees and expert witness fees relating to child support, property distribution, and college tuition reimbursement are enforceable by QDRO from ERISA protected pension funds when an ex-spouse is the alternative payee of the QDRO. We further hold the counsel fee judgments relating to child and spousal support are enforceable through an enhanced wage garnishment. I. The complex procedural history underlying this appeal necessitates a brief review of the proceedings that led to the arrearages owed to plaintiff Joanna"
+    },
+    {
+      "label": "ERISA",
+      "quote": "s fees, and counsel fees, through an enhanced wage garnishment and a Qualified Domestic Relations Order (QDRO) against the obligor's individual annuity account funds on deposit in an annuity governed by the Employee Retirement Income Security Act of 1974 (ERISA), 29 U.S.C. §§ 1001 to 1461. We hold that unpaid awards for counsel fees and expert witness fees relating to child support, property distribution, and college tuition reimbursement are enforceable by QDRO from ERISA protected pension funds when an ex-spouse is the alternative payee of the QDRO. We further hold the counsel fee judgments relating to child"
+    }
+  ],
+  "full_text": "NOT FOR PUBLICATION WITHOUT THE\n APPROVAL OF THE APPELLATE DIVISION\n\n SUPERIOR COURT OF NEW JERSEY\n APPELLATE DIVISION\n DOCKET NO. A-2969-16T4\nJOANNA B. ORLOWSKI,\n\n Plaintiff-Respondent/\n Cross-Appellant,\n APPROVED FOR PUBLICATION\nv. May 7, 2019\n\nROBERT ORLOWSKI, APPELLATE DIVISION\n\n Defendant-Appellant/\n Cross-Respondent.\n___________________________\n\n Argued April 2, 2019 – Decided May 7, 2019\n\n Before Judges Fisher, Hoffman and Geiger.\n\n On appeal from Superior Court of New Jersey,\n Chancery Division, Family Part, Bergen County,\n Docket No. FM-02-1778-14.\n\n Robert Orlowski, appellant/cross-respondent, argued\n the cause pro se (Cores & Associates, LLC, attorney;\n Amy S.Cores, on the briefs).\n\n Stephen H. Roth argued the cause for respondent/cross-\n appellant.\n\n The opinion of the court was delivered by\n\nGEIGER, J.A.D.\n In this post-judgment matrimonial appeal, we consider whether a court\n\nmay compel reimbursement of college tuition, forensic accountant's fees, and\n\ncounsel fees, through an enhanced wage garnishment and a Qualified Domestic\n\nRelations Order (QDRO) against the obligor's individual annuity account funds\n\non deposit in an annuity governed by the Employee Retirement Income Security\n\nAct of 1974 (ERISA), 29 U.S.C. §§ 1001 to 1461. We hold that unpaid awards\n\nfor counsel fees and expert witness fees relating to child support, property\n\ndistribution, and college tuition reimbursement are enforceable by QDRO from\n\nERISA protected pension funds when an ex-spouse is the alternative payee of\n\nthe QDRO. We further hold the counsel fee judgments relating to child and\n\nspousal support are enforceable through an enhanced wage garnishment.\n\n I.\n\n The complex procedural history underlying this appeal necessitates a brief\n\nreview of the proceedings that led to the arrearages owed to plaintiff Joanna B.\n\nOrlowski, her enforcement efforts, and defendant Robert Orlowski's bad faith,\n\nunclean hands, frivolous litigation in both state and federal court, and willful,\n\nsustained failure to comply with court orders.\n\n Before we discuss the pertinent facts and procedural history, we note\n\ndefendant appealed numerous orders and directed our attention to several\n\n A-2969-16T4\n 2\n alleged trial court errors. Defendant's appeal, however, was dismissed for\n\nfailure to timely file a brief, so we do not consider those issues. Accordingly,\n\nour review of the facts and procedural history is limited to those relevant to\n\nplaintiff's cross-appeal.\n\n Defendant is a member of the International Union of Operating Engineers\n\nLocal 14-14B (the Union). The Union administers a pension fund known as the\n\nAnnuity Fund of the International Union of Operating Engineers Local 14 -14B\n\n(the Annuity). Defendant has substantial ERISA protected funds in his\n\nindividual annuity account (the annuity funds) with the Annuity.\n\n The parties were married in May 1993 and had two sons. Plaintiff's 2014\n\ndivorce action was finalized in 2016. The amended final judgment of divorce\n\n(amended judgment) required defendant to pay his child support obligations by\n\nwage garnishment.\n\n The amended judgment incorporated the parties' \\partial\\\" property",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

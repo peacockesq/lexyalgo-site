@@ -1,0 +1,52 @@
+{
+  "document_id": "2d7b5118-9d5e-4db1-9eea-d2b622fdf3e4",
+  "slug": "courtlistener-opinion-2675302-2675302",
+  "title": "CourtListener opinion 2675302",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 5,
+    "retirement benefits": 0,
+    "pension": 9,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 5,
+    "valuation/division": 3
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 2675302 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "s (\"Mr. Ross\") 2 survivor benefits to Jeannette Pritchow, Mr. Ross's former wife. Ms. Pritchow appeals the denial of her request for attorneys' fees. We affirm. (1) The district court did not err in interpreting the Qualified Domestic Relations Order (\"QDRO\") agreed to between Ms. Pritchow and Mr. Ross as awarding 100% of the survivor benefits to Ms. Pritchow. The plain language of the QDRO states that Ms. Pritchow is entitled to \"the entirety of the survivor benefit payable pursuant to the Plan.\" Although Washington law applies a community property presumption that when a spouse continues to accumulate p"
+    },
+    {
+      "label": "pension",
+      "quote": "BLICATION MAY 21 2014 MOLLY C. DWYER, CLERK UNITED STATES COURT OF APPEALS U.S. COURT OF APPEALS FOR THE NINTH CIRCUIT JOINT TRUSTEES OF THE No. 13-35071 INTERNATIONAL LONGSHORE & WAREHOUSE UNION - PACIFIC D.C. No. 2:12-cv-01379-JLR MARITIME ASSOCIATION PENSION PLAN, MEMORANDUM* Plaintiff-counter-defendant, JEANETTE PRITCHOW, Defendant-cross-defendant - Appellee, v. KIM E ROSS, Defendant-cross-claimant - Appellant. JEANETTE PRITCHOW, No. 13-35074 Defendant-cross-defendant - D.C. No. 2:12-cv-01379-JLR Appellant, And * This disposition is not appropriate for publication and is not precedent except"
+    },
+    {
+      "label": "survivor benefits",
+      "quote": "vor pension benefits by the Joint Trustees of the International Longshore & Warehouse Union – Pacific Maritime Association Pension Plan (\"the Plan\"). Kim E. Ross (\"Mrs. Ross\") appeals the district court's award of 100% of Joseph E. Ross's (\"Mr. Ross\") 2 survivor benefits to Jeannette Pritchow, Mr. Ross's former wife. Ms. Pritchow appeals the denial of her request for attorneys' fees. We affirm. (1) The district court did not err in interpreting the Qualified Domestic Relations Order (\"QDRO\") agreed to between Ms. Pritchow and Mr. Ross as awarding 100% of the survivor benefits to Ms. Pritchow. The plain language of th"
+    },
+    {
+      "label": "valuation/division",
+      "quote": "Pritchow and Mr. Ross as awarding 100% of the survivor benefits to Ms. Pritchow. The plain language of the QDRO states that Ms. Pritchow is entitled to \"the entirety of the survivor benefit payable pursuant to the Plan.\" Although Washington law applies a community property presumption that when a spouse continues to accumulate pension benefits following divorce, the former spouse should receive only those benefits that accrued during the marriage, state law does not mandate that approach. See Chavez v. Chavez (In re Chavez), 909 P.2d 314, 316 (Wash. App. 1996). Here, the QDRO is entirely clear with respect to survivor b"
+    }
+  ],
+  "full_text": "FILED\n NOT FOR PUBLICATION MAY 21 2014\n\n MOLLY C. DWYER, CLERK\n UNITED STATES COURT OF APPEALS U.S. COURT OF APPEALS\n\n FOR THE NINTH CIRCUIT\n\nJOINT TRUSTEES OF THE No. 13-35071\nINTERNATIONAL LONGSHORE &\nWAREHOUSE UNION - PACIFIC D.C. No. 2:12-cv-01379-JLR\nMARITIME ASSOCIATION PENSION\nPLAN,\n MEMORANDUM*\n Plaintiff-counter-defendant,\n\nJEANETTE PRITCHOW,\n\n Defendant-cross-defendant -\nAppellee,\n\n v.\n\nKIM E ROSS,\n\n Defendant-cross-claimant -\nAppellant.\n\nJEANETTE PRITCHOW, No. 13-35074\n\n Defendant-cross-defendant - D.C. No. 2:12-cv-01379-JLR\nAppellant,\n\n And\n\n *\n This disposition is not appropriate for publication and is not precedent\nexcept as provided by 9th Cir. R. 36-3.\n JOINT TRUSTEES OF THE\nINTERNATIONAL LONGSHORE &\nWAREHOUSE UNION - PACIFIC\nMARITIME ASSOCIATION PENSION\nPLAN,\n\n Plaintiff-counter-defendant,\n\n v.\n\nKIM E ROSS,\n\n Defendant-cross-claimant -\nAppellee.\n\n Appeal from the United States District Court\n for the Western District of Washington\n James L. Robart, District Judge, Presiding\n\n Argued and Submitted May 12, 2014\n Seattle, Washington\n\nBefore: O'SCANNLAIN, KLEINFELD, and BERZON, Circuit Judges.\n\n These cross-appeals from the entry of summary judgment in an interpleader\n\naction concern a dispute regarding the distribution of survivor pension benefits by\n\nthe Joint Trustees of the International Longshore & Warehouse Union – Pacific\n\nMaritime Association Pension Plan (\"the Plan\"). Kim E. Ross (\"Mrs. Ross\")\n\nappeals the district court's award of 100% of Joseph E. Ross's (\"Mr. Ross\")\n\n 2\n survivor benefits to Jeannette Pritchow, Mr. Ross's former wife. Ms. Pritchow\n\nappeals the denial of her request for attorneys' fees. We affirm.\n\n (1) The district court did not err in interpreting the Qualified Domestic\n\nRelations Order (\"QDRO\") agreed to between Ms. Pritchow and Mr. Ross as\n\nawarding 100% of the survivor benefits to Ms. Pritchow. The plain language of\n\nthe QDRO states that Ms. Pritchow is entitled to \"the entirety of the survivor\n\nbenefit payable pursuant to the Plan.\" Although Washington law applies a\n\ncommunity property presumption that when a spouse continues to accumulate\n\npension benefits following divorce, the former spouse should receive only those\n\nbenefits that accrued during the marriage, state law does not mandate that\n\napproach. See Chavez v. Chavez (In re Chavez), 909 P.2d 314, 316 (Wash. App.\n\n1996).\n\n Here, the QDRO is entirely clear with respect to survivor benefits, and so\n\novercomes any applicable presumption. Moreover, the QDRO elsewhere\n\nspecifically reflects Washington's community property presumption, in its\n\ntreatment of pension benefits during Mr. Ross's lifetime (which is what was at\n\nstake in In re Chavez). The distinction between the treatment of pension benefits\n\nand of survivor benefits confirms that the community property presumption was\n\nnot overlooked when the QDRO was entered. Instead, it was meant to apply to the\n\n 3\n division of pension benefits paid while the primary beneficiary was alive, but was\n\nnot applicable to \"the survivor benefit payable pursuant to the Plan\" after Mr.\n\nRoss's death.\n\n (2) The district court did not abuse its discretion in denying attorneys'\n\nfees pursuant to 29 U.S.C. § 1132(g)(1). Because Ms. Pritchow wholly prevailed\n\non her claims, the district court was not required to consider the factors identified\n\nin Hummell v. S.E. Rykoff & Co., 634 F.2d 446, 453 (9th Cir. 1980). See Nelson v.\n\nEG & G Energy Measurements Grp., Inc., 37 F.3d 1384, 1392 (9th Cir. 1994). But\n\nit was not an abuse of discretion to do so. Moreover, under the circumstances, it\n\nwould be unjust to award fees against the Plan, which, faced with a legitimate\n\ndispute between competing beneficiaries, responded appropriately by filing this\n\ninterpleader action. See Smith v. CMTA-IAM Pension Trust, 746 F.2d 587, 589\n\n(9th Cir. 1984).\n\n AFFIRMED.\n\n 4",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

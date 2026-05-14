@@ -1,0 +1,40 @@
+{
+  "document_id": "497b3d55-4de5-422c-bfe9-5d2b51c96b46",
+  "slug": "courtlistener-opinion-3184156-3184156",
+  "title": "CourtListener opinion 3184156",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3184156 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "domestic relations order",
+      "quote": "waiving his right to a preliminary hearing and jury trial in November 2014, Fernando Chavez pleaded no contest to one felony count of possession of contraband (methamphetamine) in jail (Pen. Code, § 4573.6, subd. (a))1 and one misdemeanor count of violating a domestic relations order (§ 273.6, subd. (a)) and admitted he had suffered a prior serious or violent felony conviction within the meaning of the three strikes law (§§ 667, subds. (b)-(j); 1170.12). Pursuant to a negotiated agreement the trial court sentenced Chavez to a state prison term of four years: four years (the two-year lower term doubled under the three strikes law) for po"
+    }
+  ],
+  "full_text": "Filed 3/8/16 P. v. Chavez CA2/7\nReceived for posting 3/9/16\n NOT TO BE PUBLISHED IN THE OFFICIAL REPORTS\nCalifornia Rules of Court, rule 8.1115(a), prohibits courts and parties from citing or relying on opinions not certified for publication or\nordered published, except as specified by rule 8.1115(b). This opinion has not been certified for publication or ordered published for\npurposes of rule 8.1115.\n\n IN THE COURT OF APPEAL OF THE STATE OF CALIFORNIA\n\n SECOND APPELLATE DISTRICT\n\n DIVISION SEVEN\n\nTHE PEOPLE, B265801\n\n Plaintiff and Respondent, (Los Angeles County\n Super. Ct. No. KA107233)\n v.\n\nFERNANDO CHAVEZ,\n\n Defendant and Appellant.\n\n APPEAL from an order of the Superior Court of Los Angeles County, Rogelio G.\nDelgado, Judge. Affirmed.\n Fernando Chavez, in pro. per., and Christopher Love, under appointment by the\nCourt of Appeal, for Defendant and Appellant.\n No appearance for Plaintiff and Respondent.\n ___________________________________\n After waiving his right to a preliminary hearing and jury trial in November 2014,\nFernando Chavez pleaded no contest to one felony count of possession of contraband\n(methamphetamine) in jail (Pen. Code, § 4573.6, subd. (a))1 and one misdemeanor count\nof violating a domestic relations order (§ 273.6, subd. (a)) and admitted he had suffered a\nprior serious or violent felony conviction within the meaning of the three strikes law\n(§§ 667, subds. (b)-(j); 1170.12). Pursuant to a negotiated agreement the trial court\nsentenced Chavez to a state prison term of four years: four years (the two-year lower\nterm doubled under the three strikes law) for possession of contraband in jail and a\nconcurrent term of 180 days for violation of a domestic relations order.2\n On June 24, 2015 Chavez, representing himself, filed a petition seeking to reduce\nhis felony conviction for possession of a controlled substance in jail to a misdemeanor\nunder Proposition 47, the Safe Neighborhoods and Schools Act (§ 1170.18). The trial\ncourt denied the petition, finding Chavez was not eligible for resentencing under\nProposition 47. Chavez filed a timely notice of appeal.\n We appointed counsel to represent Chavez on this appeal. After examination of\nthe record, counsel filed an opening brief in which no issues were raised.\nOn November 16, 2015 we advised Chavez he had 30 days within which to submit any\ncontentions or issues he wished us to consider. On December 8, 2015 we permitted\nChavez to file a 16-page supplemental brief claiming his appellate counsel provided\nineffective assistance by failing to address certain issues on appeal. To the extent they\ncan be understood, those issues are beyond the scope of this appeal, which is limited to\nthe denial of Chavez's petition pursuant to Proposition 47, or would not be cognizable on\nappeal in any event in light of his plea. With respect to Chavez's Proposition 47 petition,\nthe trial court correctly ruled the unauthorized possession of a controlled substance in jail\n\n1\n Statutory references are to this code.\n2\n After Chavez also admitted he had violated probation in two Los Angeles Superior\nCourt misdemeanor cases, the trial court revoked and terminated probation in case\nnumber 4RI01802 (driving on a suspended license) and revoked and reinstated probation\nin case number 4DV00222 (misdemeanor vandalism and domestic violence.)\n 2\n is not one of the drug-related offenses for which a defendant may seek reclassification or\nresentencing pursuant to section 1170.18, subdivision (a).\n We have examined the entire record and are satisfied Chavez's appellate attorney\nhas fully complied with the responsibilities of counsel and no arguable issue exists.\n(Smith v. Robbins (2000) 528 U.S. 259, 277-284 [120 S.Ct. 746, 145 L.Ed.2d 756];\nPeople. Kelly (2006) 40 Cal.4th 106, 118-119; People v. Wende (1979) 25 Cal.3d 436,\n441-442.)\n DISPOSITION\n The order is affirmed.\n\n PERLUSS, P. J.\n\n We concur:\n\n ZELON, J.\n\n BLUMENFELD, J.*\n\n*\n Judge of the Los Angeles Superior Court, assigned by the Chief Justice pursuant to\narticle VI, section 6 of the California Constitution.\n 3",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

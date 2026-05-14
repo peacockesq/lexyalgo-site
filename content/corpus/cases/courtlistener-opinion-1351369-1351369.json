@@ -1,0 +1,44 @@
+{
+  "document_id": "02627b45-290b-4beb-8962-6a227186cad8",
+  "slug": "courtlistener-opinion-1351369-1351369",
+  "title": "CourtListener opinion 1351369",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 5,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1351369 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "3, 1990. William J. Walsh, Lakewood, for appellee. Wedgle & Shpall, P.C., Richard J. Wedgle, Murray Wilkening, Denver, for appellant. Opinion by Judge PIERCE. Robert E. Thomason, husband, appeals the order of the trial court amending the language of a Qualified Domestic Relations Order (QDRO). We reverse. A separation agreement reached by the parties was approved by the court and incorporated in a decree of dissolution on April 28, 1989. Later, the district court approved a QDRO submitted by husband. Vickie A. Thomason, wife, filed an objection to that order and argued that certain *1190 additional language should have been included in"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "William J. Walsh, Lakewood, for appellee. Wedgle & Shpall, P.C., Richard J. Wedgle, Murray Wilkening, Denver, for appellant. Opinion by Judge PIERCE. Robert E. Thomason, husband, appeals the order of the trial court amending the language of a Qualified Domestic Relations Order (QDRO). We reverse. A separation agreement reached by the parties was approved by the court and incorporated in a decree of dissolution on April 28, 1989. Later, the district court approved a QDRO submitted by husband. Vickie A. Thomason, wife, filed an objection to that order and argued that certain *1190 additional language should have been included in"
+    }
+  ],
+  "full_text": "802 P.2d 1189 (1990) \n In re the MARRIAGE OF Vickie A. THOMASON, Appellee, and \nRobert E. Thomason, Appellant. \n No. 89CA1205. \n Colorado Court of Appeals, Div. I. \n November 23, 1990. \n William J. Walsh, Lakewood, for appellee. \n Wedgle & Shpall, P.C., Richard J. Wedgle, Murray Wilkening, Denver, for appellant. \n Opinion by Judge PIERCE. \n Robert E. Thomason, husband, appeals the order of the trial court amending the language of a Qualified Domestic Relations Order (QDRO). We reverse. \n A separation agreement reached by the parties was approved by the court and incorporated in a decree of dissolution on April 28, 1989. Later, the district court approved a QDRO submitted by husband. Vickie A. Thomason, wife, filed an objection to that order and argued that certain *1190 additional language should have been included in the QDRO in order to prevent a significant tax liability to her. She asserted that the amendment was necessary to conform the QDRO to the intent of the parties that she felt was expressed in the separation agreement.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

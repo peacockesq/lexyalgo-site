@@ -1,0 +1,52 @@
+{
+  "document_id": "9d88a216-0605-4a0b-a0ba-7d656b408cd8",
+  "slug": "joseph-kostya-v-barbara-kostya-3766798",
+  "title": "Joseph Kostya v. Barbara Kostya",
+  "citation": "qualified domestic relations order",
+  "source_url": "https://www.courtlistener.com/opinion/4011750/kostya-v-kostya-unpublished-decision-12-13-2001/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "2001-12-13",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 5,
+    "pension": 4,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 1,
+    "domestic relations order": 1,
+    "survivor benefits": 4,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: Joseph Kostya v. Barbara Kostya is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "that husband's retirement benefits would be divided equally between the parties based on a coverture formula, with wife named as a surviving spouse with the right to receive benefits for her lifetime, based upon her life expectancy. Wife filed a motion for a qualified domestic relations order (QDRO), asking the court to allow her to take her benefits by way of a qualified joint and survivor annuity. Husband objected, saying that the retirement plan does not permit wife to take her retirement benefits by way of a qualified joint and survivor annuity, and that if wife were granted this annuity, he would lose the right to take his pension in a lump"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "m the Cuyahoga County Court of Common Pleas and appellant's brief. Appellant-husband Joseph Kostya and wife Barbara Kostya were granted a divorce, the terms of which were taken from a separation agreement between the parties. The parties agreed that husband's retirement benefits would be divided equally between the parties based on a coverture formula, with wife named as a surviving spouse with the right to receive benefits for her lifetime, based upon her life expectancy. Wife filed a motion for a qualified domestic relations order (QDRO), asking the court to allow her to take her benefits by way of a qualified joint and survivor"
+    },
+    {
+      "label": "pension",
+      "quote": "oint and survivor annuity. Husband objected, saying that the retirement plan does not permit wife to take her retirement benefits by way of a qualified joint and survivor annuity, and that if wife were granted this annuity, he would lose the right to take his pension in a lump sum payment. The magistrate found that two post retirement benefits were possible under the circumstances. The first was the joint and survivorship approach where the participant is required to elect benefits under a reduced joint and survivor annuity. The second approach divides the annuity into two distinct components, and the alternate payee"
+    },
+    {
+      "label": "alternate payee",
+      "quote": "e possible under the circumstances. The first was the joint and survivorship approach where the participant is required to elect benefits under a reduced joint and survivor annuity. The second approach divides the annuity into two distinct components, and the alternate payee is entitled to a share of the pension benefits based on life expectancy. The magistrate went on to find that neither party presented evidence showing which type of survivorship benefits were available under husband's pension plan. Without this evidence, the magistrate found the court could not adopt a QDRO. Husband filed unopposed objections to the magist"
+    }
+  ],
+  "full_text": "JOURNAL ENTRY AND OPINION \nThis case came to be heard upon the accelerated calendar pursuant to App.R. 11.1 and Local Rule 11.1, the record from the Cuyahoga County Court of Common Pleas and appellant's brief. Appellant-husband Joseph Kostya and wife Barbara Kostya were granted a divorce, the terms of which were taken from a separation agreement between the parties. The parties agreed that husband's retirement benefits would be divided equally between the parties based on a coverture formula, with wife named as a surviving spouse with the right to receive benefits for her lifetime, based upon her life expectancy. Wife filed a motion for a qualified domestic relations order (QDRO), asking the court to allow her to take her benefits by way of a qualified joint and survivor annuity. Husband objected, saying that the retirement plan does not permit wife to take her retirement benefits by way of a qualified joint and survivor annuity, and that if wife were granted this annuity, he would lose the right to take his pension in a lump sum payment. \n The magistrate found that two post retirement benefits were possible under the circumstances. The first was the joint and survivorship approach where the participant is required to elect benefits under a reduced joint and survivor annuity. The second approach divides the annuity into two distinct components, and the alternate payee is entitled to a share of the pension benefits based on life expectancy. The magistrate went on to find that neither party presented evidence showing which type of survivorship benefits were available under husband's pension plan. Without this evidence, the magistrate found the court could not adopt a QDRO. \n Husband filed unopposed objections to the magistrate's decision and appended to those objections proof of the kind of options available under husband's retirement plan. The court approved the magistrate's decision without elaboration. This appeal followed, and wife has not timely filed a brief. \n We sustain the second assignment of error relating to the court's failure to consider documentation of husband's pension plan. The magistrate noted that husband's brief filed in support of the motion mentioned that the documentation was attached, but the exhibit was not appended as mentioned. Husband did file the exhibit in his unopposed objections. The exhibit attached to husband's objections would presumably have enabled the magistrate to make a decision on the merits. Because it had the evidence needed to reach a decision, the court should have recommitted the matter to the magistrate for a decision on the merits. \n This cause is reversed and remanded for proceedings consistent with this opinion. \n It is, therefore, considered that said appellant recover of said appellee his costs herein. \n It is ordered that a special mandate be sent to said court to carry this judgment into execution. \n A certified copy of this entry shall constitute the mandate pursuant to Rule 27 of the Rules of Appellate Procedure. \n JAMES D. SWEENEY, P.J., and JAMES J. SWEENEY, J., CONCUR.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "document_id": "91a55f3a-246e-480c-8e47-19c794eef893",
+  "slug": "david-glover-v-jean-glover-3343722",
+  "title": "David Glover v. Jean Glover",
+  "citation": "QDRO",
+  "source_url": "https://www.courtlistener.com/opinion/3348205/glover-v-glover-no-0540221-jun-16-1999/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "1999-06-16",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 8,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: David Glover v. Jean Glover is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "until Derek turns 19 or graduates from high school. Thereafter, the plaintiff shall pay to the defendant $75 per week alimony for eight years. Said alimony is modifiable as to amount but not as to term. 2. Plaintiff shall transfer to the defendant by way of QDRO 40% of his Navy pension. 3. The plaintiff shall put the defendant as surviving beneficiary of his Navy pension. 4. Each party shall pay their own attorney's fees. Vasington, JTR"
+    },
+    {
+      "label": "pension",
+      "quote": "OR'S NOTE: This case is unpublished as indicated by the issuing court.] MEMORANDUM OF DECISION On April 3, 1997, Austin, J. granted the parties a decree dissolving their marriage. The court did not award defendant any alimony or a portion of plaintiff's Navy pension. Since defendant claims that she was unaware of the hearing of April 3, 1997 and was not present because of plaintiff's actions, she filed a motion to open and modify the judgment. After a hearing, Austin, J. granted the defendant's motion. The court found that defendant failed to appear at the hearing of the dissolution of the marriage on April 3, 1997 b"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] MEMORANDUM OF DECISION \nOn April 3, 1997, Austin, J. granted the parties a decree dissolving their marriage. The court did not award defendant any alimony or a portion of plaintiff's Navy pension. \n Since defendant claims that she was unaware of the hearing of April 3, 1997 and was not present because of plaintiff's actions, she filed a motion to open and modify the judgment. After a hearing, Austin, J. granted the defendant's motion. The court found that defendant failed to appear at the hearing of the dissolution of the marriage on April 3, 1997 because of mental condition and her lack of understanding that a dissolution was pending. (See Memorandum of Decision dated June 24, 1998.) CT Page 7170 \n In the judgment dissolving the marriage of the parties, defendant did not receive any alimony or a division of plaintiff's military pension. However, the plaintiff was ordered to pay to the defendant $165.00 per week as child support for their minor child Derek who was born November 12, 1980. \n The defendant does not contest the court's judgment dissolving the marriage but seeks relief she was unable to claim because of her non-appearance at court on April 3, 1997. She now seeks alimony and a portion of plaintiff's Navy pension. \n The defendant, who was born on December 10, 1957, suffers from a major depressive affective disorder. She is on three different medications. In 1996 she suffered a nervous breakdown. Defendant has a chronic psychiatric illness which requires lifelong medication and psychiatric monitoring. \n Defendant worked through the marriage at various jobs. Presently she is employed at Riverside Custom Covers and earns $192.49 gross for 27.5 hours per week. Her net income is $156.77. She does receive $165.00 per week from the plaintiff as support for their minor child, Derek G., born November 12, 1980. \n The plaintiff, who was born August 27, 1955, has high blood pressure, stress and anxiety since October 1995. He takes medication and sees his doctor every six months. He has a Veterans Administration disability of 20 percent because of skin cancers, sinuses and scars from surgery. \n The plaintiff presently is employed by the Department of Corrections in Niantic, Connecticut. Defendant's net income from his employment is $458.35. In addition he receives a net income from his Navy pension in the sum of $282.33 for a total net weekly income of $740.68. \n The defendant joined the Navy in July 1973 and retired in 1993. He receives a Navy pension, 15 years of which accumulated during the marriage of the parties. \n In 1996 the parties' property located at Virginia Road was foreclosed. However, the Internal Revenue Service charged the parties with a capital gain tax liability of $18,000.00. In his judgment, Austin, J. ordered that plaintiff pay said tax. \n The parties had different opinions as to why the marriage CT Page 7171 broke down. Defendant claims plaintiff has a drinking problem which interfered with defendant going to work; plaintiff's infidelity, lack of support, love and attention from plaintiff and conflicts over their two sons. \n According to the defendant, Derek has a potential attention deficit disorder. Plaintiff was of little or no help coping with their son Derek's potential attention deficit disorder. Further, defendant claims plaintiff's failure to get along with their son Christopher required that Christopher be placed in a foster home during 1993 and 1994. \n Plaintiff and defendant separated in September 1995. Defendant has lived with Mark Corona in 1996 and then with Robert Peters in 1997. \n For purposes of alimony and division of plaintiff's Navy pension, this court finds the plaintiff more at fault for the breakdown of the parties' marriage. After considering the factors in Connecticut General Statutes &#167;&#167; 46b-62 , 81 and 82, the following orders are entered: \n 1. The plaintiff shall pay to the defendant $1 per week alimony until Derek turns 19 or graduates from high school. Thereafter, the plaintiff shall pay to the defendant $75 per week alimony for eight years. Said alimony is modifiable as to amount but not as to term. \n 2. Plaintiff shall transfer to the defendant by way of QDRO 40% of his Navy pension. \n 3. The plaintiff shall put the defendant as surviving beneficiary of his Navy pension. \n 4. Each party shall pay their own attorney's fees. \n Vasington, JTR",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

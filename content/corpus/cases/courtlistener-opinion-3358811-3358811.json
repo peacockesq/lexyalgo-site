@@ -1,0 +1,52 @@
+{
+  "document_id": "8eb774df-2a23-4d1a-9e06-8a70c66824a5",
+  "slug": "courtlistener-opinion-3358811-3358811",
+  "title": "CourtListener opinion 3358811",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 5,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 2,
+    "alternate payee": 0,
+    "domestic relations order": 5,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3358811 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "aration Agreement which was incorporated by reference into the decree and its provisions became the orders of the court. Paragraphs 27 and 28 of that agreement state as follows: CT Page 1849 27. The husband shall immediately transfer to the wife by way of a Qualified Domestic Relations Order or nontaxable rollover a one-half interest in the following: GE Savings and Security 401(k) Plan in the approximate amount of $945,000, U.S. Savings Bonds 401(k) in the approximate amount of $1,300. The husband shall be exclusively entitled to his GE Executive Deferred Savings in the approximate amount of $18,000, and GE Voluntary Pension Plan in the approx"
+    },
+    {
+      "label": "pension",
+      "quote": "nd Security 401(k) Plan in the approximate amount of $945,000, U.S. Savings Bonds 401(k) in the approximate amount of $1,300. The husband shall be exclusively entitled to his GE Executive Deferred Savings in the approximate amount of $18,000, and GE Voluntary Pension Plan in the approximate amount of $7,000. The husband shall transfer to the wife a one-half interest in his GE Pension Plan (Contributory) in the approximate amount of $65,000, Janus Twenty IRA in the approximate amount of $55,000 and American Century Growth IRA in the approximate amount of $29,000. Said assets with their approximate current values are set"
+    },
+    {
+      "label": "401(k)",
+      "quote": "Paragraphs 27 and 28 of that agreement state as follows: CT Page 1849 27. The husband shall immediately transfer to the wife by way of a Qualified Domestic Relations Order or nontaxable rollover a one-half interest in the following: GE Savings and Security 401(k) Plan in the approximate amount of $945,000, U.S. Savings Bonds 401(k) in the approximate amount of $1,300. The husband shall be exclusively entitled to his GE Executive Deferred Savings in the approximate amount of $18,000, and GE Voluntary Pension Plan in the approximate amount of $7,000. The husband shall transfer to the wife a one-half interest in his GE"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "reement which was incorporated by reference into the decree and its provisions became the orders of the court. Paragraphs 27 and 28 of that agreement state as follows: CT Page 1849 27. The husband shall immediately transfer to the wife by way of a Qualified Domestic Relations Order or nontaxable rollover a one-half interest in the following: GE Savings and Security 401(k) Plan in the approximate amount of $945,000, U.S. Savings Bonds 401(k) in the approximate amount of $1,300. The husband shall be exclusively entitled to his GE Executive Deferred Savings in the approximate amount of $18,000, and GE Voluntary Pension Plan in the approx"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] MEMORANDUM OF DECISION RE: PLAINTIFF'S MOTION FOR CONTEMPT, NO. 112 DEFENDANT'S MOTION FOR CONTEMPT, NO. 113 \nThe marriage of the parties was dissolved on August 29, 2000. At that time, the parties entered into a Separation Agreement which was incorporated by reference into the decree and its provisions became the orders of the court. Paragraphs 27 and 28 of that agreement state as follows: CT Page 1849 \n 27. The husband shall immediately transfer to the wife by way of a Qualified Domestic Relations Order or nontaxable rollover a one-half interest in the following: GE Savings and Security 401(k) Plan in the approximate amount of $945,000, U.S. Savings Bonds 401(k) in the approximate amount of $1,300. The husband shall be exclusively entitled to his GE Executive Deferred Savings in the approximate amount of $18,000, and GE Voluntary Pension Plan in the approximate amount of $7,000. The husband shall transfer to the wife a one-half interest in his GE Pension Plan (Contributory) in the approximate amount of $65,000, Janus Twenty IRA in the approximate amount of $55,000 and American Century Growth IRA in the approximate amount of $29,000. Said assets with their approximate current values are set forth on Schedule A attached hereto. Relative to Paragraphs 27 and 28, the husband shall prepare at his expense all Qualified Domestic Relations Orders. \n 28. The wife shall immediately transfer to the husband by way of a Qualified Domestic Relations Order or nontaxable rollover a one-half interest in the Janus Fund IRA in the approximate amount of $22,000, and an additional sum of $2,850 from said IRA. Said IRA with its approximate current value is set forth on Schedule A attached hereto. \n Schedule A named the assets and their values as of August 29, 2000. It listed the approximate dollar amount of each asset to be allocated to each party. \n At oral argument plaintiff's counsel claimed that the defendant did not prepare the \\Qualified Domestic Relations Orders\\\" (QDROs) as agreed in a handwritten portion on page 16 of the separation agreement. The defendant's counsel claimed that the defendant relied on the questions posed to the plaintiff by her attorney at the final hearing in which counsel asked the plaintiff \\\". . . and we'll do a qualified domestic relations order. . . . that's your understanding?\\\" 1 The plaintiff said \\\"Yes.\\\" Subsequent to the final hearing",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

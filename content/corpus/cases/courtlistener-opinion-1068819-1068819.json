@@ -1,0 +1,52 @@
+{
+  "document_id": "88a40c97-95ec-403d-99e1-7fdd38f3617a",
+  "slug": "courtlistener-opinion-1068819-1068819",
+  "title": "CourtListener opinion 1068819",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 11,
+    "pension": 8,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 3,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1068819 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "r. Hardin commenced a monthly retirement benefit from the Ford Motor Company-UAW Retirement Plan on June 1, 1999. The monthly benefit is currently $831.11.\" The memo continues that if a benefit from the pension plan is required for the alternate payee, then a QDRO is required. The attachment regarding alternate payee benefits sets forth the requirements for such a QDRO. -2- We conclude the evidence does not preponderate against the findings of th Trial Court. The documentation from the Ford Motor Company clearly indicates that the husband is receiving benefits under a retirement plan provided by his employer. Ther"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "t Cantrell, Nashville, Tennessee, for Appellant. C. Ronald Blanton and Joseph Y. Longmire, Hendersonville, Tennessee, for Appellee. OPINION In this divorce action, the Trial Court determined that the monthly payments received by the husband from the Ford Retirement Plan was a marital asset and declared the wife to have a 50% interest in the same and awarded her one-half of a lump sum payment already received by the husband in the amount of $6,000.00. The husband has appealed. The parties stipulated to a divorce pursuant to Tenn. Code Ann. §36-4-129. The husband testified that he applied to Ford Company for disability be"
+    },
+    {
+      "label": "pension",
+      "quote": "had health problems, including Hepatitis C, and was unable to work, and she filed an exhibit consisting of documentation provided to her attorney via a subpoena to the Ford Motor Company. The Trial Judge determined the Ford Retirement Plan was a retirement/pension plan and a marital asset. If the Trial Court is correct in its characterization of the monthly payment, then the payment constitutes marital property, subject to equitable division. Tenn. Code Ann. §36-4- 121(b)(1)(B), Cohen v. Cohen, 937 S.W.2d 823 (Tenn. 1996). (C.f., Gragg v. Gragg, 12 S.W.3d 412 (Tenn. 2000) (holding that true disability payments replac"
+    },
+    {
+      "label": "alternate payee",
+      "quote": "checked \"disability\". The information subpoenaed from Ford Motor Company and filed in evidence, consists of a cover letter to the attorney, a memo on Ford Motor Company letterhead regarding benefits information on husband, and attachment which is entitled, \"Alternate Payee's Ford-UAW Pension Benefits\". The memo regarding husband's benefits addresses three categories - health care, savings plans, and pension plans. Under the Pension Plans heading, the memo states \"In response to your request for Pension data, please be advised that Mr. Hardin commenced a monthly retirement benefit from the Ford Motor Company-UAW Retirement Pla"
+    }
+  ],
+  "full_text": "IN THE COURT OF APPEALS OF TENNESSEE\n AT NASHVILLE\n July 8, 2002 Session\n\n TERRY B. HARDIN v. TERESA DIANE HARDIN\n\n Direct Appeal from the Circuit Court for Sumner County\n No. 21177-C Hon. C.L. Rogers, Judge\n\n No. M2001-01845-COA-R3-CV - Filed September 12, 2002\n\nIn this divorce action, the Trial Court classified monthly benefits paid to husband as marital property.\nOn appeal, husband contends payments are disability benefits. We affirm.\n\nTenn. R. App. P.3 Appeal as of Right; Judgment of the Circuit Court Affirmed.\n\nHERSCHEL PICKENS FRANKS , J., delivered the opinion of the court, in which HOUSTON M. GODDARD ,\nP.J., and D. MICHAEL SWINEY, J., joined.\n\nJack Davis and Luther Ernest Cantrell, Nashville, Tennessee, for Appellant.\n\nC. Ronald Blanton and Joseph Y. Longmire, Hendersonville, Tennessee, for Appellee.\n\n OPINION\n\n In this divorce action, the Trial Court determined that the monthly payments received\nby the husband from the Ford Retirement Plan was a marital asset and declared the wife to have a\n50% interest in the same and awarded her one-half of a lump sum payment already received by the\nhusband in the amount of $6,000.00. The husband has appealed.\n\n The parties stipulated to a divorce pursuant to Tenn. Code Ann. §36-4-129.\n The husband testified that he applied to Ford Company for disability benefits on May\n25, 1999, and that he was disabled in May 1998. He further testified that he was terminated, and\nthen put on medical leave, and was told that his only option was to take disability retirement. He\nfurther testified that he received $831.11 per month, and a lump sum payment of $12,026.28 in\nNovember 2000.\n\n The wife testified that she contributed to the marital estate as a homemaker and\nparent. She testified that she had health problems, including Hepatitis C, and was unable to work,\nand she filed an exhibit consisting of documentation provided to her attorney via a subpoena to the\nFord Motor Company.\n\n The Trial Judge determined the Ford Retirement Plan was a retirement/pension plan\nand a marital asset. If the Trial Court is correct in its characterization of the monthly payment, then\nthe payment constitutes marital property, subject to equitable division. Tenn. Code Ann. §36-4-\n121(b)(1)(B), Cohen v. Cohen, 937 S.W.2d 823 (Tenn. 1996). (C.f., Gragg v. Gragg, 12 S.W.3d 412\n(Tenn. 2000) (holding that true disability payments replace lost income and are not marital property.)\n\n Our review of the Trial Court's decision is de novo with a presumption of correctness\nof the Trial Court's findings of fact, unless the preponderance of the evidence is otherwise. Tenn.\nR. App. P. 13(d); McCarty v. McCarty, 863 S.W.2d 716 (Tenn. Ct. App. 1992). No presumption\nof correctness attaches to the trial court's legal conclusions. Union Carbide Corp. v. Huddleston,\n854 S.W.2d 87 (Tenn. 1993). The issue thus becomes the correctness of the Trial Court's factual\nfinding that the plan at issue under which the husband was receiving benefits was a retirement plan.\nThe only proof on this issue is the husband's testimony and the documentary evidence. The Ford\nMotor Company wrote the husband regarding his \"Application for Disability Retirement\" from its\ndivision of \"Retirement Relations\". The letter states that the company was in receipt of the\nhusband's application \"necessary to support your retirement under the Ford-UAW Retirement Plan,\ncommencing 6/1/99.\" The letter then explains that the husband would be subjected to a medical\nevaluation to determine his eligibility for a disability retirement. The letter repeatedly refers to the\nbenefits and plan as \"retirement\". The husband's application was on a form entitled, \"Ford-UAW\nRetirement Plan - Application for Retirement Benefits\". The husband, from six choices for\nretirement type, checked \"disability\".\n\n The information subpoenaed from Ford Motor Company and filed in evidence,\nconsists of a cover letter to the attorney, a memo on Ford Motor Company letterhead regarding\nbenefits information on husband, and attachment which is entitled, \"Alternate Payee's Ford-UAW\nPension Benefits\". The memo regarding husband's benefits addresses three categories - health care,\nsavings plans, and pension plans. Under the Pension Plans heading, the memo states \"In response\nto your request for Pension data, please be advised that Mr. Hardin commenced a monthly retirement\nbenefit from the Ford Motor Company-UAW Retirement Plan on June 1, 1999. The monthly benefit\nis currently $831.11.\" The memo continues that if a benefit from the pension plan is required for\nthe alternate payee, then a QDRO is required. The attachment regarding alternate payee benefits sets\nforth the requirements for such a QDRO.\n\n -2-\n We conclude the evidence does not preponderate against the findings of th Trial\nCourt. The documentation from the Ford Motor Company clearly indicates that the husband is\nreceiving benefits under a retirement plan provided by his employer. There is no evidence of a\nseparate disability policy. The memo from Ford Motor Company expressly states the husband is\nreceiving a \"monthly retirement benefit\" pursuant to a pension plan, and further describes how the\npension plan may be divided pursuant to a QDRO. The husband admitted that the only plan he had\nwas his retirement plan through Ford/UAW. The application which the husband filled out states that\nit is an application for retirement. The husband maintains the monthly payments are for disability\nto replace lost income, but this is not borne out by the documentary evidence. The statutory\ndefinition of marital property is \"virtually all inclusive\", and specifically includes retirement benefits.\nSee Cohen.\n\n Accordingly, we affirm the Judgment of the Trial Court and remand. The cost of the\nappeal is assessed to Terry B. Hardin.\n\n _________________________\n HERSCHEL PICKENS FRANKS , J.\n\n -3-",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "document_id": "32056448-e735-46af-817e-c44adb595bdd",
+  "slug": "courtlistener-opinion-9367450-9367450",
+  "title": "CourtListener opinion 9367450",
+  "citation": "Domestic Relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 9367450 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "domestic relations order",
+      "quote": "appellee. APPEAL from the Franklin County Court of Common Pleas, Division of Domestic Relations BEATTY BLUNT, P.J. {¶ 1} Plaintiff-appellant, Chad N. Woodford, appeals the May 15, 2021 decision of the Franklin County Court of Common Pleas, Division of Domestic Relations ordering the trial record and shared parenting decree issued on July 6, 2020 in this case to be supplemented with a child support worksheet pursuant to Civ.R. 60(A). Appellant argues that the trial court erred by supplementing the trial record with a child support worksheet as the case was already under appeal. {¶ 2} On the date that the trial court issued"
+    }
+  ],
+  "full_text": "[Cite as Woodford v. Woodford, 2023-Ohio-193.]\n\n IN THE COURT OF APPEALS OF OHIO\n\n TENTH APPELLATE DISTRICT\n\nChad N. Woodford, :\n\n Plaintiff-Appellant, :\n No. 21AP-256\nv. : (C.P.C. No. 18DR-1824)\n\nDanielle L. Woodford, : (REGULAR CALENDAR)\n\n Defendant-Appellee. :\n\n D E C I S I O N\n\n Rendered on January 24, 2023\n\n On brief: Wolinetz, Horvath & Brown, LLC, Dennis E.\n Horvath, and Eric M. Brown, for appellant.\n\n On brief: Grossman Law Offices, and Tracy A. Younkin, for\n appellee.\n\n APPEAL from the Franklin County Court of Common Pleas,\n Division of Domestic Relations\n\nBEATTY BLUNT, P.J.\n\n {¶ 1} Plaintiff-appellant, Chad N. Woodford, appeals the May 15, 2021 decision of\n\nthe Franklin County Court of Common Pleas, Division of Domestic Relations ordering the\n\ntrial record and shared parenting decree issued on July 6, 2020 in this case to be\n\nsupplemented with a child support worksheet pursuant to Civ.R. 60(A). Appellant argues\n\nthat the trial court erred by supplementing the trial record with a child support worksheet\n\nas the case was already under appeal.\n\n {¶ 2} On the date that the trial court issued its order, this court had before it\n\nappellant's separate appeal in Woodford v. Woodford, 10th Dist. No. 20AP-377, 2022-\n No. 21AP-256 2\n\nOhio-3656 (\\Woodford I\\\")",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

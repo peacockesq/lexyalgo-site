@@ -1,0 +1,48 @@
+{
+  "document_id": "1017e636-67ab-4638-a34c-847a4ae1dbaf",
+  "slug": "courtlistener-opinion-2687825-2687825",
+  "title": "CourtListener opinion 2687825",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 1,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 2687825 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "ris challenges a finding of contempt. I. Background Facts and Proceedings Robert and Lauralei Harris dissolved their marriage after forty years. In pertinent part, the district court awarded Lauralei seventy-two percent of Robert's Edward Jones IRA. A qualified domestic relations order was entered, paving the way for funds to be transferred to Lauralei. Approximately one month after the order was filed, Lauralei applied to have Robert held in contempt for \"refus[ing]\" to sign and send a required form facilitating the transfer.1 Robert failed to appear at a scheduled hearing. His attorney did appear. The proceeding was not reported,"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "ontempt beyond a reasonable doubt based on Robert's failure to \"execute any and all instruments necessary to transfer assets consistent with the Decree.\" The court stated Robert's failure to execute the document \"frustrated the transfer of the Edward Jones retirement account.\" The court proceeded to divide the account between the parties. Robert filed a petition for writ of certiorari, which the supreme court granted. The case was transferred to this court for disposition. 1 Robert filed a similar application based on Lauralei's claimed failure to meet her alimony obligation. That application is not at issue here. 3 II"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "nges a finding of contempt. I. Background Facts and Proceedings Robert and Lauralei Harris dissolved their marriage after forty years. In pertinent part, the district court awarded Lauralei seventy-two percent of Robert's Edward Jones IRA. A qualified domestic relations order was entered, paving the way for funds to be transferred to Lauralei. Approximately one month after the order was filed, Lauralei applied to have Robert held in contempt for \"refus[ing]\" to sign and send a required form facilitating the transfer.1 Robert failed to appear at a scheduled hearing. His attorney did appear. The proceeding was not reported,"
+    }
+  ],
+  "full_text": "IN THE COURT OF APPEALS OF IOWA\n\n No. 13-1195\n Filed June 25, 2014\n\nROBERT L. HARRIS,\n Plaintiff,\n\nvs.\n\nIOWA DISTRICT COURT FOR WOODBURY COUNTY,\n Defendant.\n________________________________________________________________\n\n Certiorari to the Iowa District Court for Woodbury County, Jeffrey L.\n\nPoulson, Judge.\n\n Robert Harris challenges a district court's finding of contempt in\n\nconnection with his dissolution decree. WRIT SUSTAINED.\n\n John S. Moeller of John S. Moeller, P.C., Sioux City, for plaintiff.\n\n Edward J. Keane of Gildemeister & Keane, L.L.P., Sioux City, for\n\ndefendant.\n\n Considered by Danilson, C.J., and Vaitheswaran and Mullins, JJ.\n 2\n\nVAITHESWARAN, J.\n\n Robert Harris challenges a finding of contempt.\n\n I. Background Facts and Proceedings\n\n Robert and Lauralei Harris dissolved their marriage after forty years. In\n\npertinent part, the district court awarded Lauralei seventy-two percent of Robert's\n\nEdward Jones IRA.\n\n A qualified domestic relations order was entered, paving the way for funds\n\nto be transferred to Lauralei. Approximately one month after the order was filed,\n\nLauralei applied to have Robert held in contempt for \"refus[ing]\" to sign and send\n\na required form facilitating the transfer.1\n\n Robert failed to appear at a scheduled hearing. His attorney did appear.\n\nThe proceeding was not reported, and there is no indication that evidence was\n\ntaken.\n\n Following the hearing, the district court issued a ruling noting that the\n\nattorneys made \"[p]rofessional statements.\" The court found that Lauralei proved\n\ncontempt beyond a reasonable doubt based on Robert's failure to \"execute any\n\nand all instruments necessary to transfer assets consistent with the Decree.\"\n\nThe court stated Robert's failure to execute the document \"frustrated the transfer\n\nof the Edward Jones retirement account.\" The court proceeded to divide the\n\naccount between the parties.\n\n Robert filed a petition for writ of certiorari, which the supreme court\n\ngranted. The case was transferred to this court for disposition.\n\n1\n Robert filed a similar application based on Lauralei's claimed failure to meet her\nalimony obligation. That application is not at issue here.\n 3\n\n II. Analysis\n\n Robert contends the district court erred in finding him in contempt.\n\nContempt must be established by proof beyond a reasonable doubt. In re\n\nMarriage of Jacobo, 526 N.W.2d 859, 866 (Iowa 1995).\n\n In order to find a person guilty of contempt, a court must find\n beyond a reasonable doubt that the individual willfully violated a\n court order or decree. The contemnee has the burden of\n demonstrating that the contemner had a duty to obey a court order\n and failed to perform the duty. The burden then shifts to the\n contemner to produce evidence which suggests he or she did not\n willfully violate the order or decree at issue. However, the burden\n of persuasion remains on the contemnee to prove beyond a\n reasonable doubt that the contemner willfully acted in violation of\n the court order. Since the burden of persuasion remains on the\n contemnee, even if the contemnee makes a prima facie case and\n the contemner does not produce any evidence, the court must still\n analyze the contemnee's evidence to determine whether it\n establishes a willful violation beyond a reasonable doubt.\n\nId. (citations omitted).\n\n There is no record of the contempt proceeding that would allow us to\n\ndetermine whether the district court's finding of contempt is supported by\n\nsubstantial evidence. See In re Marriage of Swan, 526 N.W.2d 320, 326–27\n\n(Iowa 1995) (\"If there has been a finding of contempt, we review the evidence to\n\nassure ourselves that the court's factual findings are supported by substantial\n\nevidence.\"). While the attorneys made professional statements, those\n\nstatements were not summarized in the ruling and no fact-findings were made in\n\nreliance on those statements. Nor can Lauralei's allegation in her application be\n\nconstrued as evidence. Cf. Beyer v. Todd, 601 N.W.2d 35, 41–42 (Iowa 1999)\n\n(\"[O]nly admissions of factual matters made in pleadings, and not merely\n\nallegations or statements of legal theories, are admissible as evidence.\"). In\n 4\n\nsum, the absence of a record together with the absence of fact-findings\n\nprecludes a determination that the finding of contempt was supported by\n\nsubstantial evidence.\n\n Lauralei had the burden of persuasion. We are not convinced she made\n\nout a prima facie case of contempt. But even if she did, Robert's failure to\n\nproduce evidence to rebut her prima facie case did not absolve the district court\n\nof its obligation to \"analyze the contemnee's evidence to determine whether it\n\nestablishes a willful violation beyond a reasonable doubt.\" Jacobo, 526 N.W.2d\n\nat 866.\n\n We conclude the finding of contempt is not supported by substantial\n\nevidence. Accordingly, we sustain the writ of certiorari.\n\n WRIT SUSTAINED.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

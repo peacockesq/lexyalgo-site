@@ -1,0 +1,40 @@
+{
+  "document_id": "0bbf9a07-2c7b-48e9-97d4-721d6b539b0e",
+  "slug": "the-ministers-and-missionaries-benefit-board-interpleader-plaintiff-v-leon-snow-et-al-appe",
+  "title": "The Ministers and Missionaries Benefit Board, Interpleader Plaintiff, v. Leon Snow Et Al., Appellants. Estate of Clark Flesher Et Al., Respondents",
+  "citation": "26 N.Y.3d 466",
+  "source_url": "https://www.courtlistener.com/opinion/3162524/the-ministers-and-missionaries-benefit-board-v-leon-snow-v-the-estate-of/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "2015-12-15",
+  "strict_qdro_relevance": 1,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 2,
+  "plan_legal_category": "family-law retirement/property division context",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 1,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: The Ministers and Missionaries Benefit Board, Interpleader Plaintiff, v. Leon Snow Et Al., Appellants. Estate of Clark Flesher Et Al., Respondents is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to family-law retirement/property division context. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 1/5, retirement-division score 5/5, and family-law score 2/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "retirement benefits",
+      "quote": "t-of-laws principles and statutory choice-of-law directives, unless the parties expressly indicate otherwise. I. Plaintiff Ministers and Missionaries Benefit Board (MMBB) is a New York not-for-profit corporation, based in New York County, that administers a retirement plan and a death benefit plan for certain ministers and missionaries. Decedent Clark Flesher was a minister enrolled in both plans. He named his then-wife, defendant LeAnn Snow, as his primary beneficiary and her father, defendant Leon Snow, as the contingent beneficiary. Both plans state that they \\shall be governed by"
+    }
+  ],
+  "full_text": "=================================================================\nThis opinion is uncorrected and subject to revision before\npublication in the New York Reports.\n-----------------------------------------------------------------\nNo. 131\nThe Ministers and Missionaries\nBenefit Board,\n Interpleader Plaintiff,\n v.\nLeon Snow et al.,\n Appellants,\n v.\nThe Estate of Clark Flesher, et\nal.,\n Respondents.\n\n Jesse T. Wilkins, for appellants.\n Brian Rosner, for respondents.\n\nSTEIN, J.:\n In IRB-Brasil Resseguros, S.A. v Inepar Invs., S.A. (20\nNY3d 310 [2012], cert denied ___ US ___, 133 S Ct 2396 [2013]),\nthis Court held that, where parties include a New York\nchoice-of-law clause in a contract, such a provision demonstrates\nthe parties' intent that courts not conduct a conflict-of-laws\n\n - 1 -\n - 2 - No. 131\n\nanalysis (see id. at 312). We now extend that holding to\ncontracts that do not fall under General Obligations Law § 5-\n1401, and clarify that this rule obviates the application of both\ncommon-law conflict-of-laws principles and statutory\nchoice-of-law directives, unless the parties expressly indicate\notherwise.\n I.\n Plaintiff Ministers and Missionaries Benefit Board\n(MMBB) is a New York not-for-profit corporation, based in New\nYork County, that administers a retirement plan and a death\nbenefit plan for certain ministers and missionaries. Decedent\nClark Flesher was a minister enrolled in both plans. He named\nhis then-wife, defendant LeAnn Snow, as his primary beneficiary\nand her father, defendant Leon Snow, as the contingent\nbeneficiary. Both plans state that they \\shall be governed by",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

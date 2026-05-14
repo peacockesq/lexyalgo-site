@@ -1,0 +1,52 @@
+{
+  "document_id": "2e7333f8-b176-47e9-9cee-6e2c97322f5e",
+  "slug": "courtlistener-opinion-3685977-3685977",
+  "title": "CourtListener opinion 3685977",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 0,
+    "pension": 1,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 1
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3685977 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "JUDGMENT ENTRY. This appeal is considered on the accelerated calendar under App.R. 11.1(E) and Loc.R. 12, and this Judgment Entry shall not be considered an Opinion of the Court pursuant to S.Ct.R.Rep.Op. 3(A). Defendant-appellant John Zerbe appeals from a Qualified Domestic Relations Order (QDRO) entered by the Domestic Relations Division of the Hamilton County Court of Common Pleas. He raises two assignments of error for our review. In July 2003, the trial court issued a decree of divorce terminating John's and plaintiff-appellee Sandra Zerbe's marriage and ordering an equitable division of their marital property. Their marital property in"
+    },
+    {
+      "label": "pension",
+      "quote": "our review. In July 2003, the trial court issued a decree of divorce terminating John's and plaintiff-appellee Sandra Zerbe's marriage and ordering an equitable division of their marital property. Their marital property included, among other things, John's pension plan with General Electric (GE). In January 2004, both John and Sandra appealed from the divorce decree. We ultimately remanded the case to the trial court for a determination of a reasonable attorney-fee award, for a determination of the value of John's medical practice, and for reconsideration of \\the effect of that new value on the overall property divis"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "NTRY. This appeal is considered on the accelerated calendar under App.R. 11.1(E) and Loc.R. 12, and this Judgment Entry shall not be considered an Opinion of the Court pursuant to S.Ct.R.Rep.Op. 3(A). Defendant-appellant John Zerbe appeals from a Qualified Domestic Relations Order (QDRO) entered by the Domestic Relations Division of the Hamilton County Court of Common Pleas. He raises two assignments of error for our review. In July 2003, the trial court issued a decree of divorce terminating John's and plaintiff-appellee Sandra Zerbe's marriage and ordering an equitable division of their marital property. Their marital property in"
+    },
+    {
+      "label": "valuation/division",
+      "quote": "the divorce decree. We ultimately remanded the case to the trial court for a determination of a reasonable attorney-fee award, for a determination of the value of John's medical practice, and for reconsideration of \\the effect of that new value on the overall property division.\\\" 1"
+    }
+  ],
+  "full_text": "JUDGMENT ENTRY. \nThis appeal is considered on the accelerated calendar under App.R. 11.1(E) and Loc.R. 12, and this Judgment Entry shall not be considered an Opinion of the Court pursuant to S.Ct.R.Rep.Op. 3(A). \n Defendant-appellant John Zerbe appeals from a Qualified Domestic Relations Order (QDRO) entered by the Domestic Relations Division of the Hamilton County Court of Common Pleas. He raises two assignments of error for our review. \n In July 2003, the trial court issued a decree of divorce terminating John's and plaintiff-appellee Sandra Zerbe's marriage and ordering an equitable division of their marital property. Their marital property included, among other things, John's pension plan with General Electric (GE). In January 2004, both John and Sandra appealed from the divorce decree. We ultimately remanded the case to the trial court for a determination of a reasonable attorney-fee award, for a determination of the value of John's medical practice, and for reconsideration of \\the effect of that new value on the overall property division.\\\" 1",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

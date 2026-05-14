@@ -1,0 +1,52 @@
+{
+  "document_id": "21cea072-2633-41d4-bb59-a3cf79194dd5",
+  "slug": "courtlistener-opinion-3036604-3036604",
+  "title": "CourtListener opinion 3036604",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "ERISA / defined contribution issues",
+  "signals": {
+    "QDRO": 4,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 10,
+    "401(k)": 1,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3036604 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to ERISA / defined contribution issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": ", 834 (8th Cir. 2003) (reviewing de novo challenges to subject matter jurisdiction). Specifically, the lawsuit involved a plan fiduciary seeking to enforce plan terms and ERISA provisions regarding the segregation of plan funds while a former spouse secures a qualified domestic relations order (QDRO). See 29 U.S.C. § 1056(d)(3)(G)- (H);1 Hogan v. Raytheon Co., 302 F.3d 845, 857 (8th Cir. 2002) (recognizing 18- month period under ERISA to secure QDRO). We also disagree with appellants' suggestion that Schlaht was not a proper party to the lawsuit. See Bombardier Aerospace Employee Welfare Benefits Plan v. Ferrer, Poirot & Wansbrough, 354 F.3d 348,"
+    },
+    {
+      "label": "ERISA",
+      "quote": "____ PER CURIAM. Todd Roth and Mitchell Schlaht appeal the district court's adverse partial grant of summary judgment in a lawsuit brought by the North American Coal Corporation (NACCO)'s Retirement Savings Plan--an Employee Retirement Income Security Act (ERISA) plan--and NACCO, the Plan's administrator. The suit arose when NACCO mistakenly overpaid monies from a retirement savings account to Roth, who then endorsed the disbursement check over to Schlaht. Schlaht and Roth refused to return the overpaid benefits, and NACCO brought suit. The district court designated its order as appealable under Federal Rule of Ci"
+    },
+    {
+      "label": "401(k)",
+      "quote": "s to whether plaintiffs were entitled to summary judgment, see United States v. Taylor, 338 F.3d 947, 950 (8th Cir. 2003) (summary judgment standard of review), there were no material facts in dispute: the record showed that as of July 28, 2003, 65% of Roth's 401(k) monies belonged to his former wife, a fact confirmed by a QDRO received well within the eighteen-month period for the former wife to secure one; that Roth knew he was not entitled to the monies at issue and so informed 1 The Plan referenced the Internal Revenue Code provision on QDROs, but it is nearly identical to the ERISA provision. -2- NACCO befor"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "Cir. 2003) (reviewing de novo challenges to subject matter jurisdiction). Specifically, the lawsuit involved a plan fiduciary seeking to enforce plan terms and ERISA provisions regarding the segregation of plan funds while a former spouse secures a qualified domestic relations order (QDRO). See 29 U.S.C. § 1056(d)(3)(G)- (H);1 Hogan v. Raytheon Co., 302 F.3d 845, 857 (8th Cir. 2002) (recognizing 18- month period under ERISA to secure QDRO). We also disagree with appellants' suggestion that Schlaht was not a proper party to the lawsuit. See Bombardier Aerospace Employee Welfare Benefits Plan v. Ferrer, Poirot & Wansbrough, 354 F.3d 348,"
+    }
+  ],
+  "full_text": "United States Court of Appeals\n FOR THE EIGHTH CIRCUIT\n ___________\n\n No. 04-2213\n ___________\n\nNorth American Coal Corporation *\nRetirement Savings Plan, and its Plan *\nAdministrator, the North American *\nCoal Corporation, * Appeal from the United States\n * District Court for the\n Appellees, * District of North Dakota.\n *\n v. * [TO BE PUBLISHED]\n *\nTodd Roth; Mitchell Schlaht, *\n *\n Appellants. *\n ___________\n\n Submitted: January 5, 2005\n Filed: January 25, 2005\n ___________\n\nBefore BYE, MELLOY, and COLLOTON, Circuit Judges.\n ___________\n\nPER CURIAM.\n\n Todd Roth and Mitchell Schlaht appeal the district court's adverse partial grant\nof summary judgment in a lawsuit brought by the North American Coal Corporation\n(NACCO)'s Retirement Savings Plan--an Employee Retirement Income Security Act\n(ERISA) plan--and NACCO, the Plan's administrator. The suit arose when NACCO\nmistakenly overpaid monies from a retirement savings account to Roth, who then\nendorsed the disbursement check over to Schlaht. Schlaht and Roth refused to return\n the overpaid benefits, and NACCO brought suit. The district court designated its\norder as appealable under Federal Rule of Civil Procedure 54(b).\n\n Contrary to appellants' assertions, the district court had subject matter\njurisdiction over the action, and the complaint stated a claim. See 29 U.S.C.\n§ 1132(a)(3) (fiduciary may bring civil action to enjoin act or practice which violates\nterms of ERISA or ERISA plan, or to obtain other equitable relief to redress such\nviolations); In re Minn. Mut. Life Ins. Co. Sales Practices Litig., 346 F.3d 830, 834\n(8th Cir. 2003) (reviewing de novo challenges to subject matter jurisdiction).\nSpecifically, the lawsuit involved a plan fiduciary seeking to enforce plan terms and\nERISA provisions regarding the segregation of plan funds while a former spouse\nsecures a qualified domestic relations order (QDRO). See 29 U.S.C. § 1056(d)(3)(G)-\n(H);1 Hogan v. Raytheon Co., 302 F.3d 845, 857 (8th Cir. 2002) (recognizing 18-\nmonth period under ERISA to secure QDRO). We also disagree with appellants'\nsuggestion that Schlaht was not a proper party to the lawsuit. See Bombardier\nAerospace Employee Welfare Benefits Plan v. Ferrer, Poirot & Wansbrough, 354\nF.3d 348, 352-53 (5th Cir. 2003) (§ 1132(a)(3) does not limit universe of possible\ndefendants, and § 1132(a)(3) liability does not depend on whether ERISA's\nprovisions impose specific duty on party being sued), cert. denied, 124 S. Ct. 2412\n(2004).\n\n As to whether plaintiffs were entitled to summary judgment, see United States\nv. Taylor, 338 F.3d 947, 950 (8th Cir. 2003) (summary judgment standard of review),\nthere were no material facts in dispute: the record showed that as of July 28, 2003,\n65% of Roth's 401(k) monies belonged to his former wife, a fact confirmed by a\nQDRO received well within the eighteen-month period for the former wife to secure\none; that Roth knew he was not entitled to the monies at issue and so informed\n\n 1\n The Plan referenced the Internal Revenue Code provision on QDROs, but it\nis nearly identical to the ERISA provision.\n\n -2-\n NACCO before filing his August 2003 distribution-request form; that the September\n2003 overpayment arose from NACCO's administrative error; and that Roth endorsed\nthe check NACCO issued over to Schlaht, who deposited the funds in a credit union.\n\n It was thus proper for the district court to impose a constructive trust over the\noverpaid benefits, permanently enjoin appellants from disposing of or transferring any\nof the funds still in their possession and control, and require the return of such funds\nand a tracing of any portion of the funds no longer in appellants' possession or\ncontrol. However, the district court's award of restitution of a sum certain, and its\nfinding of personal liability as to Roth, constituted legal remedies not authorized by\nsection 1132(a)(3). See Great-West Life & Annuity Ins. Co. v. Knudson, 534 U.S.\n204, 212-14 (2002) (clarifying scope of § 1132(a)(3), and explaining that not all relief\nunder rubric of restitution is available in equity). Further, because there is no gap in\nERISA's text regarding a fiduciary's right to bring a civil action for legal remedies\nto enforce plan terms or ERISA provisions, a federal common law remedy cannot be\nrecognized. See id. at 220-21 (vague ideas of statute's underlying purpose are\ninadequate to overcome words of its text regarding specific issue being addressed);\nCoop. Benefit Adm'rs, Inc. v. Ogden, 367 F.3d 323, 332 (5th Cir. 2004) (in drafting\n§ 1132(a)(3) to allow only \"equitable relief,\" Congress specifically contemplated\npossibility of extending fiduciaries' right to sue participant for money damages, but\nchose instead to limit remedies to those typically available in equity); cf. Shipley v.\nArk. Blue Cross & Blue Shield, 333 F.3d 898, 902 (8th Cir. 2003) (where there is no\nexpress ERISA provision governing issue, courts should fashion federal substantive\nlaw to fill gap).\n\n Accordingly, we vacate those portions of the district court order finding Roth\npersonally liable and ordering him to make restitution of a sum certain, and we\notherwise affirm.\n ______________________________\n\n -3-",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

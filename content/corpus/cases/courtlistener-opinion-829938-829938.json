@@ -1,0 +1,44 @@
+{
+  "document_id": "d6123d12-a933-4e5f-9aea-60b3ce0f2402",
+  "slug": "courtlistener-opinion-829938-829938",
+  "title": "CourtListener opinion 829938",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 4,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 829938 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "granted, of whether the trial court correctly held that the parties' November 14, 1994 divorce judgment limited the plaintiff's survivorship benefit to a proportionate interest based on years of marriage, that the divorce judgment conflicted with the 1995 Qualified Domestic Relations Order (QDRO) agreed upon by the parties, that the terms of the divorce judgment should control over the terms of the QDRO, and that the defendant's motion to have the QDRO amended was not time- barred. We do not retain jurisdiction. I, Corbin R. Davis, Clerk of the Michigan Supreme Court, certify that the foregoing is a true and complete copy of the order"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "of whether the trial court correctly held that the parties' November 14, 1994 divorce judgment limited the plaintiff's survivorship benefit to a proportionate interest based on years of marriage, that the divorce judgment conflicted with the 1995 Qualified Domestic Relations Order (QDRO) agreed upon by the parties, that the terms of the divorce judgment should control over the terms of the QDRO, and that the defendant's motion to have the QDRO amended was not time- barred. We do not retain jurisdiction. I, Corbin R. Davis, Clerk of the Michigan Supreme Court, certify that the foregoing is a true and complete copy of the order"
+    }
+  ],
+  "full_text": "Order Michigan Supreme Court\n Lansing, Michigan\n\n October 20, 2010 Marilyn Kelly,\n Chief Justice\n\n Michael F. Cavanagh\n Maura D. Corrigan\n 140840 Robert P. Young, Jr.\n Stephen J. Markman\n Diane M. Hathaway\n KATHY KAY NEVILLE, Alton Thomas Davis,\n Plaintiff-Appellant, Justices\n\n v SC: 140840\n COA: 294461\n Wayne CC: 94-402973-DM\n MARK T. NEVILLE,\n Defendant-Appellee.\n _________________________________________/\n\n On order of the Court, the application for leave to appeal the February 16, 2010\n order of the Court of Appeals is considered and, pursuant to MCR 7.302(H)(1), in lieu of\n granting leave to appeal, we REMAND this case to the Court of Appeals for\n consideration, as on leave granted, of whether the trial court correctly held that the\n parties' November 14, 1994 divorce judgment limited the plaintiff's survivorship benefit\n to a proportionate interest based on years of marriage, that the divorce judgment\n conflicted with the 1995 Qualified Domestic Relations Order (QDRO) agreed upon by\n the parties, that the terms of the divorce judgment should control over the terms of the\n QDRO, and that the defendant's motion to have the QDRO amended was not time-\n barred.\n\n We do not retain jurisdiction.\n\n I, Corbin R. Davis, Clerk of the Michigan Supreme Court, certify that the\n foregoing is a true and complete copy of the order entered at the direction of the Court.\n October 20, 2010 _________________________________________\n d1013 Clerk",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

@@ -1,0 +1,52 @@
+{
+  "document_id": "733a7e58-d7ef-4a72-a3d8-c779244b7de4",
+  "slug": "courtlistener-opinion-2002495-2002495",
+  "title": "CourtListener opinion 2002495",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 0,
+    "pension": 1,
+    "ERISA": 2,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 2002495 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "he Circuit Court for Montgomery County entered a judgment  a final, appealable judgment  on July 13, 1988. It has a broader import than that, however, and requires an examination of the nature and function of a device unknown to our courts before 1985  the Qualified Domestic Relations Order (QDRO). The precise issue before us, and the answer to it, will become more clear if we begin with a discussion of this recent addition to our jurisprudence. I. The QDRO In 1974, Congress passed ERISA  the Employee Retirement Income Security Act of 1974 (P.L. 93-406, 88 Stat. 829)  in order to provide better protection for beneficiaries of employe"
+    },
+    {
+      "label": "pension",
+      "quote": "discussion of this recent addition to our jurisprudence. I. The QDRO In 1974, Congress passed ERISA  the Employee Retirement Income Security Act of 1974 (P.L. 93-406, 88 Stat. 829)  in order to provide better protection for beneficiaries of employee pension and welfare benefit plans abounding in the private workplace. ERISA imposed a number of requirements on these plans relating to reporting and disclosure, vesting, funding, discontinuance, and payment of benefits. These requirements were imposed through amendments to both the Federal labor code (Title 29 U.S.C.) and the Internal Revenue Code (Title 26 U.S.C."
+    },
+    {
+      "label": "ERISA",
+      "quote": "rts before 1985  the Qualified Domestic Relations Order (QDRO). The precise issue before us, and the answer to it, will become more clear if we begin with a discussion of this recent addition to our jurisprudence. I. The QDRO In 1974, Congress passed ERISA  the Employee Retirement Income Security Act of 1974 (P.L. 93-406, 88 Stat. 829)  in order to provide better protection for beneficiaries of employee pension and welfare benefit plans abounding in the private workplace. ERISA imposed a number of requirements on these plans relating to reporting and disclosure, vesting, funding, discontinuance, and payment"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "Court for Montgomery County entered a judgment  a final, appealable judgment  on July 13, 1988. It has a broader import than that, however, and requires an examination of the nature and function of a device unknown to our courts before 1985  the Qualified Domestic Relations Order (QDRO). The precise issue before us, and the answer to it, will become more clear if we begin with a discussion of this recent addition to our jurisprudence. I. The QDRO In 1974, Congress passed ERISA  the Employee Retirement Income Security Act of 1974 (P.L. 93-406, 88 Stat. 829)  in order to provide better protection for beneficiaries of employe"
+    }
+  ],
+  "full_text": "318 Md. 28 (1989) \n 566 A.2d 767 \n JOAN ROHRBECK \nv. \nJOHN ROHRBECK. \n No. 56, September Term, 1989. \n Court of Appeals of Maryland. \n December 6, 1989. \n Bryan Renehan (Cynthia Callahan, Ellen L. Lee, Brodsky, Greenblatt & Renehan, Chartered, all on brief) Gaithersburg, for appellant. \n Allen J. Kruger (Alan S. Town, both on brief) Laurel, for appellee. \n Argued before MURPHY, C.J., ELDRIDGE, COLE, RODOWSKY, McAULIFFE, ADKINS, JJ., and ALAN M. WILNER, (Associate Judge of the Court of Special Appeals of Maryland, Specially Assigned). \n ALAN M. WILNER, Judge, Specially Assigned. \n This case turns on whether the Circuit Court for Montgomery County entered a judgment  a final, appealable judgment  on July 13, 1988. It has a broader import than that, however, and requires an examination of the nature and function of a device unknown to our courts before 1985  the Qualified Domestic Relations Order (QDRO). The precise issue before us, and the answer to it, will become more clear if we begin with a discussion of this recent addition to our jurisprudence. \n \n I. The QDRO \n \n In 1974, Congress passed ERISA  the Employee Retirement Income Security Act of 1974 (P.L. 93-406, 88 Stat. 829)  in order to provide better protection for beneficiaries of employee pension and welfare benefit plans abounding in the private workplace. ERISA imposed a number of requirements on these plans relating to reporting and disclosure, vesting, funding, discontinuance, and payment of benefits. These requirements were imposed through amendments to both the Federal labor code (Title 29 U.S.C.) and the Internal Revenue Code (Title 26 U.S.C.). Some of the new statutory language was added to only one or the other of those codes; some was added to both codes to ensure that employers would not receive the tax benefits accorded by \\qualified\\\" plans unless those plans met the requirements imposed principally as a matter of Federal labor policy.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

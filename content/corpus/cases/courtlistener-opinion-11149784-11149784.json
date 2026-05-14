@@ -1,0 +1,44 @@
+{
+  "document_id": "1287d4d0-684c-4af2-8241-dcb9973265ca",
+  "slug": "courtlistener-opinion-11149784-11149784",
+  "title": "CourtListener opinion 11149784",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 11149784 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "submitted to support the motion for default established that Steven and Annie Stone retained respondent in September 1991 to file for a dissolution. Pursuant to the couple's separation agreement, respondent attempted to provide Steven Stone's employer with a Qualified Domestic Relations Order (\\QDRO\\\") to obtain certain employee benefits"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "to support the motion for default established that Steven and Annie Stone retained respondent in September 1991 to file for a dissolution. Pursuant to the couple's separation agreement, respondent attempted to provide Steven Stone's employer with a Qualified Domestic Relations Order (\\QDRO\\\") to obtain certain employee benefits"
+    }
+  ],
+  "full_text": "[This opinion has been published in Ohio Official Reports at 73 Ohio St.3d 286.]\n\n CUYAHOGA COUNTY BAR ASSOCIATION v. WILLIAMSON.\n [Cite as Cuyahoga Cty. Bar Assn. v. Williamson, 1995-Ohio-338.]\nAttorney at law—Misconduct—Indefinite suspension—Failing to act\n competently—Failing to zealously represent client—Failure to cooperate in\n investigation of alleged misconduct—Violation of a Disciplinary Rule—\n Illegal conduct involving moral turpitude—Conduct prejudicial to the\n administrator of justice.\n (No. 94-2655—Submitted April 18, 1995—Decided August 23, 1995.)\n ON CERTIFIED REPORT by the Board of Commissioners on Grievances and\n Discipline of the Supreme Court, No. 93-55.\n __________________\n {¶ 1} In an amended complaint filed on March 31, 1994, relator, Cuyahoga\nCounty Bar Association, charged respondent, David A. Williamson, last known\naddress in Brook Park, Ohio, Attorney Registration No. 0003928, with seven\ncounts of professional misconduct. Respondent was personally served notice of the\ncomplaint at his last known address, but did not answer. A panel of the Board of\nCommissioners on Grievances and Discipline of the Supreme Court considered the\nmatter on relator's motion for default, filed pursuant to Gov.Bar V(6)(F).\n {¶ 2} With respect to Count I, the evidence submitted to support the motion\nfor default established that Steven and Annie Stone retained respondent in\nSeptember 1991 to file for a dissolution. Pursuant to the couple's separation\nagreement, respondent attempted to provide Steven Stone's employer with a\nQualified Domestic Relations Order (\\QDRO\\\") to obtain certain employee benefits",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

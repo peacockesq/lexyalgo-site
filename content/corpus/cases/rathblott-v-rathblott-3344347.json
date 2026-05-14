@@ -1,0 +1,48 @@
+{
+  "document_id": "3a7f2678-ee2d-4ee1-ad0c-061ff12b4c1f",
+  "slug": "rathblott-v-rathblott-3344347",
+  "title": "Rathblott v. Rathblott",
+  "citation": "QDRO",
+  "source_url": "https://www.courtlistener.com/opinion/3348829/rathblott-v-rathblott-no-fa-97-0162348-s-jan-13-1999/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "1999-01-13",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 2,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 1,
+    "ERISA": 0,
+    "401(k)": 1,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: Rathblott v. Rathblott is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 2/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "s a fair market value of $250,000 and should be awarded to the Wife. C. The Mead Condo I has a fair market value of $135,000 and should be awarded to the Husband. D. The Mead Condo II shall be sold upon terms and conditions to be set by the court. E. By QDRO or other appropriate court order, each party should be awarded one-half of each of the following as of the date of distribution: 1. Husband's IRA 2. Baker Pension 3. Fidelity Annuity 4. Husband's 401(k). F. The Husband's business (ERC) has a fair market of $196,000 and should be awarded to the Husband. G. The Wife's Automobile has a fair market"
+    },
+    {
+      "label": "pension",
+      "quote": "D. The Mead Condo II shall be sold upon terms and conditions to be set by the court. E. By QDRO or other appropriate court order, each party should be awarded one-half of each of the following as of the date of distribution: 1. Husband's IRA 2. Baker Pension 3. Fidelity Annuity 4. Husband's 401(k). F. The Husband's business (ERC) has a fair market of $196,000 and should be awarded to the Husband. G. The Wife's Automobile has a fair market value of $30,000 and should be awarded to Wife. H. The Husband's Automobile has a fair market value of $7,000 and should be awarded to the Husband. I. Pursuit to t"
+    },
+    {
+      "label": "401(k)",
+      "quote": "rms and conditions to be set by the court. E. By QDRO or other appropriate court order, each party should be awarded one-half of each of the following as of the date of distribution: 1. Husband's IRA 2. Baker Pension 3. Fidelity Annuity 4. Husband's 401(k). F. The Husband's business (ERC) has a fair market of $196,000 and should be awarded to the Husband. G. The Wife's Automobile has a fair market value of $30,000 and should be awarded to Wife. H. The Husband's Automobile has a fair market value of $7,000 and should be awarded to the Husband. I. Pursuit to the stipulation dated September 8, 1998 the p"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] Trial Stipulation \nFor purpose of trial, the parties agree as follows: \n A. The New Cannan home shall be sold upon terms and condition to be set by the court. \n B. The Sherman home has a fair market value of $250,000 and should be awarded to the Wife. \n C. The Mead Condo I has a fair market value of $135,000 and should be awarded to the Husband. \n D. The Mead Condo II shall be sold upon terms and conditions to be set by the court. \n E. By QDRO or other appropriate court order, each party should be awarded one-half of each of the following as of the date of distribution: \n 1. Husband's IRA \n 2. Baker Pension \n 3. Fidelity Annuity \n 4. Husband's 401(k). \n F. The Husband's business (ERC) has a fair market of $196,000 and should be awarded to the Husband. \n G. The Wife's Automobile has a fair market value of $30,000 and should be awarded to Wife. \n H. The Husband's Automobile has a fair market value of $7,000 and should be awarded to the Husband. \n I. Pursuit to the stipulation dated September 8, 1998 the plaintiff admits the following: \n 1. She has no physical or mental condition which prohibits her from being employed full-time; and \n 2. Plaintiff intends to resume full time employment. \n J. The term of alimony shall be until the death of either party or the Wife's remarriage, whichever event first occurs. The provisions of Conn. Gen. Stat. &#167; 46b-86 (b) shall also apply. \n Parties and counsel have reviewed and discussed the previous two pages and request that the same be approved by the Court. \n __________ ___________ Plaintiff Defendant \n _________ _________ Counsel Counsel \n The parties agree that the business valuation of Mark Harrison 12/97 has not changed after reviewing the documentation of ERC through 12/98. \n Harrigan, J.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

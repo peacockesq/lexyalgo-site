@@ -1,0 +1,52 @@
+{
+  "document_id": "b43980f0-86bf-49e8-989b-9f88456f20e5",
+  "slug": "courtlistener-opinion-3712310-3712310",
+  "title": "CourtListener opinion 3712310",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 4,
+    "ERISA": 0,
+    "401(k)": 2,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 1
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3712310 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "bank account that was co-mingled beyond recognition with martial funds. {&#182; 5} Finally, the court determined that appellee's 401K plan was marital property, except for the portion earned after March 2, 2002. Accordingly, the court awarded appellant, by QDRO, one-half of the marital portion of the 401K. {&#182; 6} Appellant filed her timely notice of appeal on August 4, 2003. {&#182; 7} Appellant raises two assignments of error, the first of which states: {&#182; 8} \\The trial court committed reversible error in making a division of property which was not equitable"
+    },
+    {
+      "label": "pension",
+      "quote": "00. In total, the court found that approximately $9,400.00 worth of improvements occurred within the marital home during the term of the marriage. The court, however, did not order any reimbursement to appellee. {&#182; 4} The court also examined appellee's pension. It determined that the pension would yield a monthly benefit substantially less than appellee's current wage. The court also noted that, because the pension is taxable, it would be reduced even further. The court then took into consideration the disparity of income between the two parties. Specifically, it noted that appellant's yearly income from disabili"
+    },
+    {
+      "label": "401(k)",
+      "quote": "d to distribute any portion of appellee's pension. In support of its decision, the court also made mention of appellant's $9,000 bank account that was co-mingled beyond recognition with martial funds. {&#182; 5} Finally, the court determined that appellee's 401K plan was marital property, except for the portion earned after March 2, 2002. Accordingly, the court awarded appellant, by QDRO, one-half of the marital portion of the 401K. {&#182; 6} Appellant filed her timely notice of appeal on August 4, 2003. {&#182; 7} Appellant raises two assignments of error, the first of which states: {&#182; 8} \\The trial co"
+    },
+    {
+      "label": "valuation/division",
+      "quote": "co-mingled beyond recognition with martial funds. {&#182; 5} Finally, the court determined that appellee's 401K plan was marital property, except for the portion earned after March 2, 2002. Accordingly, the court awarded appellant, by QDRO, one-half of the marital portion of the 401K. {&#182; 6} Appellant filed her timely notice of appeal on August 4, 2003. {&#182; 7} Appellant raises two assignments of error, the first of which states: {&#182; 8} \\The trial court committed reversible error in making a division of property which was not equitable"
+    }
+  ],
+  "full_text": "OPINION \n {&#182; 1} Defendant-appellant, Marlene Bell-Gerkins, appeals from a Jefferson County Common Pleas Court judgment granting a divorce between her and plaintiffappellee, Jesse Gerkins. \n {&#182; 2} Appellant and appellee were married in August 1991. No children were born as issue of the marriage. Throughout the course of the marriage, appellant and appellee resided in Steubenville at appellant's pre-marital residence, which she acquired through inheritance. Appellee filed for divorce in August 2002. At trial, appellee made no claim towards the real estate itself, acknowledging that it was premarital property, but sought reimbursement for remodeling and improvements to the real estate made during the marriage. \n {&#182; 3} The trial court issued the decree of divorce on July 17, 2003. As to the home improvements, the court found that a new deck was constructed, on which the market value was not ascertained. It also noted that the parties borrowed $11,000 for home improvements and made other improvements not included in the loan. The court found a new electrical service had been installed for the home, but did not determine a market value for this improvement either. The court did determine that new kitchen appliances were purchased for $2,500.62, that new carpeting was purchased for $1,111.97, and that a new furnace was installed at a cost of $5,500. In total, the court found that approximately $9,400.00 worth of improvements occurred within the marital home during the term of the marriage. The court, however, did not order any reimbursement to appellee. \n {&#182; 4} The court also examined appellee's pension. It determined that the pension would yield a monthly benefit substantially less than appellee's current wage. The court also noted that, because the pension is taxable, it would be reduced even further. The court then took into consideration the disparity of income between the two parties. Specifically, it noted that appellant's yearly income from disability compensation is $24,840 tax free, while appellee's yearly wages from Timet Corporation totaled $22,100 after taxes. Based upon these considerations, the court determined that it would be inequitable to order benefits earned by appellee to be paid to appellant, and therefore declined to distribute any portion of appellee's pension. In support of its decision, the court also made mention of appellant's $9,000 bank account that was co-mingled beyond recognition with martial funds. \n {&#182; 5} Finally, the court determined that appellee's 401K plan was marital property, except for the portion earned after March 2, 2002. Accordingly, the court awarded appellant, by QDRO, one-half of the marital portion of the 401K. \n {&#182; 6} Appellant filed her timely notice of appeal on August 4, 2003. \n {&#182; 7} Appellant raises two assignments of error, the first of which states: \n {&#182; 8} \\The trial court committed reversible error in making a division of property which was not equitable",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

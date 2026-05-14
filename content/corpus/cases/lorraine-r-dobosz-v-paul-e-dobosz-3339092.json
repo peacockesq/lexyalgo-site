@@ -1,0 +1,48 @@
+{
+  "document_id": "b4d8d841-3220-46c1-88eb-ce9bb6402869",
+  "slug": "lorraine-r-dobosz-v-paul-e-dobosz-3339092",
+  "title": "Lorraine R. Dobosz v. Paul E. Dobosz.",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": "https://www.courtlistener.com/opinion/3343578/dobosz-v-dobosz-no-382634-dec-6-1991/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "1991-12-06",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 4,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: Lorraine R. Dobosz v. Paul E. Dobosz. is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": ". There are no minor children issue of their marriage, and no others have been born to the wife since the date of the marriage. 4. Neither party is receiving or has received financial assistance from the State of Connecticut or municipal agency. 5. That a Qualified Domestic Relations Order (QDRO) shall enter awarding the plaintiff wife one-half the current monthly value of the defendant husband's IBEW Local 90 pension, payable upon husband's election to receive benefits, which shall in no event be later than husband's sixty-fifth (65th) birthday. The plaintiff wife shall be named Survivor Beneficiary of the pension for the maximum allowable t"
+    },
+    {
+      "label": "pension",
+      "quote": "g or has received financial assistance from the State of Connecticut or municipal agency. 5. That a Qualified Domestic Relations Order (QDRO) shall enter awarding the plaintiff wife one-half the current monthly value of the defendant husband's IBEW Local 90 pension, payable upon husband's election to receive benefits, which shall in no event be later than husband's sixty-fifth (65th) birthday. The plaintiff wife shall be named Survivor Beneficiary of the pension for the maximum allowable term. 6. That the plaintiff wife shall receive the sum of $12,000 (twelve thousand dollars) gross, on or before March 15, 1992, wh"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "e no minor children issue of their marriage, and no others have been born to the wife since the date of the marriage. 4. Neither party is receiving or has received financial assistance from the State of Connecticut or municipal agency. 5. That a Qualified Domestic Relations Order (QDRO) shall enter awarding the plaintiff wife one-half the current monthly value of the defendant husband's IBEW Local 90 pension, payable upon husband's election to receive benefits, which shall in no event be later than husband's sixty-fifth (65th) birthday. The plaintiff wife shall be named Survivor Beneficiary of the pension for the maximum allowable t"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] \nMEMORANDUM OF DECISION\nThe plaintiff, whose maiden name was Lorraine Richardson, was married on September 10, 1977 at Southington, Connecticut. This dissolution action was filed in August of 1990. After two days of trial, taking into consideration the testimony of the parties, the evidence presented and the appropriate statutory criteria, the court makes the following findings: \n 1. The parties have resided continuously in the State of Connecticut for more than one year preceding the date of this complaint. \n 2. The marriage of the parties has broken down irretrievably with no possibility of reconciliation. \n 3. There are no minor children issue of their marriage, and no others have been born to the wife since the date of the marriage. \n 4. Neither party is receiving or has received financial assistance from the State of Connecticut or municipal agency. \n 5. That a Qualified Domestic Relations Order (QDRO) shall enter awarding the plaintiff wife one-half the current monthly value of the defendant husband's IBEW Local 90 pension, payable upon husband's election to receive benefits, which shall in no event be later than husband's sixty-fifth (65th) birthday. The plaintiff wife shall be named Survivor Beneficiary of the pension for the maximum allowable term. \n 6. That the plaintiff wife shall receive the sum of $12,000 (twelve thousand dollars) gross, on or before March 15, 1992, which shall be withdrawn CT Page 10703 from the defendant's annuity in accordance with its terms and conditions. The transfer shall take effect on or after January 1, 1992 pursuant to a QUALIFIED DOMESTIC RELATIONS ORDER (QDRO). The plaintiff wife shall be responsible for all taxes on the entire amount. \n 7. That the plaintiff wife shall receive the sum of $36,000 (thirty-six thousand dollars) from the sale of Lot 64, Arrowhead Drive, New Hartford, Connecticut or the sale of 118 Summit Farms Road, Southington, Connecticut, at the time of sale. That from the date of judgment the defendant husband shall pay $50.00 per week periodic alimony for the period of five years, which shall be non-modifiable as to both duration and amount. \n 9. The defendant shall retain his interest in the property located at 118 Summit Farms Road, Southington, Connecticut. He shall retain his interest solely in his pending workers' compensation claim. \n 10. Each of the parties shall be responsible for the debts listed in their own names on their own financial affidavits. \n Based upon the foregoing, dissolution of the marriage, is granted. \n NORKO, J.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

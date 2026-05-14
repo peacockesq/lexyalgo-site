@@ -1,0 +1,48 @@
+{
+  "document_id": "a9e1cfea-e18d-4acc-be70-2f6755bcb54b",
+  "slug": "courtlistener-opinion-7602027-7602027",
+  "title": "CourtListener opinion 7602027",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 2,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 7602027 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "decree was entered in November 1988. The amended decree was necessary due to some problems with the first that were brought to the attention of the trial court by post-trial motions filed by the husband and by the wife. The November 1988, decree established a Qualified Domestic Relations Order that awarded the wife a percentage of the survivor's benefit under the husband's retirement program. We turn first to the ruling concerning contempt. The wife alleged the husband had failed to complete the necessary paperwork for her to secure the 30% survivor annuity awarded to her in the amended divorce order. It is her position that this failure on the"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "entered in November 1988. The amended decree was necessary due to some problems with the first that were brought to the attention of the trial court by post-trial motions filed by the husband and by the wife. The November 1988, decree established a Qualified Domestic Relations Order that awarded the wife a percentage of the survivor's benefit under the husband's retirement program. We turn first to the ruling concerning contempt. The wife alleged the husband had failed to complete the necessary paperwork for her to secure the 30% survivor annuity awarded to her in the amended divorce order. It is her position that this failure on the"
+    },
+    {
+      "label": "survivor benefits",
+      "quote": "ther the trial court erred in awarding an attorney's fee to the wife from the husband where the husband was not found to be in contempt. Next, he contends that the trial court abused its discretion by increasing the alimony award to be paid from the husband's survivor annuity. The original divorce decree was entered in August 1988, and an amended decree was entered in November 1988. The amended decree was necessary due to some problems with the first that were brought to the attention of the trial court by post-trial motions filed by the husband and by the wife. The November 1988, decree established a Qualified Domestic Relat"
+    }
+  ],
+  "full_text": "This case involves post-divorce proceedings. \n After approximately forty years of marriage, the parties divorced in 1988. Following numerous attempts by the wife to clarify what she perceived to be an ambiguity in the wording of an award in the divorce decree, the wife filed a petition in March 1990, requesting that the husband be cited for contempt for failure to comply with certain terms of the divorce decree. After a hearing, the trial court issued an order specifying the wife's award without finding the husband in contempt, and awarded to the wife an attorney's fee from the husband for this action. The husband appeals. \n On appeal, the husband raises two issues. First, he challenges whether the trial court erred in awarding an attorney's fee to the wife from the husband where the husband was not found to be in contempt. Next, he contends that the trial court abused its discretion by increasing the alimony award to be paid from the husband's survivor annuity. \n The original divorce decree was entered in August 1988, and an amended decree was entered in November 1988. The amended decree was necessary due to some problems with the first that were brought to the attention of the trial court by post-trial motions filed by the husband and by the wife. The November 1988, decree established a Qualified Domestic Relations Order that awarded the wife a percentage of the survivor's benefit under the husband's retirement program. \n We turn first to the ruling concerning contempt. The wife alleged the husband had failed to complete the necessary paperwork for her to secure the 30% survivor annuity awarded to her in the amended divorce order. It is her position that this failure on the part of the husband placed him in contempt of the trial court's order. The trial court states in the final order following a hearing on this issue that \\any action so directed against [the husband] would not be recognized.\\\" Hence",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

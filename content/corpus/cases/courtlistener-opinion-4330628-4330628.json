@@ -1,0 +1,52 @@
+{
+  "document_id": "6ddbcf61-f8d2-47c2-a20c-b18fac89239a",
+  "slug": "courtlistener-opinion-4330628-4330628",
+  "title": "CourtListener opinion 4330628",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 3,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 2,
+    "alternate payee": 0,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4330628 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "poraneous with this divorce decree, the State trial court issued a domestic relations order concerning the division of Ms. Schroeder's pension and retirement benefits. This domestic relations order purports to meet the requirements of section 414(p) as a qualified domestic relations order (QDRO). The State court issued an additional such order with respect to Ms. Schroeder's 401(k) plan on May 12, 1989. Petitioner has challenged in both State and Federal court the validity of the divorce decree, arguing that the divorce decree is void for want of due process. During 1992, the year in issue, Aetna Life & Casualty (Aetna), issued petiti"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "ction of determining a deficiency and issuing a notice of same to his former spouse, has made an admission against interest as to who is to bear the tax liability for various distributions made to petitioner from his former spouse's qualified pension and retirement plans. Petitioner maintains that respondent may not take inconsistent positions against two taxpayers in separate notices of deficiency with respect a single tax liability because to do so necessarily undermines the factual basis upon which her determinations are premised. Thus, petitioner claims that he is entitled to summary adjudication in his favor beca"
+    },
+    {
+      "label": "pension",
+      "quote": "ent, by her action of determining a deficiency and issuing a notice of same to his former spouse, has made an admission against interest as to who is to bear the tax liability for various distributions made to petitioner from his former spouse's qualified pension and retirement plans. Petitioner maintains that respondent may not take inconsistent positions against two taxpayers in separate notices of deficiency with respect a single tax liability because to do so necessarily undermines the factual basis upon which her determinations are premised. Thus, petitioner claims that he is entitled to summary adjudicat"
+    },
+    {
+      "label": "401(k)",
+      "quote": "Schroeder's pension and retirement benefits. This domestic relations order purports to meet the requirements of section 414(p) as a qualified domestic relations order (QDRO). The State court issued an additional such order with respect to Ms. Schroeder's 401(k) plan on May 12, 1989. Petitioner has challenged in both State and Federal court the validity of the divorce decree, arguing that the divorce decree is void for want of due process. During 1992, the year in issue, Aetna Life & Casualty (Aetna), issued petitioner a check for $9,395 from Ms. Schroeder's section 403(b) tax shelter annuity (TSA). Aetna al"
+    }
+  ],
+  "full_text": "T.C. Memo. 1996-292\n\n UNITED STATES TAX COURT\n\n GALEN J. SMITH, Petitioner v.\n COMMISSIONER OF INTERNAL REVENUE, Respondent\n\n Docket No. 8945-95. Filed June 24, 1996.\n\n Galen J. Smith, pro se.\n\n Pamelya P. Herndon, for respondent.\n\n MEMORANDUM OPINION\n\n LARO, Judge: This case is before the Court on respondent's\n\nmotion for continuance of trial pursuant to Rule 1341 and\n\npetitioner's motion for partial summary judgment under Rule 121.\n\n This case was originally set for trial on April 22, 1996, in\n\nAlbuquerque, New Mexico. Ten days before trial, respondent\n\nissued a statutory notice of deficiency to petitioner's former\n\nspouse. At the calendar call, respondent moved the Court to\n\n 1\n Unless otherwise indicated, all section references are to\nthe Internal Revenue Code in effect during the years at issue,\nall Rule references are to the Tax Court Rules of Practice and\nProcedure.\n - 2 -\n\ncontinue this case from the calendar and return it to the general\n\ndocket. Respondent seeks additional time to allow petitioner's\n\nformer spouse time to file a petition and eventually join these\n\nproceedings. Petitioner has opposed respondent's motion and now\n\nmoves for partial summary judgment in his favor.\n\n Petitioner argues that respondent is estopped from\n\ndetermining a deficiency against him due to her determination of\n\na deficiency against his former spouse for the same tax\n\nliability. Petitioner contends that respondent, by her action of\n\ndetermining a deficiency and issuing a notice of same to his\n\nformer spouse, has made an admission against interest as to who\n\nis to bear the tax liability for various distributions made to\n\npetitioner from his former spouse's qualified pension and\n\nretirement plans. Petitioner maintains that respondent may not\n\ntake inconsistent positions against two taxpayers in separate\n\nnotices of deficiency with respect a single tax liability because\n\nto do so necessarily undermines the factual basis upon which her\n\ndeterminations are premised. Thus, petitioner claims that he is\n\nentitled to summary adjudication in his favor because, as a\n\nmatter of law, there exists no issue of material fact with\n\nrespect to his tax liability arising from the distributions from\n\nhis former spouse's tax qualified plans by reason of respondent's\n\ndetermination of a deficiency against his former spouse for the\n\nsame tax liability. Respondent objects to petitioner's motion,\n\nand asserts that she may take an alternative, though\n\ninconsistent, position against a second taxpayer in a separate\n - 3 -\n\nnotice of deficiency for the same tax liability. We agree with\n\nrespondent for the reasons set forth below, and shall grant\n\nrespondent's motion for continuance and deny petitioner's motion\n\nfor partial summary judgment.\n\n Background2\n\n Petitioner married Blythe Schroeder (Ms. Schroeder) on\n\nJune 13, 1981. Ms. Schroeder filed for divorce on May 2, 1988,\n\nand the divorce was finalized on April 12, 1989. Contemporaneous\n\nwith this divorce decree, the State trial court issued a domestic\n\nrelations order concerning the division of Ms. Schroeder's\n\npension and retirement benefits. This domestic relations order\n\npurports to meet the requirements of section 414(p) as a\n\nqualified domestic relations order (QDRO). The State court\n\nissued an additional such order with respect to Ms. Schroeder's\n\n401(k) plan on May 12, 1989. Petitioner has challenged in both\n\nState and Federal court the validity of the divorce decree,\n\narguing that the divorce decree is void for want of due process.\n\n During 1992, the year in issue, Aetna Life & Casualty\n\n(Aetna), issued petitioner a check for $9,395 from\n\nMs. Schroeder's section 403(b) tax shelter annuity (TSA). Aetna\n\nalso disbursed $4,937 to petitioner from Ms. Schroeder's Aetna\n\nindividual retirement account. Petitioner also received a check\n\n 2\n The facts presented below do not appear to be in dispute,\nand are stated solely for the purposes of deciding the pending\nmotions, and are not findings of fact for this case. Fed. R.\nCiv. P. 52(a); Sundstrand Corp. v. Commissioner, 98 T.C. 518, 520\n(1992), affd. 17 F.3d 965 (7th Cir. 1994).\n - 4 -\n\nfrom SunWest Bank of Albuquerque for $14,790 from Ms. Schroeder's\n\n401(k) plan. At the time petitioner received these\n\ndistributions, petitioner had not attained age 59-1/2.\n\nPetitioner did not roll these distributions over to another tax\n\nqualified plan within the time period specified in sections\n\n402(c), 403(a)(4), or 408(d)(3). Petitioner did not file an\n\nIncome Tax Return for the year in issue on or before the due\n\ndate. Respondent determined a deficiency in petitioner's Federal\n\nincome tax for the taxable year 1992 in the amount of $8,016,\n\ntogether with additions to tax under section 6651(a) in the\n\namount of $2,004 and $349 under section 6654(a). In his\n\npetition, petitioner challenges the validity of the QDROs and his\n\ntax liability for the subject distributions.\n\n Analysis\n\nA. Motion for Continuance\n\n Distributions from qualified plans are generally taxed to\n\nthe distributee in the year distributed. Sec. 402(a)(1). The\n\nterm \\distributee\\\" as used in section 402(a)(1)",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

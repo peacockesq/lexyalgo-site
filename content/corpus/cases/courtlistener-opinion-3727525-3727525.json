@@ -1,0 +1,52 @@
+{
+  "document_id": "48b9d566-abf7-4fd9-86ec-71db9aaacdbe",
+  "slug": "courtlistener-opinion-3727525-3727525",
+  "title": "CourtListener opinion 3727525",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 2,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3727525 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "or divorce from appellant, Patrick Calloway. Appellant never responded and appellee was granted a divorce on June 6, 1997. The divorce decree awarded appellee one-half of appellant's pension and 401(k) accounts. On June 2, 2000, appellee sought and received a Qualified Domestic Relations Order regarding said accounts. {&#182; 2} On February 28, 2001, appellant filed a complaint against appellee alleging breach of contract and fraud. Said action stemmed from a prenuptial agreement signed by the parties wherein in the event of a divorce, appellee would not be entitled to any portion of appellant's pension or 401(k) accounts. Following dismissal o"
+    },
+    {
+      "label": "pension",
+      "quote": "182; 1} On February 28, 1997, appellee, Cynthia Calloway, filed a complaint for divorce from appellant, Patrick Calloway. Appellant never responded and appellee was granted a divorce on June 6, 1997. The divorce decree awarded appellee one-half of appellant's pension and 401(k) accounts. On June 2, 2000, appellee sought and received a Qualified Domestic Relations Order regarding said accounts. {&#182; 2} On February 28, 2001, appellant filed a complaint against appellee alleging breach of contract and fraud. Said action stemmed from a prenuptial agreement signed by the parties wherein in the event of a divorce, appell"
+    },
+    {
+      "label": "401(k)",
+      "quote": "ebruary 28, 1997, appellee, Cynthia Calloway, filed a complaint for divorce from appellant, Patrick Calloway. Appellant never responded and appellee was granted a divorce on June 6, 1997. The divorce decree awarded appellee one-half of appellant's pension and 401(k) accounts. On June 2, 2000, appellee sought and received a Qualified Domestic Relations Order regarding said accounts. {&#182; 2} On February 28, 2001, appellant filed a complaint against appellee alleging breach of contract and fraud. Said action stemmed from a prenuptial agreement signed by the parties wherein in the event of a divorce, appellee would no"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "from appellant, Patrick Calloway. Appellant never responded and appellee was granted a divorce on June 6, 1997. The divorce decree awarded appellee one-half of appellant's pension and 401(k) accounts. On June 2, 2000, appellee sought and received a Qualified Domestic Relations Order regarding said accounts. {&#182; 2} On February 28, 2001, appellant filed a complaint against appellee alleging breach of contract and fraud. Said action stemmed from a prenuptial agreement signed by the parties wherein in the event of a divorce, appellee would not be entitled to any portion of appellant's pension or 401(k) accounts. Following dismissal o"
+    }
+  ],
+  "full_text": "OPINION \n {&#182; 1} On February 28, 1997, appellee, Cynthia Calloway, filed a complaint for divorce from appellant, Patrick Calloway. Appellant never responded and appellee was granted a divorce on June 6, 1997. The divorce decree awarded appellee one-half of appellant's pension and 401(k) accounts. On June 2, 2000, appellee sought and received a Qualified Domestic Relations Order regarding said accounts. \n {&#182; 2} On February 28, 2001, appellant filed a complaint against appellee alleging breach of contract and fraud. Said action stemmed from a prenuptial agreement signed by the parties wherein in the event of a divorce, appellee would not be entitled to any portion of appellant's pension or 401(k) accounts. Following dismissal of this complaint and subsequent remand by this court, Calloway v. Calloway, Stark App. No. 2001CA00274, 2002-Ohio-904, appellant filed an amended complaint alleging breach of contract only on March 14, 2002. On March 27, 2002, appellee filed a motion for summary judgment on the basis of res judicata. By judgment entry filed June 17, 2002, the trial court granted said motion. \n {&#182; 3} Appellant filed an appeal and this matter is now before this court for consideration. Assignment of error is as follows: \n I {&#182; 4} \\The trial court erred in granting appellee's motion for summary judgment based on the doctrine of res judicata as there are genuine issues of material fact.\\\"",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

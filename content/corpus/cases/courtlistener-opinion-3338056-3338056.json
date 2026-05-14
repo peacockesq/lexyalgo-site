@@ -1,0 +1,44 @@
+{
+  "document_id": "2b4c76f5-fe43-4b01-a571-2c201b8cdaea",
+  "slug": "courtlistener-opinion-3338056-3338056",
+  "title": "CourtListener opinion 3338056",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3338056 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "ntinuing, alimony shall increase to $350.00 per week and shall be payable until the earliest to occur of the following events: the death of either of the parties, the CT Page 604 plaintiff's remarriage or the date that the plaintiff receives payment under the Qualified Domestic Relations Order at which time alimony shall terminate. 1"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "alimony shall increase to $350.00 per week and shall be payable until the earliest to occur of the following events: the death of either of the parties, the CT Page 604 plaintiff's remarriage or the date that the plaintiff receives payment under the Qualified Domestic Relations Order at which time alimony shall terminate. 1"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] \nAMENDMENT OF MEMORANDUM OF DECISION DATED JUNE 4, 1990\nThe court's Memorandum of Decision dated June 4, 1990 is amended in accordance with the court's ruling on the defendant's motion for reconsideration. \n Page 11 and 12 of the court's Memorandum of Decision are amended in accordance with the attached substituted pages 11 and 12, amending paragraphs 12 and 14 of the Memorandum of Decision. \n EDGAR W. BASSICK, III, JUDGE \n 10. All personal property in the plaintiff's possession shall be hers free of any claim or demand by the defendant. \n 11. Except as otherwise provided herein, all personal property in the defendant's possession shall be his, free of any claim or demand by the plaintiff. \n 12. The plaintiff shall have the benefit of the provisions of 38-262d of the General Statutes and also the federal law known as COBRA for the maximum period provided by the Connecticut statute and the federal statute, and the defendant shall pay the premiums for the same until July 1, 1992. Thereafter the plaintiff shall pay the premiums thereon. \n 13. The defendant shall be obligated to pay the automobile insurance on the 1987 Acura Legend automobile operated by the plaintiff to the expiration of the lease term and the property taxes payable on said automobile until the expiration of the lease term. \n 14. The defendant shall pay to the plaintiff by way of alimony an amount of $175.00 per week until the earliest to occur of the following events: the death of either of the parties, the plaintiff's remarriage or July 1, 1992. If, at that time, it is July 1, 1992 and alimony is still continuing, alimony shall increase to $350.00 per week and shall be payable until the earliest to occur of the following events: the death of either of the parties, the CT Page 604 plaintiff's remarriage or the date that the plaintiff receives payment under the Qualified Domestic Relations Order at which time alimony shall terminate. 1",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

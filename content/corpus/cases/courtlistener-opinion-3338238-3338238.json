@@ -1,0 +1,52 @@
+{
+  "document_id": "13f5ef74-6cbc-46f3-8489-b7ca0e5f4301",
+  "slug": "courtlistener-opinion-3338238-3338238",
+  "title": "CourtListener opinion 3338238",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 5,
+    "retirement benefits": 0,
+    "pension": 1,
+    "ERISA": 1,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 2,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3338238 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "AND TO PARTIALLY VACATE THIS COURT'S AUGUST 17, 1995 ORDER This matter is before the court on Eugene Murphy's motions for reconsideration and to partially vacate the court's August 17, 1995 decision, that ordered Mr. Murphy and Frances Murphy to enter into a Qualified Domestic Relations Order (QDRO). The issue presented by Mr. Murphy's moving papers is whether this court has the ability to order the parties to enter into a QDRO, based on the 1985 dissolution order entered by Judge Ryan in accordance with the parties' separation agreement. Based on the testimony and arguments presented on November 17, 1995, the court reaffirms and republishes i"
+    },
+    {
+      "label": "pension",
+      "quote": "17, 1995 decision, the court, after determining that the separation agreement was ambiguous, applied contractual construction principles to the document to find that Ms. Murphy CT Page 13391 was entitled to the status of a full beneficiary under Mr. Murphy's pension. Subsequent to the court's decision, the parties suggested that Ms. Murphy is entitled to only a 50 percent joint and survivor annuity under 26 U.S.C. &#167; 417 (b)(1), since that percentage was all that the parties had bargained for in the separation agreement. Recognizing that the record was devoid of any evidence suggesting this fact, the court, on Nove"
+    },
+    {
+      "label": "ERISA",
+      "quote": "tions at the time they executed the separation agreement. From that hearing, the court has gleaned that the intention of the parties was that Ms. Murphy be considered a 50 percent beneficiary of the joint and survivor annuity maintained by Mr. Murphy. Under ERISA, a QDRO \\`creates or recognizes the existence of"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "TIALLY VACATE THIS COURT'S AUGUST 17, 1995 ORDER This matter is before the court on Eugene Murphy's motions for reconsideration and to partially vacate the court's August 17, 1995 decision, that ordered Mr. Murphy and Frances Murphy to enter into a Qualified Domestic Relations Order (QDRO). The issue presented by Mr. Murphy's moving papers is whether this court has the ability to order the parties to enter into a QDRO, based on the 1985 dissolution order entered by Judge Ryan in accordance with the parties' separation agreement. Based on the testimony and arguments presented on November 17, 1995, the court reaffirms and republishes i"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] MEMORANDUM OF DECISION ON PLAINTIFF'S MOTIONS FOR RECONSIDERATION AND TO PARTIALLY VACATE THIS COURT'S AUGUST 17, 1995 ORDER \nThis matter is before the court on Eugene Murphy's motions for reconsideration and to partially vacate the court's August 17, 1995 decision, that ordered Mr. Murphy and Frances Murphy to enter into a Qualified Domestic Relations Order (QDRO). The issue presented by Mr. Murphy's moving papers is whether this court has the ability to order the parties to enter into a QDRO, based on the 1985 dissolution order entered by Judge Ryan in accordance with the parties' separation agreement. \n Based on the testimony and arguments presented on November 17, 1995, the court reaffirms and republishes its August 17, 1995 decision, with the modification recited, infra, and finds that it maintains the ability, post judgment, to order the parties to enter into a QDRO. Therefore, the parties are ordered to enter into a forthwith, submit it to the plan administrator and, thereafter, file it with the court for execution. \n In its August 17, 1995 decision, the court, after determining that the separation agreement was ambiguous, applied contractual construction principles to the document to find that Ms. Murphy CT Page 13391 was entitled to the status of a full beneficiary under Mr. Murphy's pension. Subsequent to the court's decision, the parties suggested that Ms. Murphy is entitled to only a 50 percent joint and survivor annuity under 26 U.S.C. &#167; 417 (b)(1), since that percentage was all that the parties had bargained for in the separation agreement. Recognizing that the record was devoid of any evidence suggesting this fact, the court, on November 17, 1995, recalled the parties to present testimony as to their intentions at the time they executed the separation agreement. From that hearing, the court has gleaned that the intention of the parties was that Ms. Murphy be considered a 50 percent beneficiary of the joint and survivor annuity maintained by Mr. Murphy. \n Under ERISA, a QDRO \\`creates or recognizes the existence of",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

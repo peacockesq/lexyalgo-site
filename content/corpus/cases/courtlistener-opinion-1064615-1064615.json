@@ -1,0 +1,44 @@
+{
+  "document_id": "387d7d24-dcb8-473d-ac16-1f0fd2716aef",
+  "slug": "courtlistener-opinion-1064615-1064615",
+  "title": "CourtListener opinion 1064615",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 4,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1064615 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "n, Judge Emmet D. Alexander (Gates & Alexander, PLC, on brief), for appellant. (John H. Click, Jr.; Blackburn, Conte, Schilling & Click, P.C., on brief), for appellee. Appellee submitting on brief. The sole issue raised by this appeal is whether the qualified domestic relations order (QDRO) is consistent with the final decree of divorce. We hold that it is not, and we reverse the order and remand for entry of a proper QDRO. I. On July 24, 2000, Mildred B. Baker was divorced from her husband, Charles H. Baker, by a final decree that affirmed, ratified, and incorporated their property settlement agreement. In pertinent part, the"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "Emmet D. Alexander (Gates & Alexander, PLC, on brief), for appellant. (John H. Click, Jr.; Blackburn, Conte, Schilling & Click, P.C., on brief), for appellee. Appellee submitting on brief. The sole issue raised by this appeal is whether the qualified domestic relations order (QDRO) is consistent with the final decree of divorce. We hold that it is not, and we reverse the order and remand for entry of a proper QDRO. I. On July 24, 2000, Mildred B. Baker was divorced from her husband, Charles H. Baker, by a final decree that affirmed, ratified, and incorporated their property settlement agreement. In pertinent part, the"
+    }
+  ],
+  "full_text": "COURT OF APPEALS OF VIRGINIA\n\nPresent: Judges Benton, Clements and Senior Judge Coleman\nArgued at Richmond, Virginia\n\nCHARLES H. BAKER\n OPINION BY\nv. Record No. 2080-01-2 JUDGE JAMES W. BENTON, JR.\n JUNE 4, 2002\nMILDRED B. BAKER\n\n FROM THE CIRCUIT COURT OF DINWIDDIE COUNTY\n Thomas V. Warren, Judge\n\n Emmet D. Alexander (Gates & Alexander, PLC,\n on brief), for appellant.\n\n (John H. Click, Jr.; Blackburn, Conte,\n Schilling & Click, P.C., on brief), for\n appellee. Appellee submitting on brief.\n\n The sole issue raised by this appeal is whether the\n\nqualified domestic relations order (QDRO) is consistent with the\n\nfinal decree of divorce. We hold that it is not, and we reverse\n\nthe order and remand for entry of a proper QDRO.\n\n I.\n\n On July 24, 2000, Mildred B. Baker was divorced from her\n\nhusband, Charles H. Baker, by a final decree that affirmed,\n\nratified, and incorporated their property settlement agreement.\n\nIn pertinent part, the agreement contained the following\n\nprovision concerning the husband's Philip Morris profit sharing\n\nplan:\n Husband and wife have divided between\n themselves to their mutual satisfaction all\n intangible marital personal property. The\n wife shall have one-half of husband's profit\n sharing from [Philip] Morris, valued as of\n the date of this agreement. The wife shall\n have her retirement, profit sharing, and any\n proceeds in her separate bank account. The\n husband shall retain the remaining one-half\n of his profit sharing at [Philip] Morris.\n\n A year later, the wife filed a motion for entry of a QDRO.\n\nAt a hearing on that motion, the parties agreed, and the trial\n\njudge found, that the value of one-half of the profit sharing\n\nplan at the date of the agreement was $37,946.93. The wife\n\ncontended, however, that she was entitled to receive \\gains and",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

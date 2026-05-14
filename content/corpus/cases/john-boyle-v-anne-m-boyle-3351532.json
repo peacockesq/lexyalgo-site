@@ -1,0 +1,44 @@
+{
+  "document_id": "8427a054-068d-4762-9fce-fb6f46fb40df",
+  "slug": "john-boyle-v-anne-m-boyle-3351532",
+  "title": "John Boyle v. Anne M. Boyle.",
+  "citation": "QDRO",
+  "source_url": "https://www.courtlistener.com/opinion/3356005/boyle-v-boyle-no-0101153-oct-24-1991/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "1991-10-24",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 2,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 5,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: John Boyle v. Anne M. Boyle. is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 2/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "nterest in the 1988 Subaru auto to the defendant and the plaintiff shall immediately pay any delinquent municipal taxes due thereon. The defendant shall assume and pay the remaining loan secured by said auto. The attorney for the plaintiff shall prepare any QDRO required to effectuate the pension division and shall prepare the judgment file. HARRIGAN, JUDGE"
+    },
+    {
+      "label": "pension",
+      "quote": "thout any advance notice to the defendant the plaintiff moved from the family home on June 29, 1990 and shortly thereafter began cohabiting with another woman. After mandatory deductions, the plaintiff's net disposable income is $607 weekly. He has a vested pension at his place of employment containing $7,453.00. The parties have no other significant assets. Having considered the evidence: in view of the statutory criteria the court finds that the allegations of the complaint have been proven, and the court enters the following judgment. 1. A decree is entered dissolving the parties' marriage on the ground of irretr"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] \nMEMORANDUM OF DECISION\nThe 45 year old plaintiff husband and the 42 year old defendant intermarried on August 7, 1970 at Waterbury, Conn. One child was born to the defendant, issue of the marriage, Heather, d.o.b. March 10, 1977. Without any advance notice to the defendant the plaintiff moved from the family home on June 29, 1990 and shortly thereafter began cohabiting with another woman. \n After mandatory deductions, the plaintiff's net disposable income is $607 weekly. He has a vested pension at his place of employment containing $7,453.00. The parties have no other significant assets. Having considered the evidence: in view of the statutory criteria the court finds that the allegations of the complaint have been proven, and the court enters the following judgment. \n 1. A decree is entered dissolving the parties' marriage on the ground of irretrievable breakdown. \n 2. Custody of the minor child is awarded to the defendant and the plaintiff is awarded reasonable visitation. \n 3. The plaintiff is ordered to pay to defendant the sum of $168.00 weekly as child support. This order is secured by a wage withholding order as provided by C.G.S. Section 52-362 . \n 4. the plaintiff shall continue to cover the minor child on all forms of medical insurance coverage available at his employer. This order is subject to the provisions of C.G.S. Section 46b-84 (c). \n 5. The plaintiff shall take no action that may interfere with any COBRA rights the defendant may have as an insured on his medical insurance coverage. \n 6. The plaintiff shall pay to the defendant the sum of $50.00 weekly as periodic alimony until the defendant's remarriage CT Page 8504 or the death of either party. This order is also to be secured by a wage withholding. \n 7. The defendant is awarded 50% the plaintiff's pension benefits that have accumulated to the date of this judgment, and this award shall include the widow's pension benefits in addition to the share of the plaintiff's pension awarded to the defendant. \n 8. Each party shall be responsible for the debts as listed on each respective financial affidavit as well as legal expenses. \n 9. The plaintiff is ordered to transfer his interest in the 1988 Subaru auto to the defendant and the plaintiff shall immediately pay any delinquent municipal taxes due thereon. The defendant shall assume and pay the remaining loan secured by said auto. \n The attorney for the plaintiff shall prepare any QDRO required to effectuate the pension division and shall prepare the judgment file. \n HARRIGAN, JUDGE",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

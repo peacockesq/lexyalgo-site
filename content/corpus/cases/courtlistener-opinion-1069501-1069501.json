@@ -1,0 +1,48 @@
+{
+  "document_id": "42c38a56-3911-48fd-8996-92214f62ca28",
+  "slug": "courtlistener-opinion-1069501-1069501",
+  "title": "CourtListener opinion 1069501",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 1,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1069501 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "OUNTY L. A. Harris, Jr., Judge (Andrea R. Stiles; Williams, Mullen, Clark & Dobbins, P.C., on briefs), for appellant. (Torrence M. Harman; Harman & Harman, P.C., on brief), for appellee. John G. Myers, Jr., contends the trial judge erred in entering qualified domestic relations orders and a domestic relations order after more than twenty-one days had elapsed from the expiration of a sixty-day period reserved by the final divorce decree for entry of the orders. Upon reviewing the record and briefs of the parties, we conclude that this appeal is without merit. Accordingly, we summarily affirm the decision of the trial court. See Rul"
+    },
+    {
+      "label": "pension",
+      "quote": "t to Code § 17.1-400(D). ** Pursuant to Code § 17.1-413, this opinion is not designated for publication. Background On March 9, 1998, the parties entered into an agreement which contained a specified distribution to the parties of husband's retirement, pension, profit sharing, deferred compensation assets, and IRA account. In part, Section F of the agreement states that \\[t]he parties agree to the following distribution of such assets"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "A. Harris, Jr., Judge (Andrea R. Stiles; Williams, Mullen, Clark & Dobbins, P.C., on briefs), for appellant. (Torrence M. Harman; Harman & Harman, P.C., on brief), for appellee. John G. Myers, Jr., contends the trial judge erred in entering qualified domestic relations orders and a domestic relations order after more than twenty-one days had elapsed from the expiration of a sixty-day period reserved by the final divorce decree for entry of the orders. Upon reviewing the record and briefs of the parties, we conclude that this appeal is without merit. Accordingly, we summarily affirm the decision of the trial court. See Rul"
+    }
+  ],
+  "full_text": "COURT OF APPEALS OF VIRGINIA\n\nPresent: Judges Benton, Humphreys and Retired Judge Duff*\n\nJOHN G. MYERS, JR.\n MEMORANDUM OPINION **\nv. Record No. 1034-01-2 PER CURIAM\n OCTOBER 2, 2001\nCHRISTINA MYERS\n\n FROM THE CIRCUIT COURT OF HENRICO COUNTY\n L. A. Harris, Jr., Judge\n\n (Andrea R. Stiles; Williams, Mullen, Clark &\n Dobbins, P.C., on briefs), for appellant.\n\n (Torrence M. Harman; Harman & Harman, P.C.,\n on brief), for appellee.\n\n John G. Myers, Jr., contends the trial judge erred in\n\nentering qualified domestic relations orders and a domestic\n\nrelations order after more than twenty-one days had elapsed from\n\nthe expiration of a sixty-day period reserved by the final divorce\n\ndecree for entry of the orders. Upon reviewing the record and\n\nbriefs of the parties, we conclude that this appeal is without\n\nmerit. Accordingly, we summarily affirm the decision of the trial\n\ncourt. See Rule 5A:27.\n\n *\n Retired Judge Charles H. Duff took part in the\nconsideration of this case by designation pursuant to Code\n§ 17.1-400(D).\n **\n Pursuant to Code § 17.1-413, this opinion is not\ndesignated for publication.\n Background\n\n On March 9, 1998, the parties entered into an agreement which\n\ncontained a specified distribution to the parties of husband's\n\nretirement, pension, profit sharing, deferred compensation assets,\n\nand IRA account. In part, Section F of the agreement states that\n\n\\[t]he parties agree to the following distribution of such assets",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "document_id": "c299f98e-ecb3-4c7c-8faa-5a196ea89608",
+  "slug": "courtlistener-opinion-4084534-4084534",
+  "title": "CourtListener opinion 4084534",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4084534 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "so appealed from is unanimously affirmed without costs. Memorandum: We affirm for reasons stated in the decision at Supreme Court. We add only that, regardless of the potential merit to plaintiff's contention in opposition to defendant's motion to amend the Qualified Domestic Relations Order dated July 11, 2003 (see e.g. Lemesis v Lemesis, 38 AD3d 1331, 1332; Hoke v Hoke, 27 AD3d 1055, 1056; see generally Kazel v Kazel, 3 NY3d 331, 332-335), the court properly refused to consider the relief requested by plaintiff inasmuch as he did not file or serve a notice of cross motion (see CPLR 2215; see e.g. Free in Christ Pentecostal Church v Julian, 64"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "d from is unanimously affirmed without costs. Memorandum: We affirm for reasons stated in the decision at Supreme Court. We add only that, regardless of the potential merit to plaintiff's contention in opposition to defendant's motion to amend the Qualified Domestic Relations Order dated July 11, 2003 (see e.g. Lemesis v Lemesis, 38 AD3d 1331, 1332; Hoke v Hoke, 27 AD3d 1055, 1056; see generally Kazel v Kazel, 3 NY3d 331, 332-335), the court properly refused to consider the relief requested by plaintiff inasmuch as he did not file or serve a notice of cross motion (see CPLR 2215; see e.g. Free in Christ Pentecostal Church v Julian, 64"
+    }
+  ],
+  "full_text": "SUPREME COURT OF THE STATE OF NEW YORK\n Appellate Division, Fourth Judicial Department\n\n745\nCA 12-01573\nPRESENT: SCUDDER, P.J., CENTRA, FAHEY, CARNI, AND LINDLEY, JJ.\n\nJOSEPH A. VARLARO, PLAINTIFF-APPELLANT,\n\n V MEMORANDUM AND ORDER\n\nDEBORA VARLARO, DEFENDANT-RESPONDENT.\n\nLORRAINE H. LEWANDROWSKI, HERKIMER, FOR PLAINTIFF-APPELLANT.\n\nMCLANE, SMITH AND LASCURETTES, L.L.P., UTICA (TOD M. LASCURETTES OF\nCOUNSEL), FOR DEFENDANT-RESPONDENT.\n\n Appeal from an order of the Supreme Court, Herkimer County\n(Patrick L. Kirk, A.J.), entered December 15, 2011. The order granted\nthe motion of defendant to amend the Qualified Domestic Relations\nOrder dated July 11, 2003.\n\n It is hereby ORDERED that the order so appealed from is\nunanimously affirmed without costs.\n\n Memorandum: We affirm for reasons stated in the decision at\nSupreme Court. We add only that, regardless of the potential merit to\nplaintiff's contention in opposition to defendant's motion to amend\nthe Qualified Domestic Relations Order dated July 11, 2003 (see e.g.\nLemesis v Lemesis, 38 AD3d 1331, 1332; Hoke v Hoke, 27 AD3d 1055,\n1056; see generally Kazel v Kazel, 3 NY3d 331, 332-335), the court\nproperly refused to consider the relief requested by plaintiff\ninasmuch as he did not file or serve a notice of cross motion (see\nCPLR 2215; see e.g. Free in Christ Pentecostal Church v Julian, 64\nAD3d 1153, 1153-1154; New York State Div. of Human Rights v Oceanside\nCove II Apt. Corp., 39 AD3d 608, 609; Khaolaead v Leisure Video, 18\nAD3d 820, 821; Torre v Torre [appeal No. 1], 142 AD2d 942, 942).\n\nEntered: June 14, 2013 Frances E. Cafarell\n Clerk of the Court",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

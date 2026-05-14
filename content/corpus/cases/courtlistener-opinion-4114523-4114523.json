@@ -1,0 +1,52 @@
+{
+  "document_id": "a34ac59e-d665-4e1e-b5a5-05e755ec0ee5",
+  "slug": "courtlistener-opinion-4114523-4114523",
+  "title": "CourtListener opinion 4114523",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 0,
+    "pension": 3,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 1,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 1
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4114523 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "Chvatal represented Cynthia Veneziano in the dissolution action and negotiated the terms of the parties' property division on Ms. Veneziano's behalf. Among assets divided was a pension earned through Mr. Veneziano's employment with Fluor Daniel Hanford. A qualified domestic relations order (QDRO) divided the pension between the parties on the following terms (\\Alternate Payee\\\" refers to Ms. Veneziano):"
+    },
+    {
+      "label": "pension",
+      "quote": "ice action against Patricia Chvatal, arising out of Ms. Chvatal's negotiation of the division of marital assets in Ms. Veneziano's divorce. Ms. Veneziano's legal experts testified that Ms. Chvatal's approach to the negotiated division of Mr. Veneziano's pension-a major marital asset-undervalued Ms. Veneziano's interest and fell below the standard of care. While the trial court agreed with Ms. Veneziano that her evidence presented genuine issues of fact on most elements of her malpractice claim, it found her evidence lacking on the required element of proximately- caused harm. Ms. Veneziano assigns error"
+    },
+    {
+      "label": "alternate payee",
+      "quote": "roperty division on Ms. Veneziano's behalf. Among assets divided was a pension earned through Mr. Veneziano's employment with Fluor Daniel Hanford. A qualified domestic relations order (QDRO) divided the pension between the parties on the following terms (\\Alternate Payee\\\" refers to Ms. Veneziano):"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "epresented Cynthia Veneziano in the dissolution action and negotiated the terms of the parties' property division on Ms. Veneziano's behalf. Among assets divided was a pension earned through Mr. Veneziano's employment with Fluor Daniel Hanford. A qualified domestic relations order (QDRO) divided the pension between the parties on the following terms (\\Alternate Payee\\\" refers to Ms. Veneziano):"
+    }
+  ],
+  "full_text": "I\nI\n1j\n FILED\nj JANUARY 10, 2017\nI In the Office of the Clerk of Court\n WA State Court of Appeals, Division Ill\nI\nII IN THE COURT OF APPEALS OF THE STATE OF WASHINGTON\n DIVISION THREE\n\n I CYNTHIA VENEZIANO, )\n\nI Appellant,\n )\n )\n )\n No. 33593-3-111\n\nI V.\n\n PATRICIAJ. CHVATAL,\n )\n )\n )\n UNPUBLISHED OPINION\n\n )\n Respondent. )\n\n SIDDOWAY, J. -Cynthia Veneziano appeals the trial court's summary judgment\n\n dismissal of her legal malpractice action against Patricia Chvatal, arising out of Ms.\n\n Chvatal's negotiation of the division of marital assets in Ms. Veneziano's divorce. Ms.\n\n Veneziano's legal experts testified that Ms. Chvatal's approach to the negotiated division\n\n of Mr. Veneziano's pension-a major marital asset-undervalued Ms. Veneziano's\n\n interest and fell below the standard of care. While the trial court agreed with Ms.\n\n Veneziano that her evidence presented genuine issues of fact on most elements of her\n\n malpractice claim, it found her evidence lacking on the required element of proximately-\n\n caused harm.\n\n Ms. Veneziano assigns error to the trial court's refusal to grant her a continuance\n\n of the motion, its decision on the merits of the summary judgment motion, and its denial\n\n of her motion to supplement the record or for reconsideration. We find her challenge to\n No. 33593-3-III\nVeneziano v. Chvatal\n\nthe trial court's decision on the merits to be dispositive. We reverse the order dismissing\n\nher complaint and remand for further proceedings.\n\n FACTS AND PROCEDURAL BACKGROUND\n\n Cynthia Veneziano and her ex-husband, Tim Veneziano, lived together as husband\n\nand wife for 21 years before separating in 1997. In January 2001, the court entered\n\nfindings of fact and conclusions of law along with a decree of legal separation. An order\n\nconverting the decree of legal separation to a decree of dissolution was entered in August\n\n2005.\n\n Patricia Chvatal represented Cynthia Veneziano in the dissolution action and\n\nnegotiated the terms of the parties' property division on Ms. Veneziano's behalf. Among\n\nassets divided was a pension earned through Mr. Veneziano's employment with Fluor\n\nDaniel Hanford. A qualified domestic relations order (QDRO) divided the pension\n\nbetween the parties on the following terms (\\Alternate Payee\\\" refers to Ms. Veneziano):",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

@@ -1,0 +1,48 @@
+{
+  "document_id": "9d47acda-893c-474b-95e2-a897cc652de0",
+  "slug": "courtlistener-opinion-10564958-10564958",
+  "title": "CourtListener opinion 10564958",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 10564958 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "IONS DIVISION Case No. DR98040692 The Lampe Law Office, LLC, and Stephen Otte, for appellant. Eric D. Bender, for appellee. HENDRICKSON, J. {¶ 1} Kevin Shaw, appellant, appeals the decision of the Butler County Domestic Relations Court setting aside a Qualified Domestic Relations Order that had been in place for over 20 years. For the reasons that follow, we reverse the decision of the lower court. I. Facts and Procedural Background {¶ 2} Charles Shaw, plaintiff-appellee, and Sharon Shaw were married on August Butler CA2023-08-091 25, 1973. They had two children together: a son, Kevin, and a daughter. Charles and Sharon divorced i"
+    },
+    {
+      "label": "pension",
+      "quote": "5, 1973. They had two children together: a son, Kevin, and a daughter. Charles and Sharon divorced in 1999. {¶ 3} They reached an agreement regarding the division of their property, which the trial court adopted.1 Regarding Charles's federal civil service pension, the decree provided the following: [Sharon] shall receive one half of [Charles]'s pension with the U.S. Postal Service. A separate qualified domestic relations order shall issue to effectuate this division, and the court reserves jurisdiction to correct any defect in wording. To implement this provision, in October 2000, the parties executed and fil"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "ION Case No. DR98040692 The Lampe Law Office, LLC, and Stephen Otte, for appellant. Eric D. Bender, for appellee. HENDRICKSON, J. {¶ 1} Kevin Shaw, appellant, appeals the decision of the Butler County Domestic Relations Court setting aside a Qualified Domestic Relations Order that had been in place for over 20 years. For the reasons that follow, we reverse the decision of the lower court. I. Facts and Procedural Background {¶ 2} Charles Shaw, plaintiff-appellee, and Sharon Shaw were married on August Butler CA2023-08-091 25, 1973. They had two children together: a son, Kevin, and a daughter. Charles and Sharon divorced i"
+    }
+  ],
+  "full_text": "[Cite as Shaw v. Shaw, 2024-Ohio-3231.]\n\n IN THE COURT OF APPEALS\n\n TWELFTH APPELLATE DISTRICT OF OHIO\n\n BUTLER COUNTY\n\n KEVIN L. SHAW, :\n\n Appellant, : CASE NO. CA2023-08-091\n\n : OPINION\n - vs - 8/26/2024\n :\n\n CHARLES W. SHAW, :\n\n Appellee. :\n\n CIVIL APPEAL FROM BUTLER COUNTY COURT OF COMMON PLEAS\n DOMESTIC RELATIONS DIVISION\n Case No. DR98040692\n\nThe Lampe Law Office, LLC, and Stephen Otte, for appellant.\n\nEric D. Bender, for appellee.\n\n HENDRICKSON, J.\n\n {¶ 1} Kevin Shaw, appellant, appeals the decision of the Butler County Domestic\n\nRelations Court setting aside a Qualified Domestic Relations Order that had been in place\n\nfor over 20 years. For the reasons that follow, we reverse the decision of the lower court.\n\n I. Facts and Procedural Background\n\n {¶ 2} Charles Shaw, plaintiff-appellee, and Sharon Shaw were married on August\n Butler CA2023-08-091\n\n25, 1973. They had two children together: a son, Kevin, and a daughter. Charles and\n\nSharon divorced in 1999.\n\n {¶ 3} They reached an agreement regarding the division of their property, which\n\nthe trial court adopted.1 Regarding Charles's federal civil service pension, the decree\n\nprovided the following:\n\n [Sharon] shall receive one half of [Charles]'s pension with the\n U.S. Postal Service. A separate qualified domestic relations\n order shall issue to effectuate this division, and the court\n reserves jurisdiction to correct any defect in wording.\n\nTo implement this provision, in October 2000, the parties executed and filed a Qualified\n\nDomestic Relations Order (\\QDRO\\\").",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

@@ -1,0 +1,52 @@
+{
+  "document_id": "9b8c181b-e5f9-42f3-badb-e71b46ab01b9",
+  "slug": "courtlistener-opinion-3755662-3755662",
+  "title": "CourtListener opinion 3755662",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 4,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 4,
+    "survivor benefits": 3,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3755662 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "DECISION AND JOURNAL ENTRY INTRODUCTION {&#182; 1} Luis and Juanita Orama married in 1969 and divorced in 1988. Luis worked for Ford Motor Company and participated in a Ford sponsored pension plan. At the time of the divorce, the trial court entered a Qualified Domestic Relations Order under which, at the time Luis retired in 2007, Juanita began receiving 50% of the pension benefits that were based on the period of his employment during their marriage. The dispute in this case relates to another provision of that Qualified Domestic Relations Order. Under that other provision, Juanita is entitled to full post-retirement surviving spouse be"
+    },
+    {
+      "label": "pension",
+      "quote": "DECISION AND JOURNAL ENTRY INTRODUCTION {&#182; 1} Luis and Juanita Orama married in 1969 and divorced in 1988. Luis worked for Ford Motor Company and participated in a Ford sponsored pension plan. At the time of the divorce, the trial court entered a Qualified Domestic Relations Order under which, at the time Luis retired in 2007, Juanita began receiving 50% of the pension benefits that were based on the period of his employment during their marriage. The dispute in this case relates to another provision of that Qualified Domestic Relations Ord"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "SION AND JOURNAL ENTRY INTRODUCTION {&#182; 1} Luis and Juanita Orama married in 1969 and divorced in 1988. Luis worked for Ford Motor Company and participated in a Ford sponsored pension plan. At the time of the divorce, the trial court entered a Qualified Domestic Relations Order under which, at the time Luis retired in 2007, Juanita began receiving 50% of the pension benefits that were based on the period of his employment during their marriage. The dispute in this case relates to another provision of that Qualified Domestic Relations Order. Under that other provision, Juanita is entitled to full post-retirement surviving spouse be"
+    },
+    {
+      "label": "survivor benefits",
+      "quote": "e pension benefits that were based on the period of his employment during their marriage. The dispute in this case relates to another provision of that Qualified Domestic Relations Order. Under that other provision, Juanita is entitled to full post-retirement surviving spouse benefits. After he retired in 2007, Luis moved for relief from that provision of the Qualified Domestic Relations Order under Rule 60(B)(5) of the Ohio Rules of Civil Procedure, seeking an order that Juanita is not entitled to any surviving spouse benefits. The trial court granted Luis's motion and entered an amended Qualified Domestic Relations Order under"
+    }
+  ],
+  "full_text": "DECISION AND JOURNAL ENTRY \n INTRODUCTION {&#182; 1} Luis and Juanita Orama married in 1969 and divorced in 1988. Luis worked for Ford Motor Company and participated in a Ford sponsored pension plan. At the time of the divorce, the trial court entered a Qualified Domestic Relations Order under which, at the time Luis retired in 2007, Juanita began receiving 50% of the pension benefits that were based on the period of his employment during their marriage. The dispute in this case relates to another provision of that Qualified Domestic Relations Order. Under that other provision, Juanita is entitled to full post-retirement surviving spouse benefits. After he retired in 2007, Luis moved for relief from that provision of the Qualified Domestic Relations Order under Rule 60(B)(5) of the Ohio Rules of Civil Procedure, seeking an order that Juanita is not entitled to any surviving spouse benefits. The trial court granted Luis's motion and entered an amended Qualified Domestic Relations Order under which Juanita will not receive any surviving spouse benefits. *Page 2",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

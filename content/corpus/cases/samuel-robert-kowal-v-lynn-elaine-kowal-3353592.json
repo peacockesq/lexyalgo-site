@@ -1,0 +1,44 @@
+{
+  "document_id": "31725823-99d1-4c3c-a9f7-6eb53d500e6f",
+  "slug": "samuel-robert-kowal-v-lynn-elaine-kowal-3353592",
+  "title": "Samuel Robert Kowal v. Lynn Elaine Kowal",
+  "citation": "QDRO",
+  "source_url": "https://www.courtlistener.com/opinion/3358060/kowal-v-kowal-no-fa93-04-44-37s-nov-7-1994/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "1994-11-07",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 4,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: Samuel Robert Kowal v. Lynn Elaine Kowal is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "iod of time will give the defendant sufficient opportunity to learn other skills if she chooses or to further herself in the restaurant business. B. PENSION The defendant wife shall be entitled to 30% of the present day value of the plaintiff's pension. A QDRO may be required to secure the defendant's interest in the plaintiff's pension. C. MEDICAL COVERAGE The defendant shall be entitled to COBRA benefits as are available through the plaintiff husband's employment for a period of three years or until the defendant obtains her own medical benefits whichever event first occurs. Plaintiff husband shall be oblig"
+    },
+    {
+      "label": "pension",
+      "quote": "rties. Unfortunately, the parties were unable to reconcile their differences. The court declines to assess the fault for the breakdown of the marital relationship to either party. The only issues raised by the parties had to do with alimony, the husband's pension and COBRA benefits. The following orders shall enter: A. ALIMONY The plaintiff husband shall pay to the defendant wife as alimony the sum of $200 per week until the death of the husband, the death of the wife, her remarriage or cohabitation as defined by statute, or 13 years from date, whichever event shall first occur. A 13 year CT Page 11286 period"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] MEMORANDUM OF DECISION \nThe parties intermarried on June 27, 1970 at Milford, Connecticut. There are no minor children issue of this marriage. Both parties have resided continuously in this state for at least one year prior to the date of this marriage. CT Page 11285 \n The evidence presented at trial has clearly established that the marriage has broken down irretrievably. Judgment may enter dissolving the marriage on that ground. \n The court has carefully considered the statutory criteria in &#167;&#167; 46b-81 \nand 46b-82 Conn. General Statutes in reaching the decision reflected in the orders that follow. \n The parties have been married for approximately 24 years. The plaintiff is 46 years old and the defendant is 43 years old. Both parties appear to be in good health. \n The wife worked at a variety of jobs during the marriage in addition to fulfilling her duties as a homemaker and raising the parties' two children, both of whom are over the age of 18 years. \n The wife is presently working as a cook in a restaurant earning approximately $234 net per week. The husband is an insurance field underwriter earning a gross of $53,076.62 per year and a net of approximately $45,664.32 per year. \n The parties have lived in the husband's father's home for over 17 years. The wife makes no claim to this home. \n The wife claimed the breakdown of the marriage was due in large part to the husband's father. The husband claimed the marriage broke down as a result of the wife's infidelity. The wife admitted to having an affair just prior to the separation of the parties. \n Unfortunately, the parties were unable to reconcile their differences. The court declines to assess the fault for the breakdown of the marital relationship to either party. \n The only issues raised by the parties had to do with alimony, the husband's pension and COBRA benefits. \n The following orders shall enter: \n A. ALIMONY \n The plaintiff husband shall pay to the defendant wife as alimony the sum of $200 per week until the death of the husband, the death of the wife, her remarriage or cohabitation as defined by statute, or 13 years from date, whichever event shall first occur. A 13 year CT Page 11286 period of time will give the defendant sufficient opportunity to learn other skills if she chooses or to further herself in the restaurant business. \n B. PENSION \n The defendant wife shall be entitled to 30% of the present day value of the plaintiff's pension. A QDRO may be required to secure the defendant's interest in the plaintiff's pension. \n C. MEDICAL COVERAGE \n The defendant shall be entitled to COBRA benefits as are available through the plaintiff husband's employment for a period of three years or until the defendant obtains her own medical benefits whichever event first occurs. Plaintiff husband shall be obligated to pay the cost of COBRA for a period of one year. Thereafter, the cost of COBRA shall the wife's sole responsibility. Any unreimbursed medical expenses shall be the defendant's responsibility. \n COPPETO, J.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}
