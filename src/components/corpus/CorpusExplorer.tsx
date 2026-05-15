@@ -57,7 +57,10 @@ export default function CorpusExplorer({ cases }: Props) {
 
       const searchable = [
         item.title,
+        item.display_name,
         item.citation_is_placeholder ? '' : item.citation,
+        item.extracted_reporter_citation,
+        item.extracted_docket_number,
         item.source_url,
         item.source_host,
         item.source_opinion_id,
@@ -179,10 +182,11 @@ export default function CorpusExplorer({ cases }: Props) {
             <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:justify-between">
               <div>
                 <h3 className="text-lg font-semibold text-slate-950">
-                  <Link className="hover:text-primary-container" href={`/corpus/cases/${item.slug}`}>{item.title}</Link>
+                  <Link className="hover:text-primary-container" href={`/corpus/cases/${item.slug}`}>{item.display_name ?? item.title}</Link>
                 </h3>
+                {item.display_name && item.display_name !== item.title ? <p className="mt-1 text-xs text-slate-500">Source title: {item.title}</p> : null}
                 <p className="mt-1 text-sm text-slate-500">
-                  {item.citation && !item.citation_is_placeholder ? `Citation: ${item.citation}` : 'Citation metadata pending'} · {item.court ?? item.jurisdiction ?? item.state_code ?? 'court pending'} · {item.source_host ?? sourceHost(item.source_url)}{item.source_opinion_id ? ` #${item.source_opinion_id}` : ''} · {item.status.replaceAll('_', ' ')}
+                  {item.citation && !item.citation_is_placeholder ? `Citation: ${item.citation}` : item.extracted_reporter_citation ? `Extracted citation: ${item.extracted_reporter_citation}` : 'Citation metadata pending'} · {item.extracted_docket_number ? `Docket ${item.extracted_docket_number} · ` : ''}{item.court ?? item.jurisdiction ?? item.state_code ?? 'court pending'} · {item.source_host ?? sourceHost(item.source_url)}{item.source_opinion_id ? ` #${item.source_opinion_id}` : ''} · {item.status.replaceAll('_', ' ')}
                 </p>
                 {(item.topic_terms ?? []).length > 0 ? (
                   <p className="mt-2 flex flex-wrap gap-1 text-xs text-slate-500">

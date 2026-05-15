@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
-import { formatCorpusDate, getCorpusCaseBySlug, getCorpusCaseSlugs, getRelatedCorpusCases } from '@/lib/corpus'
+import { extractCorpusCaseName, extractCorpusDocketNumber, extractCorpusReporterCitation, formatCorpusDate, getCorpusCaseBySlug, getCorpusCaseSlugs, getRelatedCorpusCases, isPlaceholderCitation } from '@/lib/corpus'
 
 type Props = {
   params: Promise<{ slug: string }>
@@ -35,7 +35,10 @@ export default async function CorpusCasePage({ params }: Props) {
   if (!item) notFound()
 
   const sourceLabel = item.source_url ? new URL(item.source_url).hostname.replace(/^www\./, '') : 'source link pending'
-  const displayCitation = item.citation && item.citation.toLowerCase() !== 'qdro' ? item.citation : null
+  const displayCitation = isPlaceholderCitation(item.citation) ? null : item.citation
+  const extractedCaseName = item.extracted_case_name ?? extractCorpusCaseName(item)
+  const extractedDocket = item.extracted_docket_number ?? extractCorpusDocketNumber(item)
+  const extractedReporterCitation = item.extracted_reporter_citation ?? extractCorpusReporterCitation(item)
   const relatedCases = getRelatedCorpusCases(item)
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -60,6 +63,11 @@ export default async function CorpusCasePage({ params }: Props) {
             {displayCitation ? <><strong>Citation:</strong> {displayCitation} · </> : null}
             {formatCorpusDate(item.date_published)} · {item.court ?? item.jurisdiction ?? 'Court metadata pending'}
           </p>
+          <dl className="mt-4 grid gap-3 rounded-2xl bg-slate-50 p-4 text-sm text-slate-700 ring-1 ring-slate-200 sm:grid-cols-3">
+            <div><dt className="font-semibold text-slate-950">Extracted case name</dt><dd>{extractedCaseName ?? 'pending'}</dd></div>
+            <div><dt className="font-semibold text-slate-950">Extracted reporter citation</dt><dd>{extractedReporterCitation ?? 'pending'}</dd></div>
+            <div><dt className="font-semibold text-slate-950">Docket / number</dt><dd>{extractedDocket ?? 'pending'}</dd></div>
+          </dl>
           <div className="mt-5 flex flex-wrap gap-2 text-xs font-semibold">
             <span className="rounded-full bg-blue-50 px-3 py-1 text-blue-700">QDRO relevance {item.strict_qdro_relevance}/5</span>
             <span className="rounded-full bg-emerald-50 px-3 py-1 text-emerald-700">Retirement relevance {item.retirement_division_relevance}/5</span>
@@ -102,6 +110,7 @@ export default async function CorpusCasePage({ params }: Props) {
             <div><dt className="font-semibold text-slate-950">Generated status</dt><dd>{item.status.replaceAll('_', ' ')}</dd></div>
             <div><dt className="font-semibold text-slate-950">Review status</dt><dd>{item.review_status.replaceAll('_', ' ')}</dd></div>
             <div><dt className="font-semibold text-slate-950">Jurisdiction metadata</dt><dd>{[item.court, item.jurisdiction, item.state_code].filter(Boolean).join(' · ') || 'pending'}</dd></div>
+            <div><dt className="font-semibold text-slate-950">Deterministic extraction</dt><dd>{[extractedReporterCitation ? `reporter: ${extractedReporterCitation}` : null, extractedDocket ? `docket: ${extractedDocket}` : null].filter(Boolean).join(' · ') || 'pending'}</dd></div>
             <div><dt className="font-semibold text-slate-950">Generated at</dt><dd>{formatCorpusDate(item.generated_at)}</dd></div>
           </dl>
           {item.source_url ? (

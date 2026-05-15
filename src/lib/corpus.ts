@@ -13,6 +13,9 @@ export type CorpusCase = {
   state_code?: string | null
   court?: string | null
   date_published?: string | null
+  extracted_docket_number?: string | null
+  extracted_reporter_citation?: string | null
+  extracted_case_name?: string | null
   strict_qdro_relevance: number
   retirement_division_relevance: number
   family_law_relevance: number
@@ -45,6 +48,9 @@ export type CorpusManifestCase = Pick<
   | 'review_status'
 > & {
   citation_is_placeholder?: boolean
+  display_name?: string | null
+  extracted_docket_number?: string | null
+  extracted_reporter_citation?: string | null
   source_host?: string | null
   source_opinion_id?: string | null
   citation_year?: number | null
@@ -118,6 +124,47 @@ function sharedTokenCount(left: Set<string>, right: Set<string>) {
     if (right.has(token)) count += 1
   }
   return count
+}
+
+function cleanText(value: unknown) {
+  return String(value ?? '').replace(/\s+/g, ' ').trim()
+}
+
+function firstMatch(value: string | null | undefined, patterns: RegExp[]) {
+  const text = cleanText(value)
+  for (const pattern of patterns) {
+    const match = text.match(pattern)
+    if (match?.[1] || match?.[0]) return cleanText(match[1] ?? match[0]).replace(/[,.]+$/, '')
+  }
+  return null
+}
+
+export function isPlaceholderCitation(value: string | null | undefined) {
+  const normalized = cleanText(value).toLowerCase()
+  return !normalized || ['qdro', 'qualified domestic relations order', 'pension', 'erisa', 'retirement benefits'].includes(normalized)
+}
+
+export function extractCorpusDocketNumber(item: Pick<CorpusCase, 'full_text'>) {
+  return firstMatch(item.full_text, [
+    /\b(?:No\.|Nos\.|NUMBER)\s+([A-Z0-9][A-Z0-9 .:\-–/]{2,60}?)(?=\s{2,}|\s(?:COURT|IN THE|Appeal|Filed|$))/i,
+    /\bDocket\s+(?:No\.|Nos\.)?\s*([A-Z0-9][A-Z0-9 .:\-–/]{2,50})/i,
+  ])
+}
+
+export function extractCorpusReporterCitation(item: Pick<CorpusCase, 'citation' | 'full_text'>) {
+  if (!isPlaceholderCitation(item.citation)) return item.citation ?? null
+  return firstMatch(item.full_text, [
+    /\b(\d{1,4}\s+(?:F\.?\s?(?:Supp\.?\s?\d*d?|App'?x|\d+d)|U\.S\.|S\.\s?Ct\.|L\.\s?Ed\.\s?\d+d|Cal\.\s?(?:App\.)?\s?\d*[a-z]*|N\.Y\.S\.\d+d|S\.W\.\d+d|N\.E\.\d+d|N\.W\.\d+d|P\.\d+d|A\.\d+d|So\.\d+d)\s+\d{1,5})\b/i,
+  ])
+}
+
+export function extractCorpusCaseName(item: Pick<CorpusCase, 'title' | 'full_text'>) {
+  const title = cleanText(item.title)
+  if (title && !/^CourtListener opinion \d+$/i.test(title) && !isPlaceholderCitation(title)) return title
+  return firstMatch(item.full_text, [
+    /\b([A-Z][A-Z.'’&\- ]{2,80}\s+v\.\s+[A-Z][A-Z.'’&\- ]{2,80})\b/,
+    /\b(In re (?:the )?(?:Marriage|Estate|Matter) of [A-Z][A-Za-z.'’&\- ]{2,80})\b/i,
+  ])
 }
 
 export function getRelatedCorpusCases(item: CorpusCase, limit = 6): CorpusManifestCase[] {

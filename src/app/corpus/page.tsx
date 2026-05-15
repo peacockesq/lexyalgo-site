@@ -55,7 +55,7 @@ export default function CorpusIndexPage() {
           <div className="mb-6 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
             <div>
               <h2 className="font-[family-name:var(--font-space)] text-2xl font-bold text-slate-950">Search the public corpus</h2>
-              <p className="text-sm text-slate-600">Filter the complete static manifest by title, citation, source, and retrieval scores. Every result links to a generated public case page.</p>
+              <p className="text-sm text-slate-600">Filter the complete static manifest by title, extracted case name/docket, citation, source, and retrieval scores. Every result links to a generated public case page.</p>
             </div>
           </div>
           <CorpusExplorer cases={cases} />

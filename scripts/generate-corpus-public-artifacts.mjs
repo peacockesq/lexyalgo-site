@@ -45,7 +45,7 @@ function sourceOpinionId(sourceUrl) {
 
 function isPlaceholderCitation(value) {
   const normalized = cleanText(value).toLowerCase()
-  return !normalized || ['qdro', 'pension', 'erisa', 'retirement benefits'].includes(normalized)
+  return !normalized || ['qdro', 'qualified domestic relations order', 'pension', 'erisa', 'retirement benefits'].includes(normalized)
 }
 
 function citationYear(item) {
@@ -55,6 +55,38 @@ function citationYear(item) {
     if (match) return Number(match[0])
   }
   return null
+}
+
+function firstMatch(value, patterns) {
+  const text = cleanText(value)
+  for (const pattern of patterns) {
+    const match = text.match(pattern)
+    if (match?.[1] || match?.[0]) return cleanText(match[1] ?? match[0]).replace(/[,.]+$/, '')
+  }
+  return null
+}
+
+function extractedDocketNumber(item) {
+  return firstMatch(item.full_text, [
+    /\b(?:No\.|Nos\.|NUMBER)\s+([A-Z0-9][A-Z0-9 .:\-–/]{2,60}?)(?=\s{2,}|\s(?:COURT|IN THE|Appeal|Filed|$))/i,
+    /\bDocket\s+(?:No\.|Nos\.)?\s*([A-Z0-9][A-Z0-9 .:\-–/]{2,50})/i,
+  ])
+}
+
+function extractedReporterCitation(item) {
+  if (!isPlaceholderCitation(item.citation)) return item.citation ?? null
+  return firstMatch(item.full_text, [
+    /\b(\d{1,4}\s+(?:F\.?\s?(?:Supp\.?\s?\d*d?|App'?x|\d+d)|U\.S\.|S\.\s?Ct\.|L\.\s?Ed\.\s?\d+d|Cal\.\s?(?:App\.)?\s?\d*[a-z]*|N\.Y\.S\.\d+d|S\.W\.\d+d|N\.E\.\d+d|N\.W\.\d+d|P\.\d+d|A\.\d+d|So\.\d+d)\s+\d{1,5})\b/i,
+  ])
+}
+
+function extractedCaseName(item) {
+  const title = cleanText(item.title)
+  if (title && !/^CourtListener opinion \d+$/i.test(title) && !isPlaceholderCitation(title)) return title
+  return firstMatch(item.full_text, [
+    /\b([A-Z][A-Z.'’&\- ]{2,80}\s+v\.\s+[A-Z][A-Z.'’&\- ]{2,80})\b/,
+    /\b(In re (?:the )?(?:Marriage|Estate|Matter) of [A-Z][A-Za-z.'’&\- ]{2,80})\b/i,
+  ])
 }
 
 const topicPatterns = [
@@ -96,6 +128,9 @@ function searchTerms(item, topics = topicTerms(item)) {
     item.plan_legal_category,
     sourceHost(item.source_url),
     sourceOpinionId(item.source_url),
+    item.extracted_docket_number,
+    item.extracted_reporter_citation,
+    item.extracted_case_name,
     ...topics,
   ].filter(Boolean).join(' ')).toLowerCase()
 }
@@ -135,6 +170,8 @@ function makeChunk(item, kind, text, index = 0) {
     source_url: item.source_url ?? null,
     source_host: sourceHost(item.source_url),
     source_opinion_id: sourceOpinionId(item.source_url),
+    extracted_docket_number: item.extracted_docket_number ?? null,
+    extracted_reporter_citation: item.extracted_reporter_citation ?? null,
     court: item.court ?? null,
     jurisdiction: item.jurisdiction ?? null,
     state_code: item.state_code ?? null,
@@ -172,11 +209,20 @@ function main() {
       const year = citationYear(item)
       const topics = topicTerms(item)
       const placeholderCitation = isPlaceholderCitation(item.citation)
+      const enrichedItem = {
+        ...item,
+        extracted_docket_number: extractedDocketNumber(item),
+        extracted_reporter_citation: extractedReporterCitation(item),
+        extracted_case_name: extractedCaseName(item),
+      }
       return {
         slug: item.slug,
         title: item.title,
         citation: item.citation ?? null,
         citation_is_placeholder: placeholderCitation,
+        display_name: enrichedItem.extracted_case_name ?? item.title,
+        extracted_docket_number: enrichedItem.extracted_docket_number,
+        extracted_reporter_citation: enrichedItem.extracted_reporter_citation,
         source_url: item.source_url ?? null,
         source_host: sourceHost(item.source_url),
         source_opinion_id: sourceOpinionId(item.source_url),
@@ -188,7 +234,7 @@ function main() {
         plan_legal_category: item.plan_legal_category,
         topic_terms: topics,
         relevance_total: relevanceTotal(item),
-        search_terms: searchTerms(item, topics),
+        search_terms: searchTerms(enrichedItem, topics),
         strict_qdro_relevance: item.strict_qdro_relevance,
         retirement_division_relevance: item.retirement_division_relevance,
         family_law_relevance: item.family_law_relevance,
@@ -218,7 +264,10 @@ function main() {
   const searchIndex = publicManifestCases.map((item) => ({
     slug: item.slug,
     title: item.title,
+    display_name: item.display_name,
     citation: item.citation_is_placeholder ? null : item.citation,
+    extracted_docket_number: item.extracted_docket_number,
+    extracted_reporter_citation: item.extracted_reporter_citation,
     citation_year: item.citation_year,
     source_host: item.source_host,
     source_opinion_id: item.source_opinion_id,
@@ -255,7 +304,7 @@ function main() {
   }
   fs.writeFileSync(path.join(publicCorpusDir, 'facets.json'), `${JSON.stringify(facets, null, 2)}\n`)
 
-  const csvHeaders = ['slug', 'title', 'citation', 'citation_is_placeholder', 'citation_year', 'source_host', 'source_opinion_id', 'source_url', 'court', 'jurisdiction', 'state_code', 'plan_legal_category', 'topic_terms', 'strict_qdro_relevance', 'retirement_division_relevance', 'family_law_relevance', 'relevance_total', 'page_url']
+  const csvHeaders = ['slug', 'title', 'display_name', 'citation', 'citation_is_placeholder', 'extracted_reporter_citation', 'extracted_docket_number', 'citation_year', 'source_host', 'source_opinion_id', 'source_url', 'court', 'jurisdiction', 'state_code', 'plan_legal_category', 'topic_terms', 'strict_qdro_relevance', 'retirement_division_relevance', 'family_law_relevance', 'relevance_total', 'page_url']
   const csvRows = publicManifestCases.map((item) => csvHeaders.map((header) => csvCell(item[header])).join(','))
   fs.writeFileSync(path.join(publicCorpusDir, 'cases.csv'), `${csvHeaders.join(',')}\n${csvRows.join('\n')}\n`)
 
@@ -263,12 +312,18 @@ function main() {
   for (const item of cases) {
     item.citation_year = citationYear(item)
     item.topic_terms = topicTerms(item)
+    item.extracted_docket_number = extractedDocketNumber(item)
+    item.extracted_reporter_citation = extractedReporterCitation(item)
+    item.extracted_case_name = extractedCaseName(item)
     const summary = makeChunk(
       item,
       'summary',
       [
         item.title,
+        item.extracted_case_name && item.extracted_case_name !== item.title ? `Extracted case name: ${item.extracted_case_name}.` : '',
         isPlaceholderCitation(item.citation) ? '' : (item.citation ? `Citation: ${item.citation}.` : ''),
+        item.extracted_reporter_citation ? `Extracted reporter citation: ${item.extracted_reporter_citation}.` : '',
+        item.extracted_docket_number ? `Docket: ${item.extracted_docket_number}.` : '',
         item.court ? `Court: ${item.court}.` : '',
         item.date_published ? `Date: ${item.date_published}.` : '',
         item.generated_headnote,
@@ -294,7 +349,7 @@ function main() {
     case_count: publicManifest.case_count,
     chunk_count: chunks.length,
     chunk_kinds: [...new Set(chunks.map((chunk) => chunk.kind))].sort(),
-    metadata_fields: ['citation_is_placeholder', 'citation_year', 'court', 'jurisdiction', 'plan_legal_category', 'relevance_total', 'source_host', 'source_opinion_id', 'state_code', 'topic_terms'],
+    metadata_fields: ['citation_is_placeholder', 'citation_year', 'court', 'extracted_docket_number', 'extracted_reporter_citation', 'jurisdiction', 'plan_legal_category', 'relevance_total', 'source_host', 'source_opinion_id', 'state_code', 'topic_terms'],
     files: [
       {
         path: '/corpus/manifest.json',
