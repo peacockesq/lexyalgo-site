@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
-import { formatCorpusDate, getCorpusCaseBySlug, getCorpusCaseSlugs } from '@/lib/corpus'
+import { formatCorpusDate, getCorpusCaseBySlug, getCorpusCaseSlugs, getRelatedCorpusCases } from '@/lib/corpus'
 
 type Props = {
   params: Promise<{ slug: string }>
@@ -18,6 +18,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${item.title} — LexyCorpus`,
     description: item.generated_headnote.slice(0, 155),
+    alternates: { canonical: `/corpus/cases/${item.slug}` },
+    keywords: [item.title, item.citation, item.court, item.jurisdiction, item.plan_legal_category, 'QDRO', 'retirement division'].filter(Boolean) as string[],
+    openGraph: {
+      title: `${item.title} — LexyCorpus`,
+      description: item.generated_headnote.slice(0, 155),
+      type: 'article',
+      url: `/corpus/cases/${item.slug}`,
+    },
   }
 }
 
@@ -27,10 +35,22 @@ export default async function CorpusCasePage({ params }: Props) {
   if (!item) notFound()
 
   const sourceLabel = item.source_url ? new URL(item.source_url).hostname.replace(/^www\./, '') : 'source link pending'
+  const relatedCases = getRelatedCorpusCases(item)
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CreativeWork',
+    name: item.title,
+    datePublished: item.date_published ?? undefined,
+    citation: item.citation ?? undefined,
+    url: `https://lexyalgo.com/corpus/cases/${item.slug}`,
+    isBasedOn: item.source_url ?? undefined,
+    about: ['QDRO', 'retirement division', item.plan_legal_category].filter(Boolean),
+  }
 
   return (
     <section className="bg-white py-12 sm:py-16">
       <article className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <Link href="/corpus" className="text-sm font-semibold text-primary-container hover:underline">← LexyCorpus index</Link>
         <div className="mt-6 border-b border-slate-200 pb-8">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary-container">LexyCorpus case page</p>
@@ -87,6 +107,21 @@ export default async function CorpusCasePage({ params }: Props) {
             </a>
           ) : null}
         </section>
+
+        {relatedCases.length > 0 ? (
+          <section className="mt-10 rounded-2xl bg-white p-5 ring-1 ring-slate-200">
+            <h2 className="font-[family-name:var(--font-space)] text-2xl font-bold text-slate-950">Related public corpus pages</h2>
+            <p className="mt-2 text-sm text-slate-600">Deterministic links based on shared title/citation terms and QDRO / retirement / family-law retrieval scores.</p>
+            <div className="mt-4 grid gap-3 sm:grid-cols-2">
+              {relatedCases.map((related) => (
+                <Link key={related.slug} href={`/corpus/cases/${related.slug}`} className="rounded-xl border border-slate-200 p-4 hover:border-primary-container hover:bg-slate-50">
+                  <div className="font-semibold text-slate-950">{related.title}</div>
+                  <div className="mt-1 text-xs text-slate-500">{related.citation ?? 'Citation metadata pending'} · QDRO {related.strict_qdro_relevance}/5 · Retirement {related.retirement_division_relevance}/5</div>
+                </Link>
+              ))}
+            </div>
+          </section>
+        ) : null}
 
         <section className="mt-10">
           <h2 className="font-[family-name:var(--font-space)] text-2xl font-bold text-slate-950">Clean opinion text</h2>
