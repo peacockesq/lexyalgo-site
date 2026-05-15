@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T09:52:34.341Z",
+  "generated_at": "2026-05-15T12:01:55.773Z",
   "corpus_version": "public_v0",
   "case_count": 2271,
   "source_hosts": [
@@ -9,6 +9,10 @@
     }
   ],
   "topic_terms": [
+    {
+      "value": "qualified_domestic_relations_order",
+      "count": 2271
+    },
     {
       "value": "pension",
       "count": 1448
@@ -34,12 +38,24 @@
       "count": 393
     },
     {
+      "value": "alternate_payee",
+      "count": 378
+    },
+    {
+      "value": "beneficiary_dispute",
+      "count": 248
+    },
+    {
       "value": "survivor_annuity",
       "count": 108
     },
     {
       "value": "military_retirement",
       "count": 107
+    },
+    {
+      "value": "preemption",
+      "count": 36
     }
   ],
   "plan_legal_categories": [

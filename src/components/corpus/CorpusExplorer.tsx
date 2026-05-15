@@ -31,6 +31,7 @@ export default function CorpusExplorer({ cases }: Props) {
   const [minimumRetirement, setMinimumRetirement] = useState('0')
   const [sourceFilter, setSourceFilter] = useState('all')
   const [topicFilter, setTopicFilter] = useState('all')
+  const [yearFilter, setYearFilter] = useState('all')
   const [sortMode, setSortMode] = useState('relevance')
 
   const sourceOptions = useMemo(() => {
@@ -43,6 +44,11 @@ export default function CorpusExplorer({ cases }: Props) {
     return [...topics].sort((a, b) => a.localeCompare(b))
   }, [cases])
 
+  const yearOptions = useMemo(() => {
+    const years = new Set(cases.map((item) => item.citation_year).filter((year): year is number => typeof year === 'number'))
+    return [...years].sort((a, b) => b - a)
+  }, [cases])
+
   const filteredCases = useMemo(() => {
     const queryTokens = normalize(query).trim().split(/\s+/).filter(Boolean)
     const qdroFloor = Number(minimumQdro)
@@ -53,6 +59,7 @@ export default function CorpusExplorer({ cases }: Props) {
       if (item.retirement_division_relevance < retirementFloor) return false
       if (sourceFilter !== 'all' && (item.source_host ?? sourceHost(item.source_url)) !== sourceFilter) return false
       if (topicFilter !== 'all' && !(item.topic_terms ?? []).includes(topicFilter)) return false
+      if (yearFilter !== 'all' && item.citation_year !== Number(yearFilter)) return false
       if (queryTokens.length === 0) return true
 
       const searchable = [
@@ -88,13 +95,13 @@ export default function CorpusExplorer({ cases }: Props) {
       if (scoreB !== scoreA) return scoreB - scoreA
       return a.title.localeCompare(b.title)
     })
-  }, [cases, minimumQdro, minimumRetirement, query, sortMode, sourceFilter, topicFilter])
+  }, [cases, minimumQdro, minimumRetirement, query, sortMode, sourceFilter, topicFilter, yearFilter])
 
   const visibleCases = filteredCases.slice(0, 500)
 
   return (
     <div>
-      <div className="grid gap-3 rounded-2xl bg-slate-50 p-4 ring-1 ring-slate-200 md:grid-cols-[minmax(0,1fr)_120px_150px_180px_180px_160px]">
+      <div className="grid gap-3 rounded-2xl bg-slate-50 p-4 ring-1 ring-slate-200 md:grid-cols-[minmax(0,1fr)_120px_150px_180px_180px_120px_160px]">
         <label className="text-sm font-semibold text-slate-700">
           Search title, citation, source, court, or topic
           <input
@@ -148,6 +155,17 @@ export default function CorpusExplorer({ cases }: Props) {
           </select>
         </label>
         <label className="text-sm font-semibold text-slate-700">
+          Year
+          <select
+            className="mt-2 w-full rounded-xl border border-slate-300 bg-white px-3 py-3 text-base font-normal text-slate-950 outline-none focus:border-primary-container focus:ring-2 focus:ring-primary-container/20"
+            value={yearFilter}
+            onChange={(event) => setYearFilter(event.target.value)}
+          >
+            <option value="all">All years</option>
+            {yearOptions.map((year) => <option key={year} value={year}>{year}</option>)}
+          </select>
+        </label>
+        <label className="text-sm font-semibold text-slate-700">
           Sort
           <select
             className="mt-2 w-full rounded-xl border border-slate-300 bg-white px-3 py-3 text-base font-normal text-slate-950 outline-none focus:border-primary-container focus:ring-2 focus:ring-primary-container/20"
@@ -168,7 +186,7 @@ export default function CorpusExplorer({ cases }: Props) {
         <button className="rounded-full bg-emerald-50 px-3 py-1 text-emerald-700 hover:bg-emerald-100" type="button" onClick={() => { setMinimumQdro('0'); setMinimumRetirement('5'); setSortMode('retirement') }}>Retirement-heavy</button>
         <button className="rounded-full bg-slate-100 px-3 py-1 text-slate-700 hover:bg-slate-200" type="button" onClick={() => { setQuery('survivor annuity'); setMinimumQdro('0'); setMinimumRetirement('0') }}>Survivor annuity</button>
         <button className="rounded-full bg-slate-100 px-3 py-1 text-slate-700 hover:bg-slate-200" type="button" onClick={() => { setTopicFilter('erisa'); setQuery(''); setMinimumQdro('0'); setMinimumRetirement('0') }}>ERISA</button>
-        <button className="rounded-full bg-slate-100 px-3 py-1 text-slate-700 hover:bg-slate-200" type="button" onClick={() => { setQuery(''); setMinimumQdro('0'); setMinimumRetirement('0'); setSourceFilter('all'); setTopicFilter('all'); setSortMode('relevance') }}>Reset</button>
+        <button className="rounded-full bg-slate-100 px-3 py-1 text-slate-700 hover:bg-slate-200" type="button" onClick={() => { setQuery(''); setMinimumQdro('0'); setMinimumRetirement('0'); setSourceFilter('all'); setTopicFilter('all'); setYearFilter('all'); setSortMode('relevance') }}>Reset</button>
       </div>
 
       <div className="mt-4 flex flex-wrap items-center justify-between gap-3 text-sm text-slate-600">

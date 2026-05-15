@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T09:52:34.341Z",
+  "generated_at": "2026-05-15T12:01:55.773Z",
   "corpus_version": "public_v0",
   "case_count": 2271,
   "chunk_count": 12220,
@@ -37,6 +37,11 @@
       "path": "/corpus/facets.json",
       "format": "json",
       "description": "Precomputed source, topic, category, year, and relevance-score facet counts."
+    },
+    {
+      "path": "/corpus/related-cases.json",
+      "format": "json",
+      "description": "Deterministic related-case graph for internal-linking, browsing, and retrieval expansion."
     },
     {
       "path": "/corpus/cases.csv",

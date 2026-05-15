@@ -90,6 +90,7 @@ function extractedCaseName(item) {
 }
 
 const topicPatterns = [
+  ['qualified_domestic_relations_order', /qualified\s+domestic\s+relations\s+order|\bQDROs?\b/i],
   ['survivor_annuity', /survivor\s+annuity|survivorship/i],
   ['erisa', /\bERISA\b|29\s+U\.S\.C\.?\s*§?\s*1056|1056\(d\)\(3\)/i],
   ['pension', /\bpension\b|defined\s+benefit/i],
@@ -98,6 +99,9 @@ const topicPatterns = [
   ['public_employee_retirement', /public\s+employee|PERS|CalPERS|teacher'?s?\s+retirement/i],
   ['post_judgment_enforcement', /post[-\s]judgment|contempt|enforce|modif/i],
   ['present_value', /present\s+value|valuation|coverture|marital\s+portion/i],
+  ['alternate_payee', /alternate\s+payee|former\s+spouse/i],
+  ['beneficiary_dispute', /beneficiar(?:y|ies)|death\s+benefit/i],
+  ['preemption', /pre[-\s]?emption|preempted|supersede/i],
 ]
 
 function topicTerms(item) {
@@ -138,6 +142,70 @@ function searchTerms(item, topics = topicTerms(item)) {
 function csvCell(value) {
   const text = Array.isArray(value) ? value.join('|') : String(value ?? '')
   return `"${text.replaceAll('"', '""')}"`
+}
+
+function tokenizeRelated(value) {
+  return new Set(cleanText(value)
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, ' ')
+    .split(/\s+/)
+    .filter((token) => token.length > 3 && !['matter', 'estate', 'court', 'appeal', 'appellant', 'respondent', 'opinion'].includes(token)))
+}
+
+function sharedTokenCount(left, right) {
+  let count = 0
+  for (const token of left) {
+    if (right.has(token)) count += 1
+  }
+  return count
+}
+
+function relatedCaseEdges(items, limit = 8) {
+  const prepared = items.map((item) => ({
+    item,
+    tokens: tokenizeRelated(`${item.display_name ?? item.title} ${item.citation ?? ''} ${item.extracted_reporter_citation ?? ''} ${item.plan_legal_category ?? ''}`),
+    topics: new Set(item.topic_terms ?? []),
+  }))
+
+  return prepared.map(({ item, tokens, topics }) => {
+    const related = prepared
+      .filter((candidate) => candidate.item.slug !== item.slug)
+      .map((candidate) => {
+        const sharedTopics = (candidate.item.topic_terms ?? []).filter((topic) => topics.has(topic))
+        const sourceMatch = item.source_host && candidate.item.source_host === item.source_host ? 1 : 0
+        const stateMatch = item.state_code && candidate.item.state_code === item.state_code ? 1 : 0
+        const yearDistance = item.citation_year && candidate.item.citation_year ? Math.abs(item.citation_year - candidate.item.citation_year) : null
+        const yearScore = yearDistance === null ? 0 : Math.max(0, 5 - Math.floor(yearDistance / 3))
+        const relevanceScore =
+          Math.max(0, 5 - Math.abs((candidate.item.strict_qdro_relevance ?? 0) - (item.strict_qdro_relevance ?? 0))) +
+          Math.max(0, 5 - Math.abs((candidate.item.retirement_division_relevance ?? 0) - (item.retirement_division_relevance ?? 0))) +
+          Math.max(0, 5 - Math.abs((candidate.item.family_law_relevance ?? 0) - (item.family_law_relevance ?? 0)))
+        const score =
+          sharedTokenCount(tokens, candidate.tokens) * 4 +
+          sharedTopics.length * 8 +
+          sourceMatch * 3 +
+          stateMatch * 3 +
+          yearScore +
+          relevanceScore
+        return {
+          slug: candidate.item.slug,
+          title: candidate.item.display_name ?? candidate.item.title,
+          score,
+          shared_topics: sharedTopics,
+          citation_year: candidate.item.citation_year ?? null,
+          source_host: candidate.item.source_host ?? null,
+        }
+      })
+      .filter((candidate) => candidate.score > 0)
+      .sort((a, b) => b.score - a.score || a.title.localeCompare(b.title))
+      .slice(0, limit)
+
+    return {
+      slug: item.slug,
+      title: item.display_name ?? item.title,
+      related,
+    }
+  })
 }
 
 function countBy(items, keyFn) {
@@ -304,6 +372,15 @@ function main() {
   }
   fs.writeFileSync(path.join(publicCorpusDir, 'facets.json'), `${JSON.stringify(facets, null, 2)}\n`)
 
+  const relatedCases = {
+    generated_at: publicManifest.artifact_generated_at,
+    corpus_version: publicManifest.corpus_version,
+    case_count: publicManifest.case_count,
+    description: 'Deterministic related-case graph for public LexyCorpus pages. Scores use public metadata, extracted citation fields, topic flags, jurisdiction, source host, and relevance-score proximity.',
+    cases: relatedCaseEdges(publicManifestCases),
+  }
+  fs.writeFileSync(path.join(publicCorpusDir, 'related-cases.json'), `${JSON.stringify(relatedCases, null, 2)}\n`)
+
   const csvHeaders = ['slug', 'title', 'display_name', 'citation', 'citation_is_placeholder', 'extracted_reporter_citation', 'extracted_docket_number', 'citation_year', 'source_host', 'source_opinion_id', 'source_url', 'court', 'jurisdiction', 'state_code', 'plan_legal_category', 'topic_terms', 'strict_qdro_relevance', 'retirement_division_relevance', 'family_law_relevance', 'relevance_total', 'page_url']
   const csvRows = publicManifestCases.map((item) => csvHeaders.map((header) => csvCell(item[header])).join(','))
   fs.writeFileSync(path.join(publicCorpusDir, 'cases.csv'), `${csvHeaders.join(',')}\n${csvRows.join('\n')}\n`)
@@ -365,6 +442,11 @@ function main() {
         path: '/corpus/facets.json',
         format: 'json',
         description: 'Precomputed source, topic, category, year, and relevance-score facet counts.',
+      },
+      {
+        path: '/corpus/related-cases.json',
+        format: 'json',
+        description: 'Deterministic related-case graph for internal-linking, browsing, and retrieval expansion.',
       },
       {
         path: '/corpus/cases.csv',
