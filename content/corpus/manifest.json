@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-14T22:43:19.241891+00:00",
+  "generated_at": "2026-05-15T05:17:53.216657+00:00",
   "run_name": "public_qdro_static_v0_20260514",
   "run_id": "c3fdbbfe-0559-4654-88b2-9c57a79fac9e",
-  "case_count": 2284,
+  "case_count": 2285,
   "cases": [
     {
       "slug": "abdul-w-mahmud-v-shireen-mahmud-3366061",
@@ -460,6 +460,16 @@
       "citation": "2019 ND 14",
       "source_url": "https://www.courtlistener.com/opinion/4599389/cody-v-cody/",
       "strict_qdro_relevance": 1,
+      "retirement_division_relevance": 5,
+      "family_law_relevance": 5,
+      "status": "machine_draft_public_v0"
+    },
+    {
+      "slug": "conner-c-v-holtzinger-conner-k-4426988",
+      "title": "Conner, C. v. Holtzinger Conner, K.",
+      "citation": "2019 Pa. Super. 251",
+      "source_url": "https://www.courtlistener.com/opinion/4649735/conner-c-v-holtzinger-conner-k/",
+      "strict_qdro_relevance": 3,
       "retirement_division_relevance": 5,
       "family_law_relevance": 5,
       "status": "machine_draft_public_v0"

@@ -99,6 +99,8 @@ export default async function CorpusCasePage({ params }: Props) {
             <div><dt className="font-semibold text-slate-950">Source type</dt><dd>{item.source_type}</dd></div>
             <div><dt className="font-semibold text-slate-950">Permissions posture</dt><dd>{item.source_permissions}</dd></div>
             <div><dt className="font-semibold text-slate-950">Generated status</dt><dd>{item.status.replaceAll('_', ' ')}</dd></div>
+            <div><dt className="font-semibold text-slate-950">Review status</dt><dd>{item.review_status.replaceAll('_', ' ')}</dd></div>
+            <div><dt className="font-semibold text-slate-950">Jurisdiction metadata</dt><dd>{[item.court, item.jurisdiction, item.state_code].filter(Boolean).join(' · ') || 'pending'}</dd></div>
             <div><dt className="font-semibold text-slate-950">Generated at</dt><dd>{formatCorpusDate(item.generated_at)}</dd></div>
           </dl>
           {item.source_url ? (

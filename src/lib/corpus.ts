@@ -33,11 +33,22 @@ export type CorpusManifestCase = Pick<
   | 'title'
   | 'citation'
   | 'source_url'
+  | 'court'
+  | 'jurisdiction'
+  | 'state_code'
+  | 'date_published'
+  | 'plan_legal_category'
   | 'strict_qdro_relevance'
   | 'retirement_division_relevance'
   | 'family_law_relevance'
   | 'status'
->
+  | 'review_status'
+> & {
+  source_host?: string | null
+  citation_year?: number | null
+  topic_terms?: string[]
+  page_url?: string
+}
 
 export type CorpusManifest = {
   generated_at: string
