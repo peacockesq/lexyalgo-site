@@ -44,9 +44,13 @@ export type CorpusManifestCase = Pick<
   | 'status'
   | 'review_status'
 > & {
+  citation_is_placeholder?: boolean
   source_host?: string | null
+  source_opinion_id?: string | null
   citation_year?: number | null
   topic_terms?: string[]
+  relevance_total?: number
+  search_terms?: string
   page_url?: string
 }
 
@@ -118,16 +122,23 @@ function sharedTokenCount(left: Set<string>, right: Set<string>) {
 
 export function getRelatedCorpusCases(item: CorpusCase, limit = 6): CorpusManifestCase[] {
   const currentTokens = tokenize(`${item.title} ${item.citation ?? ''} ${item.plan_legal_category}`)
+  const currentTopics = new Set((item as CorpusCase & { topic_terms?: string[] }).topic_terms ?? [])
+  const currentYear = item.date_published ? Number.parseInt(item.date_published.slice(0, 4), 10) : null
+
   return getAllCorpusCases()
     .filter((candidate) => candidate.slug !== item.slug)
     .map((candidate) => {
-      const candidateTokens = tokenize(`${candidate.title} ${candidate.citation ?? ''}`)
+      const candidateTokens = tokenize(`${candidate.title} ${candidate.citation ?? ''} ${candidate.plan_legal_category} ${(candidate.topic_terms ?? []).join(' ')}`)
+      const sharedTopics = (candidate.topic_terms ?? []).filter((topic) => currentTopics.has(topic)).length
       const textScore = sharedTokenCount(currentTokens, candidateTokens) * 3
+      const topicScore = sharedTopics * 5
+      const yearScore = currentYear && candidate.citation_year ? Math.max(0, 4 - Math.floor(Math.abs(candidate.citation_year - currentYear) / 5)) : 0
+      const sourceScore = candidate.source_host && item.source_url?.includes(candidate.source_host) ? 2 : 0
       const relevanceScore =
         Math.max(0, 5 - Math.abs(candidate.strict_qdro_relevance - item.strict_qdro_relevance)) +
         Math.max(0, 5 - Math.abs(candidate.retirement_division_relevance - item.retirement_division_relevance)) +
         Math.max(0, 5 - Math.abs(candidate.family_law_relevance - item.family_law_relevance))
-      return { candidate, score: textScore + relevanceScore }
+      return { candidate, score: textScore + topicScore + yearScore + sourceScore + relevanceScore }
     })
     .sort((a, b) => {
       if (b.score !== a.score) return b.score - a.score

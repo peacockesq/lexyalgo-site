@@ -57,14 +57,16 @@ export default function CorpusExplorer({ cases }: Props) {
 
       const searchable = [
         item.title,
-        item.citation,
+        item.citation_is_placeholder ? '' : item.citation,
         item.source_url,
         item.source_host,
+        item.source_opinion_id,
         item.court,
         item.jurisdiction,
         item.state_code,
         item.citation_year,
         item.plan_legal_category,
+        item.search_terms,
         item.status,
         ...(item.topic_terms ?? []),
       ].map(normalize).join(' ')
@@ -180,7 +182,7 @@ export default function CorpusExplorer({ cases }: Props) {
                   <Link className="hover:text-primary-container" href={`/corpus/cases/${item.slug}`}>{item.title}</Link>
                 </h3>
                 <p className="mt-1 text-sm text-slate-500">
-                  {item.citation ? `Citation: ${item.citation}` : 'Citation metadata pending'} · {item.court ?? item.jurisdiction ?? item.state_code ?? 'court pending'} · {item.source_host ?? sourceHost(item.source_url)} · {item.status.replaceAll('_', ' ')}
+                  {item.citation && !item.citation_is_placeholder ? `Citation: ${item.citation}` : 'Citation metadata pending'} · {item.court ?? item.jurisdiction ?? item.state_code ?? 'court pending'} · {item.source_host ?? sourceHost(item.source_url)}{item.source_opinion_id ? ` #${item.source_opinion_id}` : ''} · {item.status.replaceAll('_', ' ')}
                 </p>
                 {(item.topic_terms ?? []).length > 0 ? (
                   <p className="mt-2 flex flex-wrap gap-1 text-xs text-slate-500">

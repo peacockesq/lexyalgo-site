@@ -35,13 +35,14 @@ export default async function CorpusCasePage({ params }: Props) {
   if (!item) notFound()
 
   const sourceLabel = item.source_url ? new URL(item.source_url).hostname.replace(/^www\./, '') : 'source link pending'
+  const displayCitation = item.citation && item.citation.toLowerCase() !== 'qdro' ? item.citation : null
   const relatedCases = getRelatedCorpusCases(item)
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'CreativeWork',
     name: item.title,
     datePublished: item.date_published ?? undefined,
-    citation: item.citation ?? undefined,
+    citation: displayCitation ?? undefined,
     url: `https://lexyalgo.com/corpus/cases/${item.slug}`,
     isBasedOn: item.source_url ?? undefined,
     about: ['QDRO', 'retirement division', item.plan_legal_category].filter(Boolean),
@@ -56,7 +57,7 @@ export default async function CorpusCasePage({ params }: Props) {
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primary-container">LexyCorpus case page</p>
           <h1 className="mt-3 font-[family-name:var(--font-space)] text-4xl font-bold text-slate-950 sm:text-5xl">{item.title}</h1>
           <p className="mt-4 text-slate-600">
-            {item.citation ? <><strong>Citation:</strong> {item.citation} · </> : null}
+            {displayCitation ? <><strong>Citation:</strong> {displayCitation} · </> : null}
             {formatCorpusDate(item.date_published)} · {item.court ?? item.jurisdiction ?? 'Court metadata pending'}
           </p>
           <div className="mt-5 flex flex-wrap gap-2 text-xs font-semibold">
@@ -118,7 +119,7 @@ export default async function CorpusCasePage({ params }: Props) {
               {relatedCases.map((related) => (
                 <Link key={related.slug} href={`/corpus/cases/${related.slug}`} className="rounded-xl border border-slate-200 p-4 hover:border-primary-container hover:bg-slate-50">
                   <div className="font-semibold text-slate-950">{related.title}</div>
-                  <div className="mt-1 text-xs text-slate-500">{related.citation ?? 'Citation metadata pending'} · QDRO {related.strict_qdro_relevance}/5 · Retirement {related.retirement_division_relevance}/5</div>
+                  <div className="mt-1 text-xs text-slate-500">{related.citation && !related.citation_is_placeholder ? related.citation : 'Citation metadata pending'} · QDRO {related.strict_qdro_relevance}/5 · Retirement {related.retirement_division_relevance}/5</div>
                 </Link>
               ))}
             </div>

@@ -1,0 +1,205 @@
+{
+  "generated_at": "2026-05-15T07:41:33.452Z",
+  "corpus_version": "public_v0",
+  "case_count": 2271,
+  "source_hosts": [
+    {
+      "value": "courtlistener.com",
+      "count": 287
+    }
+  ],
+  "topic_terms": [
+    {
+      "value": "pension",
+      "count": 1448
+    },
+    {
+      "value": "present_value",
+      "count": 639
+    },
+    {
+      "value": "401k",
+      "count": 631
+    },
+    {
+      "value": "post_judgment_enforcement",
+      "count": 611
+    },
+    {
+      "value": "erisa",
+      "count": 512
+    },
+    {
+      "value": "public_employee_retirement",
+      "count": 393
+    },
+    {
+      "value": "survivor_annuity",
+      "count": 108
+    },
+    {
+      "value": "military_retirement",
+      "count": 107
+    }
+  ],
+  "plan_legal_categories": [
+    {
+      "value": "pension / defined benefit issues",
+      "count": 1446
+    },
+    {
+      "value": "QDRO procedure / domestic relations order issues",
+      "count": 556
+    },
+    {
+      "value": "ERISA / defined contribution issues",
+      "count": 244
+    },
+    {
+      "value": "family-law retirement/property division context",
+      "count": 25
+    }
+  ],
+  "citation_years": [
+    {
+      "value": 2025,
+      "count": 3
+    },
+    {
+      "value": 2024,
+      "count": 1
+    },
+    {
+      "value": 2023,
+      "count": 1
+    },
+    {
+      "value": 2021,
+      "count": 2
+    },
+    {
+      "value": 2020,
+      "count": 2
+    },
+    {
+      "value": 2019,
+      "count": 4
+    },
+    {
+      "value": 2018,
+      "count": 2
+    },
+    {
+      "value": 2016,
+      "count": 3
+    },
+    {
+      "value": 2015,
+      "count": 3
+    },
+    {
+      "value": 2014,
+      "count": 1
+    },
+    {
+      "value": 2013,
+      "count": 1
+    },
+    {
+      "value": 2012,
+      "count": 2
+    },
+    {
+      "value": 2011,
+      "count": 2
+    },
+    {
+      "value": 2010,
+      "count": 1
+    },
+    {
+      "value": 2007,
+      "count": 1
+    },
+    {
+      "value": 2003,
+      "count": 2
+    },
+    {
+      "value": 2002,
+      "count": 22
+    },
+    {
+      "value": 2001,
+      "count": 17
+    },
+    {
+      "value": 2000,
+      "count": 33
+    },
+    {
+      "value": 1999,
+      "count": 34
+    },
+    {
+      "value": 1998,
+      "count": 28
+    },
+    {
+      "value": 1997,
+      "count": 14
+    },
+    {
+      "value": 1996,
+      "count": 23
+    },
+    {
+      "value": 1995,
+      "count": 24
+    },
+    {
+      "value": 1994,
+      "count": 19
+    },
+    {
+      "value": 1993,
+      "count": 16
+    },
+    {
+      "value": 1992,
+      "count": 6
+    },
+    {
+      "value": 1991,
+      "count": 18
+    },
+    {
+      "value": 1990,
+      "count": 2
+    }
+  ],
+  "qdro_scores": [
+    {
+      "value": 5,
+      "count": 2230
+    },
+    {
+      "value": 3,
+      "count": 2
+    },
+    {
+      "value": 1,
+      "count": 39
+    }
+  ],
+  "retirement_scores": [
+    {
+      "value": 5,
+      "count": 1953
+    },
+    {
+      "value": 2,
+      "count": 318
+    }
+  ]
+}

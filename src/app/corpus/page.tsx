@@ -43,6 +43,9 @@ export default function CorpusIndexPage() {
           </p>
           <div className="mt-5 flex flex-wrap gap-3 text-sm font-semibold">
             <a className="rounded-full bg-slate-950 px-4 py-2 text-white hover:bg-slate-800" href="/corpus/manifest.json">Download metadata JSON</a>
+            <a className="rounded-full bg-slate-100 px-4 py-2 text-slate-800 hover:bg-slate-200" href="/corpus/search-index.json">Static search index</a>
+            <a className="rounded-full bg-slate-100 px-4 py-2 text-slate-800 hover:bg-slate-200" href="/corpus/facets.json">Facet counts</a>
+            <a className="rounded-full bg-slate-100 px-4 py-2 text-slate-800 hover:bg-slate-200" href="/corpus/cases.csv">Cases CSV</a>
             <a className="rounded-full bg-slate-100 px-4 py-2 text-slate-800 hover:bg-slate-200" href="/corpus/rag/manifest.json">RAG artifact manifest</a>
             <a className="rounded-full bg-slate-100 px-4 py-2 text-slate-800 hover:bg-slate-200" href="/corpus/rag/chunks.jsonl">RAG chunks JSONL</a>
           </div>

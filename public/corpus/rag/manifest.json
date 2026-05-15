@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T05:31:57.008Z",
+  "generated_at": "2026-05-15T07:41:33.452Z",
   "corpus_version": "public_v0",
   "case_count": 2271,
   "chunk_count": 12220,
@@ -9,11 +9,14 @@
     "summary"
   ],
   "metadata_fields": [
+    "citation_is_placeholder",
     "citation_year",
     "court",
     "jurisdiction",
     "plan_legal_category",
+    "relevance_total",
     "source_host",
+    "source_opinion_id",
     "state_code",
     "topic_terms"
   ],
@@ -22,6 +25,21 @@
       "path": "/corpus/manifest.json",
       "format": "json",
       "description": "Case-level public metadata and page URLs."
+    },
+    {
+      "path": "/corpus/search-index.json",
+      "format": "json",
+      "description": "Compact static client/search ingestion index with normalized terms and deterministic metadata."
+    },
+    {
+      "path": "/corpus/facets.json",
+      "format": "json",
+      "description": "Precomputed source, topic, category, year, and relevance-score facet counts."
+    },
+    {
+      "path": "/corpus/cases.csv",
+      "format": "csv",
+      "description": "Spreadsheet-friendly public case metadata export."
     },
     {
       "path": "/corpus/rag/chunks.jsonl",
