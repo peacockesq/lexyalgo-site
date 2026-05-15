@@ -26,6 +26,7 @@ export default function CorpusExplorer({ cases }: Props) {
   const [minimumQdro, setMinimumQdro] = useState('0')
   const [minimumRetirement, setMinimumRetirement] = useState('0')
   const [sourceFilter, setSourceFilter] = useState('all')
+  const [sortMode, setSortMode] = useState('relevance')
 
   const sourceOptions = useMemo(() => {
     const hosts = new Set(cases.map((item) => sourceHost(item.source_url)).filter((host) => host !== 'source pending'))
@@ -33,7 +34,7 @@ export default function CorpusExplorer({ cases }: Props) {
   }, [cases])
 
   const filteredCases = useMemo(() => {
-    const q = normalize(query).trim()
+    const queryTokens = normalize(query).trim().split(/\s+/).filter(Boolean)
     const qdroFloor = Number(minimumQdro)
     const retirementFloor = Number(minimumRetirement)
 
@@ -41,18 +42,30 @@ export default function CorpusExplorer({ cases }: Props) {
       if (item.strict_qdro_relevance < qdroFloor) return false
       if (item.retirement_division_relevance < retirementFloor) return false
       if (sourceFilter !== 'all' && sourceHost(item.source_url) !== sourceFilter) return false
-      if (!q) return true
+      if (queryTokens.length === 0) return true
 
       const searchable = [item.title, item.citation, item.source_url, item.status].map(normalize).join(' ')
-      return searchable.includes(q)
+      return queryTokens.every((token) => searchable.includes(token))
+    }).sort((a, b) => {
+      if (sortMode === 'title') return a.title.localeCompare(b.title)
+      if (sortMode === 'qdro' && b.strict_qdro_relevance !== a.strict_qdro_relevance) {
+        return b.strict_qdro_relevance - a.strict_qdro_relevance
+      }
+      if (sortMode === 'retirement' && b.retirement_division_relevance !== a.retirement_division_relevance) {
+        return b.retirement_division_relevance - a.retirement_division_relevance
+      }
+      const scoreA = a.strict_qdro_relevance + a.retirement_division_relevance + a.family_law_relevance
+      const scoreB = b.strict_qdro_relevance + b.retirement_division_relevance + b.family_law_relevance
+      if (scoreB !== scoreA) return scoreB - scoreA
+      return a.title.localeCompare(b.title)
     })
-  }, [cases, minimumQdro, minimumRetirement, query, sourceFilter])
+  }, [cases, minimumQdro, minimumRetirement, query, sortMode, sourceFilter])
 
   const visibleCases = filteredCases.slice(0, 500)
 
   return (
     <div>
-      <div className="grid gap-3 rounded-2xl bg-slate-50 p-4 ring-1 ring-slate-200 md:grid-cols-[minmax(0,1fr)_160px_190px_220px]">
+      <div className="grid gap-3 rounded-2xl bg-slate-50 p-4 ring-1 ring-slate-200 md:grid-cols-[minmax(0,1fr)_140px_170px_200px_180px]">
         <label className="text-sm font-semibold text-slate-700">
           Search title, citation, or source
           <input
@@ -94,6 +107,27 @@ export default function CorpusExplorer({ cases }: Props) {
             {sourceOptions.map((host) => <option key={host} value={host}>{host}</option>)}
           </select>
         </label>
+        <label className="text-sm font-semibold text-slate-700">
+          Sort
+          <select
+            className="mt-2 w-full rounded-xl border border-slate-300 bg-white px-3 py-3 text-base font-normal text-slate-950 outline-none focus:border-primary-container focus:ring-2 focus:ring-primary-container/20"
+            value={sortMode}
+            onChange={(event) => setSortMode(event.target.value)}
+          >
+            <option value="relevance">Combined relevance</option>
+            <option value="qdro">QDRO score</option>
+            <option value="retirement">Retirement score</option>
+            <option value="title">Title A-Z</option>
+          </select>
+        </label>
+      </div>
+
+      <div className="mt-3 flex flex-wrap gap-2 text-xs font-semibold">
+        <button className="rounded-full bg-blue-50 px-3 py-1 text-blue-700 hover:bg-blue-100" type="button" onClick={() => { setMinimumQdro('5'); setMinimumRetirement('0'); setSortMode('qdro') }}>Strict QDRO</button>
+        <button className="rounded-full bg-emerald-50 px-3 py-1 text-emerald-700 hover:bg-emerald-100" type="button" onClick={() => { setMinimumQdro('0'); setMinimumRetirement('5'); setSortMode('retirement') }}>Retirement-heavy</button>
+        <button className="rounded-full bg-slate-100 px-3 py-1 text-slate-700 hover:bg-slate-200" type="button" onClick={() => { setQuery('survivor annuity'); setMinimumQdro('0'); setMinimumRetirement('0') }}>Survivor annuity</button>
+        <button className="rounded-full bg-slate-100 px-3 py-1 text-slate-700 hover:bg-slate-200" type="button" onClick={() => { setQuery('erisa'); setMinimumQdro('0'); setMinimumRetirement('0') }}>ERISA</button>
+        <button className="rounded-full bg-slate-100 px-3 py-1 text-slate-700 hover:bg-slate-200" type="button" onClick={() => { setQuery(''); setMinimumQdro('0'); setMinimumRetirement('0'); setSourceFilter('all'); setSortMode('relevance') }}>Reset</button>
       </div>
 
       <div className="mt-4 flex flex-wrap items-center justify-between gap-3 text-sm text-slate-600">

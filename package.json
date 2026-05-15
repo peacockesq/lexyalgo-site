@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tinacms dev -c \"next dev\"",
-    "build": "tinacms build --local --skip-cloud-checks && next build",
+    "build": "node scripts/generate-corpus-public-artifacts.mjs && tinacms build --local --skip-cloud-checks && next build",
     "start": "next start",
     "lint": "tsc --noEmit -p tsconfig.lint.json",
     "verify:shared-auth-links": "node scripts/verify-shared-auth-links.mjs"

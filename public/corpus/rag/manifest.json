@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-05-15T03:19:41.917Z",
+  "corpus_version": "public_v0",
+  "case_count": 2270,
+  "chunk_count": 12214,
+  "chunk_kinds": [
+    "evidence_quote",
+    "holding",
+    "summary"
+  ],
+  "files": [
+    {
+      "path": "/corpus/manifest.json",
+      "format": "json",
+      "description": "Case-level public metadata and page URLs."
+    },
+    {
+      "path": "/corpus/rag/chunks.jsonl",
+      "format": "jsonl",
+      "description": "Retrieval-ready summary, holding, and evidence-quote chunks with deterministic IDs."
+    }
+  ]
+}
