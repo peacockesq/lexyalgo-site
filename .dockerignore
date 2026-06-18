@@ -1,0 +1,30 @@
+# Dependency and package-manager caches
+node_modules
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js / Tina / build output
+.next
+out
+.tina
+.vercel
+.turbo
+coverage
+
+# Local/editor/system files
+.git
+.gitignore
+.github
+.DS_Store
+.env
+.env.*
+*.local
+*.log
+
+# Hermes/Kanban scratch artifacts; never bake worker evidence into runtime images
+evidence
+PR_TAIL_AUDIT.md
+remote_inventory.sh
