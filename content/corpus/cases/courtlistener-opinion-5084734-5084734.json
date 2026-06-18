@@ -1,0 +1,40 @@
+{
+  "document_id": "0a58790c-ea9f-47a9-98ee-16b7433034e0",
+  "slug": "courtlistener-opinion-5084734-5084734",
+  "title": "CourtListener opinion 5084734",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_family_retirement_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 1,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "family-law retirement/property division context",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 2,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 5084734 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to family-law retirement/property division context. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 1/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "retirement benefits",
+      "quote": "and granting appellee's Motion for Enforcement and Clarification. We affirm. The parties were divorced on May 11, 1988. The final decree awarded to appellee, as her separate property, one-half of the cash surrender value as of May 11, 1988, of two optional retirement plans in appellant's name. On February 10, 1992, appellee filed a Motion for Enforcement and Clarification. In her motion, appellee requested that the court render a \\clarifying\\\" order so that the portion of the divorce decree awarding her the retirement benefits would include appellee's last known address and appellant's mailing address and thus"
+    }
+  ],
+  "full_text": "Case Number: A14-92-01303-CV 06/20/1994 Record returned to Court of Appeals 05/18/1994 Application for Writ of Error - Disposed proceeding denied 03/31/1994 Reply filed 03/25/1994 Notice requesting filing fee 03/24/1994 Case forwarded to Court 03/08/1994 Application for Writ of Error - Filed 02/08/1994 Extension of time to file app writ err disposed of Granted 02/08/1994 APPLICATION FOR WRIT OF ERROR IS DUE TO BE FILED 02/04/1994 Extension of time to file app writ err filed\n OPINION \n This is an appeal from the trial court's order denying appellant's Motion to Dismiss and granting appellee's Motion for Enforcement and Clarification. We affirm. \n The parties were divorced on May 11, 1988. The final decree awarded to appellee, as her separate property, one-half of the cash surrender value as of May 11, 1988, of two optional retirement plans in appellant's name. On February 10, 1992, appellee filed a Motion for Enforcement and Clarification. In her motion, appellee requested that the court render a \\clarifying\\\" order so that the portion of the divorce decree awarding her the retirement benefits would include appellee's last known address and appellant's mailing address and thus",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

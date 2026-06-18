@@ -1,0 +1,52 @@
+{
+  "document_id": "986c0bd4-29f3-4842-9cf2-c40a0552a003",
+  "slug": "courtlistener-opinion-3031149-3031149",
+  "title": "CourtListener opinion 3031149",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "ERISA / defined contribution issues",
+  "signals": {
+    "QDRO": 4,
+    "retirement benefits": 5,
+    "pension": 0,
+    "ERISA": 2,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3031149 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to ERISA / defined contribution issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "t Judge. Richard Schieffer and his law firm appeal the Bankruptcy Appellate Panel's (BAP's) determination that a debtor's interest in an ERISA-qualified retirement plan should be excluded from the debtor's bankruptcy estate when the interest derives from a qualified domestic relations order (QDRO) rather than directly from the plan. See Nelson v. Ramette (In re Nelson), 274 B.R. 789, 798 (B.A.P. 8th Cir. 2002). We affirm. I Ronald Nelson, a self-employed carpenter/contractor, and his wife, Denise, a cabin attendant for Northwest Airlines, obtained a divorce on September 28, 2000. The divorce decree awarded Ronald $71,089 from Denise's reti"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": ", 2003 ___________ Before McMILLIAN, JOHN R. GIBSON, and BYE, Circuit Judges. ___________ BYE, Circuit Judge. Richard Schieffer and his law firm appeal the Bankruptcy Appellate Panel's (BAP's) determination that a debtor's interest in an ERISA-qualified retirement plan should be excluded from the debtor's bankruptcy estate when the interest derives from a qualified domestic relations order (QDRO) rather than directly from the plan. See Nelson v. Ramette (In re Nelson), 274 B.R. 789, 798 (B.A.P. 8th Cir. 2002). We affirm. I Ronald Nelson, a self-employed carpenter/contractor, and his wife, Denise, a cabin attendant fo"
+    },
+    {
+      "label": "ERISA",
+      "quote": "Filed: March 7, 2003 ___________ Before McMILLIAN, JOHN R. GIBSON, and BYE, Circuit Judges. ___________ BYE, Circuit Judge. Richard Schieffer and his law firm appeal the Bankruptcy Appellate Panel's (BAP's) determination that a debtor's interest in an ERISA-qualified retirement plan should be excluded from the debtor's bankruptcy estate when the interest derives from a qualified domestic relations order (QDRO) rather than directly from the plan. See Nelson v. Ramette (In re Nelson), 274 B.R. 789, 798 (B.A.P. 8th Cir. 2002). We affirm. I Ronald Nelson, a self-employed carpenter/contractor, and his wife, De"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "Richard Schieffer and his law firm appeal the Bankruptcy Appellate Panel's (BAP's) determination that a debtor's interest in an ERISA-qualified retirement plan should be excluded from the debtor's bankruptcy estate when the interest derives from a qualified domestic relations order (QDRO) rather than directly from the plan. See Nelson v. Ramette (In re Nelson), 274 B.R. 789, 798 (B.A.P. 8th Cir. 2002). We affirm. I Ronald Nelson, a self-employed carpenter/contractor, and his wife, Denise, a cabin attendant for Northwest Airlines, obtained a divorce on September 28, 2000. The divorce decree awarded Ronald $71,089 from Denise's reti"
+    }
+  ],
+  "full_text": "United States Court of Appeals\n FOR THE EIGHTH CIRCUIT\n ___________\n\n No. 02-2045\n ___________\n\nIn re: Ronald J. Nelson, *\n *\n Debtor. *\n________________________________ *\n *\nRonald J. Nelson, *\n * Appeal from the United States\n Appellee, * Bankruptcy Appellate Panel\n * for the Eighth Circuit.\n v. *\n *\nJames E. Ramette; Richard Schieffer, *\nand the law firm of Anderson, Dove, *\nFretland & Van Valkenburg, *\n *\n Appellant. *\n ___________\n\n Submitted: December 11, 2002\n\n Filed: March 7, 2003\n ___________\n\nBefore McMILLIAN, JOHN R. GIBSON, and BYE, Circuit Judges.\n ___________\n\nBYE, Circuit Judge.\n\n Richard Schieffer and his law firm appeal the Bankruptcy Appellate Panel's\n(BAP's) determination that a debtor's interest in an ERISA-qualified retirement plan\nshould be excluded from the debtor's bankruptcy estate when the interest derives from\n a qualified domestic relations order (QDRO) rather than directly from the plan. See\nNelson v. Ramette (In re Nelson), 274 B.R. 789, 798 (B.A.P. 8th Cir. 2002). We\naffirm.\n\n I\n\n Ronald Nelson, a self-employed carpenter/contractor, and his wife, Denise, a\ncabin attendant for Northwest Airlines, obtained a divorce on September 28, 2000.\nThe divorce decree awarded Ronald $71,089 from Denise's retirement plan. The\ndivorce decree provided the award would be made pursuant to a QDRO. On\nNovember 17, 2000, the divorce court issued a domestic relations order (DRO) to\neffect the distribution from Northwest's retirement plan.\n\n On February 26, 2001, while the retirement plan was determining whether the\nDRO qualified as a QDRO, and before it had distributed any funds to Ronald, he filed\nfor bankruptcy. Ronald claimed in the bankruptcy proceeding that his pending\ndistribution from the retirement plan should be excluded from his bankruptcy estate\npursuant to 11 U.S.C. § 541(c)(2)1 because it was subject to ERISA's anti-alienation\nprovision, 29 U.S.C. § 1056(d)(1).2 Because Ronald still owed attorney fees to his\ndivorce attorney, Richard Schieffer, Schieffer objected to Ronald's claim arguing the\npending distribution should be included in the bankruptcy estate and distributed to\ncreditors.\n\n 1\n \\A restriction on the transfer of a beneficial interest of the debtor in a trust that",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

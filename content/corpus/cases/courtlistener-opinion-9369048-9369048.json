@@ -1,0 +1,40 @@
+{
+  "document_id": "586b5f6f-b54e-43b1-8a94-684959bdcc07",
+  "slug": "courtlistener-opinion-9369048-9369048",
+  "title": "CourtListener opinion 9369048",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 9369048 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "domestic relations order",
+      "quote": "Defendant made threatening social media posts and calls to the victim, in violation of a domestic violence restraining order. Defendant was charged with stalking (Pen. Code, § 646.9, subd. (b)),1 criminal threats (§ 422, subd. (a)), misdemeanor disobeying a domestic relations order (§ 273.6, subd. (a)), misdemeanor domestic violence contempt of court (§ 166, subd. (c)(1)(A)), and misdemeanor resisting a peace officer (§ 148, subd. (a)(1)). Defendant made several Marsden2 motions; the trial court held hearings on each motion and denied each. Defendant then entered into a stipulated plea agreement to felony stalking in exchange for fo"
+    }
+  ],
+  "full_text": "Filed 2/7/23 P. v. Bartos CA3\n NOT TO BE PUBLISHED\nCalifornia Rules of Court, rule 8.1115(a), prohibits courts and parties from citing or relying on opinions not certified for\npublication or ordered published, except as specified by rule 8.1115(b). This opinion has not been certified for publication\nor ordered published for purposes of rule 8.1115.\n\n IN THE COURT OF APPEAL OF THE STATE OF CALIFORNIA\n THIRD APPELLATE DISTRICT\n (Placer)\n ----\n\n THE PEOPLE, C096370\n\n Plaintiff and Respondent, (Super. Ct. No. 62-183837)\n\n v.\n\n HARRY DANIEL BARTOS,\n\n Defendant and Appellant.\n\n Appointed counsel for defendant Harry Daniel Bartos has asked this court to\nconduct an independent review of the record to determine whether there are any arguable\nissues on appeal. (People v. Wende (1979) 25 Cal.3d 436.) Finding none, we will affirm\nthe judgment.\n We provide the following brief description of the facts and procedural history of\nthe case. (See People v. Kelly (2006) 40 Cal.4th 106, 110, 124.)\n\n 1\n FACTUAL AND PROCEDURAL BACKGROUND\n Defendant made threatening social media posts and calls to the victim, in violation\nof a domestic violence restraining order. Defendant was charged with stalking (Pen.\nCode, § 646.9, subd. (b)),1 criminal threats (§ 422, subd. (a)), misdemeanor disobeying a\ndomestic relations order (§ 273.6, subd. (a)), misdemeanor domestic violence contempt\nof court (§ 166, subd. (c)(1)(A)), and misdemeanor resisting a peace officer (§ 148, subd.\n(a)(1)).\n Defendant made several Marsden2 motions; the trial court held hearings on each\nmotion and denied each.\n Defendant then entered into a stipulated plea agreement to felony stalking in\nexchange for four years' probation and a maximum of 270 days in jail.\n On May 12, 2022, the trial court sentenced defendant to four years of formal\nprobation and 270 days in jail in accordance with the plea agreement.\n DISCUSSION\n Defendant's appointed counsel has asked this court to conduct an independent\nreview of the record to determine whether there are any arguable issues on appeal.\n(People v. Wende, supra, 25 Cal.3d 436.) Defendant was advised by counsel of his right\nto file a supplemental brief within 30 days from the date the opening brief was filed.\nMore than 30 days have elapsed, and defendant has not filed a supplemental brief.\n We have undertaken an examination of the entire record and find no arguable error\nthat would result in a disposition more favorable to defendant.\n\n1 Undesignated statutory references are to the Penal Code.\n2 People v. Marsden (1970) 2 Cal.3d 118.\n\n 2\n DISPOSITION\n The judgment is affirmed.\n\n /s/\n EARL, J.\n\nWe concur:\n\n /s/\nROBIE, Acting P. J.\n\n /s/\nDUARTE, J.\n\n 3",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

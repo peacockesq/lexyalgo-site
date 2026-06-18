@@ -1,0 +1,48 @@
+{
+  "document_id": "63bf6fae-ba94-45b2-b25b-ecf0871089d5",
+  "slug": "courtlistener-opinion-1350622-1350622",
+  "title": "CourtListener opinion 1350622",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 2,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1350622 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "ty of Fairbanks Fire Department. One of his employment benefits includes enrollment in the Public Employees' Retirement System (PERS). The trial court treated the retirement fund as a marital asset, divided it in half as of the date of divorce and entered a Qualified Domestic Relations Order (QDRO) to pay one-half of the retirement benefits to Diana when Jim either resigns, is terminated or becomes deceased. Jim appeals the division of his retirement account by the use of a QDRO. Dianne cross-appeals the trial court's valuation of the Rice fox fur farm. We affirm. DISCUSSION We first observe that \\accrued benefits\\\" of the PERS enjoy cons"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "ncludes enrollment in the Public Employees' Retirement System (PERS). The trial court treated the retirement fund as a marital asset, divided it in half as of the date of divorce and entered a Qualified Domestic Relations Order (QDRO) to pay one-half of the retirement benefits to Diana when Jim either resigns, is terminated or becomes deceased. Jim appeals the division of his retirement account by the use of a QDRO. Dianne cross-appeals the trial court's valuation of the Rice fox fur farm. We affirm. DISCUSSION We first observe that \\accrued benefits\\\" of the PERS enjoy constitutional protection. Article XII"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "banks Fire Department. One of his employment benefits includes enrollment in the Public Employees' Retirement System (PERS). The trial court treated the retirement fund as a marital asset, divided it in half as of the date of divorce and entered a Qualified Domestic Relations Order (QDRO) to pay one-half of the retirement benefits to Diana when Jim either resigns, is terminated or becomes deceased. Jim appeals the division of his retirement account by the use of a QDRO. Dianne cross-appeals the trial court's valuation of the Rice fox fur farm. We affirm. DISCUSSION We first observe that \\accrued benefits\\\" of the PERS enjoy cons"
+    }
+  ],
+  "full_text": "757 P.2d 60 (1988) \n Jim D. RICE, Appellant, Cross-Appellee, \nv. \nDiana Lee RICE, Appellee, Cross-Appellant. \n Nos. S-2249, S-2275. \n Supreme Court of Alaska. \n July 1, 1988. \n Gary W. Vancil, Fairbanks, for appellant, cross-appellee. \n Dennis E. Cook, Staley, DeLisio, Cook & Sherry, Inc., Fairbanks, for appellee, cross-appellant. \n Before MATTHEWS, C.J., and RABINOWITZ, BURKE, COMPTON and MOORE, JJ. \n \n OPINION \n COMPTON, Justice. \n This appeal is from a divorce decree. Jim D. Rice and Diana Lee Rice were married in 1976. Prior to and throughout the marriage, Jim was employed by the City of Fairbanks Fire Department. One of his employment benefits includes enrollment in the Public Employees' Retirement System (PERS). \n The trial court treated the retirement fund as a marital asset, divided it in half as of the date of divorce and entered a Qualified Domestic Relations Order (QDRO) to pay one-half of the retirement benefits to Diana when Jim either resigns, is terminated or becomes deceased. Jim appeals the division of his retirement account by the use of a QDRO. Dianne cross-appeals the trial court's valuation of the Rice fox fur farm. We affirm. \n \n DISCUSSION \n We first observe that \\accrued benefits\\\" of the PERS enjoy constitutional protection. Article XII",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

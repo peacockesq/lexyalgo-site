@@ -1,0 +1,48 @@
+{
+  "document_id": "10086d30-209a-482b-8d94-12e679c064c2",
+  "slug": "naomi-carpenter-v-vernon-carpenter-3367524",
+  "title": "Naomi Carpenter v. Vernon Carpenter",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": "https://www.courtlistener.com/opinion/3371984/carpenter-v-carpenter-no-289742-apr-29-1991/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "1991-04-29",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 1,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: Naomi Carpenter v. Vernon Carpenter is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "parties have agreed, the plaintiff shall execute a waiver of her interest in the survivor annuity and all future interest she may have shall be extinguished so that the defendant may receive the maximum benefit allowable. The plaintiff's counsel shall draft a Qualified Domestic Relations Order for the Court's signature. Any cost associated with preparing the QUADRO shall be paid out of the Frederick Street escrow account. 3. Each party is awarded $2,000.00 dollars in counsel fees, payable from the Frederick Street escrow account. 4. No alimony is awarded either party. Elaine Gordon, Judge"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "ve agreed, the plaintiff shall execute a waiver of her interest in the survivor annuity and all future interest she may have shall be extinguished so that the defendant may receive the maximum benefit allowable. The plaintiff's counsel shall draft a Qualified Domestic Relations Order for the Court's signature. Any cost associated with preparing the QUADRO shall be paid out of the Frederick Street escrow account. 3. Each party is awarded $2,000.00 dollars in counsel fees, payable from the Frederick Street escrow account. 4. No alimony is awarded either party. Elaine Gordon, Judge"
+    },
+    {
+      "label": "survivor benefits",
+      "quote": "eet property and interest thereon, after payment for the costs outlined below, shall be divided between the parties, 75 per cent to the plaintiff 25 to the defendant. 2. As the parties have agreed, the plaintiff shall execute a waiver of her interest in the survivor annuity and all future interest she may have shall be extinguished so that the defendant may receive the maximum benefit allowable. The plaintiff's counsel shall draft a Qualified Domestic Relations Order for the Court's signature. Any cost associated with preparing the QUADRO shall be paid out of the Frederick Street escrow account. 3. Each party is awarded $2,"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] \nMEMORANDUM OF DECISION\nThe parties participated in a marriage ceremony on May 30, 1981. At the time of the ceremony the defendant was still legally married to Ella Carpenter, who he had married on September 14, 1964. Thus the parties' marriage is void under the laws of this state and the same is hereby annulled. \n The court has considered all the statutory criteria contained in Conn. Gen. Stat. 46b-81 and 46b-82 and enters the following or orders: \n 1. The proceeds of the sale of the Frederick Street property and interest thereon, after payment for the costs outlined below, shall be divided between the parties, 75 per cent to the plaintiff 25 to the defendant. \n 2. As the parties have agreed, the plaintiff shall execute a waiver of her interest in the survivor annuity and all future interest she may have shall be extinguished so that the defendant may receive the maximum benefit allowable. The plaintiff's counsel shall draft a Qualified Domestic Relations Order for the Court's signature. Any cost associated with preparing the QUADRO shall be paid out of the Frederick Street escrow account. \n 3. Each party is awarded $2,000.00 dollars in counsel fees, payable from the Frederick Street escrow account. \n 4. No alimony is awarded either party. \n Elaine Gordon, Judge",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "document_id": "148884ab-412c-431e-9591-af07c560d56f",
+  "slug": "courtlistener-opinion-3154387-3154387",
+  "title": "CourtListener opinion 3154387",
+  "citation": "Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3154387 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "agreed entry divided the parties' retirement and investment accounts which included appellant's profit sharing plan held by his former employer, Ariel Corporation. The division of this account was done via a Qualified Domestic Relations Order (hereinafter \\QDRO\\\"). Also"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "divorce filed on November 6, 2012. The agreed entry divided the parties' retirement and investment accounts which included appellant's profit sharing plan held by his former employer, Ariel Corporation. The division of this account was done via a Qualified Domestic Relations Order (hereinafter \\QDRO\\\"). Also"
+    }
+  ],
+  "full_text": "[Cite as Bittner v. Bittner, 2015-Ohio-4707.]\n\n COURT OF APPEALS\n DELAWARE COUNTY, OHIO\n FIFTH APPELLATE DISTRICT\n\nDOLORES I. BITTNER : JUDGES:\n : Hon. Sheila G. Farmer, P.J.\n Plaintiff-Appellee : Hon. Patricia A. Delaney, J.\n : Hon. Craig R. Baldwin, J.\n-vs- :\n :\nEDWARD J. BITTNER : Case No. 15 CAF 03 0024\n :\n Defendant-Appellant : OPINION\n\nCHARACTER OF PROCEEDING: Appeal from the Court of Common\n Pleas, Domestic Relations Division,\n Case No. 12-DRB-01-010\n\nJUDGMENT: Affirmed\n\nDATE OF JUDGMENT: November 10, 2015\n\nAPPEARANCES:\n\nFor Plaintiff-Appellee For Defendant-Appellant\n\nJAY D. WAGNER ROBERT M. OWENS\nP.O. Box 576 46 North Sandusky Street, Suite 202\n118 Harding Way West Delaware, OH 43015\nGalion, OH 44833\n For Defendant Ariel Corporation\n\n CHRISTOPHER J. PYCRAFT\n 225 North Market Street\n P.O. Box 599\n Wooster, OH 44691\n Delaware County, Case No. 15 CAF 03 0024 2\n\nFarmer, P.J.\n\n {¶1} Appellant, Edward Bittner, and appellee, Dolores Bittner, were married on\n\nJuly 30, 1983. The parties were divorced via an agreed judgment entry decree of\n\ndivorce filed on November 6, 2012. The agreed entry divided the parties' retirement and\n\ninvestment accounts which included appellant's profit sharing plan held by his former\n\nemployer, Ariel Corporation. The division of this account was done via a Qualified\n\nDomestic Relations Order (hereinafter \\QDRO\\\"). Also",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

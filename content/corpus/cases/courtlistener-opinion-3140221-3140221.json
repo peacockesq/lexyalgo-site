@@ -1,0 +1,48 @@
+{
+  "document_id": "c9d584d6-3ea9-41fd-b925-5562812f58d5",
+  "slug": "courtlistener-opinion-3140221-3140221",
+  "title": "CourtListener opinion 3140221",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 3,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3140221 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "retirement benefits",
+      "quote": "he court: After a trial, the trial court dissolved the marriage of petitioner, Tara Menken, and respondent, George Menken, awarded maintenance and child support, and divided the marital assets. The court awarded petitioner, among other things, 60% of the retirement benefits respondent earned as a member of the Rockford police department. On appeal, respondent contends that the trial court lacked the authority to order him to sign a consent form authorizing petitioner to receive the retirement benefits directly pursuant to a qualified Illinois domestic relations order (QILDRO). See 40 ILCS 5/1--119(b)(1) (West 2000). We vac"
+    },
+    {
+      "label": "pension",
+      "quote": "he order requiring respondent to sign the consent form and affirm in all other respects. The parties were married on August 4, 1973. Respondent had been a member of the Rockford police department since January 1977 and participated in the Rockford Police Pension Fund. At the time of the trial, the value of respondent's pension was approximately $2,250 per month. On December 5, 2000, the trial court issued its memorandum decision awarding petitioner \\60% of [respondent's] retirement benefits"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "ed as a member of the Rockford police department. On appeal, respondent contends that the trial court lacked the authority to order him to sign a consent form authorizing petitioner to receive the retirement benefits directly pursuant to a qualified Illinois domestic relations order (QILDRO). See 40 ILCS 5/1--119(b)(1) (West 2000). We vacate the order requiring respondent to sign the consent form and affirm in all other respects. The parties were married on August 4, 1973. Respondent had been a member of the Rockford police department since January 1977 and participated in the Rockford Police Pension Fund. At the time of the tr"
+    }
+  ],
+  "full_text": "No. 2--01--0610 \n \n ________________________________________________________________ \n\n IN THE \n\n APPELLATE COURT OF ILLINOIS \n\n SECOND DISTRICT \n \n ________________________________________________________________ \n\n In re \n MARRIAGE OF ) Appeal from the Circuit Court \n \n TARA MENKEN, ) of Winnebago County. \n \n ) \n \n Petitioner-Appellee, ) \n \n ) No. 99--D--0174 \n \n and ) \n \n ) \n \n GEORGE MENKEN, ) Honorable \n \n ) Steven L. Nordquist, \n \n Respondent-Appellant. ) Judge, Presiding. \n \n ________________________________________________________________ \n\n PRESIDING JUSTICE HUTCHINSON delivered the opinion of the court: \n \n After a trial, the trial court dissolved the marriage of petitioner, Tara Menken, and respondent, George Menken, awarded maintenance and child support, and divided the marital assets.  The court awarded petitioner, among other things, 60% of the retirement benefits respondent earned as a member of the Rockford police department.  On appeal, respondent contends that the trial court lacked the authority to order him to sign a consent form authorizing petitioner to receive the retirement benefits directly pursuant to a qualified Illinois domestic relations order (QILDRO).  See 40 ILCS 5/1--119(b)(1) (West 2000).  We vacate the order requiring respondent to sign the consent form and affirm in all other respects. \n \n The parties were married on August 4, 1973.  Respondent had been a member of the Rockford police department since January 1977 and participated in the Rockford Police Pension Fund.  At the time of the trial, the value of respondent's pension was approximately $2,250 per month. \n \n On December 5, 2000, the trial court issued its memorandum decision awarding petitioner \\60% of [respondent's] retirement benefits",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

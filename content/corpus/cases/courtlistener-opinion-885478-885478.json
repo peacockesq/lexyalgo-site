@@ -1,0 +1,44 @@
+{
+  "document_id": "706bf203-4923-4021-ac11-dd2cf209802e",
+  "slug": "courtlistener-opinion-885478-885478",
+  "title": "CourtListener opinion 885478",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 885478 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "n entered by the Eleventh Judicial District Court, Flathead County. We affirm in part, reverse in part, and remand for proceedings consistent with this opinion. ¶2 This appeal raises the following issues: ¶3 1. Whether the District Court erred in entering a Qualified Domestic Relations Order? ¶4 2. Whether the District Court erred in dividing the marital estate? ¶5 3. Whether the District Court erred in awarding maintenance? ¶6 4. Whether the District Court erred in awarding attorney fees? FACTUAL BACKGROUND ¶7 The Respondent and Appellant, John E. Harkin (\\Jack\\\")"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "by the Eleventh Judicial District Court, Flathead County. We affirm in part, reverse in part, and remand for proceedings consistent with this opinion. ¶2 This appeal raises the following issues: ¶3 1. Whether the District Court erred in entering a Qualified Domestic Relations Order? ¶4 2. Whether the District Court erred in dividing the marital estate? ¶5 3. Whether the District Court erred in awarding maintenance? ¶6 4. Whether the District Court erred in awarding attorney fees? FACTUAL BACKGROUND ¶7 The Respondent and Appellant, John E. Harkin (\\Jack\\\")"
+    }
+  ],
+  "full_text": "file:///C|/Documents%20and%20Settings/cu1046/Desktop/opinions/99-080%20Opinion.htm\n\n No. 99-080\n\n IN THE SUPREME COURT OF THE STATE OF MONTANA\n\n 2000 MT 105\n\n 299 Mont. 298\n\n 99 P. 2d 969\n\n IN RE THE MARRIAGE OF\n\n LINDA K. HARKIN,\n\n Petitioner and Respondent,\n\n and\n\n JOHN E. HARKIN,\n\n Respondent and Appellant.\n\n APPEAL FROM: District Court of the Eleventh Judicial District,\n\n In and for the County of Flathead,\n\n The Honorable Katherine R. Curtis, Judge presiding.\n\n COUNSEL OF RECORD:\n\n For Appellant:\n\n P. Mars Scott and Patrick G. Sandefur, Mulroney, Delaney & Scott,\n\n Missoula, Montana\n\nfile:///C|/Documents%20and%20Settings/cu1046/Desktop/opinions/99-080%20Opinion.htm (1 of 17)3/28/2007 11:43:40 AM\n file:///C|/Documents%20and%20Settings/cu1046/Desktop/opinions/99-080%20Opinion.htm\n\n For Respondent:\n\n David L. Astle, Astle & Astle, Kalispell, Montana\n\n Submitted on Briefs: November 18, 1999\n\n Decided: April 27, 2000\n\n Filed:\n\n __________________________________________\n\n Clerk\n\nJustice Jim Regnier delivered the opinion of the Court.\n\n¶1 John E. Harkin appeals the Findings of Fact, Conclusions of Law, and Decree of\nDissolution entered by the Eleventh Judicial District Court, Flathead County. We affirm in\npart, reverse in part, and remand for proceedings consistent with this opinion.\n\n¶2 This appeal raises the following issues:\n\n¶3 1. Whether the District Court erred in entering a Qualified Domestic Relations Order?\n\n¶4 2. Whether the District Court erred in dividing the marital estate?\n\n¶5 3. Whether the District Court erred in awarding maintenance?\n\n¶6 4. Whether the District Court erred in awarding attorney fees?\n\n FACTUAL BACKGROUND\n\n¶7 The Respondent and Appellant, John E. Harkin (\\Jack\\\")",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "document_id": "f7c07e43-b65b-4c68-8bbd-631d144119f4",
+  "slug": "janet-lucas-v-george-lucas-3350403",
+  "title": "Janet Lucas v. George Lucas",
+  "citation": "Domestic Relations Order",
+  "source_url": "https://www.courtlistener.com/opinion/3354877/lucas-v-lucas-no-fa93-04-33-57-nov-3-1994/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "1994-11-03",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 1,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: Janet Lucas v. George Lucas is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "pension",
+      "quote": "he plaintiff, subject to the two outstanding mortgages on that property which the plaintiff shall assume and hold the defendant harmless from any liability thereon. A Qualified Uniform Domestic Relations Order for the transfer of one-half of the defendant's pension plan and one half of the CT Page 11174 defendant's tax deferred annuity to the plaintiff shall be issued and the defendant shall cooperate in executing any necessary papers to effect this order of the court. The contents of the marital home shall belong to the plaintiff. The defendant shall pay the plaintiff $1000. forthwith which she shall use to pay t"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "one half interest in the family property at 10 April Lane in Shelton to the plaintiff, subject to the two outstanding mortgages on that property which the plaintiff shall assume and hold the defendant harmless from any liability thereon. A Qualified Uniform Domestic Relations Order for the transfer of one-half of the defendant's pension plan and one half of the CT Page 11174 defendant's tax deferred annuity to the plaintiff shall be issued and the defendant shall cooperate in executing any necessary papers to effect this order of the court. The contents of the marital home shall belong to the plaintiff. The defendant shall pay the"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] MEMORANDUM OF DECISION \nThis is an action asking that a marriage be dissolved. All jurisdictional requirements for its maintenance have been met. \n The parties intermarried in Milford on May 26, 1967. There are three children issue of the marriage, only one of whom, Debra, born November 29, 1979, is still a minor. \n The marriage has broken down irretrievably with no hope of reconciliation. It is dissolved. \n The plaintiff stated that the defendant had cancer of his voice box, that she wanted to get a divorce several years ago because the marriage was dead even then, but because of the defendant's physical problems and troubles she could not go through with it then even though she had consulted an attorney about getting a divorce. The court notes that the defendant had remarked to their son about the plaintiff that she would be inviting the workmen in their house into her bed. It also notes that the defendant did not deny marking [making] that remark. The plaintiff testified that the marriage broke down because of the defendant's controlling behavior, his abusiveness and his lack of respect for her. \n The defendant claimed that the marriage broke down because of finances and because of the children and that the fault for the CT Page 11173 breakup was about equal on both sides. \n The court finds that while both perhaps were at fault the defendant's actions were the major cause of the breakdown. \n The plaintiff shall have sole custody of Debra until whichever of the following events occurs first: she reaches the age of 19, becomes emancipated, dies, or graduates from High School. The defendant shall have visitation with Debra for one week in the summer, every Sunday from 9:00 AM to 7:00 PM, alternating major holidays such as Christmas, New Years Eve, Memorial Day, Easter, Thanksgiving, Labor Day and Debra's birthday. Visitation by the defendant also shall be with Debra on Father's Day and with the plaintiff on Mother's Day. Child support for Debra in the amount of $214. a week shall be paid by the defendant and shall cease on the first happening of one of the events listed in the first sentence of this paragraph. \n The defendant shall provide medical insurance for Debra until the first happening of one of the events listed in the paragraph above. Any medical expenses of Debra not covered by insurance shall be divided equally between the parties. \n The defendant shall pay the plaintiff alimony in the amount of $150. a week until she dies, remarries or cohabits within the meaning of the statute. He shall also maintain an insurance policy on his own life in the amount of $20,000. for the benefit of the plaintiff during the time he is paying her alimony which obligation however to maintain life insurance shall be contingent on his continued employment. \n The defendant shall be entitled to claim Debra as his dependent for income tax purposes so long as he pays child support for her. The plaintiff shall execute any and all documents required by the Internal Revenue Service to accomplish this. \n The defendant shall transfer his one half interest in the family property at 10 April Lane in Shelton to the plaintiff, subject to the two outstanding mortgages on that property which the plaintiff shall assume and hold the defendant harmless from any liability thereon. \n A Qualified Uniform Domestic Relations Order for the transfer of one-half of the defendant's pension plan and one half of the CT Page 11174 defendant's tax deferred annuity to the plaintiff shall be issued and the defendant shall cooperate in executing any necessary papers to effect this order of the court. \n The contents of the marital home shall belong to the plaintiff. \n The defendant shall pay the plaintiff $1000. forthwith which she shall use to pay towards the fee of her attorney. \n The defendant shall transfer the car registered in his name to the plaintiff. \n THOMAS J. O'SULLIVAN, TRIAL REFEREE",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

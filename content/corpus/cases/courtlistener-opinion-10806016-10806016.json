@@ -1,0 +1,52 @@
+{
+  "document_id": "09d4c562-73f7-4370-b444-fbcb3972183a",
+  "slug": "courtlistener-opinion-10806016-10806016",
+  "title": "CourtListener opinion 10806016",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "ERISA / defined contribution issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 5,
+    "401(k)": 0,
+    "alternate payee": 1,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 10806016 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to ERISA / defined contribution issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "o assert a claim against McMaster-Carr for \"improperly releas[ing] $700,000 from [p]laintiff's ex-wife's retirement fund to her without notice to [p]laintiff.\" (Id. p. 2.) Plaintiff claims he was entitled to some of the money in the retirement fund under a Qualified Domestic Relations Order (QDRO). (Id. p. 2.) In her memorandum opinion and order, Judge Pascal noted a number of deficiencies in the original complaint: (1)\"aside from making the conclusory statement that there was an ERISA violation, [ ] fails to plead specific facts identifying [McMaster-Carr's] actions that allegedly violated this Act\"; (2) \"[t]he general allegation of an E"
+    },
+    {
+      "label": "ERISA",
+      "quote": "the retirement fund under a Qualified Domestic Relations Order (QDRO). (Id. p. 2.) In her memorandum opinion and order, Judge Pascal noted a number of deficiencies in the original complaint: (1)\"aside from making the conclusory statement that there was an ERISA violation, [ ] fails to plead specific facts identifying [McMaster-Carr's] actions that allegedly violated this Act\"; (2) \"[t]he general allegation of an ERISA violation in the [original complaint] is ‘so vague [and] ambiguous' that [McMaster-Carr] would not be able to form a meaningful response\"; (3) \"[p]laintiff does not make a clear connection betwee"
+    },
+    {
+      "label": "alternate payee",
+      "quote": ". However, plaintiff summarizes his claims as follows: Plaintiff brings this Complaint seeking among other things, relief under 29 U.S.C. 203(d) et seg. in connection with defendants' refusal and failure to hold and protect a QDRO account $'s due the Alternate Payee, violating its fiduciary duties under ERISA, and equitable relief under ERISA, known as the Employee Retirement Income Security Act of 1974, as amended (\\ERISA\\\"); 29 U.S.C."
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "claim against McMaster-Carr for \"improperly releas[ing] $700,000 from [p]laintiff's ex-wife's retirement fund to her without notice to [p]laintiff.\" (Id. p. 2.) Plaintiff claims he was entitled to some of the money in the retirement fund under a Qualified Domestic Relations Order (QDRO). (Id. p. 2.) In her memorandum opinion and order, Judge Pascal noted a number of deficiencies in the original complaint: (1)\"aside from making the conclusory statement that there was an ERISA violation, [ ] fails to plead specific facts identifying [McMaster-Carr's] actions that allegedly violated this Act\"; (2) \"[t]he general allegation of an E"
+    }
+  ],
+  "full_text": "UNITED STATES DISTRICT COURT \n DISTRICT OF NEW JERSEY \n\nARTHUR BORNSTEIN, \n Case No. 23–cv–02849–ESK–EAP \n Plaintiff, \n\n v. \n\nMCMASTER-CARR SUPPLY \nCOMPLANY, \n Defendant. \n\nARTHUR BORNSTEIN, \n Case No. 25–cv–00701–ESK–EAP \n Plaintiff, \n\n v. \n OPINION \nMCMASTER-CARR SUPPLY \nCOMPLANY, \n Defendant. \n\nKIEL, U.S.D.J. \n THESE NON-CONSOLIDATED MATTERS are before the Court on \ndefendant McMaster-Carr Supply Company's motion to dismiss the amended \ncomplaint (Motion) (Bornstein I1 ECF No. 48). Plaintiff filed an opposition to \nthe Motion. (ECF No. 53.) McMaster-Carr did not file a reply to plaintiff's \nopposition. For the following reasons, the Motion will be granted. \nAdditionally, because plaintiff asserts the same claims against McMaster-Carr \nin the matter under Case No. 23-cv-00701 (Bornstein II), the Court will sua \n\n 1 Case No. 23-cv-02849 will be referred to as \"Bornstein I.\" \nsponte dismiss the claims against McMaster-Carr and remand the Bornstein II \ncase to the Superior Court of New Jersey. \n I. FACTS AND PROCEDURAL HISTORY \n Plaintiff filed his original complaint on May 24, 2023. (ECF No. 1.) \nMagistrate Judge Elizabeth A. Pascal granted McMaster-Carr's motion for a \nmore definite statement. (ECF No. 43.) Judge Pascal discerned the original \ncomplaint to assert a claim against McMaster-Carr for \"improperly releas[ing] \n$700,000 from [p]laintiff's ex-wife's retirement fund to her without notice to \n[p]laintiff.\" (Id. p. 2.) Plaintiff claims he was entitled to some of the money in \nthe retirement fund under a Qualified Domestic Relations Order (QDRO). (Id. \np. 2.) In her memorandum opinion and order, Judge Pascal noted a number of \ndeficiencies in the original complaint: (1)\"aside from making the conclusory \nstatement that there was an ERISA violation, [ ] fails to plead specific facts \nidentifying [McMaster-Carr's] actions that allegedly violated this Act\"; (2) \"[t]he \ngeneral allegation of an ERISA violation in the [original complaint] is ‘so vague \n[and] ambiguous' that [McMaster-Carr] would not be able to form a meaningful \nresponse\"; (3) \"[p]laintiff does not make a clear connection between the \n[McMaster-Carr] and the claims\" in the original complaint; and (4) although \nthe original complaint \"makes references to a divorce proceeding and other state \ncourt proceedings … without a clear connection to [McMaster-Carr], the \npurpose of these allegations are unclear.\" (Id. p. 6, 7.) \n Plaintiff, thereafter, filed three iterations of amended complaints. (ECF \nNos. 44, 45, 46.) The Court considers the third amended complaint (ECF No. \n46 (Compl.) to be the operative complaint. The operative complaint does little \nto clear up what the bases for plaintiff's claims against McMaster-Carr are. \nHowever, plaintiff summarizes his claims as follows: \n Plaintiff brings this Complaint seeking among other \n things, relief under 29 U.S.C. 203(d) et seg. in connection \n with defendants' refusal and failure to hold and protect a \n QDRO account $'s due the Alternate Payee, violating its \n fiduciary duties under ERISA, and equitable relief under \n ERISA, known as the Employee Retirement Income \n Security Act of 1974, as amended (\\ERISA\\\"); 29 U.S.C.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

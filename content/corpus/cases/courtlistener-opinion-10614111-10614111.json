@@ -1,0 +1,48 @@
+{
+  "document_id": "dec22dcd-c2e7-4506-b812-72c91dc3e4a2",
+  "slug": "courtlistener-opinion-10614111-10614111",
+  "title": "CourtListener opinion 10614111",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 1,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 10614111 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": ") ordering Husband to pay all of Respondent Sarah Jo Gaylord's (Wife) attorney's fees and costs; (6) finding Husband in willful contempt of court and providing the sole remedy through which Husband could purge himself of contempt was payment of $189,016.21 by Qualified Domestic Relations Order from his retirement accounts; and (7) awarding Wife $2,500 per month in permanent periodic alimony. We affirm. 1. As to whether the family court erred in apportioning the marital estate, we find no abuse of discretion because the family court properly considered all fifteen statutory factors and the apportionment was both fair and equitable. See Reiss v. R"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "Sarah Jo Gaylord's (Wife) attorney's fees and costs; (6) finding Husband in willful contempt of court and providing the sole remedy through which Husband could purge himself of contempt was payment of $189,016.21 by Qualified Domestic Relations Order from his retirement accounts; and (7) awarding Wife $2,500 per month in permanent periodic alimony. We affirm. 1. As to whether the family court erred in apportioning the marital estate, we find no abuse of discretion because the family court properly considered all fifteen statutory factors and the apportionment was both fair and equitable. See Reiss v. Reiss, 392 S.C. 198, 211, 708"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "Husband to pay all of Respondent Sarah Jo Gaylord's (Wife) attorney's fees and costs; (6) finding Husband in willful contempt of court and providing the sole remedy through which Husband could purge himself of contempt was payment of $189,016.21 by Qualified Domestic Relations Order from his retirement accounts; and (7) awarding Wife $2,500 per month in permanent periodic alimony. We affirm. 1. As to whether the family court erred in apportioning the marital estate, we find no abuse of discretion because the family court properly considered all fifteen statutory factors and the apportionment was both fair and equitable. See Reiss v. R"
+    }
+  ],
+  "full_text": "THIS OPINION HAS NO PRECEDENTIAL VALUE. IT SHOULD NOT BE\n CITED OR RELIED ON AS PRECEDENT IN ANY PROCEEDING\n EXCEPT AS PROVIDED BY RULE 268(d)(2), SCACR.\n\n THE STATE OF SOUTH CAROLINA\n In The Court of Appeals\n\n Sarah Jo Gaylord, Respondent,\n\n v.\n\n Jules Robert Duncan Gaylord, Appellant.\n\n Appellate Case No. 2011-186667\n\n Appeal From Georgetown County\n Jan Bromell Holmes, Family Court Judge\n\n Unpublished Opinion No. 2012-UP-571\n Heard September 12, 2012 – Filed October 24, 2012\n\n AFFIRMED\n\n G. Robin Alley, of Isaacs & Alley, LLC, of Columbia,\n for Appellant.\n\n Anne E. Janes and M. Elizabeth Snyder, both of Sherrill\n & Janes, PA, of Surfside Beach, for Respondent.\n\nPER CURIAM: In this appeal from a final order of divorce, Appellant Jules\nRobert Duncan Gaylord (Husband) argues the family court erred in (1)\napportioning the marital estate between the parties; (2) finding the promissory\nnotes executed in favor of Husband's mother were unenforceable; (3) dividing the\n marital property in a manner that was arbitrary, inequitable, and unreasonable; (4)\nqualifying Lee Camp as an expert in the appraisal of personal property; (5)\nordering Husband to pay all of Respondent Sarah Jo Gaylord's (Wife) attorney's\nfees and costs; (6) finding Husband in willful contempt of court and providing the\nsole remedy through which Husband could purge himself of contempt was\npayment of $189,016.21 by Qualified Domestic Relations Order from his\nretirement accounts; and (7) awarding Wife $2,500 per month in permanent\nperiodic alimony. We affirm.\n\n1. As to whether the family court erred in apportioning the marital estate, we find\nno abuse of discretion because the family court properly considered all fifteen\nstatutory factors and the apportionment was both fair and equitable. See Reiss v.\nReiss, 392 S.C. 198, 211, 708 S.E.2d 799, 806 (Ct. App. 2011) (\\The",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

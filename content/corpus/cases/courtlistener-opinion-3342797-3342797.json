@@ -1,0 +1,44 @@
+{
+  "document_id": "9c06d0a7-7196-4179-8a48-2449d7c5d2fa",
+  "slug": "courtlistener-opinion-3342797-3342797",
+  "title": "CourtListener opinion 3342797",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3342797 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "t $150. per week as alimony. The present arrearage of $180. is to be paid forthwith. 4. The defendant receive a 40% interest in the plaintiff's pension with the New Haven Police Department. Counsel for the CT Page 4706 defendant shall prepare the necessary \\QDRO\\\" documentation to accomplish this purpose."
+    },
+    {
+      "label": "pension",
+      "quote": "ew Haven could be retained to provide these parties with supplemental income as they get older. The parties have not signified their interest in such a proposal. The court notes the wide disparity of income in favor of the plaintiff and his vested municipal pension plan. The defendant has nothing for her elder years. The parties will soon be in their fifties. The defendant's residence at Judson Avenue is badly in need of repair. It is therefore ordered that: 1. The plaintiff convey to the defendant all of his right, title and interest in and to the real property located at and known as 66 Judson Avenue, New Haven,"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] \nMEMORANDUM OF DECISION\nThis is a contested dissolution action involving a couple married in 1963 and separated in 1978. The four children, issue of the marriage are now all adults. \n Each party asserts the cause of the marital breakdown is the behavior of the other. Absent fault on either side, the court is left to fashion monetary and property awards in accordance with Sections 46b-81 82 of the Connecticut General Statutes. \n The parties agree and the court finds that the marriage has broken down irretrievably and the court, having jurisdiction in the matter, orders the marriage dissolved. \n Ideally, the jointly owned property at 32 Alton Street, New Haven could be retained to provide these parties with supplemental income as they get older. The parties have not signified their interest in such a proposal. \n The court notes the wide disparity of income in favor of the plaintiff and his vested municipal pension plan. The defendant has nothing for her elder years. The parties will soon be in their fifties. The defendant's residence at Judson Avenue is badly in need of repair. \n It is therefore ordered that: \n 1. The plaintiff convey to the defendant all of his right, title and interest in and to the real property located at and known as 66 Judson Avenue, New Haven, said interest being a one quarter interest in the fee simple. \n 2. The property at 32 Alton Street is to be listed for immediate sale at a price to be agreed upon. If the parties cannot agree on a sales figure, they shall each be responsible for one-half the cost of an appraisal to be performed by a real estate appraiser with a practice in this area. Upon the sale of said property, the proceeds after tax adjustments, closing costs and Commissions shall be disbursed to the parties with 60% to the plaintiff and 40% to the defendant. \n 3. The plaintiff pay to the defendant $150. per week as alimony. The present arrearage of $180. is to be paid forthwith. \n 4. The defendant receive a 40% interest in the plaintiff's pension with the New Haven Police Department. Counsel for the CT Page 4706 defendant shall prepare the necessary \\QDRO\\\" documentation to accomplish this purpose.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

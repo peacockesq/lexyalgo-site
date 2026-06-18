@@ -1,0 +1,48 @@
+{
+  "document_id": "f4877383-7dd6-4feb-b9b8-d6382163d503",
+  "slug": "courtlistener-opinion-3707252-3707252",
+  "title": "CourtListener opinion 3707252",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 5,
+    "retirement benefits": 3,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3707252 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "vision. The parties were divorced by virtue of a Final Agreed Judgment Entry and Decree of Divorce, filed May 23, 1994, and amended June 9, 1994. The divorce decree provided for the division of appellant's retirement benefits between the parties pursuant to a QDRO plan and separate entry filed subsequent to the filing of the decree. On May 26, 1995, a QDRO was prepared and filed with the court. Paragraph 8 of the QDRO, addressing the retirement benefits, states: Payments shall continue to Former Spouse for the remainder of Employee's lifetime, however, should Former Spouse remarry or predecease the Employee, then s"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "um County Court of Common Pleas, Domestic Relations Division. The parties were divorced by virtue of a Final Agreed Judgment Entry and Decree of Divorce, filed May 23, 1994, and amended June 9, 1994. The divorce decree provided for the division of appellant's retirement benefits between the parties pursuant to a QDRO plan and separate entry filed subsequent to the filing of the decree. On May 26, 1995, a QDRO was prepared and filed with the court. Paragraph 8 of the QDRO, addressing the retirement benefits, states: Payments shall continue to Former Spouse for the remainder of Employee's lifetime, however, should Former Spouse re"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "1996, appellant retired. Appellee remarried on October 18, 1996. Thereafter, appellant notified appellee her portion of the retirement benefits would not be disbursed because of her remarriage. On November 27, 1996, appellee filed a Motion to Amend Qualified Domestic Relations Order requesting the trial court modify the QDRO on the basis the sentence, \\should Former Spouse remarry"
+    }
+  ],
+  "full_text": "OPINION \nDefendant-appellant Lee H. Talley appeals the May 28, 1998 Judgment Entry of the Muskingum County Court of Common Pleas, Domestic Relations Division, overruling his objections to the April 24, 1998 Magistrate's Decision and adopting said Decision as its judgment. Plaintiff-appellee is Charlene D. Talley. \n STATEMENT OF THE FACTS AND CASE \nAppellant and appellee were married on March 8, 1964, in Duncan Falls, Ohio. Three children were born as issue of the marriage. The children are now emancipated. On October 26, 1993, appellee filed a complaint for divorce in the Muskingum County Court of Common Pleas, Domestic Relations Division. The parties were divorced by virtue of a Final Agreed Judgment Entry and Decree of Divorce, filed May 23, 1994, and amended June 9, 1994. The divorce decree provided for the division of appellant's retirement benefits between the parties pursuant to a QDRO plan and separate entry filed subsequent to the filing of the decree. On May 26, 1995, a QDRO was prepared and filed with the court. Paragraph 8 of the QDRO, addressing the retirement benefits, states: \n Payments shall continue to Former Spouse for the remainder of Employee's lifetime, however, should Former Spouse remarry or predecease the Employee, then such benefits shall be immediately and fully restored to the Employee following such Former Spouse's death. \n On September 30, 1996, appellant retired. Appellee remarried on October 18, 1996. Thereafter, appellant notified appellee her portion of the retirement benefits would not be disbursed because of her remarriage. On November 27, 1996, appellee filed a Motion to Amend Qualified Domestic Relations Order requesting the trial court modify the QDRO on the basis the sentence, \\should Former Spouse remarry",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

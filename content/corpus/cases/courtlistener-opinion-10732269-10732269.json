@@ -1,0 +1,52 @@
+{
+  "document_id": "5bec5c97-5c65-4d5c-af4b-55f3291c59cd",
+  "slug": "courtlistener-opinion-10732269-10732269",
+  "title": "CourtListener opinion 10732269",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 7,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 5,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 10732269 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "action concerning the proceeds of a life insurance policy administered by the Hartford Life and Accident Insurance Company (\"Hartford Plan\"). The district court held the Legal Separation Agreement (\"LSA\") between Kowalski and her deceased ex-husband was a Qualified Domestic Relations Order (\"QDRO\") under the Employee Retirement Income Security Act of 1974 (\"ERISA\"). The LSA provides that the decedent \"shall carry and maintain a policy of life insurance in the amount of $800,000\" and \"name [Kowalski's minor son, E.K.] as sole beneficiary.\" Thus, in accordance with the LSA, the district court held E.K. had superior rights to the Hartford Pl"
+    },
+    {
+      "label": "pension",
+      "quote": "ust, among other requirements, \"clearly specif[y]\" \"each plan to which such order applies.\" 29 U.S.C. § 1056(d)(3)(C)(iv). We require only \"substantial compliance\" with ERISA's specificity requirements. Hamilton v. Wash. State Plumbing & Pipefitting Indus. Pension Plan, 433 F.3d 1091, 1097 (9th Cir. 2006) 2 23-3286 (citing Trs. of Dirs. Guild of Am.-Producer Pension Benefits Plans v. Tise, 234 F.3d 415, 420 (9th Cir. 2000)). The LSA substantially complies with the specificity requirements. The purpose of these requirements is to \"spar[e] plan administrators the grief they experience\" due to \"uncertainty conce"
+    },
+    {
+      "label": "ERISA",
+      "quote": "Insurance Company (\"Hartford Plan\"). The district court held the Legal Separation Agreement (\"LSA\") between Kowalski and her deceased ex-husband was a Qualified Domestic Relations Order (\"QDRO\") under the Employee Retirement Income Security Act of 1974 (\"ERISA\"). The LSA provides that the decedent \"shall carry and maintain a policy of life insurance in the amount of $800,000\" and \"name [Kowalski's minor son, E.K.] as sole beneficiary.\" Thus, in accordance with the LSA, the district court held E.K. had superior rights to the Hartford Plan proceeds over the decedent's girlfriend, Valois, who is the named benefi"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "cerning the proceeds of a life insurance policy administered by the Hartford Life and Accident Insurance Company (\"Hartford Plan\"). The district court held the Legal Separation Agreement (\"LSA\") between Kowalski and her deceased ex-husband was a Qualified Domestic Relations Order (\"QDRO\") under the Employee Retirement Income Security Act of 1974 (\"ERISA\"). The LSA provides that the decedent \"shall carry and maintain a policy of life insurance in the amount of $800,000\" and \"name [Kowalski's minor son, E.K.] as sole beneficiary.\" Thus, in accordance with the LSA, the district court held E.K. had superior rights to the Hartford Pl"
+    }
+  ],
+  "full_text": "NOT FOR PUBLICATION FILED\n UNITED STATES COURT OF APPEALS NOV 5 2024\n MOLLY C. DWYER, CLERK\n U.S. COURT OF APPEALS\n FOR THE NINTH CIRCUIT\n\nHARTFORD LIFE AND ACCIDENT No. 23-3286\nINSURANCE COMPANY, D.C. No.\n 3:21-cv-06469-RS\n Plaintiff,\n\n v. MEMORANDUM*\n\nMARILYNE VALOIS,\n\n Defendant-Cross-Claimant -\nAppellant,\n\n v.\n\nHAILI KOWALSKI,\n\n Defendant-Cross-Defendant -\nAppellee.\n\n Appeal from the United States District Court\n for the Northern District of California\n Richard G. Seeborg, District Judge, Presiding\n\n Argued and Submitted October 24, 2024\n San Francisco, California\n\nBefore: OWENS, SUNG, and SANCHEZ, Circuit Judges.\n\n *\n This disposition is not appropriate for publication and is not precedent\nexcept as provided by Ninth Circuit Rule 36-3.\n Marilyne Valois appeals from the district court's summary judgment in\n\nfavor of Haili Kowalski in this interpleader action concerning the proceeds of a life\n\ninsurance policy administered by the Hartford Life and Accident Insurance\n\nCompany (\"Hartford Plan\"). The district court held the Legal Separation\n\nAgreement (\"LSA\") between Kowalski and her deceased ex-husband was a\n\nQualified Domestic Relations Order (\"QDRO\") under the Employee Retirement\n\nIncome Security Act of 1974 (\"ERISA\"). The LSA provides that the decedent\n\n\"shall carry and maintain a policy of life insurance in the amount of $800,000\" and\n\n\"name [Kowalski's minor son, E.K.] as sole beneficiary.\" Thus, in accordance\n\nwith the LSA, the district court held E.K. had superior rights to the Hartford Plan\n\nproceeds over the decedent's girlfriend, Valois, who is the named beneficiary. We\n\nreview the district court's interpretation of ERISA and summary judgment de\n\nnovo. Stewart v. Thorpe Holding Co. Profit Sharing Plan, 207 F.3d 1143, 1148\n\n(9th Cir. 2000). We affirm.\n\n 1. Valois argues the LSA is not a QDRO because it does not clearly specify\n\nthe Hartford Plan. To be a QDRO under ERISA, a Domestic Relations Order\n\n(\"DRO\") must, among other requirements, \"clearly specif[y]\" \"each plan to which\n\nsuch order applies.\" 29 U.S.C. § 1056(d)(3)(C)(iv). We require only \"substantial\n\ncompliance\" with ERISA's specificity requirements. Hamilton v. Wash. State\n\nPlumbing & Pipefitting Indus. Pension Plan, 433 F.3d 1091, 1097 (9th Cir. 2006)\n\n 2 23-3286\n (citing Trs. of Dirs. Guild of Am.-Producer Pension Benefits Plans v. Tise, 234\n\nF.3d 415, 420 (9th Cir. 2000)).\n\n The LSA substantially complies with the specificity requirements. The\n\npurpose of these requirements is to \"spar[e] plan administrators the grief they\n\nexperience\" due to \"uncertainty concerning the identity of the beneficiary.\"\n\nStewart, 207 F.3d at 1150 (emphasis and citation omitted). Here, there is no\n\nuncertainty. Although the LSA only mentions \"a policy of life insurance,\" the\n\ndecedent had but one such policy—the one under the Hartford Plan. The LSA\n\nclearly requires the decedent to name E.K. as the sole beneficiary on that policy.\n\nBased on the unique facts of this case, where it is clear which plan is implicated,\n\nthe LSA substantially complies with ERISA's specificity requirements and is a\n\nQDRO. See Hamilton, 433 F.3d at 1097 (noting the \"pivotal question\" for\n\nsubstantial compliance is whether the DRO \"clearly contains the information\n\nspecified in the statute that a plan administrator would need to make an informed\n\ndecision\" (quoting Stewart, 207 F.3d at 1154)).\n\n 2. Valois also argues the LSA is not a QDRO because it increases the\n\npayment burden on the Hartford Plan. To be a QDRO, a DRO must not \"require\n\nthe plan to provide increased benefits.\" 29 U.S.C. § 1056(d)(3)(D)(ii). The\n\nHartford Plan proceeds totaled $493,000, which is less than the $800,000 policy\n\nthe decedent was obligated to maintain according to the LSA. However, the LSA\n\n 3 23-3286\n is an agreement between the decedent and Kowalski, not between Kowalski and\n\nHartford. Nothing in the LSA requires Hartford to provide an amount greater than\n\n$493,000. In fact, Hartford has deposited the proceeds and has been dismissed\n\nfrom the underlying action. Moreover, Kowalski is not requesting more than is\n\nallowed under the Hartford Plan. The LSA thus does not require the Hartford Plan\n\nto provide increased benefits.\n\n 3. We affirm the district court's grant of summary judgment. Each party\n\nshall bear its own costs on appeal.\n\n AFFIRMED.\n\n 4 23-3286",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

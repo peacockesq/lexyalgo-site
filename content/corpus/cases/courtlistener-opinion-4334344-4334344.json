@@ -1,0 +1,52 @@
+{
+  "document_id": "41e5a311-b0bf-40e0-8cd5-51c675f32b53",
+  "slug": "courtlistener-opinion-4334344-4334344",
+  "title": "CourtListener opinion 4334344",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "ERISA / defined contribution issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 3,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 1,
+    "alternate payee": 1,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4334344 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to ERISA / defined contribution issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "haring plan at Moore Corporation into an IRA, a qualified retirement plan, at Payne County Bank (PCB) in Perkins, Oklahoma. On November 14, 1997, the District Court In And For Lincoln County, State of Oklahoma, issued a Qualified Domestic Relations Order (QDRO) in the case of Alvetta J. Mills v. Larry J. Mills. The QDRO ordered PCB to segregate for the benefit of Alvetta Mills, the alternate payee, the sum of $17,745 along with the interest accruing between November 14, 1997, until the date of distribution. Petitioner signed on January 10, 1998, an \\IRA Distribution"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "be cited as authority. - 2 - Respondent determined a deficiency in petitioner's Federal income tax of $2,901 for 1998. The issues for decision are: (1) Whether petitioner may deduct the Federal income tax withheld from a distribution from an Individual Retirement Account (IRA), and (2) whether petitioner is liable for the 10-percent additional tax on an early distribution from a qualified retirement plan. The stipulated facts and exhibits received into evidence are incorporated herein by reference. At the time the petition in this case was filed, petitioner resided in Jennings, Oklahoma. Background In 1994, petit"
+    },
+    {
+      "label": "401(k)",
+      "quote": "an. The stipulated facts and exhibits received into evidence are incorporated herein by reference. At the time the petition in this case was filed, petitioner resided in Jennings, Oklahoma. Background In 1994, petitioner rolled over an amount from his 401(k) profit sharing plan at Moore Corporation into an IRA, a qualified retirement plan, at Payne County Bank (PCB) in Perkins, Oklahoma. On November 14, 1997, the District Court In And For Lincoln County, State of Oklahoma, issued a Qualified Domestic Relations Order (QDRO) in the case of Alvetta J. Mills v. Larry J. Mills. The QDRO ordered PCB to segregat"
+    },
+    {
+      "label": "alternate payee",
+      "quote": "vember 14, 1997, the District Court In And For Lincoln County, State of Oklahoma, issued a Qualified Domestic Relations Order (QDRO) in the case of Alvetta J. Mills v. Larry J. Mills. The QDRO ordered PCB to segregate for the benefit of Alvetta Mills, the alternate payee, the sum of $17,745 along with the interest accruing between November 14, 1997, until the date of distribution. Petitioner signed on January 10, 1998, an \\IRA Distribution"
+    }
+  ],
+  "full_text": "T.C. Summary Opinion 2003-41\n\n UNITED STATES TAX COURT\n\n LARRY JOE MILLS, Petitioner v.\n COMMISSIONER OF INTERNAL REVENUE, Respondent\n\n Docket No. 7036-02S. Filed April 22, 2003.\n\n Larry Joe Mills, pro se.\n\n Donald E. Edwards, for respondent.\n\n DEAN, Special Trial Judge: This case was heard under the\n\nprovisions of section 7463 of the Internal Revenue Code as in\n\neffect at the time the petition was filed. Unless otherwise\n\nindicated, all other section references are to the Internal\n\nRevenue Code in effect for the year at issue. The decision to be\n\nentered is not reviewable by any other court, and this opinion\n\nshould not be cited as authority.\n - 2 -\n\n Respondent determined a deficiency in petitioner's Federal\n\nincome tax of $2,901 for 1998. The issues for decision are:\n\n(1) Whether petitioner may deduct the Federal income tax withheld\n\nfrom a distribution from an Individual Retirement Account (IRA),\n\nand (2) whether petitioner is liable for the 10-percent\n\nadditional tax on an early distribution from a qualified\n\nretirement plan.\n\n The stipulated facts and exhibits received into evidence are\n\nincorporated herein by reference. At the time the petition in\n\nthis case was filed, petitioner resided in Jennings, Oklahoma.\n\n Background\n\n In 1994, petitioner rolled over an amount from his 401(k)\n\nprofit sharing plan at Moore Corporation into an IRA, a qualified\n\nretirement plan, at Payne County Bank (PCB) in Perkins, Oklahoma.\n\nOn November 14, 1997, the District Court In And For Lincoln\n\nCounty, State of Oklahoma, issued a Qualified Domestic Relations\n\nOrder (QDRO) in the case of Alvetta J. Mills v. Larry J. Mills.\n\nThe QDRO ordered PCB to segregate for the benefit of Alvetta\n\nMills, the alternate payee, the sum of $17,745 along with the\n\ninterest accruing between November 14, 1997, until the date of\n\ndistribution.\n\n Petitioner signed on January 10, 1998, an \\IRA Distribution",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

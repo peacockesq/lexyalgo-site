@@ -1,0 +1,52 @@
+{
+  "document_id": "a1b37516-860c-4666-bb58-50bb088ab81a",
+  "slug": "courtlistener-opinion-3324650-3324650",
+  "title": "CourtListener opinion 3324650",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 3,
+    "ERISA": 0,
+    "401(k)": 2,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 1,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3324650 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "rmanent periodic alimony of $460.00 per week. Said alimony shall be modifiable as to amount but non-modifiable as to duration and shall terminate on death of either party or wife's remarriage . . . the UTC pension and UTC 401K plan shall be divided equally by QDRO orders . . . the husband shall maintain the wife as beneficiary on CIGNA and Northwestern Mutual policies in the total amount of $377,000.00 for so long as he has an alimony obligation. Said coverage shall be subject to modification in the future . . . The court heard testimony from the parties and reviewed all exhibits entered. Based on this evidence, th"
+    },
+    {
+      "label": "pension",
+      "quote": "ovided inter alia , the following: Husband to pay permanent periodic alimony of $460.00 per week. Said alimony shall be modifiable as to amount but non-modifiable as to duration and shall terminate on death of either party or wife's remarriage . . . the UTC pension and UTC 401K plan shall be divided equally by QDRO orders . . . the husband shall maintain the wife as beneficiary on CIGNA and Northwestern Mutual policies in the total amount of $377,000.00 for so long as he has an alimony obligation. Said coverage shall be subject to modification in the future . . . The court heard testimony from the parties and review"
+    },
+    {
+      "label": "401(k)",
+      "quote": "a , the following: Husband to pay permanent periodic alimony of $460.00 per week. Said alimony shall be modifiable as to amount but non-modifiable as to duration and shall terminate on death of either party or wife's remarriage . . . the UTC pension and UTC 401K plan shall be divided equally by QDRO orders . . . the husband shall maintain the wife as beneficiary on CIGNA and Northwestern Mutual policies in the total amount of $377,000.00 for so long as he has an alimony obligation. Said coverage shall be subject to modification in the future . . . The court heard testimony from the parties and reviewed all exhibi"
+    },
+    {
+      "label": "survivor benefits",
+      "quote": "bonus that was variable. Soon after his separation from his employer, he began to draw on his pension. Currently, he receives a monthly sum of $1924.00, a sum slightly lower than he was eligible for, that he elected in order to provide his current wife with a survivor benefit. Subsequent to the filing of the Motion to Modify and within 3 days of receiving the approximately $53,000.00 net from Pratt and Whitney for separating, the defendant repaid a loan from his 401K, gave his children financial gifts, paid a small amount of back taxes and paid his current wife approximately $27,000.00 for a loan he had taken from her earlier"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] MEMORANDUM OF DECISION ON MOTION FOR MODIFICATION OF ALIMONY, POST-JUDGMENT \nBy motion dated June 20, 2002, the defendant seeks to modify an alimony order entered as part of a dissolution judgment dated March 4, 1999. The defendant is requesting that the court reduce his alimony obligation based on a substantial change in the financial circumstances of the parties. \n At the time of the dissolution, the parties entered an agreement which was incorporated by reference into the final judgment. This agreement provided inter alia , the following: \n Husband to pay permanent periodic alimony of $460.00 per week. Said alimony shall be modifiable as to amount but non-modifiable as to duration and shall terminate on death of either party or wife's remarriage . . . the UTC pension and UTC 401K plan shall be divided equally by QDRO orders . . . the husband shall maintain the wife as beneficiary on CIGNA and Northwestern Mutual policies in the total amount of $377,000.00 for so long as he has an alimony obligation. Said coverage shall be subject to modification in the future . . . \n The court heard testimony from the parties and reviewed all exhibits entered. Based on this evidence, the court finds the following facts: \n At the time of the dissolution, the parties had been married for 33 years. The defendant was employed by Pratt and Whitney and earned approximately $88,000.00 annually. He lived in an apartment in Manchester, Ct. The plaintiff had become recently employed prior to the dissolution and earned approximately $22,000.00 annually. She was living in the family home. \n In June 2000, the defendant remarried and relocated to his current wife's home in Weston, Ct. He continued to work for Pratt and Whitney and CT Page 13151 as a result of his change in residence, had a lengthy commute to his employment. In the year 2002, the defendant was offered a separation package from Pratt and Whitney. These packages are offered every three to four years to employees at Pratt and Whitney. The defendant accepted the package which included a lump sum payment from Pratt and Whitney of a $6,000.00 transition bonus and an amount equal to 36 weeks of his regular pay. He also received unused vacation time in 2002 and one half of his potential vacation time from 2003 in the form of cash. As a result, the husband has netted approximately 53,000.00 in a separation package. \n The husband stated three reasons for retiring early. First, he was tired of walking through the door at Pratt and Whitney, having done so for 36 years. Second, he was tired of the long commute. Third, he felt that he had fulfilled his obligations to his family with the last child having recently graduated from college. \n His current life plan is for his wife, Virginia, to sell her Weston home, with relocation to the state of North Carolina where he plans to do nothing professionally. \n The defendant alluded to an irregular heartbeat diagnosed in the mid-1990's as a factor in his decision to retire early but he also testified that this condition has not limited his activities or caused him to miss work. \n At the time of the defendant's separation from Pratt and Whitney, he was earning an annual salary of $92,000.00 with some bonus that was variable. Soon after his separation from his employer, he began to draw on his pension. Currently, he receives a monthly sum of $1924.00, a sum slightly lower than he was eligible for, that he elected in order to provide his current wife with a survivor benefit. \n Subsequent to the filing of the Motion to Modify and within 3 days of receiving the approximately $53,000.00 net from Pratt and Whitney for separating, the defendant repaid a loan from his 401K, gave his children financial gifts, paid a small amount of back taxes and paid his current wife approximately $27,000.00 for a loan he had taken from her earlier to pay off his personal credit card debt. He currently has $18,000.00 of the original $53,000.00 remaining. He also renovated his current wife's bathrooms but testified that those labors and material were a gift to her while her loan to him was not. He testified that his focus is now on Virginia, his current wife and not on Margaret, the plaintiff. \n The parties agree that the regular retirement age at Pratt and Whitney is 65. The plaintiff testified that she had expected that the defendant's CT Page 13152 retirement would correspond to hers, but certainly no earlier than age 62. The plaintiff currently earns $570.00 per week or $29,640.00 annually. She testified that she will be entitled to a small pension at age 62 from this employment. \n In order to modify or terminate an alimony award, Conn Gen Statutes sec. 46b-86 (a) requires \\a showing of a substantial change in the circumstances of either party.\\\" Under this statutory provision",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

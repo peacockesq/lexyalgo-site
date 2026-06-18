@@ -1,0 +1,44 @@
+{
+  "document_id": "147e3588-657d-4b83-bff7-6ce651df72c9",
+  "slug": "courtlistener-opinion-3730689-3730689",
+  "title": "CourtListener opinion 3730689",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3730689 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "t earning potential, the trial court imputed income based on their substantial assets. See R.C. 3119.01 (C)(11)(b); former R.C. 3113.215 . {&#182; 6} Both parties filed a notice of appeal from that order. Because the trial court's order had indicated that a qualified domestic relations order (\\QDRO\\\") would be forthcoming and no QDRO had been filed"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "potential, the trial court imputed income based on their substantial assets. See R.C. 3119.01 (C)(11)(b); former R.C. 3113.215 . {&#182; 6} Both parties filed a notice of appeal from that order. Because the trial court's order had indicated that a qualified domestic relations order (\\QDRO\\\") would be forthcoming and no QDRO had been filed"
+    }
+  ],
+  "full_text": "DECISION AND JOURNAL ENTRY \nThis cause was heard upon the record in the trial court. Each error assigned has been reviewed and the following disposition is made:\n {&#182; 1} Appellant, Barbara Musci, appeals from a judgment of the Summit County Court of Common Pleas, Domestic Relations Division, that modified the child support obligation of her ex-husband, John Musci. Mr. Musci also cross-appeals from that judgment. This Court reverses in part and remands the matter to the trial court. \n I. {&#182; 2} Mr. and Mrs. Musci were married on October 20, 1984 and three daughters were born during the marriage. On November 7, 2000, Mrs. Musci filed a complaint for divorce and Mr. Musci later filed a counterclaim. On March 3, 2001, the trial court granted the couple a divorce, divided marital property, and ordered Mr. Musci to pay spousal support and child support. The child support obligation was based on Mr. Musci's substantial annual income, which was close to $400,000 at that time. \n {&#182; 3} Although the parties filed numerous post-divorce motions, this Court will detail only those relevant to this appeal. On March 16, 2001, Mr. Musci filed a motion to modify his child support obligation and the shared parenting plan. Since that time, and while the original motion was still pending, Mr. Musci filed additional motions requesting modifications. Mr. Musci based his requests for modification on a change in circumstances. Specifically, his employment had been terminated, he had not secured new employment, and he had moved back to this area and was spending more time with his children. Mrs. Musci later filed several motions, asking the trial court to find Mr. Musci in contempt for failing to comply with various requirements of the divorce decree. \n {&#182; 4} These and other pending motions were heard on several different dates over a period of many months. The final hearings were held on December 12 and 13, 2002 before a magistrate. The magistrate who conducted that hearing later issued a lengthy decision that coherently summarized the many post-divorce motions that had been filed, explained what matters had already been resolved, and resolved all matters that were still pending at that time. The decision included a modification of child support and enforcement of certain terms of the separation agreement. After finding that Mrs. Musci was voluntarily unemployed and that Mr. Musci was voluntarily underemployed, the magistrate imputed income to each, based on their projected earning potential if employed. \n {&#182; 5} Both parties filed objections to the magistrate's decision. The trial court sustained some of the objections, overruled other objections, and entered an independent judgment. Among other things, the trial court's decision changed the magistrate's imputation of each party's income. Rather than imputing income based on the party's employment earning potential, the trial court imputed income based on their substantial assets. See R.C. 3119.01 (C)(11)(b); former R.C. 3113.215 . \n {&#182; 6} Both parties filed a notice of appeal from that order. Because the trial court's order had indicated that a qualified domestic relations order (\\QDRO\\\") would be forthcoming and no QDRO had been filed",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

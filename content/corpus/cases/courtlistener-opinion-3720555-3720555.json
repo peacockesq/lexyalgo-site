@@ -1,0 +1,52 @@
+{
+  "document_id": "54e34efa-7861-481f-977a-d267dd189af7",
+  "slug": "courtlistener-opinion-3720555-3720555",
+  "title": "CourtListener opinion 3720555",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "ERISA / defined contribution issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 1,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 1,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3720555 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to ERISA / defined contribution issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "n would reside with Raymond, while Stacy would receive parenting time and pay child support, effective October 2003. Raymond continued to pay support to Stacy. {&#182; 5} The trial court journalized the divorce decree on February 2, 2004, and the associated Qualified Domestic Relations Order (QDRO) on May 5, 2004. Raymond timely appealed, asserting six assignments of error for review. II. A. First Assignment of Error \\The trial court erred when it failed to include appellant's spousal support payments as income to appellee and failed to deduct said payments from the income of appellant for the purpose of calculating appellee's child support"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "ymond's property was used as down payment on the marital residence, purchased on November 18, 1993. Prior to and throughout the marriage, Raymond was employed as a pharmacist, which paid him a salary of $89,700 at the time of the divorce and included a 401(k) retirement plan. Stacy had worked a variety of jobs and was most recently employed as a waitress, which paid her a 2002 income of $10,953. At the time of the divorce, Stacy was attending court reporting school, which provided no income. {&#182; 3} In March 2002, Stacy took the children, left the home and filed a complaint for divorce, including a motion for spousal and c"
+    },
+    {
+      "label": "401(k)",
+      "quote": "n of Raymond's property was used as down payment on the marital residence, purchased on November 18, 1993. Prior to and throughout the marriage, Raymond was employed as a pharmacist, which paid him a salary of $89,700 at the time of the divorce and included a 401(k) retirement plan. Stacy had worked a variety of jobs and was most recently employed as a waitress, which paid her a 2002 income of $10,953. At the time of the divorce, Stacy was attending court reporting school, which provided no income. {&#182; 3} In March 2002, Stacy took the children, left the home and filed a complaint for divorce, including a motion f"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "side with Raymond, while Stacy would receive parenting time and pay child support, effective October 2003. Raymond continued to pay support to Stacy. {&#182; 5} The trial court journalized the divorce decree on February 2, 2004, and the associated Qualified Domestic Relations Order (QDRO) on May 5, 2004. Raymond timely appealed, asserting six assignments of error for review. II. A. First Assignment of Error \\The trial court erred when it failed to include appellant's spousal support payments as income to appellee and failed to deduct said payments from the income of appellant for the purpose of calculating appellee's child support"
+    }
+  ],
+  "full_text": "DECISION AND JOURNAL ENTRY \n {&#182; 1} Appellant, Raymond Zimon, appeals from an order of the Medina County Court of Common Pleas, Domestic Relations Division, which formalized his divorce from Appellee, Stacy Zimon. We affirm in part and reverse in part. \n I. {&#182; 2} Raymond and Stacy were married on June 4, 1993, and have two children, currently ages ten and seven. Each party had pre-marital property, and some portion of Raymond's property was used as down payment on the marital residence, purchased on November 18, 1993. Prior to and throughout the marriage, Raymond was employed as a pharmacist, which paid him a salary of $89,700 at the time of the divorce and included a 401(k) retirement plan. Stacy had worked a variety of jobs and was most recently employed as a waitress, which paid her a 2002 income of $10,953. At the time of the divorce, Stacy was attending court reporting school, which provided no income. \n {&#182; 3} In March 2002, Stacy took the children, left the home and filed a complaint for divorce, including a motion for spousal and child support. A magistrate awarded Stacy temporary residential parent and legal custodian status, and ordered Raymond to pay monthly child and spousal support, effective August 27, 2002. Raymond paid the support until the trial court's final divorce decree in February 2004, paying approximately $17,800 in child support and $20,400 in spousal support over this 17-month period. \n {&#182; 4} The matter came before the trial judge in September and October 2003, and the parties stipulated to certain outstanding collective debts and allocation of certain personal property. However, a dispute ensued as to whether Raymond had actually stipulated to a particular debt and select items of property. The parties also agreed to a Shared Parenting Plan, in which the children would reside with Raymond, while Stacy would receive parenting time and pay child support, effective October 2003. Raymond continued to pay support to Stacy. \n {&#182; 5} The trial court journalized the divorce decree on February 2, 2004, and the associated Qualified Domestic Relations Order (QDRO) on May 5, 2004. Raymond timely appealed, asserting six assignments of error for review. \n II. A. First Assignment of Error \n\\The trial court erred when it failed to include appellant's spousal support payments as income to appellee and failed to deduct said payments from the income of appellant for the purpose of calculating appellee's child support obligation.\\\"",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

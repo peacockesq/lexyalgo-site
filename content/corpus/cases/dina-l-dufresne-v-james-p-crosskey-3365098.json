@@ -1,0 +1,40 @@
+{
+  "document_id": "a2ad9051-9b04-4cff-be20-b6f33b190425",
+  "slug": "dina-l-dufresne-v-james-p-crosskey-3365098",
+  "title": "Dina L. Dufresne v. James P. Crosskey",
+  "citation": "QDRO",
+  "source_url": "https://www.courtlistener.com/opinion/3369558/dufresne-v-crosskey-no-fa96-0322993-s-mar-16-1999/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "1999-03-16",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: Dina L. Dufresne v. James P. Crosskey is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "e which shall occur within 120 days of judgment. The defendant shall make every effort to remove plaintiff from obligation on the note and present mortgage securing said obligation. The Court shall retain jurisdiction on the execution and maintenance of any QDRO. ARTICULATION Pursuant to the motion for articulation filed by defendant on January 29, 1999, it was the Court's intention that the $6000 payment ordered in its judgment at page 5, subsection (C) is additional periodic alimony. It was also the Court's intention at page 5, subsection (D) that the plaintiff shall be entitled to 25 percent of the net amou"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] ARTICULATION \nPursuant to the motion to reargue post judgment, and treating same as a motion for articulation, the Court orders the following. \n The payment of child support shall be made until each child attains the minimum age of eighteen. Medical insurance shall be paid through the eighteenth birthday of each minor child. \n The parties shall be required to exchange W-2 forms annually upon receint of same in order to calculate the bonus. \n The defendant shall pay to plaintiff the sum of $70,000 at the time of conveyance of the marital home which shall occur within 120 days of judgment. The defendant shall make every effort to remove plaintiff from obligation on the note and present mortgage securing said obligation. \n The Court shall retain jurisdiction on the execution and maintenance of any QDRO. \n ARTICULATION \nPursuant to the motion for articulation filed by defendant on January 29, 1999, it was the Court's intention that the $6000 payment ordered in its judgment at page 5, subsection (C) is additional periodic alimony. \n It was also the Court's intention at page 5, subsection (D) that the plaintiff shall be entitled to 25 percent of the net amount received. If the stock options have no value or negative value at the time of vesting, the defendant shall not be required to exercise same until they have net value. If the stock options have a net value, then plaintiff shall notify defendant to exercise 25 percent of said options. The Court shall retain jurisdiction of the issue of exercising the stock options if there is a dispute among the parties. \n Owens, J. CT Page 3854",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

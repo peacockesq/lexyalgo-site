@@ -1,0 +1,52 @@
+{
+  "document_id": "33fb5611-46cf-41bb-a54e-5d3b980e6f5d",
+  "slug": "courtlistener-opinion-1065830-1065830",
+  "title": "CourtListener opinion 1065830",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 5,
+    "retirement benefits": 1,
+    "pension": 6,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1065830 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "mitting on brief. Charles Wayne Williams and Sonjia Lord Williams were divorced by entry of an amended final decree entered July 10, 1997, which awarded the wife 50% of the husband's pension benefits. To carry out that decree, the trial court entered a qualified domestic relations order (QDRO) January 26, 1998. After the QDRO went into effect, the wife no longer received 50% of the benefits. She petitioned for clarification that she was entitled to half of the husband's retirement benefits and sought to have the husband found in contempt for failing to pay that amount to her. The trial court decreed that the wife was entitled to hal"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "decree, the trial court entered a qualified domestic relations order (QDRO) January 26, 1998. After the QDRO went into effect, the wife no longer received 50% of the benefits. She petitioned for clarification that she was entitled to half of the husband's retirement benefits and sought to have the husband found in contempt for failing to pay that amount to her. The trial court decreed that the wife was entitled to half of all benefits and ordered the husband to pay all arrearages. The trial court did not hold the husband in contempt but amended the original amended final decree of July 10, 1997, nunc pro tunc, to order"
+    },
+    {
+      "label": "pension",
+      "quote": "B. Phillips; Phillips & Swanson, on brief), for appellee. Appellee submitting on brief. Charles Wayne Williams and Sonjia Lord Williams were divorced by entry of an amended final decree entered July 10, 1997, which awarded the wife 50% of the husband's pension benefits. To carry out that decree, the trial court entered a qualified domestic relations order (QDRO) January 26, 1998. After the QDRO went into effect, the wife no longer received 50% of the benefits. She petitioned for clarification that she was entitled to half of the husband's retirement benefits and sought to have the husband found in contempt"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "brief. Charles Wayne Williams and Sonjia Lord Williams were divorced by entry of an amended final decree entered July 10, 1997, which awarded the wife 50% of the husband's pension benefits. To carry out that decree, the trial court entered a qualified domestic relations order (QDRO) January 26, 1998. After the QDRO went into effect, the wife no longer received 50% of the benefits. She petitioned for clarification that she was entitled to half of the husband's retirement benefits and sought to have the husband found in contempt for failing to pay that amount to her. The trial court decreed that the wife was entitled to hal"
+    }
+  ],
+  "full_text": "COURT OF APPEALS OF VIRGINIA\n\nPresent: Judges Coleman, Annunziata and Bumgardner\n\nCHARLES WAYNE WILLIAMS\n OPINION BY\nv. Record No. 1297-99-3 JUDGE RUDOLPH BUMGARDNER, III\n MARCH 28, 2000\nSONJIA LORD WILLIAMS\n\n FROM THE CIRCUIT COURT OF ROANOKE COUNTY\n Diane McQ. Strickland, Judge\n\n (Barry M. Tatel; Neil E. McNally; Key,\n Tatel & McNally, on brief), for appellant.\n Appellant submitting on brief.\n\n (Charles B. Phillips; Phillips & Swanson, on\n brief), for appellee. Appellee submitting on\n brief.\n\n Charles Wayne Williams and Sonjia Lord Williams were\n\ndivorced by entry of an amended final decree entered July 10,\n\n1997, which awarded the wife 50% of the husband's pension\n\nbenefits. To carry out that decree, the trial court entered a\n\nqualified domestic relations order (QDRO) January 26, 1998.\n\nAfter the QDRO went into effect, the wife no longer received 50%\n\nof the benefits. She petitioned for clarification that she was\n\nentitled to half of the husband's retirement benefits and sought\n\nto have the husband found in contempt for failing to pay that\n\namount to her.\n\n The trial court decreed that the wife was entitled to half\n\nof all benefits and ordered the husband to pay all arrearages.\n The trial court did not hold the husband in contempt but amended\n\nthe original amended final decree of July 10, 1997, nunc pro\n\ntunc, to order him to pay the balance not paid directly by the\n\npension administrator. The husband argues on appeal that the\n\ntrial court lacked jurisdiction to modify substantively the\n\namended final decree. The husband also argues that the trial\n\ncourt erroneously applied Code § 8.01-428(B) and erred in\n\nconsidering certain exhibits. For the following reasons, we\n\naffirm.\n\n The trial court first entered a final decree of divorce on\n\nApril 22, 1997. That decree adjudicated spousal support, the\n\nhusband's pension, and the proceeds from settlement of the\n\nhusband's personal injury claim against his employer. Both\n\nparties objected to portions of that final decree, and the\n\nhusband appealed. Pending the appeal, the parties negotiated a\n\nsettlement and submitted it to the trial court. When the trial\n\ncourt incorporated the agreement into an amended final decree,\n\nthe husband withdrew his appeal.\n\n Under the amended final decree, the wife waived spousal\n\nsupport and any interest in the husband's personal injury\n\nsettlement. She received 50% of all future pension payments\n\npaid to the husband beginning July 1, 1997. The trial court\n\nordered the husband to pay half of his pension benefits directly\n\nto the wife during the interim between the entry of the amended\n\norder and the processing of a QDRO. The trial court ordered the\n\n - 2 -\n wife to prepare a QDRO directing the plan administrator to pay\n\nto her \\fifty percent (50%) of each pension payment paid to",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

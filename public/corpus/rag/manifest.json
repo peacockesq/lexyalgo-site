@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-05-15T12:01:55.773Z",
+  "corpus_version": "public_v0",
+  "case_count": 2271,
+  "chunk_count": 12220,
+  "chunk_kinds": [
+    "evidence_quote",
+    "holding",
+    "summary"
+  ],
+  "metadata_fields": [
+    "citation_is_placeholder",
+    "citation_year",
+    "court",
+    "extracted_docket_number",
+    "extracted_reporter_citation",
+    "jurisdiction",
+    "plan_legal_category",
+    "relevance_total",
+    "source_host",
+    "source_opinion_id",
+    "state_code",
+    "topic_terms"
+  ],
+  "files": [
+    {
+      "path": "/corpus/manifest.json",
+      "format": "json",
+      "description": "Case-level public metadata and page URLs."
+    },
+    {
+      "path": "/corpus/search-index.json",
+      "format": "json",
+      "description": "Compact static client/search ingestion index with normalized terms and deterministic metadata."
+    },
+    {
+      "path": "/corpus/facets.json",
+      "format": "json",
+      "description": "Precomputed source, topic, category, year, and relevance-score facet counts."
+    },
+    {
+      "path": "/corpus/related-cases.json",
+      "format": "json",
+      "description": "Deterministic related-case graph for internal-linking, browsing, and retrieval expansion."
+    },
+    {
+      "path": "/corpus/cases.csv",
+      "format": "csv",
+      "description": "Spreadsheet-friendly public case metadata export."
+    },
+    {
+      "path": "/corpus/rag/chunks.jsonl",
+      "format": "jsonl",
+      "description": "Retrieval-ready summary, holding, and evidence-quote chunks with deterministic IDs and filter metadata."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "document_id": "aa92e452-b6fe-4f63-99e1-2ca850c60004",
+  "slug": "courtlistener-opinion-4360568-4360568",
+  "title": "CourtListener opinion 4360568",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 5,
+    "retirement benefits": 8,
+    "pension": 10,
+    "ERISA": 0,
+    "401(k)": 1,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 1,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4360568 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "WESLEY TAYLOR FROM THE CIRCUIT COURT OF HENRICO COUNTY Lee A. Harris, Jr., Judge (Audrey M. Baytop, on briefs), pro se. (Theresa Rhinehart, on brief), for appellee. Audrey M. Baytop appeals an order denying and dismissing her motion for entry of a qualified domestic relations order (QDRO). Baytop argues that the circuit court's judgment was erroneous and that she was entitled to a portion of Wesley Taylor's UPS Teamsters pension. Upon reviewing the record and briefs of the parties, we conclude that this appeal is without merit. Accordingly, we summarily affirm the decision of the circuit court. See Rule 5A:27. BACKGROUND On"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "A:27. BACKGROUND On October 20, 2006, Baytop and Taylor entered into a property settlement agreement (PSA), which was incorporated into their final decree of divorce on November 6, 2006. The PSA includes the following provisions regarding the parties' retirement accounts: 13) RETIREMENT BENEFITS a) Mutual Waiver. Except as provided for herein, neither party shall have any interest whatsoever in any pension, profit-sharing, individual retirement account (IRA), 401(k) plan * Pursuant to Code § 17.1-413, this opinion is not designated for publication. account, deferred compensation account or other retirement plan o"
+    },
+    {
+      "label": "pension",
+      "quote": "ey M. Baytop appeals an order denying and dismissing her motion for entry of a qualified domestic relations order (QDRO). Baytop argues that the circuit court's judgment was erroneous and that she was entitled to a portion of Wesley Taylor's UPS Teamsters pension. Upon reviewing the record and briefs of the parties, we conclude that this appeal is without merit. Accordingly, we summarily affirm the decision of the circuit court. See Rule 5A:27. BACKGROUND On October 20, 2006, Baytop and Taylor entered into a property settlement agreement (PSA), which was incorporated into their final decree of divorce on N"
+    },
+    {
+      "label": "401(k)",
+      "quote": "llowing provisions regarding the parties' retirement accounts: 13) RETIREMENT BENEFITS a) Mutual Waiver. Except as provided for herein, neither party shall have any interest whatsoever in any pension, profit-sharing, individual retirement account (IRA), 401(k) plan * Pursuant to Code § 17.1-413, this opinion is not designated for publication. account, deferred compensation account or other retirement plan or annuity of the other, including any right to a survivor annuity, and each expressly waives any and all such rights. .... c) Husband's Retirement Accounts. The parties acknowledge that Husband has a"
+    }
+  ],
+  "full_text": "COURT OF APPEALS OF VIRGINIA\n\n Present: Judges Chafin, Malveaux and Senior Judge Haley\nUNPUBLISHED\n\n AUDREY M. BAYTOP, F/K/A\n AUDREY TAYLOR\n MEMORANDUM OPINION*\n v. Record No. 1255-18-2 PER CURIAM\n JANUARY 22, 2019\n WESLEY TAYLOR\n\n FROM THE CIRCUIT COURT OF HENRICO COUNTY\n Lee A. Harris, Jr., Judge\n\n (Audrey M. Baytop, on briefs), pro se.\n\n (Theresa Rhinehart, on brief), for appellee.\n\n Audrey M. Baytop appeals an order denying and dismissing her motion for entry of a\n\n qualified domestic relations order (QDRO). Baytop argues that the circuit court's judgment was\n\n erroneous and that she was entitled to a portion of Wesley Taylor's UPS Teamsters pension. Upon\n\n reviewing the record and briefs of the parties, we conclude that this appeal is without merit.\n\n Accordingly, we summarily affirm the decision of the circuit court. See Rule 5A:27.\n\n BACKGROUND\n\n On October 20, 2006, Baytop and Taylor entered into a property settlement agreement\n\n (PSA), which was incorporated into their final decree of divorce on November 6, 2006. The\n\n PSA includes the following provisions regarding the parties' retirement accounts:\n\n 13) RETIREMENT BENEFITS\n\n a) Mutual Waiver. Except as provided for herein,\n neither party shall have any interest whatsoever in any pension,\n profit-sharing, individual retirement account (IRA), 401(k) plan\n\n *\n Pursuant to Code § 17.1-413, this opinion is not designated for publication.\n account, deferred compensation account or other retirement plan or\n annuity of the other, including any right to a survivor annuity, and\n each expressly waives any and all such rights.\n\n ....\n\n c) Husband's Retirement Accounts. The parties\n acknowledge that Husband has an interest in retirement accounts\n held with Morgan Stanley . . . . In addition, Husband has an\n interest in a pension plan with UPS Teamsters (hereinafter jointly\n \"Husband's Retirement\"). The parties agree that Husband's\n Retirement and any other retirement accounts/benefits belonging to\n Husband in his sole name shall be the sole property of Husband,\n and he shall hold the same free and clear of any right, title, claim\n or interest of Wife.\n\n On April 4, 2018, Baytop filed a motion to reinstate the matter on the circuit court's\n\ndocket because a QDRO for Taylor's UPS Teamsters pension had not been entered. By order of\n\nApril 6, 2018, the court reinstated the case on the docket. Shortly thereafter, Taylor filed a\n\nmotion to dismiss and for sanctions because Baytop had waived her rights to his pension in the\n\nPSA. On July 2, 2018, the parties appeared before the circuit court. Baytop argued that she was\n\nentitled to a portion of Taylor's pension, but Taylor argued that she had waived any right she had\n\nin his pension in the PSA. After hearing the parties' arguments and reviewing the PSA, the\n\ncircuit court agreed with Taylor and found that Baytop had waived her rights to his pension.\n\nAccordingly, the circuit court denied and dismissed her motion and awarded $1,000 in attorney's\n\nfees to Taylor. This appeal followed.\n\n ANALYSIS\n\n Baytop argues that the circuit court erred by not awarding her a portion of Taylor's pension\n\nbenefits and denying and dismissing her motion for entry of a QDRO.\n\n \"Property settlement agreements are contracts and are subject to the same rules of\n\nconstruction that apply to the interpretation of contracts generally.\" Jones v. Gates, 68 Va. App.\n\n100, 105 (2017) (quoting Southerland v. Estate of Southerland, 249 Va. 584, 588 (1995)). \"We\n\n -2-\n review a court's interpretation of the parties' agreement de novo.\" Id. \"If the terms of the\n\nagreement are unambiguous, their meaning and effect are questions of law. Ordinary words are\n\ngiven their ordinary meaning when constructing the contract.\" Craig v. Craig, 59 Va. App. 527,\n\n537 (2012).\n\n The PSA clearly provides that Baytop waived her rights to Taylor's retirement accounts,\n\nincluding his UPS Teamsters pension. Therefore, she was not entitled to any portion of his\n\nretirement, and the cirucit court did not err in denying and dismissing her motion for entry of a\n\nQDRO.\n\n Taylor asks this Court to award him attorney's fees and costs incurred on appeal. See\n\nO'Loughlin v. O'Loughlin, 23 Va. App. 690, 695 (1996). \"The decision of whether to award\n\nattorney's fees and costs incurred on appeal is discretionary.\" Friedman v. Smith, 68 Va. App.\n\n529, 545 (2018). Having reviewed and considered the entire record in this case, we hold that\n\nTaylor is entitled to a reasonable amount of attorney's fees. We remand for the circuit court to\n\nset a reasonable award of attorney's fees and costs that he incurred in this appeal. Rule\n\n5A:30(b).\n\n CONCLUSION\n\n For the foregoing reasons, the circuit court's ruling is affirmed. We remand this case to\n\nthe trial court for determination and award of the appropriate appellate attorney's fees, which\n\nalso should include any additional attorney's fees incurred at the remand hearing.\n\n Affirmed and remanded.\n\n -3-",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

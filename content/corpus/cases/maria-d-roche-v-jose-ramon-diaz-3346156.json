@@ -1,0 +1,48 @@
+{
+  "document_id": "0e23aa3d-c646-4ae8-8cc4-97c0e1f63c9a",
+  "slug": "maria-d-roche-v-jose-ramon-diaz-3346156",
+  "title": "Maria D. Roche v. Jose Ramon Diaz.",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": "https://www.courtlistener.com/opinion/3350634/roche-v-diaz-no-fa000063246s-jul-20-2001/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "2001-07-20",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 1,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: Maria D. Roche v. Jose Ramon Diaz. is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "ount of $500 within sixty days of notice of this judgment for fees incurred prior to this date. The defendant is further order and the court hereby assigns to the plaintiff 1/3 of the defendant's State of Connecticut pension as of July 1, 2001 pursuant to a Qualified Domestic Relations Order. Plaintiff's counsel is directed to prepare the necessary paperwork to effect said transfer. Kocay, J."
+    },
+    {
+      "label": "pension",
+      "quote": "fees on behalf of the plaintiff in the amount of $500 within sixty days of notice of this judgment for fees incurred prior to this date. The defendant is further order and the court hereby assigns to the plaintiff 1/3 of the defendant's State of Connecticut pension as of July 1, 2001 pursuant to a Qualified Domestic Relations Order. Plaintiff's counsel is directed to prepare the necessary paperwork to effect said transfer. Kocay, J."
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "00 within sixty days of notice of this judgment for fees incurred prior to this date. The defendant is further order and the court hereby assigns to the plaintiff 1/3 of the defendant's State of Connecticut pension as of July 1, 2001 pursuant to a Qualified Domestic Relations Order. Plaintiff's counsel is directed to prepare the necessary paperwork to effect said transfer. Kocay, J."
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] MEMORANDUM OF DECISION \nThe Plaintiff and the Defendant in the above entitled matter intermarried December 21, 1975 in the town of Santa Isabel, Puerto Rico. The plaintiff has resided in the State of Connecticut continuously for CT Page 9922 the twelve months preceding the filing of the complaint. \n The marriage has broken down irretrievably and there is no prospect for reconciliation. \n All the of the children born issue of the marriage have reached the age of majority. \n No other minor children have been born to the plaintiff. \n Neither the plaintiff nor defendant are receiving state aid or municipal assistance. \n The court finds the following facts: \n The plaintiff in this action and the defendant have been separated since 1989. The plaintiff is presently not working and is receiving social security disability. \n The defendant is employed by the State of Connecticut as a custodial engineer at the University of Connecticut. He has a gross income of $1026.90 every two weeks. Since the 1989 separation, the parties have had intermittent contact, but have not resided together since the separation date. Prior to the separation, the parties owned a one-family residence in Puerto Rico. The property was sold at the insistence of the plaintiff and the proceeds of that sale were retained by the plaintiff. Initially, the defendant had come from Puerto Rico to the United States and subsequently, the plaintiff and the minor children joined him. During the period of their marriage, the defendant provided for the plaintiff and the minor children. In addition to the proceeds of the sale of the house, the defendant provided the plaintiff with an automobile. The parties did not reconcile after the separation and the defendant paid child support to the plaintiff until the children reached the majority age in 1996. The parties are in agreement that there is no prospect of reconciling and both are satisfied by living apart. \n Accordingly the court enters the following orders: The court will enter a dissolution of the marriage and declare the parties to be single and unmarried. After considering all statutory criteria, including the length of the marriage of 26 years, the court orders the defendant to pay periodic alimony in the sum of $50 per week to the plaintiff by way of immediate wage execution. Said alimony to be payable until the death of the plaintiff or defendant or until the plaintiff should remarry or cohabitate with an unrelated third party. \n In addition, since the parties have divided all their personal property CT Page 9923 to their mutual satisfaction, the court makes no award of personal property. \n The defendant presently possesses a 1996 Mitsubishi Mirage. The defendant shall retain sole possession of the motor vehicle and shall pay and assume all expenses in association with the automobile and hold the plaintiff harmless thereof. \n Each party shall be responsible for their own personal debt and hold the other harmless thereof. \n The defendant shall pay counsel fees on behalf of the plaintiff in the amount of $500 within sixty days of notice of this judgment for fees incurred prior to this date. \n The defendant is further order and the court hereby assigns to the plaintiff 1/3 of the defendant's State of Connecticut pension as of July 1, 2001 pursuant to a Qualified Domestic Relations Order. \n Plaintiff's counsel is directed to prepare the necessary paperwork to effect said transfer. \n Kocay, J.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

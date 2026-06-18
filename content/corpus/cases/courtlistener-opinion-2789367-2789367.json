@@ -1,0 +1,44 @@
+{
+  "document_id": "5da848ce-f5f6-467d-9657-12166936af37",
+  "slug": "courtlistener-opinion-2789367-2789367",
+  "title": "CourtListener opinion 2789367",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 1,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 2789367 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "retirement benefits",
+      "quote": "April 2011 and filed an application for service retirement benefits effective June 30, 2011. He learned at the meeting, however, that a domestic relations order filed with respondent -2- 519268 would result in his ex-wife receiving a portion of his monthly retirement benefit. Petitioner believed that the terms of the order were inaccurate and, as such, told the representative that he did not wish to retire until that problem could be resolved. It became apparent that his retirement application was still being processed and, on June 29, 2011, petitioner telephoned respondent and again stated that he did not wish to retire. Petit"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "e Buffalo Police Department in 1988. With an eye towards retirement, he met with a retirement information representative in April 2011 and filed an application for service retirement benefits effective June 30, 2011. He learned at the meeting, however, that a domestic relations order filed with respondent -2- 519268 would result in his ex-wife receiving a portion of his monthly retirement benefit. Petitioner believed that the terms of the order were inaccurate and, as such, told the representative that he did not wish to retire until that problem could be resolved. It became apparent that his retirement application was still being pro"
+    }
+  ],
+  "full_text": "State of New York\n Supreme Court, Appellate Division\n Third Judicial Department\nDecided and Entered: March 26, 2015 519268\n________________________________\n\nIn the Matter of JOHN SANDERS,\n Petitioner,\n v\n MEMORANDUM AND JUDGMENT\nNEW YORK STATE AND LOCAL\n EMPLOYEES' RETIREMENT\n SYSTEM,\n Respondent.\n________________________________\n\nCalendar Date: February 9, 2015\n\nBefore: Lahtinen, J.P., McCarthy, Egan Jr. and Clark, JJ.\n\n __________\n\n Creighton Johnsen & Giroux, Buffalo (Jonathan Johnsen of\ncounsel), for petitioner.\n\n Eric T. Schneiderman, Attorney General, Albany (William E.\nStorrs of counsel), for respondent.\n\n __________\n\nClark, J.\n\n Proceeding pursuant to CPLR article 78 (transferred to this\nCourt by order of the Supreme Court, entered in Albany County) to\nreview a determination of the Comptroller which denied\npetitioner's request to withdraw his application for service\nretirement.\n\n Petitioner began working as a police officer for the\nBuffalo Police Department in 1988. With an eye towards\nretirement, he met with a retirement information representative\nin April 2011 and filed an application for service retirement\nbenefits effective June 30, 2011. He learned at the meeting,\nhowever, that a domestic relations order filed with respondent\n -2- 519268\n\nwould result in his ex-wife receiving a portion of his monthly\nretirement benefit. Petitioner believed that the terms of the\norder were inaccurate and, as such, told the representative that\nhe did not wish to retire until that problem could be resolved.\nIt became apparent that his retirement application was still\nbeing processed and, on June 29, 2011, petitioner telephoned\nrespondent and again stated that he did not wish to retire.\nPetitioner continued to work until July 27, 2011, when he was\nadvised by his employer that he had retired. Petitioner's\nsubsequent written request to withdraw his retirement application\nwas denied as untimely. Following a hearing, a Hearing Officer\nagreed that petitioner was not entitled to withdraw his\nretirement application. The Comptroller adopted the findings and\nconclusions of the Hearing Officer, and this CPLR article 78\nproceeding ensued.\n\n We confirm. The Comptroller \\is vested with the exclusive",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

@@ -1,0 +1,48 @@
+{
+  "document_id": "cbbc87b6-7b73-41c1-a96e-214769ec7845",
+  "slug": "courtlistener-opinion-3324125-3324125",
+  "title": "CourtListener opinion 3324125",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 1,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3324125 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "0.00 as of June 22, 1990. Although the defendant has offered to pay off the balance of any arrearage presently owed to the plaintiff by withdrawing funds from his profit sharing retirement plan, which is managed by his former employer, withdrawal requires a qualified domestic relations order pursuant to specific Internal Revenue Service regulations. This is not a remedy for the court to attempt to fashion sua sponte. Nor is this court inclined to assume the role of advocate for either side and attempt to negotiate an acceptable order with the manager of the plan. Great familiarity with the nature of the plan is required in order to avoid advers"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "s, an arrearage is found due and owning to the petitioner in the amount of $1,050.00 as of June 22, 1990. Although the defendant has offered to pay off the balance of any arrearage presently owed to the plaintiff by withdrawing funds from his profit sharing retirement plan, which is managed by his former employer, withdrawal requires a qualified domestic relations order pursuant to specific Internal Revenue Service regulations. This is not a remedy for the court to attempt to fashion sua sponte. Nor is this court inclined to assume the role of advocate for either side and attempt to negotiate an acceptable order with the mana"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "June 22, 1990. Although the defendant has offered to pay off the balance of any arrearage presently owed to the plaintiff by withdrawing funds from his profit sharing retirement plan, which is managed by his former employer, withdrawal requires a qualified domestic relations order pursuant to specific Internal Revenue Service regulations. This is not a remedy for the court to attempt to fashion sua sponte. Nor is this court inclined to assume the role of advocate for either side and attempt to negotiate an acceptable order with the manager of the plan. Great familiarity with the nature of the plan is required in order to avoid advers"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] \nMEMORANDUM OF DECISION\nORDER \n The defendant's motion dated June 6, 1990 is hereby granted. The weekly child support order of $75.00 per week for each of the two minor children is hereby reduced to $34.00 per week per child, for a total child support order of $68.00 per week. This order and the order for alimony in the CT Page 161 amount of $35.00 per week is to be secured by an immediate wage withholding. Any wage withholding already in effect is to be modified accordingly. This order is effective July 13, 1990. \n All other orders incident to the dissolution remain in full force and effect. \n FINDINGS (Plaintiff still on assistance) \n The defendant, Donald A. Steele, has brought an application for rule to show cause dated June 6, 1990 seeking a modification of his weekly child support obligation. The original decree of dissolution award the plaintiff, Susan D. Steele, $75.00 per week for each of two minor children and $35.00 per week alimony. The defendant alleges that he can no longer afford to pay this obligation due to a substantial change in his financial circumstances since the date of the divorce. \n The defendant's motion did not request a decrease in the weekly alimony obligation. Therefore, the court can only address his written request for a modification of his child support payments. \n A hearing was held on the defendant's motion on June 22 and June 27, 1990. Both parties appeared pro se. A prior contempt proceeding was heard an resolved earlier this year as a result of consecutive hearings in February and March. At the end of March, the defendant was found in compliance after payment of $1,700.00 lump sum. Although recently he he has missed several weeks worth of payments, there was no application or motion for contempt pending at the time of the June 27 hearing and the prior contempt application had been resolved. However, by agreement of the parties, an arrearage is found due and owning to the petitioner in the amount of $1,050.00 as of June 22, 1990. \n Although the defendant has offered to pay off the balance of any arrearage presently owed to the plaintiff by withdrawing funds from his profit sharing retirement plan, which is managed by his former employer, withdrawal requires a qualified domestic relations order pursuant to specific Internal Revenue Service regulations. This is not a remedy for the court to attempt to fashion sua sponte. Nor is this court inclined to assume the role of advocate for either side and attempt to negotiate an acceptable order with the manager of the plan. Great familiarity with the nature of the plan is required in order to avoid adverse tax consequences to either the defendant or the employer. \n If either party in the future wishes to draft and present this court with an acceptable order, the court will consider it at the time. CT Page 162 \n At the time of the dissolution in February of 1988, the defendant was employed by the plaintiff's uncle at General Boring and earning over $11.00 an hour. He left that job May 1, 1990, having been asked to resign, he says, due to the injuries he sustained form a motor vehicle accident while on the job. The defendant indicated it had been difficult working for his former wife's uncle since the divorce. \n The plaintiff alleges the defendant stole a company vehicle, \\smashed\\\" it up and was fired. Whichever reason led to his termination",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

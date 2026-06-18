@@ -1,0 +1,52 @@
+{
+  "document_id": "3e63b7e0-a0fb-4946-9689-1a1f84cf247e",
+  "slug": "courtlistener-opinion-3141433-3141433",
+  "title": "CourtListener opinion 3141433",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 1,
+    "pension": 2,
+    "ERISA": 1,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3141433 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "dence of his 1984 income as a sanction for failing to personally appear at the evidentiary hearing; (2) award petitioner, Lynn Rose Thomas, $317,753.72 in past-due support and $75,000 in attorney fees and costs; and (3) allow Lynn to recover the arrearage via qualified domestic relations orders (QDROs). We conclude that the trial court calculated the arrearage incorrectly because the court abused its discretion in excluding the contested evidence. However, the court did not abuse its discretion in awarding the attorney fees and costs. We further determine as a matter of law that the Employee Retirement Income Security Act of 1974 (ERISA) (2"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "cretion in awarding the attorney fees and costs. We further determine as a matter of law that the Employee Retirement Income Security Act of 1974 (ERISA) (29 U.S.C. §1001 et seq. (2000)) permits the entry of QDROs to transfer the value of pension and retirement accounts to satisfy a support arrearage. However, such an assignment is limited to the value of the accounts at the time of the marriage dissolution. Because it is unclear whether the QDROs in this case were so limited, we reverse them and remand the cause for the entry of new QDROs. Accordingly, we affirm the judgment in part, reverse it in part, and remand the"
+    },
+    {
+      "label": "pension",
+      "quote": "buse its discretion in awarding the attorney fees and costs. We further determine as a matter of law that the Employee Retirement Income Security Act of 1974 (ERISA) (29 U.S.C. §1001 et seq. (2000)) permits the entry of QDROs to transfer the value of pension and retirement accounts to satisfy a support arrearage. However, such an assignment is limited to the value of the accounts at the time of the marriage dissolution. Because it is unclear whether the QDROs in this case were so limited, we reverse them and remand the cause for the entry of new QDROs. Accordingly, we affirm the judgment in part, reverse it"
+    },
+    {
+      "label": "ERISA",
+      "quote": "e the court abused its discretion in excluding the contested evidence. However, the court did not abuse its discretion in awarding the attorney fees and costs. We further determine as a matter of law that the Employee Retirement Income Security Act of 1974 (ERISA) (29 U.S.C. §1001 et seq. (2000)) permits the entry of QDROs to transfer the value of pension and retirement accounts to satisfy a support arrearage. However, such an assignment is limited to the value of the accounts at the time of the marriage dissolution. Because it is unclear whether the QDROs in this case were so limited, we reverse them and"
+    }
+  ],
+  "full_text": "No. 2--02--0302 \n \n _________________________________________________________________ \n\n IN THE \n\n APPELLATE COURT OF ILLINOIS \n\n SECOND DISTRICT \n \n _________________________________________________________________ \n\n In \n \n re \n MARRIAGE OF ) Appeal from the Circuit Court \n \n LYNN ROSE THOMAS, ) of Du Page County. \n \n ) \n \n Petitioner-Appellee, ) \n \n ) \n \n and \n \n ) No. 80--D--157 \n \n ) \n \n PAUL MICHAEL THOMAS, ) Honorable \n \n ) John T. Elsner, \n \n Respondent-Appellant. ) Judge, Presiding. \n \n _________________________________________________________________ \n\n JUSTICE BYRNE delivered the opinion of the court: \n \n Respondent, Paul Michael Thomas, appeals from the circuit court's decisions to (1) exclude certain documentary evidence of his 1984 income as a sanction for failing to personally appear at the evidentiary hearing; (2) award petitioner, Lynn Rose Thomas, $317,753.72 in past-due support and $75,000 in attorney fees and costs; and (3) allow Lynn to recover the arrearage via qualified domestic relations orders (QDROs). \n \n We conclude that the trial court calculated the arrearage incorrectly because the court abused its discretion in excluding the contested evidence.  However, the court did not abuse its discretion in awarding the attorney fees and costs.  We further determine as a matter of law that the Employee Retirement Income Security Act of 1974 (ERISA) (29 U.S.C. §1001 \n et \n \n seq. \n (2000)) permits the entry of QDROs to transfer the value of pension and retirement accounts to satisfy a support arrearage.  However, such an assignment is limited to the value of the accounts at the time of the marriage dissolution.  Because it is unclear whether the QDROs in this case were so limited, we reverse them and remand the cause for the entry of new QDROs.  Accordingly, we affirm the judgment in part, reverse it in part, and remand the cause for further proceedings consistent with this opinion. \n \n FACTS \n \n Because the parties are familiar with the extensive background of the case, we set forth only those facts relevant to the appeal.  On May 13, 1981, the trial court entered an order dissolving the parties' 13-year marriage.  At the time of the dissolution, Paul was 35 years old, Lynn was 31 years old, and the parties' only child, Andrew, was 9 years old. \n \n The settlement agreement established Paul's initial family support obligation at $800 per month.  The agreement further provided that, after 36 months, the support obligation would change to $650 per month or 35% of Paul's net income, whichever was greater.  Thereafter, Paul's support obligation would be reduced by $200 per month upon Andrew's emancipation or upon Lynn's remarriage. \n \n On February 5, 1999, the trial court entered an order finding a change in circumstances that warranted a modification of the original dissolution order.  The court (1) increased the amount of Lynn's maintenance to $3,062 per month; (2) found that Paul had wilfully underpaid his maintenance obligation from 1989 through 1998 in the amount of $227,223.32; (3) ordered Paul to pay Lynn the arrearage plus statutory interest; (4) ordered Paul to give Lynn 2,424 shares of Citigroup stock and all dividends received on those shares plus interest; (5) ordered Paul to reimburse Lynn $23,000 plus interest for Andrew's education expenses; and (6) found Paul in contempt of court.  On September 17, 1999, the trial court preliminarily enjoined Paul from withdrawing, transferring, or assigning any of his assets, including pension and retirement funds, to insure his payment of the arrearage.  Paul appealed, arguing that the findings and orders were against the manifest weight of the evidence and an abuse of discretion.   \n In re Marriage of Thomas \n , Nos. 2--99--0396 & 2--99--1085 cons. (2000) (unpublished order under Supreme Court Rule 23). \n \n On March 29, 2000, we (1) reversed the trial court's order setting the support arrearage and ordering Paul to transfer the stock; (2) found that we lacked jurisdiction to review the contempt finding because it was not final; (3) affirmed the portions of the judgment increasing the monthly maintenance obligation to $3,062 and requiring Paul to reimburse Lynn for Andrew's educational expenses; and (4) reversed the order enjoining Paul from accessing his assets.   \n Thomas \n , slip order at 41-42. \n \n In reversing the arrearage finding, we emphasized that the trial court had incorrectly calculated Paul's support obligation from June 1984 until Andrew's emancipation in September 1989.  In June 1984, which was 36 months after the entry of the dissolution judgment, Paul's monthly support obligation was to be the greater of $650 or 35% of his net income.  It was impossible to calculate Paul's modified support obligation because the parties did not introduce evidence of Paul's net income in June 1984.  Under the agreement, \\net income\\\" consisted of gross income minus all federal and state taxes.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

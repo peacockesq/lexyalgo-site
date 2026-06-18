@@ -1,0 +1,44 @@
+{
+  "document_id": "1ef54bbe-2ac2-4b9b-bf0a-71d4d55a82db",
+  "slug": "courtlistener-opinion-3208741-3208741",
+  "title": "CourtListener opinion 3208741",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 5,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3208741 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "pension",
+      "quote": "pursuant to a judgment of divorce that incorporated, but did not merge, the terms of a stipulated partial settlement agreement regarding the division of certain specified property, including the husband's New York State and Local Employees' Retirement System pension. In January 2011, shortly after the husband retired, the wife moved for entry of a domestic relations order (hereinafter DRO) awarding her a marital share of the husband's pension valued as of the date of his retirement – namely, September 28, 2010. The -2- 521952 husband cross-moved for entry of a different DRO awarding the wife a marital share of his pe"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "pulated partial settlement agreement regarding the division of certain specified property, including the husband's New York State and Local Employees' Retirement System pension. In January 2011, shortly after the husband retired, the wife moved for entry of a domestic relations order (hereinafter DRO) awarding her a marital share of the husband's pension valued as of the date of his retirement – namely, September 28, 2010. The -2- 521952 husband cross-moved for entry of a different DRO awarding the wife a marital share of his pension valued as of the date of commencement of the divorce action, which was May 21, 1998. The difference in"
+    }
+  ],
+  "full_text": "State of New York\n Supreme Court, Appellate Division\n Third Judicial Department\nDecided and Entered: June 2, 2016 521952\n________________________________\n\nSHERILYN F. VAN ORDEN,\n Respondent,\n v MEMORANDUM AND ORDER\n\nRICHARD E. VAN ORDEN,\n Appellant.\n________________________________\n\nCalendar Date: April 20, 2016\n\nBefore: Lahtinen, J.P., McCarthy, Devine, Clark and Mulvey, JJ.\n\n __________\n\n Bailey, Kelleher & Johnson, PC, Albany (John W. Kraigenow\nof counsel), for appellant.\n\n Cynthia Feathers, Glens Falls, for respondent.\n\n __________\n\nMcCarthy, J.\n\n Appeal from an order of the Supreme Court (Connolly, J.),\nentered January 22, 2015 in Albany County, which, among other\nthings, denied defendant's motion to amend a prior domestic\nrelations order.\n\n Plaintiff (hereinafter the wife) and defendant (hereinafter\nthe husband) were divorced in December 1999 pursuant to a\njudgment of divorce that incorporated, but did not merge, the\nterms of a stipulated partial settlement agreement regarding the\ndivision of certain specified property, including the husband's\nNew York State and Local Employees' Retirement System pension.\nIn January 2011, shortly after the husband retired, the wife\nmoved for entry of a domestic relations order (hereinafter DRO)\nawarding her a marital share of the husband's pension valued as\nof the date of his retirement – namely, September 28, 2010. The\n -2- 521952\n\nhusband cross-moved for entry of a different DRO awarding the\nwife a marital share of his pension valued as of the date of\ncommencement of the divorce action, which was May 21, 1998. The\ndifference in the parties' interpretation of the proper DRO\nrelated to their different interpretations of the provision in\nthe separation agreement related to the division of the husband's\npension. Eventually, this Court found that the terms of the\nparties' settlement agreement entitled the wife to the marital\nportion of the husband's pension \\as valued at the time of the",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

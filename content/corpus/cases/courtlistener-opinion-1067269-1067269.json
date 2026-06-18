@@ -1,0 +1,48 @@
+{
+  "document_id": "4aa49923-ba59-4fb3-b078-e83e6e2f0a33",
+  "slug": "courtlistener-opinion-1067269-1067269",
+  "title": "CourtListener opinion 1067269",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 9,
+    "retirement benefits": 0,
+    "pension": 8,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1067269 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "F. Wilson, pro se. No brief or argument for appellee. Husband, John F. Wilson, and wife, Georgia Anne Wilson, were divorced by final decree entered in March 1991. Husband appeals the trial court's decision to enter a Qualified Domestic Relations Order (QDRO) amending the final decree of divorce. He appeals a separate order requiring him to pay past due child support and argues that he should be granted restitution for amounts he overpaid. Husband further contends that the trial court erred (1) in finding that it had jurisdiction to hear wife's petition for an award of attorney's fees incurred on a previo"
+    },
+    {
+      "label": "pension",
+      "quote": "gh 1994. For the reasons set forth below, we affirm in part and reverse in part. I. ENTRY OF QDRO The final decree of divorce entered in March 1991 provided, in part: [Husband] will pay thirty percent (30%) of the marital share of his Federal Reserve pension each month if, as and when he begins receiving the pension. Marital share is defined as that portion of the total interest, the right to which was earned during the marriage and before the last separation and is represented by the fraction having a numerator of 16 (representing the years during the marriage which [husband's] service was credited tow"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "and a denominator (T), presently unascertained, to reflect the total number of years to be credited towards [husband's] retirement. The complete formula is .30 x 16/T x pension. After the divorce, husband resigned from the Federal Reserve. The Qualified Domestic Relations Order (QDRO) outlined in the final decree did not qualify as a QDRO under federal law and, as such, did not effectuate the terms of the final decree with respect to husband's pension. Accordingly, in December 1992, the trial court entered an order which provided, in part: [T]he pension benefits awarded to [wife] in the Final Decree are her property in which"
+    }
+  ],
+  "full_text": "COURT OF APPEALS OF VIRGINIA\n\nPresent: Judges Benton, Annunziata and Senior Judge Duff\nArgued at Alexandria, Virginia\n\nJOHN F. WILSON\n OPINION BY\nv. Record No. 1743-96-4 JUDGE ROSEMARIE ANNUNZIATA\n NOVEMBER 4, 1997\nGEORGIA ANNE WILSON\n\n FROM THE CIRCUIT COURT OF ARLINGTON COUNTY\n Paul F. Sheridan, Judge\n John F. Wilson, pro se.\n\n No brief or argument for appellee.\n\n Husband, John F. Wilson, and wife, Georgia Anne Wilson, were\n\ndivorced by final decree entered in March 1991. Husband appeals\n\nthe trial court's decision to enter a Qualified Domestic\n\nRelations Order (QDRO) amending the final decree of divorce. He\n\nappeals a separate order requiring him to pay past due child\n\nsupport and argues that he should be granted restitution for\n\namounts he overpaid. Husband further contends that the trial\n\ncourt erred (1) in finding that it had jurisdiction to hear\n\nwife's petition for an award of attorney's fees incurred on a\n\nprevious appeal to this Court; and (2) in requiring him to verify\n\nto the court his income for the years 1992 through 1994. For the\n\nreasons set forth below, we affirm in part and reverse in part.\n\n I. ENTRY OF QDRO\n\n The final decree of divorce entered in March 1991 provided,\n\nin part:\n [Husband] will pay thirty percent (30%) of\n the marital share of his Federal Reserve\n pension each month if, as and when he begins\n receiving the pension. Marital share is\n defined as that portion of the total\n interest, the right to which was earned\n during the marriage and before the last\n separation and is represented by the fraction\n having a numerator of 16 (representing the\n years during the marriage which [husband's]\n service was credited toward his pension) and\n a denominator (T), presently unascertained,\n to reflect the total number of years to be\n credited towards [husband's] retirement. The\n complete formula is .30 x 16/T x pension.\n\nAfter the divorce, husband resigned from the Federal Reserve.\n\nThe Qualified Domestic Relations Order (QDRO) outlined in the\n\nfinal decree did not qualify as a QDRO under federal law and, as\n\nsuch, did not effectuate the terms of the final decree with\n\nrespect to husband's pension. Accordingly, in December 1992, the\n\ntrial court entered an order which provided, in part:\n [T]he pension benefits awarded to [wife] in\n the Final Decree are her property in which\n she has sole ownership rights and as such she\n is entitled to designate beneficiaries.\n [Husband] is ordered to agree to the\n amendments to the Final Decree of Divorce\n necessary to have it qualify as a valid\n Qualified Domestic Relations Order (QDRO) in\n accordance with the requirements of the\n Federal Reserve and to promptly sign any\n documents which are necessary to effect same.\n\nPursuant to that order, wife presented a proposed QDRO for\n\nhusband's signature at the December 1992 hearing.\n\n Subsection e of the proposed QDRO defined wife's share of\n\nhusband's pension according to the formula set forth in the final\n\ndecree. By handwritten amendment, however, the terms of\n\nsubsection e were modified to provide that wife would receive\n\n - 2 -\n \\30% of any Federal Reserve pension as may be accrued from",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

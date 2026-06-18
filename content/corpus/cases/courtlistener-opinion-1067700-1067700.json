@@ -1,0 +1,44 @@
+{
+  "document_id": "cb47009c-6b17-4e87-92c7-2f6fd24922ff",
+  "slug": "courtlistener-opinion-1067700-1067700",
+  "title": "CourtListener opinion 1067700",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 4,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1067700 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "Markle, Isaacs, & Levy, P.L.C., on brief), for appellant. (Mark B. Sandground, Sr.; Lutisha E. Brown; Sandground West & New, P.C., on brief), for appellee. Gwen Mae Smith appeals an order of the circuit court denying her motion for entry of an amended Qualified Domestic Relations Order (QDRO). She presents these two questions on appeal: 1. Does the June 6, 2003 [circuit court] judgment contravene the expressed intent of both parties to divide the Government Retirement annuity that the Appellee is entitled to receive by 50%? 2. Does the Circuit Court of Fairfax County have the authority to modify a Qualified Domestic Relations Orde"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "saacs, & Levy, P.L.C., on brief), for appellant. (Mark B. Sandground, Sr.; Lutisha E. Brown; Sandground West & New, P.C., on brief), for appellee. Gwen Mae Smith appeals an order of the circuit court denying her motion for entry of an amended Qualified Domestic Relations Order (QDRO). She presents these two questions on appeal: 1. Does the June 6, 2003 [circuit court] judgment contravene the expressed intent of both parties to divide the Government Retirement annuity that the Appellee is entitled to receive by 50%? 2. Does the Circuit Court of Fairfax County have the authority to modify a Qualified Domestic Relations Orde"
+    }
+  ],
+  "full_text": "COURT OF APPEALS OF VIRGINIA\n\nPresent: Judges Bumgardner, Kelsey and Senior Judge Hodges\n\nGWEN MAE SMITH\n MEMORANDUM OPINION*\nv. Record No. 1771-03-4 PER CURIAM\n DECEMBER 16, 2003\nNED LEORY SMITH\n\n FROM THE CIRCUIT COURT OF FAIRFAX COUNTY\n Gaylord L. Finch, Jr., Judge\n\n (David M. Levy; Surovell, Markle, Isaacs, & Levy, P.L.C., on brief),\n for appellant.\n\n (Mark B. Sandground, Sr.; Lutisha E. Brown; Sandground West &\n New, P.C., on brief), for appellee.\n\n Gwen Mae Smith appeals an order of the circuit court denying her motion for entry of an\n\namended Qualified Domestic Relations Order (QDRO). She presents these two questions on\n\nappeal:\n\n 1. Does the June 6, 2003 [circuit court] judgment contravene the\n expressed intent of both parties to divide the Government\n Retirement annuity that the Appellee is entitled to receive by 50%?\n\n 2. Does the Circuit Court of Fairfax County have the authority to\n modify a Qualified Domestic Relations Order to conform the order\n to the expressed intent of the order?\n\nUpon reviewing the record and briefs of the parties, we conclude that this appeal is without\n\nmerit. Accordingly, we summarily affirm the trial court's decision. Rule 5A:27.\n\n Appellant did not file a transcript of the trial court proceedings, but instead filed a written\n\nstatement of facts pursuant to Rule 5A:8(c). The written statement, a two-page document, notes\n\n *\n Pursuant to Code § 17.1-413, this opinion is not designated for publication.\n that the trial court held a hearing on appellant's motion, but that no evidence was presented at the\n\nhearing. The written statement contains nothing more than the objections lodged by appellant to\n\nthe trial court's ruling.\n\n Appellant's argument centers around an interpretation of Paragraph 5 of the parties'\n\nProperty Settlement Agreement. That paragraph reads in pertinent part: \"If for any reason said\n\nQualifying Order [the QDRO] is rejected by the Court or by the Plan Administrator, the parties\n\nshall cooperate with each other to submit an Order which substantially contains the same\n\nprovisions.\" (Emphasis added.) While the record contains an exhibit which includes the\n\ndetermination of the \"Qualifying Order\" by the United States Office of Personnel Management,\n\nit contains no evidence of the determination of the \"Qualifying Order\" by the United States Merit\n\nSystems Protection Board (MSPB), the final administrative authority. Nor does the written\n\nstatement contain this determination.\n\n \"An appellate court must dispose of the case upon the record and cannot base its decision\n\nupon appellant's petition or brief, or statements of counsel in open court. We may act only upon\n\nfacts contained in the record.\" Smith v. Commonwealth, 16 Va. App. 630, 635, 432 S.E.2d 2, 6\n\n(1993). \"[O]n appeal the judgment of the lower court is presumed to be correct and the burden is\n\non the appellant to present to us a sufficient record from which we can determine whether the\n\nlower court has erred in the respect complained of.\" Justis v. Young, 202 Va. 631, 632, 119\n\nS.E.2d 255, 256-57 (1961).\n\n Lacking record evidence of MSPB's decision, we are unable to determine whether the\n\n\"Plan Administrator\" \"rejected\" the \"Qualifying Order.\" Accordingly, we summarily affirm the\n\ndecision of the circuit court. Rule 5A:27.\n\n Affirmed.\n\n -2-",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

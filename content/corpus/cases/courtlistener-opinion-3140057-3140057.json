@@ -1,0 +1,52 @@
+{
+  "document_id": "40b42b58-195b-42bf-a543-5606ba82bf6a",
+  "slug": "courtlistener-opinion-3140057-3140057",
+  "title": "CourtListener opinion 3140057",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 1,
+    "pension": 5,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 1
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3140057 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "retirement benefits",
+      "quote": "ion on November 9, 1989. The court ruled that the marital portion of the benefits actually paid was to be determined by multiplying the amount in \\each benefit check issued\\\" by a fraction with a numerator of 234 (the number of months John contributed to his retirement plan during the marriage) and a denominator of the total number of calendar months in which John contributed to the plan during his career. Mary would be entitled to half of this amount."
+    },
+    {
+      "label": "pension",
+      "quote": "_____________________________________________________________________ JUSTICE CHAPMAN delivered the opinion of the court: The Ramseys married in 1969 and divorced in 1989. Pursuant to John's request, the trial court reserved jurisdiction to divide his pension upon his retirement. Neither the parties nor the court contemplated then that John would be offered an early retirement incentive package. John retired in 2000 at the age of 55, taking advantage of early retirement incentives which required that both he and his employer make one-time monetary contributions to the Teachers' Retirement System of the State o"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "early retirement incentives which required that both he and his employer make one-time monetary contributions to the Teachers' Retirement System of the State of Illinois (TRS). Shortly after John's retirement, Mary filed a motion seeking a qualified Illinois domestic relations order (QILDRO). The trial court granted Mary's motion. John appeals, arguing that the trial court erred by ordering him to pay to Mary a portion of his pension benefits attributable to his nonmarital monetary contributions. We reverse in part. I. BACKGROUND John Ramsey and Mary Ramsey, now known as Mary Cornell, were married in June 1969. Throughout t"
+    },
+    {
+      "label": "valuation/division",
+      "quote": "ril 14, 1989, however, John filed a posttrial motion in which he requested that the court instead reserve jurisdiction to divide his pension upon his retirement. The court entered an order granting John's motion on November 9, 1989. The court ruled that the marital portion of the benefits actually paid was to be determined by multiplying the amount in \\each benefit check issued\\\" by a fraction with a numerator of 234 (the number of months John contributed to his retirement plan during the marriage) and a denominator of the total number of calendar months in which John contributed to the plan during his career. Mary would be"
+    }
+  ],
+  "full_text": "(text box: 1) NO. 5-01-0939 \n\n IN THE \n\n APPELLATE COURT OF ILLINOIS \n\n FIFTH DISTRICT \n \n ___________________________________________________________________________ \n\n In re \n MARRIAGE OF )  Appeal from the \n \n )  Circuit Court of \n \n MARY E. RAMSEY, )  Massac County. \n \n n/k/a MARY E. CORNELL, ) \n \n ) \n \n Petitioner-Appellee, ) \n \n and )  No. 88-D-100 \n \n ) \n \n JOHN H. RAMSEY, )  Honorable \n \n )  Terry J. Foster, \n \n Respondent-Appellant. )  Judge, presiding. \n \n ___________________________________________________________________________ \n\n JUSTICE CHAPMAN delivered the opinion of the court: \n \n The Ramseys married in 1969 and divorced in 1989.  Pursuant to John's request, the trial court reserved jurisdiction to divide his pension upon his retirement.  Neither the parties nor the court contemplated then that John would be offered an early retirement incentive package.  John retired in 2000 at the age of 55, taking advantage of early retirement incentives which required that both he and his employer make one-time monetary contributions to the Teachers' Retirement System of the State of Illinois (TRS).  Shortly after John's retirement, Mary filed a motion seeking a qualified Illinois domestic relations order (QILDRO).  The trial court granted Mary's motion.  John appeals, arguing that the trial court erred by ordering him to pay to Mary a portion of his pension benefits attributable to his nonmarital monetary contributions.  We reverse in part. \n \n I. BACKGROUND \n \n John Ramsey and Mary Ramsey, now known as Mary Cornell, were married in June 1969.  Throughout the marriage, John was employed as a school teacher and participated in the TRS pension plan.  The circuit court in Massac County entered an order dissolving the Ramseys' marriage in March 1989.  Pursuant to that order, the court found the present value of John's pension to be $35,000 and awarded it to John, with an offsetting award of other marital property to Mary.  On April 14, 1989, however, John filed a posttrial motion in which he requested that the court instead reserve jurisdiction to divide his pension upon his retirement.  The court entered an order granting John's motion on November 9, 1989.  The court ruled that the marital portion of the benefits actually paid was to be determined by multiplying the amount in \\each benefit check issued\\\" by a fraction with a numerator of 234 (the number of months John contributed to his retirement plan during the marriage) and a denominator of the total number of calendar months in which John contributed to the plan during his career.  Mary would be entitled to half of this amount.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

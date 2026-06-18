@@ -1,0 +1,44 @@
+{
+  "document_id": "b5ae4bef-9321-46ea-add7-14730da2306b",
+  "slug": "courtlistener-opinion-4527946-4527946",
+  "title": "CourtListener opinion 4527946",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4527946 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "1 The Honorable Jessica Crawford presided over the underlying suit affecting the parent-child relationship proceeding and signed the temporary orders and final order on June 3, 2019. The Honorable Dulce Madrigal signed the Order Clarifying Child Support and Qualified Domestic Relations Order on July 23, 2019."
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "norable Jessica Crawford presided over the underlying suit affecting the parent-child relationship proceeding and signed the temporary orders and final order on June 3, 2019. The Honorable Dulce Madrigal signed the Order Clarifying Child Support and Qualified Domestic Relations Order on July 23, 2019."
+    }
+  ],
+  "full_text": "Fourth Court of Appeals\n San Antonio, Texas\n April 22, 2020\n\n No. 04-19-00818-CV\n\n IN THE INTEREST OF K.R.C., a Child\n\n From the 2nd 25th Judicial District Court, Guadalupe County, Texas\n Trial Court No. 18-1390-CV-A\n Honorable Dulce Madrigal, Judge Presiding 1\n\n ORDER\n\n In accordance with the court's opinion of this date, this appeal is DISMISSED FOR WANT\nOF JURISDICTION.\n\n We order that no costs be assessed against appellant Jonathan Cooper because he is\nindigent.\n\n It is so ORDERED on April 22, 2020.\n\n _____________________________\n Beth Watkins, Justice\n\n IN WITNESS WHEREOF, I have hereunto set my hand and affixed the seal of the said\ncourt on this 22nd day of April, 2020.\n\n _____________________________\n Michael A. Cruz, Clerk of Court\n\n1\n The Honorable Jessica Crawford presided over the underlying suit affecting the parent-child relationship proceeding\nand signed the temporary orders and final order on June 3, 2019. The Honorable Dulce Madrigal signed the Order\nClarifying Child Support and Qualified Domestic Relations Order on July 23, 2019.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

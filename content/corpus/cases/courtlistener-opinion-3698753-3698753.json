@@ -1,0 +1,40 @@
+{
+  "document_id": "15d9c9c5-a3dc-44d2-be19-b0ec38ff3cb8",
+  "slug": "courtlistener-opinion-3698753-3698753",
+  "title": "CourtListener opinion 3698753",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3698753 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "He claimed he told her about the inactive status, but defendant said she did not understand the effect of it. On July 31, 1991, the Pennsylvania firm reached a settlement with the ex-husband for $407,000, $100,000 to be paid immediately and $307,000 to be a QDRO transferred from the ex-husband's qualified profit sharing account. On August 25, 1992, $20,000 was paid to plaintiff by the defendant noting it was one-fifth legal fees. When repeated attempts by plaintiff to collect the balance of the contingency fee were unsuccessful, plaintiff instituted the present litigation. On October 3, 1995, plaintiff filed suit"
+    }
+  ],
+  "full_text": "OPINION \nPlaintiff-appellant Dennis Pfizenmayer appeals from the summary judgment rendered in favor of the defendant-appellee Leela Nair in the amount of $20,000 plus interest on her counterclaim for fraud by plaintiff. For the reasons hereinafter stated, we modify the judgment and affirm. \n Leela Nair was divorced in 1982. In November 1985. Mrs. Nair hired plaintiff to recover past due payments from her ex-husband under the divorce decree. Nair signed a contingent fee agreement entitling plaintiff to 33 1/3% of all money and property collected by settlement or otherwise. \n Thereafter, plaintiff succeeded in getting the ex-husband held in contempt for failure to make support payments. This Court affirmed that decision on appeal. Nair v. Nair (Nov. 22, 1989), Cuyahoga App. No. 56057, unreported. Defendant's ex-husband moved to Pennsylvania around 1987. The ex-husband, around that time, paid $39,000 of which plaintiff received one-third pursuant to the fee arrangement. \n In January 1991, plaintiff hired a law firm located in Erie, Pennsylvania at an hourly rate to seek further recovery against the ex-husband. After hiring the law firm, plaintiff took inactive status at the bar and stopped rendering legal services to defendant. He claimed he told her about the inactive status, but defendant said she did not understand the effect of it. \n On July 31, 1991, the Pennsylvania firm reached a settlement with the ex-husband for $407,000, $100,000 to be paid immediately and $307,000 to be a QDRO transferred from the ex-husband's qualified profit sharing account. On August 25, 1992, $20,000 was paid to plaintiff by the defendant noting it was one-fifth legal fees. When repeated attempts by plaintiff to collect the balance of the contingency fee were unsuccessful, plaintiff instituted the present litigation. \n On October 3, 1995, plaintiff filed suit against defendant seeking damages in the amount of $175,229.56 pursuant to the one-third contingent fee contract. During discovery it was revealed that, as of January 8, 1991, plaintiff had gone on inactive status as an attorney although when he collected the $20,000 from Leela, he failed to disclose that fact. Whether he disclosed it or whether defendant fully understood its ramifications was disputed by the parties. \n Upon finally learning of the plaintiff's inactive status, defendant filed a motion for leave to file instanter an amended answer and counterclaim asserting claims for fraud and fraudulent non-disclosure against plaintiff. The trial court denied her motion for leave to amend but granted her motion for summary judgment on the complaint. \n Plaintiff appealed the summary judgment against him to this Court and defendant-cross-appealed the denial of her motion for leave to assert a counterclaim. This Court, in a unanimous opinion, affirmed the grant of summary judgment specifically noting that the $13,000 which plaintiff previously received from defendant had \\fully compensated [him] for the services rendered\\\" to her. Pfizenmayer v. Nair (June 5",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

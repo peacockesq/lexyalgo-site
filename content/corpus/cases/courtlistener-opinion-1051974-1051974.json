@@ -1,0 +1,44 @@
+{
+  "document_id": "04063624-4381-4adf-907b-46c6f42d3dc7",
+  "slug": "courtlistener-opinion-1051974-1051974",
+  "title": "CourtListener opinion 1051974",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 4,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 4,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1051974 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "No. 93-212 No. E2007-00750-COA-R3-CV Filed February 29, 2008 Charles D. Susano, Jr., J., dissenting. The parties in this case have struggled mightily for many years to fashion a court order that the plan administrator would find legally acceptable as a qualified domestic relations order under the applicable federal statutory scheme. Apparently, their efforts to date have been unsuccessful. The trial court and the majority opinion place a great deal of emphasis and significance on the proposed qualified domestic relations order of November 21, 1995. I do not. It seems to me that all of the proposed qualified domestic relations orders are to"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "2 No. E2007-00750-COA-R3-CV Filed February 29, 2008 Charles D. Susano, Jr., J., dissenting. The parties in this case have struggled mightily for many years to fashion a court order that the plan administrator would find legally acceptable as a qualified domestic relations order under the applicable federal statutory scheme. Apparently, their efforts to date have been unsuccessful. The trial court and the majority opinion place a great deal of emphasis and significance on the proposed qualified domestic relations order of November 21, 1995. I do not. It seems to me that all of the proposed qualified domestic relations orders are to"
+    }
+  ],
+  "full_text": "IN THE COURT OF APPEALS OF TENNESSEE\n AT KNOXVILLE\n December 4, 2007 Session\n\n LINDA JEAN COOK (RAMSEY) V. LARRY DEAN COOK\n\n Appeal from the Chancery Court for Jefferson County\n No. 93-212\n\n No. E2007-00750-COA-R3-CV\n Filed February 29, 2008\n\nCharles D. Susano, Jr., J., dissenting.\n\n The parties in this case have struggled mightily for many years to fashion a court order that\nthe plan administrator would find legally acceptable as a qualified domestic relations order under the\napplicable federal statutory scheme. Apparently, their efforts to date have been unsuccessful. The\ntrial court and the majority opinion place a great deal of emphasis and significance on the proposed\nqualified domestic relations order of November 21, 1995. I do not. It seems to me that all of the\nproposed qualified domestic relations orders are totally lacking in legal effect. None were accepted\nby the plan administrator and, hence, even though signed by the court and the parties and/or their\ncounsel, they are without legal efficacy.\n\n When I read the parties' MDA, I reach two conclusions regarding the intent of the parties:\nfirst, that the parties intended that the division of Husband's account in the First Tennessee National\nCorporation Savings Plan would occur as of October 22, 1993, the date of the dissolution of this\nmarriage; and, second, that whatever was in Husband's share of that Plan as of that date would\nbelong two-thirds to Husband and one-third to Wife. If the parties had been able to craft an\nacceptable qualified domestic relations order shortly after the date of the divorce, the plan\nadministrator surely would have segregated one-third of the stock of the First Tennessee National\nCorporation1 into a separate account for Wife. Apparently, her segregated stock would have\namounted at that time to 660.66 shares. Over the past 14 years plus, those shares have grown\nsubstantially in number and value. I believe Wife is entitled to the segregation of whatever her one-\nthird interest would have been, both in form and amount, as if the segregation had occurred as of the\ndate of the divorce. In my judgment, whatever those shares have now grown to – by dividend, stock\nsplit, or the like – Wife is entitled to the initial shares and the additional shares resulting from the\n\n 1\n Apparently, 97% of Husband's account was in the stock of First Tennessee National Corporation. As I\nunderstand the record, W ife makes no claim to the other 3%.\n growth. I find the approach of the trial court and the majority opinion to be contrary to the parties'\nintent and patently and fundamentally unfair to Wife.\n\n Accordingly, I respectfully dissent.\n\n _______________________________\n CHARLES D. SUSANO, JR., JUDGE\n\n -2-",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

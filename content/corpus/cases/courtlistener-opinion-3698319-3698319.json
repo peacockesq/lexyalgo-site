@@ -1,0 +1,48 @@
+{
+  "document_id": "ed19ae20-8ae4-4e55-9428-ec01c3eac3b2",
+  "slug": "courtlistener-opinion-3698319-3698319",
+  "title": "CourtListener opinion 3698319",
+  "citation": "DOMESTIC RELATIONS ORDER",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 2
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3698319 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "pension",
+      "quote": "marital property was divided almost equally: $214,257.00 to Mr. Shuler and $214,227 to Ms. Shuler. Mr. Shuler has appealed asserting three assignments of error. II. A. THE TRIAL COURT ABUSED THE DISCRETION AFFORDED IT BY LAW WHEN IT DECLARED [MR. SHULER'S] PENSION TO BE THE SOLE PROPERTY OF [MR. SHULER] AND THEN ORDERED THE SAME TO BE DIVIDED IN EQUAL HALVES AS PER A QUALIFIFED DOMESTIC RELATIONS ORDER. In his first assignment of error, Mr. Shuler has argued that the trial court incorrectly awarded him one-hundred percent of his pension plan, only to turn around in the following paragraph and order that fifty perce"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "sserting three assignments of error. II. A. THE TRIAL COURT ABUSED THE DISCRETION AFFORDED IT BY LAW WHEN IT DECLARED [MR. SHULER'S] PENSION TO BE THE SOLE PROPERTY OF [MR. SHULER] AND THEN ORDERED THE SAME TO BE DIVIDED IN EQUAL HALVES AS PER A QUALIFIFED DOMESTIC RELATIONS ORDER. In his first assignment of error, Mr. Shuler has argued that the trial court incorrectly awarded him one-hundred percent of his pension plan, only to turn around in the following paragraph and order that fifty percent of the plan's benefits be paid to Ms. Shuler. This argument was waived by counsel at oral arguments, and thus, will not be addressed. Mr"
+    },
+    {
+      "label": "valuation/division",
+      "quote": "the record in the trial court. Each error assigned has been reviewed and the following disposition is made: Plaintiff-Appellant Truman Shuler has appealed from a judgment of the Lorain County Court of Common Pleas, Domestic Relations Division, that ordered a property division and spousal support when it granted a divorce between Mr. Shuler and Retta Jo Shuler, Defendant-Appellee. This Court affirms. I. Mr. Shuler and Ms. Shuler were married on May 13, 1967, and have two children, now emancipated. On March 16, 1998, the parties were granted a divorce. In its divorce decree, the trial court divided the marital property and orde"
+    }
+  ],
+  "full_text": "DECISION AND JOURNAL ENTRY \n This cause was heard upon the record in the trial court. Each error assigned has been reviewed and the following disposition is made:\nPlaintiff-Appellant Truman Shuler has appealed from a judgment of the Lorain County Court of Common Pleas, Domestic Relations Division, that ordered a property division and spousal support when it granted a divorce between Mr. Shuler and Retta Jo Shuler, Defendant-Appellee. This Court affirms. \n I. \nMr. Shuler and Ms. Shuler were married on May 13, 1967, and have two children, now emancipated. On March 16, 1998, the parties were granted a divorce. In its divorce decree, the trial court divided the marital property and ordered Mr. Shuler to pay spousal support to Ms. Shuler for her lifetime. According to the trial court's calculations, the marital property was divided almost equally: $214,257.00 to Mr. Shuler and $214,227 to Ms. Shuler. Mr. Shuler has appealed asserting three assignments of error. \n II. A. \nTHE TRIAL COURT ABUSED THE DISCRETION AFFORDED IT BY LAW WHEN IT DECLARED [MR. SHULER'S] PENSION TO BE THE SOLE PROPERTY OF [MR. SHULER] AND THEN ORDERED THE SAME TO BE DIVIDED IN EQUAL HALVES AS PER A QUALIFIFED DOMESTIC RELATIONS ORDER. \n In his first assignment of error, Mr. Shuler has argued that the trial court incorrectly awarded him one-hundred percent of his pension plan, only to turn around in the following paragraph and order that fifty percent of the plan's benefits be paid to Ms. Shuler. This argument was waived by counsel at oral arguments, and thus, will not be addressed. \n Mr. Shuler further asserted in his first assignment of error that the trial court erred when it reached its final distribution by counting $3,313.00 in tax refunds and then again counted that amount in its award to Mr. Shuler of Account No. 9247729-08 at Lormet Allied Credit Union, Inc. It appears from the record that the parties stipulated that the they were the owners of federal and state income tax returns for 1996 totaling $3,313.00 which were being held in Account No. 9247729-08. Likewise, the record below indicates the parties stipulated to the existence and ownership of two accounts, Nos. 9247729-08 and 9347729-07 at Lormet Allied Credit Union. The trial court awarded Mr. Shuler the tax refunds and the money in Account 9247729-08, counting both towards Mr. Shuler's $214,257.00 total. However, these facts alone do not amount to reversible error. \n Courts may not examine the valuation and division of particular assets in isolation, but must instead view the entire property division considering the totality of the circumstances. Jelen v. Jelen (1993), 86 Ohio App.3d 199 , 203 . In fact, a trial court enjoys broad discretion in fashioning an equitable division of the parties' marital property. Middendorf v. Middendorf (1998), 82 Ohio St.3d 397 , 401 , citing Berish v. Berish (1982), 69 Ohio St.2d 318 . On appeal, a trial court's decision will not be disturbed absent an abuse of discretion. Id. \\Abuse of discretion\\\" is defined as more than an error of law or judgment; it implies that the trial court acted in an unreasonable",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

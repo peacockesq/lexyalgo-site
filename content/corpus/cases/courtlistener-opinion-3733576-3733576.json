@@ -1,0 +1,48 @@
+{
+  "document_id": "7c529c9f-fa41-4b9f-a4ec-06e3eb16d2f1",
+  "slug": "courtlistener-opinion-3733576-3733576",
+  "title": "CourtListener opinion 3733576",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 0,
+    "pension": 5,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 2
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3733576 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "OPINION {&#182; 1} Defendant-appellant Thomas Makar appeals the decision of the trial court which entered a QDRO after interpreting a 1987 divorce decree concerning the distribution of a portion of his pension to plaintiff-appellee Lillian Makar (nka Williams). The parties argue over whether the prior decree distributed to wife 40 percent of the marital portion of the pension or 40 percent of entire pension which would include husband's post-divorce contributions. The"
+    },
+    {
+      "label": "pension",
+      "quote": "OPINION {&#182; 1} Defendant-appellant Thomas Makar appeals the decision of the trial court which entered a QDRO after interpreting a 1987 divorce decree concerning the distribution of a portion of his pension to plaintiff-appellee Lillian Makar (nka Williams). The parties argue over whether the prior decree distributed to wife 40 percent of the marital portion of the pension or 40 percent of entire pension which would include husband's post-divorce contributions. The magistrate and the trial court held that the prior entry awarded wife 40 percent of the entire a"
+    },
+    {
+      "label": "valuation/division",
+      "quote": "urt which entered a QDRO after interpreting a 1987 divorce decree concerning the distribution of a portion of his pension to plaintiff-appellee Lillian Makar (nka Williams). The parties argue over whether the prior decree distributed to wife 40 percent of the marital portion of the pension or 40 percent of entire pension which would include husband's post-divorce contributions. The magistrate and the trial court held that the prior entry awarded wife 40 percent of the entire amount received by husband in the future even though nearly fourteen out of the thirty years of pension service occurred post-divorce. For the following re"
+    }
+  ],
+  "full_text": "OPINION \n {&#182; 1} Defendant-appellant Thomas Makar appeals the decision of the trial court which entered a QDRO after interpreting a 1987 divorce decree concerning the distribution of a portion of his pension to plaintiff-appellee Lillian Makar (nka Williams). The parties argue over whether the prior decree distributed to wife 40 percent of the marital portion of the pension or 40 percent of entire pension which would include husband's post-divorce contributions. The magistrate and the trial court held that the prior entry awarded wife 40 percent of the entire amount received by husband in the future even though nearly fourteen out of the thirty years of pension service occurred post-divorce. For the following reasons, the trial court's decision is reversed as this court finds that the prior decree awards wife 40 percent of only the marital portion of the pension. This case is therefore remanded for entry of an appropriate QDRO. \n STATEMENT OF THE CASE {&#182; 2} The parties were married in 1967. A divorce action was filed in 1985. A divorce hearing was held on February 26, 1987, at which time husband requested findings of fact and conclusions of law. On May 11, 1987, the trial court released the judgment/divorce decree simultaneously with findings of fact and conclusions of law. The judgment stated, \\the Court has issued findings of fact which are incorporated herein.\\\" Similarly",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

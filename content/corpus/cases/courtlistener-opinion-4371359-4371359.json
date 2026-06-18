@@ -1,0 +1,40 @@
+{
+  "document_id": "0ae5c523-86d1-4907-b110-02c561136c52",
+  "slug": "courtlistener-opinion-4371359-4371359",
+  "title": "CourtListener opinion 4371359",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4371359 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "domestic relations order",
+      "quote": "this timely application for interlocutory appeal. It appears that the juvenile court's order is directly appealable. This case is a dependency proceeding – what used to be called \"deprivation\" under the old juvenile code. See OCGA § 15-11-2 (22). Although a domestic relations order or an order terminating parental rights is subject to the discretionary appeal procedures, a dependency or deprivation finding may be appealed directly. See OCGA § 5-6-35 (a) (2) & (12); In the Interest of J. P., 267 Ga. 492, 493 (480 SE2d 8) (1997) (deprivation/dependency cases do not fall within the purview of OCGA § 5-6-35 (a) (2) and therefore are direc"
+    }
+  ],
+  "full_text": "Court of Appeals\nof the State of Georgia\n\n ATLANTA,____________________\n February 19, 2019\n\nThe Court of Appeals hereby passes the following order:\n\nA19I0173. IN THE INTEREST OF A. B., A CHILD (MOTHER).\n\n In October 2018, Keara Jones, the cousin of A. B., filed a dependency\ncomplaint in the Fulton County Juvenile Court. The juvenile court subsequently\nfound the minor child to be dependent and awarded Jones temporary legal custody of\nthe minor child and set the case for an adjudication hearing. At the adjudication\nhearing, A. B.'s mother was present and moved to dismiss the private dependency\ncomplaint. The juvenile court denied the motion to dismiss and certified its decision\nfor immediate review. The mother then filed this timely application for interlocutory\nappeal.\n It appears that the juvenile court's order is directly appealable. This case is a\ndependency proceeding – what used to be called \"deprivation\" under the old juvenile\ncode. See OCGA § 15-11-2 (22). Although a domestic relations order or an order\nterminating parental rights is subject to the discretionary appeal procedures, a\ndependency or deprivation finding may be appealed directly. See OCGA § 5-6-35 (a)\n(2) & (12); In the Interest of J. P., 267 Ga. 492, 493 (480 SE2d 8) (1997)\n(deprivation/dependency cases do not fall within the purview of OCGA § 5-6-35 (a)\n(2) and therefore are directly appealable). This includes interlocutory orders in\ndependency cases deciding temporary custody of children. See In the Interest of S.\nJ., 270 Ga. App. 598, 608 (1) (a) (607 SE2d 225) (2004) (interim order within a\ndependency/deprivation proceeding that decides temporary custody of the child is a\n\"final order\" within the meaning of OCGA § 5-6-34 (a) (1) and may be appealed\ndirectly); see also In the Interest of W. P. B., 269 Ga. App. 101, 101 (1) (603 SE2d\n454) (2004) (interim order finding child was not deprived but imposing conditions\n on the parents was directly appealable). The mother, therefore, was not required to\nfile an interlocutory application in this case.\n \"This Court will grant a timely application for interlocutory review if the order\ncomplained of is subject to direct appeal and the applicants have not otherwise filed\na notice of appeal.\" Spivey v. Hembree, 268 Ga. App. 485, 486 n. 1 (602 SE2d 246)\n(2004). Accordingly, the mother's interlocutory application is hereby GRANTED.\nThe mother shall have ten days from the date of this order to file a notice of appeal\nin the juvenile court. If, however, the mother has already filed a notice of appeal\nfrom the order at issue, she need not file a second notice. The clerk of the juvenile\ncourt is DIRECTED to include a copy of this order in the record transmitted to this\nCourt.\n\n Court of Appeals of the State of Georgia\n Clerk's Office, Atlanta,____________________\n 02/19/2019\n I certify that the above is a true extract from\n the minutes of the Court of Appeals of Georgia.\n Witness my signature and the seal of said court\n hereto affixed the day and year last above written.\n\n , Clerk.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

@@ -1,0 +1,48 @@
+{
+  "document_id": "d706dcbc-23a6-499f-9837-a266171bc426",
+  "slug": "courtlistener-opinion-3715373-3715373",
+  "title": "CourtListener opinion 3715373",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 1,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3715373 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": ", the trial court journalized a judgment entry of divorce which provided that: (1) the appellee be granted a divorce from the appellant; (2) the voluntary distribution of tangible personal assets be incorporated into the judgment entry of divorce; (3) a Qualified Domestic Relations Order be drafted to reflect a one-half division of the TESPHE and TRASOP accounts, and the Ford Motor Co.U.A.W. Retirement Pension Plan between the appellant and the appellee; (4) the proceeds of the sale of the marital home be equally divided between the appellant and the appellee; (5) the Ford Money Market Fund be equally divided between the appellant and t"
+    },
+    {
+      "label": "pension",
+      "quote": "untary distribution of tangible personal assets be incorporated into the judgment entry of divorce; (3) a Qualified Domestic Relations Order be drafted to reflect a one-half division of the TESPHE and TRASOP accounts, and the Ford Motor Co.U.A.W. Retirement Pension Plan between the appellant and the appellee; (4) the proceeds of the sale of the marital home be equally divided between the appellant and the appellee; (5) the Ford Money Market Fund be equally divided between the appellant and the appellee; (6) the 1973 Gulfstar Trawler be sold and all net profits be equally divided between the appellant and appelle"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "l court journalized a judgment entry of divorce which provided that: (1) the appellee be granted a divorce from the appellant; (2) the voluntary distribution of tangible personal assets be incorporated into the judgment entry of divorce; (3) a Qualified Domestic Relations Order be drafted to reflect a one-half division of the TESPHE and TRASOP accounts, and the Ford Motor Co.U.A.W. Retirement Pension Plan between the appellant and the appellee; (4) the proceeds of the sale of the marital home be equally divided between the appellant and the appellee; (5) the Ford Money Market Fund be equally divided between the appellant and t"
+    }
+  ],
+  "full_text": "Defendant-appellant, Nick James Moro, appeals from the judgment of the Cuyahoga County Court of Common Pleas, Domestic Relations Division, which granted the plaintiff-appellee, Roberta Ann Moro, a divorce and divided the marital assets. \n On January 17, 1952, the appellant and appellee were married in Cleveland, Ohio. Two children were born of the marriage. \n On November 20, 1987, the appellee filed a complaint for divorce based upon the ground of gross neglect. On November 1, 1988, a non-jury trial was conducted with regard to the appellee's complaint for divorce. \n On January 11, 1989, the trial court journalized a judgment entry of divorce which provided that: \n (1) the appellee be granted a divorce from the appellant; \n (2) the voluntary distribution of tangible personal assets be incorporated into the judgment entry of divorce; \n (3) a Qualified Domestic Relations Order be drafted to reflect a one-half division of the TESPHE and TRASOP accounts, and the Ford Motor Co.U.A.W. Retirement Pension Plan between the appellant and the appellee; \n (4) the proceeds of the sale of the marital home be equally divided between the appellant and the appellee; \n (5) the Ford Money Market Fund be equally divided between the appellant and the appellee; \n (6) the 1973 Gulfstar Trawler be sold and all net profits be equally divided between the appellant and appellee or that the appellant purchase the appellee's interest for the sum of $25,000; and \n (7) the appellee be awarded support alimony in the amount of $500 per month for three years and $300 per month for twenty-four months thereafter for a total of alimony support payments for a period of five years. \n On January 17, 1989, the appellant filed a request for findings of fact and conclusions of law pursuant to Civ.R. 52. On March 13, 1989, the trial court ordered both the appellant and the appellee to submit proposed findings of fact and conclusions of law. The appellant, however, failed to file the requested proposed findings of fact and conclusions of law. On April 10, 1989, the trial court denied the appellant's Civ.R. 52 motion for findings of fact and conclusions of law. \n The appellant raises five assignments of error for review by this court. *Page 633",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

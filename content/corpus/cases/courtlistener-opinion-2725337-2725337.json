@@ -1,0 +1,48 @@
+{
+  "document_id": "30d83396-6ea7-44c8-94fe-60dde1233323",
+  "slug": "courtlistener-opinion-2725337-2725337",
+  "title": "CourtListener opinion 2725337",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 20,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 1
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 2725337 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "e Jerry F. Jacobi, Judge Cause No. 10C02-0906-DR-117 March 24, 2014 MEMORANDUM DECISION - NOT FOR PUBLICATION ROBB, Judge Case Summary and Issue Following a dissolution of marriage between Albert Purcell and Theresa Purcell, the trial court issued a qualified domestic relations order (\"QDRO\") that distributed funds from a profit sharing account owned by the parties prior to their divorce. Albert, pro se, appeals the QDRO, raising the following issue for our review: whether the QDRO improperly modified the terms of the parties' decree of dissolution. Concluding the QDRO did not countermand the terms of the decree of dissolution, we a"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "Jacobi, Judge Cause No. 10C02-0906-DR-117 March 24, 2014 MEMORANDUM DECISION - NOT FOR PUBLICATION ROBB, Judge Case Summary and Issue Following a dissolution of marriage between Albert Purcell and Theresa Purcell, the trial court issued a qualified domestic relations order (\"QDRO\") that distributed funds from a profit sharing account owned by the parties prior to their divorce. Albert, pro se, appeals the QDRO, raising the following issue for our review: whether the QDRO improperly modified the terms of the parties' decree of dissolution. Concluding the QDRO did not countermand the terms of the decree of dissolution, we a"
+    },
+    {
+      "label": "valuation/division",
+      "quote": "685 (Ind. Ct. App. 2012). II. The QDRO Albert argues that the QDRO operated to improperly modify the terms of the parties' decree. More specifically, he contends the QDRO incorrectly adjusted for gains or losses on the Account since the October 31, 2010 valuation date, rather than merely distributing one-half of the money that existed in the Account as of that date. Theresa responds that the court's ruling on the motion to correct error, which was made without specific grounds for the denial, may be affirmed for two reasons: (1) Albert's motion to correct error was untimely, and (2) the QDRO did not improperly modify"
+    }
+  ],
+  "full_text": "Pursuant to Ind.Appellate Rule 65(D),\nthis Memorandum Decision shall not be\nregarded as precedent or cited before Mar 24 2014, 10:13 am\nany court except for the purpose of\nestablishing the defense of res judicata,\ncollateral estoppel, or the law of the case.\nAPPELLANT PRO SE: ATTORNEY FOR APPELLEE:\n\nALBERT K. J. PURCELL REBECCA L. LOCKARD\nJeffersonville, Indiana Jeffersonville, Indiana\n\n IN THE\n COURT OF APPEALS OF INDIANA\n\nALBERT J. PURCELL, )\n )\n Appellant-Petitioner, )\n )\n vs. ) No. 10A01-1309-DR-390\n )\nTHERESA M. PURCELL, )\n )\n Appellee-Respondent. )\n\n APPEAL FROM THE CLARK CIRCUIT COURT\n The Honorable Jerry F. Jacobi, Judge\n Cause No. 10C02-0906-DR-117\n\n March 24, 2014\n\n MEMORANDUM DECISION - NOT FOR PUBLICATION\n\nROBB, Judge\n Case Summary and Issue\n\n Following a dissolution of marriage between Albert Purcell and Theresa Purcell, the\n\ntrial court issued a qualified domestic relations order (\"QDRO\") that distributed funds from a\n\nprofit sharing account owned by the parties prior to their divorce. Albert, pro se, appeals the\n\nQDRO, raising the following issue for our review: whether the QDRO improperly modified\n\nthe terms of the parties' decree of dissolution. Concluding the QDRO did not countermand\n\nthe terms of the decree of dissolution, we affirm.\n\n Facts and Procedural History\n\n On May 25, 2012, the trial court entered a decree of dissolution and dissolved the\n\nparties' marriage. Among the assets at issue in the dissolution was a Kitchen Kompact Profit\n\nSharing Account (\"the Account\"). The decree stated the Account's \"balance as of October\n\n31, 2010 is $123,564.78.\" Appellee's Appendix at 4. The decree concluded the Account\n\n\"shall be split equally between the parties. [Theresa] shall receive her share through a\n\nQualified Domestic Relations Order prepared by [Albert] within thirty (30) days of the date\n\nof this Order.\" Id. at 6. In another portion of the decree, the trial court concluded \"Theresa\n\nshould receive an equal sharing [sic] from [the Account], by Qualified Domestic Relations\n\nOrder. Theresa's counsel shall prepare the QDRO, with full cooperation from Albert and his\n\ncounsel.\" Id. at 7-8.\n\n On March 6, 2013, the trial court issued the QDRO, which was prepared by Albert's\n\nattorney. The QDRO stated in pertinent part:\n\n The amount of [Theresa's] benefit under the [Account] shall be one-half of\n $123,564.78 (or $61,782.39) as of October 31, 2010, the date of the court's\n\n 2\n valuation, which one-half share shall be adjusted for any gains or losses since\n October 31, 2010, calculated without regard to any previous loans made by\n [Albert] before or after dissolution.\n\nId. at 13. Upon learning of the QDRO, Albert attempted to contact his attorney several times\n\nbut was unsuccessful. Eventually, on April 23, 2013, Albert proceeded pro se and filed a\n\nmotion to correct error, arguing the QDRO improperly modified the decree. A hearing was\n\nheld on August 6, 2013, and the trial court denied Albert's motion. This appeal followed.\n\n Discussion and Decision\n\n I. Standard of Review\n\n A trial court's ruling on a motion to correct error is reviewed under an abuse of\n\ndiscretion standard. Paragon Family Restaurant v. Bartolini, 799 N.E.2d 1048, 1055 (Ind.\n\n2003). An abuse of discretion occurs if the trial court's decision is against the logic and\n\neffect of the facts and circumstances or if it misapplied the law. Brown v. Brown, 979\n\nN.E.2d 684, 685 (Ind. Ct. App. 2012).\n\n II. The QDRO\n\n Albert argues that the QDRO operated to improperly modify the terms of the parties'\n\ndecree. More specifically, he contends the QDRO incorrectly adjusted for gains or losses on\n\nthe Account since the October 31, 2010 valuation date, rather than merely distributing\n\none-half of the money that existed in the Account as of that date. Theresa responds that the\n\ncourt's ruling on the motion to correct error, which was made without specific grounds for\n\nthe denial, may be affirmed for two reasons: (1) Albert's motion to correct error was\n\nuntimely, and (2) the QDRO did not improperly modify the decree.\n\n 3\n First, Theresa argues the trial court properly denied Albert's motion to correct error\n\nbecause it was untimely. A motion to correct error must be filed no later than thirty days\n\nafter the entry of judgment. Ind. Trial Rule 59(C). In fact, the trial court issued the QDRO\n\non March 6, 2013, and Albert did not file his motion to correct error until April 23, 2013, a\n\ntime that exceeded the deadline under Trial Rule 59. Denial on that basis would not be an\n\nabuse of discretion.\n\n Assuming that Albert's motion was or could be treated as a motion for relief from\n\njudgment under Indiana Trial Rule 60(B), Albert's argument would still be unsuccessful on\n\nthe merits. Indiana law states that orders concerning property disposition in a dissolution of\n\nmarriage \"may not be revoked or modified, except in case of fraud.\" Ind. Code § 31-15-7-\n\n9.1(a). However, the QDRO in this case did not modify the decree. The decree stated that\n\n\"[t]he [Account] balance as of October 31, 2010 is $123,564.78 and shall be split equally\n\nbetween the parties.\" Appellee's App. at 6 (emphasis added). The decree did not say\n\nTheresa was entitled to $61,782.39 from the Account. The QDRO did precisely what the\n\ndecree proposed: it split the Account equally between the parties. A truly equal division of\n\nthe Account could not be attained without consideration of gains or losses. The QDRO was\n\nproper and the trial court's denial of Albert's motion to correct error was not an abuse of\n\ndiscretion.\n\n Conclusion\n\n Concluding the QDRO did not improperly modify the terms of the parties' decree of\n\ndissolution, we affirm.\n\n 4\n Affirmed.\n\nBARNES, J., and BROWN, J., concur.\n\n 5",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

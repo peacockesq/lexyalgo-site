@@ -1,0 +1,44 @@
+{
+  "document_id": "67b8252d-3504-485c-a574-3412cc949a92",
+  "slug": "courtlistener-opinion-3462903-3462903",
+  "title": "CourtListener opinion 3462903",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 4,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 7,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3462903 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "elations order clearly specify each plan to which such order applies. Our recommendation was based in large part upon the requirements of federal law, specifically, those provisions of the Retirement Equity Act of 1984 defining a domestic relations order as a qualified domestic relations order if the order meets the requirements of Section 414(p) of the U.S. Internal Revenue Code. We quote that portion of the statue herein: (p) Qualified domestic relations order defined. &#8212; For purposes of this subsection and section 401(a)(13) &#8212; (1) In general. &#8212; (A) Qualified domestic relations order. &#8212; The term \\qualified domestic"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "FRS have the authority to divide a member's benefits and pay a portion of such divided benefits to a third party payee based on an order that expressly applies to a different retirement system? In response, it was the recommendation of this office that the domestic relations order clearly specify each plan to which such order applies. Our recommendation was based in large part upon the requirements of federal law, specifically, those provisions of the Retirement Equity Act of 1984 defining a domestic relations order as a qualified domestic relations order if the order meets the requirements of Section 414(p) of the U.S. Internal Reve"
+    }
+  ],
+  "full_text": "Dear Mr. Roche: \n In Attorney General Opinion 01-0450, this office was presented with the following scenario: a member of the Parochial Employees' Retirement System (PERS) obtains a divorce and property settlement agreement prior to his eligibility for benefits from PERS. This property settlement agreement orders PERS to pay the nonmember spouse a specified sum when the member spouse retires. Then, prior to retirement, his membership is merged from PERS to the Firefighters' Retirement System (FRS). The member then retires. The question was asked: does FRS have the authority to divide a member's benefits and pay a portion of such divided benefits to a third party payee based on an order that expressly applies to a different retirement system? \n In response, it was the recommendation of this office that the domestic relations order clearly specify each plan to which such order applies. Our recommendation was based in large part upon the requirements of federal law, specifically, those provisions of the Retirement Equity Act of 1984 defining a domestic relations order as a qualified domestic relations order if the order meets the requirements of Section 414(p) of the U.S. Internal Revenue Code. We quote that portion of the statue herein: \n (p) Qualified domestic relations order defined. &#8212; For purposes of this subsection and section 401(a)(13) &#8212; \n (1) In general. &#8212; \n (A) Qualified domestic relations order. &#8212; The term \\qualified domestic relations order\\\" means a domestic relations order &#8212;",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

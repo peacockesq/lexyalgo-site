@@ -1,0 +1,48 @@
+{
+  "document_id": "e22fad9e-3c94-4ace-8ce6-7e295fec65ae",
+  "slug": "courtlistener-opinion-4330783-4330783",
+  "title": "CourtListener opinion 4330783",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 6,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 1,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4330783 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "y, after the settlement of other issues, it only remains for us to decide the income tax effect of a distribution which petitioner, as alternate payee, received from her former husband's thrift and pension funds under a qualified domestic relations order (QDRO) related to her divorce. At the time the petition herein was filed, petitioner was a resident of Ohio. Petitioner was divorced from her husband, Mr. Willadsen, in 1989. Petitioner remarried in late 1990 and for that year timely filed a joint return together with her new spouse, Mr. Clawson. Mr. Clawson's liability is not an issue in this case. In D"
+    },
+    {
+      "label": "pension",
+      "quote": "without trial under the provisions of Rule 122. Accordingly, after the settlement of other issues, it only remains for us to decide the income tax effect of a distribution which petitioner, as alternate payee, received from her former husband's thrift and pension funds under a qualified domestic relations order (QDRO) related to her divorce. At the time the petition herein was filed, petitioner was a resident of Ohio. Petitioner was divorced from her husband, Mr. Willadsen, in 1989. Petitioner remarried in late 1990 and for that year timely filed a joint return together with her new spouse, Mr. Clawson. Mr. C"
+    },
+    {
+      "label": "alternate payee",
+      "quote": "ted to the Court upon a full stipulation of facts and exhibits without trial under the provisions of Rule 122. Accordingly, after the settlement of other issues, it only remains for us to decide the income tax effect of a distribution which petitioner, as alternate payee, received from her former husband's thrift and pension funds under a qualified domestic relations order (QDRO) related to her divorce. At the time the petition herein was filed, petitioner was a resident of Ohio. Petitioner was divorced from her husband, Mr. Willadsen, in 1989. Petitioner remarried in late 1990 and for that year timely filed a joint"
+    }
+  ],
+  "full_text": "T.C. Memo. 1996-446\n\n UNITED STATES TAX COURT\n\n KAY A. CLAWSON, Petitioner v.\n COMMISSIONER OF INTERNAL REVENUE, Respondent\n\n Docket No. 15334-95. Filed September 30, 1996.\n\n James S. Nowak, for petitioner.\n\n Katherine Lee Wambsgans, for respondent.\n\n MEMORANDUM OPINION\n\n KÖRNER, Judge: Respondent determined a deficiency in\n\npetitioner's Federal income tax for the year 1990 in the amount\n\nof $10,741.\n\n All statutory references are to the Internal Revenue Code\n\nin effect for the year in issue, and all Rule references are to\n 2\n\nthe Tax Court Rules of Practice and Procedure, except as\n\notherwise noted.\n\n This case was submitted to the Court upon a full stipulation\n\nof facts and exhibits without trial under the provisions of Rule\n\n122. Accordingly, after the settlement of other issues, it only\n\nremains for us to decide the income tax effect of a distribution\n\nwhich petitioner, as alternate payee, received from her former\n\nhusband's thrift and pension funds under a qualified domestic\n\nrelations order (QDRO) related to her divorce.\n\n At the time the petition herein was filed, petitioner was a\n\nresident of Ohio. Petitioner was divorced from her husband, Mr.\n\nWilladsen, in 1989. Petitioner remarried in late 1990 and for\n\nthat year timely filed a joint return together with her new\n\nspouse, Mr. Clawson. Mr. Clawson's liability is not an issue in\n\nthis case.\n\n In December 1989, petitioner and Mr. Willadsen executed a\n\nproperty settlement agreement incident to their divorce. In that\n\nagreement, the parties agreed that, if covered by a QDRO, $11,930\n\nwould be paid to petitioner, representing one-half of the present\n\nvalue of Mr. Willadsen's pension benefits due to him from the\n\nMarathon Petroleum Co. In addition, if covered by the QDRO,\n\n$23,000 would be paid to petitioner in full satisfaction of her\n\nshare of the thrift plans administered by the Marathon Petroleum\n\nCo. for the benefit of Mr. Willadsen. The parties agreed that\n\nthereafter petitioner would have no further interest or claim\n 3\n\nagainst any benefits that were due to Mr. Willadsen from his\n\npresent or future employer.\n\n The parties were formally divorced by the State courts of\n\nOhio in December 1989. The decree of divorce ordered that the\n\nsettlement agreement be incorporated into and made part of the\n\njudgment. In March 1990, the appropriate Ohio court filed a\n\nsupplemental order in the divorce case which the parties agree is\n\nthe QDRO referred to in the parties' above settlement agreement,\n\nand is a QDRO within the meaning of section 414(p). At paragraph\n\n4 of said QDRO, the Ohio court ordered: \\Any taxes due to",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

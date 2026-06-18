@@ -1,0 +1,44 @@
+{
+  "document_id": "4d761729-1bd0-4ffc-b617-f26b19a4fb49",
+  "slug": "courtlistener-opinion-3138617-3138617",
+  "title": "CourtListener opinion 3138617",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3138617 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "Dissolution of Marriage Act (Act) (750 ILCS 5/503 (West 1996)). The trial court awarded Judith $17,643 as her share of the marital interest in the plan. The trial court ordered this amount to be paid to Judith under a quali­fied domes­tic rela­tions order (QDRO), effec­tive the date of dissolu­tion. We affirm. On January 12, 1998, the trial court held a hearing on property distribution issues. On August 5, 1998, the trial court entered the supple­men­tal proper­ty distri­bu­tion order. The trial court split the nonpension marital property fairly equally. The trial court awarded Judith her pension. Judith"
+    },
+    {
+      "label": "pension",
+      "quote": "ial court held a hearing on property distribution issues. On August 5, 1998, the trial court entered the supple­men­tal proper­ty distri­bu­tion order. The trial court split the nonpension marital property fairly equally. The trial court awarded Judith her pension. Judith earns $13,036 per year working full-time as a high school secre­tary and part-time in a restau­rant. Judith has worked at the high school for 25½ years. Finally, the trial court awarded Judith $17,643 as her share of the marital interest in James' thrift plan, to be allocated accord­ing to a QDRO, effec­tive March 19, 1997. James had work"
+    }
+  ],
+  "full_text": "April 15, 1999 \n\n NO. 4-98-0690 \n\n IN THE APPELLATE COURT \n\n OF ILLINOIS \n\n FOURTH DISTRICT \n\n In Re:  the Marriage of )  Appeal from \n \n JUDITH E. WALKER, )  Circuit Court of \n \n Petitioner-Appellant, )  Logan County \n \n and )  No. 96D197 \n \n JAMES E. WALKER, ) \n \n Respondent-Appellee. )  Honorable \n \n )  Gerald G. Dehner, \n \n )  Judge Presiding. \n \n _________________________________________________________________ \n\n JUSTICE McCULLOUGH delivered the opinion of the court: \n\n Judith and James Walker were married on May 7, 1994.  No children were born of the marriage.  The mar­riage was dis­solved on March 19, 1997.  On appeal, Judith and James dispute the trial court's disposition of James' thrift incentive plan under section 503 of the Illinois Marriage and Dissolution of Marriage Act (Act) (750 ILCS 5/503 (West 1996)).  The trial court awarded Judith $17,643 as her share of the marital interest in the plan.  The trial court ordered this amount to be paid to Judith under a quali­fied domes­tic rela­tions order (QDRO), effec­tive the date of dissolu­tion.  We affirm. \n \n On January 12, 1998, the trial court held a hearing on property distribution issues.  On August 5, 1998, the trial court entered the supple­men­tal proper­ty distri­bu­tion order.  The trial court split the nonpension marital property fairly equally.  The trial court awarded Judith her pension.  Judith earns $13,036 per year working full-time as a high school secre­tary and part-time \n \n in a restau­rant.  Judith has worked at the high school for 25½ years. \n \n Finally, the trial court awarded Judith $17,643 as her share of the marital interest in James' thrift plan, to be allocated accord­ing to a QDRO, effec­tive March 19, 1997.  James had worked for Prairie Farms Dairy (Prai­rie Farms) for about 20½ years and, at the time of the January 12, 1998, hearing was a trans­por­ta­tion coordi­na­tor.  Evi­dence regard­ing the value of the thrift plan was pre­sent­ed in testi­mony by James at the January 12, 1998, hearing and in testi­mo­ny given by Kris Rosentreter, Prairie Farms' payroll coordina­tor, at a separate hearing on February 9, 1998.  Accord­ing to James' August 4, 1997, financial affidavit, he earns approx­i­mately $48,012 per year.  According to Rosentreter, James earned $43,200 (gross) in the fiscal year ending on Septem­ber 30, 1994 (FY 1994); $43,800 for FY 1995; $46,680 for FY 1996; and $48,380 for FY 1997.   \n \n James testified that he has contributed 2% of his salary into an \\employee account\\\" in the pension plan for 19 years",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

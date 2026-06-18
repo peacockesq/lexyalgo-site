@@ -1,0 +1,48 @@
+{
+  "document_id": "3a6eac33-309a-4f8c-84fd-ec8eba22ab6a",
+  "slug": "courtlistener-opinion-3755962-3755962",
+  "title": "CourtListener opinion 3755962",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 1
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3755962 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "ies' mortgage and other debts, was a gift and not a loan. The court found that appellant had pensions from his employment with Bell Telephone for twenty-nine years and the Army National Guard for approximately thirty years. Appellee was awarded, by means of a Qualified Domestic Relations Order (\\QDRO\\\")"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "age and other debts, was a gift and not a loan. The court found that appellant had pensions from his employment with Bell Telephone for twenty-nine years and the Army National Guard for approximately thirty years. Appellee was awarded, by means of a Qualified Domestic Relations Order (\\QDRO\\\")"
+    },
+    {
+      "label": "valuation/division",
+      "quote": "dules filed with the court and the market value of the parties' two vehicles. The parties' house, determined to be marital property, was sold for $115,000 during the pendency of the divorce proceedings, netting $76,306.61. A hearing was conducted to determine property division issues, debt payment, spousal support, and the alleged dissipation of marital assets. The final hearings were conducted in May 1997 with both post-trial briefs filed by June 11, 1997. The record shows that the divorce was acrimonious with many disputes over the marital household property. Testimony and evidence were presented that appellant threatened app"
+    }
+  ],
+  "full_text": "DECISION AND JUDGMENT ENTRY \nThis appeal comes to us from a judgment issued by the Lucas County Court of Common Pleas, Domestic Relations Division, in a divorce action. Because we conclude that the trial court erred in computing appellant's income, in dividing marital property, and in other factual findings, we reverse in part. \n Appellant, John R. Jump and appellee, Mary Ann Jump were married in December 1968. In March 1996, appellee filed for divorce; the parties' three children were emancipated. The parties stipulated as to the financial schedules filed with the court and the market value of the parties' two vehicles. The parties' house, determined to be marital property, was sold for $115,000 during the pendency of the divorce proceedings, netting $76,306.61. A hearing was conducted to determine property division issues, debt payment, spousal support, and the alleged dissipation of marital assets. \n The final hearings were conducted in May 1997 with both post-trial briefs filed by June 11, 1997. The record shows that the divorce was acrimonious with many disputes over the marital household property. Testimony and evidence were presented that appellant threatened appellee, stopped making payments on the home equity line, compensated the woman with whom he now lived (formerly the travel agent for the parties' vacations) for portions of her rent, hid marital property, and sold $185 worth of garage sale items without appellee's permission. On the other hand, evidence was submitted that appellee withdrew $5,000 from the home equity line just prior to filing for divorce, took certain items from the home that appellant was to be awarded, ran up charges on the parties' credit card just prior to and immediately after filing for divorce (in amounts exceeding several thousand dollars for clothing, elective cosmetic surgery, groceries, and other household items), and also hid marital personal property. \n On August 27, 1999, the trial court issued its final decision. The proceeds from the marital home were divided equally between the parties. The court found that a $25,000 payment made by appellant's mother, which was used to pay off the parties' mortgage and other debts, was a gift and not a loan. The court found that appellant had pensions from his employment with Bell Telephone for twenty-nine years and the Army National Guard for approximately thirty years. Appellee was awarded, by means of a Qualified Domestic Relations Order (\\QDRO\\\")",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

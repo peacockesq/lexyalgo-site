@@ -1,0 +1,44 @@
+{
+  "document_id": "d0ae9909-a98b-4e92-b26b-f2e14e19af31",
+  "slug": "courtlistener-opinion-5078025-5078025",
+  "title": "CourtListener opinion 5078025",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 5078025 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "vatorship and visitation, ordered appellant to pay child support and attorney's fees, divided the parties' real estate in Indiana, awarded the wife an interest in an annuity recovered by appellant in a personal injury case in Indiana, and was accompanied by a Qualified Domestic Relations Order directing payment by Life Insurance Company of North America of one-half of appellant's annuity benefits to his wife. Appellant acknowledges the efficacy of the judgment as to divorce, conservatorship, and visitation, but challenges the remainder of the judgment for want of the court's jurisdiction over his person and property, claiming that neither pleadin"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "and visitation, ordered appellant to pay child support and attorney's fees, divided the parties' real estate in Indiana, awarded the wife an interest in an annuity recovered by appellant in a personal injury case in Indiana, and was accompanied by a Qualified Domestic Relations Order directing payment by Life Insurance Company of North America of one-half of appellant's annuity benefits to his wife. Appellant acknowledges the efficacy of the judgment as to divorce, conservatorship, and visitation, but challenges the remainder of the judgment for want of the court's jurisdiction over his person and property, claiming that neither pleadin"
+    }
+  ],
+  "full_text": "OPINION \n This is an appeal by writ of error in a divorce and parent-child relationship case in which a default judgment was rendered against the nonresident husband and father, Paul Eugene Calvert. The judgment granted a divorce, determined conservatorship and visitation, ordered appellant to pay child support and attorney's fees, divided the parties' real estate in Indiana, awarded the wife an interest in an annuity recovered by appellant in a personal injury case in Indiana, and was accompanied by a Qualified Domestic Relations Order directing payment by Life Insurance Company of North America of one-half of appellant's annuity benefits to his wife. Appellant acknowledges the efficacy of the judgment as to divorce, conservatorship, and visitation, but challenges the remainder of the judgment for want of the court's jurisdiction over his person and property, claiming that neither pleading nor proof showed the court had long-arm jurisdiction under the Texas Family Code or Texas Rules of Civil Procedure. We affirm in part and reverse in part. \n The record available for review on appeal by writ of error consists of the judgment and those papers filed in the *Page 219",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

@@ -1,0 +1,48 @@
+{
+  "document_id": "37ebea50-0edf-4245-a02e-17c3d5f55d38",
+  "slug": "patricia-vozzi-v-john-vozzi-3351871",
+  "title": "Patricia Vozzi v. John Vozzi",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": "https://www.courtlistener.com/opinion/3356341/vozzi-v-vozzi-no-30-39-87-apr-25-1991/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "1991-04-25",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 1,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: Patricia Vozzi v. John Vozzi is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "le for the mortgage (home equity) and other costs associated with the home, and indemnify and hold the defendant harmless thereon. 5. The plaintiff is awarded twenty-five per cent of the defendant's pension. The plaintiff shall be responsible for drafting a Qualified Domestic Relations Order to execute this order, and the court retains jurisdiction to enter this order. 6. The defendant shall pay as alimony $200.00 per week until the death of either party, the plaintiff's remarriage or further order of this court. This order is subject to immediate wage withholding. 7. The plaintiff is awarded the 1982 Dodge Aries and the defendant is awarde"
+    },
+    {
+      "label": "pension",
+      "quote": "simple interest per year. The plaintiff shall be responsible for the mortgage (home equity) and other costs associated with the home, and indemnify and hold the defendant harmless thereon. 5. The plaintiff is awarded twenty-five per cent of the defendant's pension. The plaintiff shall be responsible for drafting a Qualified Domestic Relations Order to execute this order, and the court retains jurisdiction to enter this order. 6. The defendant shall pay as alimony $200.00 per week until the death of either party, the plaintiff's remarriage or further order of this court. This order is subject to immediate wage withh"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "mortgage (home equity) and other costs associated with the home, and indemnify and hold the defendant harmless thereon. 5. The plaintiff is awarded twenty-five per cent of the defendant's pension. The plaintiff shall be responsible for drafting a Qualified Domestic Relations Order to execute this order, and the court retains jurisdiction to enter this order. 6. The defendant shall pay as alimony $200.00 per week until the death of either party, the plaintiff's remarriage or further order of this court. This order is subject to immediate wage withholding. 7. The plaintiff is awarded the 1982 Dodge Aries and the defendant is awarde"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] \nMEMORANDUM OF DECISION\nThe parties were married on August 22, 1964 at New York, New York. \n All jurisdictional requirements have been met. \n The parties have two minor children issue of the marriage, to wit: \n Patricia, born July 10, 1975; and Joseph, born April 5, 1978. \n The marriage of the parties has broken down irretrievably and the same is hereby dissolved. \n The court has considered the statutory criteria contained in Conn. Gen. Stats. 46b-56 , 46b-81 , 46b-82 and 46b-84 , and enters the following orders: CT Page 3411 \n 1. Custody of the minor children is awarded to the plaintiff subject to rights of reasonable, liberal and flexible visitation in the defendant. The parties shall alternate major holidays and the defendant shall have visitation with the children on Father's Day. \n 2. The defendant shall maintain medical and dental insurance available through his employment for the benefit of the minor children. Each of the parties shall pay one-half of all uninsured, unreimbursed medical and dental (including orthodontia) expenses incurred on behalf of the minor children. The medical insurance order is subject to Conn. Gen. Stats. 46b-84 (c). \n 3. The defendant shall pay as child support $170.00 per week until the older child has reached eighteen. He shall then pay as child support $100.00 per week for the remaining minor child. The child support guidelines have not been applied in light of the alimony order made herein. The child support order is subject to immediate wage withholding. \n 4. All right, title and interest in the property located at 260 Country Hill Road, West Haven, is awarded to the plaintiff. The plaintiff shall execute a mortgage note and deed in favor of the plaintiff in the amount of $72,000.00 payable upon the earliest of the following contingencies: the sale of the home, the wife's remarriage, the wife's cohabitation, the youngest child's eighteenth birthday. The note shall bear six per cent simple interest per year. The plaintiff shall be responsible for the mortgage (home equity) and other costs associated with the home, and indemnify and hold the defendant harmless thereon. \n 5. The plaintiff is awarded twenty-five per cent of the defendant's pension. The plaintiff shall be responsible for drafting a Qualified Domestic Relations Order to execute this order, and the court retains jurisdiction to enter this order. \n 6. The defendant shall pay as alimony $200.00 per week until the death of either party, the plaintiff's remarriage or further order of this court. This order is subject to immediate wage withholding. \n 7. The plaintiff is awarded the 1982 Dodge Aries and the defendant is awarded the 1982 Buick. \n 8. The parties shall divide equally the New Haven Savings Bank savings account. \n 9. The defendant shall have the right to claim the youngest child as an exemption on his tax returns and the plaintiff shall execute all forms necessary to effectuate this order. CT Page 3412 \n 10. The defendant shall name the children as irrevocable beneficiaries of $50,000.00 in life insurance for as long as he is obligated to pay child support. \n 11. Each of the parties shall pay their own counsel fees. \n ELAINE GORDON, Judge",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

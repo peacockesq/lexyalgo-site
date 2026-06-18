@@ -1,0 +1,52 @@
+{
+  "document_id": "86d21b27-ea6a-46a3-80e4-25c146d24673",
+  "slug": "courtlistener-opinion-3728942-3728942",
+  "title": "CourtListener opinion 3728942",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 5,
+    "retirement benefits": 2,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 1,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3728942 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "OPINION {&#182; 1} Plaintiff-appellant Mark Gibbs is the surviving spouse of, and executor of the estate of, Rhonda Gibbs (formerly known as Rhonda Stanley). He appeals from an Amended Qualified Domestic Relations Order filed in the Montgomery County Court of Common Pleas, Domestic Division, in Rhonda's divorce action against her previous husband, defendant-appellee William Stanley. The QDRO at issue gives William, as required by the decree of divorce, an interest in Rhonda's pension and retirement benefits. Gibbs contends that the trial court erred by permitting the filin"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "Montgomery County Court of Common Pleas, Domestic Division, in Rhonda's divorce action against her previous husband, defendant-appellee William Stanley. The QDRO at issue gives William, as required by the decree of divorce, an interest in Rhonda's pension and retirement benefits. Gibbs contends that the trial court erred by permitting the filing of an amended QDRO, because he claims it violates the terms of the divorce decree. {&#182; 2} We conclude that the trial court did not err by permitting theiling of an amended QDRO. First, the amendment was ordered by an agreed order signed by attorneys for both parties. Second, the amen"
+    },
+    {
+      "label": "pension",
+      "quote": "iled in the Montgomery County Court of Common Pleas, Domestic Division, in Rhonda's divorce action against her previous husband, defendant-appellee William Stanley. The QDRO at issue gives William, as required by the decree of divorce, an interest in Rhonda's pension and retirement benefits. Gibbs contends that the trial court erred by permitting the filing of an amended QDRO, because he claims it violates the terms of the divorce decree. {&#182; 2} We conclude that the trial court did not err by permitting theiling of an amended QDRO. First, the amendment was ordered by an agreed order signed by attorneys for both pa"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "OPINION {&#182; 1} Plaintiff-appellant Mark Gibbs is the surviving spouse of, and executor of the estate of, Rhonda Gibbs (formerly known as Rhonda Stanley). He appeals from an Amended Qualified Domestic Relations Order filed in the Montgomery County Court of Common Pleas, Domestic Division, in Rhonda's divorce action against her previous husband, defendant-appellee William Stanley. The QDRO at issue gives William, as required by the decree of divorce, an interest in Rhonda's pension and retirement benefits. Gibbs contends that the trial court erred by permitting the filin"
+    }
+  ],
+  "full_text": "OPINION \n {&#182; 1} Plaintiff-appellant Mark Gibbs is the surviving spouse of, and executor of the estate of, Rhonda Gibbs (formerly known as Rhonda Stanley). He appeals from an Amended Qualified Domestic Relations Order filed in the Montgomery County Court of Common Pleas, Domestic Division, in Rhonda's divorce action against her previous husband, defendant-appellee William Stanley. The QDRO at issue gives William, as required by the decree of divorce, an interest in Rhonda's pension and retirement benefits. Gibbs contends that the trial court erred by permitting the filing of an amended QDRO, because he claims it violates the terms of the divorce decree. \n {&#182; 2} We conclude that the trial court did not err by permitting theiling of an amended QDRO. First, the amendment was ordered by an agreed order signed by attorneys for both parties. Second, the amendment did not modify the terms of the final decree. Finally, the amendment was warranted because the prior QDRO's filed in this case by Rhonda's attorneys did violate the terms of the final decree by altering William's interest in Rhonda's retirement benefits. Accordingly the judgment of the trial court is affirmed. \n I {&#182; 3} Rhonda Stanley and William Stanley were divorced in 1996. Of relevance to this appeal, their decree of divorce provided for the division of their pension funds as follows: \n {&#182; 4} \\* * * [Rhonda] shall receive at any time [William] retires",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

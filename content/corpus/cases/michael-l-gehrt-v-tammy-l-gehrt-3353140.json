@@ -1,0 +1,48 @@
+{
+  "document_id": "938cbd2f-7ba4-4abc-96da-499a9c603704",
+  "slug": "michael-l-gehrt-v-tammy-l-gehrt-3353140",
+  "title": "Michael L. Gehrt v. Tammy L. Gehrt",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": "https://www.courtlistener.com/opinion/3357609/gehrt-v-gehrt-no-74801-dec-8-1995/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "1995-12-08",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "ERISA / defined contribution issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 1,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: Michael L. Gehrt v. Tammy L. Gehrt is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to ERISA / defined contribution issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "me is hereby dissolved. The court has considered all the statutory criteria contained in Conn. Gen. Stat. Secs. 46b-81 and 46b-82 and enters the following orders: 1. The plaintiff shall transfer one-half of his 401K account to the defendant, pursuant to a Qualified Domestic Relations Order. The court retains jurisdiction to enter this order. 2. The plaintiff shall pay to the defendant as alimony $250 per week for a period of 30 months. This order is non-modifiable as to term and duration. This order is subject to immediate wage withholding. 3. As additional alimony, the defendant shall be maintained on the medical insurance available thro"
+    },
+    {
+      "label": "401(k)",
+      "quote": "ties has broken down irretrievably and the same is hereby dissolved. The court has considered all the statutory criteria contained in Conn. Gen. Stat. Secs. 46b-81 and 46b-82 and enters the following orders: 1. The plaintiff shall transfer one-half of his 401K account to the defendant, pursuant to a Qualified Domestic Relations Order. The court retains jurisdiction to enter this order. 2. The plaintiff shall pay to the defendant as alimony $250 per week for a period of 30 months. This order is non-modifiable as to term and duration. This order is subject to immediate wage withholding. 3. As additional alimony"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "by dissolved. The court has considered all the statutory criteria contained in Conn. Gen. Stat. Secs. 46b-81 and 46b-82 and enters the following orders: 1. The plaintiff shall transfer one-half of his 401K account to the defendant, pursuant to a Qualified Domestic Relations Order. The court retains jurisdiction to enter this order. 2. The plaintiff shall pay to the defendant as alimony $250 per week for a period of 30 months. This order is non-modifiable as to term and duration. This order is subject to immediate wage withholding. 3. As additional alimony, the defendant shall be maintained on the medical insurance available thro"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] MEMORANDUM OF DECISION \nThe parties were married on October 20, 1990 at Centerbrook, Connecticut. CT Page 14043 \n All jurisdictional requirements have been met. \n The marriage of the parties has broken down irretrievably and the same is hereby dissolved. \n The court has considered all the statutory criteria contained in Conn. Gen. Stat. Secs. 46b-81 and 46b-82 and enters the following orders: \n 1. The plaintiff shall transfer one-half of his 401K account to the defendant, pursuant to a Qualified Domestic Relations Order. The court retains jurisdiction to enter this order. \n 2. The plaintiff shall pay to the defendant as alimony $250 per week for a period of 30 months. This order is non-modifiable as to term and duration. This order is subject to immediate wage withholding. \n 3. As additional alimony, the defendant shall be maintained on the medical insurance available through the plaintiff's employment, pursuant to COBRA, at the plaintiff's expense, for a period of 36 months. This order is non-modifiable as to term. \n 4. All right, title and interest in the marital home is awarded to the plaintiff. He shall be responsible for all costs associated with the home and indemnify and hold the defendant harmless thereon. \n 5. The plaintiff is awarded the Ethan Allen living room tables. \n 6. Each of the parties is awarded the assets and shall be responsible for the liabilities listed in their financial affidavits, not otherwise assigned herein. \n 7. The plaintiff shall name the defendant as irrevocable beneficiary of $40,000 worth of life insurance for as long as she is obligated to pay alimony \n 8. The orders contained herein are intended as support and are not dischargeable in bankruptcy. \n By the Court, CT Page 14044 \n ELAINE GORDON, JUDGE \n Judgment entered in accordance with Foregoing Memorandum of Decision. Jonathan W. Field, Deputy Chief Clerk",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

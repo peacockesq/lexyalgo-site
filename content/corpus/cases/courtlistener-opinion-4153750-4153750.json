@@ -1,0 +1,52 @@
+{
+  "document_id": "ea450ea1-8a90-4dde-9a4d-90a338070df2",
+  "slug": "courtlistener-opinion-4153750-4153750",
+  "title": "CourtListener opinion 4153750",
+  "citation": "Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 4,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4153750 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "I alleges a claim against all defendants for violation of ERISA § 510, 29 U.S.C. § 1140. On this count, Williams' prayer for relief \"[a]gainst all defendants for the loss to [her] pension benefits because of the Willis [Qualified Domestic Relations Order (\"QDRO\")]\" amounts to a request for equitable relief 4 from the effect of the Willis QDRO. In other words, Williams effectively seeks relief from the allegedly erroneous state court judgment in the interpleader action, which reaffirmed the validity of the Willis QDRO. Therefore, her § 510 action is barred by the Rooker-Feldman doctrine. See Noel, 341 F.3d at"
+    },
+    {
+      "label": "pension",
+      "quote": "D STATES COURT OF APPEALS MOLLY C. DWYER, CLERK U.S. COURT OF APPEALS FOR THE NINTH CIRCUIT TERRY WILLIAMS-ILUNGA, No. 15-55599 Plaintiff-Appellant, D.C. No. 2:14-cv-05415-DDP-AJW v. DIRECTORS/TRUSTEES OF MEMORANDUM* PRODUCER-WRITERS GUILD OF AMERICA PENSION PLAN; et al., Defendants-Appellees. Appeal from the United States District Court for the Central District of California Dean D. Pregerson, District Judge, Presiding Argued and Submitted March 7, 2017 Pasadena, California Before: REINHARDT, TASHIMA, and NGUYEN, Circuit Judges. We affirm the dismissal of all three counts in Terry Williams-Ilunga's"
+    },
+    {
+      "label": "ERISA",
+      "quote": "to be cured: a subsequent federal claim is completely barred if it amounts to \"a de facto appeal from a state court judgment.\" Kougasian v. TMSL, Inc., 359 F.3d 1136, 1139 (9th Cir. 2004). 2. Assuming that Count II is premised on a benefits dispute under ERISA § 502(a)(1)(B), 29 U.S.C. § 1132(a)(1)(B), the claim was properly dismissed pursuant to the Rooker-Feldman doctrine. Rooker-Feldman bars federal jurisdiction where a plaintiff \"complain[s] of a legal injury caused by a state court judgment, based on an allegedly erroneous legal ruling, in a case in which the federal plaintiff was one of the litigants.\""
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "nal services. 3. Count III alleges a claim against all defendants for violation of ERISA § 510, 29 U.S.C. § 1140. On this count, Williams' prayer for relief \"[a]gainst all defendants for the loss to [her] pension benefits because of the Willis [Qualified Domestic Relations Order (\"QDRO\")]\" amounts to a request for equitable relief 4 from the effect of the Willis QDRO. In other words, Williams effectively seeks relief from the allegedly erroneous state court judgment in the interpleader action, which reaffirmed the validity of the Willis QDRO. Therefore, her § 510 action is barred by the Rooker-Feldman doctrine. See Noel, 341"
+    }
+  ],
+  "full_text": "FILED\n NOT FOR PUBLICATION\n MAR 17 2017\n UNITED STATES COURT OF APPEALS MOLLY C. DWYER, CLERK\n U.S. COURT OF APPEALS\n\n FOR THE NINTH CIRCUIT\n\nTERRY WILLIAMS-ILUNGA, No. 15-55599\n\n Plaintiff-Appellant, D.C. No.\n 2:14-cv-05415-DDP-AJW\n v.\n\nDIRECTORS/TRUSTEES OF MEMORANDUM*\nPRODUCER-WRITERS GUILD OF\nAMERICA PENSION PLAN; et al.,\n\n Defendants-Appellees.\n\n Appeal from the United States District Court\n for the Central District of California\n Dean D. Pregerson, District Judge, Presiding\n\n Argued and Submitted March 7, 2017\n Pasadena, California\n\nBefore: REINHARDT, TASHIMA, and NGUYEN, Circuit Judges.\n\n We affirm the dismissal of all three counts in Terry Williams-Ilunga's\n\n(\"Williams\") complaint.\n\n *\n This disposition is not appropriate for publication and is not precedent\nexcept as provided by Ninth Circuit Rule 36-3.\n 1. As to Count I, the jurisdictional dismissal in Williams' first federal action\n\nhas preclusive effect with respect to the issue of subject matter jurisdiction. See\n\nUnited States v. Van Cauwenberghe, 934 F.2d 1048, 1057 (9th Cir. 1991); 18A C.\n\nWright, A. Miller, & E. Cooper, Federal Practice and Procedure § 4436 (3d ed.).\n\nUnder the issue preclusion doctrine, \"[w]hen an issue of fact or law is actually\n\nlitigated and determined by a valid and final judgment, and the determination is\n\nessential to the judgment, the determination is conclusive in a subsequent action\n\nbetween the parties, whether on the same or a different claim.\" B & B Hardware,\n\nInc. v. Hargis Indus., Inc., 135 S. Ct. 1293, 1303 (2015) ((quoting Restatement\n\n(Second) of Judgments § 27 (1980)). Here, the dismissal of Williams' first federal\n\naction satisfies all of these requirements with respect to subject matter jurisdiction.\n\nWilliams is precluded from establishing subject matter jurisdiction in this case.\n\n 2\n Dismissal of Williams' first action was not based on a \"curable defect\" in\n\njurisdiction, but rather was based on Rooker-Feldman.1 Under Rooker-Feldman,\n\nthere is no defect to be cured: a subsequent federal claim is completely barred if it\n\namounts to \"a de facto appeal from a state court judgment.\" Kougasian v. TMSL,\n\nInc., 359 F.3d 1136, 1139 (9th Cir. 2004).\n\n 2. Assuming that Count II is premised on a benefits dispute under ERISA §\n\n502(a)(1)(B), 29 U.S.C. § 1132(a)(1)(B), the claim was properly dismissed\n\npursuant to the Rooker-Feldman doctrine. Rooker-Feldman bars federal\n\njurisdiction where a plaintiff \"complain[s] of a legal injury caused by a state court\n\njudgment, based on an allegedly erroneous legal ruling, in a case in which the\n\nfederal plaintiff was one of the litigants.\" Noel, 341 F.3d at 1163. Here, the state\n\ncourt in a previous interpleader action entered an order purporting to resolve all\n\n 1\n \"The Rooker–Feldman doctrine takes its name from Rooker v. Fidelity\nTrust Co., 263 U.S. 413, 44 S.Ct. 149, 68 L.Ed. 362 (1923), and District of\nColumbia Court of Appeals v. Feldman, 460 U.S. 462, 103 S.Ct. 1303, 75 L.Ed.2d\n206 (1983). Under Rooker-Feldman, a federal district court does not have subject\nmatter jurisdiction to hear a direct appeal from the final judgment of a state court.\nNoel v. Hall, 341 F.3d 1148, 1154 (9th Cir. 2003).\" In other words, Rooker-\nFeldman bars subject matter jurisdiction over cases in which \"the losing party in\nstate court file[s] suit in federal court after the state proceedings ended,\ncomplaining of an injury caused by the state-court judgment and seeking review\nand rejection of that judgment.\" Exxon Mobil Corp. v. Saudi Basic Indus. Corp.,\n544 U.S. 280, 291 (2005).\n 3\n claims to the benefits in question. To the extent that Williams continues to dispute\n\nthe amount of benefits to which she is entitled, her claim is barred because it\n\n\"asserts as a legal wrong an allegedly erroneous decision by a state court, and\n\nseeks relief from a state court judgment based on that decision.\" Id.\n\n If Count II is a claim for breach of fiduciary duty under ERISA § 502(a)(2)\n\nand (3), 29 U.S.C. § 1132(a)(2) and (3), Williams fails to state a claim upon which\n\nrelief can be granted. The Plan itself cannot be sued for breach of fiduciary duty.\n\nSee Acosta v. Pac. Enters., 950 F.2d 611, 618 (9th Cir. 1991), as amended on reh'g\n\n(Jan. 23, 1992). Williams also fails to state a claim for breach of fiduciary duty\n\nagainst the the lawyer-defendants, Neelam Chandna, Jeffrey David Sackman, and\n\nthe law firm of Reich, Adell & Cvitan. Lawyers may be treated as fiduciaries under\n\nERISA only if they \"perform more than the usual professional services.\" Concha v.\n\nLondon, 62 F.3d 1493, 1502 (9th Cir. 1995). Williams' threadbare factual\n\nallegations against the lawyer-defendants do not allege anything more than the\n\nprovision of ordinary professional services.\n\n 3. Count III alleges a claim against all defendants for violation of ERISA §\n\n510, 29 U.S.C. § 1140. On this count, Williams' prayer for relief \"[a]gainst all\n\ndefendants for the loss to [her] pension benefits because of the Willis [Qualified\n\nDomestic Relations Order (\"QDRO\")]\" amounts to a request for equitable relief\n\n 4\n from the effect of the Willis QDRO. In other words, Williams effectively seeks\n\nrelief from the allegedly erroneous state court judgment in the interpleader action,\n\nwhich reaffirmed the validity of the Willis QDRO. Therefore, her § 510 action is\n\nbarred by the Rooker-Feldman doctrine. See Noel, 341 F.3d at 1164.\n\n 4. For the foregoing reasons, the judgment of the district court is\n\nAFFIRMED.\n\n 5",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

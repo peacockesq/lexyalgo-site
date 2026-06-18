@@ -1,0 +1,44 @@
+{
+  "document_id": "41ac69fa-8c08-4c0f-8b24-5b48113c8496",
+  "slug": "courtlistener-opinion-10730596-10730596",
+  "title": "CourtListener opinion 10730596",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 2,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 4,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 10730596 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 2/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "F No. 36. For the following reasons, the Court GRANTS the Motions to Dismiss and DENIES AS MOOT both Defendants' and Plaintiff's Motions for Summary Judgment. This case involves a dispute regarding the application of a Qualified Domestic Relations Order (QDRO) to certain pension benefits earned by Defendant Christopher Jackson and disbursed by Defendant Huntington Police Pension Board (the Board). Initially, Plaintiff brought this action seeking injunctive relief against the Board and asked the Court to order the Board to make payments to her in the amount she believed she was entitled to receive. After heari"
+    },
+    {
+      "label": "pension",
+      "quote": "IN THE UNITED STATES DISTRICT COURT FOR THE SOUTHERN DISTRICT OF WEST VIRGINIA HUNTINGTON DIVISION CAMELA JACKSON, Plaintiff, v. CIVIL ACTION NO. 3:21-0570 HUNTINGTON POLICE PENSION BOARD and CHRISTOPHER JACKSON, Defendants. MEMORANDUM OPINION AND ORDER Pending before the Court are Motions to Dismiss and Motions for Summary Judgment by Defendant Christopher Jackson and Defendant Huntington Police Pension Board (ECF Nos. 29, 31, 41, & 44) and a cross Motion for Summary Judgment by Plaintiff Camela Jackson. ECF No. 36. For t"
+    }
+  ],
+  "full_text": "IN THE UNITED STATES DISTRICT COURT FOR \n THE SOUTHERN DISTRICT OF WEST VIRGINIA \n\n HUNTINGTON DIVISION \n\nCAMELA JACKSON, \n\n Plaintiff, \n\nv. CIVIL ACTION NO. 3:21-0570 \n\nHUNTINGTON POLICE \nPENSION BOARD and \nCHRISTOPHER JACKSON, \n\n Defendants. \n\n MEMORANDUM OPINION AND ORDER \n\n Pending before the Court are Motions to Dismiss and Motions for Summary \nJudgment by Defendant Christopher Jackson and Defendant Huntington Police Pension Board \n(ECF Nos. 29, 31, 41, & 44) and a cross Motion for Summary Judgment by Plaintiff Camela \nJackson. ECF No. 36. For the following reasons, the Court GRANTS the Motions to Dismiss and \nDENIES AS MOOT both Defendants' and Plaintiff's Motions for Summary Judgment. \n\n This case involves a dispute regarding the application of a Qualified Domestic \nRelations Order (QDRO) to certain pension benefits earned by Defendant Christopher Jackson and \ndisbursed by Defendant Huntington Police Pension Board (the Board). Initially, Plaintiff brought \nthis action seeking injunctive relief against the Board and asked the Court to order the Board to \nmake payments to her in the amount she believed she was entitled to receive. After hearing \narguments by Plaintiff and the Board, the Court directed Plaintiff to either join Mr. Jackson as a \ndefendant in this matter or explain how the case can proceed without him being a party. Order \n(Feb. 23, 2022), ECF No. 16. Thereafter, Plaintiff moved to join Mr. Jackson as an indispensable \nparty and to amend her Complaint. ECF Nos. 18, 20. The Court granted both motions. ECF Nos. \n19, 21. \n\n In their Motions to Dismiss, both Mr. Jackson and the Board argue that this Court \nlacks diversity jurisdiction because Plaintiff's claim does not exceed the sum or value of $75,000. \nIt is axiomatic that a court must have subject matter jurisdiction over a controversy before it can \nrender any decision on the merits. A motion to dismiss for lack of subject matter jurisdiction raises \nthe fundamental question of whether a court is competent to hear and adjudicate the claims brought \nbefore it and requires dismissal if the court lacks such jurisdiction. Under 28 U.S.C. § 1332(a), \nfederal diversity jurisdiction requires complete diversity between the parties and an amount in \ncontroversy exceeding $75,000. \n\n Although the parties disagree as to whether the jurisdictional dollar amount is met, \n\nit is unnecessary for the Court to address that issue. Here, Plaintiff has alleged in her Complaint \nthat both she and Defendant Jackson are residents of Boyd County, Kentucky. Compl. at ¶¶1, 3. In \nan action based on diversity jurisdiction, \"the presence in the action of a single plaintiff from the \nsame State as a single defendant deprives the district court of original diversity jurisdiction over \nthe entire action.\" Exxon Mobil Corp. v. Allapattah Servs., Inc., 545 U.S. 546, 553 (2005) \n(citations omitted). Therefore, this Court lacks subject matter jurisdiction over this matter and \nmust dismiss.1 \n\n1In paragraph 6 of the Complaint, Plaintiff also alleges that the Board's decision to cease \nher payments violated the Full Faith and Credit Clause of the United States Constitution. Although \nthe parties do not directly argue federal question jurisdiction, the Court recognizes that the Full \n Accordingly, for the foregoing reasons, the Court GRANTS Defendants' Motions \nto Dismiss (ECF Nos. 29, 31), DENIES Defendants' and Plaintiff's Motions for Summary \nJudgment (ECF Nos. 36, 41, 44), and DISMISSES this action from the Court's docket. \n\n The Court DIRECTS the Clerk to send a copy of this Order to counsel of record \nand any unrepresented parties. \n ENTER: August 22, 2022 \n\n : JZ, \n Yh \n ROBERT C. CHAMBERS \n UNITED STATES DISTRICT JUDGE \n\nFaith and Credit Clause cannot invoke federal question jurisdiction. See Thompson v. Thompson, \n484 U.S. 174, 182-83 (1988) (\"the Full Faith and Credit Clause, in either its constitutional or \nstatutory incarnations, does not give rise to an implied federal cause of action\") (citing Minnesota \nv. Northern Securities Co., 194 U.S. 48, 72 (1904) (The Full Faith and Credit Clause \"only \nprescribes a rule by which courts, Federal and state, are to be guided . . . the clause has nothing to \ndo with the conduct of individuals or corporations; and to invoke the rule which it prescribes does \nnot make a case arising under the Constitution or laws of the United States.\")). \n -3-",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

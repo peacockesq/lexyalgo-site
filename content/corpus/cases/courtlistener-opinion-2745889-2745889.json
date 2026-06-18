@@ -1,0 +1,52 @@
+{
+  "document_id": "eb181df2-98ad-43dd-9e9e-5d43bb24ad7c",
+  "slug": "courtlistener-opinion-2745889-2745889",
+  "title": "CourtListener opinion 2745889",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 1,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 1
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 2745889 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "KETAILY. (Super. Ct. No. D261068) (Ventura County) MARJORIE ANNE KETAILY, Appellant, v. MICHAEL EDWARD KETAILY, Respondent. Marjorie Anne Ketaily (Wife) appeals from the trial court's order clarifying that the Marital Settlement Agreement (MSA) and Qualified Domestic Relations Order (QDRO) between Wife and Michael Edward Ketaily (Husband), do not award Wife a community property interest in certain deferred retirement benefits available to Husband. After reviewing the matter de novo, we conclude the community holds an interest in the benefits at issue. Accordingly, we reverse. Facts Husband began his employment with the Los Angeles Ci"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "e) appeals from the trial court's order clarifying that the Marital Settlement Agreement (MSA) and Qualified Domestic Relations Order (QDRO) between Wife and Michael Edward Ketaily (Husband), do not award Wife a community property interest in certain deferred retirement benefits available to Husband. After reviewing the matter de novo, we conclude the community holds an interest in the benefits at issue. Accordingly, we reverse. Facts Husband began his employment with the Los Angeles City Fire Department (LAFD) in August 1980. He and Wife were married in May 1987 and separated in April 1 1998. Husband first became eligible to"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "(Super. Ct. No. D261068) (Ventura County) MARJORIE ANNE KETAILY, Appellant, v. MICHAEL EDWARD KETAILY, Respondent. Marjorie Anne Ketaily (Wife) appeals from the trial court's order clarifying that the Marital Settlement Agreement (MSA) and Qualified Domestic Relations Order (QDRO) between Wife and Michael Edward Ketaily (Husband), do not award Wife a community property interest in certain deferred retirement benefits available to Husband. After reviewing the matter de novo, we conclude the community holds an interest in the benefits at issue. Accordingly, we reverse. Facts Husband began his employment with the Los Angeles Ci"
+    },
+    {
+      "label": "valuation/division",
+      "quote": "AILY, Respondent. Marjorie Anne Ketaily (Wife) appeals from the trial court's order clarifying that the Marital Settlement Agreement (MSA) and Qualified Domestic Relations Order (QDRO) between Wife and Michael Edward Ketaily (Husband), do not award Wife a community property interest in certain deferred retirement benefits available to Husband. After reviewing the matter de novo, we conclude the community holds an interest in the benefits at issue. Accordingly, we reverse. Facts Husband began his employment with the Los Angeles City Fire Department (LAFD) in August 1980. He and Wife were married in May 1987 and separated in A"
+    }
+  ],
+  "full_text": "Filed 10/27/14 Marriage of Ketaily CA2/6\n NOT TO BE PUBLISHED IN THE OFFICIAL REPORTS\nCalifornia Rules of Court, rule 8.1115(a), prohibits courts and parties from citing or relying on opinions not certified for\npublication or ordered published, except as specified by rule 8.1115(b). This opinion has not been certified for publication\nor ordered published for purposes of rule 8.1115.\n\n IN THE COURT OF APPEAL OF THE STATE OF CALIFORNIA\n\n SECOND APPELLATE DISTRICT\n\n DIVISION SIX\n\nIn re Marriage of MARJORIE ANNE and 2d Civil No. B251916\nMICHAEL EDWARD KETAILY. (Super. Ct. No. D261068)\n (Ventura County)\n\nMARJORIE ANNE KETAILY,\n\n Appellant,\n\nv.\n\nMICHAEL EDWARD KETAILY,\n\n Respondent.\n\n Marjorie Anne Ketaily (Wife) appeals from the trial court's order clarifying\nthat the Marital Settlement Agreement (MSA) and Qualified Domestic Relations Order\n(QDRO) between Wife and Michael Edward Ketaily (Husband), do not award Wife a\ncommunity property interest in certain deferred retirement benefits available to Husband.\nAfter reviewing the matter de novo, we conclude the community holds an interest in the\nbenefits at issue. Accordingly, we reverse.\n Facts\n Husband began his employment with the Los Angeles City Fire Department\n(LAFD) in August 1980. He and Wife were married in May 1987 and separated in April\n\n 1\n 1998. Husband first became eligible to retire in August 2000. He did not retire and\nremains employed by LAFD.\n The Parties' Marital Settlement Agreement\n On December 26, 2000, the parties entered into their MSA, which was\nincorporated into a judgment of dissolution. The MSA divides the parties' assets and\nliabilities and includes their agreement that, \\All income",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

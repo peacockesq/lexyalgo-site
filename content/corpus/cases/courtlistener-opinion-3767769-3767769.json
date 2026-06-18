@@ -1,0 +1,52 @@
+{
+  "document_id": "051854e2-9281-4c91-a5f7-0ad88d3033d8",
+  "slug": "courtlistener-opinion-3767769-3767769",
+  "title": "CourtListener opinion 3767769",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 6,
+    "retirement benefits": 0,
+    "pension": 6,
+    "ERISA": 0,
+    "401(k)": 1,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3767769 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "Mr. Paluch's McKesson Corporation pension and Ms. Baker's USPS Federal Employees Retirement System (FERS) pension. The dispute that underlies this appeal began as a simple labeling mistake. {&#182; 3} Intending to divide Ms. Baker's TSP, the court issued a Qualified Domestic Relations Order (QDRO), assigning one-half the value of the plan to Mr. Paluch. However, in journalizing the QDRO, the court erroneously identified the TSP as her FERS pension. Due to this misidentification, the TSP administrator rejected Mr. Paluch's claim. The court responded immediately, intending to remedy the mislabeling and effectuate the divorce decree. An amended Q"
+    },
+    {
+      "label": "pension",
+      "quote": "idual retirement savings plans administered by the parties' respective employers: Mr. Paluch's 401k plan with McKesson Corporation and Ms. Baker's Thrift Savings Plan (TSP) with the United States Postal Service (USPS). While each party also had an independent pension plan, these pensions were not deemed to be marital property and were not to be divided: Mr. Paluch's McKesson Corporation pension and Ms. Baker's USPS Federal Employees Retirement System (FERS) pension. The dispute that underlies this appeal began as a simple labeling mistake. {&#182; 3} Intending to divide Ms. Baker's TSP, the court issued a Qualified Do"
+    },
+    {
+      "label": "401(k)",
+      "quote": "s. Baker (f.k.a. Mrs. Paluch) had been married, but were divorced on December 22, 1994. The court ordered an equal division of marital property, which included individual retirement savings plans administered by the parties' respective employers: Mr. Paluch's 401k plan with McKesson Corporation and Ms. Baker's Thrift Savings Plan (TSP) with the United States Postal Service (USPS). While each party also had an independent pension plan, these pensions were not deemed to be marital property and were not to be divided: Mr. Paluch's McKesson Corporation pension and Ms. Baker's USPS Federal Employees Retirement System (FER"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "h's McKesson Corporation pension and Ms. Baker's USPS Federal Employees Retirement System (FERS) pension. The dispute that underlies this appeal began as a simple labeling mistake. {&#182; 3} Intending to divide Ms. Baker's TSP, the court issued a Qualified Domestic Relations Order (QDRO), assigning one-half the value of the plan to Mr. Paluch. However, in journalizing the QDRO, the court erroneously identified the TSP as her FERS pension. Due to this misidentification, the TSP administrator rejected Mr. Paluch's claim. The court responded immediately, intending to remedy the mislabeling and effectuate the divorce decree. An amended Q"
+    }
+  ],
+  "full_text": "DECISION AND JOURNAL ENTRY \n {&#182; 1} Appellant, William Paluch, appeals from an order of the Summit County Court of Common Pleas, Domestic Relations Division. We affirm. \n I. {&#182; 2} The pertinent facts of this case are undisputed. Mr. Paluch and Ms. Baker (f.k.a. Mrs. Paluch) had been married, but were divorced on December 22, 1994. The court ordered an equal division of marital property, which included individual retirement savings plans administered by the parties' respective employers: Mr. Paluch's 401k plan with McKesson Corporation and Ms. Baker's Thrift Savings Plan (TSP) with the United States Postal Service (USPS). While each party also had an independent pension plan, these pensions were not deemed to be marital property and were not to be divided: Mr. Paluch's McKesson Corporation pension and Ms. Baker's USPS Federal Employees Retirement System (FERS) pension. The dispute that underlies this appeal began as a simple labeling mistake. \n {&#182; 3} Intending to divide Ms. Baker's TSP, the court issued a Qualified Domestic Relations Order (QDRO), assigning one-half the value of the plan to Mr. Paluch. However, in journalizing the QDRO, the court erroneously identified the TSP as her FERS pension. Due to this misidentification, the TSP administrator rejected Mr. Paluch's claim. The court responded immediately, intending to remedy the mislabeling and effectuate the divorce decree. An amended QDRO was filed, which was identical to the prior QDRO, but for the identification of the TSP instead of the FERS pension in the text of the order. Thereafter, Ms. Bakers' TSP was equally divided and one-half distributed to Mr. Paluch. \n {&#182; 4} Almost one year later, Ms. Baker unexpectedly received notice from her USPS-FERS administrator that her FERS pension had been equally divided and one-half distributed to Mr. Paluch. Apparently, Mr. Paluch had filed the original erroneous QDRO with FERS, and USPS had unknowingly but mistakenly acted upon it. Ms. Baker sought to remedy this mistake by contacting USPS directly, but was unsuccessful. Eventually, Ms. Baker sought a court order to clarify this mistake and recover her money. A magistrate reviewed the divorce decree, recognized the error, and issued an order correcting the situation. The court adopted the magistrate's decision. In the meantime, USPS had continued to pay Mr. Paluch from Ms. Baker's FERS until it received the court order instructing it to cease doing so. \n {&#182; 5} Subsequently, the court adopted the magistrate's further decision, finding that Mr. Paluch had erroneously received $14,367.88 from Ms. Baker's FERS and ordering repayment of this sum, with interest. Mr. Paluch timely appealed from this order, asserting four assignments of error. We have consolidated these assignments of error and address them together to facilitate review. \n II. First Assignment of Error \n\\The trial court erred by not dismissing the motion for lack of jurisdiction in that plaintiff-appellee had failed to exhaust administrative remedies timely",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

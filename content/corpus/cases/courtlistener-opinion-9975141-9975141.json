@@ -1,0 +1,52 @@
+{
+  "document_id": "20e42177-8090-41ec-8aea-83f0f483be63",
+  "slug": "courtlistener-opinion-9975141-9975141",
+  "title": "CourtListener opinion 9975141",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 4,
+    "retirement benefits": 1,
+    "pension": 1,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 1,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 9975141 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "at application listed all four retirement options available to the former husband and the benefits, if any, Appellant would receive upon his death. See § 121.091(6)(a)1.–4., Fla. Stat. Appellant's marriage to the former husband was dissolved in 2003 and the Qualified Domestic Relations Order (QDRO) entered by the court required that Appellant remain the designated beneficiary for purposes of the former husband's FRS retirement benefit. Under the QDRO, the former husband was prohibited from removing Appellant as the beneficiary of his retirement account during Appellant's lifetime. However, the QDRO did not and could not change benefits accrued"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "s from the former husband's retirement date. At this point, section 121.091(6)(a)2. no longer provided for any survivor benefits upon the death of the former husband. The former husband died in 2017, more than nineteen years after his retirement date, and the retirement benefits payable to him expired upon his death. Thus, no retirement benefits were payable to Appellant under section 121.091(6)(a)2. The Department did not misinterpret section 121.091 or any administrative rule promulgated to carry out the statute. See § 120.68(7)(d)–(e), Fla. Stat. The agency final action is therefore AFFIRMED. 2 B.L. THOMAS, BILBREY, and"
+    },
+    {
+      "label": "pension",
+      "quote": "ry ground to set aside the final order, we must affirm. See § 120.68(8), Fla. Stat. (2023). The facts were undisputed. Appellant's former husband retired on July 1, 1998. Under section 121.091(6)(a), Florida Statutes (1998), governing payout options for FRS pension plan retirees, the former husband chose option 2 and named Appellant as his beneficiary. Option 2 provides that a monthly retirement benefit will be paid to the retiree for life, but if the retiree dies during the first ten years after retirement, then the beneficiary receives \"the same monthly amount payable for the balance of such 10-year period.\" § 121."
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "tion listed all four retirement options available to the former husband and the benefits, if any, Appellant would receive upon his death. See § 121.091(6)(a)1.–4., Fla. Stat. Appellant's marriage to the former husband was dissolved in 2003 and the Qualified Domestic Relations Order (QDRO) entered by the court required that Appellant remain the designated beneficiary for purposes of the former husband's FRS retirement benefit. Under the QDRO, the former husband was prohibited from removing Appellant as the beneficiary of his retirement account during Appellant's lifetime. However, the QDRO did not and could not change benefits accrued"
+    }
+  ],
+  "full_text": "FIRST DISTRICT COURT OF APPEAL\n STATE OF FLORIDA\n _____________________________\n\n No. 1D2023-0708\n _____________________________\n\nAVIS BROWN,\n\n Appellant,\n\n v.\n\nSTATE OF FLORIDA, DEPARTMENT\nOF MANAGEMENT SERVICES,\nDIVISION OF RETIREMENT,\n\n Appellee.\n _____________________________\n\nOn appeal from the Department of Management Services.\nPedro Allende, Secretary.\n\n May 29, 2024\n\nPER CURIAM.\n\n Appellant challenges the final order of the Florida\nDepartment of Management Services, Division of Retirement,\nfinding that Appellant is not entitled to additional retirement\nbenefit payments from her late former husband's Florida\nRetirement System (FRS) account. Because Appellant fails to\nestablish a statutory ground to set aside the final order, we must\naffirm. See § 120.68(8), Fla. Stat. (2023).\n\n The facts were undisputed. Appellant's former husband\nretired on July 1, 1998. Under section 121.091(6)(a), Florida\nStatutes (1998), governing payout options for FRS pension plan\n retirees, the former husband chose option 2 and named Appellant\nas his beneficiary. Option 2 provides that a monthly retirement\nbenefit will be paid to the retiree for life, but if the retiree dies\nduring the first ten years after retirement, then the beneficiary\nreceives \"the same monthly amount payable for the balance of such\n10-year period.\" § 121.091(6)(a)2., Fla. Stat.\n\n As required by section 121.091(6)(a), Appellant was \"notified\nof\" and \"acknowledge[d] such election\" made by the former\nhusband by signing at the appropriate line on her former\nhusband's FRS application for retirement. That application listed\nall four retirement options available to the former husband and\nthe benefits, if any, Appellant would receive upon his death. See\n§ 121.091(6)(a)1.–4., Fla. Stat.\n\n Appellant's marriage to the former husband was dissolved in\n2003 and the Qualified Domestic Relations Order (QDRO) entered\nby the court required that Appellant remain the designated\nbeneficiary for purposes of the former husband's FRS retirement\nbenefit. Under the QDRO, the former husband was prohibited\nfrom removing Appellant as the beneficiary of his retirement\naccount during Appellant's lifetime. However, the QDRO did not\nand could not change benefits accrued under section\n121.091(6)(a)2., including the ten-year window for a survivor\nbenefit elected by the former husband. See § 121.011(3)(d), Fla.\nStat. (stating that \"the rights of members of the retirement system\nestablished by this chapter are declared to be of a contractual\nnature\").\n\n June 2008 was ten years from the former husband's\nretirement date. At this point, section 121.091(6)(a)2. no longer\nprovided for any survivor benefits upon the death of the former\nhusband. The former husband died in 2017, more than nineteen\nyears after his retirement date, and the retirement benefits\npayable to him expired upon his death. Thus, no retirement\nbenefits were payable to Appellant under section 121.091(6)(a)2.\n\n The Department did not misinterpret section 121.091 or any\nadministrative rule promulgated to carry out the statute. See\n§ 120.68(7)(d)–(e), Fla. Stat. The agency final action is therefore\n\n AFFIRMED.\n\n 2\n B.L. THOMAS, BILBREY, and TANENBAUM, JJ., concur.\n\n _____________________________\n\n Not final until disposition of any timely and\n authorized motion under Fla. R. App. P. 9.330 or\n 9.331.\n _____________________________\n\nAntonio G. Hernández of Antonio G Hernández PA, Coral Gables,\nfor Appellant.\n\nKristen Larson, General Counsel, James Burkhart, Assistant\nGeneral Counsel, and Lee Damessous, Managing Attorney,\nDepartment of Management Services, Tallahassee, for Appellee.\n\n 3",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

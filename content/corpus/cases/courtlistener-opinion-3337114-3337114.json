@@ -1,0 +1,44 @@
+{
+  "document_id": "48b6ebe5-e3b3-4d8f-9f32-0dd9620841d2",
+  "slug": "courtlistener-opinion-3337114-3337114",
+  "title": "CourtListener opinion 3337114",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 1,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3337114 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "pay the sum of $1.00 per year as periodic alimony until the plaintiff's remarriage or the death of either party. 4. The plaintiff is awarded 50% of the defendant's retirement benefit earned while he was employed at General Electric. The court will execute a QDRO approved by the administrator. The drafting shall be done by the plaintiff's attorney and reviewed by the defendant's attorney. 5. The plaintiff and the defendant shall be equally liable for any remaining joint debts incurred on credit cards, and each shall indemnify the other for any payments that have exceeded 50% of the total debt, but only after the c"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "storage, are awarded to the plaintiff as her sole property. 3. The defendant is ordered to pay the sum of $1.00 per year as periodic alimony until the plaintiff's remarriage or the death of either party. 4. The plaintiff is awarded 50% of the defendant's retirement benefit earned while he was employed at General Electric. The court will execute a QDRO approved by the administrator. The drafting shall be done by the plaintiff's attorney and reviewed by the defendant's attorney. 5. The plaintiff and the defendant shall be equally liable for any remaining joint debts incurred on credit cards, and each shall indemnify the other"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] MEMORANDUM OF DECISION \nCT Page 5324\nThe plaintiff wife, 51, and the defendant husband, 54, married in Stuttgart, Germany, on February 17, 1967. The plaintiff has resided continuously in Connecticut for over one year prior to initiating this action of dissolution of marriage, C.G.S. &#167; 46b-44 (c)(1). There are two children of the marriage, both now adults. \n After the marriage, they returned to the United States to the home of the defendant's parents in Pennsylvania. After being discharged from the service, the defendant was hired by General Electric and employed in Virginia. Two weeks after moving to Lynchberg, Virginia, the older child was born, and a year later the defendant was transferred, and the family moved to Hickory, North Carolina. The plaintiff's mother came to help the plaintiff, staying for a year. The defendant was again reassigned to Columbus, Ohio. The parties purchased their first home. \n After three years, the defendant was transferred to the General Electric facility in Bridgeport, Connecticut. The family moved to Trumbull where they purchased a newly constructed home. \n In 1974, the defendant was promoted to a position based in Brussells, Belgium, which entailed substantial traveling by the defendant. The plaintiff felt neglected and abandoned, and the older child became a behavior problem in school After three years, the family moved back to Trumbull, Connecticut. The defendant continued to travel extensively in Europe, spending six months in Sweden and two months in Romania. During his stay in Sweden, the defendant was unfaithful to the plaintiff, causing her great upset. They remained together, however, moving to New Canaan to allow the defendant to commute to New York City where his office was located. The defendant was eventually offered a severance package by General Electric which he accepted in 1985. He then accepted employment with a start up company located in Dallas, Texas, entailing much travel to China. \n During these years, the defendant developed a drinking habit that was not brought under control until he joined Alcoholics Anonymous, and periods of unemployment followed. \n The plaintiff has worked part time as a receptionist, as a cosmetic saleslady, and as a temp. CT Page 5325 \n The parties physically separated during the final two years of their marriage although they remained in the marital home. The court concludes that the marriage was irretrievably broken down by 1990. The plaintiff testified she believed the marriage has been broken down for 15 years. \n A decree was entered dissolving the parties' marriage on \n January 26, 1995 at which time the cross complaint was dismissed as moot. The court ordered restoration of the plaintiff's maiden name. All other financial issues were reserved. \n The court, having reviewed the evidence in light of the statutory criteria, enters the following orders: \n 1. The plaintiff shall retain the real estate known as 91 Lantern Ridge Road, New Canaan, Connecticut as her sole property, as to the state of title. \n 2. The furniture and furnishings previously removed from the home, now in storage, are awarded to the plaintiff as her sole property. \n 3. The defendant is ordered to pay the sum of $1.00 per year as periodic alimony until the plaintiff's remarriage or the death of either party. \n 4. The plaintiff is awarded 50% of the defendant's retirement benefit earned while he was employed at General Electric. The court will execute a QDRO approved by the administrator. The drafting shall be done by the plaintiff's attorney and reviewed by the defendant's attorney. \n 5. The plaintiff and the defendant shall be equally liable for any remaining joint debts incurred on credit cards, and each shall indemnify the other for any payments that have exceeded 50% of the total debt, but only after the creditor has been paid in full. \n 6. The parties shall remain solely liable on their separate debts. \n CT Page 5326 \n 7. The parties shall retain such other assets as are now in their possession, not awarded in paragraph two, supra. \n 8. No attorney's fees are awarded, no insurance coverage is ordered, and no \\second look\\\" is ordered.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

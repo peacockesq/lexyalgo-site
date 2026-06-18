@@ -1,0 +1,52 @@
+{
+  "document_id": "13ff8c40-bbde-40a1-a9ac-4a524a94bf85",
+  "slug": "courtlistener-opinion-2739477-2739477",
+  "title": "CourtListener opinion 2739477",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 5,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 2,
+    "valuation/division": 4
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 2739477 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "pension",
+      "quote": "STIN E. HENSON, No. 62654 Appellant, vs. HOWARD HALE HENSON, AL Respondent. OCT 02 2614 CL BY It .0i ti RA C it uE Appeal from a district court order modifying a qualified domestic relations order and denying appellant's motion for a judgment on pension payment arrearages. Second Judicial District Court, Family Court Division, Washoe County; Bridget Robb Peck, Judge. Affirmed. Todd L. Torvinen, Reno; Richard F. Cornell, Reno, for Appellant. Rodney E. Sumpter, Reno, for Respondent. BEFORE THE COURT EN BANC.' OPINION By the Court, CHERRY, J.: In this appeal, we are asked to consider whether a"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "Nevi, Advance Opinion 71 IN THE SUPREME COURT OF THE STATE OF NEVADA KRISTIN E. HENSON, No. 62654 Appellant, vs. HOWARD HALE HENSON, AL Respondent. OCT 02 2614 CL BY It .0i ti RA C it uE Appeal from a district court order modifying a qualified domestic relations order and denying appellant's motion for a judgment on pension payment arrearages. Second Judicial District Court, Family Court Division, Washoe County; Bridget Robb Peck, Judge. Affirmed. Todd L. Torvinen, Reno; Richard F. Cornell, Reno, for Appellant. Rodney E. Sumpter, Reno, for Respondent. BEFORE THE COURT EN BANC.' OPINION By the Court, CHERRY"
+    },
+    {
+      "label": "survivor benefits",
+      "quote": "L. Torvinen, Reno; Richard F. Cornell, Reno, for Appellant. Rodney E. Sumpter, Reno, for Respondent. BEFORE THE COURT EN BANC.' OPINION By the Court, CHERRY, J.: In this appeal, we are asked to consider whether a nonemployee spouse is entitled to survivor benefits if, in a divorce decree, 'The Honorable James W. Hardesty, Justice, voluntarily recused himself from participation in the decision of this matter. SUPREME COURT OF NEVADA (0) 1947A ce 14 /3214 he or she is allocated a community property interest in the employee spouse's Public Employees Retirement System (PERS) pension plan. We are also asked to"
+    },
+    {
+      "label": "valuation/division",
+      "quote": "is entitled to survivor benefits if, in a divorce decree, 'The Honorable James W. Hardesty, Justice, voluntarily recused himself from participation in the decision of this matter. SUPREME COURT OF NEVADA (0) 1947A ce 14 /3214 he or she is allocated a community property interest in the employee spouse's Public Employees Retirement System (PERS) pension plan. We are also asked to consider whether the nonemployee spouse must file a motion in the district court to immediately begin receiving his or her community property interest in the PERS pension plan when the employee spouse has reached retirement eligibility but has"
+    }
+  ],
+  "full_text": "130 Nevi, Advance Opinion 71\n IN THE SUPREME COURT OF THE STATE OF NEVADA\n\n KRISTIN E. HENSON, No. 62654\n Appellant,\n vs.\n HOWARD HALE HENSON,\n AL\n Respondent. OCT 02 2614\n CL\n\n BY\n It .0i ti RA\n C it uE\n\n Appeal from a district court order modifying a qualified\n domestic relations order and denying appellant's motion for a judgment on\n pension payment arrearages. Second Judicial District Court, Family\n Court Division, Washoe County; Bridget Robb Peck, Judge.\n Affirmed.\n\n Todd L. Torvinen, Reno; Richard F. Cornell, Reno,\n for Appellant.\n\n Rodney E. Sumpter, Reno,\n for Respondent.\n\n BEFORE THE COURT EN BANC.'\n\n OPINION\n\n By the Court, CHERRY, J.:\n In this appeal, we are asked to consider whether a\n nonemployee spouse is entitled to survivor benefits if, in a divorce decree,\n\n 'The Honorable James W. Hardesty, Justice, voluntarily recused\n himself from participation in the decision of this matter.\n\nSUPREME COURT\n OF\n NEVADA\n\n(0) 1947A ce 14 /3214\n he or she is allocated a community property interest in the employee\n spouse's Public Employees Retirement System (PERS) pension plan. We\n are also asked to consider whether the nonemployee spouse must file a\n motion in the district court to immediately begin receiving his or her\n community property interest in the PERS pension plan when the\n employee spouse has reached retirement eligibility but has not yet retired.\n We hold that, unless specifically set forth in the divorce\n decree, an allocation of a community property interest in the employee\n spouse's pension plan does not also entitle the nonemployee spouse to\n survivor benefits. We further conclude that, because there are varying\n times at which a nonemployee spouse may elect to begin receiving his or\n her portion of the community property interest in the employee spouse's\n pension benefits, the nonemployee spouse must first file a motion in the\n district court requesting immediate receipt of those benefits.\n FACTS AND PROCEDURAL HISTORY\n Howard Henson and Kristin Henson were married in\n September 1984. The parties filed for divorce in November 1992, and in\n July 1995, the district court entered a divorce decree resolving community\n property and support issues. Of interest in this case, the court applied the\n \\time rule\\\" and the \\\"wait and see\\\" approach",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

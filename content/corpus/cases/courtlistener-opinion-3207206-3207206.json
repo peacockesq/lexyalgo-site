@@ -1,0 +1,48 @@
+{
+  "document_id": "e5f28542-8ce3-4cc3-a00e-5931a316c339",
+  "slug": "courtlistener-opinion-3207206-3207206",
+  "title": "CourtListener opinion 3207206",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 1,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3207206 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "s and Robert McAdams had their marriage dissolved via a Decree of Dissolution which was journalized on December 22, 1998. In 1998, Ohio did not let retirement benefits from the Ohio Public Employees Retirement System (\\OPERS\\\") be divided through the use of a Qualified Domestic Relations Order"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "rom the Franklin County Court of Common Pleas, Division of Domestic Relations TYACK, J. {¶ 1} Christine McAdams and Robert McAdams had their marriage dissolved via a Decree of Dissolution which was journalized on December 22, 1998. In 1998, Ohio did not let retirement benefits from the Ohio Public Employees Retirement System (\\OPERS\\\") be divided through the use of a Qualified Domestic Relations Order"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "rt McAdams had their marriage dissolved via a Decree of Dissolution which was journalized on December 22, 1998. In 1998, Ohio did not let retirement benefits from the Ohio Public Employees Retirement System (\\OPERS\\\") be divided through the use of a Qualified Domestic Relations Order"
+    }
+  ],
+  "full_text": "[Cite as In re Dissolution of Marriage of McAdams v. McAdams, 2016-Ohio-3190.]\n IN THE COURT OF APPEALS OF OHIO\n\n TENTH APPELLATE DISTRICT\n\nIn the Matter of the Dissolution of :\nthe Marriage of:\n :\nChristine McAdams,\n :\n Petitioner-Appellant,\n : No. 15AP-1055\nv. (C.P.C. No. 98DR-4791)\n :\nRobert McAdams, (REGULAR CALENDAR)\n :\n Petitioner-Appellee.\n :\n\n D E C I S I O N\n\n Rendered on May 26, 2016\n\n On brief: Swope and Swope – Attorneys at Law, Richard F.\n Swope, and Kristy Swope, for appellant. Argued: Richard F.\n Swope.\n\n On brief: Raymond J. Mularski, and David M. Kennedy, for\n appellee.\n\n APPEAL from the Franklin County Court of Common Pleas,\n Division of Domestic Relations\nTYACK, J.\n {¶ 1} Christine McAdams and Robert McAdams had their marriage dissolved via\na Decree of Dissolution which was journalized on December 22, 1998. In 1998, Ohio did\nnot let retirement benefits from the Ohio Public Employees Retirement System\n(\\OPERS\\\") be divided through the use of a Qualified Domestic Relations Order",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

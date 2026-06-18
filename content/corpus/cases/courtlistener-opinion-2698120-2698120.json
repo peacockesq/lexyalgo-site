@@ -1,0 +1,44 @@
+{
+  "document_id": "07b735e1-7066-4443-82bf-d626838a0e7a",
+  "slug": "courtlistener-opinion-2698120-2698120",
+  "title": "CourtListener opinion 2698120",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 1,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 2698120 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "peal. {¶3}. On April 7, 2010, appellant filed a complaint for divorce in the trial court. Appellee filed an answer on May 6, 2010. {¶4}. The case proceeded to a trial on June 18, 2012. The court first heard the testimony of pension expert Brian Hogan of QDRO Consultants in Medina Ohio, followed by the testimony of appellant and appellee. {¶5}. The basic economic situation of the parties herein is not in factual dispute. Appellee is employed by Mt. Carmel Health Systems as a registered ER nurse. Appellant commenced employment in 1985 with the Ohio Department of Health and has been a participant in the Ohio"
+    },
+    {
+      "label": "pension",
+      "quote": "commencement of the present appeal. {¶3}. On April 7, 2010, appellant filed a complaint for divorce in the trial court. Appellee filed an answer on May 6, 2010. {¶4}. The case proceeded to a trial on June 18, 2012. The court first heard the testimony of pension expert Brian Hogan of QDRO Consultants in Medina Ohio, followed by the testimony of appellant and appellee. {¶5}. The basic economic situation of the parties herein is not in factual dispute. Appellee is employed by Mt. Carmel Health Systems as a registered ER nurse. Appellant commenced employment in 1985 with the Ohio Department of Health and has bee"
+    }
+  ],
+  "full_text": "[Cite as Ware v. Ware, 2014-Ohio-2606.]\n\n COURT OF APPEALS\n LICKING COUNTY, OHIO\n FIFTH APPELLATE DISTRICT\n\nKENT WARE JUDGES:\n Hon. William B. Hoffman, P. J.\n Plaintiff-Appellant Hon. John W. Wise, J.\n Hon. Patricia A. Delaney, J.\n-vs-\n Case No. 13 CA 91\nBARBARA WARE\n\n Defendant-Appellee OPINION\n\nCHARACTER OF PROCEEDING: Civil Appeal from the Court of Common\n Pleas, Domestic Relations Division, Case\n No. 10 DR 554 RPW\n\nJUDGMENT: Affirmed\n\nDATE OF JUDGMENT ENTRY: June 16, 2014\n\nAPPEARANCES:\n\nFor Plaintiff-Appellant For Defendant-Appellee\n\nEUGENE R. BUTLER PAUL GIORGIANNI\n145 Rich Street, Second Floor 1538 Arlington Avenue\nColumbus, Ohio 43215 Columbus, Ohio 43212-5550\n Licking County, Case No. 13 CA 91 2\n\nWise, J.\n\n {¶1}. Appellant Kent Ware appeals the decision of the Court of Common Pleas,\n\nDomestic Relations Division, Licking County, which granted his complaint for divorce\n\nfrom Appellee Barbara Ware. The relevant facts leading to this appeal are as follows.\n\n {¶2}. Appellant and appellee were married in November 19, 1983 in Colorado.\n\nThree children were born of the marriage, two of whom were emancipated as of the\n\ncommencement of the present appeal.\n\n {¶3}. On April 7, 2010, appellant filed a complaint for divorce in the trial court.\n\nAppellee filed an answer on May 6, 2010.\n\n {¶4}. The case proceeded to a trial on June 18, 2012. The court first heard the\n\ntestimony of pension expert Brian Hogan of QDRO Consultants in Medina Ohio,\n\nfollowed by the testimony of appellant and appellee.\n\n {¶5}. The basic economic situation of the parties herein is not in factual dispute.\n\nAppellee is employed by Mt. Carmel Health Systems as a registered ER nurse.\n\nAppellant commenced employment in 1985 with the Ohio Department of Health and has\n\nbeen a participant in the Ohio Public Employment System (\\PERS\\\") since that time.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

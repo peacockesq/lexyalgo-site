@@ -1,0 +1,48 @@
+{
+  "document_id": "a0669046-50fa-4a53-956a-e018507ed737",
+  "slug": "john-coughlin-v-cara-coughlin-3349077",
+  "title": "John Coughlin v. Cara Coughlin",
+  "citation": "qualified Domestic Relations Order",
+  "source_url": "https://www.courtlistener.com/opinion/3353553/coughlin-v-coughlin-fa-96-0388627-s-mar-10-1998/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "1998-03-10",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 7,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: John Coughlin v. Cara Coughlin is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "East Haven Fire Department is hereby vacated and the order is modified as follows: The defendant is awarded 50% of the accrued benefits due to the plaintiff as of the date of this ruling modifying the judgment. This division shall be accomplished through a qualified Domestic Relations Order or such other documents consistent with the terms of the pension plan. The defendant's counsel shall prepare such documents for the court's consideration as necessary. Dated this 10th day of March, 1998 Barry K. Stevens, Judge"
+    },
+    {
+      "label": "pension",
+      "quote": "RULING ON POST-JUDGMENT MOTIONS The plaintiff John Coughlin's Motion to Correct and the defendant Cara Coughlin's Motion to Reopen are both granted to the limited extent that the court reopens and reconsiders its findings and orders regarding the plaintiff's pension from his employment with the East Haven Fire Department. The court's finding that the pension has a value of $49,000 is hereby vacated. The court heard evidence concerning the calculation which would be used to determine the basis and amount of the benefit payable under the plan, but after further review and consideration of this evidence, the court concl"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "n Fire Department is hereby vacated and the order is modified as follows: The defendant is awarded 50% of the accrued benefits due to the plaintiff as of the date of this ruling modifying the judgment. This division shall be accomplished through a qualified Domestic Relations Order or such other documents consistent with the terms of the pension plan. The defendant's counsel shall prepare such documents for the court's consideration as necessary. Dated this 10th day of March, 1998 Barry K. Stevens, Judge"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] RULING ON POST-JUDGMENT MOTIONS \nThe plaintiff John Coughlin's Motion to Correct and the defendant Cara Coughlin's Motion to Reopen are both granted to the limited extent that the court reopens and reconsiders its findings and orders regarding the plaintiff's pension from his employment with the East Haven Fire Department. \n The court's finding that the pension has a value of $49,000 is hereby vacated. The court heard evidence concerning the calculation which would be used to determine the basis and amount of the benefit payable under the plan, but after further review and consideration of this evidence, the court concludes that this evidence is insufficient to allow a determination of the pension's present value. Nevertheless, on the basis of the CT Page 2451 equities of the case, the court's other property awards, and the applicable statutory criteria, the court concludes that a fifty percent division of the pension is the most fair and equitable result under all the circumstances. The court makes specific reference to the following considerations: 1) the entire present value of the pension accumulated during the marriage; 2) the defendant initiated and supported the plaintiff's employment with the Fire Department; 3) to benefit the family, the defendant primarily engaged in child rearing during the marriage without engaging in employment where a retirement savings could be acquired; and 4) the plaintiff has a greater earning capacity and will be able to accumulate future retirement savings far exceeding the defendant's capacity and ability. \n Therefore, the court's order awarding the defendant $20,000 of the plaintiff's pension with the East Haven Fire Department is hereby vacated and the order is modified as follows: \n The defendant is awarded 50% of the accrued benefits due to the plaintiff as of the date of this ruling modifying the judgment. This division shall be accomplished through a qualified Domestic Relations Order or such other documents consistent with the terms of the pension plan. The defendant's counsel shall prepare such documents for the court's consideration as necessary. \n Dated this 10th day of March, 1998 \n Barry K. Stevens, Judge",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

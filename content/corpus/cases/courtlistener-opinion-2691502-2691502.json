@@ -1,0 +1,48 @@
+{
+  "document_id": "cb70a075-1737-4df4-8772-aa6a13736d41",
+  "slug": "courtlistener-opinion-2691502-2691502",
+  "title": "CourtListener opinion 2691502",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 0,
+    "pension": 4,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 2
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 2691502 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "ceived nothing. Husband requested that he be awarded these missed payments in his The trial court denied this petition. In its opinion pursuant to Pa.R.A.P. 1925, the trial court justifies this decision by stating that Husband delayed the preparation of a QDRO and the entry of the divorce decree, and that he 12/28/2012, at 15. T initial refusal to sign the QDRO while exceptions were pending cannot be deemed a meritless delaying tactic where, as here, the trial court granted those exceptions in part. Admittedly, Husband did not sign the QDRO immediately after his exceptions were resolved. However, APL was"
+    },
+    {
+      "label": "pension",
+      "quote": "Y 29, 2014 claims do not entitle him to relief, and that this case should be remanded for counsel fees. However, because I conclude that the trial court abused its discretion by refusing to award receive but did not, I respectfully dissent. It is well- pension funds accrued during marriage is marital property and subject to equitable distribution. Endy v. Endy, 603 A.2d 641, 643 (Pa. Super. 1992). Here, the parties and the trial ____________________________________________ * Retired Senior Judge assigned to the Superior Court. J-A02020-14 pension. When the pension initially entered pay status, Wife receive"
+    },
+    {
+      "label": "valuation/division",
+      "quote": "be remanded for counsel fees. However, because I conclude that the trial court abused its discretion by refusing to award receive but did not, I respectfully dissent. It is well- pension funds accrued during marriage is marital property and subject to equitable distribution. Endy v. Endy, 603 A.2d 641, 643 (Pa. Super. 1992). Here, the parties and the trial ____________________________________________ * Retired Senior Judge assigned to the Superior Court. J-A02020-14 pension. When the pension initially entered pay status, Wife received 100% of the marital portion of her pension, and Husband received nothing. Husband req"
+    }
+  ],
+  "full_text": "J-A02020-14\n\nNON-PRECEDENTIAL DECISION - SEE SUPERIOR COURT I.O.P. 65.37\n\nLINDA MARIE PERRY IN THE SUPERIOR COURT OF\n PENNSYLVANIA\n Appellee\n\n v.\n\nWAYNE J. PERRY\n\n Appellant No. 363 EDA 2013\n\n Appeal from the Order Entered December 28, 2012\n In the Court of Common Pleas of Lehigh County\n Domestic Relations at No(s): 2009-FC-1619\n\nBEFORE: FORD ELLIOTT, P.J.E., OTT, J., and STRASSBURGER, J.*\n\nCONCURRING AND DISSENTING MEMORANDUM BY STRASSBURGER, J.\n\nFILED JULY 29, 2014\n\nclaims do not entitle him to relief, and that this case should be remanded for\n\n counsel fees. However, because I\n\nconclude that the trial court abused its discretion by refusing to award\n\nreceive but did not, I respectfully dissent.\n\n It is well- pension funds accrued during\n\nmarriage is marital property and subject to equitable distribution. Endy v.\n\nEndy, 603 A.2d 641, 643 (Pa. Super. 1992). Here, the parties and the trial\n\n____________________________________________\n\n*\n Retired Senior Judge assigned to the Superior Court.\n J-A02020-14\n\npension. When the pension initially entered pay status, Wife received 100%\n\nof the marital portion of her pension, and Husband received nothing.\n\nHusband requested that he be awarded these missed payments in his\n\nThe trial court denied this petition. In its opinion pursuant to Pa.R.A.P. 1925,\n\nthe trial court justifies this decision by stating that Husband delayed the\n\npreparation of a QDRO and the entry of the divorce decree, and that he\n\n12/28/2012, at 15.\n\n T\n\ninitial refusal to sign the QDRO while exceptions were pending cannot be\n\ndeemed a meritless delaying tactic where, as here, the trial court granted\n\nthose exceptions in part. Admittedly, Husband did not sign the QDRO\n\nimmediately after his exceptions were resolved. However, APL was\n\nIt does not appear that Husband was receiving any sort of financial benefit\n\nfrom Wife after that date, and he would have had no incentive to delay the\n\nproceedings unnecessarily.\n\n Thus, I conclude that Husband was entitled to the relevant portion of\n\n -2-",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

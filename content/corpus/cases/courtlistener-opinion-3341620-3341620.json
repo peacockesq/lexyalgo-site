@@ -1,0 +1,40 @@
+{
+  "document_id": "9e4e847a-d963-43ed-8946-8b0101101f6f",
+  "slug": "courtlistener-opinion-3341620-3341620",
+  "title": "CourtListener opinion 3341620",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3341620 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "y between the parties. 2. The stock holdings shall be split equally between the parties. 3. The plaintiff is awarded a 50% interest in both of the defendant's pensions, i.e., in U.S. Steel Corporation and Metro North. Plaintiff's counsel will prepare the \\QDRO's\\\"."
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] \nMEMORANDUM OF DECISION\nThis is a limited contested dissolution involving a marriage of over 35 years duration at the time the plaintiff instituted suit in 1989. \n The court heard the parties at length and concludes that the defendant husband was responsible for the breakdown of this marriage. In fact, the court is at a loss to understand how this plaintiff tolerated her existence in this marriage for so long. \n The court has jurisdiction over the parties and finds that the marriage has broken down irretrievably. It is hereby dissolved. \n In fashioning its awards and orders, the court has considered the appropriate statutes, including Sections 46b-81 82. \n The following is found to be fair and equitable under the CT Page 6014 circumstances of this case: \n 1. The real property located at and known as 453 455 Leetes Island Road in Branford shall be sold forthwith and the net proceeds divided equally between the parties. \n 2. The stock holdings shall be split equally between the parties. \n 3. The plaintiff is awarded a 50% interest in both of the defendant's pensions, i.e., in U.S. Steel Corporation and Metro North. Plaintiff's counsel will prepare the \\QDRO's\\\".",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

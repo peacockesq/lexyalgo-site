@@ -1,0 +1,44 @@
+{
+  "document_id": "783536ab-f58a-41b1-8052-f6f051bc18bf",
+  "slug": "paul-j-roach-v-mary-f-roach-3333255",
+  "title": "Paul J. Roach v. Mary F. Roach.",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": "https://www.courtlistener.com/opinion/3337750/roach-v-roach-no-fa-860080959s-may-20-1991/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "1991-05-20",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: Paul J. Roach v. Mary F. Roach. is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] ORDER In conjunction with a Qualified Domestic Relations Order previously entered by this Court in connection with the above matter providing that the plaintiff Paul J. Roach's entire interest in the Technicon Instruments Corporation Profit Sharing Plan be transferred to Attorney Glen A. Canner, court appointed guardian ad litem for the defendant Mary F. Roach and trustee, it is further ordered as follows: 1. Attorne"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] ORDER In conjunction with a Qualified Domestic Relations Order previously entered by this Court in connection with the above matter providing that the plaintiff Paul J. Roach's entire interest in the Technicon Instruments Corporation Profit Sharing Plan be transferred to Attorney Glen A. Canner, court appointed guardian ad litem for the defendant Mary F. Roach and trustee, it is further ordered as follows: 1. Attorne"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] \nORDER\nIn conjunction with a Qualified Domestic Relations Order previously entered by this Court in connection with the above matter providing that the plaintiff Paul J. Roach's entire interest in the Technicon Instruments Corporation Profit Sharing Plan be transferred to Attorney Glen A. Canner, court appointed guardian ad litem for the defendant Mary F. Roach and trustee, it is further ordered as follows: \n 1. Attorney Canner shall deposit said funds in an interest bearing account in the names of Paul J. Roach (social security number 121-24-1852) and Attorney Glen A. Canner, court appointed guardian ad litem for Mary F. Roach and trustee. Monthly statements for said account shall be sent to both Paul J. Roach and Attorney Glen A. Canner. All costs for the maintenance of said account shall be paid from the account itself. Only Attorney Canner as court appointed guardian ad litem for Mary F. Roach and trustee shall be entitled to make withdrawals from and/or make payments on said account. \n 2. This account shall be used to assure the payment by Mr. Roach of his alimony obligation to Mrs. Roach. Currently, Mr. Roach is obligated to pay Mrs. Roach, the sum of $225.00 per week pendente lite alimony. This $225.00 weekly obligation is due on the Monday of each week for the following week. Payments are to be made to Attorney Glen A. Canner, court appointed guardian ad litem for Mary F. Roach, at his office at 112 Prospect Street, Stamford, Connecticut. Hereafter, if a weekly payment due on Monday is not received by Attorney Canner at his office by 5:00 p. m. on the following Friday, Attorney Canner shall be entitled to make a withdrawal from the aforementioned account to pay said pendente lite alimony obligation to Mrs. Roach. If at the time the account is established, there is an arrearage on Mr. Roach's pendente lite alimony obligation to Mrs. Roach, Attorney Canner may make a withdrawal from said account to pay said arrearage to Mrs. Roach. \n 3. The foregoing shall remain in effect until further order of this Court. \n BY THE COURT MARGARET C. DRISCOLL STATE TRIAL REFEREE CT Page 3985",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

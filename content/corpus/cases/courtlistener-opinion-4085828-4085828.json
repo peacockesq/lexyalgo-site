@@ -1,0 +1,40 @@
+{
+  "document_id": "fd92e832-dacc-4069-b04c-8ed6b5433ae4",
+  "slug": "courtlistener-opinion-4085828-4085828",
+  "title": "CourtListener opinion 4085828",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4085828 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "domestic relations order",
+      "quote": "award is not appropriate, and we therefore modify the order in appeal No. 1 by denying that part of plaintiff's motion seeking counsel fees and vacating the award of counsel fees. With respect to appeal No. 2, we note that defendant appeals from an amended domestic relations order (DRO) and that no appeal as of right lies from a DRO (see Cuda v Cuda [appeal No. 2], 19 AD3d 1114, 1114). While we may treat the notice of appeal in appeal No. 2 as an application for leave to appeal (see id.), we see no need to do so in light of our determination in appeal No. 1. Entered: July 6, 2012 Frances E. Cafarell Clerk of the Court"
+    }
+  ],
+  "full_text": "SUPREME COURT OF THE STATE OF NEW YORK\n Appellate Division, Fourth Judicial Department\n\n806\nCA 11-00835\nPRESENT: CENTRA, J.P., PERADOTTO, CARNI, LINDLEY, AND SCONIERS, JJ.\n\nKATHLEEN E. ANDRESS, PLAINTIFF-RESPONDENT,\n\n V MEMORANDUM AND ORDER\n\nTERRANCE A. ANDRESS, DEFENDANT-APPELLANT.\n(APPEAL NO. 1.)\n\nLABIN & BUFFOMANTE, WILLIAMSVILLE (CLAYTON J. LENHARDT OF COUNSEL),\nFOR DEFENDANT-APPELLANT.\n\nZARCONE ASSOCIATES, PLLC, GETZVILLE (KELLY V. ZARCONE OF COUNSEL), FOR\nPLAINTIFF-RESPONDENT.\n\n Appeal from an order of the Supreme Court, Erie County (Tracey A.\nBannister, J.), entered August 30, 2010. The order, inter alia,\ndirected defendant to pay plaintiff's counsel fees.\n\n It is hereby ORDERED that the order so appealed from is\nunanimously modified on the law by denying that part of plaintiff's\nmotion seeking counsel fees and vacating the award of counsel fees and\nas modified the order is affirmed without costs.\n\n Memorandum: In appeal No. 1, defendant appeals from an order in\nthis post-matrimonial proceeding that, inter alia, directed him to pay\nplaintiff's counsel fees. Initially, we note that defendant's\ncontentions regarding the amounts of maintenance and interest he was\nrequired to repay to plaintiff are not properly before this Court\nbecause Supreme Court decided those issues in a prior order from which\ndefendant has not taken an appeal nor, in any event, is that order\nincluded in the record on appeal (see CPLR 5501 [a]; Matter of\nWahlstrom v Carlson, 55 AD3d 1399, 1400; Vigliotti v State of New\nYork, 24 AD3d 1217, 1218, lv denied 6 NY3d 819, 854). We agree with\ndefendant, however, that the court abused its discretion in granting\nthat part of plaintiff's motion seeking an award of counsel fees (see\nCarnicelli v Carnicelli, 300 AD2d 1093, 1094; see generally McCracken\nv McCracken, 12 AD3d 1201, 1201). While plaintiff asserted in support\nof her motion that she incurred counsel fees solely because of\ndefendant's failure to disclose his remarriage, the record establishes\nthat, even had he disclosed that information, the contested issues\nregarding maintenance would have nevertheless required litigation.\nMoreover, the record is silent regarding the court's rationale for\nawarding plaintiff counsel fees, and \"thus we are unable to determine\nwhether the court considered ‘appropriate factors' in granting\" that\npart of plaintiff's motion (Carnicelli, 300 AD2d at 1094; see\n -2- 806\n CA 11-00835\n\ngenerally Vicinanzo v Vicinanzo, 193 AD2d 962, 966). We conclude on\nthe record before us that the award is not appropriate, and we\ntherefore modify the order in appeal No. 1 by denying that part of\nplaintiff's motion seeking counsel fees and vacating the award of\ncounsel fees.\n\n With respect to appeal No. 2, we note that defendant appeals from\nan amended domestic relations order (DRO) and that no appeal as of\nright lies from a DRO (see Cuda v Cuda [appeal No. 2], 19 AD3d 1114,\n1114). While we may treat the notice of appeal in appeal No. 2 as an\napplication for leave to appeal (see id.), we see no need to do so in\nlight of our determination in appeal No. 1.\n\nEntered: July 6, 2012 Frances E. Cafarell\n Clerk of the Court",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

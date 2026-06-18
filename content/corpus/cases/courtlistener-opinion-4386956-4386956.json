@@ -1,0 +1,52 @@
+{
+  "document_id": "96106e1c-3289-49e7-9fe7-2e2daef7ae12",
+  "slug": "courtlistener-opinion-4386956-4386956",
+  "title": "CourtListener opinion 4386956",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "ERISA / defined contribution issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 1,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 1,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4386956 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to ERISA / defined contribution issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "ber 1, 2017. Having reviewed the record and the parties' arguments, the Court holds that there was no reversible error in the trial court's judgment but that there was error requiring correction. Therefore, the Court modifies the trial court's judgment and qualified domestic relations order (QDRO). We modify the trial court's judgment so that paragraph R-5 reads as follows: A portion of Eric Jonjak's retirement benefits in Bog Farm Profit Sharing 401k Acct. No. 803508-00000 arising out of ERIC JONJAK'S employment with Bog Farm as of June 1, 2017, that portion being $962,000. We modify paragraph 2 of the QDRO to delete the sentence that rea"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "t but that there was error requiring correction. Therefore, the Court modifies the trial court's judgment and qualified domestic relations order (QDRO). We modify the trial court's judgment so that paragraph R-5 reads as follows: A portion of Eric Jonjak's retirement benefits in Bog Farm Profit Sharing 401k Acct. No. 803508-00000 arising out of ERIC JONJAK'S employment with Bog Farm as of June 1, 2017, that portion being $962,000. We modify paragraph 2 of the QDRO to delete the sentence that reads: [Griffith's] interest in the Plan shall be adjusted for investment earnings and losses allocable thereto in accordance with the"
+    },
+    {
+      "label": "401(k)",
+      "quote": ". Therefore, the Court modifies the trial court's judgment and qualified domestic relations order (QDRO). We modify the trial court's judgment so that paragraph R-5 reads as follows: A portion of Eric Jonjak's retirement benefits in Bog Farm Profit Sharing 401k Acct. No. 803508-00000 arising out of ERIC JONJAK'S employment with Bog Farm as of June 1, 2017, that portion being $962,000. We modify paragraph 2 of the QDRO to delete the sentence that reads: [Griffith's] interest in the Plan shall be adjusted for investment earnings and losses allocable thereto in accordance with the terms of the Plan thereafter. Th"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "7. Having reviewed the record and the parties' arguments, the Court holds that there was no reversible error in the trial court's judgment but that there was error requiring correction. Therefore, the Court modifies the trial court's judgment and qualified domestic relations order (QDRO). We modify the trial court's judgment so that paragraph R-5 reads as follows: A portion of Eric Jonjak's retirement benefits in Bog Farm Profit Sharing 401k Acct. No. 803508-00000 arising out of ERIC JONJAK'S employment with Bog Farm as of June 1, 2017, that portion being $962,000. We modify paragraph 2 of the QDRO to delete the sentence that rea"
+    }
+  ],
+  "full_text": "TEXAS COURT OF APPEALS, THIRD DISTRICT, AT AUSTIN\n\n JUDGMENT RENDERED APRIL 12, 2019\n\n NO. 03-18-00118-CV\n\n Eric Jonjak, Appellant\n\n v.\n\n Kathye Marlene Griffith, Appellee\n\n APPEAL FROM 98TH DISTRICT COURT OF TRAVIS COUNTY\n BEFORE JUSTICES GOODWIN, BAKER, AND SMITH\n MODIFIED AND, AS MODIFIED, AFFIRMED -- OPINION BY JUSTICE SMITH\n\nThis is an appeal from the judgment signed by the trial court on December 1, 2017. Having\n\nreviewed the record and the parties' arguments, the Court holds that there was no reversible error\n\nin the trial court's judgment but that there was error requiring correction. Therefore, the Court\n\nmodifies the trial court's judgment and qualified domestic relations order (QDRO). We modify\n\nthe trial court's judgment so that paragraph R-5 reads as follows: A portion of Eric Jonjak's\n\nretirement benefits in Bog Farm Profit Sharing 401k Acct. No. 803508-00000 arising out of\n\nERIC JONJAK'S employment with Bog Farm as of June 1, 2017, that portion being $962,000.\n\nWe modify paragraph 2 of the QDRO to delete the sentence that reads: [Griffith's] interest in\n\nthe Plan shall be adjusted for investment earnings and losses allocable thereto in accordance with\n the terms of the Plan thereafter. The Court affirms the judgment as modified. The appellant\n\nshall pay all costs relating to this appeal, both in this Court and in the court below.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

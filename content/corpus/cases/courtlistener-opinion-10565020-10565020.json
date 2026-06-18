@@ -1,0 +1,52 @@
+{
+  "document_id": "7817c521-3f1c-4acf-8c0e-7b196f7119be",
+  "slug": "courtlistener-opinion-10565020-10565020",
+  "title": "CourtListener opinion 10565020",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 1,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 1
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 10565020 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "as moot. The record reflects that there were four principal documents considered by the trial court in making its October 2021 nunc pro tunc determination: a February 15, 1996 letter to counsel; the April 17, 1996 divorce decree; and two August 16, 1996 Qualified Domestic Relations Orders. Both parties refer to the February 15, 1996 letter as the trial court's rendition. 1 Because both parties had the same surname at times relevant to this appeal, we will refer to them by their first names to avoid confusion. 2 During the interim, Gregory attempted to appeal from the trial court's interlocutory order, and we dismissed that appeal for"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "pellant Gregory Wayne Coon and Appellee Victoria Jacobs Coon (Thomas) 1 divorced in 1996. Twenty-five years later, in January 2021, Gregory filed a petition for enforcement of a portion of their divorce decree's property division, seeking 40% of Victoria's retirement benefits, and both parties moved for summary judgment. Victoria also filed a motion for judgment nunc pro tunc or to clarify. The trial court heard the motions at a consolidated hearing on October 21, 2021, and then granted Victoria's motion for judgment nunc pro tunc and awarded attorneys' fees to her. On June 1, 2023,2 the trial court entered a final judgment"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "The record reflects that there were four principal documents considered by the trial court in making its October 2021 nunc pro tunc determination: a February 15, 1996 letter to counsel; the April 17, 1996 divorce decree; and two August 16, 1996 Qualified Domestic Relations Orders. Both parties refer to the February 15, 1996 letter as the trial court's rendition. 1 Because both parties had the same surname at times relevant to this appeal, we will refer to them by their first names to avoid confusion. 2 During the interim, Gregory attempted to appeal from the trial court's interlocutory order, and we dismissed that appeal for"
+    },
+    {
+      "label": "valuation/division",
+      "quote": "n by Justice Birdwell MEMORANDUM OPINION Appellant Gregory Wayne Coon and Appellee Victoria Jacobs Coon (Thomas) 1 divorced in 1996. Twenty-five years later, in January 2021, Gregory filed a petition for enforcement of a portion of their divorce decree's property division, seeking 40% of Victoria's retirement benefits, and both parties moved for summary judgment. Victoria also filed a motion for judgment nunc pro tunc or to clarify. The trial court heard the motions at a consolidated hearing on October 21, 2021, and then granted Victoria's motion for judgment nunc pro tunc and awarded attorneys' fees to her. On June 1,"
+    }
+  ],
+  "full_text": "In the\n Court of Appeals\n Second Appellate District of Texas\n at Fort Worth\n ___________________________\n No. 02-23-00210-CV\n ___________________________\n\n GREGORY WAYNE COON, Appellant\n\n V.\n\nVICTORIA JACOBS COON (THOMAS), Appellee\n\n On Appeal from the 233rd District Court\n Tarrant County, Texas\n Trial Court No. 233-694810-21\n\n Before Sudderth, C.J.; Birdwell and Wallach, JJ.\n Memorandum Opinion by Justice Birdwell\n MEMORANDUM OPINION\n\n Appellant Gregory Wayne Coon and Appellee Victoria Jacobs Coon (Thomas) 1\n\ndivorced in 1996. Twenty-five years later, in January 2021, Gregory filed a petition for\n\nenforcement of a portion of their divorce decree's property division, seeking 40% of\n\nVictoria's retirement benefits, and both parties moved for summary judgment.\n\nVictoria also filed a motion for judgment nunc pro tunc or to clarify. The trial court\n\nheard the motions at a consolidated hearing on October 21, 2021, and then granted\n\nVictoria's motion for judgment nunc pro tunc and awarded attorneys' fees to her. On\n\nJune 1, 2023,2 the trial court entered a final judgment, denying the parties' summary-\n\njudgment motions and denying Gregory's petition for enforcement as moot.\n\n The record reflects that there were four principal documents considered by the\n\ntrial court in making its October 2021 nunc pro tunc determination: a February 15,\n\n1996 letter to counsel; the April 17, 1996 divorce decree; and two August 16, 1996\n\nQualified Domestic Relations Orders. Both parties refer to the February 15, 1996\n\nletter as the trial court's rendition.\n\n 1\n Because both parties had the same surname at times relevant to this appeal, we\nwill refer to them by their first names to avoid confusion.\n 2\n During the interim, Gregory attempted to appeal from the trial court's\ninterlocutory order, and we dismissed that appeal for want of jurisdiction. See Coon v.\nCoon, No. 02-21-00381-CV, 2022 WL 7232163, at *5 (Tex. App.—Fort Worth\nOct. 13, 2022, no pet.) (mem. op.).\n\n 2\n On March 1, 2024, the Supreme Court of Texas clarified the requirements for a\n\nletter to counsel to be considered a rendition. Baker v. Bizzle, 687 S.W.3d 285, 293\n\n(Tex. 2024). The court stated, in pertinent part,\n\n • \"[A] letter to counsel could constitute a pronouncement of judgment if the\n letter (1) uses language reflecting a present intent to render judgment,\n (2) provides sufficient detail to state the court's decision on the matters at issue,\n and (3) is filed with the clerk of court.\" Id. at 292 (emphasis added).\n\n • \"The form of writing is not important; the critical inquiries concern the court's\n use of language indicating a present intent to render a full, final, and complete\n decision and whether the court officially announced that decision publicly.\" Id. at 293\n (emphasis added).\n Because the contents of the record before us do not reflect that the\n\nFebruary 15, 1996 letter meets these requirements, 3 and because the parties and trial\n\ncourt did not have the benefit of Baker when the trial court granted the judgment\n\nnunc pro tunc, we reverse the trial court's judgment and remand the case for a new\n\nhearing.\n\n /s/ Wade Birdwell\n Wade Birdwell\n Justice\nDelivered: August 22, 2024\n\n 3\n The February 15, 1996 letter was addressed to counsel and is not file-marked,\nand a copy of the 1996 docket sheet was not included in the record. See Baker, 687\nS.W.3d at 293 (noting that, in Baker, in which the court held that an email did not\nconstitute a rendition of judgment because it was not announced publicly, there was\nno allegation that the trial court had delivered the email to the clerk of the court for\nfiling, entry, or inclusion in the public record or that it had taken any actions\nreasonably calculated to effectuate such delivery). In Baker, the court stated, \"To the\nextent some cases can be read as holding that a private communication can constitute\na rendition of judgment, we disapprove them.\" Id. at 294.\n\n 3",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

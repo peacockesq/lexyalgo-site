@@ -1,0 +1,48 @@
+{
+  "document_id": "5e8353d1-2a4d-45a8-b0c9-7733713ad16b",
+  "slug": "courtlistener-opinion-1509935-1509935",
+  "title": "CourtListener opinion 1509935",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 1,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1509935 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "ppeal are as follows. John F. Gormly, Jr. (plaintiff) and Linda R. Gormly (defendant) were divorced on June 2, 1995. Pursuant to the final judgment of divorce, the trial justice divided plaintiff's retirement benefits from Hasbro, Inc., by the issuance of a Qualified Domestic Relations Order (QDRO), which was entered as an order of the court on *1242 September 19"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "cided at this time. The facts insofar as pertinent to this appeal are as follows. John F. Gormly, Jr. (plaintiff) and Linda R. Gormly (defendant) were divorced on June 2, 1995. Pursuant to the final judgment of divorce, the trial justice divided plaintiff's retirement benefits from Hasbro, Inc., by the issuance of a Qualified Domestic Relations Order (QDRO), which was entered as an order of the court on *1242 September 19"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "as follows. John F. Gormly, Jr. (plaintiff) and Linda R. Gormly (defendant) were divorced on June 2, 1995. Pursuant to the final judgment of divorce, the trial justice divided plaintiff's retirement benefits from Hasbro, Inc., by the issuance of a Qualified Domestic Relations Order (QDRO), which was entered as an order of the court on *1242 September 19"
+    }
+  ],
+  "full_text": "760 A.2d 1241 (2000) \n John F. GORMLY, Jr. \nv. \nLinda R. GORMLY. \n No. 98-272-Appeal. \n Supreme Court of Rhode Island. \n November 1, 2000. \n Present: WEISBERGER, C.J., LEDERBERG, BOURCIER, FLANDERS, and GOLDBERG, JJ. \n Thomas H. Quinn, Jr., Warren, for Plaintiff. \n Fred L. Mason, Providence, Linda Gormly, for Defendant. \n \n OPINION \n PER CURIAM. \n This case came before the Court for oral argument on September 27, 2000, pursuant to an order that directed both parties to appear in order to show cause why the issues raised by this appeal should not be summarily decided. After hearing the arguments of counsel and examining the memoranda filed by the parties, we are of the opinion that cause has not been shown and that the issues raised by this appeal should be decided at this time. The facts insofar as pertinent to this appeal are as follows. \n John F. Gormly, Jr. (plaintiff) and Linda R. Gormly (defendant) were divorced on June 2, 1995. Pursuant to the final judgment of divorce, the trial justice divided plaintiff's retirement benefits from Hasbro, Inc., by the issuance of a Qualified Domestic Relations Order (QDRO), which was entered as an order of the court on *1242 September 19",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

@@ -1,0 +1,48 @@
+{
+  "document_id": "09eb0141-5fb1-4ed0-a497-dae9650f3dba",
+  "slug": "courtlistener-opinion-3143322-3143322",
+  "title": "CourtListener opinion 3143322",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 1,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3143322 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "Appellee. ) Judge, Presiding. _________________________________________________________________________________ JUSTICE O'MALLEY delivered the opinion of the court: In these consolidated appeals, petitioner, Thomas E. David, seeks review of two amended qualified domestic relations orders (QDROs) entered by the circuit court of Du Page County. The QDROs awarded a share of Thomas's pension benefits to respondent, Mary A. David. We dismiss case No. 2--04--1191 for lack of jurisdiction. In case No. 2--05--0088, we conclude that the amended QDROs were properly entered and we therefore affirm the judgment of the trial court. BACKGROUND On"
+    },
+    {
+      "label": "pension",
+      "quote": "Y delivered the opinion of the court: In these consolidated appeals, petitioner, Thomas E. David, seeks review of two amended qualified domestic relations orders (QDROs) entered by the circuit court of Du Page County. The QDROs awarded a share of Thomas's pension benefits to respondent, Mary A. David. We dismiss case No. 2--04--1191 for lack of jurisdiction. In case No. 2--05--0088, we conclude that the amended QDROs were properly entered and we therefore affirm the judgment of the trial court. BACKGROUND On February 18, 2003, the trial court entered a judgment dissolving the parties' marriage. Among the mari"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": ". ) Judge, Presiding. _________________________________________________________________________________ JUSTICE O'MALLEY delivered the opinion of the court: In these consolidated appeals, petitioner, Thomas E. David, seeks review of two amended qualified domestic relations orders (QDROs) entered by the circuit court of Du Page County. The QDROs awarded a share of Thomas's pension benefits to respondent, Mary A. David. We dismiss case No. 2--04--1191 for lack of jurisdiction. In case No. 2--05--0088, we conclude that the amended QDROs were properly entered and we therefore affirm the judgment of the trial court. BACKGROUND On"
+    }
+  ],
+  "full_text": "Nos. 2--04--1191 & 2--05--0088 cons. filed: 10/2/06\n______________________________________________________________________________\n\n IN THE\n\n APPELLATE COURT OF ILLINOIS\n\n SECOND DISTRICT\n______________________________________________________________________________\n\nIn re MARRIAGE OF ) Appeal from the Circuit Court\nTHOMAS E. DAVID, ) of Du Page County.\n )\n Petitioner and Counterrespondent- )\n Appellant, )\n )\nand ) No. 00--D--2702\n )\nMARY A. DAVID, )\n ) Honorable\n Respondent and Counterpetitioner- ) John W. Demling,\n Appellee. ) Judge, Presiding.\n_________________________________________________________________________________\n\n JUSTICE O'MALLEY delivered the opinion of the court:\n\n In these consolidated appeals, petitioner, Thomas E. David, seeks review of two amended\n\nqualified domestic relations orders (QDROs) entered by the circuit court of Du Page County. The\n\nQDROs awarded a share of Thomas's pension benefits to respondent, Mary A. David. We dismiss\n\ncase No. 2--04--1191 for lack of jurisdiction. In case No. 2--05--0088, we conclude that the\n\namended QDROs were properly entered and we therefore affirm the judgment of the trial court.\n\n BACKGROUND\n\n On February 18, 2003, the trial court entered a judgment dissolving the parties' marriage.\n\nAmong the marital property divided under the judgment were various retirement funds, including\n\nThomas's pensions with Commonwealth Edison Company (ComEd) and Exelon Corporation\n\n(Exelon). According to the judgment, the pensions were in \\payout status.\\\" Thomas was evidently a",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

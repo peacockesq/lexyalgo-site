@@ -1,0 +1,44 @@
+{
+  "document_id": "10a6fb37-6753-41d0-99b1-dc7cc0765771",
+  "slug": "courtlistener-opinion-2169651-2169651",
+  "title": "CourtListener opinion 2169651",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 2169651 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "l Responsibility has filed a petition for disciplinary action alleging that respondent Karl Matthew Ranum has committed professional misconduct warranting public discipline, namely, making a false statement to the court and to the Director, failing to draft a qualified domestic relations order in a timely manner, failing to file his state and federal personal income tax returns on time for the years 1993 through 1997, practicing law during a 7-month period in which he was on restricted status for failure to satisfy his Continuing Legal Education requirements, and misusing his trust account and failing to properly maintain the required trust accou"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "bility has filed a petition for disciplinary action alleging that respondent Karl Matthew Ranum has committed professional misconduct warranting public discipline, namely, making a false statement to the court and to the Director, failing to draft a qualified domestic relations order in a timely manner, failing to file his state and federal personal income tax returns on time for the years 1993 through 1997, practicing law during a 7-month period in which he was on restricted status for failure to satisfy his Continuing Legal Education requirements, and misusing his trust account and failing to properly maintain the required trust accou"
+    }
+  ],
+  "full_text": "611 N.W.2d 344 (2000) \n In re Petition for DISCIPLINARY ACTION AGAINST Karl Matthew RANUM, an Attorney at Law of the State of Minnesota. \n No. CX-00-351. \n Supreme Court of Minnesota. \n June 13, 2000. \n \n ORDER \n The Director of the Office of Lawyers Professional Responsibility has filed a petition for disciplinary action alleging that respondent Karl Matthew Ranum has committed professional misconduct warranting public discipline, namely, making a false statement to the court and to the Director, failing to draft a qualified domestic relations order in a timely manner, failing to file his state and federal personal income tax returns on time for the years 1993 through 1997, practicing law during a 7-month period in which he was on restricted status for failure to satisfy his Continuing Legal Education requirements, and misusing his trust account and failing to properly maintain the required trust account books and records, in violation of Rules 1.3, 1.15, 3.2, 3.3(a)(1), 4.1, 5.5(a), 8.1(a)(1), 8.4(c), and 8.4(d), Minnesota Rules of Professional Conduct, and Lawyers Professional Responsibility Board Opinion No. 9. \n Respondent admits his conduct violated the Rules of Professional Conduct, waives his rights pursuant to Rule 14, Rules on Lawyers Professional Responsibility (RLPR), and has entered into a stipulation with the Director wherein they jointly recommend that the appropriate discipline is a 3-month suspension followed by 2 years' unsupervised probation subject to the following conditions: \n (1) Respondent shall pass the professional responsibility portion of the state bar examination within one year of the date of this court's order; \n (2) The reinstatement hearing provided for in Rule 18, RLPR, is waived; \n (3) Respondent shall be required to file all outstanding state and federal tax returns for the calendar years 1993 through 1999 before submitting an affidavit requesting reinstatement; \n (4) Respondent shall comply with Rule 26, RLPR; \n (5) Respondent shall be reinstated to the practice of law following the expiration of his suspension provided that, no more than 15 days before the expiration of the suspension period, respondent files an affidavit with the Clerk of Appellate Courts and the Director's Office establishing that respondent has filed his outstanding tax returns, is current with Continuing Legal Education requirements, *345 has fully complied with Rules 24 and 26",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

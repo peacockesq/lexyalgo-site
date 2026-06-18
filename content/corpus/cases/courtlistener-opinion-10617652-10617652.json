@@ -1,0 +1,52 @@
+{
+  "document_id": "7a23645d-5c8f-498c-8cdb-ea3b4ca7ee4a",
+  "slug": "courtlistener-opinion-10617652-10617652",
+  "title": "CourtListener opinion 10617652",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "ERISA / defined contribution issues",
+  "signals": {
+    "QDRO": 13,
+    "retirement benefits": 2,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 1,
+    "alternate payee": 0,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 1
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 10617652 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to ERISA / defined contribution issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "habel, of Kennedy & Brannon, P.A., and W. Barry Bland, both of Spartanburg, for Appellant. Hattie Darlene Evans Boyce, of Spartanburg, for Respondent. SHORT, J.: Christopher M. Higgins (Husband) appeals the family court's decision to (1) order an amended Qualified Domestic Relations Order (QDRO) that would require him to pay an additional $61,196.16 to Paula E. Higgins (Wife) over what he already paid pursuant to a prior QDRO that had been signed by the parties and approved by the family court and (2) hold him responsible for any legal fees incurred in the preparation of the amended QDRO. On appeal, Husband argues the family court (1) shoul"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "nor child and the division of the parties' marital debts and property. Pursuant to the parties' agreement, Judge Bridges ordered the following regarding equitable distribution of the marital property: That [Wife] shall receive $182,500.00 from [Husband's] retirement account, and said amount shall constitute her entire equitable apportionment from his account. [Husband] shall retain any and all balances in his retirement/401k accounts over and above said $182,500.00 allocated to [Wife]. The division shall be done by way of a Qualified Domestic Relations Order (QDRO), with the parties each being responsible for 50% of the"
+    },
+    {
+      "label": "401(k)",
+      "quote": "ution of the marital property: That [Wife] shall receive $182,500.00 from [Husband's] retirement account, and said amount shall constitute her entire equitable apportionment from his account. [Husband] shall retain any and all balances in his retirement/401k accounts over and above said $182,500.00 allocated to [Wife]. The division shall be done by way of a Qualified Domestic Relations Order (QDRO), with the parties each being responsible for 50% of the legal costs associated with the preparation of said QDRO. On July 1, 2015, the parties appeared again before Judge Bridges on a motion filed by Wife for a"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "Kennedy & Brannon, P.A., and W. Barry Bland, both of Spartanburg, for Appellant. Hattie Darlene Evans Boyce, of Spartanburg, for Respondent. SHORT, J.: Christopher M. Higgins (Husband) appeals the family court's decision to (1) order an amended Qualified Domestic Relations Order (QDRO) that would require him to pay an additional $61,196.16 to Paula E. Higgins (Wife) over what he already paid pursuant to a prior QDRO that had been signed by the parties and approved by the family court and (2) hold him responsible for any legal fees incurred in the preparation of the amended QDRO. On appeal, Husband argues the family court (1) shoul"
+    }
+  ],
+  "full_text": "THIS OPINION HAS NO PRECEDENTIAL VALUE. IT SHOULD NOT BE\n CITED OR RELIED ON AS PRECEDENT IN ANY PROCEEDING\n EXCEPT AS PROVIDED BY RULE 268(d)(2), SCACR.\n\n THE STATE OF SOUTH CAROLINA\n In The Court of Appeals\n\n Paula E. Higgins, Respondent,\n\n v.\n\n Christopher M. Higgins, Appellant.\n\n In Re: Steven C. Higgins\n\n Appellate Case No. 2016-001265\n\n Appeal From Cherokee County\n Usha J. Bridges, Family Court Judge\n\n Opinion No. 2019-UP-216\n Submitted October 1, 2018 – Filed June 19, 2019\n\n AFFIRMED\n\n Kenneth Philip Shabel, of Kennedy & Brannon, P.A., and\n W. Barry Bland, both of Spartanburg, for Appellant.\n\n Hattie Darlene Evans Boyce, of Spartanburg, for\n Respondent.\n\nSHORT, J.: Christopher M. Higgins (Husband) appeals the family court's\ndecision to (1) order an amended Qualified Domestic Relations Order (QDRO) that\n would require him to pay an additional $61,196.16 to Paula E. Higgins (Wife) over\nwhat he already paid pursuant to a prior QDRO that had been signed by the parties\nand approved by the family court and (2) hold him responsible for any legal fees\nincurred in the preparation of the amended QDRO. On appeal, Husband argues the\nfamily court (1) should have continued the contempt proceeding that resulted in the\nissuance of the appealed order because of the absence of a subpoenaed witness and\n(2) erred in ruling on the matter without taking any testimony during the hearing.\nWe affirm.1\n\nFACTS AND PROCEDURAL HISTORY\n\nOn August 8, 2014, the parties appeared before Family Court Judge Usha J.\nBridges for a final divorce hearing. On September 16, 2014, Judge Bridges issued\nan order in which she granted Wife a divorce on the ground of a one-year\nseparation and approved an agreement between the parties regarding their minor\nchild and the division of the parties' marital debts and property.\n\nPursuant to the parties' agreement, Judge Bridges ordered the following regarding\nequitable distribution of the marital property:\n\n That [Wife] shall receive $182,500.00 from [Husband's]\n retirement account, and said amount shall constitute her\n entire equitable apportionment from his account.\n [Husband] shall retain any and all balances in his\n retirement/401k accounts over and above said\n $182,500.00 allocated to [Wife]. The division shall be\n done by way of a Qualified Domestic Relations Order\n (QDRO), with the parties each being responsible for 50%\n of the legal costs associated with the preparation of said\n QDRO.\n\nOn July 1, 2015, the parties appeared again before Judge Bridges on a motion filed\nby Wife for additional relief or a new trial. On July 24, 2015, the family court\nfiled an order in which Judge Bridges ruled (1) Husband would pay for the\npreparation of two QDROs to be drafted by Attorney Richard H. Rhodes, (2) one\nQDRO would grant Wife $182,500.00 from Husband's Timken Company Savings\nand Investment Plan, and (3) another QDRO would be prepared granting Wife fifty\n\n1\n We decide this case without oral argument pursuant to Rule 215, SCACR.\n percent of the balance as of July 29, 2013, of Husband's Timken-Latrobe-MPB\nTorrington Retirement Plan.\n\nOn December 1, 2015, Judge Bridges signed a QDRO prepared by Attorney\nRichard H. Rhodes in conjunction with the matter, and the QDRO was filed the\nfollowing day. This QDRO applied to the Timken Company Savings and\nInvestment Plan. Paragraph 7 of the QDRO stated, \\This Order assigns to [Wife]",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

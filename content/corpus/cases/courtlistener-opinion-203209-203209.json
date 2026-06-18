@@ -1,0 +1,48 @@
+{
+  "document_id": "1793f7b5-bda7-4edf-a117-6c7deeaa65af",
+  "slug": "courtlistener-opinion-203209-203209",
+  "title": "CourtListener opinion 203209",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 4,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 203209 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "e affirm, albeit for reasons different than those cited by the district court. I. FACTUAL BACKGROUND AND PRIOR PROCEEDINGS At the heart of this legal battle are the orders addressing Geiger's retirement accounts. Geiger claims that those orders are not Qualified Domestic Relations Orders (\\QDROs\\\")and are"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "United States Court of Appeals For the First Circuit No. 07-1208 DAVID R. GEIGER, Plaintiff, Appellant, v. FOLEY HOAG LLP RETIREMENT PLAN, ET AL., Defendants, Appellees. APPEAL FROM THE UNITED STATES DISTRICT COURT FOR THE DISTRICT OF MASSACHUSETTS [Hon. Rya W. Zobel, U.S. District Judge] Before Lipez, Circuit Judge, Cyr, Senior Circuit Judge, and Howard, Circuit Judge. David R. Geiger, pro se. Ann Wagner, with whom Frances M. Giordano and Rubin and Rudman, LLP were on brie"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "albeit for reasons different than those cited by the district court. I. FACTUAL BACKGROUND AND PRIOR PROCEEDINGS At the heart of this legal battle are the orders addressing Geiger's retirement accounts. Geiger claims that those orders are not Qualified Domestic Relations Orders (\\QDROs\\\")and are"
+    }
+  ],
+  "full_text": "United States Court of Appeals\n For the First Circuit\n\nNo. 07-1208\n\n DAVID R. GEIGER,\n\n Plaintiff, Appellant,\n\n v.\n\n FOLEY HOAG LLP RETIREMENT PLAN, ET AL.,\n\n Defendants, Appellees.\n\n APPEAL FROM THE UNITED STATES DISTRICT COURT\n\n FOR THE DISTRICT OF MASSACHUSETTS\n\n [Hon. Rya W. Zobel, U.S. District Judge]\n\n Before\n\n Lipez, Circuit Judge,\n\n Cyr, Senior Circuit Judge,\n\n and Howard, Circuit Judge.\n\n David R. Geiger, pro se.\n Ann Wagner, with whom Frances M. Giordano and Rubin and\nRudman, LLP were on brief, for appellee.\n\n March 27, 2008\n HOWARD, Circuit Judge. The genesis of this appeal is a\n\ncontentious Massachusetts divorce. As part of the distribution of\n\nmarital property, a state court judge assigned a portion of David\n\nGeiger's interest in three retirement plans to his (now ex) wife,\n\nKaren Leeds. In addition to exhausting his state court appeals of\n\nthe divorce order, Geiger filed suit in federal court against the\n\nretirement plans and their administrator,1 seeking to permanently\n\nenjoin the plans from transferring Geiger's interests to Leeds.\n\nAfter Leeds successfully moved to intervene in the suit, she filed\n\na motion to dismiss, which the district court granted pursuant to\n\nthe Rooker-Feldman doctrine. On appeal, Geiger contends that the\n\ndistrict court first erroneously allowed Leeds's intervention, and\n\nthen incorrectly granted the motion to dismiss. We affirm, albeit\n\nfor reasons different than those cited by the district court.\n\n I. FACTUAL BACKGROUND AND PRIOR PROCEEDINGS\n\n At the heart of this legal battle are the orders\n\naddressing Geiger's retirement accounts. Geiger claims that those\n\norders are not Qualified Domestic Relations Orders (\\QDROs\\\")and are",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

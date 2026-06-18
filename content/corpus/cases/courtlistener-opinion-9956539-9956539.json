@@ -1,0 +1,44 @@
+{
+  "document_id": "bcb5f889-8744-40d7-8951-8c983efaf539",
+  "slug": "courtlistener-opinion-9956539-9956539",
+  "title": "CourtListener opinion 9956539",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 1,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 9956539 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "pension",
+      "quote": "LE M. ALLEN by this Court. MARK EDWIN ALLEN IS FURTHER ORDERED, after the date of this Order and absent prior authorization by order of this Court, not to do any of the following: (a) merge military member's military retired pay with any other benefit, pension or other entitlement; (b) exercise a waiver of an equivalent amount of retirement pay having the effect of reducing military member's disposable retirement pay; and (c) otherwise take or forego any action if it would have the effect of reducing or limiting CHERELLE M. ALLEN's right to receive former 04-22-00677-CV spouse's full separate property sh"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "nduct additional fact-finding necessary to determine which federal statutory formula or formulas must be used to calculate appellant Mark Edwin Allen's retirement pay for the purposes of determining appellee Cherelle M. Allen's share; and (3) enter an amended domestic relations order that specifies and applies the mathematical formula(s) and other requirements mandated by Chapter 10 of the United States Code, including the requirement that appellant's retirement pay be calculated as of the date of the parties' divorce, to calculate both appellant's military retirement pay and appellee's post-divorce share of that pay. We AFFIRM the re"
+    }
+  ],
+  "full_text": "Fourth Court of Appeals\n San Antonio, Texas\n JUDGMENT\n No. 04-22-00677-CV\n\n Mark Edwin ALLEN,\n Appellant\n\n v.\n\n Cherelle M. ALLEN,\n Appellee\n\n From the 150th Judicial District Court, Bexar County, Texas\n Trial Court No. 2021-CI-16615\n Honorable Cynthia Marie Chapa, Judge Presiding\n\n BEFORE JUSTICE WATKINS, JUSTICE RODRIGUEZ, AND JUSTICE VALENZUELA\n\n In accordance with this court's opinion of this date, the trial court's July 27, 2022 Order\nDividing Military Retired Pay and Other Benefits is REVERSED as to the following paragraphs:\n\n IT IS FURTHER ORDERED that, with respect to any election regarding\n any benefits MARK EDWIN ALLEN may have from time to time after the date of\n this Order, military member will neither actively make any election nor forego\n making an available election if it would have the effect of reducing the amount that\n is equal to the percentage of MARK EDWIN ALLEN's military retired pay\n awarded to CHERELLE M. ALLEN by this Court.\n\n MARK EDWIN ALLEN IS FURTHER ORDERED, after the date of this\n Order and absent prior authorization by order of this Court, not to do any of the\n following:\n\n (a) merge military member's military retired pay with any other benefit,\n pension or other entitlement;\n\n (b) exercise a waiver of an equivalent amount of retirement pay having the\n effect of reducing military member's disposable retirement pay; and\n\n (c) otherwise take or forego any action if it would have the effect of\n reducing or limiting CHERELLE M. ALLEN's right to receive former\n 04-22-00677-CV\n\n spouse's full separate property share of military member's retired pay\n as ordered by this Court.\n\nWe REMAND the order to the trial court with instructions to delete the paragraphs identified\nabove.\n\n We further REVERSE the trial court's order as to the following paragraphs:\n\n IT IS ORDERED that CHERELLE M. ALLEN is awarded a percentage of\n the member's disposable military retired pay, to be computed by multiplying 50%\n times a fraction, the numerator of which is 280 months of marriage during the\n member's creditable military service, divided by the member's total number of\n months of creditable military service.\n\n IT IS FURTHER ORDERED that CHERELLE M. ALLEN is awarded a\n percentage of the member's disposable military retired pay, to be computed by\n multiplying 50 percent times a fraction, the numerator of which is the total number\n of Reserve retirement points earned during the period of the marriage (which is\n October 2, 1995 until April 27, 2022), divided by the member's total number of\n Reserve retirement points earned.\n\nWe REMAND those portions of the order to the trial court with instructions to: (1) delete the\nparagraphs identified above; (2) conduct additional fact-finding necessary to determine which\nfederal statutory formula or formulas must be used to calculate appellant Mark Edwin Allen's\nretirement pay for the purposes of determining appellee Cherelle M. Allen's share; and (3) enter\nan amended domestic relations order that specifies and applies the mathematical formula(s) and\nother requirements mandated by Chapter 10 of the United States Code, including the requirement\nthat appellant's retirement pay be calculated as of the date of the parties' divorce, to calculate both\nappellant's military retirement pay and appellee's post-divorce share of that pay.\n\n We AFFIRM the remainder of the trial court's order, including its award of Survivor\nBenefit Plan benefits to appellee.\n\n We ORDER the costs of this appeal to be paid by the parties who incurred them.\n\n SIGNED March 27, 2024.\n\n _____________________________\n Beth Watkins, Justice\n\n -2-",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

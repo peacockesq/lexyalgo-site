@@ -1,0 +1,44 @@
+{
+  "document_id": "c18afec9-4fa9-4157-83b2-e963a0fa0beb",
+  "slug": "courtlistener-opinion-1076169-1076169",
+  "title": "CourtListener opinion 1076169",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 0,
+    "pension": 1,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1076169 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "OF THE CITY OF DANVILLE William N. Alexander, II, Judge Robert P. Dwoskin for appellant. Stacey W. Moreau (Williams, Stilwell, Morrison, Williams and Light, on brief), for appellee. Glenn Wisdom (husband) appeals a qualified domestic relations order (QDRO), entered pursuant to Code § 20-107.3(K)(4), interpreting his divorce decree to create a property right in his military retirement pension in favor of Faith Wisdom (Hyler) (wife). Husband contends on appeal that 1) the QDRO effected a substantive change to the decree, which is barred by Rule 1:1 and 2) even if it wasn't a substantive change, 1 the tri"
+    },
+    {
+      "label": "pension",
+      "quote": "on, Williams and Light, on brief), for appellee. Glenn Wisdom (husband) appeals a qualified domestic relations order (QDRO), entered pursuant to Code § 20-107.3(K)(4), interpreting his divorce decree to create a property right in his military retirement pension in favor of Faith Wisdom (Hyler) (wife). Husband contends on appeal that 1) the QDRO effected a substantive change to the decree, which is barred by Rule 1:1 and 2) even if it wasn't a substantive change, 1 the trial court's interpretation of the decree is plainly wrong. Because we find that the QDRO was not a substantive change and the trial court's"
+    }
+  ],
+  "full_text": "COURT OF APPEALS OF VIRGINIA\n\nPresent: Judges Baker, Coleman and Overton\nArgued at Salem, Virginia\n\nGLENN EDWARD WISDOM\n MEMORANDUM OPINION * BY\nv. Record No. 0368-97-3 JUDGE NELSON T. OVERTON\n JANUARY 13, 1998\nFAITH WISDOM (HYLER)\n\n FROM THE CIRCUIT COURT OF THE CITY OF DANVILLE\n William N. Alexander, II, Judge\n Robert P. Dwoskin for appellant.\n\n Stacey W. Moreau (Williams, Stilwell,\n Morrison, Williams and Light, on brief), for\n appellee.\n\n Glenn Wisdom (husband) appeals a qualified domestic\n\nrelations order (QDRO), entered pursuant to Code\n\n§ 20-107.3(K)(4), interpreting his divorce decree to create a\n\nproperty right in his military retirement pension in favor of\n\nFaith Wisdom (Hyler) (wife). Husband contends on appeal that 1)\n\nthe QDRO effected a substantive change to the decree, which is\n\nbarred by Rule 1:1 and 2) even if it wasn't a substantive change,\n 1\nthe trial court's interpretation of the decree is plainly wrong.\n Because we find that the QDRO was not a substantive change and\n\nthe trial court's interpretation of the decree is supported by\n\n *\n Pursuant to Code § 17-116.010 this opinion is not\ndesignated for publication.\n 1\n Husband also included in the \\Questions Presented\\\" portion",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

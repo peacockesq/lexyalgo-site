@@ -1,0 +1,48 @@
+{
+  "document_id": "e54dd3a8-4b50-43c5-8fbf-64fc6c638673",
+  "slug": "courtlistener-opinion-1067569-1067569",
+  "title": "CourtListener opinion 1067569",
+  "citation": "Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 4,
+    "retirement benefits": 0,
+    "pension": 1,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1067569 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "Court in its Order of March 25, 2003? II. Did the Trial court err in finding the Husband [in] contempt of court for not paying the lump sum payment to the Wife [Margaret A. Goodwin] ordered to be paid by the Court Order dated March 25, 2003, because the Qualified Domestic Relations Order (QUADRO) required by said Order was not entered by the Court on or before June 20, 2003, or June 27, 2003? * Pursuant to Code § 17.1-413, this opinion is not designated for publication. Upon reviewing the record and briefs of the parties, we conclude that this appeal is without merit. Accordingly, we summarily affirm the decision of the trial court."
+    },
+    {
+      "label": "pension",
+      "quote": "entered its own written statement. It reads as follows: The Court, on June 20, 2003, entered an interim Order finding the Defendant, JAMES LEE MARTIN, in contempt of court for failing to pay to the Complainant a lump sum payment of $335,000 representing pension proceeds. In its interim Order, the 1 We deny appellee's motion to dismiss the appeal. -2- Court directed that the matter be further heard on June 27, 2003, permitting the Defendant to appear and attempt to purge the contempt or provide reason why the money had not been paid. Issues of post-judgment interest and attorneys fees were also reserved fo"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "ntempt of court. On appeal, husband presents two questions: I. Did the Trial court err in ruling on June 20 and June 27, 2003, that the Court Order of March 25, 2003 did not require the lump sum payment provided therein to be made pursuant to a Qualified Domestic Relations Order (QUADRO) which was ordered to be prepared for submission and approval by the Court in its Order of March 25, 2003? II. Did the Trial court err in finding the Husband [in] contempt of court for not paying the lump sum payment to the Wife [Margaret A. Goodwin] ordered to be paid by the Court Order dated March 25, 2003, because the Qualified Domestic Re"
+    }
+  ],
+  "full_text": "COURT OF APPEALS OF VIRGINIA\n\nPresent: Chief Judge Fitzpatrick, Judges Frank and Clements\n\nJAMES LEE MARTIN\n MEMORANDUM OPINION*\nv. Record No. 1886-03-4 PER CURIAM\n JANUARY 28, 2004\nMARGARET A. GOODWIN\n\n FROM THE CIRCUIT COURT OF FAIRFAX COUNTY\n Jonathan C. Thacher, Judge\n\n (Peter M. Baskin; Nicholas A. Balland; Law Offices of Pelton,\n Balland, Demsky, Baskin & O'Malie, on brief), for appellant.\n\n (Edward J. Walinsky; Shawna L. Stevens; Shoun, Bach & Walinsky,\n P.C., on brief), for appellee.\n\n James Lee Martin (husband) appeals the June 20 and 27, 2003 orders of the trial court\n\nfinding him in contempt of court. On appeal, husband presents two questions:\n\n I. Did the Trial court err in ruling on June 20 and June 27, 2003,\n that the Court Order of March 25, 2003 did not require the lump\n sum payment provided therein to be made pursuant to a Qualified\n Domestic Relations Order (QUADRO) which was ordered to be\n prepared for submission and approval by the Court in its Order of\n March 25, 2003?\n\n II. Did the Trial court err in finding the Husband [in] contempt of\n court for not paying the lump sum payment to the Wife [Margaret\n A. Goodwin] ordered to be paid by the Court Order dated March\n 25, 2003, because the Qualified Domestic Relations Order\n (QUADRO) required by said Order was not entered by the Court\n on or before June 20, 2003, or June 27, 2003?\n\n *\n Pursuant to Code § 17.1-413, this opinion is not designated for publication.\n Upon reviewing the record and briefs of the parties, we conclude that this appeal is without\n\nmerit. Accordingly, we summarily affirm the decision of the trial court. Rule 5A:27.1\n\n Background\n\n Following a hearing, the trial court, by order dated March 25, 2003, directed husband to\n\npay wife, within thirty days, $335,000 as a lump sum settlement. The court also directed\n\nhusband to \"prepare QRDO [sic] for approval & submission.\" Both parties signed the order\n\n\"Seen and Agreed.\"\n\n Husband did not pay wife the $335,000 as directed. Wife petitioned for, and the trial\n\ncourt entered, a rule to show cause why husband should not be held in contempt for failing to\n\npay. The court held a hearing on the rule on June 20, 2003, and entered an order that same day,\n\nfinding husband in contempt. Husband endorsed the order: \"Seen and objected to w/r/t finding\n\nof contempt & interpretation of 3/25/03 order.\" The court continued the matter for one week to\n\nenable husband to purge the contempt.\n\n The court held another hearing on June 27, 2003. In an order entered that same day, the\n\ncourt again held husband in contempt for failing to pay the $335,000 to wife. Both parties\n\nsigned this order \"Seen and Agreed.\"\n\n Husband noted an appeal to both the June 20 and 27, 2003 orders. In lieu of filing\n\ntranscripts of the March 25, June 20 and June 27, 2003 hearings, husband submitted a proposed\n\nwritten statement of facts. Wife filed objections to husband's proposed statement. The court\n\nrejected both the proposed statement and the objections, and entered its own written statement.\n\nIt reads as follows:\n\n The Court, on June 20, 2003, entered an interim Order\n finding the Defendant, JAMES LEE MARTIN, in contempt of\n court for failing to pay to the Complainant a lump sum payment of\n $335,000 representing pension proceeds. In its interim Order, the\n\n 1\n We deny appellee's motion to dismiss the appeal.\n -2-\n Court directed that the matter be further heard on June 27, 2003,\n permitting the Defendant to appear and attempt to purge the\n contempt or provide reason why the money had not been paid.\n Issues of post-judgment interest and attorneys fees were also\n reserved for June 27, 2003, with Defendant's counsel being\n permitted to present further argument.\n\n The facts are as they appear in the Court's Orders of March\n 25, 2003; March 28, 2003; June 10, 2003; June 20, 2003; and June\n 27, 2003.\n\n Analysis\n\n As a threshold matter, we hold that husband waived any objection to the June 27, 2003\n\norder by signing the order \"Seen and Agreed.\" A party should not be permitted to \"approbate\n\nand reprobate, by ascribing error to an act by the trial court that comported with [that party's]\n\nrepresentations.\" Asgari v. Asgari, 33 Va. App. 393, 403, 533 S.E.2d 643, 648 (2000). See also\n\nFisher v. Commonwealth, 236 Va. 403, 417, 374 S.E.2d 46, 54 (1988) (no litigant will be\n\npermitted to approbate and reprobate, that is, to invite error and then take advantage of the\n\nsituation created by his own wrong); Rule 5A:18. Therefore, in analyzing husband's questions\n\npresented, we consider only the June 20, 2003 order.\n\n Husband's questions presented are related. Both arguments are premised on the\n\nassumptions that the $335,000 payment would be made pursuant to a Qualified Domestic\n\nRelations Order (QDRO) and that the payment was not due until a QDRO was in place. Nothing\n\nin this record supports these assumptions. The March 25, 2003 order clearly states that the\n\n$335,000 payment is to be made \"[w]ithin 30 (thirty) days of this order.\" Payment of the\n\n$335,000 is not contingent upon any factor, including the entry of a QDRO. The language of the\n\norder is plain and straightforward. We cannot draw the assumptions husband urges.\n\n Accordingly, we find no error in the trial court's June 20, 2003 determination that\n\nhusband was in contempt of the March 25, 2003 order.\n\n Affirmed.\n\n -3-",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

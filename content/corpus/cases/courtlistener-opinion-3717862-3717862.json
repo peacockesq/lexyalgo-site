@@ -1,0 +1,48 @@
+{
+  "document_id": "12dd9f13-c5a0-499e-8377-06b90e4fc955",
+  "slug": "courtlistener-opinion-3717862-3717862",
+  "title": "CourtListener opinion 3717862",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 0,
+    "pension": 1,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3717862 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "ad been granted to Sharon, the trial court ordered Sharon to pay Harry $222.05 per month for ten years. In addition, the trial court found that Harry's pension plan was to be divided equally between Sharon and Harry. Such award was defined and documented by a Qualified Domestic Relations Order or QDRO. Finally, the trial court ordered that Harry pay spousal support to Sharon in the amount of $460.00 per week for a term of eight years. More than one year after the divorce, Harry retired from Ford Motor Company after serving the company for at least thirty years. After retiring Harry moved to Bradenton, Florida, where he currently lives. While in"
+    },
+    {
+      "label": "pension",
+      "quote": "d the marital home coupled with the outstanding mortgages to Sharon. To offset the equity in the home that had been granted to Sharon, the trial court ordered Sharon to pay Harry $222.05 per month for ten years. In addition, the trial court found that Harry's pension plan was to be divided equally between Sharon and Harry. Such award was defined and documented by a Qualified Domestic Relations Order or QDRO. Finally, the trial court ordered that Harry pay spousal support to Sharon in the amount of $460.00 per week for a term of eight years. More than one year after the divorce, Harry retired from Ford Motor Company af"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "anted to Sharon, the trial court ordered Sharon to pay Harry $222.05 per month for ten years. In addition, the trial court found that Harry's pension plan was to be divided equally between Sharon and Harry. Such award was defined and documented by a Qualified Domestic Relations Order or QDRO. Finally, the trial court ordered that Harry pay spousal support to Sharon in the amount of $460.00 per week for a term of eight years. More than one year after the divorce, Harry retired from Ford Motor Company after serving the company for at least thirty years. After retiring Harry moved to Bradenton, Florida, where he currently lives. While in"
+    }
+  ],
+  "full_text": "OPINION \nThis appeal is taken by Defendant-Appellant Harry C. Trotter from the judgment entered by the Court of Common Pleas of Allen County denying his motion to modify the spousal support previously awarded Plaintiff-Appellee Sharon Marie Trotter. \n On June 28, 1965 Sharon Trotter, Plaintiff-Appellee, and Harry Trotter, Defendant-Appellant, were married. During the marriage two children were born as issue and are presently emancipated. During the marriage Harry was employed by Ford Motor Company. He worked seven days a week and received an annual salary of approximately $90,000. Sharon spent most of the marriage raising their two children and rarely worked outside the home and presently has been diagnosed with a physical condition that does not allow her to work more than three hours a day three days a week. \n After 32 years of marriage the parties were divorced on August 13, 1997. The trial court awarded the marital home coupled with the outstanding mortgages to Sharon. To offset the equity in the home that had been granted to Sharon, the trial court ordered Sharon to pay Harry $222.05 per month for ten years. In addition, the trial court found that Harry's pension plan was to be divided equally between Sharon and Harry. Such award was defined and documented by a Qualified Domestic Relations Order or QDRO. Finally, the trial court ordered that Harry pay spousal support to Sharon in the amount of $460.00 per week for a term of eight years. \n More than one year after the divorce, Harry retired from Ford Motor Company after serving the company for at least thirty years. After retiring Harry moved to Bradenton, Florida, where he currently lives. While in Florida Harry works at \\Taylor Made\\\"",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

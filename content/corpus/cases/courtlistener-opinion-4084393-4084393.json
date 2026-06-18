@@ -1,0 +1,52 @@
+{
+  "document_id": "769fc6e8-024e-44a7-99aa-968968386dec",
+  "slug": "courtlistener-opinion-4084393-4084393",
+  "title": "CourtListener opinion 4084393",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 6,
+    "retirement benefits": 0,
+    "pension": 7,
+    "ERISA": 0,
+    "401(k)": 1,
+    "alternate payee": 1,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4084393 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "5, 2012. The order, among other things, distributed defendant's pension benefits. It is hereby ORDERED that the order so appealed from is unanimously affirmed without costs. Memorandum: In this postjudgment matrimonial proceeding, defendant appeals from a qualified domestic relations order (QDRO) that directed the New York State and Local Retirement System (retirement system) to pay his ex-wife her marital share of defendant's pension pursuant to the Majauskas formula (see Majauskas v Majauskas, 61 NY2d 481, 489-491). Although no appeal lies as of right from a QDRO (see Andress v Andress, 97 AD3d 1151, 1152; Cuda v Cuda [appeal No. 2], 19 AD3"
+    },
+    {
+      "label": "pension",
+      "quote": "ZIMMERMAN & TYO, ATTORNEYS, SHORTSVILLE (JOHN E. TYO OF COUNSEL), FOR PLAINTIFF-RESPONDENT. Appeal from an order of the Supreme Court, Ontario County (William F. Kocher, A.J.), entered January 25, 2012. The order, among other things, distributed defendant's pension benefits. It is hereby ORDERED that the order so appealed from is unanimously affirmed without costs. Memorandum: In this postjudgment matrimonial proceeding, defendant appeals from a qualified domestic relations order (QDRO) that directed the New York State and Local Retirement System (retirement system) to pay his ex-wife her marital share of defendan"
+    },
+    {
+      "label": "401(k)",
+      "quote": "me Court held in Jerry L.C. v Lucille H.C. [448 A2d 223, 226], ‘[s]ince each employment year is counted for pension purposes each contributes to the high salary years' \" (id. at 492). The cases relied upon by defendant are distinguishable because they involve defined contribution retirement plans (see Wegman v Wegman, 123 AD2d 220; Kammerer v Kammerer, 2001 NY Slip Op 40218[U]), whereas here defendant has a defined benefit plan. Defendant further contends, seemingly in the alternative, that the QDRO is inconsistent with the parties' stipulation, which he interprets as giving plaintiff a share of his pension as if he retired on the"
+    },
+    {
+      "label": "alternate payee",
+      "quote": "ncement of the divorce action. We reject that contention. As the Court of Appeals stated in Majauskas, where the pension participant made a similar argument, the fact that a participant's three highest years of earnings may occur after divorce does affect the alternate payee's marital share of the -2- 679 CA 12-00806 pension benefits, \"for as the Delaware Supreme Court held in Jerry L.C. v Lucille H.C. [448 A2d 223, 226], ‘[s]ince each employment year is counted for pension purposes each contributes to the high salary years' \" (id. at 492). The cases relied upon by defendant are distinguishable because they involve defined c"
+    }
+  ],
+  "full_text": "SUPREME COURT OF THE STATE OF NEW YORK\n Appellate Division, Fourth Judicial Department\n\n679\nCA 12-00806\nPRESENT: SMITH, J.P., PERADOTTO, LINDLEY, AND VALENTINO, JJ.\n\nDEIRDRE LOY, PLAINTIFF-RESPONDENT,\n\n V MEMORANDUM AND ORDER\n\nLOUIS L. LOY, DEFENDANT-APPELLANT.\n\nCHAMBERLAIN, D'AMANDA, OPPENHEIMER & GREENFIELD, LLP, ROCHESTER (JOHN\nA. SCHUPPENHAUER OF COUNSEL), FOR DEFENDANT-APPELLANT.\n\nZIMMERMAN & TYO, ATTORNEYS, SHORTSVILLE (JOHN E. TYO OF COUNSEL), FOR\nPLAINTIFF-RESPONDENT.\n\n Appeal from an order of the Supreme Court, Ontario County\n(William F. Kocher, A.J.), entered January 25, 2012. The order, among\nother things, distributed defendant's pension benefits.\n\n It is hereby ORDERED that the order so appealed from is\nunanimously affirmed without costs.\n\n Memorandum: In this postjudgment matrimonial proceeding,\ndefendant appeals from a qualified domestic relations order (QDRO)\nthat directed the New York State and Local Retirement System\n(retirement system) to pay his ex-wife her marital share of\ndefendant's pension pursuant to the Majauskas formula (see Majauskas v\nMajauskas, 61 NY2d 481, 489-491). Although no appeal lies as of right\nfrom a QDRO (see Andress v Andress, 97 AD3d 1151, 1152; Cuda v Cuda\n[appeal No. 2], 19 AD3d 1114, 1114), we nevertheless treat the notice\nof appeal as an application for leave to appeal and grant the\napplication (see Cuda, 19 AD3d at 1114).\n\n With respect to the merits, defendant contends that Supreme Court\nshould have ordered the retirement system to calculate his \"retirement\nallowance\" as being the \"hypothetical\" benefit he would have received\nbased on his years of service as of the date on which the divorce\naction was commenced, rather than as being the actual benefit he later\nreceived upon retirement. According to defendant, the QDRO entered by\nthe court improperly awards plaintiff a portion of his separate\nproperty, i.e., the increases in his \"retirement allowance\"\nattributable to step increases and promotional increases in his pay\nthat occurred after the date of commencement of the divorce action.\nWe reject that contention. As the Court of Appeals stated in\nMajauskas, where the pension participant made a similar argument, the\nfact that a participant's three highest years of earnings may occur\nafter divorce does affect the alternate payee's marital share of the\n -2- 679\n CA 12-00806\n\npension benefits, \"for as the Delaware Supreme Court held in Jerry\nL.C. v Lucille H.C. [448 A2d 223, 226], ‘[s]ince each employment year\nis counted for pension purposes each contributes to the high salary\nyears' \" (id. at 492). The cases relied upon by defendant are\ndistinguishable because they involve defined contribution retirement\nplans (see Wegman v Wegman, 123 AD2d 220; Kammerer v Kammerer, 2001 NY\nSlip Op 40218[U]), whereas here defendant has a defined benefit plan.\n\n Defendant further contends, seemingly in the alternative, that\nthe QDRO is inconsistent with the parties' stipulation, which he\ninterprets as giving plaintiff a share of his pension as if he retired\non the date of commencement of the divorce action. That contention is\nraised for the first time on appeal and thus is not properly before us\n(see Ciesinski v Town of Aurora, 202 AD2d 984, 985). In any event,\ndefendant's contention lacks merit. The stipulation makes no\nreference to a hypothetical retirement date; instead, it simply\nprovides that plaintiff's share of the pension will be determined\npursuant to the Majauskas formula, and that is what the QDRO\naccomplishes.\n\nEntered: July 19, 2013 Frances E. Cafarell\n Clerk of the Court",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "document_id": "a35caccd-9981-49fe-aa49-96cc00328cc8",
+  "slug": "courtlistener-opinion-4087981-4087981",
+  "title": "CourtListener opinion 4087981",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4087981 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "CONE OF COUNSEL), FOR PLAINTIFF-APPELLANT. SHARON ANSCOMBE OSGOOD, BUFFALO, FOR DEFENDANT-RESPONDENT. Appeal from an order of the Supreme Court, Erie County (Janice M. Rosa, J.), entered March 9, 2010, which granted defendant's motion to enter a stipulated qualified domestic relations order. It is hereby ORDERED that the order so appealed from is unanimously affirmed without costs. Memorandum: On this appeal by plaintiff from a qualified domestic relations order (QDRO), we note that no appeal lies as of right from such an order (see Irato v Irato, 288 AD2d 952). Nevertheless, inasmuch as plaintiff \"raised timely objections prior to the ent"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "UNSEL), FOR PLAINTIFF-APPELLANT. SHARON ANSCOMBE OSGOOD, BUFFALO, FOR DEFENDANT-RESPONDENT. Appeal from an order of the Supreme Court, Erie County (Janice M. Rosa, J.), entered March 9, 2010, which granted defendant's motion to enter a stipulated qualified domestic relations order. It is hereby ORDERED that the order so appealed from is unanimously affirmed without costs. Memorandum: On this appeal by plaintiff from a qualified domestic relations order (QDRO), we note that no appeal lies as of right from such an order (see Irato v Irato, 288 AD2d 952). Nevertheless, inasmuch as plaintiff \"raised timely objections prior to the ent"
+    }
+  ],
+  "full_text": "SUPREME COURT OF THE STATE OF NEW YORK\n Appellate Division, Fourth Judicial Department\n1502\nCA 10-01598\nPRESENT: CENTRA, J.P., LINDLEY, SCONIERS, GREEN, AND GORSKI, JJ.\n\nEDWARD A. PISKORZ, PLAINTIFF-APPELLANT,\n\n V MEMORANDUM AND ORDER\n\nMARILYN PISKORZ, DEFENDANT-RESPONDENT.\n\nZARCONE ASSOCIATES, PLLC, AMHERST (KELLY V. ZARCONE OF COUNSEL), FOR\nPLAINTIFF-APPELLANT.\n\nSHARON ANSCOMBE OSGOOD, BUFFALO, FOR DEFENDANT-RESPONDENT.\n\n Appeal from an order of the Supreme Court, Erie County (Janice M.\nRosa, J.), entered March 9, 2010, which granted defendant's motion to\nenter a stipulated qualified domestic relations order.\n\n It is hereby ORDERED that the order so appealed from is\nunanimously affirmed without costs.\n\n Memorandum: On this appeal by plaintiff from a qualified\ndomestic relations order (QDRO), we note that no appeal lies as of\nright from such an order (see Irato v Irato, 288 AD2d 952).\nNevertheless, inasmuch as plaintiff \"raised timely objections prior to\nthe entry of the QDRO and thereby preserved a record for our review,\"\nwe treat the notice of appeal as an application for leave to appeal\nand grant the application (id. at 952). Upon considering the merits\nof plaintiff's contention, we affirm the order.\n\nEntered: February 10, 2011 Patricia L. Morgan\n Clerk of the Court",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

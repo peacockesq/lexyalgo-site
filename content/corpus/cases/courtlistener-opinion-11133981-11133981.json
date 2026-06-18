@@ -1,0 +1,52 @@
+{
+  "document_id": "77788dd6-70d0-4419-9cb7-b318769fb5e8",
+  "slug": "courtlistener-opinion-11133981-11133981",
+  "title": "CourtListener opinion 11133981",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "ERISA / defined contribution issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 1,
+    "pension": 0,
+    "ERISA": 2,
+    "401(k)": 0,
+    "alternate payee": 1,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 11133981 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to ERISA / defined contribution issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "ted as the beneficiary of her father's ERISA plan. Id. at 8; Dkt. No. 20 at 12 20. The letter also informed Ms. Boyd that, as she was not \"a party to the divorce\" between her 13 father and his former wife, \"nor w[as she] named as an ‘alternate payee' in the QDRO [(qualified 14 domestic relations order)],\" she \"ha[d] no beneficial interest in its terms or its administration by 15 the Plan.\" Dkt. No. 20 at 20. Yet Ms. Boyd waited until late June of this year to file suit. Dkt. No. 16 1. Subsequently, she did not respond to a July 1, 2025 order to show cause why her motion to 17 proceed in forma pauperis should n"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "that she discovered the 8 defendants' alleged violations in 2024 or earlier. Dkt. No. 19 at 7–8. If that were not enough, in 9 March 2025, counsel for Defendant Locals 302 and 612 International Union of Operating 10 Engineers-Construction Industry Employer Retirement Plan sent Ms. Boyd a letter informing her 11 that she was not designated as the beneficiary of her father's ERISA plan. Id. at 8; Dkt. No. 20 at 12 20. The letter also informed Ms. Boyd that, as she was not \"a party to the divorce\" between her 13 father and his former wife, \"nor w[as she] named as an ‘alternate payee' in the QDRO [(qualified 14 domestic rela"
+    },
+    {
+      "label": "ERISA",
+      "quote": "No. 21. None of the Defendants have yet appeared in this case or responded to the motion. Ms. 19 Boyd, who is proceeding in forma pauperis (\"IFP\"), Dkt. No. 12, requests that this Court 20 \"immediately enjoin Defendants from gagging or withholding\" her \"ERISA plan benefits and 21 Related accounts\" as well as \"compel the release of all withheld accounts and assets,\" Dkt. No. 21 22 at 1–2. 23 24 1 Federal Rule of Civil Procedure 65 empowers the court to issue a temporary restraining 2 order (\"TRO\"). Fed. R. Civ. P. 65(b). Like a preliminary injunction, a TRO is \"an extraordinary 3 remedy never awarded a"
+    },
+    {
+      "label": "alternate payee",
+      "quote": "that she was not designated as the beneficiary of her father's ERISA plan. Id. at 8; Dkt. No. 20 at 12 20. The letter also informed Ms. Boyd that, as she was not \"a party to the divorce\" between her 13 father and his former wife, \"nor w[as she] named as an ‘alternate payee' in the QDRO [(qualified 14 domestic relations order)],\" she \"ha[d] no beneficial interest in its terms or its administration by 15 the Plan.\" Dkt. No. 20 at 20. Yet Ms. Boyd waited until late June of this year to file suit. Dkt. No. 16 1. Subsequently, she did not respond to a July 1, 2025 order to show cause why her motion to 17 proceed in forma paup"
+    }
+  ],
+  "full_text": "1 \n2 \n3 \n4 \n\n5 \n6 \n7 \n UNITED STATES DISTRICT COURT \n8 \n WESTERN DISTRICT OF WASHINGTON \n AT SEATTLE \n9 \n10 \n BRITTNEY C. BOYD, CASE NO. 2:25-cv-01225-LK \n11 \n Plaintiff, ORDER DENYING EMERGENCY \n12 v. MOTION FOR TEMPORARY \n RESTRAINING ORDER \n13 INTERNATIONAL UNION OF \n OPERATING ENGINEERS LOCAL 701, \n14 et al., \n15 Defendants. \n16 \n\n This matter comes before the Court on pro se Plaintiff Brittney C. Boyd's Emergency \n17 \n Motion for Temporary Restraining Order pursuant to Federal Rule of Civil Procedure 65(b). Dkt. \n18 \n No. 21. None of the Defendants have yet appeared in this case or responded to the motion. Ms. \n19 \n Boyd, who is proceeding in forma pauperis (\"IFP\"), Dkt. No. 12, requests that this Court \n20 \n \"immediately enjoin Defendants from gagging or withholding\" her \"ERISA plan benefits and \n21 \n Related accounts\" as well as \"compel the release of all withheld accounts and assets,\" Dkt. No. 21 \n22 \n at 1–2. \n23 \n24 \n1 Federal Rule of Civil Procedure 65 empowers the court to issue a temporary restraining \n2 order (\"TRO\"). Fed. R. Civ. P. 65(b). Like a preliminary injunction, a TRO is \"an extraordinary \n3 remedy never awarded as of right.\" Winter v. Nat. Res. Def. Council, Inc., 555 U.S. 7, 24 (2008); \n4 see also Washington v. Trump, 847 F.3d 1151, 1159 n.3 (9th Cir. 2017) (the standards applicable \n\n5 to TROs and preliminary injunctions are \"substantially identical\"). The Court will not \n6 \"mechanically\" grant an injunction for every violation of law. Weinberger v. Romero-Barcelo, 456 \n7 U.S. 305, 313 (1982). Instead, plaintiffs seeking a TRO must establish that (1) they are \"likely to \n8 succeed on the merits,\" (2) they are \"likely to suffer irreparable harm in the absence of preliminary \n9 relief,\" (3) \"the balance of equities tips in [their] favor,\" and (4) \"an injunction is in the public \n10 interest.\" Winter, 555 U.S. at 20. The mere \"possibility\" of irreparable harm is insufficient; instead, \n11 the moving party must \"demonstrate that irreparable injury is likely in the absence of an \n12 injunction.\" Id. at 22. \n13 A TRO \"is generally reserved for emergency situations in which a party may suffer \n14 immediate irreparable harm.\" Oracle Am., Inc. v. Myriad Group AG, No. C 10-05604 SBA, 2011 \n\n15 WL 13154031, at *1 (N.D. Cal. Dec. 1, 2011); see also Whirlpool Corp. v. Marshall, 445 U.S. 1, \n16 20 n.33 (1980) (noting that temporary restraining orders are used for \"emergency situations\"). A \n17 party's \"long delay before seeking a preliminary injunction implies a lack of urgency and \n18 irreparable harm.\" Oakland Tribune, Inc. v. Chronicle Pub. Co., 762 F.2d 1374, 1377 (9th Cir. \n19 1985). \n20 As a preliminary matter, Ms. Boyd's request for a TRO does not qualify for emergency \n21 treatment under Rule 65(b)(1) because she has not certified \"in writing any efforts made to give \n22 notice and the reasons why [notice] should not be required.\" Fed. R. Civ. P. 65(b)(1)(B). And \n23 \"[u]nless the requirements of Fed. R. Civ. P. 65(b) for issuance without notice are satisfied, the \n\n24 moving party must serve all motion papers on the opposing party, by electronic means if available, \n1 before or contemporaneously with the filing of the motion and include a certificate of service with \n2 the motion.\" LCR 65(b)(1). Ms. Boyd's failure to comply with Rule 65's notice requirement \n3 constitutes an independent basis for denial of her motion. \n4 Furthermore, as this Court has already held, Ms. Boyd's lengthy delay in filing suit and in \n\n5 seeking emergency relief demonstrates that emergency treatment is not appropriate here. Dkt. No. \n6 16 at 4 (\"[A]ny assertion of irreparable harm necessitating ‘emergency' relief is undercut by the \n7 amount of time Ms. Boyd waited to initiate proceedings.\"). She indicates that she discovered the \n8 defendants' alleged violations in 2024 or earlier. Dkt. No. 19 at 7–8. If that were not enough, in \n9 March 2025, counsel for Defendant Locals 302 and 612 International Union of Operating \n10 Engineers-Construction Industry Employer Retirement Plan sent Ms. Boyd a letter informing her \n11 that she was not designated as the beneficiary of her father's ERISA plan. Id. at 8; Dkt. No. 20 at \n12 20. The letter also informed Ms. Boyd that, as she was not \"a party to the divorce\" between her \n13 father and his former wife, \"nor w[as she] named as an ‘alternate payee' in the QDRO [(qualified \n14 domestic relations order)],\" she \"ha[d] no beneficial interest in its terms or its administration by \n\n15 the Plan.\" Dkt. No. 20 at 20. Yet Ms. Boyd waited until late June of this year to file suit. Dkt. No. \n16 1. Subsequently, she did not respond to a July 1, 2025 order to show cause why her motion to \n17 proceed in forma pauperis should not be denied until July 21, 2025. Dkt. Nos. 1, 5, 7. Ms. Boyd's \n18 motion for a TRO does not provide any justification for these delays. See generally Dkt. No. 21. \n19 While she alleges that she \"and her minor children are currently homeless and face irreparable \n20 harm,\" id. at 2, that conclusory assertion does not explain her delay or justify issuance of a TRO. \n21 See Garcia v. Google, Inc., 786 F.3d 733, 746 (9th Cir. 2015) (affirming denial of a preliminary \n22 injunction to plaintiff who had waited \"months\" after alleged infliction of harm to seek an \n23 injunction); Int'l Ass'n of Plumbing & Mech. Offs. v. Int'l Conf. of Bldg. Offs., 79 F.3d 1153 (9th \n\n24 \n1 Cir. 1996) (\"[T]he fact that [plaintiff] waited seven months before seeking injunctive relief \n2 undermines its claim of immediate threatened irreparable injury.\"). \n3 In light of Ms. Boyd's lengthy and unexplained delay, the Court finds that she has not \n4 demonstrated the existence of an emergency sufficient to justify a TRO. The Court accordingly \n\n5 DENIES her motion for a TRO. Dkt. No. 21. \n6 Dated this 4th day of September, 2025. \n7 A \n8 Lauren King \n United States District Judge \n9 \n10 \n11 \n12 \n13 \n14 \n15 \n16 \n17 \n18 \n19 \n20 \n21 \n22 \n23 \n\n24",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

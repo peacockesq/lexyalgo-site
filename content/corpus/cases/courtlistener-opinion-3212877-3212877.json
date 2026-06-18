@@ -1,0 +1,44 @@
+{
+  "document_id": "0c739ef5-0dae-4386-b7a3-b0bbf98a79b1",
+  "slug": "courtlistener-opinion-3212877-3212877",
+  "title": "CourtListener opinion 3212877",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 5,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3212877 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "Mr. Mallek, which would provide Mr. Mallek monthly payments guaranteed for 30 years and for the life of Mr. Mallek. The settlement agreement stated that the annuity payments were non-assignable. On June 6, 2008, a California state judge approved a stipulated Qualified Domestic Relations Order (\"QDRO\"), which was signed by Mr. Mallek and his former wife. Under the QDRO, Mr. Mallek assigned a portion of his monthly annuity payments to Ms. Mallek. On August 18, 2015, Mr. Mallek filed a complaint in the Court of Federal Claims alleging that DHS breached the settlement agreement by allowing the assignment of a portion of his monthly annuity payment."
+    },
+    {
+      "label": "domestic relations order",
+      "quote": ", which would provide Mr. Mallek monthly payments guaranteed for 30 years and for the life of Mr. Mallek. The settlement agreement stated that the annuity payments were non-assignable. On June 6, 2008, a California state judge approved a stipulated Qualified Domestic Relations Order (\"QDRO\"), which was signed by Mr. Mallek and his former wife. Under the QDRO, Mr. Mallek assigned a portion of his monthly annuity payments to Ms. Mallek. On August 18, 2015, Mr. Mallek filed a complaint in the Court of Federal Claims alleging that DHS breached the settlement agreement by allowing the assignment of a portion of his monthly annuity payment."
+    }
+  ],
+  "full_text": "NOTE: This disposition is nonprecedential.\n\n United States Court of Appeals\n for the Federal Circuit\n ______________________\n\n BARRY D. MALLEK,\n Plaintiff-Appellant\n\n v.\n\n UNITED STATES,\n Defendant-Appellee\n ______________________\n\n 2016-1568\n ______________________\n\n Appeal from the United States Court of Federal\nClaims in No. 1:15-cv-00890-JFM, Senior Judge James F.\nMerow.\n ______________________\n\n Decided: June 14, 2016\n ______________________\n\n BARRY D. MALLEK, Las Vegas, NV, pro se.\n\n SARAH CHOI, Commercial Litigation Branch, Civil Di-\nvision, United States Department of Justice, Washington,\nDC, for defendant-appellee. Also represented by\nBENJAMIN C. MIZER, ROBERT E. KIRSCHMAN, JR., REGINALD\nT. BLADES, JR.\n ______________________\n\n Before REYNA, HUGHES, and STOLL, Circuit Judges.\n 2 MALLEK v. US\n\nPER CURIAM.\n Barry Mallek appeals from a decision of the Court of\nFederal Claims dismissing his complaint as time-barred\nunder 28 U.S.C. § 2501. We affirm.\n BACKGROUND\n Mr. Mallek entered into a settlement agreement with\nthe Department of Homeland Security (\"DHS\") in 2006.\nPursuant to the settlement agreement, DHS purchased\nan annuity contract for Mr. Mallek, which would provide\nMr. Mallek monthly payments guaranteed for 30 years\nand for the life of Mr. Mallek. The settlement agreement\nstated that the annuity payments were non-assignable.\n On June 6, 2008, a California state judge approved a\nstipulated Qualified Domestic Relations Order (\"QDRO\"),\nwhich was signed by Mr. Mallek and his former wife.\nUnder the QDRO, Mr. Mallek assigned a portion of his\nmonthly annuity payments to Ms. Mallek. On August 18,\n2015, Mr. Mallek filed a complaint in the Court of Federal\nClaims alleging that DHS breached the settlement\nagreement by allowing the assignment of a portion of his\nmonthly annuity payment.\n The Court of Federal Claims dismissed Mr. Mallek's\ncomplaint for lack of jurisdiction, finding that\nMr. Mallek's complaint was filed outside of the six-year\nstatute of limitations set forth in 28 U.S.C. § 2501. Spe-\ncifically, the Court of Federal Claims found that\nMr. Mallek was aware of the alleged breach—the assign-\nment of his annuity payments—as of June 6, 2008, the\ndate the court entered the QDRO signed by Mr. Mallek.\nAs such, the Court of Federal Claims found that\nMr. Mallek's claim accrued on that date, yet his complaint\nwas filed more than seven years later.\n Mr. Mallek appeals, and we have jurisdiction pursu-\nant to 28 U.S.C. § 1295(a)(3).\n MALLEK v. US 3\n\n DISCUSSION\n We review de novo a dismissal by the Court of Federal\nClaims for lack of jurisdiction. FloorPro, Inc. v. United\nStates, 680 F.3d 1377, 1380 (Fed. Cir. 2012). \"Every claim\nof which the United States Court of Federal Claims has\njurisdiction shall be barred unless the petition thereon is\nfiled within six years after such claim first accrues.\"\n28 U.S.C. § 2501. \"This six-year limitations period is\njurisdictional and may not be waived or tolled.\" FloorPro,\n680 F.3d at 1380–81 (citing John R. Sand & Gravel Co. v.\nUnited States, 552 U.S. 130, 136–39 (2008)). A claim\nagainst the government generally accrues \"when all the\nevents which fix the government's alleged liability have\noccurred and the plaintiff was or should have been aware\nof their existence.\" Hopland Band of Pomo Indians v.\nUnited States, 855 F.2d 1573, 1577 (Fed. Cir. 1988).\n We agree with the Court of Federal Claims that\nMr. Mallek's claim accrued on June 6, 2008. The assign-\nment of Mr. Mallek's annuity to his former wife constitut-\ned the alleged breach. Mr. Mallek was aware of this\nassignment as of June 6, 2008, as evidenced by his signa-\nture on the QDRO. Mr. Mallek argues, however, that his\nclaim is not barred by § 2501 because, under the continu-\ning claim doctrine, DHS continues to breach the settle-\nment agreement every month that his annuity payment is\ndiverted to his former wife. We disagree.\n \"In order for the continuing claim doctrine to apply,\nthe plaintiff's claim must be inherently susceptible to\nbeing broken down into a series of independent and\ndistinct events or wrongs, each having its own associated\ndamages.\" Brown Park Estates–Fairfield Dev. Co. v.\nUnited States, 127 F.3d 1449, 1456 (Fed. Cir. 1997). In\nBrown, we explained that there was not a continuing\nclaim where \"plaintiffs really only pointed to one alleged\nwrong by the government, which accrued all at once at\none point in time, even though it may have had later\n 4 MALLEK v. US\n\nadverse effects.\" Id. at 1457. We further explained that\neven nonpayment of annuities was not a continuing claim,\nbut merely damages, if it resulted from a single alleged\nviolation by the government. Id. Similarly here, DHS's\nalleged breach is not continuing in nature, but was fixed\nwhen Mr. Mallek's annuity was assigned to his former\nwife.\n We therefore agree with the Court of Federal Claims\nthat Mr. Mallek's August 18, 2015 complaint, filed more\nthan seven years after his claim accrued on June 6, 2008,\nis time-barred under § 2501. We have considered\nMr. Mallek's remaining arguments and find them uncon-\nvincing. As such, we affirm the dismissal of Mr. Mallek's\ncomplaint for lack of jurisdiction.\n AFFIRMED\n COSTS\n No costs.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

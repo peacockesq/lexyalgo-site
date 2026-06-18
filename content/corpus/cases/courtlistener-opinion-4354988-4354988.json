@@ -1,0 +1,52 @@
+{
+  "document_id": "6e87a4c4-d604-45a9-834a-3a2abb7269b2",
+  "slug": "courtlistener-opinion-4354988-4354988",
+  "title": "CourtListener opinion 4354988",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 4,
+    "retirement benefits": 0,
+    "pension": 1,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 1
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4354988 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "decree and Robert cross-appealed. In re Marriage of Gerleman, No. 110,461, 2015 WL 1513967 (Kan. App. 2015) (unpublished opinion) (Gerleman I). The parties settled the issues, however, and jointly dismissed their appeals. 3 Later, Jeannette filed a proposed qualified domestic relations order (QDRO) dividing Robert's military retirement pay. A different district court judge than the one who presided over the divorce heard arguments about what language to use in the QDRO. Based on the summary of division of property, the district court filed a QDRO dividing military retirement pay stating: \\Amount of Payments to Former Spouse. The Former spouse"
+    },
+    {
+      "label": "pension",
+      "quote": "for divorce from Jeannette. In July 2013, the district court entered a divorce decree with an attached summary of division of property, which divided the parties' marital property in table format. In relevant part, it states: Item Husband Wife US Military Pension Divided at husband's retirement Divided at husband's retirement 5/9/13 (handwritten) based on military formula = # based on military formula = # years of marital service/total years of marital service/total months of military service months of military service TBD TBD Jeannette appealed the divorce decree and Robert cross-appealed. In re Marriage of G"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "Robert cross-appealed. In re Marriage of Gerleman, No. 110,461, 2015 WL 1513967 (Kan. App. 2015) (unpublished opinion) (Gerleman I). The parties settled the issues, however, and jointly dismissed their appeals. 3 Later, Jeannette filed a proposed qualified domestic relations order (QDRO) dividing Robert's military retirement pay. A different district court judge than the one who presided over the divorce heard arguments about what language to use in the QDRO. Based on the summary of division of property, the district court filed a QDRO dividing military retirement pay stating: \\Amount of Payments to Former Spouse. The Former spouse"
+    },
+    {
+      "label": "valuation/division",
+      "quote": "ision of Robert's military retirement pay. We remanded for the district court to determine how it understood the parties agreed to divide his military retirement pay. Now, Robert argues the district court erred when it found the parties intended to divide the marital portion of Robert's military retirement pay equally. Robert 2 on remand for the first time also argued the decree was void. Finally, Robert argues the district court erred when it determined the amount of maintenance he had to pay was not modifiable. We find the law of the case doctrine precludes Robert's arguments regarding whether the decree is void and find"
+    }
+  ],
+  "full_text": "No. 117,913\n\n IN THE COURT OF APPEALS OF THE STATE OF KANSAS\n\n In the Matter of the Marriage of\n ROBERT M. GERLEMAN,\n Appellant,\n\n and\n\n JEANNETTE M. GERLEMAN,\n Appellee.\n\n SYLLABUS BY THE COURT\n\n1.\n A judgment is void if the court that rendered it lacked jurisdiction of the parties, or\nif its actions resulted in a denial of due process.\n\n2.\n Since a judgment is either valid or void as a matter of law, appellate courts have\nunlimited review.\n\n3.\n The law of the case doctrine exists to avoid indefinite relitigation of the same\nissue, to obtain consistent results in the same litigation, to afford one opportunity for\nargument and decision of the matter at issue, and to assure the obedience of lower courts\nto the decisions of appellate courts.\n\n4.\n The law of the case doctrine applies both to issues a party raised and issues the\nparty could have, but did not, raise, in a prior proceeding.\n\n 1\n 5.\n All issues, including voidness, that could have been raised in a prior appeal will\nnot be considered in a later appeal.\n\n6.\n A district court cannot modify a matter if the matter was settled by an agreement\nincorporated in the decree unless the agreement allows modification or the parties\nconsent to modification.\n\n7.\n An agreement to pay maintenance that was not incorporated into the decree of\ndivorce is subject to modification.\n\n Appeal from Douglas District Court; JAMES R. MCCABRIA, judge. Opinion filed December 28,\n2018. Affirmed in part, reversed in part, and remanded with directions.\n\n Robert M. Gerleman, appellant pro se.\n\n Curtis G. Barnhill and Adina F. Morse, of Barnhill & Morse, P.A., of Lawrence, for appellee.\n\nBefore SCHROEDER, P.J., STANDRIDGE, J., and WALKER, S.J.\n\n SCHROEDER, J.: This contentious divorce action returns to our court following our\nremand in In re Marriage of Gerleman, No. 114,855, 2017 WL 66339 (Kan. App. 2017)\n(unpublished opinion) (Gerleman II). In Gerleman II, we found Robert and Jeannette\nGerleman's property settlement agreement incorporated into the divorce decree was\nambiguous on the division of Robert's military retirement pay. We remanded for the\ndistrict court to determine how it understood the parties agreed to divide his military\nretirement pay. Now, Robert argues the district court erred when it found the parties\nintended to divide the marital portion of Robert's military retirement pay equally. Robert\n\n 2\n on remand for the first time also argued the decree was void. Finally, Robert argues the\ndistrict court erred when it determined the amount of maintenance he had to pay was not\nmodifiable.\n\n We find the law of the case doctrine precludes Robert's arguments regarding\nwhether the decree is void and find substantial competent evidence supports the district\ncourt's finding the parties intended to divide Robert's military retirement pay equally.\nHowever, we find the amount of maintenance Robert owed to Jeannette was not a matter\nsettled by an agreement incorporated in the divorce decree and, as a result, maintenance\nwas modifiable. Thus, we affirm in part, reverse in part, and remand.\n\n Gerleman II sets forth in detail the tortuous history of this case. Because we find\nthe law of the case doctrine precludes Robert's voidness argument, we will only briefly\nsummarize the facts leading to our opinion in Gerleman II.\n\n In 2012, after 20 years of marriage, Robert petitioned for divorce from Jeannette.\nIn July 2013, the district court entered a divorce decree with an attached summary of\ndivision of property, which divided the parties' marital property in table format. In\nrelevant part, it states:\n\n Item Husband Wife\n US Military Pension Divided at husband's retirement Divided at husband's retirement\n 5/9/13 (handwritten) based on military formula = # based on military formula = #\n years of marital service/total years of marital service/total\n months of military service months of military service\n TBD TBD\n\n Jeannette appealed the divorce decree and Robert cross-appealed. In re Marriage\nof Gerleman, No. 110,461, 2015 WL 1513967 (Kan. App. 2015) (unpublished opinion)\n(Gerleman I). The parties settled the issues, however, and jointly dismissed their appeals.\n 3\n Later, Jeannette filed a proposed qualified domestic relations order (QDRO) dividing\nRobert's military retirement pay. A different district court judge than the one who\npresided over the divorce heard arguments about what language to use in the QDRO.\nBased on the summary of division of property, the district court filed a QDRO dividing\nmilitary retirement pay stating:\n\n \\Amount of Payments to Former Spouse. The Former spouse is awarded a",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

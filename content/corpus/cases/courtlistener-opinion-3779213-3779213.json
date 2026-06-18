@@ -1,0 +1,48 @@
+{
+  "document_id": "8a32ea6b-33a8-4f60-820a-96c1e312d4d5",
+  "slug": "courtlistener-opinion-3779213-3779213",
+  "title": "CourtListener opinion 3779213",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 5,
+    "retirement benefits": 2,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3779213 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "eal, we affirm. The parties were divorced on July 24, 1996, following a lengthy marriage. The divorce decree provided in pertinent part that: 3. The term of the parties' marriage is from October 22, 1977 through January 27, 1995, with the exception of the QDRO [qualified domestic relations order] for the defendant's retirement plan which shall be from October 22, 1977 through May 17, 1995. The decree divided appellee's benefits from his employment with Philip Morris in three separate paragraphs. These benefits were his deferred profit sharing plan, at issue here; his salaried employee's retirement plan, not at"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "following a lengthy marriage. The divorce decree provided in pertinent part that: 3. The term of the parties' marriage is from October 22, 1977 through January 27, 1995, with the exception of the QDRO [qualified domestic relations order] for the defendant's retirement plan which shall be from October 22, 1977 through May 17, 1995. The decree divided appellee's benefits from his employment with Philip Morris in three separate paragraphs. These benefits were his deferred profit sharing plan, at issue here; his salaried employee's retirement plan, not at issue here; and his restricted stock award program, not at issue here."
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "The parties were divorced on July 24, 1996, following a lengthy marriage. The divorce decree provided in pertinent part that: 3. The term of the parties' marriage is from October 22, 1977 through January 27, 1995, with the exception of the QDRO [qualified domestic relations order] for the defendant's retirement plan which shall be from October 22, 1977 through May 17, 1995. The decree divided appellee's benefits from his employment with Philip Morris in three separate paragraphs. These benefits were his deferred profit sharing plan, at issue here; his salaried employee's retirement plan, not at issue here; and his restricted stock"
+    }
+  ],
+  "full_text": "Plaintiff-appellant, Diane M. Peterson, appeals a decision of the Butler County Court of Common Pleas, Domestic Relations Division, ordering her to repay a sum erroneously overpaid to her pursuant to a division of defendant-appellee, Steven Peterson's, profit sharing plan. Because we have determined that the trial court complied with our mandate in a previous appeal, we affirm. \n The parties were divorced on July 24, 1996, following a lengthy marriage. The divorce decree provided in pertinent part that: \n 3. The term of the parties' marriage is from October 22, 1977 through January 27, 1995, with the exception of the QDRO [qualified domestic relations order] for the defendant's retirement plan which shall be from October 22, 1977 through May 17, 1995. \n The decree divided appellee's benefits from his employment with Philip Morris in three separate paragraphs. These benefits were his deferred profit sharing plan, at issue here; his salaried employee's retirement plan, not at issue here; and his restricted stock award program, not at issue here. \n The decree provided (consistent with the paragraph quoted above) that appellant had an interest in appellee's retirement \nplan, including any interest or dividend, which was accrued during October 22, 1977 through May 17, 1995. However, for the profit sharing plan, the trial court did not specify an effective date. The court did note that the profit sharing plan had a value of approximately $260,000 with loans against it of approximately $42,000. The decree then stated: \n [T]hat leaves $218,000.00 plus any interest and/or dividends which accrued during the term of the parties' marriage in the Profit Sharing Plan to be divided evenly between the parties and shall be divided immediately. \n The decree further provided that a qualified domestic relations order (\\QDRO\\\") should be issued for the profit sharing plan and that the court would retain jurisdiction in the event that there was a defect in the QDRO's wording which \\\"precluded the intended outcome.\\\"",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

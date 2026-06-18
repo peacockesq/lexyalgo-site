@@ -1,0 +1,48 @@
+{
+  "document_id": "0b2edff4-1d75-4578-88be-17698caf3e89",
+  "slug": "courtlistener-opinion-1652731-1652731",
+  "title": "CourtListener opinion 1652731",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 2,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1652731 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "Ireland, Carroll, Kelley, Tyler, for appellant. Paul Hoover, Paul D. Hoover & Associates, Texarkana, for appellee. Before CORNELIUS, C.J., and GRANT and ROSS, JJ. OPINION ROSS, Justice. Maurice McLaurin appeals from an order interpreting an agreed Qualified Domestic Relations Order dividing military retirement benefits with his former wife, Shirley. The relevant facts in this case are as follows. ♦ Maurice joined the Air Force in 1954. ♦ Maurice married Shirley in 1957. ♦ Maurice and Shirley divorced in 1982. He agreed to pay her $450.00 per month in contractual alimony until she remarried. At that time, the United States Suprem"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "l Hoover, Paul D. Hoover & Associates, Texarkana, for appellee. Before CORNELIUS, C.J., and GRANT and ROSS, JJ. OPINION ROSS, Justice. Maurice McLaurin appeals from an order interpreting an agreed Qualified Domestic Relations Order dividing military retirement benefits with his former wife, Shirley. The relevant facts in this case are as follows. ♦ Maurice joined the Air Force in 1954. ♦ Maurice married Shirley in 1957. ♦ Maurice and Shirley divorced in 1982. He agreed to pay her $450.00 per month in contractual alimony until she remarried. At that time, the United States Supreme Court had held that a spouse had no"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "arroll, Kelley, Tyler, for appellant. Paul Hoover, Paul D. Hoover & Associates, Texarkana, for appellee. Before CORNELIUS, C.J., and GRANT and ROSS, JJ. OPINION ROSS, Justice. Maurice McLaurin appeals from an order interpreting an agreed Qualified Domestic Relations Order dividing military retirement benefits with his former wife, Shirley. The relevant facts in this case are as follows. ♦ Maurice joined the Air Force in 1954. ♦ Maurice married Shirley in 1957. ♦ Maurice and Shirley divorced in 1982. He agreed to pay her $450.00 per month in contractual alimony until she remarried. At that time, the United States Suprem"
+    }
+  ],
+  "full_text": "968 S.W.2d 947 (1998) \n Maurice W. McLAURIN, Appellant, \nv. \nShirley Ann McLAURIN, Appellee. \n No. 06-97-00055-CV. \n Court of Appeals of Texas, Texarkana. \n Argued April 14, 1998. \n Decided May 21, 1998. \n Deborah J. Race, Ireland, Carroll, Kelley, Tyler, for appellant. \n Paul Hoover, Paul D. Hoover & Associates, Texarkana, for appellee. \n Before CORNELIUS, C.J., and GRANT and ROSS, JJ. \n \n OPINION \n ROSS, Justice. \n Maurice McLaurin appeals from an order interpreting an agreed Qualified Domestic Relations Order dividing military retirement benefits with his former wife, Shirley. The relevant facts in this case are as follows. \n ♦ Maurice joined the Air Force in 1954. \n ♦ Maurice married Shirley in 1957. \n ♦ Maurice and Shirley divorced in 1982. He agreed to pay her $450.00 per month in contractual alimony until she remarried. At that time, the United States Supreme Court had held that a spouse had no right to any portion of the other *948 spouse's military retirement benefits; Congress thereafter changed the law.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

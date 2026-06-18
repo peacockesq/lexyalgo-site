@@ -1,0 +1,40 @@
+{
+  "document_id": "a11eb427-8998-4419-90fd-180bc2da7ac8",
+  "slug": "courtlistener-opinion-3778343-3778343",
+  "title": "CourtListener opinion 3778343",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3778343 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "domestic relations order",
+      "quote": "OPINION Petitioner-appellant Laura Lyles appeals from the dismissal of her petition to register a foreign domestic relations order, and the denial of her subsequent motion to enforce and modify that order. We conclude that the trial court did not err in declining to exercise jurisdiction in this matter. Accordingly, the judgment of the trial court is Affirmed. I Laura Lyles and Kent Lyles are the parents of Kody Lee Lyles, whose date of birth is January 4, 1993. The parties were m"
+    }
+  ],
+  "full_text": "OPINION \nPetitioner-appellant Laura Lyles appeals from the dismissal of her petition to register a foreign domestic relations order, and the denial of her subsequent motion to enforce and modify that order. We conclude that the trial court did not err in declining to exercise jurisdiction in this matter. Accordingly, the judgment of the trial court is \n Affirmed. \n I \nLaura Lyles and Kent Lyles are the parents of Kody Lee Lyles, whose date of birth is January 4, 1993. The parties were married on June 18, 1998, in Idaho. During the marriage, the parties resided with Kody in Washington. The Lyles were divorced in December of 1998 by order of the Superior Court of Washington, Spokane County. The court granted custody of Kody to Ms. Lyles and ordered Mr. Lyles to pay child support in the amount of $300 per month. Immediately thereafter, Ms. Lyles and Kody moved to Montgomery County, Ohio. \n On October 20, 1999, Ms. Lyles filed a document entitled \\Petition to Register a Foreign Decree.\\\" She also filed a motion seeking to increase Mr. Lyles' child support obligation and to hold him in contempt for failure to pay certain medical bills incurred by Kody. On the same date",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

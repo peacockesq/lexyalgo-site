@@ -1,0 +1,40 @@
+{
+  "document_id": "4e0f62e7-c8be-448c-9133-43c874c9ceba",
+  "slug": "lon-clarke-ruckel-v-deborah-deniese-ruckel-2906468",
+  "title": "Lon Clarke Ruckel v. Deborah Deniese Ruckel",
+  "citation": "domestic relations order",
+  "source_url": "https://www.courtlistener.com/opinion/2906468/lon-clarke-ruckel-v-deborah-deniese-ruckel/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "2007-02-08",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: Lon Clarke Ruckel v. Deborah Deniese Ruckel is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "domestic relations order",
+      "quote": "LARKE RUCKEL, Appellant V. DEBORAH DENIESE RUCKEL, Appellee On Appeal from the 1-A District Court Jasper County, Texas Trial Cause No. 20971 MEMORANDUM OPINION Lon Clarke Ruckel appealed an order denying his motion to clarify a qualified domestic relations order and ordering him to pay attorney's fees to the opposing party, Deborah Deniese Ruckel Yates. The appeal was submitted without briefs because the appellant failed to file his brief by September 20, 2006, the due date on the final extension granted for filing a brief. See Tex. R. App. P. 38.6(a), (d). On January 11, 2007, we notified the parties that the"
+    }
+  ],
+  "full_text": "In The \n\n Court of Appeals \n\n Ninth District of Texas at Beaumont \n\n ____________________ \n\n NO. 09-06-033 CV \n\n ____________________ \n\n LON CLARKE RUCKEL, Appellant \n\n V. \n\n DEBORAH DENIESE RUCKEL, Appellee \n\n On Appeal from the 1-A District Court \n\n Jasper County, Texas \n\n Trial Cause No. 20971 \n\n MEMORANDUM OPINION \n\n Lon Clarke Ruckel appealed an order denying his motion to clarify a qualified \ndomestic relations order and ordering him to pay attorney's fees to the opposing party, \nDeborah Deniese Ruckel Yates. The appeal was submitted without briefs because the \nappellant failed to file his brief by September 20, 2006, the due date on the final extension \ngranted for filing a brief. See Tex. R. App. P. 38.6(a), (d). On January 11, 2007, we notified \nthe parties that the appeal would be advanced without oral argument. See Tex. R. App. P. \n39.9. In the absence of a brief assigning error, we dismiss the appeal for want of prosecution. \n See Tex. R. App. P. 38.8(a)(1). \n \n APPEAL DISMISSED. \n\n _______________________________ \n \n STEVE McKEITHEN \n \n Chief Justice \n\n Submitted on February 1, 2007 \n \n Opinion Delivered February 8, 2007 \n\n Before McKeithen, C.J., Kreger and Horton, JJ.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

@@ -1,0 +1,48 @@
+{
+  "document_id": "6c01d6d3-d9dc-497e-94a6-9a72b943af07",
+  "slug": "courtlistener-opinion-2765506-2765506",
+  "title": "CourtListener opinion 2765506",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 2,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 2765506 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "LISHED OPINION Respondent MELNICK, J. — Anthony Budziusl appeals from the trial court' s denial of his complaint to vacate an amendment to his dissolution decree with Leslie Miller. Budzius argues that the amended decree was invalid because it was not a qualified domestic relations order ( QDRO), and Budzius' s former attorney lacked authority to agree to the amended decree. We disagree and affirm the trial court. FACTS Budzius was married to Miller for approximately 10 years. During that time, Budzius worked as a police officer in Fife. He had a Law Enforcement Officers' and Fire Fighters' Retirement System ( LEOFF) Plan 22 retirem"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "disagree and affirm the trial court. FACTS Budzius was married to Miller for approximately 10 years. During that time, Budzius worked as a police officer in Fife. He had a Law Enforcement Officers' and Fire Fighters' Retirement System ( LEOFF) Plan 22 retirement plan with the state. Budzius and Miller divorced in November of 1992. The decree of dissolution, as originally drafted, provided that the value of the community interest in Budzius' s retirement account was 27,210, and \\ a Qualified Domestic Relations Order should issue"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "NION Respondent MELNICK, J. — Anthony Budziusl appeals from the trial court' s denial of his complaint to vacate an amendment to his dissolution decree with Leslie Miller. Budzius argues that the amended decree was invalid because it was not a qualified domestic relations order ( QDRO), and Budzius' s former attorney lacked authority to agree to the amended decree. We disagree and affirm the trial court. FACTS Budzius was married to Miller for approximately 10 years. During that time, Budzius worked as a police officer in Fife. He had a Law Enforcement Officers' and Fire Fighters' Retirement System ( LEOFF) Plan 22 retirem"
+    }
+  ],
+  "full_text": "FILED\n COURT OF APPEALS\n DIVISION If\n IN THE COURT OF APPEALS OF THE STATE OF WASHINGTON\n 20140E0 30 API 9: 48\n DIVISION II\n STATE OF WASHINGTON,\nANTHONY J. BUDZIUS and MONICA 45275-\nBUDZIUS, husband and wife,\n\n Appellants,\n\n v.\n\nLESLIE D. MILLER fka BUDZIUS, UNPUBLISHED OPINION\n\n Respondent\n\n MELNICK, J. — Anthony Budziusl appeals from the trial court' s denial of his complaint to\n\nvacate an amendment to his dissolution decree with Leslie Miller. Budzius argues that the\n\namended decree was invalid because it was not a qualified domestic relations order ( QDRO), and\n\nBudzius' s former attorney lacked authority to agree to the amended decree. We disagree and\n\naffirm the trial court.\n\n FACTS\n\n Budzius was married to Miller for approximately 10 years. During that time, Budzius\n\nworked as a police officer in Fife. He had a Law Enforcement Officers' and Fire Fighters'\n\nRetirement System ( LEOFF) Plan 22 retirement plan with the state.\n\n Budzius and Miller divorced in November of 1992. The decree of dissolution, as originally\n\ndrafted, provided that the value of the community interest in Budzius' s retirement account was\n 27,210, and \\ a Qualified Domestic Relations Order should issue",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

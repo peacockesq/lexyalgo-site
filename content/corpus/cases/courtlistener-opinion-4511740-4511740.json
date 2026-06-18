@@ -1,0 +1,44 @@
+{
+  "document_id": "fc66ff95-6119-479e-bb18-6ce04a87e120",
+  "slug": "courtlistener-opinion-4511740-4511740",
+  "title": "CourtListener opinion 4511740",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4511740 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "monthly child support and monthly cash medical support for K.R.C.; (2) an Order Clarifying Child Support Obligation, signed on July 23, 2019, ordering Schuch to pay $3,056.25 in child support arrears and $1,150.45 in medical support arrears; and (3) a Qualified Domestic Relations Order, signed on July 23, 2019, ordering that Schuch's monthly child support and monthly cash medical support be paid from the monthly annuity payment she receives. In addition, the supplemental clerk's record includes a Notice of Nonsuit of Party filed by Kelly Susekov. In that notice, Susekov stated she no longer desired to prosecute suit against Cooper. On"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "child support and monthly cash medical support for K.R.C.; (2) an Order Clarifying Child Support Obligation, signed on July 23, 2019, ordering Schuch to pay $3,056.25 in child support arrears and $1,150.45 in medical support arrears; and (3) a Qualified Domestic Relations Order, signed on July 23, 2019, ordering that Schuch's monthly child support and monthly cash medical support be paid from the monthly annuity payment she receives. In addition, the supplemental clerk's record includes a Notice of Nonsuit of Party filed by Kelly Susekov. In that notice, Susekov stated she no longer desired to prosecute suit against Cooper. On"
+    }
+  ],
+  "full_text": "Fourth Court of Appeals\n San Antonio, Texas\n February 27, 2020\n\n No. 04-19-00818-CV\n\n IN THE INTEREST OF K.R.C., A CHILD\n\n From the 2nd 25th Judicial District Court, Guadalupe County, Texas\n Trial Court No. 18-1390-CV-A\n Honorable Dulce Madrigal, Judge Presiding\n\n ORDER\n On November 18, 2019, appellant Jonathan Cooper filed a restricted appeal seeking to\nappeal \"judgments entered by the Honorable Judge in Trial Cause No. 18-1390-cv-A.\" The\nclerk's record includes three orders:\n\n (1) an Order in Suit Affecting the Parent-Child Relationship, signed on June 3,\n 2019, naming Kelly Susekov Sole Managing Conservator of K.R.C., naming\n Kasey E. Schuch Possessory Conservator of K.R.C., and ordering Schuch to pay\n monthly child support and monthly cash medical support for K.R.C.;\n\n (2) an Order Clarifying Child Support Obligation, signed on July 23, 2019,\n ordering Schuch to pay $3,056.25 in child support arrears and $1,150.45 in\n medical support arrears; and\n\n (3) a Qualified Domestic Relations Order, signed on July 23, 2019, ordering that\n Schuch's monthly child support and monthly cash medical support be paid from\n the monthly annuity payment she receives.\n\n In addition, the supplemental clerk's record includes a Notice of Nonsuit of Party filed by\nKelly Susekov. In that notice, Susekov stated she no longer desired to prosecute suit against\nCooper. On March 18, 2019, the trial court dismissed Susekov's case against appellant without\nprejudice.\n\n Standing is a component of subject-matter jurisdiction, and an appellant must have\nstanding to appeal a lower-court judgment. State v. Naylor, 466 S.W.3d 783, 787 (Tex. 2015).\n\"A party has standing to appeal when its interest has been prejudiced or adversely affected by the\ntrial court's judgment.\" Texas Comm'n on Envtl. Quality v. Bonser-Lain, 438 S.W.3d 887, 892\n(Tex. App.—Austin 2014, no pet.). Here, it does not appear that any of the orders entered in this\n case adversely affect appellant. Additionally, the trial court dismissed the case Susekov filed\nagainst appellant.\n\n We therefore ORDER appellant to file by March 30, 2020, a response showing cause\nwhy this appeal should not be dismissed for lack of jurisdiction for lack of standing. If appellant\nfails to satisfactorily respond within the time provided, the appeal will be dismissed. See TEX. R.\nAPP. P. 42.3(a), (c). If a supplemental clerk's record is required, appellant must ask the trial\ncourt clerk to prepare one and must notify the clerk of this court that such a request was made.\nAll deadlines in this matter are suspended until further order of the court.\n\n _________________________________\n Beth Watkins, Justice\n\n IN WITNESS WHEREOF, I have hereunto set my hand and affixed the seal of the said\ncourt on this 27th day of February, 2020.\n\n ___________________________________\n Michael A. Cruz,\n Clerk of Court",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

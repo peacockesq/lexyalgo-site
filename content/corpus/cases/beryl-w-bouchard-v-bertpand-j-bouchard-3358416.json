@@ -1,0 +1,48 @@
+{
+  "document_id": "b0697d6c-01c1-4aa4-8284-25ba30cee08a",
+  "slug": "beryl-w-bouchard-v-bertpand-j-bouchard-3358416",
+  "title": "Beryl W. Bouchard v. Bertpand J. Bouchard.",
+  "citation": "qualified domestic relations order",
+  "source_url": "https://www.courtlistener.com/opinion/3362881/bouchard-v-bouchard-no-fa98-0148381s-oct-24-2000/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "2000-10-24",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "ERISA / defined contribution issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 2,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: Beryl W. Bouchard v. Bertpand J. Bouchard. is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to ERISA / defined contribution issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "e found by the judgment of the court for pendente lite alimony of $5036, plus the post judgment alimony arrearage of $3900 for a total arrearage amount of $8936, plus $600 in additional attorney's fees for a total of $9536, which the court orders be made as a qualified domestic relations order of the defendant's 401k plan known as Eyelematic Manufacturing Company, Inc. 401k savings plan. The court orders said $9536 be transferred to the plaintiff for the past due amounts in addition to the fifty percent of said plan previously awarded. ___________________, J. Kocay, J."
+    },
+    {
+      "label": "401(k)",
+      "quote": "alimony of $5036, plus the post judgment alimony arrearage of $3900 for a total arrearage amount of $8936, plus $600 in additional attorney's fees for a total of $9536, which the court orders be made as a qualified domestic relations order of the defendant's 401k plan known as Eyelematic Manufacturing Company, Inc. 401k savings plan. The court orders said $9536 be transferred to the plaintiff for the past due amounts in addition to the fifty percent of said plan previously awarded. ___________________, J. Kocay, J."
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "the judgment of the court for pendente lite alimony of $5036, plus the post judgment alimony arrearage of $3900 for a total arrearage amount of $8936, plus $600 in additional attorney's fees for a total of $9536, which the court orders be made as a qualified domestic relations order of the defendant's 401k plan known as Eyelematic Manufacturing Company, Inc. 401k savings plan. The court orders said $9536 be transferred to the plaintiff for the past due amounts in addition to the fifty percent of said plan previously awarded. ___________________, J. Kocay, J."
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] MEMORANDUM OF DECISION \nThe court having heard the parties' motions, issues the following orders: \n The defendant's motion for reconsideration is granted. The court reopens the judgment as to the finding of earning capacity. The court finds that the defendant's earning capacity is in fact $1050, as an average weekly gross income. The court vacates the prior finding of $1200 per week. \n The court, after reviewing the award of $100 per week as alimony to the plaintiff, based on the revised finding of earning capacity, finds the $100 per week alimony award to be fair and equitable and declines to CT Page 13412 modify the alimony ordered payable by the defendant to plaintiff. \n The court, having heard the plaintiff's motion for contempt, finds that the defendant is in contempt of the court order for failure to pay court ordered alimony. The court finds the arrearage to be in the amount of $3900 as of the date of hearing and awards the plaintiff the sum of $600 as attorney's fees for post-judgment proceedings. \n The court further orders that the arrearage found by the judgment of the court for pendente lite alimony of $5036, plus the post judgment alimony arrearage of $3900 for a total arrearage amount of $8936, plus $600 in additional attorney's fees for a total of $9536, which the court orders be made as a qualified domestic relations order of the defendant's 401k plan known as Eyelematic Manufacturing Company, Inc. 401k savings plan. \n The court orders said $9536 be transferred to the plaintiff for the past due amounts in addition to the fifty percent of said plan previously awarded. \n ___________________, J. Kocay, J.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

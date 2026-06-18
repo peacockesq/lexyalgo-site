@@ -1,0 +1,44 @@
+{
+  "document_id": "bf6e9c06-4eee-4871-8519-1b499ccc2e36",
+  "slug": "courtlistener-opinion-4056802-4056802",
+  "title": "CourtListener opinion 4056802",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4056802 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "ppellant's request for a name change REVERSED and ordered severed and REMAND to the trial court to either grant the requested name change or state a reason in the decree for not doing so. We AFFIRM the remainder of the trial court's final divorce decree and qualified domestic relations order. We order that each party shall pay its costs by reason of this appeal. We further order this decision certified below for observance."
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "DGMENT The Fourteenth Court of Appeals BARBARA WHITE, Appellant NO. 14-14-00593-CV V. JAMES N. WHITE, JR. AND AUDREY R. GORHAM, Appellees ________________________________ This cause, an appeal from the trial court's final divorce decree and qualified domestic relations order signed April 22, 2014, was heard on the transcript of the record. We have inspected the record and find the trial court erred in denying appellant's requested name change without explanation. We therefore order the portion of the final divorce decree denying without explanation appellant's request for a name change REVERSED and ordered severed and REMAND to"
+    }
+  ],
+  "full_text": "October 8, 2015\n\n JUDGMENT\n\n The Fourteenth Court of Appeals\n BARBARA WHITE, Appellant\n\nNO. 14-14-00593-CV V.\n\n JAMES N. WHITE, JR. AND AUDREY R. GORHAM, Appellees\n ________________________________\n\n This cause, an appeal from the trial court's final divorce decree and qualified\ndomestic relations order signed April 22, 2014, was heard on the transcript of the\nrecord. We have inspected the record and find the trial court erred in denying\nappellant's requested name change without explanation. We therefore order the\nportion of the final divorce decree denying without explanation appellant's request\nfor a name change REVERSED and ordered severed and REMAND to the trial\ncourt to either grant the requested name change or state a reason in the decree for\nnot doing so.\n\n We AFFIRM the remainder of the trial court's final divorce decree and\nqualified domestic relations order.\n\n We order that each party shall pay its costs by reason of this appeal.\n\n We further order this decision certified below for observance.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

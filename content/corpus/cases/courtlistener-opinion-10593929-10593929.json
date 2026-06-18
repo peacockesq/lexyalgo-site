@@ -1,0 +1,52 @@
+{
+  "document_id": "adf50d55-61f0-4393-96a7-a6b890c17acd",
+  "slug": "courtlistener-opinion-10593929-10593929",
+  "title": "CourtListener opinion 10593929",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 3,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 2,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 10593929 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "decree divided the assets equally between the two parties, however, a subsequent Consent Order signed by both parties established a lump sum of money that husband owed wife. Once husband paid that lump sum, wife obtained a Qualified Domestic Relations Order (QDRO) for an additional share of one of the retirement accounts. Husband challenged that order pursuant to Rules 60(b)(4) and (5) of the South Carolina Rules of Civil Procedure. This Court reviews the Court of Appeals' decision regarding the efficacy of the QDRO. I. Facts On December 31, 2002, Joseph A. Marshall filed for a divorce from his long-time wife Car"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "6, 2015 – Filed June 3, 2015 REVERSED Leon Edward Green, of Leon E. Green, PC, of Aiken, for Petitioner. Gregory P. Harlow, of Harlow Law Offices, PA, of Aiken, for Respondent. PER CURIAM: The subject of this dispute is the distribution of husband's retirement accounts in a divorce proceeding. The final divorce decree divided the assets equally between the two parties, however, a subsequent Consent Order signed by both parties established a lump sum of money that husband owed wife. Once husband paid that lump sum, wife obtained a Qualified Domestic Relations Order (QDRO) for an additional share of one of the retirement a"
+    },
+    {
+      "label": "pension",
+      "quote": "g-time wife Carrie A. Marshall.1 On March 28, 2005, Family Court Judge Tunstall issued a Final Order terminating the marriage. The Final Order determined the division of husband's two retirement accounts. The parties agreed to equally divide husband's Bechtel Pension and 401(k) account. The parties disputed the value of the 401(k) account, but Judge Tunstall valued it at $445,000.00.2 At the time of the order, the Bechtel Pension was valued at $160,000.00. Additionally, the order states, \\the husband's savings and investment"
+    },
+    {
+      "label": "401(k)",
+      "quote": "Carrie A. Marshall.1 On March 28, 2005, Family Court Judge Tunstall issued a Final Order terminating the marriage. The Final Order determined the division of husband's two retirement accounts. The parties agreed to equally divide husband's Bechtel Pension and 401(k) account. The parties disputed the value of the 401(k) account, but Judge Tunstall valued it at $445,000.00.2 At the time of the order, the Bechtel Pension was valued at $160,000.00. Additionally, the order states, \\the husband's savings and investment"
+    }
+  ],
+  "full_text": "THIS OPINION HAS NO PRECEDENTIAL VALUE. IT SHOULD NOT BE\n CITED OR RELIED ON AS PRECEDENT IN ANY PROCEEDING\n EXCEPT AS PROVIDED BY RULE 268(d)(2), SCACR.\n\n THE STATE OF SOUTH CAROLINA\n In The Supreme Court\n\n Joseph A. Marshall, Petitioner,\n\n v.\n\n Carrie C. Marshall, Respondent.\n\n Appellate Case No. 2014-000864\n\n ON WRIT OF CERTIORARI TO THE COURT OF APPEALS\n\n Appeal From Aiken County\n The Honorable Dale Moore Gable, Family Court Judge\n\n Memorandum Opinion No. 2015-MO-030\n Heard May 6, 2015 – Filed June 3, 2015\n\n REVERSED\n\n Leon Edward Green, of Leon E. Green, PC, of Aiken, for\n Petitioner.\n\n Gregory P. Harlow, of Harlow Law Offices, PA, of\n Aiken, for Respondent.\n PER CURIAM: The subject of this dispute is the distribution of husband's\nretirement accounts in a divorce proceeding. The final divorce decree divided the\nassets equally between the two parties, however, a subsequent Consent Order\nsigned by both parties established a lump sum of money that husband owed wife.\nOnce husband paid that lump sum, wife obtained a Qualified Domestic Relations\nOrder (QDRO) for an additional share of one of the retirement accounts. Husband\nchallenged that order pursuant to Rules 60(b)(4) and (5) of the South Carolina\nRules of Civil Procedure. This Court reviews the Court of Appeals' decision\nregarding the efficacy of the QDRO.\n\n I. Facts\n On December 31, 2002, Joseph A. Marshall filed for a divorce from his\nlong-time wife Carrie A. Marshall.1 On March 28, 2005, Family Court Judge\nTunstall issued a Final Order terminating the marriage. The Final Order\ndetermined the division of husband's two retirement accounts. The parties agreed\nto equally divide husband's Bechtel Pension and 401(k) account. The parties\ndisputed the value of the 401(k) account, but Judge Tunstall valued it at\n$445,000.00.2 At the time of the order, the Bechtel Pension was valued at\n$160,000.00. Additionally, the order states, \\the husband's savings and investment",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

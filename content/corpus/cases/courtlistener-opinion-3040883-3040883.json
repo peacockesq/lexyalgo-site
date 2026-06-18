@@ -1,0 +1,48 @@
+{
+  "document_id": "09bf4a75-9f06-4b44-a4ed-401def149f46",
+  "slug": "courtlistener-opinion-3040883-3040883",
+  "title": "CourtListener opinion 3040883",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 1,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 3,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3040883 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "SMITH, Circuit Judges. ___________ PER CURIAM. Helen Davis appeals the district court's grant of summary judgment in favor of Alberici Corporation and Gary Davis, holding a domestic relations order entered in connection with the Davis's divorce was not a qualified domestic relations order (QDRO) as defined by 29 U.S.C. § 1056(d)(3)(D)(ii) of the Employee Retirement Income Security Act. The district court1 concluded the domestic relations order would require Alberici to pay Helen benefits in excess of the amount in Gary's retirement account. Therefore, it violated § 1056(d)(3)(D)(ii)'s prohibition against paying increased benefits and was no"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "United States Court of Appeals FOR THE EIGHTH CIRCUIT ___________ No. 06-1009 ___________ Alberici Corporation, as Plan * Administrator for Alberici Companies * Retirement Plan; * * Plaintiff - Appellee, * * Gary Davis, * Appeal from the United States * District Court for the Eastern Intervenor Plaintiff - * District of Missouri. Appellee, * * [UNPUBLISHED] v. * * Helen E. Davis, * * Defendant - Appellant. * ___________ Submitted: May 17, 2006 Filed: July 6, 2006 ___________ Before BYE, HANSEN, and SMITH, Circuit"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "Submitted: May 17, 2006 Filed: July 6, 2006 ___________ Before BYE, HANSEN, and SMITH, Circuit Judges. ___________ PER CURIAM. Helen Davis appeals the district court's grant of summary judgment in favor of Alberici Corporation and Gary Davis, holding a domestic relations order entered in connection with the Davis's divorce was not a qualified domestic relations order (QDRO) as defined by 29 U.S.C. § 1056(d)(3)(D)(ii) of the Employee Retirement Income Security Act. The district court1 concluded the domestic relations order would require Alberici to pay Helen benefits in excess of the amount in Gary's retirement account. Therefore"
+    }
+  ],
+  "full_text": "United States Court of Appeals\n FOR THE EIGHTH CIRCUIT\n ___________\n\n No. 06-1009\n ___________\n\nAlberici Corporation, as Plan *\nAdministrator for Alberici Companies *\nRetirement Plan; *\n *\n Plaintiff - Appellee, *\n *\nGary Davis, * Appeal from the United States\n * District Court for the Eastern\n Intervenor Plaintiff - * District of Missouri.\n Appellee, *\n * [UNPUBLISHED]\n v. *\n *\nHelen E. Davis, *\n *\n Defendant - Appellant. *\n ___________\n\n Submitted: May 17, 2006\n Filed: July 6, 2006\n ___________\n\nBefore BYE, HANSEN, and SMITH, Circuit Judges.\n ___________\n\nPER CURIAM.\n\n Helen Davis appeals the district court's grant of summary judgment in favor of\nAlberici Corporation and Gary Davis, holding a domestic relations order entered in\nconnection with the Davis's divorce was not a qualified domestic relations order\n(QDRO) as defined by 29 U.S.C. § 1056(d)(3)(D)(ii) of the Employee Retirement\n Income Security Act. The district court1 concluded the domestic relations order would\nrequire Alberici to pay Helen benefits in excess of the amount in Gary's retirement\naccount. Therefore, it violated § 1056(d)(3)(D)(ii)'s prohibition against paying\nincreased benefits and was not a QDRO. We agree. Because an extended discussion\nwould add nothing to the well-reasoned order of the district court, we affirm under 8th\nCir. R. 47B.\n ______________________________\n\n 1\n The Honorable Carol E. Jackson, United States District Judge for the Eastern\nDistrict of Missouri.\n\n -2-",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

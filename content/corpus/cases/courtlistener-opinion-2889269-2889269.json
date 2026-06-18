@@ -1,0 +1,44 @@
+{
+  "document_id": "f0f57a6d-3bb9-485f-b858-0019e9980ccb",
+  "slug": "courtlistener-opinion-2889269-2889269",
+  "title": "CourtListener opinion 2889269",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "ERISA / defined contribution issues",
+  "signals": {
+    "QDRO": 9,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 2,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 2889269 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to ERISA / defined contribution issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "at he pay Brenda Chance, formerly Brenda Brogdon, $55,664 plus $750 costs and bearing ten percent interest. By his points of error, Paul asserts the trial court erred as a matter of law (1) by substantively changing the terms of the 1986 divorce decree and QDRO (3) after it had lost plenary jurisdiction; (2) by substantively changing the express terms of the 1986 divorce decree and QDRO to re-allocate his savings plan benefits contrary to Texas law; (3) in substantively changing the terms of the decree because such change was barred by res judicata; (4) by giving retroactive effect to its clarification order;"
+    },
+    {
+      "label": "ERISA",
+      "quote": "s: (7) in awarding Brenda a proportionate part of his first distribution from his savings plan because the 1986 decree, QDRO, and May 17, 2002 findings awarded said distribution exclusively to him as his separate property; and (8) in its calculations under ERISA (4) requiring a suggestion of remittitur or a reversal and remand for proper recalculation. By his ninth point, Paul requests that if this Court remands the matter to the trial court for recalculation, it do so with additional instructions in light of the uncertainty of the actuarial assumptions being employed in the deposition evidence of non-attorneys"
+    }
+  ],
+  "full_text": "NO. 07-02-0421-CV \n\n IN THE COURT OF APPEALS \n\n FOR THE SEVENTH DISTRICT OF TEXAS \n\n AT AMARILLO \n\n PANEL E \n\n MARCH 25, 2003 \n\n ______________________________ \n\n IN THE MATTER OF THE MARRIAGE OF \n\n PAUL N. BROGDON AND BRENDA BROGDON \n\n _________________________________ \n\n FROM THE 317TH DISTRICT COURT OF JEFFERSON COUNTY; \n\n NO. C-128,685; HONORABLE LARRY THORNE, JUDGE \n\n _______________________________ \n\n Before QUINN and REAVIS, JJ. and BOYD, S.J. (1) \n \n MEMORANDUM OPINION (2) \n\n Appellant Paul N. Brogdon presents nine points of error seeking to reverse a \njudgment that he pay Brenda Chance, formerly Brenda Brogdon, $55,664 plus $750 costs \nand bearing ten percent interest. By his points of error, Paul asserts the trial court erred as \na matter of law (1) by substantively changing the terms of the 1986 divorce decree and \nQDRO (3) after it had lost plenary jurisdiction; (2) by substantively changing the express \nterms of the 1986 divorce decree and QDRO to re-allocate his savings plan benefits \ncontrary to Texas law; (3) in substantively changing the terms of the decree because such \nchange was barred by res judicata; (4) by giving retroactive effect to its clarification order; \n(5) by assessing interest in its September 4, 2002 order at ten percent requiring a remittitur \nand reformation of judgment if merited; (6) by reducing an enforceable QDRO to a money \njudgment without additional service of process: (7) in awarding Brenda a proportionate part \nof his first distribution from his savings plan because the 1986 decree, QDRO, and May \n17, 2002 findings awarded said distribution exclusively to him as his separate property; and \n(8) in its calculations under ERISA (4) requiring a suggestion of remittitur or a reversal and \nremand for proper recalculation. By his ninth point, Paul requests that if this Court \nremands the matter to the trial court for recalculation, it do so with additional instructions \nin light of the uncertainty of the actuarial assumptions being employed in the deposition \nevidence of non-attorneys being embraced by the trial court. Based upon the rationale \nexpressed herein, we affirm the judgment signed September 4, 2002. \n \n Brenda and Paul were divorced in 1986 and their decree contained a QDRO which, \namong other provisions, awarded Brenda one-half of the interest in Paul's Chevron Profit \nSharing/Savings Plan. Several months after the divorce, Chevron's attorneys informed \nBrenda's attorney that in order for the decree to qualify as a QDRO, both parties and their \nattorneys needed to sign an agreement letter. By letter dated December 15, 1986, to \nPaul's attorney, Brenda's attorney requested Paul's signature and indicated that as soon \nas he signed, Brenda would also sign and the letter would be returned to Chevron's \nattorneys. A second letter requesting Paul's signature was again sent on January 28, \n1987. The letter, however, remained unsigned. Brenda testified that she believed she was \nnot eligible to receive her share of the savings plan until Paul reached retirement age; thus, \nshe took no further action until she sought new counsel in 1999 in response to a letter from \nChevron explaining that the agreement letter had not been signed and that because Paul \nhad made withdrawals from the plan, the funds were insufficient to cover her share. (5) \nBrenda's new attorney wrote Paul's attorney again requesting that he sign the agreement \nletter within seven days, threatening legal action if he failed to do so. Paul did not comply \nand Brenda moved to enforce the judgment. On January 19, 2000, the trial court signed \nan order compelling Paul to sign. After Brenda's motion was amended a third time, the trial \ncourt heard evidence and on September 4, 2002, signed a money judgment awarding her \n$55,664 (6) plus costs and interest at the rate of ten percent annually. A week later the trial \ncourt signed a QDRO containing a notice to Chevron's Plan Administrator that the QDRO \nwas not an agreement between the parties, but was in fact an order of the court that did \nnot require the parties' signatures. \n \n Before we address the issues, we first review portions of record applicable to most, \nif not all, of Paul's issues. At the hearing on May 17, 2002, the trial court heard Brenda's \nthird amended motion to enforce judgment, at which Brenda and Paul both appeared and \ntestified. At that time, Paul's pleadings included a general denial, a specific denial that the \nQDRO is an instrument of the Court or that it needs to be modified, and a prayer for \ngeneral relief and attorney's fees. His pleadings, however, did not raise any affirmative \ndefenses, i.e. preemption of state law by ERISA, res judicata, or a plea to the jurisdiction \nof the court. Before announcing ready, counsel for Brenda outlined her position. Then, \ncounsel for Paul advised the court: \n \n 1. The history stated by Brenda's attorney was substantially correct; \n \n 2. Acknowledge no real fact disputes; \n \n 3. Paul made withdrawals under the erroneous assumption that Chevron \nhad sent him only his portion of the money; and \n \n 4. Paul \\obviously got some money that this lady was entitled to.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

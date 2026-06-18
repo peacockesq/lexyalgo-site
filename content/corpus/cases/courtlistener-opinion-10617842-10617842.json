@@ -1,0 +1,52 @@
+{
+  "document_id": "12b474a6-d71f-476a-b05f-fb7238d1e775",
+  "slug": "courtlistener-opinion-10617842-10617842",
+  "title": "CourtListener opinion 10617842",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "ERISA / defined contribution issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 1,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 1
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 10617842 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to ERISA / defined contribution issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "Husband $3,000 per month in permanent periodic alimony and divided the marital estate, awarding Wife sixty percent and Husband the remaining forty percent. As such, the family court ordered Wife to pay $206,703 of her Sonoco 401(K) plan to Husband by way of a qualified domestic relations order (QDRO). In addition, the family court ordered Wife to contribute $5,000 toward Husband's attorney's fees and costs. Wife filed a motion to reconsider on August 10, 2016. The family court denied Wife's motion in an order filed September 23, 2016. This appeal followed. STANDARD OF REVIEW \\[T]he proper standard of review in family court matters is de novo.\\\""
+    },
+    {
+      "label": "401(k)",
+      "quote": "paration. The family court awarded Husband $3,000 per month in permanent periodic alimony and divided the marital estate, awarding Wife sixty percent and Husband the remaining forty percent. As such, the family court ordered Wife to pay $206,703 of her Sonoco 401(K) plan to Husband by way of a qualified domestic relations order (QDRO). In addition, the family court ordered Wife to contribute $5,000 toward Husband's attorney's fees and costs. Wife filed a motion to reconsider on August 10, 2016. The family court denied Wife's motion in an order filed September 23, 2016. This appeal followed. STANDARD OF REVIEW \\[T]he p"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": ",000 per month in permanent periodic alimony and divided the marital estate, awarding Wife sixty percent and Husband the remaining forty percent. As such, the family court ordered Wife to pay $206,703 of her Sonoco 401(K) plan to Husband by way of a qualified domestic relations order (QDRO). In addition, the family court ordered Wife to contribute $5,000 toward Husband's attorney's fees and costs. Wife filed a motion to reconsider on August 10, 2016. The family court denied Wife's motion in an order filed September 23, 2016. This appeal followed. STANDARD OF REVIEW \\[T]he proper standard of review in family court matters is de novo.\\\""
+    },
+    {
+      "label": "valuation/division",
+      "quote": ", of Florence, and Marian Dawn Nettles, of Nettles Turbeville & Reddeck, of Lake City, for Respondent. LOCKEMY, C.J.: Alicia M. Rudick (Wife) appeals a family court order claiming the family court improperly valued several marital assets and therefore, the equitable distribution award to Brian R. Rudick (Husband) is incorrect. In addition, Wife argues the family court erred in awarding Husband $3,000 per month in permanent periodic alimony and this court should reverse the award of attorney's fees to Husband. We affirm in part and reverse in part. FACTS Husband and Wife married in 1999 and have three minor children together. Throu"
+    }
+  ],
+  "full_text": "THIS OPINION HAS NO PRECEDENTIAL VALUE. IT SHOULD NOT BE\n CITED OR RELIED ON AS PRECEDENT IN ANY PROCEEDING\n EXCEPT AS PROVIDED BY RULE 268(d)(2), SCACR.\n\n THE STATE OF SOUTH CAROLINA\n In The Court of Appeals\n\n Alicia M. Rudick, Appellant,\n\n v.\n\n Brian R. Rudick, Respondent.\n\n Appellate Case No. 2016-002169\n\n Appeal From Darlington County\n Cely Anne Brigman, Family Court Judge\n\n Unpublished Opinion No. 2019-UP-306\n Heard June 6, 2019 – Filed August 21, 2019\n Withdrawn, Substituted and Refiled December 18, 2019\n\n AFFIRMED IN PART AND REVERSED IN PART\n\n Karl Huggins Smith, of Smith Watts & Associates, LLC,\n of Hartsville, and Gregory Samuel Forman, of Gregory S.\n Forman, PC, of Charleston, for Appellant.\n\n Kevin Mitchell Barth, of Barth, Ballenger & Lewis, LLP,\n of Florence, and Marian Dawn Nettles, of Nettles\n Turbeville & Reddeck, of Lake City, for Respondent.\n LOCKEMY, C.J.: Alicia M. Rudick (Wife) appeals a family court order claiming\nthe family court improperly valued several marital assets and therefore, the\nequitable distribution award to Brian R. Rudick (Husband) is incorrect. In\naddition, Wife argues the family court erred in awarding Husband $3,000 per\nmonth in permanent periodic alimony and this court should reverse the award of\nattorney's fees to Husband. We affirm in part and reverse in part.\n\nFACTS\nHusband and Wife married in 1999 and have three minor children together.\nThroughout the marriage, Wife was employed by Sonoco Products and Husband\nwas employed as a law enforcement officer. Wife's income drastically increased\nduring the marriage, while Husband's income remained essentially the same.\nThe parties separated on April 6, 2015, and Wife filed for divorce on July 12,\n2015. A temporary hearing was held on July 13, 2015, and the family court issued\na Temporary Consent Order filed on October 19, 2015. The parties participated in\na two-day trial on June 2, 2016, and June 20, 2016, which culminated in a Final\nOrder granting the divorce based on one year's continuous separation. The family\ncourt awarded Husband $3,000 per month in permanent periodic alimony and\ndivided the marital estate, awarding Wife sixty percent and Husband the remaining\nforty percent. As such, the family court ordered Wife to pay $206,703 of her\nSonoco 401(K) plan to Husband by way of a qualified domestic relations order\n(QDRO). In addition, the family court ordered Wife to contribute $5,000 toward\nHusband's attorney's fees and costs.\nWife filed a motion to reconsider on August 10, 2016. The family court denied\nWife's motion in an order filed September 23, 2016. This appeal followed.\n\nSTANDARD OF REVIEW\n\\[T]he proper standard of review in family court matters is de novo.\\\" Stoney v.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

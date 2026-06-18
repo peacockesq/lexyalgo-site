@@ -1,0 +1,52 @@
+{
+  "document_id": "f82c7033-cfea-4c4d-a61c-e7f4e5ba7573",
+  "slug": "courtlistener-opinion-1076772-1076772",
+  "title": "CourtListener opinion 1076772",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 1,
+    "pension": 6,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 1
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1076772 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "l share was erroneously calculated, and that the effect of Social Security payments upon his pension was not considered. We find these contentions to be without merit. While the court's final decree calculated the present value of husband's pension, the qualified domestic relations order (QDRO) which the court subsequently entered did not rely upon present value. That order calculated the marital share of husband's pension as a fraction of the total pension, based upon the parties' final separation date of February 1992. Specifically, the court awarded wife a pro rata portion of the marital share, defined as: one-half (1/2) of the fr"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "er; Gardner, Gardner, Barrow & Sharpe, on brief), for appellee. Robert W. Gore (husband) appeals the final decree of divorce and equitable distribution entered by the circuit court. Husband contends that the trial court erred in (1) valuing the parties' retirement benefits, (2) awarding attorney's fees to Sylvia S. Gore (wife), (3) requiring husband to pay wife the value of a lost engagement ring, (4) awarding wife one-half the face value of savings bonds, and (5) awarding wife $375 in monthly spousal support. Upon reviewing the record and briefs of the parties, we conclude that this appeal is without merit. Accordingly"
+    },
+    {
+      "label": "pension",
+      "quote": "support. Upon reviewing the record and briefs of the parties, we conclude that this appeal is without merit. Accordingly, we summarily affirm the decision of the trial court. Rule 5A:27. Pensions Husband contends that wife's expert erred in valuing his pension, that the present value calculation used post-separation * Pursuant to Code § 17-116.010 this opinion is not designated for publication. salary increases, that the marital share was erroneously calculated, and that the effect of Social Security payments upon his pension was not considered. We find these contentions to be without merit. While the cou"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "s erroneously calculated, and that the effect of Social Security payments upon his pension was not considered. We find these contentions to be without merit. While the court's final decree calculated the present value of husband's pension, the qualified domestic relations order (QDRO) which the court subsequently entered did not rely upon present value. That order calculated the marital share of husband's pension as a fraction of the total pension, based upon the parties' final separation date of February 1992. Specifically, the court awarded wife a pro rata portion of the marital share, defined as: one-half (1/2) of the fr"
+    }
+  ],
+  "full_text": "COURT OF APPEALS OF VIRGINIA\n\nPresent: Judges Baker, Elder and Fitzpatrick\n\nROBERT WARREN GORE\n MEMORANDUM OPINION *\nv. Record No. 2308-96-3 PER CURIAM\n MAY 20, 1997\nSYLVIA SWAIN GORE\n\n FROM THE CIRCUIT COURT OF PATRICK COUNTY\n Charles M. Stone, Judge\n\n (Richard D. Rogers, Jr., on brief), for\n appellant.\n (Philip G. Gardner; Gardner, Gardner, Barrow &\n Sharpe, on brief), for appellee.\n\n Robert W. Gore (husband) appeals the final decree of divorce\n\nand equitable distribution entered by the circuit court. Husband\n\ncontends that the trial court erred in (1) valuing the parties'\n\nretirement benefits, (2) awarding attorney's fees to Sylvia S.\n\nGore (wife), (3) requiring husband to pay wife the value of a\n\nlost engagement ring, (4) awarding wife one-half the face value\n\nof savings bonds, and (5) awarding wife $375 in monthly spousal\n\nsupport. Upon reviewing the record and briefs of the parties, we\n\nconclude that this appeal is without merit. Accordingly, we\n\nsummarily affirm the decision of the trial court. Rule 5A:27.\n Pensions\n\n Husband contends that wife's expert erred in valuing his\n\npension, that the present value calculation used post-separation\n *\n Pursuant to Code § 17-116.010 this opinion is not\ndesignated for publication.\n salary increases, that the marital share was erroneously\n\ncalculated, and that the effect of Social Security payments upon\n\nhis pension was not considered. We find these contentions to be\n\nwithout merit.\n\n While the court's final decree calculated the present value\n\nof husband's pension, the qualified domestic relations order\n\n(QDRO) which the court subsequently entered did not rely upon\n\npresent value. That order calculated the marital share of\n\nhusband's pension as a fraction of the total pension, based upon\n\nthe parties' final separation date of February 1992.\n\nSpecifically, the court awarded wife a pro rata portion of the\n\nmarital share, defined as:\n one-half (1/2) of the fraction whose\n numerator is the number of months of federal,\n civilian and military service that [husband]\n . . . performed during the marriage and whose\n denominator is the total number of federal,\n civilian, and military service performed by\n the [husband]. . . .\n\nThe court found the number of months of employment during the\n\nmarriage equaled 192. The total number of months of employment\n\nwill not be established until husband's retirement, based upon\n\nhis employment starting date of May 12, 1976. Thus, while the\n\ncourt's final decree referred to a present value of husband's\n\npension, the implementing QDRO did not rely upon the present\n\nvalue calculation. Therefore, husband's challenge to the\n\ndiscount rate assumption used by wife's expert in calculating the\n\npresent value is moot.\n\n 2\n Similarly, husband's contention that the present value\n\ncalculation relied on the value of post-separation earnings is\n\nmoot. Moreover, husband's argument that the calculation of the\n\nmarital share cannot rely on any salary levels earned\n\npost-separation is incorrect. We rejected a similar argument in\n\nBanagan v. Banagan, 17 Va. App. 321, 324-26, 437 S.E.2d 229,\n\n230-31 (1993).\n \\It is only fair that both parties share in",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

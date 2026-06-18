@@ -1,0 +1,48 @@
+{
+  "document_id": "7eba0991-6dab-477f-acc2-114075d8ef75",
+  "slug": "courtlistener-opinion-4310463-4310463",
+  "title": "CourtListener opinion 4310463",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4310463 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "urt of Appeals hereby passes the following order: A19A0062. RICHARD BUTLER v. EDITH BUTLER. In 2003, Richard and Edith Butler divorced. The divorce decree provided that Edith Butler was to receive 50 per cent of her husband's pension. In 2004, a stipulated qualified domestic relations order was entered dividing the pension. Richard Butler retired in 2015. Edith Butler sought entry of an amended qualified domestic relations order on the basis that she was receiving 50 per cent of one of two pensions. In 2016, the trial court entered an amended qualified domestic relations order. Richard Butler filed a motion to set aside the order under OCGA §"
+    },
+    {
+      "label": "pension",
+      "quote": "______ August 29, 2018 The Court of Appeals hereby passes the following order: A19A0062. RICHARD BUTLER v. EDITH BUTLER. In 2003, Richard and Edith Butler divorced. The divorce decree provided that Edith Butler was to receive 50 per cent of her husband's pension. In 2004, a stipulated qualified domestic relations order was entered dividing the pension. Richard Butler retired in 2015. Edith Butler sought entry of an amended qualified domestic relations order on the basis that she was receiving 50 per cent of one of two pensions. In 2016, the trial court entered an amended qualified domestic relations order. Richard"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "eals hereby passes the following order: A19A0062. RICHARD BUTLER v. EDITH BUTLER. In 2003, Richard and Edith Butler divorced. The divorce decree provided that Edith Butler was to receive 50 per cent of her husband's pension. In 2004, a stipulated qualified domestic relations order was entered dividing the pension. Richard Butler retired in 2015. Edith Butler sought entry of an amended qualified domestic relations order on the basis that she was receiving 50 per cent of one of two pensions. In 2016, the trial court entered an amended qualified domestic relations order. Richard Butler filed a motion to set aside the order under OCGA §"
+    }
+  ],
+  "full_text": "|Court of Appeals\nof the State of Georgia\n\n ATLANTA,____________________\n August 29, 2018\n\nThe Court of Appeals hereby passes the following order:\n\nA19A0062. RICHARD BUTLER v. EDITH BUTLER.\n\n In 2003, Richard and Edith Butler divorced. The divorce decree provided that\nEdith Butler was to receive 50 per cent of her husband's pension. In 2004, a\nstipulated qualified domestic relations order was entered dividing the pension.\nRichard Butler retired in 2015. Edith Butler sought entry of an amended qualified\ndomestic relations order on the basis that she was receiving 50 per cent of one of two\npensions. In 2016, the trial court entered an amended qualified domestic relations\norder. Richard Butler filed a motion to set aside the order under OCGA § 9-11-60 (d).\nThe trial court denied the motion, and Richard Butler filed this appeal. We, however,\nlack jurisdiction.\n An appeal from an order denying a motion to set aside a judgment under\nOCGA § 9-11-60 (d) must be made by application for discretionary review. See\nOCGA § 5-6-35 (a) (8); Jim Ellis Atlanta, Inc. v. Adamson, 283 Ga. App. 116 (640\nSE2d 688) (2006). Appeals in domestic relations cases must also be taken by\napplication for discretionary appeal as required under OCGA § 5-6-35 (a) (2).\nRichard Butler's failure to file a discretionary application thus deprives this Court of\n jurisdiction over this appeal, which is hereby DISMISSED. See id.; Levison v.\nLevison, 247 Ga. 667, 667 (278 SE2d 409) (1981).\n\n Court of Appeals of the State of Georgia\n Clerk's Office, Atlanta,____________________\n 08/29/2018\n I certify that the above is a true extract from\n the minutes of the Court of Appeals of Georgia.\n Witness my signature and the seal of said court\n hereto affixed the day and year last above written.\n\n , Clerk.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

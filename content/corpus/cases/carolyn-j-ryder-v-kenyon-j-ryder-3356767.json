@@ -1,0 +1,52 @@
+{
+  "document_id": "449f5d86-8fba-4c59-9cec-251414c7af64",
+  "slug": "carolyn-j-ryder-v-kenyon-j-ryder-3356767",
+  "title": "Carolyn J. Ryder v. Kenyon J. Ryder.",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": "https://www.courtlistener.com/opinion/3361233/ryder-v-ryder-no-0548689-may-23-2000/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "2000-05-23",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 1,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 2,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: Carolyn J. Ryder v. Kenyon J. Ryder. is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "randum of decision, the court granted the plaintiff 50% of the defendant's pension benefits and it was the court's intention to make her the survivor annuitant with regard to the retirement benefits as relates to the Pfizer pension. The court notes that the Qualified Domestic Relations Order has not at this point been presented to the court for approval. As indicated, it was the court's intention to make the plaintiff the survivor annuitant and to that extent as concerns item 6 in the plaintiffs Motion to Clarify Post Judgment the matter is herewith clarified and the memorandum of decision is amended. Austin, J."
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "with regard to matters pertaining to life insurance. As is reflected in the memorandum of decision, the court granted the plaintiff 50% of the defendant's pension benefits and it was the court's intention to make her the survivor annuitant with regard to the retirement benefits as relates to the Pfizer pension. The court notes that the Qualified Domestic Relations Order has not at this point been presented to the court for approval. As indicated, it was the court's intention to make the plaintiff the survivor annuitant and to that extent as concerns item 6 in the plaintiffs Motion to Clarify Post Judgment the matter is herewi"
+    },
+    {
+      "label": "pension",
+      "quote": "reflected on his financial affidavit, has no cash value. The court did not intend to enter any orders with regard to matters pertaining to life insurance. As is reflected in the memorandum of decision, the court granted the plaintiff 50% of the defendant's pension benefits and it was the court's intention to make her the survivor annuitant with regard to the retirement benefits as relates to the Pfizer pension. The court notes that the Qualified Domestic Relations Order has not at this point been presented to the court for approval. As indicated, it was the court's intention to make the plaintiff the survivor ann"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "decision, the court granted the plaintiff 50% of the defendant's pension benefits and it was the court's intention to make her the survivor annuitant with regard to the retirement benefits as relates to the Pfizer pension. The court notes that the Qualified Domestic Relations Order has not at this point been presented to the court for approval. As indicated, it was the court's intention to make the plaintiff the survivor annuitant and to that extent as concerns item 6 in the plaintiffs Motion to Clarify Post Judgment the matter is herewith clarified and the memorandum of decision is amended. Austin, J."
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] MEMORANDUM OF DECISION ON THE PLAINTIFF'S MOTION TO CLARIFY POST JUDGMENT DATED MARCH 13, 2000 \nThis matter was heard by the court on February 8, 2000 and memorandum of decision issued on February 24, 2000. The plaintiff now asks the court to address the issue of whether it intended to make the plaintiff the CT Page 6620 beneficiary of the defendant's Metropolitan Life Insurance policy to secure the alimony payments in case the defendant pre-deceases the plaintiff. \n The court carefully considered the proposed orders submitted to the court by the plaintiff through counsel filed February 8, 2000 and acted on those proposed orders. There was no proposed order asking the court to consider any issue as to life insurance, particularly the defendant's Metropolitan Life Insurance policy, which as reflected on his financial affidavit, has no cash value. \n The court did not intend to enter any orders with regard to matters pertaining to life insurance. As is reflected in the memorandum of decision, the court granted the plaintiff 50% of the defendant's pension benefits and it was the court's intention to make her the survivor annuitant with regard to the retirement benefits as relates to the Pfizer pension. \n The court notes that the Qualified Domestic Relations Order has not at this point been presented to the court for approval. \n As indicated, it was the court's intention to make the plaintiff the survivor annuitant and to that extent as concerns item 6 in the plaintiffs Motion to Clarify Post Judgment the matter is herewith clarified and the memorandum of decision is amended. \n Austin, J.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

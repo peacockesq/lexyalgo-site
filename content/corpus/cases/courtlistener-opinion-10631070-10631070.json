@@ -1,0 +1,40 @@
+{
+  "document_id": "71790da7-f396-4b83-b208-2a4b27b297e6",
+  "slug": "courtlistener-opinion-10631070-10631070",
+  "title": "CourtListener opinion 10631070",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 2,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 10631070 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "domestic relations order",
+      "quote": "of Cook County that mandates that Plaintiff's partitions should be paid to his former spouse. Plaintiff also objects to the Report and Recommendation claiming that this Court has authority to review a decision of the RRB. In summary, Plaintiff challenges a domestic relations order of the Circuit Court of Cook County regarding the distribution of his Railroad Retirement Act benefits to his ex-wife and/or seeks review of a decision by the Railroad Retirement Board to comply with the domestic relations order. This Court lacks subject matter jurisdiction to preside over either of these matters. First, it is well established that \""
+    }
+  ],
+  "full_text": "IN THE UNITED STATES DISTRICT COURT \n FOR THE MIDDLE DISTRICT OF ALABAMA \n EASTERN DIVISION \n\nDAVID POWELL, ) \n ) \n Plaintiff, ) \n ) \n v. ) CASE NO. 3:24-CV-257-RAH \n ) \nRAILROAD RETIREMENT ) \nBOARD, ) \n ) \n Defendant. ) \n ORDER \n On August 15, 2024, the Magistrate Judge recommended this case be \ndismissed without prejudice for lack of subject matter jurisdiction and without the \nopportunity to amend the complaint. (Doc. 11.) Plaintiff David Powell has filed \nseveral motions, which the Court has construed as Objections (Doc. 12, Doc. 13, \nDoc. 14, Doc. 16) to the Recommendation. \n When a party objects to a Magistrate Judge's Report and Recommendation, \nthe district court must review the disputed portions de novo. 28 U.S.C. § 636(b)(1). \nThe district court \"may accept, reject, or modify the recommended disposition; \nreceive further evidence; or resubmit the matter to the magistrate judge with \ninstructions.\" Fed. R. Civ. P. 72(b)(3). De novo review requires that the district \ncourt independently consider factual issues based on the record. Jeffrey S. ex rel. \nErnest S. v. State Bd. of Educ., 896 F.2d 507, 513 (11th Cir. 1990); see also United \nStates v. Gopie, 347 F. App'x 495, 499 n.1 (11th Cir. 2009). However, objections \nto the Magistrate Judge's Report and Recommendation must be sufficiently specific \n\nin order to warrant de novo review. See Macort v. Prem, Inc., 208 F. App'x 781, \n783-85 (11th Cir. 2006). Otherwise, a Report and Recommendation is reviewed for \nclear error. Id. \n\n Plaintiff objects to the Magistrate Judge's determination that this Court lacks \nsubject matter jurisdiction. As an initial matter \"[f]ederal courts ‘are courts of \nlimited jurisdiction' that ‘possess only that power authorized by Constitution and \nstatute.'\" United States v. Salmona, 810 F.3d 806, 810 (11th Cir. 2016) (quoting \n\nKokkonen v. Guardian Life. Ins. Co. of Am., 511 U.S. 375, 377 (1994)). Powell \nbelieves this court has subject matter jurisdiction because he has a letter from the \nRailroad Retirement Board (\"RRB\"). The letter instructs Plaintiff to obtain a court \n\norder to modify the divorce order of the Circuit Court of Cook County that mandates \nthat Plaintiff's partitions should be paid to his former spouse. Plaintiff also objects \nto the Report and Recommendation claiming that this Court has authority to review \na decision of the RRB. In summary, Plaintiff challenges a domestic relations order \n\nof the Circuit Court of Cook County regarding the distribution of his Railroad \nRetirement Act benefits to his ex-wife and/or seeks review of a decision by the \nRailroad Retirement Board to comply with the domestic relations order. \n This Court lacks subject matter jurisdiction to preside over either of these \nmatters. First, it is well established that \"federal courts will not review or modify a \n\nstate court divorce order even when the plaintiff couches the claims in other terms.\" \nMcCavey v. Barnett, 629 F. App'x 865, 867 (11th Cir. 2015) (holding that federal \ncourts lack subject matter jurisdiction to \"review the division of marital property as \n\ndetermined in [the plaintiff's] divorce proceedings\"). Alabama trial courts have the \nauthority to modify divorce orders. Wade v. Wade, 518 So. 2d 149, 150 (Ala. Civ. \nApp. 1987 (\"Modifications of periodic alimony awards can be made only upon a \nshowing of changed circumstances since the last change in the award.\"); Ala. Code \n\n§ 30-2-51. Since the RRB is simply obeying the divorce order it does not seem to be \nthe proper party for Plaintiff to seek relief from. Rather it seems to this Court that \nthe more appropriate course of action for Plaintiff would be to file a petition for \n\nmodification of divorce decree in the Alabama trial court that entered his divorce \norder, which appears to be the Circuit Court of Cook County. Murphree v. \nMurphree, 582 So. 2d 574, 576 (Ala. Civ. App. 1991) (holding that when there is a \nchange in circumstances that warrant modifying a divorce order \"a petition for \n\nmodification may be proper\"). \n Second, this Court does not have jurisdiction to review a final decision by the \nRRB because the United States courts of appeals are granted jurisdiction over such \n\nmatters by federal statute. 45 U.S.C. § 355 (\"Any claimant . . .may . . . obtain a \nreview of any final decision of the Board by filing a petition for review within ninety \ndays ...in the United States court of appeals for the circuit in which the claimant or \nother party resides or will have had his principal place of business or principal \nexecutive office, or in the United States Court of Appeals for the Seventh Circuit or \nin the United States Court of Appeals for the District of Columbia... .\"). \nConsequently, this Court agrees with the Magistrate Judge that this court lacks \nsubject matter jurisdiction. \n Accordingly, upon an independent review of the record, it is ORDERED as \nfollows: \n\n1. The Objections (Doc. 12, Doc. 13, Doc. 14, Doc. 16) are OVERRULED and \n DENIED; \n2. The Recommendation (Doc. 11) is ADOPTED; \n3. Defendant's Motion to Dismiss (Doc. 7) is GRANTED; \n4. Defendant's Motion to Seal is GRANTED (Doc. 15); \n5. This case is DISMISSED without prejudice. \nDONE, on this the 17th day of October 2024. \n\n UNITED STATES DISTRICT JUDGE",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

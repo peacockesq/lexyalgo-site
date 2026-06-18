@@ -1,0 +1,40 @@
+{
+  "document_id": "c8038dd4-1106-43f7-a7b7-979e48a8acde",
+  "slug": "courtlistener-opinion-2382176-2382176",
+  "title": "CourtListener opinion 2382176",
+  "citation": "Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 1,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "family-law retirement/property division context",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 4,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 0,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 2382176 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to family-law retirement/property division context. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 1/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "retirement benefits",
+      "quote": "RBERG, BOURCIER, FLANDERS, and GOLDBERG, JJ. John B. Harwood, Pawtucket, for plaintiff. Lauren E. Jones, Providence, for defendant. OPINION PER CURIAM. The defendant, James M. Donelan (James), appeals from a Family Court order that divided a Keogh retirement account (the Keogh account or the retirement account) equally between himself and his former wife, the plaintiff, Kathleen Kelly (Kathleen). [1] James contends that the Family Court's order improperly modified a non-merged property settlement agreement between himself and Kathleen. He further argues that the Family Court justice erred by granting Kathleen a half sh"
+    }
+  ],
+  "full_text": "741 A.2d 268 (1999) \n Kathleen Marie DONELAN \nv. \nJames M. DONELAN. \n No. 97-615-Appeal. \n Supreme Court of Rhode Island. \n December 2, 1999. \n Present WEISBERGER, C.J., LEDERBERG, BOURCIER, FLANDERS, and GOLDBERG, JJ. \n John B. Harwood, Pawtucket, for plaintiff. \n Lauren E. Jones, Providence, for defendant. \n \n OPINION \n PER CURIAM. \n The defendant, James M. Donelan (James), appeals from a Family Court order that divided a Keogh retirement account (the Keogh account or the retirement account) equally between himself and his former wife, the plaintiff, Kathleen Kelly (Kathleen). [1] James contends that the Family Court's order improperly modified a non-merged property settlement agreement between himself and Kathleen. He further argues that the Family Court justice erred by granting Kathleen a half share of the retirement account's accumulated interest in addition to granting Kathleen one half of the retirement account's principal. We ordered the parties to show cause why we should not resolve this appeal summarily. No cause having been shown, we proceed to decide the issues before us. \n James and Kathleen were married in October 1984. In January 1995 Kathleen filed for divorce. In October 1996 the Family Court entered a property-settlement agreement proposal, dated August *269 17",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

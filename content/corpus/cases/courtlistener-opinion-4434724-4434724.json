@@ -1,0 +1,52 @@
+{
+  "document_id": "9b9eba2a-53de-452a-93ab-2b907fc62679",
+  "slug": "courtlistener-opinion-4434724-4434724",
+  "title": "CourtListener opinion 4434724",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 1,
+    "pension": 8,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 4434724 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "ohnson] is awarded an equal division of the [IBM] personal pension plan * * *. [McCarthy] shall promptly and fully cooperate with the transfer of the one[-]half interests awarded to [Johnson] in each of the above retirement plans to [Johnson's] name via a Qualified Domestic Relations Order, rollover or other appropriate instrument. (Nov. 16, 2005 Judgment Entry – Decree of Divorce at 15-16.) {¶ 3} Almost 12 years after the parties' divorce, Johnson moved for clarification of the November 16, 2005 divorce decree. Johnson argued that the decree was ambiguous because it did not specify the date on which the valuation and division of the IBM p"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "he IBM pension, the trial court ordered: [Johnson] is awarded an equal division of the [IBM] personal pension plan * * *. [McCarthy] shall promptly and fully cooperate with the transfer of the one[-]half interests awarded to [Johnson] in each of the above retirement plans to [Johnson's] name via a Qualified Domestic Relations Order, rollover or other appropriate instrument. (Nov. 16, 2005 Judgment Entry – Decree of Divorce at 15-16.) {¶ 3} Almost 12 years after the parties' divorce, Johnson moved for clarification of the November 16, 2005 divorce decree. Johnson argued that the decree was ambiguous because it did not sp"
+    },
+    {
+      "label": "pension",
+      "quote": "n a judgment dated November 16, 2005, the trial court granted Johnson and defendant-appellee, Donald McCarthy, a divorce. In addition to determining custody and support issues, the trial court also divided the parties' marital assets, including McCarthy's IBM pension. At the time of the divorce, McCarthy's IBM pension benefits were vested, but No. 17AP-655 2 not mature. The trial court found that the entirety of the IBM pension constituted marital property. In dividing the IBM pension, the trial court ordered: [Johnson] is awarded an equal division of the [IBM] personal pension plan * * *. [McCarthy] shall promptly"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "awarded an equal division of the [IBM] personal pension plan * * *. [McCarthy] shall promptly and fully cooperate with the transfer of the one[-]half interests awarded to [Johnson] in each of the above retirement plans to [Johnson's] name via a Qualified Domestic Relations Order, rollover or other appropriate instrument. (Nov. 16, 2005 Judgment Entry – Decree of Divorce at 15-16.) {¶ 3} Almost 12 years after the parties' divorce, Johnson moved for clarification of the November 16, 2005 divorce decree. Johnson argued that the decree was ambiguous because it did not specify the date on which the valuation and division of the IBM p"
+    }
+  ],
+  "full_text": "[Cite as Johnson v. McCarthy, 2019-Ohio-3489.]\n\n IN THE COURT OF APPEALS OF OHIO\n\n TENTH APPELLATE DISTRICT\n\nCheryl L. Johnson, :\n\n Plaintiff-Appellant, :\n No. 17AP-655\nv. : (C.P.C. No. 03DR-1429)\n\nDonald McCarthy, : (REGULAR CALENDAR)\n\n Defendant-Appellee. :\n\n D E C I S I O N\n\n Rendered on August 29, 2019\n\n On brief: Wolinetz & Horvath, LLC, and Dennis E. Horvath,\n for appellant. Argued: Dennis E. Horvath.\n\n On brief: James W. Adair, III, for appellee.\n Argued: James W. Adair.\n\n APPEAL from the Franklin County Court of Common Pleas,\n Division of Domestic Relations.\n\nKLATT, P.J.\n\n {¶ 1} Plaintiff-appellant, Cheryl L. Johnson, appeals a judgment of the Franklin\nCounty Court of Common Pleas, Division of Domestic Relations, that denied her motion for\nclarification. For the following reasons, we affirm that judgment.\n {¶ 2} In a judgment dated November 16, 2005, the trial court granted Johnson and\ndefendant-appellee, Donald McCarthy, a divorce. In addition to determining custody and\nsupport issues, the trial court also divided the parties' marital assets, including McCarthy's\nIBM pension. At the time of the divorce, McCarthy's IBM pension benefits were vested, but\n No. 17AP-655 2\n\nnot mature. The trial court found that the entirety of the IBM pension constituted marital\nproperty. In dividing the IBM pension, the trial court ordered:\n [Johnson] is awarded an equal division of the [IBM] personal\n pension plan * * *. [McCarthy] shall promptly and fully\n cooperate with the transfer of the one[-]half interests awarded\n to [Johnson] in each of the above retirement plans to\n [Johnson's] name via a Qualified Domestic Relations Order,\n rollover or other appropriate instrument.\n\n(Nov. 16, 2005 Judgment Entry – Decree of Divorce at 15-16.)\n {¶ 3} Almost 12 years after the parties' divorce, Johnson moved for clarification of\nthe November 16, 2005 divorce decree. Johnson argued that the decree was ambiguous\nbecause it did not specify the date on which the valuation and division of the IBM pension\nhad to occur. Johnson urged the trial court to interpret the decree as adopting the date of\nMcCarthy's retirement, December 31, 2015, as the date for valuation and division of the\nIBM pension.\n {¶ 4} In response, McCarthy contended that the trial court provided the date for\nvaluation and division of the marital assets, including the IBM pension, when it determined\nthat \\[t]he duration of the marriage for the purposes of the valuation of the assets and",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

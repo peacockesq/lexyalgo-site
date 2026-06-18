@@ -1,0 +1,52 @@
+{
+  "document_id": "fcac526a-c3e3-44c1-ae70-9f05011ec9bf",
+  "slug": "courtlistener-opinion-814716-814716",
+  "title": "CourtListener opinion 814716",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 1,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 3,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 814716 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "Cir. 1993) (setting forth standard of review and 2 11-35546 discussing factors for reconsideration or relief from judgment under Fed. R. Civ. P. 59(e) and 60(b)). Hoppel's arguments that the district court allegedly violated or ignored the terms of the Qualified Domestic Relations Order issued in her divorce proceedings, rejected evidence of fraud in a prior litigation, or failed to apply Mack v. Kuckenmeister, 619 F.3d 1010 (9th Cir. 2010), are not supported by the record. AFFIRMED. 3 11-35546"
+    },
+    {
+      "label": "pension",
+      "quote": "insurance policy to her late ex-husband and whether defendant's contract to pay him certain retirement income from its operating budget constituted a qualified plan subject to § 1055's surviving spouse provisions. See 29 U.S.C. § 1055 (stating that certain pension plans must be provided in the form of a qualified joint and survivor annuity benefit); id. § 1051(2) (excluding from § 1055 a pension plan that is unfunded and maintained by an employer to provide deferred compensation for a select group of management or highly compensated employees); see also Nelson v. Pima Cmty. Coll., 83 F.3d 1075, 1081-82 (9th Cir."
+    },
+    {
+      "label": "ERISA",
+      "quote": "ODWIN, WALLACE, and FISHER, Circuit Judges. Olaree E. Hoppel appeals pro se from the district court's summary judgment in her action for joint and survivor annuity benefits and insurance benefits under the Employee Retirement Income Security Act of 1974 (\"ERISA\"), as amended by * This disposition is not appropriate for publication and is not precedent except as provided by 9th Cir. R. 36-3. ** The panel unanimously concludes this case is suitable for decision without oral argument. See Fed. R. App. P. 34(a)(2). the Retirement Equity Act of 1984. We have jurisdiction under 28 U.S.C. § 1291. We review de novo"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "(setting forth standard of review and 2 11-35546 discussing factors for reconsideration or relief from judgment under Fed. R. Civ. P. 59(e) and 60(b)). Hoppel's arguments that the district court allegedly violated or ignored the terms of the Qualified Domestic Relations Order issued in her divorce proceedings, rejected evidence of fraud in a prior litigation, or failed to apply Mack v. Kuckenmeister, 619 F.3d 1010 (9th Cir. 2010), are not supported by the record. AFFIRMED. 3 11-35546"
+    }
+  ],
+  "full_text": "FILED\n NOT FOR PUBLICATION JAN 03 2013\n\n MOLLY C. DWYER, CLERK\n UNITED STATES COURT OF APPEALS U .S. C O U R T OF APPE ALS\n\n FOR THE NINTH CIRCUIT\n\nOLAREE E. HOPPEL, No. 11-35546\n\n Plaintiff - Appellant, D.C. No. 2:10-cv-01686-RAJ\n\n v.\n MEMORANDUM *\nPREMERA BLUE CROSS,\n\n Defendant - Appellee.\n\n Appeal from the United States District Court\n for the Western District of Washington\n Richard A. Jones, District Judge, Presiding\n\n Submitted December 19, 2012 **\n\nBefore: GOODWIN, WALLACE, and FISHER, Circuit Judges.\n\n Olaree E. Hoppel appeals pro se from the district court's summary judgment\n\nin her action for joint and survivor annuity benefits and insurance benefits under\n\nthe Employee Retirement Income Security Act of 1974 (\"ERISA\"), as amended by\n\n *\n This disposition is not appropriate for publication and is not precedent\nexcept as provided by 9th Cir. R. 36-3.\n **\n The panel unanimously concludes this case is suitable for decision\nwithout oral argument. See Fed. R. App. P. 34(a)(2).\n the Retirement Equity Act of 1984. We have jurisdiction under 28 U.S.C. § 1291.\n\nWe review de novo, Gilliam v. Nev. Power Co., 488 F.3d 1189, 1192 n.3 (9th Cir.\n\n2007), and we affirm.\n\n The district court properly granted summary judgment because Hoppel\n\nfailed to raise a genuine dispute of material fact as to whether defendant provided\n\nany life insurance policy to her late ex-husband and whether defendant's contract\n\nto pay him certain retirement income from its operating budget constituted a\n\nqualified plan subject to § 1055's surviving spouse provisions. See 29 U.S.C. §\n\n1055 (stating that certain pension plans must be provided in the form of a qualified\n\njoint and survivor annuity benefit); id. § 1051(2) (excluding from § 1055 a pension\n\nplan that is unfunded and maintained by an employer to provide deferred\n\ncompensation for a select group of management or highly compensated\n\nemployees); see also Nelson v. Pima Cmty. Coll., 83 F.3d 1075, 1081-82 (9th Cir.\n\n1996 (\"[M]ere allegation and speculation do not create a factual dispute for\n\npurposes of summary judgment.\").\n\n The district court did not abuse its discretion by denying Hoppel's motion\n\nfor reconsideration or relief from judgment because Hoppel failed to establish\n\ngrounds for such relief. See Sch. Dist. No. 1J, Multnomah Cnty., Or. v. ACandS,\n\nInc., 5 F.3d 1255, 1262-63 (9th Cir. 1993) (setting forth standard of review and\n\n 2 11-35546\n discussing factors for reconsideration or relief from judgment under Fed. R. Civ. P.\n\n59(e) and 60(b)).\n\n Hoppel's arguments that the district court allegedly violated or ignored the\n\nterms of the Qualified Domestic Relations Order issued in her divorce proceedings,\n\nrejected evidence of fraud in a prior litigation, or failed to apply Mack v.\n\nKuckenmeister, 619 F.3d 1010 (9th Cir. 2010), are not supported by the record.\n\n AFFIRMED.\n\n 3 11-35546",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

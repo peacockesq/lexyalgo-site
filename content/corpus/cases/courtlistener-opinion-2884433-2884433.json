@@ -1,0 +1,48 @@
+{
+  "document_id": "8fea9393-1644-478b-abfc-5cccb34c3601",
+  "slug": "courtlistener-opinion-2884433-2884433",
+  "title": "CourtListener opinion 2884433",
+  "citation": "QDRO",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "ERISA / defined contribution issues",
+  "signals": {
+    "QDRO": 2,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 3,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 2884433 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to ERISA / defined contribution issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "d pursuant to an agreement incident to divorce, which amicably divided the marital property, responsibility for debt, and support and access to the parties' three children. The sole issue for our resolution is whether the qualified domestic relation order (QDRO) signed by the trial court impermissibly altered the interest in a 401(k) account awarded to Josephine in the agreed decree of divorce. We determine it did not. With respect to this matter, the agreement incident to divorce, as well as the divorce decree awarded Josephine: One-half of the net value of the 401(k) existing from the husband's employm"
+    },
+    {
+      "label": "401(k)",
+      "quote": "the marital property, responsibility for debt, and support and access to the parties' three children. The sole issue for our resolution is whether the qualified domestic relation order (QDRO) signed by the trial court impermissibly altered the interest in a 401(k) account awarded to Josephine in the agreed decree of divorce. We determine it did not. With respect to this matter, the agreement incident to divorce, as well as the divorce decree awarded Josephine: One-half of the net value of the 401(k) existing from the husband's employment after subtracting the loan balance (eg since the vested balance as of"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "vested balance as of January 8, 2008 was $32,634.05 as set forth on the attached participant's summary and the loan balance was $5350.74 the wife would therefore receive $13,641.65 which is one-half of $27,283.31) more particularly described in a qualified domestic relations order signed by this court. While the court set out a current valuation and estimate of sum to be awarded if the distribution were to occur when the judgment was signed, this language simply awarded Josephine one-half of the value of the 401(k). After stating \\[t]he applicable monies to be paid will be taken proportionately out of the"
+    }
+  ],
+  "full_text": "In The \n\n Court of Appeals \n\n Sixth Appellate District of Texas at Texarkana \n\n ______________________________ \n\n No. 06-09-00019-CV \n\n ______________________________ \n\n IN THE MATTER OF THE MARRIAGE OF BENJAMIN COREY HOWELL \n\n AND JOSEPHINE MARIDA HOWELL AND IN THE INTEREST \n\n OF A.M.H., A.M.H., AND A.M.H., CHILDREN \n\n On Appeal from the 71st Judicial District Court \n\n Harrison County, Texas \n\n Trial Court No. 07-0760 \n\n Before Morriss, C.J., Carter and Moseley, JJ. \n\n Memorandum Opinion by Chief Justice Morriss \n\n MEMORANDUM OPINION \n\n The marriage relationship between Benjamin Corey Howell and Josephine Marida Howell \nwas dissolved through a final divorce decree entered pursuant to an agreement incident to divorce, \nwhich amicably divided the marital property, responsibility for debt, and support and access to the \nparties' three children. The sole issue for our resolution is whether the qualified domestic relation \norder (QDRO) signed by the trial court impermissibly altered the interest in a 401(k) account \nawarded to Josephine in the agreed decree of divorce. We determine it did not. \n \n With respect to this matter, the agreement incident to divorce, as well as the divorce decree \nawarded Josephine: \n \n One-half of the net value of the 401(k) existing from the husband's employment after \nsubtracting the loan balance (eg since the vested balance as of January 8, 2008 was \n$32,634.05 as set forth on the attached participant's summary and the loan balance \nwas $5350.74 the wife would therefore receive $13,641.65 which is one-half of \n$27,283.31) more particularly described in a qualified domestic relations order \nsigned by this court. \n\n While the court set out a current valuation and estimate of sum to be awarded if the distribution were \nto occur when the judgment was signed, this language simply awarded Josephine one-half of the \nvalue of the 401(k). \n \n After stating \\[t]he applicable monies to be paid will be taken proportionately out of the",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

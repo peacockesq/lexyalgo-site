@@ -1,0 +1,52 @@
+{
+  "document_id": "9b371602-32ab-4149-b363-4d65c9da1aac",
+  "slug": "courtlistener-opinion-10407815-10407815",
+  "title": "CourtListener opinion 10407815",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 9,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 4,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 10407815 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "ommon Pleas. She brings claims under the Employee Retirement Income Security Act of 1974 (\"ERISA\") as well as claims of breach of contract. We previously granted R.P. Mills' motion to dismiss on the basis that the Schuylkill County divorce decree is not a Qualified Domestic Relations Order (\"QDRO\"), as is necessary for Ashline to state a claim for relief under ERISA, and on the basis that there was no alleged contract between Ashline and R.P. Mills, as is necessary for Ashline to state a breach-of-contract claim. Currently pending are motions for summary judgment filed by Michael Ashline and Tri-State. Michael Ashline died on July 22, 2"
+    },
+    {
+      "label": "pension",
+      "quote": "contract 1 For a discussion of QDROs, and why the Schuylkill County divorce decree is not a QDRO see our Memorandum Opinion of November 27, 2018. Doc. 39. Ashline suggests that she yet may be able to obtain a QDRO. And she might. See Files v. ExxonMobil Pension Plan, 428 F.3d 478, 491 (3d Cir. 2005) (\"Nothing in the statute, or in our precedent, requires that a QDRO be in place prior to the death of a plan participant when the QDRO that is ultimately obtained by engaging the statutory process simply seeks to enforce a separate interest in a pension benefit that 2 between Ashline and Tri-State, as is necessar"
+    },
+    {
+      "label": "ERISA",
+      "quote": "ssociates, Inc. (\"R.P. Mills\"), and Michael E. Ashline (\"Michael Ashline\"). Ashline's claims are based on a divorce decree issued by the Schuylkill County Court of Common Pleas. She brings claims under the Employee Retirement Income Security Act of 1974 (\"ERISA\") as well as claims of breach of contract. We previously granted R.P. Mills' motion to dismiss on the basis that the Schuylkill County divorce decree is not a Qualified Domestic Relations Order (\"QDRO\"), as is necessary for Ashline to state a claim for relief under ERISA, and on the basis that there was no alleged contract between Ashline and R.P. Mills"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "s. She brings claims under the Employee Retirement Income Security Act of 1974 (\"ERISA\") as well as claims of breach of contract. We previously granted R.P. Mills' motion to dismiss on the basis that the Schuylkill County divorce decree is not a Qualified Domestic Relations Order (\"QDRO\"), as is necessary for Ashline to state a claim for relief under ERISA, and on the basis that there was no alleged contract between Ashline and R.P. Mills, as is necessary for Ashline to state a breach-of-contract claim. Currently pending are motions for summary judgment filed by Michael Ashline and Tri-State. Michael Ashline died on July 22, 2"
+    }
+  ],
+  "full_text": "UNITED STATES DISTRICT COURT \n FOR THE MIDDLE DISTRICT OF PENNSYLVANIA \n\nELIZABETH ASHLINE, : CASE NO. 3:18-CV-0434 \n : \n Plaintiff : \n : \n v. : (Chief Magistrate Judge Schwab) \n : \n : \nTRI-STATE ENVELOPE : \nCORPORATION, et al., : \n : \n Defendants : \n\n MEMORANDUM OPINION \n October 15, 2019 \nThe plaintiff Elizabeth Ashline (\"Ashline\") brings claims against the \ndefendants Tri-State Envelope Corporation (\"Tri-State\"), R.P. Mills Associates, Inc. \n(\"R.P. Mills\"), and Michael E. Ashline (\"Michael Ashline\"). Ashline's claims are \nbased on a divorce decree issued by the Schuylkill County Court of Common Pleas. \nShe brings claims under the Employee Retirement Income Security Act of 1974 \n(\"ERISA\") as well as claims of breach of contract. \nWe previously granted R.P. Mills' motion to dismiss on the basis that the \nSchuylkill County divorce decree is not a Qualified Domestic Relations Order \n(\"QDRO\"), as is necessary for Ashline to state a claim for relief under ERISA, and \non the basis that there was no alleged contract between Ashline and R.P. Mills, as is \nnecessary for Ashline to state a breach-of-contract claim. Currently pending are \nmotions for summary judgment filed by Michael Ashline and Tri-State. \n\nMichael Ashline died on July 22, 2018. See doc. 49 (\"Suggestion of Death \nUpon the Record\"). Pursuant to Fed.R.Civ.P. 25(a), if after a party dies, a motion to \nsubstitute the proper party is not filed \"within 90 days after the service of a statement \n\nnoting the death, the action by or against the decedent must be dismissed.\" Here, \nthe \"Suggestion of Death Upon the Record\" was filed on July 9, 2019. Doc. 49. \nMore than 90 days have elapsed since that that suggestion of death was filed and a \nmotion to substitute the proper party has not been made. Thus, in accordance with \n\nFed.R.Civ.P. 25(a), the claims against Michael Ashline will be dismissed. And \ngiven that dismissal, the motion for summary judgment purportedly filed on behalf \nof Michael Ashline will be dismissed as moot. \n\nWe will also grant Tri-State's motion for summary judgment because there is \nno genuine dispute there is no QDRO, as is necessary for Ashline to pursue a claim \nunder ERISA.1 Further, there is no genuine dispute that there is no contract \n\n1 For a discussion of QDROs, and why the Schuylkill County divorce decree is not \na QDRO see our Memorandum Opinion of November 27, 2018. Doc. 39. Ashline \nsuggests that she yet may be able to obtain a QDRO. And she might. See Files v. \nExxonMobil Pension Plan, 428 F.3d 478, 491 (3d Cir. 2005) (\"Nothing in the \nstatute, or in our precedent, requires that a QDRO be in place prior to the death of a \nplan participant when the QDRO that is ultimately obtained by engaging the \nstatutory process simply seeks to enforce a separate interest in a pension benefit that \n 2 \nbetween Ashline and Tri-State, as is necessary for Ashline to pursue a \nbreach-of-contract claim against Tri-State.2 \n\nBased on the foregoing, we will dismiss the claims against Michael Ashline \npursuant to Fed.R.Civ.P. 25(a), dismiss as moot Michael Ashline's motion for \nsummary judgment, and grant Tri-State's motion for summary judgment. An \n\nappropriate order follows. \n\n S/Susan E. Schwab \n Susan E. Schwab \n Chief United States Magistrate Judge \n\nexisted before the death of the plan participant.\"). But there is no genuine dispute \nthat, to date, she has not obtained a QDRO. And while Ashline points to a draft \nQRDO prepared and signed by her counsel, see doc. 59-2 at 9–15, there is no \nevidence that the Schuylkill County Court of Common Pleas entered such an order. \n\n2 Ashline suggests that the Schuylkill County divorce decree is a contract. Even \nassuming for the sake of argument that the divorce decree can be construed as a \njudicially approved contract, see Gruber v. PPL Ret. Plan, 520 F. App'x 112, 116 \n(3d Cir. 2013) (stating that \"the interpretation of a judicially-approved contract—the \nQDRO\" was at issue there), Tri-State was not a party to that contract. And, as we \nstated in the Memorandum Opinion of November 28, 2018, \"Ashline cannot \nsidestep the requirements of ERISA with respect to QDROs by labeling her claim as \na breach-of-contract claim.\" Doc. 39 at 14. \n 3",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

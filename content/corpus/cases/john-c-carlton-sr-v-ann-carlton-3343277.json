@@ -1,0 +1,48 @@
+{
+  "document_id": "900cf1ec-2df1-4e3c-bed7-8cb39b373920",
+  "slug": "john-c-carlton-sr-v-ann-carlton-3343277",
+  "title": "John C. Carlton, Sr. v. Ann Carlton.",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": "https://www.courtlistener.com/opinion/3347760/carlton-v-carlton-no-300158-jan-16-1991/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "1991-01-16",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 6,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: John C. Carlton, Sr. v. Ann Carlton. is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "le through his employment for as long as the law allows or for as long as any benefit or pension plan allows, whichever is longer, at her expense. 6. Twenty-five percent of the husband's pension at Pratt and Whitney shall be conveyed to the wife by way of a Qualified Domestic Relations Order which shall be prepared for approval by the Court by defendant's counsel. The pension benefit to be allocated shall be determined by multiplying the husband's total pension benefit at the time he retires by a fraction consisting of a denominator equal to the husband's total years of credit as a Plan participant and a numerator of 18. 7. The issue of perso"
+    },
+    {
+      "label": "pension",
+      "quote": "balance on or before April 15, 1994. The award of property shall be effective upon the plaintiff's execution of the mortgage note and deed. 3. The defendant is awarded one hundred percent of the survivor (contingent) annuity provided for in the plaintiff's pension plan, and shall remain beneficiary of any death benefit of the pension for her lifetime. 4. The plaintiff shall pay to the defendant as alimony $100.00 per week until the death of either party or the defendant's remarriage. 5. The plaintiff shall cooperate in maintaining the defendant on the medical insurance plan available through his employment for as"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "his employment for as long as the law allows or for as long as any benefit or pension plan allows, whichever is longer, at her expense. 6. Twenty-five percent of the husband's pension at Pratt and Whitney shall be conveyed to the wife by way of a Qualified Domestic Relations Order which shall be prepared for approval by the Court by defendant's counsel. The pension benefit to be allocated shall be determined by multiplying the husband's total pension benefit at the time he retires by a fraction consisting of a denominator equal to the husband's total years of credit as a Plan participant and a numerator of 18. 7. The issue of perso"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] \nMEMORANDUM OF DECISION\nThe parties were married on February 15, 1958 at New Haven, Connecticut. \n All jurisdictional requirements have been met. \n The marriage of the parties has broken down irretrievably and the same is hereby dissolved. \n The court has considered the statutory criteria contained in Connecticut General Statutes 46b-81 and 46b-82 and enters the following orders: \n 1. All right, title and interest in the property located at CT Page 733 474 Huntington Street, New Haven, is awarded to the plaintiff. The plaintiff shall be responsible for all outstanding mortgages, liens and encumbrances on the property as well as taxes, insurance, and all costs associated with ownership and maintenance of the property. He shall indemnify and hold the defendant harmless thereon. \n 2. The plaintiff shall execute a mortgage note and deed in favor of the defendant in the amount of $42,000, payable in the following manner: $30,000 on or before April 15, 1991 and the balance on or before April 15, 1994. The award of property shall be effective upon the plaintiff's execution of the mortgage note and deed. \n 3. The defendant is awarded one hundred percent of the survivor (contingent) annuity provided for in the plaintiff's pension plan, and shall remain beneficiary of any death benefit of the pension for her lifetime. \n 4. The plaintiff shall pay to the defendant as alimony $100.00 per week until the death of either party or the defendant's remarriage. \n 5. The plaintiff shall cooperate in maintaining the defendant on the medical insurance plan available through his employment for as long as the law allows or for as long as any benefit or pension plan allows, whichever is longer, at her expense. \n 6. Twenty-five percent of the husband's pension at Pratt and Whitney shall be conveyed to the wife by way of a Qualified Domestic Relations Order which shall be prepared for approval by the Court by defendant's counsel. The pension benefit to be allocated shall be determined by multiplying the husband's total pension benefit at the time he retires by a fraction consisting of a denominator equal to the husband's total years of credit as a Plan participant and a numerator of 18. \n 7. The issue of personal property is referred to the Family Relations Office for mediation and the court retains jurisdiction over the issue of personal property. \n 8. The defendant shall vacate the Huntington Street property no later than February 15, 1991. \n By the Court \n ELAINE E. GORDON, JUDGE CT Page 734",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

@@ -1,0 +1,48 @@
+{
+  "document_id": "4bdba1a0-7bb2-4501-b740-76b6cc7da163",
+  "slug": "courtlistener-opinion-3776863-3776863",
+  "title": "CourtListener opinion 3776863",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3776863 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "ef under Civ.R. 60(B), and did not allege sufficient operative facts to demonstrate a meritorious defense to the divorce decree. Thus, we reverse the trial court's decision to the extent that it modified that decree. However, the trial court may still order a qualified domestic relations order (QDRO) which does not conflict with the divorce decree. Accordingly, this case is remanded to the trial court so it may issue a QDRO in accordance with the divorce decree. {&#182; 2} Herbert and Christy were divorced pursuant to an oral separation agreement on May 22, 1986. The terms of that agreement were dictated into the record and fully set forth in t"
+    },
+    {
+      "label": "pension",
+      "quote": "&#182; 2} Herbert and Christy were divorced pursuant to an oral separation agreement on May 22, 1986. The terms of that agreement were dictated into the record and fully set forth in the divorce decree. One of the provisions in the decree dealt with Herbert's pension and provided as follows: {&#182; 3} \\12. That Defendant's present pension plan with G.M.A.D. will pay the sum of $324.00 per month when Defendant reaches the age of retirement and that Defendant will pay to Plaintiff the sum of $162.00 per month upon receipt of said retirement.\\\""
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "iv.R. 60(B), and did not allege sufficient operative facts to demonstrate a meritorious defense to the divorce decree. Thus, we reverse the trial court's decision to the extent that it modified that decree. However, the trial court may still order a qualified domestic relations order (QDRO) which does not conflict with the divorce decree. Accordingly, this case is remanded to the trial court so it may issue a QDRO in accordance with the divorce decree. {&#182; 2} Herbert and Christy were divorced pursuant to an oral separation agreement on May 22, 1986. The terms of that agreement were dictated into the record and fully set forth in t"
+    }
+  ],
+  "full_text": "{&#182; 1} This timely appeal comes for consideration upon the record in the trial court and the parties' briefs. Defendant-Appellant, Herbert Tabor, Jr., appeals from the decision of the Mahoning County Court of Common Pleas, Domestic Relations Division, which granted the Civ.R. 60(B) motion for relief from judgment of Plaintiff-Appellee, Christy Tabor. The issue before this court is whether the trial court properly granted that motion. We conclude Christy failed to demonstrate that her motion was filed in a reasonable time, did not state a basis for relief under Civ.R. 60(B), and did not allege sufficient operative facts to demonstrate a meritorious defense to the divorce decree. Thus, we reverse the trial court's decision to the extent that it modified that decree. However, the trial court may still order a qualified domestic relations order (QDRO) which does not conflict with the divorce decree. Accordingly, this case is remanded to the trial court so it may issue a QDRO in accordance with the divorce decree. \n {&#182; 2} Herbert and Christy were divorced pursuant to an oral separation agreement on May 22, 1986. The terms of that agreement were dictated into the record and fully set forth in the divorce decree. One of the provisions in the decree dealt with Herbert's pension and provided as follows: \n {&#182; 3} \\12. That Defendant's present pension plan with G.M.A.D. will pay the sum of $324.00 per month when Defendant reaches the age of retirement and that Defendant will pay to Plaintiff the sum of $162.00 per month upon receipt of said retirement.\\\"",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

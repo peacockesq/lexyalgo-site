@@ -1,0 +1,48 @@
+{
+  "document_id": "d90ab9ca-62c2-457e-beca-42609f956f28",
+  "slug": "courtlistener-opinion-10676175-10676175",
+  "title": "CourtListener opinion 10676175",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "ERISA / defined contribution issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 7,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 3,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 10676175 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to ERISA / defined contribution issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "ded term life policy. This obligation was to continue for as long as Mr. Robles was ordered to pay child support under the Decree. At the time of his death, Mr. Robles was still obligated to continue paying child support to Ms. Bell. 6. The Decree was a Qualified Domestic Relations Order under ERISA pursuant to 29 U.S.C. § 1056(d)(3)(C). Specifically, a. The Decree adequately identified the names of the parties to the decree and their mailing addresses by providing addresses of the parties' counsel. b. The Decree identified the amount or percentage of the participant's benefits to be paid to Ms. Bell by the plan as it states that"
+    },
+    {
+      "label": "ERISA",
+      "quote": "re properly characterized as a finding of fact is adopted as such, and any finding of fact more properly characterized as a conclusion of law is adopted as such. 1. This action arises under the Employee Retirement Income Security Act of 1974, as amended (\"ERISA\"), 29 U.S.C. §1001, et seq. and is brought by Plaintiff Metropolitan Life Insurance Company (\"MetLife\") as an interpleader action pursuant to Rule 22 of the Federal Rules of Civil Procedure. 2. John Robles was married to Ms. Bell. In 2012 Mr. Robles and Ms. Bell executed a mediated divorce settlement agreement and a Texas state court issued a Final"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "ife policy. This obligation was to continue for as long as Mr. Robles was ordered to pay child support under the Decree. At the time of his death, Mr. Robles was still obligated to continue paying child support to Ms. Bell. 6. The Decree was a Qualified Domestic Relations Order under ERISA pursuant to 29 U.S.C. § 1056(d)(3)(C). Specifically, a. The Decree adequately identified the names of the parties to the decree and their mailing addresses by providing addresses of the parties' counsel. b. The Decree identified the amount or percentage of the participant's benefits to be paid to Ms. Bell by the plan as it states that"
+    }
+  ],
+  "full_text": "IN THE UNITED STATES DISTRICT COURT February 01, 2023\n FOR THE SOUTHERN DISTRICT OF TEXAS Nathan Ochsner, Clerk\n HOUSTON DIVISION \n\nMETROPOLITAN LIFE INSURANCE § \nCOMPANY, § \n Plaintiff, § \n § \nv. § C.A. No. 4:21-CV-00714 \n § \n § \nANNA LISA ROBLES AND § \nCAROLYN GOMEZ § \n Defendants. § \n\n FINDINGS OF FACT AND CONCLUSIONS OF LAW \n\n This case was tried in a bench trial before the Court. Defendants Carolyn Bell f/k/a \nCarolyn Gomez (\"Bell\") and Anna Lisa Robles (\"Robles\") appeared and were represented \nby counsel. The Court, having carefully considered the evidence admitted at trial, now \nmakes the following findings of fact and conclusions of law. See FED. R. CIV. P. 52. Any \nconclusion of law more properly characterized as a finding of fact is adopted as such, and \nany finding of fact more properly characterized as a conclusion of law is adopted as such. \n1. This action arises under the Employee Retirement Income Security Act of 1974, \n as amended (\"ERISA\"), 29 U.S.C. §1001, et seq. and is brought by Plaintiff \n Metropolitan Life Insurance Company (\"MetLife\") as an interpleader action \n pursuant to Rule 22 of the Federal Rules of Civil Procedure. \n2. John Robles was married to Ms. Bell. In 2012 Mr. Robles and Ms. Bell executed \n a mediated divorce settlement agreement and a Texas state court issued a Final \n Decree of Divorce (\"Decree\") terminating their marriage. \n3. Mr. Robles passed away July 14, 2020. At the time of his death, he had in place a \n life insurance policy issued through MetLife (\"Policy\") which was an employer \n provided term life insurance policy. \n\n4. At the time of his death, Mr. Robles was married to Ms. Robles. \n5. The Decree, which was still in effect at the time of his death, required Mr. Robles \n to designate Ms. Bell as the beneficiary for the benefit of their two children on any \n employer provided term life policy. This obligation was to continue for as long as \n Mr. Robles was ordered to pay child support under the Decree. At the time of his \n\n death, Mr. Robles was still obligated to continue paying child support to Ms. Bell. \n6. The Decree was a Qualified Domestic Relations Order under ERISA pursuant to \n 29 U.S.C. § 1056(d)(3)(C). Specifically, \n a. The Decree adequately identified the names of the parties to the decree and their \n mailing addresses by providing addresses of the parties' counsel. \n b. The Decree identified the amount or percentage of the participant's benefits to \n be paid to Ms. Bell by the plan as it states that Ms. Bell is to be the sole beneficiary, \n for the benefit of her two children of the employer provided term life insurance \n policy. \n c. The Decree identified the ERISA plan to which is applies as it specifically refers \n to the employer provided term life insurance policy which is the exact type of \n policy issued by Met Life to Mr. Robles. \nMetro. Life Ins. Co. v. Bigelow, 283 F.3d 436, 443 (2d Cir. 2002). Metro. Life Ins. Co. \nv. Cronenwett, 162 F. Supp. 2d 889, 896 (S.D. Ohio 2001). Metro. Life Ins. Co. v. \nValdepena, 2006 U.S. Dist. LEXIS 8010, at *3 (W.D. Tex. 2006). \n7. Less than a month before he died, Mr. Robles submitted a change of beneficiary \n to MetLife, removing Ms. Bell as the beneficiary of the Policy and designating Ms. \n Robles in Ms. Bell's place. \n8. This change of beneficiary violated the express language of the Decree. The \n Decree imposed on Mr. Robles an obligation to maintain Ms. Bell as the \n\n beneficiary on employer provided life insurance policies that he could not \n unilaterally alter. See Etcheverry v. Lankford, 2018 Tex. App. LEXIS 10370, at \n *7 (Tex. App.—Austin Dec. 18, 2018). Texas courts have recognized that \n a divorce decree entered pursuant to an agreement between the parties is not only \n a contract between private individuals but also a judgment of the court. See Ex \n\n parte Gorena, 595 S.W.2d 841, 844 (Tex. 1979). Language in a divorce decree is \n construed in the same manner as other judgments of courts. See Hagen v. Hagen, \n 282 S.W.3d 899, 901 (Tex. 2009) (citing Shanks v. Treadway, 110 S.W.3d 444, \n 447 (Tex. 2003)). \n9. Because the Decree is a Qualified Domestic Relations Order under ERISA, the \n\n change of beneficiary designation was invalid and void. \n10. The Decree is a Qualified Domestic Relations Order under ERISA, as such the \n alleged change of beneficiary submitted by Mr. Robles was not preempted by \n ERISA. Carland v. Metro. Life Ins. Co., 935 F.2d 1114, 1120 (10th Cir. 1991) \n (\"Taken together, sections 1144(b)(7) and 1056(d)(3)(B)(i) of the statute exempt \n\n divorce decrees meeting the statutory requirements from ERISA preemption.\"). \n\n11.Ms. Bell is the sole beneficiary designated in the Policy and is entitled to receive \n the life insurance benefits at issue in this interpleader action for the benefit of the \n children that she shared with Mr. Robles. \n SIGNED at Houston, Texas on February 1, 2023. \n\n GEORGE C. HANKS, JR. \n UNITED STATES DISTRICT JUDGE",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

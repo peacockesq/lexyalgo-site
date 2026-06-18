@@ -1,0 +1,48 @@
+{
+  "document_id": "64021c21-7149-49e4-8a83-3d56c81d2589",
+  "slug": "courtlistener-opinion-2153953-2153953",
+  "title": "CourtListener opinion 2153953",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 2,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 2153953 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "appeal from an order of the circuit court directing the Retirement Board of the Firemen's Annuity and Benefit Fund (Retirement Board), which was made a party to the action for the dissolution of the marriage of Howard and Frances Johnston, to comply with any qualified domestic relations order that might be entered in the future awarding a portion of Howard's pension to Frances for the remainder of her life. Although a motion to dismiss the appeal for lack of jurisdiction was previously denied by this court, we determine today that the appeal must be dismissed for lack of jurisdiction. In 1987, Howard and Frances each filed petitions for the di"
+    },
+    {
+      "label": "pension",
+      "quote": "Benefit Fund (Retirement Board), which was made a party to the action for the dissolution of the marriage of Howard and Frances Johnston, to comply with any qualified domestic relations order that might be entered in the future awarding a portion of Howard's pension to Frances for the remainder of her life. Although a motion to dismiss the appeal for lack of jurisdiction was previously denied by this court, we determine today that the appeal must be dismissed for lack of jurisdiction. In 1987, Howard and Frances each filed petitions for the dissolution of their marriage which were consolidated by agreed order. Howard"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "om an order of the circuit court directing the Retirement Board of the Firemen's Annuity and Benefit Fund (Retirement Board), which was made a party to the action for the dissolution of the marriage of Howard and Frances Johnston, to comply with any qualified domestic relations order that might be entered in the future awarding a portion of Howard's pension to Frances for the remainder of her life. Although a motion to dismiss the appeal for lack of jurisdiction was previously denied by this court, we determine today that the appeal must be dismissed for lack of jurisdiction. In 1987, Howard and Frances each filed petitions for the di"
+    }
+  ],
+  "full_text": "562 N.E.2d 1004 (1990) \n 206 Ill. App.3d 262 \n 150 Ill.Dec. 201 \n In re the MARRIAGE OF Howard E. JOHNSTON, Plaintiff, and \nFrances Johnston, Defendant-Appellee, and \nRetirement Board of the Firemen's Annuity and Benefit Fund of Chicago, Defendant-Appellant. \n No. 1-89-2167. \n Appellate Court of Illinois, First District, Third Division. \n October 10, 1990. \n As Modified on Denial of Rehearing January 2, 1991. \n Fagel, Haber & Maragos, Chicago (Maynard B. Russell, Alvin D. Meyers, Steven J. Teplinsky, of counsel), for appellant. \n Williston, McGibbon and Kuehn, Barrington, Theodore G. Karavidas, for plaintiff-appellee. \n Doss, Puchalski, & Keenan, Ltd., Chicago (Owen L. Doss, Joseph D. Kennan, III, James M. Forkins, of counsel), for defendant-appellee. \n \n MODIFIED OPINION UPON DENIAL OF REHEARING \n Presiding Justice CERDA delivered the opinion of the court: \n This is an appeal from an order of the circuit court directing the Retirement Board of the Firemen's Annuity and Benefit Fund (Retirement Board), which was made a party to the action for the dissolution of the marriage of Howard and Frances Johnston, to comply with any qualified domestic relations order that might be entered in the future awarding a portion of Howard's pension to Frances for the remainder of her life. Although a motion to dismiss the appeal for lack of jurisdiction was previously denied by this court, we determine today that the appeal must be dismissed for lack of jurisdiction. \n In 1987, Howard and Frances each filed petitions for the dissolution of their marriage which were consolidated by agreed order. Howard was a retired Chicago firefighter who had been receiving annuity payments since January 18, 1986, from the Firemen's Annuity and Benefit Fund pursuant to the Illinois Pension Code (Ill.Rev. *1005 Stat.1987",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

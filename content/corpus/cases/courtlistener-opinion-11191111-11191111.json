@@ -1,0 +1,40 @@
+{
+  "document_id": "3b5e912b-7b22-474a-bb27-7765121db18d",
+  "slug": "courtlistener-opinion-11191111-11191111",
+  "title": "CourtListener opinion 11191111",
+  "citation": "domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 0,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 11191111 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "domestic relations order",
+      "quote": "lication, which is hereby REINSTATED. Furthermore, it appears that the juvenile court's order is directly appealable. This case is a dependency proceeding – what used to be called \"deprivation\" under the old juvenile code. See OCGA § 15-11-2 (22). Although a domestic relations order or an order terminating parental rights is subject to the discretionary appeal procedures, a dependency or deprivation finding may be appealed directly. See OCGA § 5-6-35 (a) (2) & (12); In the Interest of J. P., 267 Ga. 492, 493 (480 SE2d 8) (1997) (deprivation/dependency cases do not fall within the purview of OCGA § 5-6-35 (a) (2) and therefore are direc"
+    }
+  ],
+  "full_text": "Court of Appeals\nof the State of Georgia\n\n ATLANTA,____________________\n July 26, 2017\n\nThe Court of Appeals hereby passes the following order:\n\nA17D0472. IN THE INTEREST OF D. L. et al., CHILDREN.\n\n The parents of minor children D. L., Z. S., and M. S. filed an application for\ndiscretionary review, seeking to challenge the juvenile court's order finding the\nchildren dependent, scheduling a disposition hearing, ordering that the children\nremain in the parents' custody subject to a protective order, and requesting a guardian\nad litem report. We dismissed the application as untimely. However, the parents have\npresented evidence in their motion for reconsideration showing that the application\nwas timely filed. Accordingly, we GRANT the motion for reconsideration and\nVACATE our June 26, 2017 order dismissing the application, which is hereby\nREINSTATED.\n Furthermore, it appears that the juvenile court's order is directly appealable.\nThis case is a dependency proceeding – what used to be called \"deprivation\" under\nthe old juvenile code. See OCGA § 15-11-2 (22). Although a domestic relations order\nor an order terminating parental rights is subject to the discretionary appeal\nprocedures, a dependency or deprivation finding may be appealed directly. See\nOCGA § 5-6-35 (a) (2) & (12); In the Interest of J. P., 267 Ga. 492, 493 (480 SE2d\n8) (1997) (deprivation/dependency cases do not fall within the purview of OCGA §\n5-6-35 (a) (2) and therefore are directly appealable); In the Interest of W. P. B., 269\nGa. App. 101 (1) (603 SE2d 454) (2004). This includes interlocutory orders in\ndependency cases deciding temporary custody of children. See In the Interest of S. J.,\n270 Ga. App. 598, 608 (1) (a) (607 SE2d 225) (2004) (interim order within a\ndependency/deprivation proceeding that decides temporary custody of the child is a\n\"final order\" within the meaning of OCGA § 5-6-34 (a) (1) and may be appealed\n directly). The parents, therefore, were not required to file a discretionary application\nin this case.\n We will grant an otherwise timely discretionary application if the lower court's\norder is subject to direct appeal. See OCGA § 5-6-35 (j). Accordingly, the parents'\napplication is hereby GRANTED. The parents shall have ten days from the date of\nthis order to file a notice of appeal with the juvenile court. If, however, they have\nalready filed a notice of appeal, they need not file a second notice. The clerk of the\njuvenile court is DIRECTED to include a copy of this order in the record transmitted\nto the Court of Appeals.\n\n Court of Appeals of the State of Georgia\n Clerk's Office, Atlanta,____________________\n 07/26/2017\n I certify that the above is a true extract from\n the minutes of the Court of Appeals of Georgia.\n Witness my signature and the seal of said court\n hereto affixed the day and year last above written.\n\n , Clerk.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

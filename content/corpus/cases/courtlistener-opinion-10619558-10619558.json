@@ -1,0 +1,52 @@
+{
+  "document_id": "a291600f-506c-431a-a8b5-ffe4f8fa81ad",
+  "slug": "courtlistener-opinion-10619558-10619558",
+  "title": "CourtListener opinion 10619558",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "ERISA / defined contribution issues",
+  "signals": {
+    "QDRO": 4,
+    "retirement benefits": 3,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 1,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 10619558 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to ERISA / defined contribution issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "lson, of Wilson & Englebardt, LLC, of Greenville, for Respondent. PER CURIAM: Appellant Sharon S. McMillan (Wife) appeals the family court's order interpreting a divorce decree's provision for the equitable division of a retirement account and the resulting qualified domestic relations order (QDRO) the family court signed. Wife argues the family court erred in issuing a QDRO more than ten years after the entry of the divorce decree. Wife also argues that even if issuing the QDRO was proper, the family court erred in its interpretation of the division of the retirement account. Finally, Wife argues the family court erred in excluding witness te"
+    },
+    {
+      "label": "retirement benefits",
+      "quote": "ville, for Appellant. David Alan Wilson, of Wilson & Englebardt, LLC, of Greenville, for Respondent. PER CURIAM: Appellant Sharon S. McMillan (Wife) appeals the family court's order interpreting a divorce decree's provision for the equitable division of a retirement account and the resulting qualified domestic relations order (QDRO) the family court signed. Wife argues the family court erred in issuing a QDRO more than ten years after the entry of the divorce decree. Wife also argues that even if issuing the QDRO was proper, the family court erred in its interpretation of the division of the retirement account. Finally, Wife"
+    },
+    {
+      "label": "401(k)",
+      "quote": "er dated July 1, 2010 (Divorce Decree), the family court granted Wife and Respondent David A. Miller (Husband) a divorce. In the same order, the family court ordered Wife's South Carolina Retirement account (PEBA Account) and Husband's American Funds account (401(k) Account) be \\equally divided"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "ilson & Englebardt, LLC, of Greenville, for Respondent. PER CURIAM: Appellant Sharon S. McMillan (Wife) appeals the family court's order interpreting a divorce decree's provision for the equitable division of a retirement account and the resulting qualified domestic relations order (QDRO) the family court signed. Wife argues the family court erred in issuing a QDRO more than ten years after the entry of the divorce decree. Wife also argues that even if issuing the QDRO was proper, the family court erred in its interpretation of the division of the retirement account. Finally, Wife argues the family court erred in excluding witness te"
+    }
+  ],
+  "full_text": "THIS OPINION HAS NO PRECEDENTIAL VALUE. IT SHOULD NOT BE\n CITED OR RELIED ON AS PRECEDENT IN ANY PROCEEDING\n EXCEPT AS PROVIDED BY RULE 268(d)(2), SCACR.\n\n THE STATE OF SOUTH CAROLINA\n In The Court of Appeals\n\n David A. Miller, Respondent,\n\n v.\n\n Sharon S. McMillan (f.k.a. Sharon S. Miller), Appellant.\n\n Appellate Case No. 2021-000110\n\n Appeal from Spartanburg County\n Timothy E. Madden, Family Court Judge\n\n Unpublished Opinion No. 2024-UP-010\n Submitted December 1, 2023 – Filed January 3, 2024\n\n AFFIRMED\n\n Brian W. King, of King Law Offices, of Forest City,\n North Carolina, Caleb Timothy Davis, of King Law\n Offices, of Greer, and Gabriella Faith Morillo, of King\n Law Offices, of Greenville, for Appellant.\n\n David Alan Wilson, of Wilson & Englebardt, LLC, of\n Greenville, for Respondent.\n\nPER CURIAM: Appellant Sharon S. McMillan (Wife) appeals the family court's\norder interpreting a divorce decree's provision for the equitable division of a\nretirement account and the resulting qualified domestic relations order (QDRO) the\n family court signed. Wife argues the family court erred in issuing a QDRO more\nthan ten years after the entry of the divorce decree. Wife also argues that even if\nissuing the QDRO was proper, the family court erred in its interpretation of the\ndivision of the retirement account. Finally, Wife argues the family court erred in\nexcluding witness testimony. We affirm.\n\n FACTS\n\n In an order dated July 1, 2010 (Divorce Decree), the family court granted Wife\nand Respondent David A. Miller (Husband) a divorce. In the same order, the family\ncourt ordered Wife's South Carolina Retirement account (PEBA Account) and\nHusband's American Funds account (401(k) Account) be \\equally divided",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

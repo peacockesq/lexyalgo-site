@@ -1,0 +1,48 @@
+{
+  "document_id": "cef3d33c-ffe4-4a9d-a580-b7150235c6c7",
+  "slug": "courtlistener-opinion-3343623-3343623",
+  "title": "CourtListener opinion 3343623",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 4,
+    "retirement benefits": 0,
+    "pension": 7,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 3343623 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "ed on December 13, 1993, the husband had $92,314.91 and the wife had $19,798.71 vested in their respective teacher pension accounts. The court ordered the husband to assign to the wife the amount necessary to equalize them as of the date of judgment through a Qualified Domestic Relations Order (QDRO). It was the court's intention to have the Teachers Retirement Board transfer a sum certain from the husband's account to the wife's account so that both accounts would be equalized as of the date of judgment. In short, the court intended for the Teachers Board to transfer $36,257.62 (.392764) from the husband's account to the wife's account so that e"
+    },
+    {
+      "label": "pension",
+      "quote": "OPEN JUDGMENT On January 19, 1994, this court granted the above motion for the limited purpose of clarification of two orders entered in a judgment of dissolution entered on December 13, 1993 (Petroni, J.): 1. equalization of the plaintiff's (wife) teachers pension account, and, 2. a credit of $16,000.00 to plaintiff (wife) from the defendant's share of the equity in the marital home. At the hearing on January 19, 1994, the defendant husband conceded a $13,000.00 credit for a gift made to a friend from a $45,000.00 home equity loan which he alone obtained. His attorney argued that $3,000.00 was used for their daug"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "mber 13, 1993, the husband had $92,314.91 and the wife had $19,798.71 vested in their respective teacher pension accounts. The court ordered the husband to assign to the wife the amount necessary to equalize them as of the date of judgment through a Qualified Domestic Relations Order (QDRO). It was the court's intention to have the Teachers Retirement Board transfer a sum certain from the husband's account to the wife's account so that both accounts would be equalized as of the date of judgment. In short, the court intended for the Teachers Board to transfer $36,257.62 (.392764) from the husband's account to the wife's account so that e"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] \nMEMORANDUM OF DECISION ON MOTION TO REOPEN JUDGMENT\nOn January 19, 1994, this court granted the above motion for the limited purpose of clarification of two orders entered in a judgment of dissolution entered on December 13, 1993 (Petroni, J.): \n 1. equalization of the plaintiff's (wife) teachers pension account, and, \n 2. a credit of $16,000.00 to plaintiff (wife) from the defendant's share of the equity in the marital home. \n At the hearing on January 19, 1994, the defendant husband conceded a $13,000.00 credit for a gift made to a friend from a $45,000.00 home equity loan which he alone obtained. His attorney argued that $3,000.00 was used for their daughter's college tuition and not his own personal needs. At trial, the husband conceded that the wife contributed approximately $160,000.00 from her own funds for the college tuitions for both daughters. She did not seek any credit from the husband. The court is not persuaded by the husband's argument, and the $16,000.00 credit to the wife is confirmed. \n At the time the dissolution judgment was entered on December 13, 1993, the husband had $92,314.91 and the wife had $19,798.71 vested in their respective teacher pension accounts. The court ordered the husband to assign to the wife the amount necessary to equalize them as of the date of judgment through a Qualified Domestic Relations Order (QDRO). It was the court's intention to have the Teachers Retirement Board transfer a sum certain from the husband's account to the wife's account so that both accounts would be equalized as of the date of judgment. In short, the court intended for the Teachers Board to transfer $36,257.62 (.392764) from the husband's account to the wife's account so that each account would have an equal amount of $49,661.17 as of December 13, 1993. CT Page 1751 \n Subsequent to the judgment, counsel advised the court that Mr. John R. Shears, Administrator of the State Teachers Retirement Fund, would find it difficult to implement the QDRO as ordered. The parties agreed to have him attend the hearing on this motion to assist the court in implementing the QDRO as ordered. This witness had previously testified at the dissolution trial on November 10, 1993. \n In his testimony, confirmed by his letter dated October 20, 1993 (court's exhibit 1, 1/19/94), Mr. Shears stated that, the husband had 25 years of credited service to his account as of June 30, 1993, therefore, he is eligible to retire now at age 50 and would receive a monthly pension of $1,429.95. If the defendant deferred his retirement for ten years, to November 1, 2003 without working, he would be entitled to a monthly pension of $2,859.90, double the current benefit. Mr. Shears would not speculate on the husband's benefits if he continued to work as a teacher or school administrator because it would depend on certain assumptions he could not make. In his letter of October 20, 1993, relating to the husband's pension, Mr. Shears stated: \n \\The value of the above pension benefit depends on assumptions as to investment earnings and life expectancy. The value of pension benefits as of any future date also depends on assumptions as to continued employment and salaries. We are not prepared to make such assumptions.\\\" (Plaintiff's exhibit C",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

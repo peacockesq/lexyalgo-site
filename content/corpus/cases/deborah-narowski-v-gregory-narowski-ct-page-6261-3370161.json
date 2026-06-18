@@ -1,0 +1,48 @@
+{
+  "document_id": "b9f4db3b-79f6-4b2f-b5e7-5113cc0c170e",
+  "slug": "deborah-narowski-v-gregory-narowski-ct-page-6261-3370161",
+  "title": "Deborah Narowski v. Gregory Narowski. Ct Page 6261",
+  "citation": "qualified domestic relations order",
+  "source_url": "https://www.courtlistener.com/opinion/3374618/narowski-v-narowski-no-fa00-0071932s-may-17-2002/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "2002-05-17",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "ERISA / defined contribution issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 2,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: Deborah Narowski v. Gregory Narowski. Ct Page 6261 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to ERISA / defined contribution issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "ch party is entitled. The wife is to retain her two Janey Montgomery Scott accounts and her two Oppenheimer Fund accounts totaling $42,683.69. In order to accomplish the court ordered division, the husband is to immediately transfer to the wife, pursuant to a qualified domestic relations order, the sum of $46,430.71 from his 401 K plan. CUTSUMPAS, J."
+    },
+    {
+      "label": "401(k)",
+      "quote": "(wife's account) 1,939.90 &#8226; Janey Montgomery Scott (wife's account) 24,789.83 &#8226; Oppenheimer Fund (wife's account) 14,238.73 &#8226; Oppenheimer Fund (wife's account) 1,715.23 &#8226; Paine Webber (husband's account) 15,863.87 &#8226; UTC 401k plan (husband's account) 119,681.24 Total $178,228.80 One half of the above total equals $89,114.40, the amount to which each party is entitled. The wife is to retain her two Janey Montgomery Scott accounts and her two Oppenheimer Fund accounts totaling $42,683.69. In order to accomplish the court ordered division, the husband is to immediately transfer"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "s entitled. The wife is to retain her two Janey Montgomery Scott accounts and her two Oppenheimer Fund accounts totaling $42,683.69. In order to accomplish the court ordered division, the husband is to immediately transfer to the wife, pursuant to a qualified domestic relations order, the sum of $46,430.71 from his 401 K plan. CUTSUMPAS, J."
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] ORDERS \nMotion #161 entitled Motion for Contempt is denied. \n Motion #158 entitled Motion for Order is granted as follows. \n The parties agreed, in their separation agreement which was made an order of the court, to equally divide their deferred compensation accounts with the value to be determined as of the dissolution of marriage date or the date closest to said date. The court finds from the evidence presented that there were six such accounts in existence on said date with the values as listed: \n &#8226; Janey Montgomery Scott (wife's account) 1,939.90 \n &#8226; Janey Montgomery Scott (wife's account) 24,789.83 \n &#8226; Oppenheimer Fund (wife's account) 14,238.73 \n &#8226; Oppenheimer Fund (wife's account) 1,715.23 \n &#8226; Paine Webber (husband's account) 15,863.87 \n &#8226; UTC 401k plan (husband's account) 119,681.24 \n Total $178,228.80 \n One half of the above total equals $89,114.40, the amount to which each party is entitled. The wife is to retain her two Janey Montgomery Scott accounts and her two Oppenheimer Fund accounts totaling $42,683.69. In order to accomplish the court ordered division, the husband is to immediately transfer to the wife, pursuant to a qualified domestic relations order, the sum of $46,430.71 from his 401 K plan. \n CUTSUMPAS, J.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

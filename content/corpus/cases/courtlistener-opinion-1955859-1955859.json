@@ -1,0 +1,48 @@
+{
+  "document_id": "8660772a-9f78-44c5-af91-80786826c7e8",
+  "slug": "courtlistener-opinion-1955859-1955859",
+  "title": "CourtListener opinion 1955859",
+  "citation": "qualified domestic relations order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 0,
+    "pension": 4,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 1955859 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "ses the question whether a person divorced before 1985 can be awarded direct survivorship benefits in a former spouse's vested pension plan absent provision in the original judgment. Plaintiff appeals from a Macomb Circuit Court order denying her motion for a qualified domestic relations order (QDRO) containing survivorship benefits and for modification of her judgment of divorce. On appeal, plaintiff argues that the court erred in failing to amend the divorce judgment and in refusing to enter the QDRO. She asserts, also, that the court erred in denying her motion for rehearing, because it was misled by defendant's attorney. We affirm. THE FACT"
+    },
+    {
+      "label": "pension",
+      "quote": "sopi ), for the plaintiff. Before: MICHAEL J. KELLY, P.J., and MARILYN KELLY and CONNOR, JJ. MARILYN KELLY, J. This case addresses the question whether a person divorced before 1985 can be awarded direct survivorship benefits in a former spouse's vested pension plan absent provision in the original judgment. Plaintiff appeals from a Macomb Circuit Court order denying her motion for a qualified domestic relations order (QDRO) containing survivorship benefits and for modification of her judgment of divorce. On appeal, plaintiff argues that the court erred in failing to amend the divorce judgment and in refusing to e"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "estion whether a person divorced before 1985 can be awarded direct survivorship benefits in a former spouse's vested pension plan absent provision in the original judgment. Plaintiff appeals from a Macomb Circuit Court order denying her motion for a qualified domestic relations order (QDRO) containing survivorship benefits and for modification of her judgment of divorce. On appeal, plaintiff argues that the court erred in failing to amend the divorce judgment and in refusing to enter the QDRO. She asserts, also, that the court erred in denying her motion for rehearing, because it was misled by defendant's attorney. We affirm. THE FACT"
+    }
+  ],
+  "full_text": "201 Mich. App. 563 (1993) \n 506 N.W.2d 900 \n ROTH \nv. \nROTH \n Docket No. 138031. \n Michigan Court of Appeals. \n Submitted March 3, 1993, at Lansing. \n Decided September 20, 1993, at 9:40 A.M. \n Serra & Isopi, P.C. (by Susan Isopi ), for the plaintiff. \n Before: MICHAEL J. KELLY, P.J., and MARILYN KELLY and CONNOR, JJ. \n MARILYN KELLY, J. \n This case addresses the question whether a person divorced before 1985 can be awarded direct survivorship benefits in a former spouse's vested pension plan absent provision in the original judgment. Plaintiff appeals from a Macomb Circuit Court order denying her motion for a qualified domestic relations order (QDRO) containing survivorship benefits and for modification of her judgment of divorce. On appeal, plaintiff argues that the court erred in failing to amend the divorce judgment and in refusing to enter the QDRO. She asserts, also, that the court erred in denying her motion for rehearing, because it was misled by defendant's attorney. We affirm. \n THE FACTS \n The parties were divorced on December 13, 1983, following a twenty-three-year marriage. Plaintiff was awarded a portion of defendant's pension. Specifically, the judgment provided she receive: \n C. A 50% interest in the present value of defendant's pension plan with the Sheet Metal Workers Local Union No. 80, subject to the terms and conditions set forth herein. \n 1. Plaintiff shall have no interest in any future *565 contribution made by defendant or his employer to defendant's pension plan subsequent to the date of this Judgment.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

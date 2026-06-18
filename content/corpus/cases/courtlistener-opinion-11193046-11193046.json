@@ -1,0 +1,44 @@
+{
+  "document_id": "a4838050-ddcc-4dc6-a4dd-12527f3dd42e",
+  "slug": "courtlistener-opinion-11193046-11193046",
+  "title": "CourtListener opinion 11193046",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": null,
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": null,
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 2,
+  "family_law_relevance": 5,
+  "plan_legal_category": "QDRO procedure / domestic relations order issues",
+  "signals": {
+    "QDRO": 3,
+    "retirement benefits": 0,
+    "pension": 0,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: CourtListener opinion 11193046 is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to QDRO procedure / domestic relations order issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 2/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "er 08, 2022 The Court of Appeals hereby passes the following order: A23A0250. FERDINAND FARLEY, SR. v. BRENDA PARHAM FARLEY n/k/a BRENDA PARHAM MURRAY. Ferdinand Farley, Sr., (\"Farley\") filed a petition for declaratory judgment seeking clarification of a Qualified Domestic Relations Order (\"QDRO\") entered following his divorce from Brenda Parham Farley n/k/a Brenda Parham Murray. The trial court entered an order finding the QDRO unambiguous, and Farley appeals.1 We, however, lack jurisdiction. Appeals from \"judgments or orders in divorce, alimony, and other domestic relations cases\" must be made by application for discretionary appeal. OCGA"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "2 The Court of Appeals hereby passes the following order: A23A0250. FERDINAND FARLEY, SR. v. BRENDA PARHAM FARLEY n/k/a BRENDA PARHAM MURRAY. Ferdinand Farley, Sr., (\"Farley\") filed a petition for declaratory judgment seeking clarification of a Qualified Domestic Relations Order (\"QDRO\") entered following his divorce from Brenda Parham Farley n/k/a Brenda Parham Murray. The trial court entered an order finding the QDRO unambiguous, and Farley appeals.1 We, however, lack jurisdiction. Appeals from \"judgments or orders in divorce, alimony, and other domestic relations cases\" must be made by application for discretionary appeal. OCGA"
+    }
+  ],
+  "full_text": "Court of Appeals\nof the State of Georgia\n\n ATLANTA,____________________\n September 08, 2022\n\nThe Court of Appeals hereby passes the following order:\n\nA23A0250. FERDINAND FARLEY, SR. v. BRENDA PARHAM FARLEY n/k/a\n BRENDA PARHAM MURRAY.\n\n Ferdinand Farley, Sr., (\"Farley\") filed a petition for declaratory judgment\nseeking clarification of a Qualified Domestic Relations Order (\"QDRO\") entered\nfollowing his divorce from Brenda Parham Farley n/k/a Brenda Parham Murray. The\ntrial court entered an order finding the QDRO unambiguous, and Farley appeals.1 We,\nhowever, lack jurisdiction.\n Appeals from \"judgments or orders in divorce, alimony, and other domestic\nrelations cases\" must be made by application for discretionary appeal. OCGA §\n5-6-35 (a) (2). And \"where, as here, the underlying subject matter of a lawsuit relates\nto such rights and obligations [arising from a divorce decree], and the parties are the\nex-spouses . . . , the case involves domestic relations and compliance with OCGA §\n5-6-35 is the exclusive means by which to appeal the final order in the action.\"\nWalker v. Estate of Mays, 279 Ga. 652, 653 (1) (619 SE2d 679) (2005). \"The fact that\nthe particular vehicle used to obtain the judgment was an action for declaratory\njudgment makes no difference because the subject matter was domestic relations and\nthe judgment is one entered in a domestic relations case.\" Weaver v. Jones, 260 Ga.\n493, 493-494 (2) (396 SE2d 890) (1990).\n\n 1\n Farley appealed to the Supreme Court, which transferred the matter to this\nCourt. See Case No. S22A1284 (Aug. 9, 2022).\n Farley's failure to follow the requisite procedure deprives this Court of\njurisdiction to consider this appeal. See Yanes v. Escobar, 362 Ga. App. 896, 898\n(870 SE2d 506) (2022). Accordingly, this appeal is hereby DISMISSED.\n\n Court of Appeals of the State of Georgia\n Clerk's Office, Atlanta,____________________\n 09/08/2022\n I certify that the above is a true extract from\n the minutes of the Court of Appeals of Georgia.\n Witness my signature and the seal of said court\n hereto affixed the day and year last above written.\n\n , Clerk.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}

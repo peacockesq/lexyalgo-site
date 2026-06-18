@@ -1,0 +1,48 @@
+{
+  "document_id": "75066ddd-a138-4d6e-9517-01cfb7a623a2",
+  "slug": "mary-ann-o-brien-v-terrence-j-o-brien-3360239",
+  "title": "Mary Ann O'Brien v. Terrence J. O'Brien",
+  "citation": "Qualified Domestic Relations Order",
+  "source_url": "https://www.courtlistener.com/opinion/3364704/obrien-v-obrien-no-75159-dec-4-1996/",
+  "source_type": "courtlistener_qdro_opinion_full_text",
+  "source_permissions": "public",
+  "jurisdiction": "US",
+  "state_code": null,
+  "court": null,
+  "date_published": "1996-12-04",
+  "strict_qdro_relevance": 5,
+  "retirement_division_relevance": 5,
+  "family_law_relevance": 5,
+  "plan_legal_category": "pension / defined benefit issues",
+  "signals": {
+    "QDRO": 1,
+    "retirement benefits": 0,
+    "pension": 4,
+    "ERISA": 0,
+    "401(k)": 0,
+    "alternate payee": 0,
+    "domestic relations order": 1,
+    "survivor benefits": 0,
+    "valuation/division": 0
+  },
+  "generated_headnote": "Machine-draft public headnote: Mary Ann O'Brien v. Terrence J. O'Brien is included in the LexyCorpus QDRO sample set as a public CourtListener opinion with relevance to pension / defined benefit issues. The current annotation is conservative: it identifies source provenance, relevance signals, and evidence quotes for attorney/agent retrieval. It is not a Willie-approved legal headnote yet.",
+  "generated_holding": "Draft retrieval summary: this opinion has QDRO relevance score 5/5, retirement-division score 5/5, and family-law score 5/5. Use the quoted text and full opinion below before relying on the case.",
+  "evidence_quotes": [
+    {
+      "label": "QDRO",
+      "quote": "e UTC pension. 5. The sum of sixty thousand dollars shall be assigned to the defendant from the plaintiff s Aetna ISP account together with all interest accrued form the date of judgment to the date of distribution. The court retains jurisdiction to enter a Qualified Domestic Relations Order to effectuate this transfer. 6. The defendant is awarded his savings plan and credit union accounts. 7. The plaintiff shall retain her Shawmut accounts, Aetna stocks, credit union account, certificates of deposit and her interest in real estate located in Pittsburgh 8. The plaintiff shall pay to the defendant by way of property settlement $20,000.00 n"
+    },
+    {
+      "label": "pension",
+      "quote": "e property and deliver it to the plaintiff within two weeks. The plaintiff shall be responsible for and shall hold the defendant harmless on the first and second mortgages and on all other costs associated with the home 2. The plaintiff is awarded the AETNA pension. 3. The plaintiff is awarded the Veteran's Administration pension. 4. The defendant is awarded the UTC pension. 5. The sum of sixty thousand dollars shall be assigned to the defendant from the plaintiff s Aetna ISP account together with all interest accrued form the date of judgment to the date of distribution. The court retains jurisdiction to enter"
+    },
+    {
+      "label": "domestic relations order",
+      "quote": "ion. 5. The sum of sixty thousand dollars shall be assigned to the defendant from the plaintiff s Aetna ISP account together with all interest accrued form the date of judgment to the date of distribution. The court retains jurisdiction to enter a Qualified Domestic Relations Order to effectuate this transfer. 6. The defendant is awarded his savings plan and credit union accounts. 7. The plaintiff shall retain her Shawmut accounts, Aetna stocks, credit union account, certificates of deposit and her interest in real estate located in Pittsburgh 8. The plaintiff shall pay to the defendant by way of property settlement $20,000.00 n"
+    }
+  ],
+  "full_text": "[EDITOR'S NOTE: This case is unpublished as indicated by the issuing court.] MEMORANDUM OF DECISION \nThe parties were married on July 18, 1964 at Pittsburgh, Pennsylvania. CT Page 7359 \n All jurisdictional requirements have been met. \n The parties have no minor children issue of the marriage. \n The marriage of the parties has broken down irretrievably and the same is hereby dissolved. \n The court has considered the evidence presented by the parties and all the statutory criteria contained in Conn. Gen. Stat. Secs 46b-81 and 46b-82 and enters the following orders: \n 1. All right title and interest in the family home located at 116 Meeting House Hill Rd. Durham, Connecticut is awarded to the plaintiff. The defendant shall execute a quit-claim deed transferring his interest in the property and deliver it to the plaintiff within two weeks. The plaintiff shall be responsible for and shall hold the defendant harmless on the first and second mortgages and on all other costs associated with the home \n 2. The plaintiff is awarded the AETNA pension. \n 3. The plaintiff is awarded the Veteran's Administration pension. \n 4. The defendant is awarded the UTC pension. \n 5. The sum of sixty thousand dollars shall be assigned to the defendant from the plaintiff s Aetna ISP account together with all interest accrued form the date of judgment to the date of distribution. The court retains jurisdiction to enter a Qualified Domestic Relations Order to effectuate this transfer. \n 6. The defendant is awarded his savings plan and credit union accounts. \n 7. The plaintiff shall retain her Shawmut accounts, Aetna stocks, credit union account, certificates of deposit and her interest in real estate located in Pittsburgh \n 8. The plaintiff shall pay to the defendant by way of property settlement $20,000.00 no later than five years from the date of judgment. \n 9. The defendant shall retain his ownership interest in the CT Page 7360 vehicles listed on his financial affidavit. \n 10. The plaintiff shall retain the ownership interest in the vehicles listed on her financial affidavit \n 11. Each party shall pay to the other $1.00 per year as alimony. This award is based on the income displayed on the financial affidavits of the parties and does not contemplate the unemployment of either party \n 12. The defendant is awarded the bicycle he requested, the chain saw, trimmer, chipper, air compressor, reloading equipment and 1860 map of the United States. The plaintiff shall retain all other contents of the marital home. \n 13. Each party shall have the right to the survivor's benefit on the other's remaining pension interest and the court retains jurisdiction to enter a QUDRO. \n BY THE COURT ELAINE GORDON, J.",
+  "status": "machine_draft_public_v0",
+  "review_status": "gold_label_pending",
+  "generated_at": "2026-05-14T22:43:19.241891+00:00"
+}
