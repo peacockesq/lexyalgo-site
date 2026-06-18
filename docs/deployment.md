@@ -100,17 +100,17 @@ If `DEPLOY_CONTAINER` is not set, the workflow replaces the configured host path
 
 Set `DEPLOY_PATH` to the directory the web server already serves for that hostname.
 
-## Contact form activation
+## Contact form delivery
 
-The `/contact` page now posts to `https://formsubmit.co/hello@lexyalgo.com` so the static site has a real delivery path without adding server infrastructure. The form includes the FormSubmit honeypot (`_honey`) plus an explicit `_url=https://lexyalgo.com/contact` source marker so mailbox reviewers can tie activation/delivery mail back to the live page.
+The `/contact` page submits through the FormSubmit AJAX endpoint from a client component so static HTML does not expose a destination mailbox in a form action. The form includes the FormSubmit honeypot (`_honey`) plus an explicit `_url=https://lexyalgo.com/contact` source marker so mailbox reviewers can tie activation/delivery mail back to the live page.
 
-After the first live submission, FormSubmit will send an activation email to `hello@lexyalgo.com`. Someone with inbox access must click that activation link once before future submissions will deliver normally.
+If FormSubmit returns an activation or non-OK response, the client-side form shows a failure message instead of sending the visitor to the thank-you page. Only successful AJAX responses redirect to `/contact/thanks`.
 
 Contact form checks after deploy:
 
 1. Submit a test message on `/contact`
 2. Confirm the browser lands on `/contact/thanks`
-3. Confirm the activation email or submission email arrives in `hello@lexyalgo.com`
+3. Confirm the activation email or submission email arrives in the destination mailbox
 4. If activation was required, click it and repeat one more test submission
 5. Confirm the honeypot field stays empty in the delivered message and CAPTCHA challenged the browser as expected
 

@@ -1,11 +1,9 @@
+import { ContactForm } from '@/components/ContactForm'
+
 const contactInfo = [
   { label: 'Address', value: '1174 Whitney Avenue\nHamden, CT 06517-3432', icon: '📍' },
   { label: 'Response times', value: 'We usually reply within 1 to 2 business days.', icon: '⏱️' },
 ]
-
-const formAction = 'https://formsubmit.co/hello@lexyalgo.com'
-const contactPageUrl = 'https://lexyalgo.com/contact'
-const thankYouUrl = 'https://lexyalgo.com/contact/thanks'
 
 export default function ContactPage() {
   return (
@@ -40,88 +38,7 @@ export default function ContactPage() {
           </div>
 
           <div className="lg:col-span-2">
-            <form
-              action={formAction}
-              method="POST"
-              className="bg-white rounded-2xl border border-slate-200 p-8 sm:p-10 space-y-6"
-            >
-              <div className="rounded-2xl border border-teal/20 bg-teal/5 p-5">
-                <p className="text-sm font-semibold text-slate-900">Send us a message</p>
-                <p className="mt-2 text-sm text-slate-700">
-                  Use the form below for product questions, feedback, partnerships, or press inquiries. Please do not include confidential case details here.
-                </p>
-              </div>
-
-              <input type="hidden" name="_subject" value="New LexyAlgo contact form submission" />
-              <input type="hidden" name="_next" value={thankYouUrl} />
-              <input type="hidden" name="_url" value={contactPageUrl} />
-              <input type="hidden" name="_template" value="table" />
-              <input type="text" name="_honey" className="hidden" tabIndex={-1} autoComplete="off" />
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-slate-700 mb-2">Name</label>
-                  <input
-                    id="name"
-                    name="name"
-                    type="text"
-                    placeholder="Your name"
-                    className="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-teal/20 focus:border-teal"
-                    required
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-slate-700 mb-2">Email</label>
-                  <input
-                    id="email"
-                    name="email"
-                    type="email"
-                    placeholder="you@email.com"
-                    className="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-teal/20 focus:border-teal"
-                    required
-                  />
-                </div>
-              </div>
-
-              <div>
-                <label htmlFor="subject" className="block text-sm font-medium text-slate-700 mb-2">Subject</label>
-                <select
-                  id="subject"
-                  name="topic"
-                  className="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-teal/20 focus:border-teal text-slate-700"
-                  defaultValue="General inquiry"
-                >
-                  <option>General inquiry</option>
-                  <option>Calculator question</option>
-                  <option>Product feedback</option>
-                  <option>Partnership / integration</option>
-                  <option>Press / media</option>
-                  <option>Other</option>
-                </select>
-              </div>
-
-              <div>
-                <label htmlFor="message" className="block text-sm font-medium text-slate-700 mb-2">Message</label>
-                <textarea
-                  id="message"
-                  name="message"
-                  rows={6}
-                  placeholder="How can we help?"
-                  className="w-full px-4 py-3 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-teal/20 focus:border-teal resize-none"
-                  required
-                />
-              </div>
-
-              <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-                <button
-                  type="submit"
-                  className="inline-flex items-center justify-center rounded-xl bg-teal px-8 py-3 font-semibold text-white shadow-sm shadow-teal/20 transition-all hover:bg-[#12434D] active:scale-[0.98]"
-                >
-                  Send message
-                </button>
-                <p className="text-sm text-slate-500">We usually reply within 1 to 2 business days.</p>
-              </div>
-            </form>
+            <ContactForm />
           </div>
         </div>
       </section>

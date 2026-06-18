@@ -12,7 +12,7 @@ export default function ContactThanksPage() {
           A LexyAlgo team member should reply within one business day.
         </p>
         <p className="mt-3 text-sm text-slate-500">
-          If you do not hear back, email hello@lexyalgo.com directly.
+          Please use the contact form again if you need to send additional context.
         </p>
         <div className="mt-8">
           <a

@@ -8,6 +8,7 @@
     "build": "tinacms build --local --skip-cloud-checks && next build",
     "start": "next start",
     "lint": "tsc --noEmit -p tsconfig.lint.json",
+    "test:contact-form": "node scripts/check-contact-form-privacy.mjs",
     "verify:shared-auth-links": "node scripts/verify-shared-auth-links.mjs"
   },
   "keywords": [],
