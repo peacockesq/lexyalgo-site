@@ -9,6 +9,7 @@
     "start": "next start",
     "lint": "tsc --noEmit -p tsconfig.lint.json",
     "test:contact-form": "node scripts/check-contact-form-privacy.mjs",
+    "verify:runtime": "node scripts/verify-static-runtime.mjs",
     "verify:shared-auth-links": "node scripts/verify-shared-auth-links.mjs",
     "postinstall": "node scripts/patch-tinacms-vite-define.mjs"
   },

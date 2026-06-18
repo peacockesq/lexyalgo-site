@@ -2,13 +2,13 @@
 
 ## Current hosting shape
 
-Known production proof from issue tracking and live Hostinger inspection:
+Known production/staging proof from the 2026-06-18 read-only runtime inventory:
 
-- `lexyalgo.com` and `staging.lexyalgo.com` are fronted by Traefik on a Hostinger-hosted server.
-- Production currently routes to container `lexyalgo-site` on port `3000`.
-- Staging currently routes to container `lexyalgo-site-staging` on port `3000`.
-- The site is a static Next.js export.
-- This repository is the source of truth for the build and now also carries the deploy workflow for Hostinger.
+- `lexyalgo.com` and `www.lexyalgo.com` resolve to the existing `srv801553` / `lexyvps` host (`82.25.93.50`) and serve container `lexyalgo-site` on port `3000` through the existing `coolify`/Traefik proxy path.
+- `staging.lexyalgo.com` resolves to the existing Hetzner host `lexy-hetzner-01` (`37.27.49.209`) and serves container `lexyalgo-site-staging` on port `3000` through the existing proxy path.
+- The site is a static Next.js export served by nginx from `/usr/share/nginx/html` inside the container.
+- `Dockerfile` and `docker-compose.hetzner.yml` now capture the static-container runtime shape without adding new networks, volumes, secrets, databases, or proxy labels.
+- See [`docs/hetzner-runtime-inventory-2026-06-18.md`](./hetzner-runtime-inventory-2026-06-18.md) for the read-only DNS/container evidence and PR #78 drift notes.
 
 ## Build artifact
 
@@ -92,7 +92,7 @@ Current known live Lexy targets:
 - production container: `lexyalgo-site`
 - production container path: `/usr/share/nginx/html`
 - staging container: `lexyalgo-site-staging`
-- staging container path: `/app/out`
+- staging container path: `/usr/share/nginx/html`
 
 ### Plain host-path deploy
 
