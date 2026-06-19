@@ -5,6 +5,9 @@ import { sharedAuthLinks } from '@/lib/shared-auth-links'
 export const metadata: Metadata = {
   title: 'QDRO Generator — LexyAlgo',
   description: 'Generate a Qualified Domestic Relations Order (QDRO) for retirement plan division in divorce. Starting at $100 per order. Supports nearly one million plans nationwide.',
+  alternates: {
+    canonical: 'https://www.lexyalgo.com/products/qdro',
+  },
 }
 
 const QDRO_URL = sharedAuthLinks.qdro
