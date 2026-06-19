@@ -12,8 +12,12 @@ const EXPECTED_ATLAS_LOGIN_PATH = "/login";
 const EXPECTED_CALLBACKS = {
   divorceAlpha: "https://app.lexyalgo.com",
   estatePlanning: "https://doc.lexyalgo.com/interview?i=docassemble.LexyAlgo:data/questions/estate_planning.yml",
-  qdro: "https://doc.lexyalgo.com/interview?i=docassemble.LexyAlgo:data/questions/qdro_router.yml",
+  qdro: "https://doc-v2.lexyalgo.com/interview?i=docassemble.LexyAlgoQDROV2:data/questions/qdro_v2_router.yml",
 };
+const FORBIDDEN_QDRO_CALLBACKS = [
+  "https://doc.lexyalgo.com/interview?i=docassemble.LexyAlgo:data/questions/qdro_router.yml",
+  "docassemble.LexyAlgo:data/questions/qdro_router.yml",
+];
 const PRODUCT_PAGES = {
   divorceAlpha: "src/app/products/divorce/page.tsx",
   estatePlanning: "src/app/products/estate-planning/page.tsx",
@@ -64,6 +68,23 @@ function literalValue(source, expression) {
   }
 
   const interviewKey = interviewMatch[1];
+  const interviewDirectPattern = new RegExp(`${interviewKey}:\\s*([A-Z0-9_]+)`);
+  const interviewDirectMatch = source.match(interviewDirectPattern);
+  if (interviewDirectMatch) {
+    const constName = interviewDirectMatch[1];
+    const constMatch = source.match(new RegExp(`const\\s+${constName}\\s*=\\s*['\"]([^'\"]+)['\"]`));
+    if (!constMatch) {
+      fail(`Missing ${constName} constant for docassembleInterviews.${interviewKey}`);
+    }
+    return constMatch[1];
+  }
+
+  const literalInterviewPattern = new RegExp(`${interviewKey}:\\s*['\"]([^'\"]+)['\"]`);
+  const literalInterviewMatch = source.match(literalInterviewPattern);
+  if (literalInterviewMatch) {
+    return literalInterviewMatch[1];
+  }
+
   const interviewPattern = new RegExp(`${interviewKey}:\\s*` + "`\\$\\{DOCASSEMBLE_ORIGIN\\}([^`]+)`");
   const interviewValueMatch = source.match(interviewPattern);
   if (!interviewValueMatch) {
@@ -86,6 +107,17 @@ async function assertProductPageUsesSharedLink(key, pagePath) {
   if (!source.includes(`sharedAuthLinks.${member}`)) {
     fail(`${pagePath} must use sharedAuthLinks.${member}`);
   }
+
+  if (key === "qdro") {
+    if (source.includes("doc.lexyalgo.com")) {
+      fail(`${pagePath} must not advertise the legacy Docassemble host in visible copy`);
+    }
+    for (const forbiddenCallback of FORBIDDEN_QDRO_CALLBACKS) {
+      if (source.includes(forbiddenCallback)) {
+        fail(`${pagePath} must not contain the legacy QDRO V1 callback`, { forbiddenCallback });
+      }
+    }
+  }
 }
 
 async function verifyLivePages(baseUrl) {
@@ -104,7 +136,16 @@ async function verifyLivePages(baseUrl) {
     qdro: "/products/qdro",
   };
 
-  for (const [key, pathname] of Object.entries(livePaths)) {
+  const requestedLiveKeys = (process.env.LEXYSITE_CHECK_PRODUCTS || Object.keys(livePaths).join(","))
+    .split(",")
+    .map((value) => value.trim())
+    .filter(Boolean);
+
+  for (const key of requestedLiveKeys) {
+    const pathname = livePaths[key];
+    if (!pathname) {
+      fail(`Unknown live product key`, { key, allowed: Object.keys(livePaths) });
+    }
     const response = await fetch(new URL(pathname, baseUrl), {
       headers: { "user-agent": "lexyalgo-shared-auth-link-check/1.0" },
     });
@@ -128,6 +169,11 @@ async function verifyLivePages(baseUrl) {
 
 async function main() {
   const source = await readFile(sharedAuthPath, "utf8");
+  for (const forbiddenCallback of FORBIDDEN_QDRO_CALLBACKS) {
+    if (source.includes(forbiddenCallback)) {
+      fail(`Shared auth source must not contain the legacy QDRO V1 callback`, { forbiddenCallback });
+    }
+  }
 
   for (const [key, expectedCallback] of Object.entries(EXPECTED_CALLBACKS)) {
     const expression = extractHrefFromLine(source, key);

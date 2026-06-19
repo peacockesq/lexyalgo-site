@@ -52,11 +52,11 @@ export default function QdroPage() {
           <div className="rounded-2xl bg-[#F5EDE5] border border-[#8B5E3C]/15 p-8 text-center">
             <p className="text-sm font-semibold text-[#8B5E3C] uppercase tracking-wider mb-2">Available now</p>
             <p className="text-slate-700 leading-relaxed">
-              The QDRO generator is live at{' '}
+              The QDRO V2 generator is available through our secure LexyAlgo launch flow.{' '}
               <a href={QDRO_URL} className="font-semibold text-[#8B5E3C] underline underline-offset-2 hover:text-[#6F4A2E]">
-                doc.lexyalgo.com
+                Start your order
               </a>
-              . Start your order there.
+              .
             </p>
           </div>
         </div>
