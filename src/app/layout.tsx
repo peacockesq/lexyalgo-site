@@ -22,6 +22,10 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: 'LexyAlgo — Divorce Tools That Actually Help',
   description: 'Divorce is hard. Your tools shouldn\'t be. Court-form-driven document preparation, calculators, and family-law workflows that help people move forward with more clarity.',
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+  },
   openGraph: {
     title: 'LexyAlgo — Divorce Tools That Actually Help',
     description: 'Court-form-driven document preparation, asset division, co-parenting, and support calculators.',
