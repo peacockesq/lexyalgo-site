@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "tinacms dev -c \"next dev\"",
     "build": "tinacms build --local --skip-cloud-checks && next build",
+    "postbuild": "node scripts/ensure-qdro-trailing-slash-routes.mjs",
     "start": "next start",
     "lint": "tsc --noEmit -p tsconfig.lint.json",
     "test:contact-form": "node scripts/check-contact-form-privacy.mjs",

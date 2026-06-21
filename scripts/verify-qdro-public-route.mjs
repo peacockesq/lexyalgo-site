@@ -16,14 +16,17 @@ function fail(message, details = {}) {
 }
 
 async function readOutHtml(routePath) {
-  const htmlPath = path.join(repoRoot, 'out', `${routePath.replace(/^\//, '')}.html`)
+  const normalizedRoute = routePath.replace(/^\//, '').replace(/\/$/, '')
+  const htmlPath = routePath.endsWith('/')
+    ? path.join(repoRoot, 'out', normalizedRoute, 'index.html')
+    : path.join(repoRoot, 'out', `${normalizedRoute}.html`)
   try {
     await stat(htmlPath)
   } catch (error) {
     fail('Missing exported route HTML. Run npm run build before this verifier.', {
       routePath,
       htmlPath,
-      error: error instanceof Error ? error.message : String(error),
+      errorDetail: error instanceof Error ? error.message : String(error),
     })
   }
   return { htmlPath, html: await readFile(htmlPath, 'utf8') }
@@ -48,11 +51,15 @@ if (!canonicalPageSource.includes(`canonical: '${expectedCanonical}'`)) {
   })
 }
 
-const alias = await readOutHtml('/qdro')
-const canonical = await readOutHtml('/products/qdro')
+const checkedRoutes = {
+  alias: await readOutHtml('/qdro'),
+  aliasTrailingSlash: await readOutHtml('/qdro/'),
+  canonical: await readOutHtml('/products/qdro'),
+  canonicalTrailingSlash: await readOutHtml('/products/qdro/'),
+}
 const encodedHref = expectedAtlasHref.toString().replaceAll('&', '&amp;')
 
-for (const [label, artifact] of Object.entries({ alias, canonical })) {
+for (const [label, artifact] of Object.entries(checkedRoutes)) {
   assertIncludes(artifact.html, 'Generate your QDRO', label, artifact.htmlPath)
   assertIncludes(artifact.html, expectedCanonical, label, artifact.htmlPath)
   if (!artifact.html.includes(expectedAtlasHref.toString()) && !artifact.html.includes(encodedHref)) {
@@ -66,10 +73,9 @@ for (const [label, artifact] of Object.entries({ alias, canonical })) {
 console.log(JSON.stringify({
   ok: true,
   checked: {
-    aliasRoute: '/qdro',
-    canonicalRoute: '/products/qdro',
+    routes: ['/qdro', '/qdro/', '/products/qdro', '/products/qdro/'],
     canonical: expectedCanonical,
     qdroCallback: expectedCallback,
-    files: [alias.htmlPath, canonical.htmlPath],
+    files: Object.values(checkedRoutes).map((artifact) => artifact.htmlPath),
   },
 }, null, 2))
