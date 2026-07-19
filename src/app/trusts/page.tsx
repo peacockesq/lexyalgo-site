@@ -20,34 +20,34 @@ const concepts = [
     desc: 'The person or people who receive income, principal, or other benefits from the trust.',
   },
   {
-    title: 'Revocable vs. Irrevocable',
+    title: 'Express, resulting, and constructive',
+    desc: 'Express trusts are planned. Resulting trusts clarify ownership. Constructive trusts are court-imposed remedies.',
+  },
+  {
+    title: 'Revocable vs. irrevocable',
     desc: 'A revocable trust can usually be changed or canceled during life. An irrevocable trust generally cannot.',
   },
   {
-    title: 'Living Trust',
-    desc: 'Created and funded during the grantor\'s lifetime. Often used to avoid probate and manage assets.',
-  },
-  {
-    title: 'Testamentary Trust',
-    desc: 'Created by a will and takes effect after death, often for minors or specific bequests.',
+    title: 'Living and testamentary',
+    desc: 'A living trust is created during life. A testamentary trust is created by a will and takes effect after death.',
   },
 ]
 
-const relatedLaw = [
+const topics = [
+  {
+    title: 'What is a trust?',
+    desc: 'The foundational overview: definition, parties, categories, and common reasons to create a trust.',
+    href: '/trusts/what-is-a-trust',
+  },
   {
     title: 'Uniform Trust Code',
     desc: 'A model law adopted in many states that governs the creation, administration, and termination of trusts.',
-    href: '#uniform-trust-code',
-  },
-  {
-    title: 'Restatement (Third) of Trusts',
-    desc: 'A scholarly synthesis of common-law trust principles used by courts and practitioners.',
-    href: '#restatement-of-trusts',
+    href: '/trusts/uniform-trust-code',
   },
   {
     title: 'Key cases',
-    desc: 'Landmark trust-law cases will be summarized here with citations and practical takeaways.',
-    href: '#key-cases',
+    desc: 'Landmark and illustrative trust-law cases with citations and practical takeaways.',
+    href: '/trusts/cases',
   },
 ]
 
@@ -116,13 +116,13 @@ export default function TrustsPage() {
       <section className="bg-slate-950 py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-2xl mx-auto mb-16">
-            <span className="text-sm font-semibold text-[#D4B868] uppercase tracking-wider">Related law</span>
+            <span className="text-sm font-semibold text-[#D4B868] uppercase tracking-wider">Pilot topics</span>
             <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-white mt-3">
-              Cases, statutes, and sources
+              Explore trusts law
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {relatedLaw.map((item) => (
+            {topics.map((item) => (
               <Link
                 key={item.title}
                 href={item.href}
@@ -136,25 +136,6 @@ export default function TrustsPage() {
                 </span>
               </Link>
             ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="py-20 bg-slate-50">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span className="text-sm font-semibold text-[#7A5C1E] uppercase tracking-wider">Podcast</span>
-          <h2 className="font-[family-name:var(--font-space)] text-3xl font-bold text-slate-900 mt-3">
-            Listen: trusts in real life
-          </h2>
-          <p className="mt-4 text-slate-600">
-            A podcast episode embed will appear here. It will cover when a trust is worth considering, common mistakes, and questions to ask a lawyer.
-          </p>
-          <div className="mt-10 rounded-2xl border border-slate-200 bg-white p-8 sm:p-12">
-            <div className="mx-auto w-16 h-16 rounded-full bg-[#FAF2DC] flex items-center justify-center mb-4">
-              <svg className="w-8 h-8 text-[#7A5C1E]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" /></svg>
-            </div>
-            <p className="text-sm font-medium text-slate-900">Episode placeholder</p>
-            <p className="mt-1 text-xs text-slate-500">Embed code goes here.</p>
           </div>
         </div>
       </section>
