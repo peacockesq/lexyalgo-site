@@ -20,6 +20,7 @@ const productGroups = [
     label: 'Estate planning',
     items: [
       { name: 'Estate Planning', href: '/products/estate-planning', color: '#7A5C1E', badge: 'Free Beta' },
+      { name: 'Trusts & Estates', href: '/trusts', color: '#7A5C1E', badge: 'Pilot' },
     ],
   },
   {
