@@ -5,9 +5,9 @@
       "authority_type": "statute",
       "fixture_notice": null,
       "jurisdiction": "us-federal",
-      "mcp_proof_route": "/corpus/mcp/v1/corpus_get_proof_bundle/ver:v1:27479269-27f5-7ca4-8f10-a8c1153d61c9.json",
+      "mcp_proof_route": "/corpus/mcp/v1/corpus_get_proof_bundle/ver__v1__27479269-27f5-7ca4-8f10-a8c1153d61c9.json",
       "mcp_route": "/corpus/mcp/v1/corpus_get_authority/29-usc-1056-d-3.json",
-      "proof_route": "/corpus/api/v1/proof-bundles/ver:v1:27479269-27f5-7ca4-8f10-a8c1153d61c9.json",
+      "proof_route": "/corpus/api/v1/proof-bundles/ver__v1__27479269-27f5-7ca4-8f10-a8c1153d61c9.json",
       "route": "/corpus/authority/us-federal/statute/29-usc-1056-d-3/",
       "slug": "29-usc-1056-d-3"
     },
@@ -16,9 +16,9 @@
       "authority_type": "opinion",
       "fixture_notice": null,
       "jurisdiction": "us-federal",
-      "mcp_proof_route": "/corpus/mcp/v1/corpus_get_proof_bundle/ver:v1:dbdf3bdc-2a90-7769-8a1c-c51b8a830dcd.json",
+      "mcp_proof_route": "/corpus/mcp/v1/corpus_get_proof_bundle/ver__v1__dbdf3bdc-2a90-7769-8a1c-c51b8a830dcd.json",
       "mcp_route": "/corpus/mcp/v1/corpus_get_authority/brown-v-board-347-us-483.json",
-      "proof_route": "/corpus/api/v1/proof-bundles/ver:v1:dbdf3bdc-2a90-7769-8a1c-c51b8a830dcd.json",
+      "proof_route": "/corpus/api/v1/proof-bundles/ver__v1__dbdf3bdc-2a90-7769-8a1c-c51b8a830dcd.json",
       "route": "/corpus/authority/us-federal/opinion/brown-v-board-347-us-483/",
       "slug": "brown-v-board-347-us-483"
     },
@@ -27,9 +27,9 @@
       "authority_type": "opinion",
       "fixture_notice": null,
       "jurisdiction": "us-federal",
-      "mcp_proof_route": "/corpus/mcp/v1/corpus_get_proof_bundle/ver:v1:d1aef83f-3106-70da-8bd7-62cb0fd12ca5.json",
+      "mcp_proof_route": "/corpus/mcp/v1/corpus_get_proof_bundle/ver__v1__d1aef83f-3106-70da-8bd7-62cb0fd12ca5.json",
       "mcp_route": "/corpus/mcp/v1/corpus_get_authority/west-virginia-v-bpj-24-43-slip.json",
-      "proof_route": "/corpus/api/v1/proof-bundles/ver:v1:d1aef83f-3106-70da-8bd7-62cb0fd12ca5.json",
+      "proof_route": "/corpus/api/v1/proof-bundles/ver__v1__d1aef83f-3106-70da-8bd7-62cb0fd12ca5.json",
       "route": "/corpus/authority/us-federal/opinion/west-virginia-v-bpj-24-43-slip/",
       "slug": "west-virginia-v-bpj-24-43-slip"
     },
@@ -38,9 +38,9 @@
       "authority_type": "statute",
       "fixture_notice": "Synthetic contract-validation fixture. It is not primary law and must not be cited as authority.",
       "jurisdiction": "us-federal",
-      "mcp_proof_route": "/corpus/mcp/v1/corpus_get_proof_bundle/ver:v1:c88abbd6-4a10-7c40-8191-ffb65d7edd18.json",
+      "mcp_proof_route": "/corpus/mcp/v1/corpus_get_proof_bundle/ver__v1__c88abbd6-4a10-7c40-8191-ffb65d7edd18.json",
       "mcp_route": "/corpus/mcp/v1/corpus_get_authority/fixture-independent-corroboration.json",
-      "proof_route": "/corpus/api/v1/proof-bundles/ver:v1:c88abbd6-4a10-7c40-8191-ffb65d7edd18.json",
+      "proof_route": "/corpus/api/v1/proof-bundles/ver__v1__c88abbd6-4a10-7c40-8191-ffb65d7edd18.json",
       "route": "/corpus/authority/us-federal/statute/fixture-independent-corroboration/",
       "slug": "fixture-independent-corroboration"
     },
@@ -49,9 +49,9 @@
       "authority_type": "statute",
       "fixture_notice": "Synthetic contract-validation fixture. It is not primary law and must not be cited as authority.",
       "jurisdiction": "us-federal",
-      "mcp_proof_route": "/corpus/mcp/v1/corpus_get_proof_bundle/ver:v1:596ee580-02da-7a0c-878d-1b3a4c3884e5.json",
+      "mcp_proof_route": "/corpus/mcp/v1/corpus_get_proof_bundle/ver__v1__596ee580-02da-7a0c-878d-1b3a4c3884e5.json",
       "mcp_route": "/corpus/mcp/v1/corpus_get_authority/fixture-single-candidate.json",
-      "proof_route": "/corpus/api/v1/proof-bundles/ver:v1:596ee580-02da-7a0c-878d-1b3a4c3884e5.json",
+      "proof_route": "/corpus/api/v1/proof-bundles/ver__v1__596ee580-02da-7a0c-878d-1b3a4c3884e5.json",
       "route": "/corpus/authority/us-federal/statute/fixture-single-candidate/",
       "slug": "fixture-single-candidate"
     },
@@ -60,9 +60,9 @@
       "authority_type": "statute",
       "fixture_notice": "Synthetic contract-validation fixture. It is not primary law and must not be cited as authority.",
       "jurisdiction": "us-federal",
-      "mcp_proof_route": "/corpus/mcp/v1/corpus_get_proof_bundle/ver:v1:657df4ae-4d31-7b11-8d3a-822d25f768cd.json",
+      "mcp_proof_route": "/corpus/mcp/v1/corpus_get_proof_bundle/ver__v1__657df4ae-4d31-7b11-8d3a-822d25f768cd.json",
       "mcp_route": "/corpus/mcp/v1/corpus_get_authority/fixture-material-defect.json",
-      "proof_route": "/corpus/api/v1/proof-bundles/ver:v1:657df4ae-4d31-7b11-8d3a-822d25f768cd.json",
+      "proof_route": "/corpus/api/v1/proof-bundles/ver__v1__657df4ae-4d31-7b11-8d3a-822d25f768cd.json",
       "route": "/corpus/authority/us-federal/statute/fixture-material-defect/",
       "slug": "fixture-material-defect"
     }
@@ -106,37 +106,37 @@
     },
     {
       "bytes": 939,
-      "path": "api/v1/defects/def:v1:d93e6c70-ad19-79c8-8c4c-ce252a0c32e0.json",
+      "path": "api/v1/defects/def__v1__d93e6c70-ad19-79c8-8c4c-ce252a0c32e0.json",
       "sha256": "3a53a45c0c14aee7c0d338d2e79290984ca999cfa9bce4f4eb27d04a744c916f"
     },
     {
       "bytes": 27108,
-      "path": "api/v1/proof-bundles/ver:v1:27479269-27f5-7ca4-8f10-a8c1153d61c9.json",
+      "path": "api/v1/proof-bundles/ver__v1__27479269-27f5-7ca4-8f10-a8c1153d61c9.json",
       "sha256": "1f70e7564e0bb8f5157f93ee2d491d4d52b4b1cc4943201a19706b78a805a842"
     },
     {
       "bytes": 5312,
-      "path": "api/v1/proof-bundles/ver:v1:596ee580-02da-7a0c-878d-1b3a4c3884e5.json",
+      "path": "api/v1/proof-bundles/ver__v1__596ee580-02da-7a0c-878d-1b3a4c3884e5.json",
       "sha256": "0eea13aa52c0ed005ed4be2483d6b7b5c2fcacc155b9f260d242a2c412dcfe81"
     },
     {
       "bytes": 6641,
-      "path": "api/v1/proof-bundles/ver:v1:657df4ae-4d31-7b11-8d3a-822d25f768cd.json",
+      "path": "api/v1/proof-bundles/ver__v1__657df4ae-4d31-7b11-8d3a-822d25f768cd.json",
       "sha256": "16d698d07f2c57277d1621a3266614734481028a27b310a5b86c3c6bf059b334"
     },
     {
       "bytes": 6819,
-      "path": "api/v1/proof-bundles/ver:v1:c88abbd6-4a10-7c40-8191-ffb65d7edd18.json",
+      "path": "api/v1/proof-bundles/ver__v1__c88abbd6-4a10-7c40-8191-ffb65d7edd18.json",
       "sha256": "3d0f9750f5ecb23292b119094ecbe22bd51a5cc80fc240df738ddc97f57d3a2e"
     },
     {
       "bytes": 124121,
-      "path": "api/v1/proof-bundles/ver:v1:d1aef83f-3106-70da-8bd7-62cb0fd12ca5.json",
+      "path": "api/v1/proof-bundles/ver__v1__d1aef83f-3106-70da-8bd7-62cb0fd12ca5.json",
       "sha256": "b632ffd71846f581a5eaabfb93014818a10304fb2486cc604e5e5c994297f98a"
     },
     {
       "bytes": 30466,
-      "path": "api/v1/proof-bundles/ver:v1:dbdf3bdc-2a90-7769-8a1c-c51b8a830dcd.json",
+      "path": "api/v1/proof-bundles/ver__v1__dbdf3bdc-2a90-7769-8a1c-c51b8a830dcd.json",
       "sha256": "faa2be2831e80d9042b3b18f5b1d307111c4db7f8bf3594eb35296874e693c8c"
     },
     {
@@ -145,9 +145,9 @@
       "sha256": "0b81eba21a4eef5e80093a5c296da0ac65d49675886bf14d3ebd51c3126c6c9a"
     },
     {
-      "bytes": 411645,
+      "bytes": 411669,
       "path": "bundle.json",
-      "sha256": "e16a18e8ca82cea8da7055e41183acf748ab361332cb8947286a5d999bf27202"
+      "sha256": "24f5e12bd256c9793e881b7f775bd0104ef68341c8d127e6eb5425c37a50587d"
     },
     {
       "bytes": 25483,
@@ -181,32 +181,32 @@
     },
     {
       "bytes": 27108,
-      "path": "mcp/v1/corpus_get_proof_bundle/ver:v1:27479269-27f5-7ca4-8f10-a8c1153d61c9.json",
+      "path": "mcp/v1/corpus_get_proof_bundle/ver__v1__27479269-27f5-7ca4-8f10-a8c1153d61c9.json",
       "sha256": "1f70e7564e0bb8f5157f93ee2d491d4d52b4b1cc4943201a19706b78a805a842"
     },
     {
       "bytes": 5312,
-      "path": "mcp/v1/corpus_get_proof_bundle/ver:v1:596ee580-02da-7a0c-878d-1b3a4c3884e5.json",
+      "path": "mcp/v1/corpus_get_proof_bundle/ver__v1__596ee580-02da-7a0c-878d-1b3a4c3884e5.json",
       "sha256": "0eea13aa52c0ed005ed4be2483d6b7b5c2fcacc155b9f260d242a2c412dcfe81"
     },
     {
       "bytes": 6641,
-      "path": "mcp/v1/corpus_get_proof_bundle/ver:v1:657df4ae-4d31-7b11-8d3a-822d25f768cd.json",
+      "path": "mcp/v1/corpus_get_proof_bundle/ver__v1__657df4ae-4d31-7b11-8d3a-822d25f768cd.json",
       "sha256": "16d698d07f2c57277d1621a3266614734481028a27b310a5b86c3c6bf059b334"
     },
     {
       "bytes": 6819,
-      "path": "mcp/v1/corpus_get_proof_bundle/ver:v1:c88abbd6-4a10-7c40-8191-ffb65d7edd18.json",
+      "path": "mcp/v1/corpus_get_proof_bundle/ver__v1__c88abbd6-4a10-7c40-8191-ffb65d7edd18.json",
       "sha256": "3d0f9750f5ecb23292b119094ecbe22bd51a5cc80fc240df738ddc97f57d3a2e"
     },
     {
       "bytes": 124121,
-      "path": "mcp/v1/corpus_get_proof_bundle/ver:v1:d1aef83f-3106-70da-8bd7-62cb0fd12ca5.json",
+      "path": "mcp/v1/corpus_get_proof_bundle/ver__v1__d1aef83f-3106-70da-8bd7-62cb0fd12ca5.json",
       "sha256": "b632ffd71846f581a5eaabfb93014818a10304fb2486cc604e5e5c994297f98a"
     },
     {
       "bytes": 30466,
-      "path": "mcp/v1/corpus_get_proof_bundle/ver:v1:dbdf3bdc-2a90-7769-8a1c-c51b8a830dcd.json",
+      "path": "mcp/v1/corpus_get_proof_bundle/ver__v1__dbdf3bdc-2a90-7769-8a1c-c51b8a830dcd.json",
       "sha256": "faa2be2831e80d9042b3b18f5b1d307111c4db7f8bf3594eb35296874e693c8c"
     }
   ]

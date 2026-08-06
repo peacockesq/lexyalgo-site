@@ -21,8 +21,9 @@ for (const entry of entries) {
   const versionId = entry.response.version.version_id;
   const authorityApi = join(publicRoot, "api", "v1", "authorities", `${slug}.json`);
   const authorityMcp = join(publicRoot, "mcp", "v1", "corpus_get_authority", `${slug}.json`);
-  const proofApi = join(publicRoot, "api", "v1", "proof-bundles", `${versionId}.json`);
-  const proofMcp = join(publicRoot, "mcp", "v1", "corpus_get_proof_bundle", `${versionId}.json`);
+  const safeVersionId = versionId.replace(/["<>:|?*\r\n]/g, "__");
+  const proofApi = join(publicRoot, "api", "v1", "proof-bundles", `${safeVersionId}.json`);
+  const proofMcp = join(publicRoot, "mcp", "v1", "corpus_get_proof_bundle", `${safeVersionId}.json`);
   if (!Buffer.from(await readFile(authorityApi)).equals(Buffer.from(await readFile(authorityMcp)))) fail(`Authority API/MCP drift for ${slug}`);
   if (!Buffer.from(await readFile(proofApi)).equals(Buffer.from(await readFile(proofMcp)))) fail(`Proof API/MCP drift for ${slug}`);
 
