@@ -6,7 +6,7 @@ export function CorpusHome() {
   const entries = listCorpusEntries();
   const official = entries.filter((entry) => !entry.fixture_notice);
   return (
-    <main className="min-h-screen bg-white px-4 py-12 sm:px-6 sm:py-20">
+    <div className="min-h-screen bg-white px-4 py-12 sm:px-6 sm:py-20">
       <div className="mx-auto max-w-5xl">
         <header className="max-w-4xl border-b border-slate-300 pb-12">
           <p className="text-xs font-bold uppercase tracking-[0.22em] text-slate-500">LexyAlgo Corpus</p>
@@ -48,6 +48,6 @@ export function CorpusHome() {
           <p className="mt-3 max-w-3xl">A means officially verified. B exposes a currentness or finality caveat. C and D are candidate records and remain opt-in. F is suppressed unless a user explicitly asks to inspect defects.</p>
         </section>
       </div>
-    </main>
+    </div>
   );
 }
