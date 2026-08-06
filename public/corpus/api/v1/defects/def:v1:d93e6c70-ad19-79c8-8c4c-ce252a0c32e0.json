@@ -1,0 +1,24 @@
+{
+  "affected_version_ids": [
+    "ver:v1:657df4ae-4d31-7b11-8d3a-822d25f768cd"
+  ],
+  "classification": "text_omission",
+  "correction": "Restore the omitted condition, validate the corrected version, and recompute verification before authoritative use.",
+  "defect_id": "def:v1:d93e6c70-ad19-79c8-8c4c-ce252a0c32e0",
+  "description": "The synthetic rendition intentionally omits a material condition to prove defect suppression.",
+  "evidence": [
+    {
+      "artifact_id": "art:v1:f523de7c-efe8-7ae2-891a-f6afe887a7cf",
+      "locator": "fixture:fixture-material-defect-1",
+      "quote_sha256": "de06244fca410b36feae77c659cc0d1a8df33ce369822d5af47c0183c56ddda2"
+    }
+  ],
+  "kind": "defect",
+  "material": true,
+  "opened_at": "2026-08-01T16:18:23Z",
+  "record_id": "auth:v1:us-federal:statute:fixture-code:fixture-material-defect",
+  "resolved_at": null,
+  "schema_version": "1.0.0-draft.1",
+  "status": "open",
+  "verified": true
+}
