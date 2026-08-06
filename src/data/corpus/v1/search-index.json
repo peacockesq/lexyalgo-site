@@ -1,0 +1,73 @@
+{
+  "contract_version": "1.0.0-draft.1",
+  "data_as_of": "2026-08-01T16:18:23Z",
+  "default_grades": [
+    "A",
+    "B"
+  ],
+  "results": [
+    {
+      "api_route": "/corpus/api/v1/authorities/29-usc-1056-d-3.json",
+      "authority_type": "statute",
+      "body": "United States Code",
+      "citation": "29 U.S.C. § 1056(d)(3)",
+      "finality_status": "not_applicable",
+      "fixture": false,
+      "grade": "A",
+      "jurisdiction": "us-federal",
+      "limitation": null,
+      "reason": "Official source verified as of 2026-08-01 (0 days old).",
+      "reason_code": "official_verified_current",
+      "route": "/corpus/authority/us-federal/statute/29-usc-1056-d-3/",
+      "slug": "29-usc-1056-d-3",
+      "snippet": "(3)(A) Paragraph (1) shall apply to the creation, assignment, or recognition of a right to any benefit payable with respect to a participant pursuant to a domestic relations order, except that paragraph (1) shall not apply if the order is determined to be a qu",
+      "snippet_label": "Primary text",
+      "source_url": "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title29-section1056&num=0&edition=prelim",
+      "status": "in_force",
+      "title": "Assignment or alienation of plan benefits — qualified domestic relations orders",
+      "verified_at": "2026-08-01"
+    },
+    {
+      "api_route": "/corpus/api/v1/authorities/brown-v-board-347-us-483.json",
+      "authority_type": "opinion",
+      "body": "Supreme Court of the United States",
+      "citation": "347 U.S. 483",
+      "finality_status": "reported",
+      "fixture": false,
+      "grade": "A",
+      "jurisdiction": "us-federal",
+      "limitation": null,
+      "reason": "Official source matched and reported status is established; verified 2026-08-01.",
+      "reason_code": "official_final_case",
+      "route": "/corpus/authority/us-federal/opinion/brown-v-board-347-us-483/",
+      "slug": "brown-v-board-347-us-483",
+      "snippet": "MR. CHIEF JUSTICE WARREN delivered the opinion of the Court. These cases come to us from the States of Kansas, South Carolina, Virginia, and Delaware. They are premised on different facts and different local conditions, but a common legal question justifies th",
+      "snippet_label": "Primary text",
+      "source_url": "https://www.archives.gov/milestone-documents/brown-v-board-of-education",
+      "status": "in_force",
+      "title": "Brown v. Board of Education of Topeka",
+      "verified_at": "2026-08-01"
+    },
+    {
+      "api_route": "/corpus/api/v1/authorities/west-virginia-v-bpj-24-43-slip.json",
+      "authority_type": "opinion",
+      "body": "Supreme Court of the United States",
+      "citation": "No. 24-43",
+      "finality_status": "slip",
+      "fixture": false,
+      "grade": "B",
+      "jurisdiction": "us-federal",
+      "limitation": "Final/reported status is not established.",
+      "reason": "Official source matched, but rendition finality is slip and remains revision-sensitive.",
+      "reason_code": "official_case_revision_sensitive",
+      "route": "/corpus/authority/us-federal/opinion/west-virginia-v-bpj-24-43-slip/",
+      "slug": "west-virginia-v-bpj-24-43-slip",
+      "snippet": "JUSTICE KAVANAUGH delivered the opinion of the Court. \nTitle IX transformed American sports and American life.\nEnacted in 1972, that landmark law promoted equal \nopportunity for female student-athletes and has facilitated \nthe extraordinary growth of women’s a",
+      "snippet_label": "Primary text",
+      "source_url": "https://www.supremecourt.gov/opinions/25pdf/24-43_2b35.pdf",
+      "status": "in_force",
+      "title": "West Virginia v. B. P. J.",
+      "verified_at": "2026-08-01"
+    }
+  ]
+}

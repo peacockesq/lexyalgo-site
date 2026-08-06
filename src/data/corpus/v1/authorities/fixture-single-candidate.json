@@ -1,0 +1,107 @@
+{
+  "contract_version": "1.0.0-draft.1",
+  "data_as_of": "2026-08-01T16:18:23Z",
+  "record": {
+    "authority_type": "statute",
+    "body": "Synthetic contract fixture — not primary law",
+    "canonical_key": {
+      "code": "fixture-code",
+      "edition_lineage": "synthetic-1",
+      "section": "fixture-single-candidate"
+    },
+    "citation_aliases": [
+      {
+        "confidence": 1.0,
+        "display_value": "Fixture fixture-single-candidate",
+        "normalized_value": "fixture-single-candidate",
+        "scheme": "provider-id",
+        "source_id": "src:v1:us-federal:other:fixture-courtlistener"
+      }
+    ],
+    "created_at": "2026-08-01T16:18:23Z",
+    "heading": "Validation fixture",
+    "identity_state": "complete",
+    "jurisdiction": "us-federal",
+    "kind": "authority_record",
+    "record_id": "auth:v1:us-federal:statute:fixture-code:fixture-single-candidate",
+    "schema_version": "1.0.0-draft.1",
+    "title": "Single candidate source"
+  },
+  "verification": {
+    "active_defect_ids": [],
+    "as_of": "2026-08-01",
+    "computed_at": "2026-08-01T16:18:23Z",
+    "currentness": "Synthetic fixture as of August 1, 2026",
+    "grade": "D",
+    "input_sha256": "a7cb083ee865a56264b160c4474de76e8bcf181adeca2505f9572ad67c179d63",
+    "kind": "verification",
+    "limitations": [
+      "Official verification and independent corroboration are missing."
+    ],
+    "official_receipts": [],
+    "policy_version": "grade-policy-v1",
+    "reason": "Single candidate source class only: courtlistener.",
+    "reason_code": "single_candidate_source",
+    "schema_version": "1.0.0-draft.1",
+    "source_classes": [
+      "courtlistener"
+    ],
+    "verified_at": null,
+    "version_id": "ver:v1:596ee580-02da-7a0c-878d-1b3a4c3884e5"
+  },
+  "version": {
+    "change_type": "initial",
+    "current_through": "Synthetic fixture as of August 1, 2026",
+    "decision_date": null,
+    "effective_date": "2026-01-01",
+    "effective_date_state": "known",
+    "finality_status": "not_applicable",
+    "kind": "authority_version",
+    "legal_valid_from": "2026-01-01",
+    "legal_valid_until": null,
+    "normalization_warnings": [],
+    "normalized_text_sha256": "9c2fd2c20b32e825e8974bd5881d7b196820b10aa39ca45420f365eaf1dbd8fc",
+    "observed_at": "2026-08-01T16:18:23Z",
+    "parser_id": "synthetic-fixture-parser",
+    "parser_version": "1.0.0",
+    "primary_text": "Synthetic fixture text: one candidate source is recorded without official or independent corroboration.",
+    "prior_version_id": null,
+    "publication_date": null,
+    "publication_status": "not_applicable",
+    "record_id": "auth:v1:us-federal:statute:fixture-code:fixture-single-candidate",
+    "recorded_at": "2026-08-01T16:18:23Z",
+    "repeal_date": null,
+    "schema_version": "1.0.0-draft.1",
+    "source_locators": [
+      {
+        "artifact_id": "art:v1:70df2376-0d0f-7ad5-8576-822e2389d1de",
+        "locator": "fixture:fixture-single-candidate-1",
+        "quote_sha256": "9c2fd2c20b32e825e8974bd5881d7b196820b10aa39ca45420f365eaf1dbd8fc"
+      }
+    ],
+    "status": "in_force",
+    "structure": {
+      "children": [
+        {
+          "text": "Synthetic fixture text: one candidate source is recorded without official or independent corroboration.",
+          "type": "paragraph"
+        }
+      ],
+      "type": "document"
+    },
+    "structure_sha256": "edb02e6b02703153e6db0f92f79f5128794873e572c142c49caee895858c0713",
+    "superseded_at": null,
+    "text_scope": {
+      "excludes": [
+        "footer",
+        "navigation",
+        "annotations",
+        "headnotes",
+        "summaries",
+        "editorial_content"
+      ]
+    },
+    "version_fingerprint": "04c26802c3155f5356c4c3100b548ecbcda8847aa8260a8179c115fb500aeb67",
+    "version_id": "ver:v1:596ee580-02da-7a0c-878d-1b3a4c3884e5"
+  }
+}

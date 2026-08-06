@@ -1,0 +1,175 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "art:v1:f523de7c-efe8-7ae2-891a-f6afe887a7cf",
+      "byte_length": 127,
+      "canonical_url": null,
+      "collector_version": "1.0.0",
+      "content_encoding": "utf-8",
+      "current_through_text": null,
+      "discovery_url": "https://example.invalid/lexyalgo-corpus/art:v1:f523de7c-efe8-7ae2-891a-f6afe887a7cf",
+      "fetch_disposition": "new",
+      "final_url": "https://example.invalid/lexyalgo-corpus/art:v1:f523de7c-efe8-7ae2-891a-f6afe887a7cf",
+      "http_headers": {},
+      "http_status": 200,
+      "kind": "raw_artifact",
+      "mime_type": "text/html",
+      "object_uri": "urn:lexyalgo:public-artifact:art:v1:f523de7c-efe8-7ae2-891a-f6afe887a7cf",
+      "privacy_class": "public_primary_law",
+      "publisher_date": null,
+      "raw_sha256": "a65357bd751354afb7f40294046cc936c2c21fd4fa9c73ca341f130b15f63201",
+      "redirect_chain": [],
+      "registry_revision": 1,
+      "request_url": "https://example.invalid/lexyalgo-corpus/art:v1:f523de7c-efe8-7ae2-891a-f6afe887a7cf",
+      "retrieval_method": "synthetic_fixture",
+      "retrieved_at": "2026-08-01T16:18:23Z",
+      "rights_decision_ref": "src:v1:us-federal:other:fixture-official-fixture@1",
+      "schema_version": "1.0.0-draft.1",
+      "source_id": "src:v1:us-federal:other:fixture-official-fixture",
+      "source_reported_status": "synthetic"
+    }
+  ],
+  "contract_version": "1.0.0-draft.1",
+  "data_as_of": "2026-08-01T16:18:23Z",
+  "defects": [
+    {
+      "affected_version_ids": [
+        "ver:v1:657df4ae-4d31-7b11-8d3a-822d25f768cd"
+      ],
+      "classification": "text_omission",
+      "correction": "Restore the omitted condition, validate the corrected version, and recompute verification before authoritative use.",
+      "defect_id": "def:v1:d93e6c70-ad19-79c8-8c4c-ce252a0c32e0",
+      "description": "The synthetic rendition intentionally omits a material condition to prove defect suppression.",
+      "evidence": [
+        {
+          "artifact_id": "art:v1:f523de7c-efe8-7ae2-891a-f6afe887a7cf",
+          "locator": "fixture:fixture-material-defect-1",
+          "quote_sha256": "de06244fca410b36feae77c659cc0d1a8df33ce369822d5af47c0183c56ddda2"
+        }
+      ],
+      "kind": "defect",
+      "material": true,
+      "opened_at": "2026-08-01T16:18:23Z",
+      "record_id": "auth:v1:us-federal:statute:fixture-code:fixture-material-defect",
+      "resolved_at": null,
+      "schema_version": "1.0.0-draft.1",
+      "status": "open",
+      "verified": true
+    }
+  ],
+  "graph_edges": [],
+  "kind": "proof_bundle",
+  "reconciliations": [],
+  "record": {
+    "authority_type": "statute",
+    "body": "Synthetic contract fixture — not primary law",
+    "canonical_key": {
+      "code": "fixture-code",
+      "edition_lineage": "synthetic-1",
+      "section": "fixture-material-defect"
+    },
+    "citation_aliases": [
+      {
+        "confidence": 1.0,
+        "display_value": "Fixture fixture-material-defect",
+        "normalized_value": "fixture-material-defect",
+        "scheme": "provider-id",
+        "source_id": "src:v1:us-federal:other:fixture-official-fixture"
+      }
+    ],
+    "created_at": "2026-08-01T16:18:23Z",
+    "heading": "Validation fixture",
+    "identity_state": "complete",
+    "jurisdiction": "us-federal",
+    "kind": "authority_record",
+    "record_id": "auth:v1:us-federal:statute:fixture-code:fixture-material-defect",
+    "schema_version": "1.0.0-draft.1",
+    "title": "Verified material text defect"
+  },
+  "schema_version": "1.0.0-draft.1",
+  "verification": {
+    "active_defect_ids": [
+      "def:v1:d93e6c70-ad19-79c8-8c4c-ce252a0c32e0"
+    ],
+    "as_of": "2026-08-01",
+    "computed_at": "2026-08-01T16:18:23Z",
+    "currentness": "Synthetic fixture as of August 1, 2026",
+    "grade": "F",
+    "input_sha256": "fb141828d0d9b641b617559984f3a962c9cfd02a107ba19a079734fc2f2bd9d1",
+    "kind": "verification",
+    "limitations": [
+      "Suppressed from default authoritative results."
+    ],
+    "official_receipts": [
+      {
+        "artifact_id": "art:v1:f523de7c-efe8-7ae2-891a-f6afe887a7cf",
+        "locator": "fixture:fixture-material-defect-1",
+        "quote_sha256": "de06244fca410b36feae77c659cc0d1a8df33ce369822d5af47c0183c56ddda2"
+      }
+    ],
+    "policy_version": "grade-policy-v1",
+    "reason": "Active verified material defect(s): def:v1:d93e6c70-ad19-79c8-8c4c-ce252a0c32e0.",
+    "reason_code": "material_defect",
+    "schema_version": "1.0.0-draft.1",
+    "source_classes": [
+      "official-fixture"
+    ],
+    "verified_at": null,
+    "version_id": "ver:v1:657df4ae-4d31-7b11-8d3a-822d25f768cd"
+  },
+  "version": {
+    "change_type": "initial",
+    "current_through": "Synthetic fixture as of August 1, 2026",
+    "decision_date": null,
+    "effective_date": "2026-01-01",
+    "effective_date_state": "known",
+    "finality_status": "not_applicable",
+    "kind": "authority_version",
+    "legal_valid_from": "2026-01-01",
+    "legal_valid_until": null,
+    "normalization_warnings": [],
+    "normalized_text_sha256": "de06244fca410b36feae77c659cc0d1a8df33ce369822d5af47c0183c56ddda2",
+    "observed_at": "2026-08-01T16:18:23Z",
+    "parser_id": "synthetic-fixture-parser",
+    "parser_version": "1.0.0",
+    "primary_text": "Synthetic fixture text intentionally omits a material condition for suppression-path testing.",
+    "prior_version_id": null,
+    "publication_date": null,
+    "publication_status": "not_applicable",
+    "record_id": "auth:v1:us-federal:statute:fixture-code:fixture-material-defect",
+    "recorded_at": "2026-08-01T16:18:23Z",
+    "repeal_date": null,
+    "schema_version": "1.0.0-draft.1",
+    "source_locators": [
+      {
+        "artifact_id": "art:v1:f523de7c-efe8-7ae2-891a-f6afe887a7cf",
+        "locator": "fixture:fixture-material-defect-1",
+        "quote_sha256": "de06244fca410b36feae77c659cc0d1a8df33ce369822d5af47c0183c56ddda2"
+      }
+    ],
+    "status": "in_force",
+    "structure": {
+      "children": [
+        {
+          "text": "Synthetic fixture text intentionally omits a material condition for suppression-path testing.",
+          "type": "paragraph"
+        }
+      ],
+      "type": "document"
+    },
+    "structure_sha256": "1e91e932c44841d2ae719702ed4a2bd0efa2b9a581a5934d2329d0227c37b44c",
+    "superseded_at": null,
+    "text_scope": {
+      "excludes": [
+        "footer",
+        "navigation",
+        "annotations",
+        "headnotes",
+        "summaries",
+        "editorial_content"
+      ]
+    },
+    "version_fingerprint": "dbb909da960e9e7c74e86e8f40939a2d8133b96711c4c5c4dec4e5b609ef5226",
+    "version_id": "ver:v1:657df4ae-4d31-7b11-8d3a-822d25f768cd"
+  }
+}

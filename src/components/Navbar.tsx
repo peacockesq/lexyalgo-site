@@ -25,6 +25,7 @@ const productGroups = [
   {
     label: 'Legal professional tools',
     items: [
+      { name: 'Legal Corpus', href: '/corpus', color: '#861B00', badge: 'Preview' },
       { name: 'LexySign', href: 'https://sign.lexyalgo.com', color: '#D46B0F', badge: '$5/mo' },
     ],
   },
@@ -207,6 +208,7 @@ export function Navbar() {
 
           <div className="mt-3 space-y-1 border-t border-slate-100 pt-3">
             <Link href="/pricing" onClick={() => setMobileOpen(false)} className="block rounded-xl px-3 py-2.5 text-sm font-medium text-slate-700 hover:bg-slate-50">Pricing</Link>
+            <Link href="/corpus" onClick={() => setMobileOpen(false)} className="block rounded-xl px-3 py-2.5 text-sm font-medium text-slate-700 hover:bg-slate-50">Legal Corpus</Link>
             <Link href="/mission" onClick={() => setMobileOpen(false)} className="block rounded-xl px-3 py-2.5 text-sm font-medium text-slate-700 hover:bg-slate-50">Mission</Link>
             <Link href="/blog" onClick={() => setMobileOpen(false)} className="block rounded-xl px-3 py-2.5 text-sm font-medium text-slate-700 hover:bg-slate-50">Blog</Link>
             <Link href="/contact" onClick={() => setMobileOpen(false)} className="block rounded-xl px-3 py-2.5 text-sm font-medium text-slate-700 hover:bg-slate-50">Contact</Link>
