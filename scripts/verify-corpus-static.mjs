@@ -11,8 +11,11 @@ const search = JSON.parse(await readFile(join(publicRoot, "api", "v1", "search-i
 
 const fail = (message) => { throw new Error(message); };
 const entries = bundle.entries;
-if (entries.length !== 6) fail(`Expected six vertical-slice records, found ${entries.length}`);
-if (new Set(entries.map((entry) => entry.response.verification.grade)).size !== 5) fail("Expected A/B/C/D/F evidence coverage");
+if (entries.length < 6) fail(`Expected at least six vertical-slice records, found ${entries.length}`);
+const grades = new Set(entries.map((entry) => entry.response.verification.grade));
+for (const g of ["A", "B", "C", "D", "F"]) {
+  if (!grades.has(g)) fail(`Missing grade ${g} coverage`);
+}
 if (search.results.some((result) => ["C", "D", "F"].includes(result.grade))) fail("Default search leaked candidate or suppressed records");
 if (manifest.contract_version !== "1.0.0-draft.1") fail("Contract version drifted");
 

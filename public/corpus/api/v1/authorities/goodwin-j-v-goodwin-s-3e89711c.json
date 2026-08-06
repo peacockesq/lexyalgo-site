@@ -1,0 +1,97 @@
+{
+  "contract_version": "1.0.0-draft.1",
+  "data_as_of": "2026-08-06T02:50:22Z",
+  "record": {
+    "authority_type": "opinion",
+    "body": "Judicial opinion",
+    "canonical_key": {
+      "content_hash": "6e3717739b9da832",
+      "source": "courtlistener"
+    },
+    "citation_aliases": [
+      {
+        "confidence": 0.7,
+        "display_value": "Goodwin, J. v. Goodwin, S.",
+        "normalized_value": "goodwin-j-v-goodwin-s-3e89711c",
+        "scheme": "case-name",
+        "source_id": "src:v1:us:opinion:courtlistener"
+      }
+    ],
+    "court": null,
+    "created_at": "2026-08-06T02:50:22Z",
+    "heading": "Goodwin, J. v. Goodwin, S.",
+    "identity_state": "complete",
+    "jurisdiction": "us-federal",
+    "kind": "authority_record",
+    "record_id": "rec:v1:fec4693f-32b5-7e34-84ef-c0cbae766a77",
+    "schema_version": "1.0.0-draft.1",
+    "slug": "goodwin-j-v-goodwin-s-3e89711c",
+    "title": "Goodwin, J. v. Goodwin, S."
+  },
+  "verification": {
+    "active_defect_ids": [],
+    "as_of": "2026-08-05",
+    "computed_at": "2026-08-06T02:50:22Z",
+    "currentness": "2020-12-14",
+    "grade": "B",
+    "input_sha256": "6e3717739b9da8321e14652ffca833b52cfcc794beff4c8900e17ba68637f824",
+    "kind": "verification",
+    "limitations": [
+      "Text was ingested from CourtListener public full text.",
+      "Not yet matched byte-for-byte to an official court/reporter PDF or HTML edition.",
+      "Treat as researchable public law text with an open official-verification task."
+    ],
+    "official_receipts": [],
+    "policy_version": "grade-policy-v1-bulk-courtlistener",
+    "reason": "CourtListener public full text captured with content hash; not yet matched to an official court or reporter edition.",
+    "reason_code": "courtlistener_public_full_text_unverified_against_official_reporter",
+    "schema_version": "1.0.0-draft.1",
+    "source_classes": [
+      "independent_structured_corpus"
+    ],
+    "verified_at": null,
+    "version_id": "ver:v1:50c56c32-1829-7e58-81d2-1d823966e3b9"
+  },
+  "version": {
+    "current_through": "2020-12-14",
+    "decision_date": "2020-12-14",
+    "effective_date": null,
+    "finality_status": "public_full_text_unverified",
+    "kind": "authority_version",
+    "normalization_warnings": [
+      "Bulk CourtListener import; official reporter comparison pending."
+    ],
+    "normalized_text_sha256": "6e3717739b9da8321e14652ffca833b52cfcc794beff4c8900e17ba68637f824",
+    "observed_at": "2026-08-06T02:50:22Z",
+    "parser_id": "bulk-courtlistener-v1",
+    "parser_version": "1",
+    "primary_text": "J-A17027-20\n\n 2020 PA Super 284\n\n JOHANNA L. GOODWIN : IN THE SUPERIOR COURT OF\n : PENNSYLVANIA\n :\n v. :\n :\n :\n SCOTT M. GOODWIN :\n :\n Appellant : No. 2338 EDA 2019\n\n Appeal from the Order Entered July 22, 2019\n In the Court of Common Pleas of Bucks County Family Division at\n No(s): 2008-63956-DQRY\n\nBEFORE: BOWES, J., McCAFFERY, J., and FORD ELLIOTT, P.J.E.\n\nCONCURRING & DISSENTING OPINION BY McCAFFERY, J.:\n\n FILED DECEMBER 14, 2020\n\n Respectfully, I would reverse the trial court's finding that Son's life\n\ninsurance proceeds were a \"gift,\" and thus excluded from the marital estate,\n\nwithin the meaning of Section 3501 of the Pennsylvania Divorce Code.1 In\n\nlight of this disposition, I would remand for the trial court to reconsider the\n\noverall distribution scheme. However, I agree with the learned Majority's\n\ndenial of relief on Husband's claim that the trial court failed to properly\n\nconsider the Section 3502 factors for dividing marital property. Accordingly,\n\nI concur and dissent.\n\n____________________________________________\n\n1 23 Pa.C.S. §§ 3101-3904.\n J-A17027-20\n\n Husband's first claim on appeal is that the trial court erred in finding\n\nSon's life insurance proceeds2 were marital property pursuant to Section 3501.\n\nFor ease of review, I first set forth the Divorce Code's definition of \"marital\n\nproperty:\"\n\n (a) General rule.—As used in this chapter, \"marital\n property\" means all property acquired by either party during the\n marriage . . . . However, marital property does not include:\n\n * * *\n\n (3) Property acquired by gift, except between spouses,\n bequest, devise or descent or property acquired in exchange\n for such property.\n\n * * *\n\n (b) Presumption.—All real or personal property acquired by\n either party during the marriage is presumed to be marital\n property regardless of whether title is held individually or by the\n parties in some form of co-ownership such as joint tenancy,\n tenancy in common or tenancy by the entirety. The presumption\n of marital property is overcome by a showing that the property\n was acquired by a method listed in subsection (a).\n\nSee 23 Pa.C.S. § 3501(a)(3), (b).\n\n I also consider the trial court's discussion:\n\n [T]he life insurance proceeds Wife received following her son's\n passing are not a bequest, devise, descent or any other form of\n inheritance from [a] decedent. [I]t is well established that the\n assignation of an individual as a life insurance beneficiary is a\n mere expectancy. Knoche v. Mutual Life Inc. Co., [176 A. 230,\n 230-31 (Pa. 1934)].\n\n____________________________________________\n\n2 I separately consider Husband's claim as to Son's IRA proceeds infra.\n\n -2-\n J-A17027-20\n\n It is clear that the naming of a beneficiary on a life insurance\n policy vests nothing in that person during the lifetime of the\n insured[;] thus the funds were never in the possession of the\n insured, [Son]. As a result, he cannot have given them as a gift\n to his mother. As the funds were never in the possession of\n [Son's] estate, they cannot have been a testamentary gift either.\n\n Rather, Wife possesses the funds from her son's life\n insurance polic[ies] because he assigned the expectancy of\n those insurance contracts specifically to her alone. He did this\n as a gift — voluntarily, \"without consideration or compensation\n as an incentive or motive for the transaction.\" Bundy v. Wetzel,\n 184 A.3d 551, 556 (Pa. 2018). During her son's life, Wife had no\n legally protectable interest against him extinguishing this\n expectancy in favor of another, because an expectancy is the\n chance to obtain property from a living person and not in itself\n property. Braman Estate, [258 A.2d 492, 493 n.3 (Pa. 1969)].\n ...\n\nTrial Ct. Op. at 5-6 (emphases added).\n\n On appeal, Husband asserts that under Section 6108(a) of the Probate,\n\nEstates and Fiduciaries Code (PEC Code), the trial court properly found Son's\n\nlife insurance and IRA proceeds were not a \"bequest, devise, or descent\"\n\npursuant to Subsection 3501(a)(3). Husband's Brief at 30, 32, citing 20\n\nPa.C.S.A. § 6108(a) (the designation of a life insurance beneficiary is not\n\ntestamentary and shall not be subject to any law governing the transfer of\n\nproperty by will); Henderson Estate, 149 A.2d 892, 894-95 (Pa. 1959) (life\n\ninsurance proceeds are not testamentary conveyances). Husband reasons\n\nthat under these same principles, the trial court should have found the life\n\ninsurance and IRA proceeds were likewise not \"gifts\" under Section\n\n3501(a)(3), and thus should have excluded them from the marital estate.\n\nHusband's Brief at 39, citing Trial Ct. Op. at 5. Husband contends the court\n\n -3-\n J-A17027-20\n\ninstead improperly \"created a new exception\" and \"a legal fiction,\" as \"there\n\nis no such thing as [an] insured making an ‘assignment of an expectancy as\n\na gift.'\" Husband's Brief at 23-24. \"A mere expectancy is not an asset\" that\n\ncan be delivered as a gift. Id. at 40-41. The court's attempt to label the\n\nnaming of a beneficiary as \"an assignment of an expectancy\" and a \"gift\" do\n\n\"not change the nature of the transaction.\" Id. at 45, 51. For the following\n\nreasons, I conclude relief is due.\n\n First, I agree with the Majority there is scant Pennsylvania law\n\naddressing the situation at bar. See Majority Op. at 9-10. I would begin\n\nreview by examining the statutory language of Section 3501, as well as\n\nSection 6108(a) of the PEC Code. This Court has stated:\n\n In interpreting a statute, this Court must \"ascertain and effectuate\n the intention of the General Assembly. Every statute shall be\n construed, if possible, to give effect to all its provisions.\" 1 Pa.C.S.\n § 1921(a). To do so, we begin by considering the plain meaning\n of the statute's language. If the statute's plain language is\n unambiguous, we must apply it without employing familiar canons\n of construction and without considering legislative intent.\n\nDubose v. Quinlan, 173 A.3d 634, 643 (Pa. 2017) (some citations and\n\nfootnote omitted).\n\n As Son died while the parties were married, his life insurance and IRA\n\nproceeds were presumed to be \"marital property\" pursuant to Section\n\n3501(b), and to establish otherwise, Wife bore the burden of showing the\n\nproceeds were acquired by a method set forth in Subsection (a). See 23\n\nPa.C.S. § 3501(a), (b). As stated above, Section 3501(a) excludes the\n\n -4-\n J-A17027-20\n\nfollowing from marital property: \"[p]roperty acquired by gift, . . . bequest,\n\ndevise or descent or property acquired in exchange for such property.\" 23\n\nPa.C.S. § 3501(a)(3). However, as Husband points out, the Divorce Code\n\ndoes not define the terms \"bequest,\" \"devise,\" or \"descent.\" See Husband's\n\nBrief at 29-30. The Statutory Construction Act of 1972 provides these\n\ndefinitions:3\n\n \"Bequest.\" — Includes devise and legacy.\n\n * * *\n\n \"Devise.\" —Includes . . . bequest and legacy when used as a noun.\n\n * * *\n\n \"Legacy.\" —Includes devise and bequest.\n\n1 Pa.C.S. § 1991 (definitions); see Husband's Brief at 29-30. The Merriam-\n\nWebster dictionary defines \"descent,\" in part, as \"transmission or devolution\n\nof an estate by inheritance usually in the descending line.\"\n\nhttps://www.merriam-webster.com/dictionary/descent.\n\n Section 6108(a) of the PEC provides: \"The designation of beneficiaries\n\nof life insurance . . . shall not be considered testamentary and shall not be\n\n____________________________________________\n\n3 Section 1991 prefaces the definitions with the provision: \"The following\nwords and phrases, when used in any statute finally enacted on or after\nSeptember 1, 1937, unless the context clearly indicates otherwise, shall have\nthe meanings given to them in this section[.]\" 1 Pa.C.S. § 1991.\n\n -5-\n J-A17027-20\n\nsubject to any law governing the transfer of property by will.\" 20 Pa.C.S. §\n\n6108(a). This Court has stated:\n\n It is clear that the naming of a beneficiary on a life insurance policy\n vests nothing in that person during the lifetime of the insured; the\n beneficiary has but a mere expectancy. Furthermore, the naming\n of a beneficiary on a life insurance policy is sui generis; it is not a\n conveyance of the insured's assets.\n\nLindsey v. Lindsey, 492 A.2d 396, 398 (Pa. Super. 1985) (citations omitted).\n\nSee also Trial Ct. Op. at 5, citing Knoche, 176 A. at 230-31 (\"Where the right\n\nto change the beneficiary has been reserved in a life insurance policy, the\n\nbeneficiary named has but a mere expectancy with no vested right or interest\n\nduring the lifetime of the insured.\").\n\n First, I agree with the trial court that Son's life insurance proceeds were\n\nnot testamentary bequests, devises, or descents. See 20 Pa.C.S. § 6108(a).\n\nI further agree that the life insurance proceeds themselves were not a \"gift,\"\n\nfor the reasons cited by the trial court: Son could not have gifted the proceeds\n\nto anyone because \"the funds were never in [his] possession.\" See Trial Ct.\n\nOp. at 5.\n\n Pursuant to the same legal authority, however, I disagree with the trial\n\ncourt's conclusion that Son's naming his mother as the beneficiary was a\n\n\"gift\" pursuant to Subsection 3501(a)(3). See Knoche, 176 A. at 230-31;\n\nLindsey, 492 A.2d at 398. I would conclude that where \"the naming of a\n\nbeneficiary on a life insurance policy . . . is not a conveyance of the insured's\n\nassets,\" the naming of a beneficiary similarly cannot be a \"gift\" given by the\n\n -6-\n J-A17027-20\n\ninsured to the beneficiary. See Lindsey, 492 A.2d at 398. Likewise, where\n\nthe beneficiary \"has but a mere expectancy,\" she cannot have received a\n\n\"gift.\" See Knoche, 176 A. at 230-31.\n\n I would thus conclude Husband's first claim may be resolved by applying\n\nthe plain meaning of Section 3501 of the Divorce Code and Section 6108(a)\n\nof the PEC. The plain language of Section 3501 and Section 6108(a) is clear.\n\nAs our statutes resolve this issue, I would not, as the Majority does, consider\n\nhow our sister states have resolved similar claims. Any exception or\n\naccommodation in the statute must come from our legislature, and not by this\n\nCourt's selective modification of how the statute should apply in certain\n\ncircumstances.\n\n While I appreciate the trial court's proper consideration of the particular\n\ncircumstances presented in this matter, as well as its endeavor to fashion an\n\noverall equitable distribution scheme, for the foregoing reasons I would\n\nreverse the trial court's finding that, under Section 3501, Son's life insurance\n\nproceeds were a \"gift\" to Wife and thus excludable from the marital estate.\n\nSee Hess v. Hess, 212 A.3d 520, 523 (Pa. Super. 2019) (citations omitted);\n\nLindsey, 492 A.2d at 398. I would remand for the trial court to enter an\n\namended equitable distribution order.\n\n Having addressed Husband's claims as to Son's life insurance\n\nproceeds, I briefly address his arguments concerning Son's IRA proceeds.\n\nThe Majority addresses these proceeds together with the life insurance\n\n -7-\n J-A17027-20\n\nproceeds, and similarly concludes they were a \"gift,\" excludable from the\n\nmarital estate, under Section 3501(a)(3). See Majority Op. at 8, 14. I note,\n\nhowever, that while Husband avers Wife was the named beneficiary on this\n\nIRA account, the trial court articulated no such finding. See Husband's Brief\n\nat 13-14, 16. Instead, the court simply stated that Wife \"received [these]\n\nfunds from [Son's] estate.\" Trial Ct. Op. at 2; Order, 7/22/19, at 4. I would\n\nthus direct the trial court to also determine whether Son's IRA proceeds, \"or\n\nproperty acquired in exchange for\" these proceeds, were marital property\n\npursuant to Section 3501.4 See 23 Pa.C.S. § 3501(a).\n\n In his second issue, Husband avers the trial court erred in failing to\n\ndesignate \"a percentage to the equitable distribution scheme in its [July 22,\n\n2019,] order,\" as required by 23 Pa.C.S. § 3506. Husband's Brief at 55. The\n\nMajority denies relief on this claim, pointing out the trial court specified the\n\nequitable distribution scheme in its Pa.R.A.P. 1925(a) opinion. Maj. Op. at\n\n14. The Majority further construes Husband's issue as \"less a claim the\n\ndistribution scheme was unclear and more a claim Husband disagrees with the\n\ntreatment of the marital debt.\" Id. at 15. I agree with the Majority's\n\ndiscussion that \"[t]he trial court clearly concluded the debts were marital in\n\nnature, notwithstanding Wife's decision to pay them ‘with her separate\n\n____________________________________________\n\n4 I note Husband presents no challenge to the trial court's disposition of Son's\n\nfour Bank of America accounts.\n\n -8-\n J-A17027-20\n\nmoney.'\" Id. at 16. Nevertheless, I would grant relief on different grounds:\n\nbecause Son's life insurance proceeds comprise a significant marital asset, I\n\nwould remand for the trial court to reconsider the overall distribution scheme.\n\n Lastly, I agree with the Majority's denial of relief on Husband's final issue\n\n— that the trial court abused its discretion and erred in failing to consider\n\nsome factors, and changing the meaning of other factors, under 23 Pa.C.S. §\n\n3502(a). See Husband's Brief at 61. I join that part of the Majority's opinion.\n\nSee Majority Op. at 17-23.\n\n For the foregoing reasons, I respectfully concur and dissent with the\n\nMajority's opinion.\n\n -9-",
+    "publication_date": "2020-12-14",
+    "publication_status": "public",
+    "record_id": "rec:v1:fec4693f-32b5-7e34-84ef-c0cbae766a77",
+    "schema_version": "1.0.0-draft.1",
+    "source_locators": [
+      {
+        "artifact_id": "art:v1:0b453221-8b4d-7db8-886c-af77a8df54c2",
+        "locator": "full-text",
+        "quote_sha256": "6e3717739b9da8321e14652ffca833b52cfcc794beff4c8900e17ba68637f824"
+      }
+    ],
+    "status": "current",
+    "structure_sha256": "6e3717739b9da8321e14652ffca833b52cfcc794beff4c8900e17ba68637f824",
+    "text_scope": {
+      "excludes": [
+        "footer",
+        "navigation",
+        "annotations",
+        "headnotes",
+        "summaries",
+        "editorial_content"
+      ],
+      "includes": [
+        "opinion_body"
+      ]
+    },
+    "version_id": "ver:v1:50c56c32-1829-7e58-81d2-1d823966e3b9"
+  }
+}

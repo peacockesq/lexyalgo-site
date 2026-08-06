@@ -9,7 +9,7 @@ export function SearchResultRow({ result }: { result: SearchResult }) {
         <div className="flex flex-col gap-5 sm:flex-row sm:items-start sm:justify-between">
           <div className="min-w-0 max-w-3xl">
             <div className="flex flex-wrap items-center gap-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
-              <span>{result.authority_type}</span><span aria-hidden="true">·</span><span>{result.jurisdiction}</span><span aria-hidden="true">·</span><span className="capitalize">{result.status.replaceAll("_", " ")}</span>
+              <span>{result.authority_type}</span><span aria-hidden="true">·</span><span>{result.jurisdiction}</span><span aria-hidden="true">·</span><span className="capitalize">{(result.status || "current").replaceAll("_", " ")}</span>
             </div>
             <h2 className="mt-3 font-serif text-2xl font-semibold leading-tight text-slate-950">
               <Link href={result.route} className="underline decoration-transparent underline-offset-4 transition hover:decoration-slate-400">{result.title}</Link>

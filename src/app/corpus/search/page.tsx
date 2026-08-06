@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function CorpusSearchPage() {
   const bundle = getCorpusBundle();
   return (
-    <main className="min-h-screen bg-white px-4 py-10 sm:px-6 sm:py-14">
+    <div className="min-h-screen bg-white px-4 py-10 sm:px-6 sm:py-14">
       <div className="mx-auto max-w-5xl">
         <nav aria-label="Breadcrumb" className="mb-8 text-sm text-slate-500"><Link href="/corpus/" className="hover:text-slate-900">Corpus</Link> <span aria-hidden="true">/</span> <span aria-current="page" className="text-slate-700">Search</span></nav>
         <header className="mb-10 max-w-3xl">
@@ -21,6 +21,6 @@ export default function CorpusSearchPage() {
         </header>
         <CorpusSearch results={listSearchResults()} dataAsOf={bundle.data_as_of} />
       </div>
-    </main>
+    </div>
   );
 }
