@@ -5,6 +5,9 @@ import { GradeBadge } from "./GradeBadge";
 export function CorpusHome() {
   const entries = listCorpusEntries();
   const official = entries.filter((entry) => !entry.fixture_notice);
+  const gradeA = official.filter((entry) => entry.response.verification.grade === "A");
+  const gradeB = official.filter((entry) => entry.response.verification.grade === "B");
+  const featured = [...gradeA, ...gradeB].slice(0, 24);
   return (
     <div className="min-h-screen bg-white px-4 py-12 sm:px-6 sm:py-20">
       <div className="mx-auto max-w-5xl">
@@ -20,20 +23,29 @@ export function CorpusHome() {
 
         <section className="py-12" aria-labelledby="verified-samples-heading">
           <div className="flex flex-wrap items-end justify-between gap-3">
-            <div><p className="text-xs font-bold uppercase tracking-[0.18em] text-slate-500">Rights-reviewed vertical slice</p><h2 id="verified-samples-heading" className="mt-2 font-serif text-3xl font-semibold text-slate-950">Verified public authorities</h2></div>
-            <p className="text-sm text-slate-500">{official.length} official records</p>
+            <div>
+              <p className="text-xs font-bold uppercase tracking-[0.18em] text-slate-500">Public authorities</p>
+              <h2 id="verified-samples-heading" className="mt-2 font-serif text-3xl font-semibold text-slate-950">Browseable corpus records</h2>
+            </div>
+            <p className="text-sm text-slate-500">{official.length} public records · {gradeA.length} grade A · {gradeB.length} grade B</p>
           </div>
           <ul className="mt-7 divide-y divide-slate-200 border-y border-slate-200">
-            {official.map((entry) => {
+            {featured.map((entry) => {
               const response = entry.response;
+              const citation = response.record.citation_aliases?.[0]?.display_value
+                || response.record.title
+                || entry.slug;
+              const reason = response.verification.reason
+                || response.verification.reason_code
+                || gradeLabelsFallback(response.verification.grade);
               return (
                 <li key={entry.slug} className="py-6">
                   <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
                     <div>
                       <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">{response.record.authority_type} · {response.record.jurisdiction}</p>
-                      <h3 className="mt-2 font-serif text-2xl font-semibold text-slate-950"><Link className="underline decoration-transparent underline-offset-4 hover:decoration-slate-400" href={entry.route}>{response.record.title}</Link></h3>
-                      <p className="mt-2 font-mono text-sm font-semibold text-slate-700">{response.record.citation_aliases[0]?.display_value}</p>
-                      <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600">{response.verification.reason}</p>
+                      <h3 className="mt-2 font-serif text-2xl font-semibold text-slate-950"><Link className="underline decoration-transparent underline-offset-4 hover:decoration-slate-400" href={entry.route}>{response.record.title || citation}</Link></h3>
+                      <p className="mt-2 font-mono text-sm font-semibold text-slate-700">{citation}</p>
+                      <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600">{reason}</p>
                     </div>
                     <GradeBadge grade={response.verification.grade} compact />
                   </div>
@@ -41,6 +53,11 @@ export function CorpusHome() {
               );
             })}
           </ul>
+          {official.length > featured.length ? (
+            <p className="mt-6 text-sm text-slate-600">
+              Showing {featured.length} of {official.length}. Use <Link className="underline" href="/corpus/search/">search</Link> for the full index.
+            </p>
+          ) : null}
         </section>
 
         <section className="border-t border-slate-300 py-10 text-sm leading-6 text-slate-600">
@@ -50,4 +67,10 @@ export function CorpusHome() {
       </div>
     </div>
   );
+}
+
+function gradeLabelsFallback(grade: string): string {
+  if (grade === "A") return "Officially verified.";
+  if (grade === "B") return "Usable with caution.";
+  return "See verification footer.";
 }

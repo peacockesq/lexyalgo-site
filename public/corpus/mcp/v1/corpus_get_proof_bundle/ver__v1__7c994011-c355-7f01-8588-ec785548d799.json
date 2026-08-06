@@ -1,0 +1,118 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "art:v1:0be155fd-6832-7093-8f8b-ccd47c48cb32",
+      "byte_length": 2673,
+      "canonical_url": "https://www.courtlistener.com/opinion/9490804/machen-v-miller/",
+      "final_url": "https://www.courtlistener.com/opinion/9490804/machen-v-miller/",
+      "mime_type": "text/plain",
+      "privacy_class": "public_primary_law",
+      "publisher": "Free Law Project / CourtListener",
+      "raw_sha256": "3e37fe6e05fd37852b08e75601097a6888b4d9b5575d4990056a16d90792478a",
+      "retrieval_method": "database_export",
+      "retrieved_at": "2026-08-06T02:50:22Z",
+      "rights_basis": "Public judicial opinion text via CourtListener; no Lexis/West editorial content.",
+      "source_id": "src:v1:us:opinion:courtlistener"
+    }
+  ],
+  "contract_version": "1.0.0-draft.1",
+  "data_as_of": "2026-08-06T02:50:22Z",
+  "defects": [],
+  "graph_edges": [],
+  "kind": "proof_bundle",
+  "reconciliations": [],
+  "record": {
+    "authority_type": "opinion",
+    "body": "Judicial opinion",
+    "canonical_key": {
+      "content_hash": "3e37fe6e05fd3785",
+      "source": "courtlistener"
+    },
+    "citation_aliases": [
+      {
+        "confidence": 0.7,
+        "display_value": "Machen v. Miller",
+        "normalized_value": "machen-v-miller-0aa87168",
+        "scheme": "case-name",
+        "source_id": "src:v1:us:opinion:courtlistener"
+      }
+    ],
+    "court": null,
+    "created_at": "2026-08-06T02:50:22Z",
+    "heading": "Machen v. Miller",
+    "identity_state": "complete",
+    "jurisdiction": "us-federal",
+    "kind": "authority_record",
+    "record_id": "rec:v1:0e2c952a-8eb9-7f93-8fac-6e21e78aee8c",
+    "schema_version": "1.0.0-draft.1",
+    "slug": "machen-v-miller-0aa87168",
+    "title": "Machen v. Miller"
+  },
+  "schema_version": "1.0.0-draft.1",
+  "verification": {
+    "active_defect_ids": [],
+    "as_of": "2026-08-05",
+    "computed_at": "2026-08-06T02:50:22Z",
+    "currentness": "2024-04-04",
+    "grade": "B",
+    "input_sha256": "3e37fe6e05fd37852b08e75601097a6888b4d9b5575d4990056a16d90792478a",
+    "kind": "verification",
+    "limitations": [
+      "Text was ingested from CourtListener public full text.",
+      "Not yet matched byte-for-byte to an official court/reporter PDF or HTML edition.",
+      "Treat as researchable public law text with an open official-verification task."
+    ],
+    "official_receipts": [],
+    "policy_version": "grade-policy-v1-bulk-courtlistener",
+    "reason": "CourtListener public full text captured with content hash; not yet matched to an official court or reporter edition.",
+    "reason_code": "courtlistener_public_full_text_unverified_against_official_reporter",
+    "schema_version": "1.0.0-draft.1",
+    "source_classes": [
+      "independent_structured_corpus"
+    ],
+    "verified_at": null,
+    "version_id": "ver:v1:7c994011-c355-7f01-8588-ec785548d799"
+  },
+  "version": {
+    "current_through": "2024-04-04",
+    "decision_date": "2024-04-04",
+    "effective_date": null,
+    "finality_status": "public_full_text_unverified",
+    "kind": "authority_version",
+    "normalization_warnings": [
+      "Bulk CourtListener import; official reporter comparison pending."
+    ],
+    "normalized_text_sha256": "3e37fe6e05fd37852b08e75601097a6888b4d9b5575d4990056a16d90792478a",
+    "observed_at": "2026-08-06T02:50:22Z",
+    "parser_id": "bulk-courtlistener-v1",
+    "parser_version": "1",
+    "primary_text": "[Cite as Machen v. Miller, 2024-Ohio-1273.]\n\n COURT OF APPEALS OF OHIO\n\n EIGHTH APPELLATE DISTRICT\n COUNTY OF CUYAHOGA\n\nS. KAREN MACHEN, :\n\n Plaintiff-Appellant/ :\n Cross-Appellee, No. 112644\n :\n v.\n :\nALFRED THOMAS MILLER, JR.,\n :\n Defendant-Appellee/\n Cross-Appellant. :\n\n JOURNAL ENTRY AND OPINION\n\n JUDGMENT: AFFIRMED IN PART, REVERSED IN PART,\n AND REMANDED\n RELEASED AND JOURNALIZED: April 4, 2024\n\n Civil Appeal from the Cuyahoga County Court of Common Pleas\n Domestic Relations Division\n Case No. DR-18-374625\n\n Appearances:\n\n Rosenthal | Thurman | Lane, L.L.C., Scott S. Rosenthal,\n and James L. Lane, for appellant/cross-appellee.\n\n Stafford Law Co., L.P.A., Joseph G. Stafford, Nicole A.\n Cruz, and Kelley R. Tauring, for appellee/cross-appellant.\n\nLISA B. FORBES, J.:\n\n S. Karen Machen appeals from the trial court's \"Qualified Domestic\n\nRelations Order\" in this divorce case. After reviewing the facts of the case and\n pertinent law, we affirm in part, reverse in part, and remand this case to the trial\n\ncourt for further proceedings consistent with this opinion.\n\n A detailed recitation of the underlying facts in this case can be found\n\nin our opinion regarding the companion cases, Machen v. Miller, 8th Dist. Cuyahoga\n\nNos. 112453, 112454, and 112479 (the \"Companion Case\"). Furthermore, the four\n\nassignments of error in this case are duplicative of four of the 18 assignments of\n\nerror in the Companion Case. Assignment of error No. 1 is the same as assignment\n\nof error No. 2 in the Companion Case, which was sustained. Assignment of error\n\nNo. 2 is the same as assignment of error No. 10 in the Companion Case, which was\n\nsustained. Assignment of error No. 3 is the same as assignment of error No. 17 in\n\nthe Companion Case, which was overruled as moot. Assignment of error No. 4 is\n\nthe same as assignment of error No. 18 in the Companion Case, which was sustained.\n\n Accordingly, and for the same reasons as in the Companion Case,\n\nassignments of error Nos. 1, 2, and 4 are sustained, and assignment of error No. 3 is\n\noverruled as moot.\n\n Judgment affirmed in part, reversed in part, and remanded to the\n\ntrial court for further proceedings consistent with this opinion.\n\n It is ordered that appellant/cross-appellee and appellee/cross-appellant costs\n\nshare costs herein taxed.\n\n The court finds there were reasonable grounds for this appeal.\n\n It is ordered that a special mandate be sent to said court to carry this judgment\n\ninto execution.\n A certified copy of this entry shall constitute the mandate pursuant to Rule 27\n\nof the Rules of Appellate Procedure.\n\nLISA B. FORBES, JUDGE\n\nMARY EILEEN KILBANE, P.J., and\nSEAN C. GALLAGHER, J., CONCUR",
+    "publication_date": "2024-04-04",
+    "publication_status": "public",
+    "record_id": "rec:v1:0e2c952a-8eb9-7f93-8fac-6e21e78aee8c",
+    "schema_version": "1.0.0-draft.1",
+    "source_locators": [
+      {
+        "artifact_id": "art:v1:0be155fd-6832-7093-8f8b-ccd47c48cb32",
+        "locator": "full-text",
+        "quote_sha256": "3e37fe6e05fd37852b08e75601097a6888b4d9b5575d4990056a16d90792478a"
+      }
+    ],
+    "status": "current",
+    "structure_sha256": "3e37fe6e05fd37852b08e75601097a6888b4d9b5575d4990056a16d90792478a",
+    "text_scope": {
+      "excludes": [
+        "footer",
+        "navigation",
+        "annotations",
+        "headnotes",
+        "summaries",
+        "editorial_content"
+      ],
+      "includes": [
+        "opinion_body"
+      ]
+    },
+    "version_id": "ver:v1:7c994011-c355-7f01-8588-ec785548d799"
+  }
+}

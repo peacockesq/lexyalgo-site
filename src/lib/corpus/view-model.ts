@@ -35,18 +35,21 @@ export type AuthorityViewModel = {
 export function buildAuthorityViewModel(entry: CorpusEntry): AuthorityViewModel {
   const { response, proof_bundle: proof } = entry;
   const grade = response.verification.grade;
-  const finality = response.version.finality_status.replaceAll("_", " ");
+  const finality = (response.version.finality_status || "unknown").replaceAll("_", " ");
+  const status = (response.version.status || "unknown").replaceAll("_", " ");
   return {
     entry,
     response,
     proof,
-    citation: response.record.citation_aliases[0]?.display_value ?? "Uncited authority",
+    citation: response.record.citation_aliases?.[0]?.display_value
+      || response.record.title
+      || "Uncited authority",
     title: response.record.title ?? response.record.heading ?? "Untitled authority",
     gradeLabel: gradeLabels[grade],
     gradeDescription: gradeDescriptions[grade],
     verifiedLabel: response.verification.verified_at ?? "Not officially verified",
-    statusLabel: `${response.version.status.replaceAll("_", " ")} · ${finality}`,
-    sourceArtifacts: proof.artifacts,
+    statusLabel: `${status} · ${finality}`,
+    sourceArtifacts: proof.artifacts || [],
     canShowPrimaryText: grade !== "F",
     candidateWarning: grade === "C" || grade === "D"
       ? "Candidate authority. Confirm the text against an official publisher before relying on it."

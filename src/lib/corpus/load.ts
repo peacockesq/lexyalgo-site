@@ -12,7 +12,40 @@ export function listCorpusEntries(): CorpusEntry[] {
 }
 
 export function listSearchResults(): SearchResult[] {
-  return bundle.search_index;
+  const fromBundle = bundle.search_index;
+  if (Array.isArray(fromBundle) && fromBundle.length > 0) {
+    return fromBundle as SearchResult[];
+  }
+  return bundle.entries
+    .filter((entry) => {
+      const grade = entry.response.verification.grade;
+      return grade === "A" || grade === "B";
+    })
+    .map((entry) => {
+      const rec = entry.response.record;
+      const citation = rec.citation_aliases?.[0]?.display_value || rec.title || entry.slug;
+      return {
+        slug: entry.slug,
+        route: entry.route,
+        api_route: entry.api_route,
+        title: rec.title || citation,
+        citation,
+        jurisdiction: rec.jurisdiction,
+        authority_type: rec.authority_type,
+        grade: entry.response.verification.grade,
+        status: entry.response.version.status || "current",
+        finality_status: entry.response.version.finality_status || "unknown",
+        body: rec.body || rec.heading || "",
+        snippet: (entry.response.version.primary_text || "").slice(0, 280),
+        snippet_label: "Primary text excerpt",
+        reason_code: entry.response.verification.reason_code,
+        reason: entry.response.verification.reason || entry.response.verification.reason_code,
+        verified_at: entry.response.verification.verified_at,
+        limitation: entry.response.verification.limitations?.[0] || null,
+        source_url: entry.proof_bundle.artifacts?.[0]?.canonical_url || null,
+        fixture: Boolean(entry.fixture_notice),
+      };
+    });
 }
 
 export function loadAuthority(slug: string): AuthorityResponse | null {

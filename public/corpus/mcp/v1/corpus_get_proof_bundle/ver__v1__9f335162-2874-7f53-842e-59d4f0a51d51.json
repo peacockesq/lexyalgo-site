@@ -1,0 +1,118 @@
+{
+  "artifacts": [
+    {
+      "artifact_id": "art:v1:c86d8a04-21c5-74b9-83a2-c328e7b0b361",
+      "byte_length": 12332,
+      "canonical_url": "https://www.courtlistener.com/opinion/10680648/",
+      "final_url": "https://www.courtlistener.com/opinion/10680648/",
+      "mime_type": "text/plain",
+      "privacy_class": "public_primary_law",
+      "publisher": "Free Law Project / CourtListener",
+      "raw_sha256": "44a08435e8b3aa345f4b65b80237650be33b019dceb42512031bf6f93c38f3c3",
+      "retrieval_method": "database_export",
+      "retrieved_at": "2026-08-06T02:50:22Z",
+      "rights_basis": "Public judicial opinion text via CourtListener; no Lexis/West editorial content.",
+      "source_id": "src:v1:us:opinion:courtlistener"
+    }
+  ],
+  "contract_version": "1.0.0-draft.1",
+  "data_as_of": "2026-08-06T02:50:22Z",
+  "defects": [],
+  "graph_edges": [],
+  "kind": "proof_bundle",
+  "reconciliations": [],
+  "record": {
+    "authority_type": "opinion",
+    "body": "Ohio Supreme Court",
+    "canonical_key": {
+      "content_hash": "44a08435e8b3aa34",
+      "source": "courtlistener"
+    },
+    "citation_aliases": [
+      {
+        "confidence": 0.7,
+        "display_value": "Cleveland Metro. Bar Assn. v. Brown",
+        "normalized_value": "cleveland-metro-bar-assn-v-brown-437a31f0",
+        "scheme": "case-name",
+        "source_id": "src:v1:us:opinion:courtlistener"
+      }
+    ],
+    "court": "Ohio Supreme Court",
+    "created_at": "2026-08-06T02:50:22Z",
+    "heading": "Cleveland Metro. Bar Assn. v. Brown",
+    "identity_state": "complete",
+    "jurisdiction": "us-state-oh",
+    "kind": "authority_record",
+    "record_id": "rec:v1:7bb8531a-9898-7366-89f3-35437ff5f5d1",
+    "schema_version": "1.0.0-draft.1",
+    "slug": "cleveland-metro-bar-assn-v-brown-437a31f0",
+    "title": "Cleveland Metro. Bar Assn. v. Brown"
+  },
+  "schema_version": "1.0.0-draft.1",
+  "verification": {
+    "active_defect_ids": [],
+    "as_of": "2026-08-05",
+    "computed_at": "2026-08-06T02:50:22Z",
+    "currentness": "2024-01-01",
+    "grade": "B",
+    "input_sha256": "44a08435e8b3aa345f4b65b80237650be33b019dceb42512031bf6f93c38f3c3",
+    "kind": "verification",
+    "limitations": [
+      "Text was ingested from CourtListener public full text.",
+      "Not yet matched byte-for-byte to an official court/reporter PDF or HTML edition.",
+      "Treat as researchable public law text with an open official-verification task."
+    ],
+    "official_receipts": [],
+    "policy_version": "grade-policy-v1-bulk-courtlistener",
+    "reason": "CourtListener public full text captured with content hash; not yet matched to an official court or reporter edition.",
+    "reason_code": "courtlistener_public_full_text_unverified_against_official_reporter",
+    "schema_version": "1.0.0-draft.1",
+    "source_classes": [
+      "independent_structured_corpus"
+    ],
+    "verified_at": null,
+    "version_id": "ver:v1:9f335162-2874-7f53-842e-59d4f0a51d51"
+  },
+  "version": {
+    "current_through": "2024-01-01",
+    "decision_date": "2024-01-01",
+    "effective_date": null,
+    "finality_status": "public_full_text_unverified",
+    "kind": "authority_version",
+    "normalization_warnings": [
+      "Bulk CourtListener import; official reporter comparison pending."
+    ],
+    "normalized_text_sha256": "44a08435e8b3aa345f4b65b80237650be33b019dceb42512031bf6f93c38f3c3",
+    "observed_at": "2026-08-06T02:50:22Z",
+    "parser_id": "bulk-courtlistener-v1",
+    "parser_version": "1",
+    "primary_text": "[Until this opinion appears in the Ohio Official Reports advance sheets, it may be cited as\nCleveland Metro. Bar Assn. v. Brown, Slip Opinion No. 2024-Ohio-2789.]\n\n NOTICE\n This slip opinion is subject to formal revision before it is published in an\n advance sheet of the Ohio Official Reports. Readers are requested to\n promptly notify the Reporter of Decisions, Supreme Court of Ohio, 65\n South Front Street, Columbus, Ohio 43215, of any typographical or other\n formal errors in the opinion, in order that corrections may be made before\n the opinion is published.\n\n SLIP OPINION NO. 2024-OHIO-2789\n CLEVELAND METROPOLITAN BAR ASSOCIATION v. BROWN.\n [Until this opinion appears in the Ohio Official Reports advance sheets, it\n may be cited as Cleveland Metro. Bar Assn. v. Brown, Slip Opinion No.\n 2024-Ohio-2789.]\nAttorneys—Misconduct—Violations of the Rules of Professional Conduct by\n neglecting a client's legal matter, failing to reasonably communicate, and\n failing to protect the client's interests upon termination of her\n representation—Conditionally stayed six-month suspension.\n (No. 2024-0487—Submitted May 7, 2024—Decided July 25, 2024.)\n ON CERTIFIED REPORT by the Board of Professional Conduct of the Supreme\n Court, No. 2023-042.\n __________________\n The per curiam opinion below was joined by KENNEDY, C.J., and FISCHER,\nDEWINE, DONNELLY, STEWART, and DETERS, JJ. BRUNNER, J., did not participate.\n SUPREME COURT OF OHIO\n\n Per Curiam.\n {¶ 1} Respondent, Joanne Brown, of Cleveland, Ohio, Attorney\nRegistration No. 0050039, was admitted to the practice of law in Ohio in 1977. On\nDecember 18, 2002, we suspended her license (under her prior name) for two years,\nwith one year stayed, for commingling personal funds and client funds while\nserving as guardian, attorney for the guardianship, and later attorney for her\ndeceased ward's estate; failing to account for approximately $12,000 of her client's\nfunds; and failing to cooperate in the ensuing disciplinary investigation.\nDisciplinary Counsel v. McCully, 2002-Ohio-6724. She was reinstated to the\npractice of law on April 15, 2004. Disciplinary Counsel v. McCully, 2004-Ohio-\n2238.\n {¶ 2} In a December 2023 complaint, relator, Cleveland Metropolitan Bar\nAssociation, charged Brown with professional misconduct arising from her neglect\nof a client's legal matter, failure to reasonably communicate with her client, and\nfailure to protect the client's interests upon the termination of her representation.\n {¶ 3} After a three-member panel of the Board of Professional Conduct\nrejected the parties' consent-to-discipline agreement, the parties submitted\ncomprehensive stipulations and jointly recommended that Brown be given a\nconditionally stayed six-month suspension for her misconduct. The panel chair\ngranted the parties' motion to waive the scheduled hearing and submitted the matter\nto the panel on the parties' stipulations and joint exhibits.\n {¶ 4} The panel issued a report finding by clear and convincing evidence\nthat Brown had committed the charged misconduct and recommending that we\nadopt the parties' proposed sanction. The board adopted the panel's report and\nrecommendation. We adopt the board's findings of misconduct and suspend Brown\nfrom the practice of law in Ohio for six months, fully stayed on the condition that\nshe engage in no further misconduct.\n\n 2\n January Term, 2024\n\n MISCONDUCT\n {¶ 5} The stipulated evidence shows that in October 2018, Brown agreed to\nrepresent Virgil Collins in a foreclosure action filed against him in Cuyahoga\nCounty. Around the time Brown agreed to represent Collins, Collins provided\nBrown with a 24-page counterclaim and asked her to file it in the proceeding.\nCollins frequently visited Brown's office and called her, sometimes more than once\na day, to discuss the foreclosure action and his proposed counterclaim. Brown\nnever agreed to file the counterclaim, believing that the claims within it were time-\nbarred or otherwise lacked merit.\n {¶ 6} From December 2018 through June 2019, Brown filed several\nmotions and pleadings on Collins's behalf, including a motion for leave to answer\nthe complaint instanter, an untimely motion for mediation and an extension of time\nto respond to the plaintiff's motion for summary judgment, and a motion for\nextension of time to file an amended answer and counterclaim.\n {¶ 7} In May 2019, the court conducted a settlement conference. During\nthat conference, Collins decided that he did not want to resolve the action through\na loan modification and instructed Brown to file the counterclaim. Although Brown\ntwice sought and was granted leave to file a counterclaim on Collins's behalf, she\nnever filed the counterclaim, believing that a loan modification was a better course\nof action.\n {¶ 8} In November 2019, the trial court granted summary judgment in favor\nof the plaintiff and against Collins in the foreclosure action. Collins learned of the\ncourt's summary-judgment order when he checked the trial court's docket. Around\nthat time, Collins made repeated attempts to contact Brown, who was absent from\nher office for six weeks due to an illness.\n {¶ 9} From December 2019 through February 2020, Brown filed several\nmotions on Collins's behalf—including a motion to vacate the summary-judgment\norder against Collins. But the trial court denied that motion on February 25, 2020.\n\n 3\n SUPREME COURT OF OHIO\n\nIn an attempt to block the foreclosure on his home, Collins filed several pro se\nmotions, removed the action to federal district court, and filed a separate federal\naction and appeal in which he named Brown as a defendant.\n {¶ 10} Although Brown ceased representing Collins as of February 28,\n2020, she did not file a notice of withdrawal as counsel in the foreclosure action.\nConsequently, the court continued to serve documents in that case on Brown rather\nthan on Collins until October 2022.\n {¶ 11} On this evidence, the parties stipulated and the board found that\nBrown's conduct violated Prof.Cond.R. 1.3 (requiring a lawyer to act with\nreasonable diligence in representing a client), 1.4(a)(3) (requiring a lawyer to keep\na client reasonably informed about the status of a matter), 1.4(a)(4) (requiring a\nlawyer to comply as soon as practicable with a client's reasonable requests for\ninformation), and 1.16(d) (requiring a lawyer withdrawing from representation to\ntake steps reasonably practicable to protect a client's interest). We adopt the\nboard's findings of misconduct.\n RECOMMENDED SANCTION\n {¶ 12} When imposing sanctions for attorney misconduct, we consider all\nrelevant factors, including the ethical duties that the lawyer violated, the\naggravating and mitigating factors listed in Gov.Bar R. V(13), and the sanctions\nimposed in similar cases.\n {¶ 13} The parties stipulated and the board found that just one aggravating\nfactor is present in this case—Brown's prior discipline. See Gov.Bar R.\nV(13)(B)(1). As for mitigating factors, the parties stipulated and the board found\nthat Brown did not act with a selfish or dishonest motive, made full and free\ndisclosure and exhibited a cooperative attitude toward the disciplinary proceeding,\nand presented evidence of her good character and reputation in the form of letters\nfrom a fellow attorney, the chief deputy clerk for the Cleveland Municipal Court,\nand a former client. See Gov.Bar R. V(13)(C)(2), (4), and (5).\n\n 4\n January Term, 2024\n\n {¶ 14} The parties suggested that the appropriate sanction for Brown's\nmisconduct is a conditionally stayed six-month suspension. In support of that\nsanction, the parties cited five cases in which we imposed conditionally stayed six-\nmonth suspensions on attorneys who had previously been disciplined and who had\nengaged in misconduct comparable to that of Brown in this case. The board found\nfour of those cases to be instructive.\n {¶ 15} In Lorain Cty. Bar Assn. v. Haynes, 2020-Ohio-1570, Haynes failed\nto finalize a client's qualified domestic-relations order for more than two years,\nfailed to keep the client reasonably informed about the status of the matter, and\nfailed to respond to the client's repeated requests for information. Id. at ¶ 11.\nHaynes had been publicly reprimanded 20 years earlier for neglecting another\nclient's legal matter. Id. at ¶ 1, 13. In addition to the mitigating factors present in\nthis case, Haynes also made full restitution to his client. Id. at ¶ 14. We imposed\na conditionally stayed six-month suspension for Haynes's misconduct. Id. at ¶ 18.\n {¶ 16} In Mahoning Cty. Bar Assn. v. Vivo, 2019-Ohio-1858, Vivo\nneglected a client's legal matter, failed to provide competent representation, failed\nto consult with the client about the means by which her objectives would be\naccomplished, and failed to inform the client of decisions that required her informed\nconsent. Id. at ¶ 8. Vivo also failed to comply as soon as practicable with the\nclient's reasonable requests for information. Id. Vivo had previously been\nsuspended for one year, with the entire suspension conditionally stayed, for\nengaging in similar acts of misconduct and failing to cooperate in the resulting\ndisciplinary investigation. Id. at ¶ 2. We adopted the parties' consent-to-discipline\nagreement and suspended Vivo from the practice of law for six months, fully stayed\non the conditions that he complete six hours of continuing legal education focused\non law-office management and engage in no further misconduct. Id. at ¶ 14. We\nalso ordered Vivo to serve one year of monitored probation upon the reinstatement\nof his license. Id.\n\n 5\n SUPREME COURT OF OHIO\n\n {¶ 17} In Mahoning Cty. Bar Assn. v. Mickens, 2018-Ohio-2630, we\nimposed a conditionally stayed six-month suspension on Mickens for his neglect of\na single client matter, failure to reasonably communicate with the client, and failure\nto inform the client that he did not maintain professional-liability insurance. Id. at\n¶ 4, 8-9. Although it was Mickens's second disciplinary case, the misconduct at\nissue predated similar acts of misconduct for which we had publicly reprimanded\nhim in 2016. Id. at ¶ 2-3.\n {¶ 18} Finally, the board considered Disciplinary Counsel v. Falconer,\n2020-Ohio-1194, in which we adopted a consent-to-discipline agreement and\nimposed a conditionally stayed six-month suspension for an attorney's misconduct.\nAccording to the board's report in that case, which recommended that we adopt the\nparties' consent-to-discipline agreement, Falconer neglected two client matters and\nfailed to reasonably communicate with the affected clients. He also failed to take\nsteps to protect one client's interests on the termination of his representation and\nfailed to hold property separate from his own property and to promptly refund the\nunearned portion of his fee on the termination of his representation for the second\nclient. Falconer had previously been suspended from the practice of law for nine\ndays for failing to timely register as an attorney for the 2007-2009 biennium. See\nIn re Falconer, 2007-Ohio-6463, reinstatement granted, 2008-Ohio-290.\n {¶ 19} We agree with the board and the parties that Brown's conduct in this\ncase—her neglect of Collins's legal matter, her failure to reasonably communicate\nwith Collins regarding the status of his matter, and her failure to protect his interests\nupon the termination of her representation—is comparable to the misconduct at\nissue in Haynes, Vivo, Mickens, and Falconer. Given that her prior discipline\noccurred more than 20 years ago and that she has established the presence of three\nmitigating factors, we agree that a conditionally stayed six-month suspension will\nadequately protect the public from future harm. We therefore adopt the board's\nrecommended sanction.\n\n 6\n January Term, 2024\n\n CONCLUSION\n {¶ 20} Accordingly, Joanne Brown is suspended from the practice of law in\nOhio for six months, with the suspension fully stayed on the condition that she\ncommit no further misconduct. If Brown fails to comply with the condition of the\nstay, the stay will be lifted and she will serve the full six-month suspension. Costs\nare taxed to Brown.\n Judgment accordingly.\n _________________\n Christopher J. Klasa, Bar Counsel, for relator.\n Gallagher Sharp, L.L.P., Monica A. Sansalone, and Timothy T. Brick, for\nrespondent.\n _________________\n\n 7",
+    "publication_date": "2024-01-01",
+    "publication_status": "public",
+    "record_id": "rec:v1:7bb8531a-9898-7366-89f3-35437ff5f5d1",
+    "schema_version": "1.0.0-draft.1",
+    "source_locators": [
+      {
+        "artifact_id": "art:v1:c86d8a04-21c5-74b9-83a2-c328e7b0b361",
+        "locator": "full-text",
+        "quote_sha256": "44a08435e8b3aa345f4b65b80237650be33b019dceb42512031bf6f93c38f3c3"
+      }
+    ],
+    "status": "current",
+    "structure_sha256": "44a08435e8b3aa345f4b65b80237650be33b019dceb42512031bf6f93c38f3c3",
+    "text_scope": {
+      "excludes": [
+        "footer",
+        "navigation",
+        "annotations",
+        "headnotes",
+        "summaries",
+        "editorial_content"
+      ],
+      "includes": [
+        "opinion_body"
+      ]
+    },
+    "version_id": "ver:v1:9f335162-2874-7f53-842e-59d4f0a51d51"
+  }
+}
