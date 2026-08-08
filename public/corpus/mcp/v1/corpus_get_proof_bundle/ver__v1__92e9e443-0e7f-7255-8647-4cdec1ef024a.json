@@ -15,7 +15,7 @@
       "source_id": "src:v1:us:opinion:courtlistener"
     }
   ],
-  "contract_version": "1.0.0-draft.1",
+  "contract_version": "1.0.0-draft.2",
   "data_as_of": "2026-08-06T02:50:22Z",
   "defects": [],
   "graph_edges": [],
@@ -44,29 +44,27 @@
     "jurisdiction": "us-state-ne",
     "kind": "authority_record",
     "record_id": "rec:v1:8c32c72b-09fa-762f-8695-d17f76e925fd",
-    "schema_version": "1.0.0-draft.1",
+    "schema_version": "1.0.0-draft.2",
     "slug": "pebley-v-pebley-74f8cd1c",
     "title": "Pebley v. Pebley"
   },
-  "schema_version": "1.0.0-draft.1",
+  "schema_version": "1.0.0-draft.2",
   "verification": {
     "active_defect_ids": [],
     "as_of": "2026-08-05",
     "computed_at": "2026-08-06T02:50:22Z",
     "currentness": "2026-01-01",
-    "grade": "B",
-    "input_sha256": "1f76740f6897dda51897e7c83c324544fc3cf5efd247204d45cefa59b06d419b",
+    "grade": "C",
+    "input_sha256": "125aaefebf43ad3fa502fa03589a4b3568ade17689b2e387fa06cc771b21682d",
     "kind": "verification",
     "limitations": [
-      "Text was ingested from CourtListener public full text.",
-      "Not yet matched byte-for-byte to an official court/reporter PDF or HTML edition.",
-      "Treat as researchable public law text with an open official-verification task."
+      "No current official diff-match receipt."
     ],
     "official_receipts": [],
-    "policy_version": "grade-policy-v1-bulk-courtlistener",
-    "reason": "CourtListener public full text captured with content hash; not yet matched to an official court or reporter edition.",
-    "reason_code": "courtlistener_public_full_text_unverified_against_official_reporter",
-    "schema_version": "1.0.0-draft.1",
+    "policy_version": "grade-policy-v2",
+    "reason": "Lawful usable public-primary-law baseline awaiting official diff verification.",
+    "reason_code": "lawful_baseline_pending_official",
+    "schema_version": "1.0.0-draft.2",
     "source_classes": [
       "independent_structured_corpus"
     ],
@@ -90,7 +88,7 @@
     "publication_date": "2026-01-01",
     "publication_status": "public",
     "record_id": "rec:v1:8c32c72b-09fa-762f-8695-d17f76e925fd",
-    "schema_version": "1.0.0-draft.1",
+    "schema_version": "1.0.0-draft.2",
     "source_locators": [
       {
         "artifact_id": "art:v1:931469af-0d0b-7dc9-8f97-1a8c2493c62c",

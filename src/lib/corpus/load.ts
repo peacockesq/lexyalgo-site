@@ -17,10 +17,6 @@ export function listSearchResults(): SearchResult[] {
     return fromBundle as SearchResult[];
   }
   return bundle.entries
-    .filter((entry) => {
-      const grade = entry.response.verification.grade;
-      return grade === "A" || grade === "B";
-    })
     .map((entry) => {
       const rec = entry.response.record;
       const citation = rec.citation_aliases?.[0]?.display_value || rec.title || entry.slug;

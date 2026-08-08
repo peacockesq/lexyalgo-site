@@ -13,11 +13,13 @@ const fail = (message) => { throw new Error(message); };
 const entries = bundle.entries;
 if (entries.length < 6) fail(`Expected at least six vertical-slice records, found ${entries.length}`);
 const grades = new Set(entries.map((entry) => entry.response.verification.grade));
-for (const g of ["A", "B", "C", "D", "F"]) {
+for (const g of ["A", "C", "D", "F"]) {
   if (!grades.has(g)) fail(`Missing grade ${g} coverage`);
 }
-if (search.results.some((result) => ["C", "D", "F"].includes(result.grade))) fail("Default search leaked candidate or suppressed records");
-if (manifest.contract_version !== "1.0.0-draft.1") fail("Contract version drifted");
+if (search.results.length !== entries.length) fail("Default search must keep every grade discoverable");
+if (manifest.contract_version !== "1.0.0-draft.2") fail("Contract version drifted");
+const rank = { A: 0, B: 1, C: 2, D: 3, F: 4 };
+if (search.results.some((result, index) => index > 0 && rank[search.results[index - 1].grade] > rank[result.grade])) fail("Search grade rank drifted");
 
 for (const entry of entries) {
   const slug = entry.slug;
@@ -37,10 +39,8 @@ for (const entry of entries) {
   if (!html.includes('id="verification"')) fail(`Missing verification footer for ${slug}`);
   if (!html.includes(entry.response.version.normalized_text_sha256)) fail(`Missing full normalized hash for ${slug}`);
   if (!html.includes(entry.response.verification.reason_code)) fail(`Missing verification reason code for ${slug}`);
-  if (entry.response.verification.grade === "F") {
-    if (!html.includes("Primary text suppressed")) fail(`F record not suppressed for ${slug}`);
-    if (html.includes(entry.response.version.primary_text)) fail(`F primary text leaked for ${slug}`);
-  } else if (!html.includes("Primary text")) {
+  if (["D", "F"].includes(entry.response.verification.grade) && !html.includes("Warning")) fail(`Missing conspicuous warning for ${slug}`);
+  if (!html.includes("Primary text")) {
     fail(`Primary text heading missing for ${slug}`);
   }
 }

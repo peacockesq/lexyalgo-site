@@ -1,5 +1,5 @@
 {
-  "contract_version": "1.0.0-draft.1",
+  "contract_version": "1.0.0-draft.2",
   "data_as_of": "2026-08-01T16:18:23Z",
   "record": {
     "authority_type": "statute",
@@ -11,7 +11,7 @@
     },
     "citation_aliases": [
       {
-        "confidence": 1.0,
+        "confidence": 1,
         "display_value": "Fixture fixture-independent-corroboration",
         "normalized_value": "fixture-independent-corroboration",
         "scheme": "provider-id",
@@ -24,7 +24,7 @@
     "jurisdiction": "us-federal",
     "kind": "authority_record",
     "record_id": "auth:v1:us-federal:statute:fixture-code:fixture-independent-corroboration",
-    "schema_version": "1.0.0-draft.1",
+    "schema_version": "1.0.0-draft.2",
     "title": "Independent corroboration pending official verification"
   },
   "verification": {
@@ -33,16 +33,16 @@
     "computed_at": "2026-08-01T16:18:23Z",
     "currentness": "Synthetic fixture as of August 1, 2026",
     "grade": "C",
-    "input_sha256": "b309a2bee63b201b69d790809b6ec9667e91083fa0934ebb64602c7cc21f2ca1",
+    "input_sha256": "7b5daadc31713178f902fbd454b4d9fa3794c8b5a88314e7d7079f1f78cce83c",
     "kind": "verification",
     "limitations": [
-      "No official publisher comparison receipt."
+      "No current official diff-match receipt."
     ],
     "official_receipts": [],
-    "policy_version": "grade-policy-v1",
-    "reason": "Independent source classes agree (cap, courtlistener); official verification is pending.",
-    "reason_code": "independent_corroboration_pending_official",
-    "schema_version": "1.0.0-draft.1",
+    "policy_version": "grade-policy-v2",
+    "reason": "Lawful usable public-primary-law baseline awaiting official diff verification.",
+    "reason_code": "lawful_baseline_pending_official",
+    "schema_version": "1.0.0-draft.2",
     "source_classes": [
       "cap",
       "courtlistener"
@@ -72,7 +72,7 @@
     "record_id": "auth:v1:us-federal:statute:fixture-code:fixture-independent-corroboration",
     "recorded_at": "2026-08-01T16:18:23Z",
     "repeal_date": null,
-    "schema_version": "1.0.0-draft.1",
+    "schema_version": "1.0.0-draft.2",
     "source_locators": [
       {
         "artifact_id": "art:v1:37fe9235-bc98-7a6f-850f-78f8ce944b9e",

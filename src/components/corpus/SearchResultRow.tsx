@@ -3,8 +3,9 @@ import type { SearchResult } from "@/lib/corpus";
 import { GradeBadge } from "./GradeBadge";
 
 export function SearchResultRow({ result }: { result: SearchResult }) {
+  const warning = result.grade === "D" || result.grade === "F";
   return (
-    <li className="border-b border-slate-200 py-7 first:border-t">
+    <li className={`border-b py-7 first:border-t ${warning ? "border-red-300 bg-red-50/60 px-4" : "border-slate-200"}`}>
       <article>
         <div className="flex flex-col gap-5 sm:flex-row sm:items-start sm:justify-between">
           <div className="min-w-0 max-w-3xl">
@@ -24,7 +25,7 @@ export function SearchResultRow({ result }: { result: SearchResult }) {
           <p className="mt-2 line-clamp-3 font-serif text-sm leading-6 text-slate-700">{result.snippet}</p>
         </div>
         <div className="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-xs text-slate-600">
-          <span>{result.reason}</span>
+          <span className={warning ? "font-bold text-red-900" : ""}>{result.reason}</span>
           <span>Verified: {result.verified_at ?? "not official"}</span>
           {result.limitation && <span className="font-semibold text-amber-800">{result.limitation}</span>}
           {result.source_url && <a href={result.source_url} target="_blank" rel="noreferrer" className="font-semibold text-slate-800 underline underline-offset-4">Official source</a>}
