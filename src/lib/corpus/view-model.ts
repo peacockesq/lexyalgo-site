@@ -2,18 +2,18 @@ import type { AuthorityResponse, CorpusEntry, Grade, ProofBundle } from "./contr
 
 export const gradeLabels: Record<Grade, string> = {
   A: "Officially verified",
-  B: "Usable with caution",
-  C: "Candidate — independently corroborated",
-  D: "Candidate — single source",
-  F: "Suppressed — material defect",
+  B: "Previously verified — stale",
+  C: "Lawful baseline — verification pending",
+  D: "Warning — suspected issue",
+  F: "Warning — confirmed material defect",
 };
 
 export const gradeDescriptions: Record<Grade, string> = {
-  A: "Matched to an official publisher under the current verification policy.",
-  B: "Usable only with the displayed finality or currentness limitation.",
-  C: "Two independent candidate sources agree, but no official comparison is recorded.",
-  D: "Only one candidate source is recorded. Verify against an official publisher before use.",
-  F: "A verified material defect is open. The primary text is suppressed.",
+  A: "Official diff match, clean, with no unresolved defect, verified within 365 days.",
+  B: "This rendition previously qualified for A, but its verification is older than 365 days.",
+  C: "Lawful usable public-primary-law baseline awaiting official diff verification.",
+  D: "A suspected issue or user report remains unresolved. Verify against the official publisher before use.",
+  F: "A material defect is confirmed. The rendition remains discoverable for transparency but should not be relied on.",
 };
 
 export type AuthorityViewModel = {
@@ -37,23 +37,26 @@ export function buildAuthorityViewModel(entry: CorpusEntry): AuthorityViewModel 
   const grade = response.verification.grade;
   const finality = (response.version.finality_status || "unknown").replaceAll("_", " ");
   const status = (response.version.status || "unknown").replaceAll("_", " ");
+  const warning = grade === "C"
+    ? "Official verification pending. Confirm this lawful baseline against the official publisher before relying on it."
+    : grade === "D"
+      ? "Warning: a suspected issue or user report is unresolved. Do not rely on this rendition without official verification."
+      : grade === "F"
+        ? "Warning: a material defect is confirmed. This rendition is shown for transparency and should not be relied on."
+        : null;
   return {
     entry,
     response,
     proof,
-    citation: response.record.citation_aliases?.[0]?.display_value
-      || response.record.title
-      || "Uncited authority",
+    citation: response.record.citation_aliases?.[0]?.display_value || response.record.title || "Uncited authority",
     title: response.record.title ?? response.record.heading ?? "Untitled authority",
     gradeLabel: gradeLabels[grade],
     gradeDescription: gradeDescriptions[grade],
     verifiedLabel: response.verification.verified_at ?? "Not officially verified",
     statusLabel: `${status} · ${finality}`,
     sourceArtifacts: proof.artifacts || [],
-    canShowPrimaryText: grade !== "F",
-    candidateWarning: grade === "C" || grade === "D"
-      ? "Candidate authority. Confirm the text against an official publisher before relying on it."
-      : null,
+    canShowPrimaryText: true,
+    candidateWarning: warning,
     fixtureNotice: entry.fixture_notice,
   };
 }

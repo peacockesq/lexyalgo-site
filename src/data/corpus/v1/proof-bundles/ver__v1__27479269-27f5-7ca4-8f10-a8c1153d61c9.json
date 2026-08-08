@@ -24,12 +24,12 @@
       "retrieval_method": "html",
       "retrieved_at": "2026-08-01T16:18:23Z",
       "rights_decision_ref": "src:v1:us-federal:statute:olrc-usc@1",
-      "schema_version": "1.0.0-draft.1",
+      "schema_version": "1.0.0-draft.2",
       "source_id": "src:v1:us-federal:statute:olrc-usc",
       "source_reported_status": "official"
     }
   ],
-  "contract_version": "1.0.0-draft.1",
+  "contract_version": "1.0.0-draft.2",
   "data_as_of": "2026-08-01T16:18:23Z",
   "defects": [],
   "graph_edges": [],
@@ -45,7 +45,7 @@
     },
     "citation_aliases": [
       {
-        "confidence": 1.0,
+        "confidence": 1,
         "display_value": "29 U.S.C. § 1056(d)(3)",
         "normalized_value": "29-usc-1056-d-3",
         "scheme": "usc",
@@ -58,17 +58,17 @@
     "jurisdiction": "us-federal",
     "kind": "authority_record",
     "record_id": "auth:v1:us-federal:statute:usc-title-29:1056-d-3",
-    "schema_version": "1.0.0-draft.1",
+    "schema_version": "1.0.0-draft.2",
     "title": "Assignment or alienation of plan benefits — qualified domestic relations orders"
   },
-  "schema_version": "1.0.0-draft.1",
+  "schema_version": "1.0.0-draft.2",
   "verification": {
     "active_defect_ids": [],
     "as_of": "2026-08-01",
     "computed_at": "2026-08-01T16:18:23Z",
     "currentness": "Laws in effect on July 31, 2026",
     "grade": "A",
-    "input_sha256": "2a4a3b3c1016b30bd9ff419468d0a8f17c6005b573f6065d7b834e66bddd0c0d",
+    "input_sha256": "c4b64a9e92aca82c74c510a52bde714e4619473ee32e9f02715cf933fc37849b",
     "kind": "verification",
     "limitations": [],
     "official_receipts": [
@@ -78,10 +78,10 @@
         "quote_sha256": "351ba5a44c842b44d553bb25d66b273c9f06c0013e5c36a778d4ecbf87b85bc8"
       }
     ],
-    "policy_version": "grade-policy-v1",
+    "policy_version": "grade-policy-v2",
     "reason": "Official source verified as of 2026-08-01 (0 days old).",
     "reason_code": "official_verified_current",
-    "schema_version": "1.0.0-draft.1",
+    "schema_version": "1.0.0-draft.2",
     "source_classes": [
       "official-publisher"
     ],
@@ -112,7 +112,7 @@
     "record_id": "auth:v1:us-federal:statute:usc-title-29:1056-d-3",
     "recorded_at": "2026-08-01T16:18:23Z",
     "repeal_date": null,
-    "schema_version": "1.0.0-draft.1",
+    "schema_version": "1.0.0-draft.2",
     "source_locators": [
       {
         "artifact_id": "art:v1:018f2a00-7b3c-7001-8def-105600000001",

@@ -24,12 +24,12 @@
       "retrieval_method": "synthetic_fixture",
       "retrieved_at": "2026-08-01T16:18:23Z",
       "rights_decision_ref": "src:v1:us-federal:other:fixture-courtlistener@1",
-      "schema_version": "1.0.0-draft.1",
+      "schema_version": "1.0.0-draft.2",
       "source_id": "src:v1:us-federal:other:fixture-courtlistener",
       "source_reported_status": "synthetic"
     }
   ],
-  "contract_version": "1.0.0-draft.1",
+  "contract_version": "1.0.0-draft.2",
   "data_as_of": "2026-08-01T16:18:23Z",
   "defects": [],
   "graph_edges": [],
@@ -45,7 +45,7 @@
     },
     "citation_aliases": [
       {
-        "confidence": 1.0,
+        "confidence": 1,
         "display_value": "Fixture fixture-single-candidate",
         "normalized_value": "fixture-single-candidate",
         "scheme": "provider-id",
@@ -58,26 +58,26 @@
     "jurisdiction": "us-federal",
     "kind": "authority_record",
     "record_id": "auth:v1:us-federal:statute:fixture-code:fixture-single-candidate",
-    "schema_version": "1.0.0-draft.1",
+    "schema_version": "1.0.0-draft.2",
     "title": "Single candidate source"
   },
-  "schema_version": "1.0.0-draft.1",
+  "schema_version": "1.0.0-draft.2",
   "verification": {
     "active_defect_ids": [],
     "as_of": "2026-08-01",
     "computed_at": "2026-08-01T16:18:23Z",
     "currentness": "Synthetic fixture as of August 1, 2026",
-    "grade": "D",
-    "input_sha256": "a7cb083ee865a56264b160c4474de76e8bcf181adeca2505f9572ad67c179d63",
+    "grade": "C",
+    "input_sha256": "b70f6c8ca08adb587e51e8bf986fbef8f5bde437170eeb1fd8dfdc8dfe2cbbe8",
     "kind": "verification",
     "limitations": [
-      "Official verification and independent corroboration are missing."
+      "No current official diff-match receipt."
     ],
     "official_receipts": [],
-    "policy_version": "grade-policy-v1",
-    "reason": "Single candidate source class only: courtlistener.",
-    "reason_code": "single_candidate_source",
-    "schema_version": "1.0.0-draft.1",
+    "policy_version": "grade-policy-v2",
+    "reason": "Lawful usable public-primary-law baseline awaiting official diff verification.",
+    "reason_code": "lawful_baseline_pending_official",
+    "schema_version": "1.0.0-draft.2",
     "source_classes": [
       "courtlistener"
     ],
@@ -106,7 +106,7 @@
     "record_id": "auth:v1:us-federal:statute:fixture-code:fixture-single-candidate",
     "recorded_at": "2026-08-01T16:18:23Z",
     "repeal_date": null,
-    "schema_version": "1.0.0-draft.1",
+    "schema_version": "1.0.0-draft.2",
     "source_locators": [
       {
         "artifact_id": "art:v1:70df2376-0d0f-7ad5-8576-822e2389d1de",

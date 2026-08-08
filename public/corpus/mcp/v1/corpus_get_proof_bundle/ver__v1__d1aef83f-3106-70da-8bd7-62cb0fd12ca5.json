@@ -24,12 +24,12 @@
       "retrieval_method": "pdf",
       "retrieved_at": "2026-08-01T16:18:23Z",
       "rights_decision_ref": "src:v1:us-federal:opinion:scotus@1",
-      "schema_version": "1.0.0-draft.1",
+      "schema_version": "1.0.0-draft.2",
       "source_id": "src:v1:us-federal:opinion:scotus",
       "source_reported_status": "official"
     }
   ],
-  "contract_version": "1.0.0-draft.1",
+  "contract_version": "1.0.0-draft.2",
   "data_as_of": "2026-08-01T16:18:23Z",
   "defects": [],
   "graph_edges": [],
@@ -45,7 +45,7 @@
     },
     "citation_aliases": [
       {
-        "confidence": 1.0,
+        "confidence": 1,
         "display_value": "No. 24-43",
         "normalized_value": "24-43",
         "scheme": "docket",
@@ -58,20 +58,20 @@
     "jurisdiction": "us-federal",
     "kind": "authority_record",
     "record_id": "auth:v1:us-federal:opinion:scotus:24-43:2026-06-30",
-    "schema_version": "1.0.0-draft.1",
+    "schema_version": "1.0.0-draft.2",
     "title": "West Virginia v. B. P. J."
   },
-  "schema_version": "1.0.0-draft.1",
+  "schema_version": "1.0.0-draft.2",
   "verification": {
     "active_defect_ids": [],
     "as_of": "2026-08-01",
     "computed_at": "2026-08-01T16:18:23Z",
     "currentness": "Slip opinion retrieved August 1, 2026; subject to formal revision",
-    "grade": "B",
-    "input_sha256": "ec7b55d9debc886437ce79bd7cecdc1537ceaa95d20fa52a2010c4ca54741c26",
+    "grade": "D",
+    "input_sha256": "da02b3e59be10f55de1072e8ea603f3e21c01de79214350b515d4160aa6a6094",
     "kind": "verification",
     "limitations": [
-      "Final/reported status is not established."
+      "A later official rendition may supersede this text."
     ],
     "official_receipts": [
       {
@@ -80,10 +80,10 @@
         "quote_sha256": "8af3d4a57d05ed68bf5b8848c2665982aa92f8b7be1e87061e5d9170f4f88e54"
       }
     ],
-    "policy_version": "grade-policy-v1",
-    "reason": "Official source matched, but rendition finality is slip and remains revision-sensitive.",
-    "reason_code": "official_case_revision_sensitive",
-    "schema_version": "1.0.0-draft.1",
+    "policy_version": "grade-policy-v2",
+    "reason": "Official text matched, but the rendition remains revision-sensitive.",
+    "reason_code": "revision_sensitive",
+    "schema_version": "1.0.0-draft.2",
     "source_classes": [
       "official-publisher"
     ],
@@ -114,7 +114,7 @@
     "record_id": "auth:v1:us-federal:opinion:scotus:24-43:2026-06-30",
     "recorded_at": "2026-08-01T16:18:23Z",
     "repeal_date": null,
-    "schema_version": "1.0.0-draft.1",
+    "schema_version": "1.0.0-draft.2",
     "source_locators": [
       {
         "artifact_id": "art:v1:018f2a00-7b3c-7003-8def-244300000001",

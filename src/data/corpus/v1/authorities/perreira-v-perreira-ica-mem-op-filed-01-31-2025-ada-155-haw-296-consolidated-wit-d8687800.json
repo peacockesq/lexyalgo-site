@@ -1,5 +1,5 @@
 {
-  "contract_version": "1.0.0-draft.1",
+  "contract_version": "1.0.0-draft.2",
   "data_as_of": "2026-08-06T02:50:22Z",
   "record": {
     "authority_type": "opinion",
@@ -24,7 +24,7 @@
     "jurisdiction": "us-federal",
     "kind": "authority_record",
     "record_id": "rec:v1:90a6f533-65a1-7622-8f27-19ec8edc3918",
-    "schema_version": "1.0.0-draft.1",
+    "schema_version": "1.0.0-draft.2",
     "slug": "perreira-v-perreira-ica-mem-op-filed-01-31-2025-ada-155-haw-296-consolidated-wit-d8687800",
     "title": "Perreira v. Perreira. ICA mem. op., filed 01/31/2025 [ada], 155 Haw. 296. Consolidated with CAAP-20-0000038. Application for Writ of Certiorari, filed 03/01/2025. S.Ct. Order Dismissing Application for Writ of Certiorari, filed 03/07/2025 [ada]. Application for Writ of Certiorari, filed 03/21/2025. S.Ct. Order Accepting Application for Writ of Certiorari, filed 05/02/2025 [ada]."
   },
@@ -33,19 +33,17 @@
     "as_of": "2026-08-05",
     "computed_at": "2026-08-06T02:50:22Z",
     "currentness": "2025-09-15",
-    "grade": "B",
-    "input_sha256": "849540186cb01a4008dbae1cd02439b5ccc736a89e4607d005434ca10e4c75eb",
+    "grade": "C",
+    "input_sha256": "125aaefebf43ad3fa502fa03589a4b3568ade17689b2e387fa06cc771b21682d",
     "kind": "verification",
     "limitations": [
-      "Text was ingested from CourtListener public full text.",
-      "Not yet matched byte-for-byte to an official court/reporter PDF or HTML edition.",
-      "Treat as researchable public law text with an open official-verification task."
+      "No current official diff-match receipt."
     ],
     "official_receipts": [],
-    "policy_version": "grade-policy-v1-bulk-courtlistener",
-    "reason": "CourtListener public full text captured with content hash; not yet matched to an official court or reporter edition.",
-    "reason_code": "courtlistener_public_full_text_unverified_against_official_reporter",
-    "schema_version": "1.0.0-draft.1",
+    "policy_version": "grade-policy-v2",
+    "reason": "Lawful usable public-primary-law baseline awaiting official diff verification.",
+    "reason_code": "lawful_baseline_pending_official",
+    "schema_version": "1.0.0-draft.2",
     "source_classes": [
       "independent_structured_corpus"
     ],
@@ -69,7 +67,7 @@
     "publication_date": "2025-09-15",
     "publication_status": "public",
     "record_id": "rec:v1:90a6f533-65a1-7622-8f27-19ec8edc3918",
-    "schema_version": "1.0.0-draft.1",
+    "schema_version": "1.0.0-draft.2",
     "source_locators": [
       {
         "artifact_id": "art:v1:f2824584-3190-796b-8b5e-cd5cc5c64da4",

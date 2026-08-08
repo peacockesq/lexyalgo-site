@@ -3,6 +3,7 @@ import { GradeBadge } from "./GradeBadge";
 
 export function AuthorityHero({ vm }: { vm: AuthorityViewModel }) {
   const { response } = vm;
+  const severeWarning = response.verification.grade === "D" || response.verification.grade === "F";
   return (
     <header className="border-b border-slate-200 pb-10">
       <div className="mb-5 flex flex-wrap items-center gap-3">
@@ -22,7 +23,7 @@ export function AuthorityHero({ vm }: { vm: AuthorityViewModel }) {
         </p>
       )}
       {vm.candidateWarning && (
-        <p className="mt-6 border-l-4 border-amber-500 bg-amber-50 px-4 py-3 text-sm font-semibold text-amber-950">
+        <p className={`mt-6 border-l-4 px-4 py-3 text-sm font-semibold ${severeWarning ? "border-red-700 bg-red-50 text-red-950" : "border-amber-500 bg-amber-50 text-amber-950"}`}>
           {vm.candidateWarning}
         </p>
       )}

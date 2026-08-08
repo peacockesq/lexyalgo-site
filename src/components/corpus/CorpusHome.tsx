@@ -7,12 +7,12 @@ export function CorpusHome() {
   const official = entries.filter((entry) => !entry.fixture_notice);
   const gradeA = official.filter((entry) => entry.response.verification.grade === "A");
   const gradeB = official.filter((entry) => entry.response.verification.grade === "B");
-  const featured = [...gradeA, ...gradeB].slice(0, 24);
+  const featured = official.slice(0, 24);
   return (
     <div className="min-h-screen bg-white px-4 py-12 sm:px-6 sm:py-20">
       <div className="mx-auto max-w-5xl">
         <header className="max-w-4xl border-b border-slate-300 pb-12">
-          <p className="text-xs font-bold uppercase tracking-[0.22em] text-slate-500">LexyAlgo Corpus</p>
+          <p className="text-xs font-bold uppercase tracking-[0.22em] text-slate-500">LexyCorpus</p>
           <h1 className="mt-4 text-pretty font-serif text-5xl font-semibold leading-[1.05] tracking-tight text-slate-950 sm:text-7xl">Primary law, with proof you can inspect.</h1>
           <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-600">A contract-first national-law corpus. Read source-native text, see the verification grade before relying on it, and inspect every source and integrity hash.</p>
           <div className="mt-8 flex flex-wrap gap-3">
@@ -62,7 +62,7 @@ export function CorpusHome() {
 
         <section className="border-t border-slate-300 py-10 text-sm leading-6 text-slate-600">
           <h2 className="font-serif text-2xl font-semibold text-slate-950">Evidence grades are usage controls</h2>
-          <p className="mt-3 max-w-3xl">A means officially verified. B exposes a currentness or finality caveat. C and D are candidate records and remain opt-in. F is suppressed unless a user explicitly asks to inspect defects.</p>
+          <p className="mt-3 max-w-3xl">A is a clean official diff match verified within 365 days. B is previously A but stale. C is a lawful baseline awaiting official verification. D and F remain discoverable, rank last, and carry conspicuous suspected-issue or confirmed-defect warnings.</p>
         </section>
       </div>
     </div>
