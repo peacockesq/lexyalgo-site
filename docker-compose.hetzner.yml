@@ -4,6 +4,9 @@ services:
       context: .
       dockerfile: Dockerfile
       target: runner
+      args:
+        NEXT_PUBLIC_LEXYCORPUS_API_URL: ${NEXT_PUBLIC_LEXYCORPUS_API_URL:-}
+        NEXT_PUBLIC_LEXYCORPUS_MCP_URL: ${NEXT_PUBLIC_LEXYCORPUS_MCP_URL:-}
     image: ${LEXYALGO_SITE_IMAGE:-lexyalgo-site:local}
     container_name: ${LEXYALGO_SITE_CONTAINER:-lexyalgo-site}
     restart: unless-stopped
