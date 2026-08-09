@@ -1,18 +1,84 @@
 "use client";
 
-import { useMemo, useState } from "react";
-import type { SearchResult } from "@/lib/corpus";
+import { useEffect, useMemo, useState } from "react";
+import type { LiveSearchResponse, SearchResult } from "@/lib/corpus";
 import { SearchResultRow } from "./SearchResultRow";
 
-export function CorpusSearch({ results, dataAsOf }: { results: SearchResult[]; dataAsOf: string }) {
+export function CorpusSearch({
+  results,
+  dataAsOf,
+  apiBaseUrl,
+}: {
+  results: SearchResult[];
+  dataAsOf: string;
+  apiBaseUrl: string | null;
+}) {
   const [query, setQuery] = useState("");
+  const [liveResults, setLiveResults] = useState<SearchResult[] | null>(null);
+  const [liveError, setLiveError] = useState<string | null>(null);
+  const [loading, setLoading] = useState(Boolean(apiBaseUrl));
+
+  useEffect(() => {
+    if (!apiBaseUrl) return;
+    const controller = new AbortController();
+    const timer = window.setTimeout(async () => {
+      setLoading(true);
+      try {
+        const params = new URLSearchParams({ q: query.trim(), limit: "50" });
+        const response = await fetch(`${apiBaseUrl}/v1/search?${params}`, {
+          headers: { Accept: "application/json" },
+          signal: controller.signal,
+        });
+        if (!response.ok) throw new Error(`LexyCorpus API returned ${response.status}`);
+        const payload = (await response.json()) as LiveSearchResponse;
+        setLiveResults(payload.results.map((row) => ({
+          slug: row.slug,
+          route: `/corpus/live-authority/?slug=${encodeURIComponent(row.slug)}`,
+          api_route: `${apiBaseUrl}/v1/authorities/${encodeURIComponent(row.slug)}`,
+          title: row.title,
+          citation: row.citation || row.title,
+          jurisdiction: row.jurisdiction,
+          body: row.body,
+          authority_type: row.authority_type,
+          status: "current",
+          finality_status: "unknown",
+          grade: row.grade,
+          reason_code: row.reason_code,
+          reason: row.reason,
+          verified_at: null,
+          limitation: row.grade === "D" || row.grade === "F"
+            ? "Do not rely without official verification or correction."
+            : null,
+          source_url: row.source_url,
+          snippet_label: "Live canonical record",
+          snippet: row.decision_date
+            ? `Decision date: ${row.decision_date}. Open the authority to read its primary text and proof.`
+            : "Open the authority to read its primary text and proof.",
+          fixture: false,
+        })));
+        setLiveError(null);
+      } catch (error) {
+        if (controller.signal.aborted) return;
+        setLiveResults(null);
+        setLiveError(error instanceof Error ? error.message : "The live LexyCorpus API is unavailable.");
+      } finally {
+        if (!controller.signal.aborted) setLoading(false);
+      }
+    }, 250);
+    return () => {
+      controller.abort();
+      window.clearTimeout(timer);
+    };
+  }, [apiBaseUrl, query]);
+
   const visible = useMemo(() => {
+    if (liveResults) return liveResults;
     const needle = query.trim().toLowerCase();
     if (!needle) return results;
     return results.filter((result) =>
       `${result.title} ${result.citation} ${result.body} ${result.snippet} ${result.jurisdiction}`.toLowerCase().includes(needle),
     );
-  }, [query, results]);
+  }, [liveResults, query, results]);
 
   return (
     <div>
@@ -23,11 +89,22 @@ export function CorpusSearch({ results, dataAsOf }: { results: SearchResult[]; d
           {query && <button type="button" onClick={() => setQuery("")} className="rounded-md border border-slate-300 bg-white px-4 py-3 text-sm font-semibold text-slate-700 hover:bg-slate-100">Clear</button>}
         </div>
         <p className="mt-4 text-sm leading-6 text-slate-600">All grades remain discoverable. Results rank A, B, C, D, then F; D/F carry conspicuous warnings and should not be relied on without verification or correction.</p>
+        {apiBaseUrl ? (
+          <p className={`mt-3 text-sm font-semibold ${liveError ? "text-amber-800" : "text-emerald-800"}`} role="status">
+            {loading
+              ? "Searching the live LexyCorpus service…"
+              : liveError
+                ? `${liveError} Showing the reviewed static fallback.`
+                : "Live API results and verification semantics are active."}
+          </p>
+        ) : (
+          <p className="mt-3 text-sm font-semibold text-slate-600">Reviewed static corpus slice. Live service endpoint is not configured for this build.</p>
+        )}
       </div>
 
       <div className="mt-8 flex flex-wrap items-baseline justify-between gap-3">
         <p className="text-sm font-semibold text-slate-800" aria-live="polite">{visible.length} {visible.length === 1 ? "authority" : "authorities"}</p>
-        <p className="text-xs text-slate-500">All grades shown · Data as of {dataAsOf}</p>
+        <p className="text-xs text-slate-500">All grades shown · {liveResults ? "Live service" : `Data as of ${dataAsOf}`}</p>
       </div>
 
       {visible.length > 0 ? (

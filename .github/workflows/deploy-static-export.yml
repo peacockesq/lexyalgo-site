@@ -61,6 +61,9 @@ jobs:
         run: npm run lint
 
       - name: Build static export
+        env:
+          NEXT_PUBLIC_LEXYCORPUS_API_URL: ${{ vars.LEXYCORPUS_API_URL != '' && vars.LEXYCORPUS_API_URL || secrets.LEXYCORPUS_API_URL }}
+          NEXT_PUBLIC_LEXYCORPUS_MCP_URL: ${{ vars.LEXYCORPUS_MCP_URL != '' && vars.LEXYCORPUS_MCP_URL || secrets.LEXYCORPUS_MCP_URL }}
         run: npm run build
 
       - name: Resolve built commit SHA

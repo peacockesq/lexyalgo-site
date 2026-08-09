@@ -5,7 +5,7 @@ import bundle from "../src/data/corpus/v1/bundle.json" with { type: "json" };
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const out = join(root, "out");
-const routes = ["/corpus/", "/corpus/search/", ...bundle.entries.map((entry) => entry.route)];
+const routes = ["/corpus/", "/corpus/search/", "/corpus/live-authority/", ...bundle.entries.map((entry) => entry.route)];
 const repairedRoutes = [];
 
 for (const route of routes) {
