@@ -4,7 +4,7 @@ export type CitationAlias = {
   scheme: string;
   normalized_value: string;
   display_value: string;
-  source_id: string;
+  source_id?: string;
   confidence: number;
 };
 

@@ -1,5 +1,5 @@
 {
-  "contract_version": "1.0.0-draft.1",
+  "contract_version": "1.0.0-draft.2",
   "data_as_of": "2026-08-01T16:18:23Z",
   "record": {
     "authority_type": "statute",
@@ -11,7 +11,7 @@
     },
     "citation_aliases": [
       {
-        "confidence": 1.0,
+        "confidence": 1,
         "display_value": "Fixture fixture-material-defect",
         "normalized_value": "fixture-material-defect",
         "scheme": "provider-id",
@@ -24,7 +24,7 @@
     "jurisdiction": "us-federal",
     "kind": "authority_record",
     "record_id": "auth:v1:us-federal:statute:fixture-code:fixture-material-defect",
-    "schema_version": "1.0.0-draft.1",
+    "schema_version": "1.0.0-draft.2",
     "title": "Verified material text defect"
   },
   "verification": {
@@ -35,10 +35,10 @@
     "computed_at": "2026-08-01T16:18:23Z",
     "currentness": "Synthetic fixture as of August 1, 2026",
     "grade": "F",
-    "input_sha256": "fb141828d0d9b641b617559984f3a962c9cfd02a107ba19a079734fc2f2bd9d1",
+    "input_sha256": "b154738a90179016388ca5ceee554f65cb2cd8947c5d78f11272cf3f6e28dad9",
     "kind": "verification",
     "limitations": [
-      "Suppressed from default authoritative results."
+      "Do not rely on this rendition until the defect is resolved."
     ],
     "official_receipts": [
       {
@@ -47,10 +47,10 @@
         "quote_sha256": "de06244fca410b36feae77c659cc0d1a8df33ce369822d5af47c0183c56ddda2"
       }
     ],
-    "policy_version": "grade-policy-v1",
-    "reason": "Active verified material defect(s): def:v1:d93e6c70-ad19-79c8-8c4c-ce252a0c32e0.",
-    "reason_code": "material_defect",
-    "schema_version": "1.0.0-draft.1",
+    "policy_version": "grade-policy-v2",
+    "reason": "A material defect is confirmed. This rendition remains discoverable for transparency and should not be relied on.",
+    "reason_code": "confirmed_material_defect",
+    "schema_version": "1.0.0-draft.2",
     "source_classes": [
       "official-fixture"
     ],
@@ -79,7 +79,7 @@
     "record_id": "auth:v1:us-federal:statute:fixture-code:fixture-material-defect",
     "recorded_at": "2026-08-01T16:18:23Z",
     "repeal_date": null,
-    "schema_version": "1.0.0-draft.1",
+    "schema_version": "1.0.0-draft.2",
     "source_locators": [
       {
         "artifact_id": "art:v1:f523de7c-efe8-7ae2-891a-f6afe887a7cf",

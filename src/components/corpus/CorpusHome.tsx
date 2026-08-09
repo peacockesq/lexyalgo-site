@@ -2,22 +2,23 @@ import Link from "next/link";
 import { listCorpusEntries } from "@/lib/corpus";
 import { GradeBadge } from "./GradeBadge";
 
-export function CorpusHome() {
+export function CorpusHome({ apiBaseUrl, mcpUrl }: { apiBaseUrl: string | null; mcpUrl: string | null }) {
   const entries = listCorpusEntries();
   const official = entries.filter((entry) => !entry.fixture_notice);
   const gradeA = official.filter((entry) => entry.response.verification.grade === "A");
   const gradeB = official.filter((entry) => entry.response.verification.grade === "B");
-  const featured = [...gradeA, ...gradeB].slice(0, 24);
+  const featured = official.slice(0, 24);
   return (
     <div className="min-h-screen bg-white px-4 py-12 sm:px-6 sm:py-20">
       <div className="mx-auto max-w-5xl">
         <header className="max-w-4xl border-b border-slate-300 pb-12">
-          <p className="text-xs font-bold uppercase tracking-[0.22em] text-slate-500">LexyAlgo Corpus</p>
+          <p className="text-xs font-bold uppercase tracking-[0.22em] text-slate-500">LexyCorpus</p>
           <h1 className="mt-4 text-pretty font-serif text-5xl font-semibold leading-[1.05] tracking-tight text-slate-950 sm:text-7xl">Primary law, with proof you can inspect.</h1>
           <p className="mt-7 max-w-2xl text-lg leading-8 text-slate-600">A contract-first national-law corpus. Read source-native text, see the verification grade before relying on it, and inspect every source and integrity hash.</p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link href="/corpus/search/" className="rounded-md bg-slate-900 px-5 py-3 text-sm font-semibold text-white hover:bg-slate-700">Search the corpus</Link>
-            <a href="/corpus/api/v1/manifest.json" className="rounded-md border border-slate-300 px-5 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-50">API manifest</a>
+            <a href={apiBaseUrl ? `${apiBaseUrl}/v1/manifest` : "/corpus/api/v1/manifest.json"} className="rounded-md border border-slate-300 px-5 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-50">{apiBaseUrl ? "Live API manifest" : "Static API manifest"}</a>
+            {mcpUrl && <a href={mcpUrl} className="rounded-md border border-slate-300 px-5 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-50">Remote MCP endpoint</a>}
           </div>
         </header>
 
@@ -62,7 +63,16 @@ export function CorpusHome() {
 
         <section className="border-t border-slate-300 py-10 text-sm leading-6 text-slate-600">
           <h2 className="font-serif text-2xl font-semibold text-slate-950">Evidence grades are usage controls</h2>
-          <p className="mt-3 max-w-3xl">A means officially verified. B exposes a currentness or finality caveat. C and D are candidate records and remain opt-in. F is suppressed unless a user explicitly asks to inspect defects.</p>
+          <p className="mt-3 max-w-3xl">A is a clean official diff match verified within 365 days. B is previously A but stale. C is a lawful baseline awaiting official verification. D and F remain discoverable, rank last, and carry conspicuous suspected-issue or confirmed-defect warnings.</p>
+        </section>
+
+        <section className="border-t border-slate-300 py-10 text-sm leading-6 text-slate-600" aria-labelledby="developer-heading">
+          <h2 id="developer-heading" className="font-serif text-2xl font-semibold text-slate-950">One contract, three interfaces</h2>
+          <p className="mt-3 max-w-3xl">The research website, read-only HTTP API, and remote MCP server expose the same canonical authority, immutable version, verification grade and reason, proof bundle, defect warning, and citation-resolution semantics.</p>
+          <div className="mt-5 flex flex-wrap gap-4">
+            <a className="font-semibold text-slate-900 underline underline-offset-4" href={apiBaseUrl ? `${apiBaseUrl}/v1/manifest` : "/corpus/api/v1/manifest.json"}>{apiBaseUrl ? "Live HTTP API" : "Reviewed static API fixture"}</a>
+            {mcpUrl ? <a className="font-semibold text-slate-900 underline underline-offset-4" href={mcpUrl}>Remote MCP server</a> : <span>Remote MCP endpoint is not configured for this build.</span>}
+          </div>
         </section>
       </div>
     </div>

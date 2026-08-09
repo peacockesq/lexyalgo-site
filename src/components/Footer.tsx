@@ -11,7 +11,7 @@ const productLinks = [
   { name: 'Estate Planning', href: '/products/estate-planning' },
   { name: 'LexyFiling', href: '/products/filing' },
   { name: 'LexySign', href: 'https://sign.lexyalgo.com', live: true },
-  { name: 'Legal Corpus', href: '/corpus' },
+  { name: 'LexyCorpus', href: '/corpus' },
 ]
 
 const companyLinks = [

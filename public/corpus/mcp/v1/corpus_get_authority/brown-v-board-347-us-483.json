@@ -1,5 +1,5 @@
 {
-  "contract_version": "1.0.0-draft.1",
+  "contract_version": "1.0.0-draft.2",
   "data_as_of": "2026-08-01T16:18:23Z",
   "record": {
     "authority_type": "opinion",
@@ -11,14 +11,14 @@
     },
     "citation_aliases": [
       {
-        "confidence": 1.0,
+        "confidence": 1,
         "display_value": "347 U.S. 483",
         "normalized_value": "347-us-483",
         "scheme": "reporter",
         "source_id": "src:v1:us-federal:opinion:loc-us-reports"
       },
       {
-        "confidence": 1.0,
+        "confidence": 1,
         "display_value": "No. 1",
         "normalized_value": "1",
         "scheme": "docket",
@@ -31,7 +31,7 @@
     "jurisdiction": "us-federal",
     "kind": "authority_record",
     "record_id": "auth:v1:us-federal:opinion:scotus:1:1954-05-17",
-    "schema_version": "1.0.0-draft.1",
+    "schema_version": "1.0.0-draft.2",
     "title": "Brown v. Board of Education of Topeka"
   },
   "verification": {
@@ -40,7 +40,7 @@
     "computed_at": "2026-08-01T16:18:23Z",
     "currentness": "Official United States Reports, volume 347; opinion transcript checked against the National Archives",
     "grade": "A",
-    "input_sha256": "8a4f66657e5de8586d6f71374ae5514af6655a8db5b495b378dd549809a52678",
+    "input_sha256": "c4b64a9e92aca82c74c510a52bde714e4619473ee32e9f02715cf933fc37849b",
     "kind": "verification",
     "limitations": [],
     "official_receipts": [
@@ -50,10 +50,10 @@
         "quote_sha256": "5b5b036e014dc4e6c40d01bc96614555b386a219e31e3cec91f9344b19e3a0d3"
       }
     ],
-    "policy_version": "grade-policy-v1",
-    "reason": "Official source matched and reported status is established; verified 2026-08-01.",
-    "reason_code": "official_final_case",
-    "schema_version": "1.0.0-draft.1",
+    "policy_version": "grade-policy-v2",
+    "reason": "Official source diff matched with no unresolved defect and was verified within 365 days.",
+    "reason_code": "official_verified_current",
+    "schema_version": "1.0.0-draft.2",
     "source_classes": [
       "official-publisher"
     ],
@@ -84,7 +84,7 @@
     "record_id": "auth:v1:us-federal:opinion:scotus:1:1954-05-17",
     "recorded_at": "2026-08-01T16:18:23Z",
     "repeal_date": null,
-    "schema_version": "1.0.0-draft.1",
+    "schema_version": "1.0.0-draft.2",
     "source_locators": [
       {
         "artifact_id": "art:v1:018f2a00-7b3c-7004-8def-347483000002",

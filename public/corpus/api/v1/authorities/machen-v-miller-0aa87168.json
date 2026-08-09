@@ -1,5 +1,5 @@
 {
-  "contract_version": "1.0.0-draft.1",
+  "contract_version": "1.0.0-draft.2",
   "data_as_of": "2026-08-06T02:50:22Z",
   "record": {
     "authority_type": "opinion",
@@ -24,7 +24,7 @@
     "jurisdiction": "us-federal",
     "kind": "authority_record",
     "record_id": "rec:v1:0e2c952a-8eb9-7f93-8fac-6e21e78aee8c",
-    "schema_version": "1.0.0-draft.1",
+    "schema_version": "1.0.0-draft.2",
     "slug": "machen-v-miller-0aa87168",
     "title": "Machen v. Miller"
   },
@@ -33,19 +33,17 @@
     "as_of": "2026-08-05",
     "computed_at": "2026-08-06T02:50:22Z",
     "currentness": "2024-04-04",
-    "grade": "B",
-    "input_sha256": "3e37fe6e05fd37852b08e75601097a6888b4d9b5575d4990056a16d90792478a",
+    "grade": "C",
+    "input_sha256": "125aaefebf43ad3fa502fa03589a4b3568ade17689b2e387fa06cc771b21682d",
     "kind": "verification",
     "limitations": [
-      "Text was ingested from CourtListener public full text.",
-      "Not yet matched byte-for-byte to an official court/reporter PDF or HTML edition.",
-      "Treat as researchable public law text with an open official-verification task."
+      "No current official diff-match receipt."
     ],
     "official_receipts": [],
-    "policy_version": "grade-policy-v1-bulk-courtlistener",
-    "reason": "CourtListener public full text captured with content hash; not yet matched to an official court or reporter edition.",
-    "reason_code": "courtlistener_public_full_text_unverified_against_official_reporter",
-    "schema_version": "1.0.0-draft.1",
+    "policy_version": "grade-policy-v2",
+    "reason": "Lawful usable public-primary-law baseline awaiting official diff verification.",
+    "reason_code": "lawful_baseline_pending_official",
+    "schema_version": "1.0.0-draft.2",
     "source_classes": [
       "independent_structured_corpus"
     ],
@@ -69,7 +67,7 @@
     "publication_date": "2024-04-04",
     "publication_status": "public",
     "record_id": "rec:v1:0e2c952a-8eb9-7f93-8fac-6e21e78aee8c",
-    "schema_version": "1.0.0-draft.1",
+    "schema_version": "1.0.0-draft.2",
     "source_locators": [
       {
         "artifact_id": "art:v1:0be155fd-6832-7093-8f8b-ccd47c48cb32",

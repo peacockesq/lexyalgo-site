@@ -15,7 +15,7 @@
       "source_id": "src:v1:us:opinion:courtlistener"
     }
   ],
-  "contract_version": "1.0.0-draft.1",
+  "contract_version": "1.0.0-draft.2",
   "data_as_of": "2026-08-06T02:50:22Z",
   "defects": [],
   "graph_edges": [],
@@ -44,29 +44,27 @@
     "jurisdiction": "us-state-or",
     "kind": "authority_record",
     "record_id": "rec:v1:6436a634-5442-7387-88cb-ae32a8efefd5",
-    "schema_version": "1.0.0-draft.1",
+    "schema_version": "1.0.0-draft.2",
     "slug": "dintleman-and-dintleman-23b2be47",
     "title": "Dintleman and Dintleman"
   },
-  "schema_version": "1.0.0-draft.1",
+  "schema_version": "1.0.0-draft.2",
   "verification": {
     "active_defect_ids": [],
     "as_of": "2026-08-05",
     "computed_at": "2026-08-06T02:50:22Z",
     "currentness": "2025-01-01",
-    "grade": "B",
-    "input_sha256": "88eddc2d3d7b9543f6c6f2926985eb766138288cedb61cbb72aa887bef0cb56d",
+    "grade": "C",
+    "input_sha256": "125aaefebf43ad3fa502fa03589a4b3568ade17689b2e387fa06cc771b21682d",
     "kind": "verification",
     "limitations": [
-      "Text was ingested from CourtListener public full text.",
-      "Not yet matched byte-for-byte to an official court/reporter PDF or HTML edition.",
-      "Treat as researchable public law text with an open official-verification task."
+      "No current official diff-match receipt."
     ],
     "official_receipts": [],
-    "policy_version": "grade-policy-v1-bulk-courtlistener",
-    "reason": "CourtListener public full text captured with content hash; not yet matched to an official court or reporter edition.",
-    "reason_code": "courtlistener_public_full_text_unverified_against_official_reporter",
-    "schema_version": "1.0.0-draft.1",
+    "policy_version": "grade-policy-v2",
+    "reason": "Lawful usable public-primary-law baseline awaiting official diff verification.",
+    "reason_code": "lawful_baseline_pending_official",
+    "schema_version": "1.0.0-draft.2",
     "source_classes": [
       "independent_structured_corpus"
     ],
@@ -90,7 +88,7 @@
     "publication_date": "2025-01-01",
     "publication_status": "public",
     "record_id": "rec:v1:6436a634-5442-7387-88cb-ae32a8efefd5",
-    "schema_version": "1.0.0-draft.1",
+    "schema_version": "1.0.0-draft.2",
     "source_locators": [
       {
         "artifact_id": "art:v1:2deae69e-2f70-7394-8773-58bed3f08be9",
