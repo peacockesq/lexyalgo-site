@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { CorpusHome } from '@/components/corpus/CorpusHome'
+import { getLexyCorpusApiUrl, getLexyCorpusMcpUrl } from '@/lib/corpus'
 
 export const metadata: Metadata = {
   title: 'LexyCorpus — LexyAlgo',
@@ -7,7 +8,7 @@ export const metadata: Metadata = {
 }
 
 export default function CorpusPage() {
-  const apiBaseUrl = process.env.NEXT_PUBLIC_LEXYCORPUS_API_URL?.replace(/\/$/, '') || null
-  const mcpUrl = process.env.NEXT_PUBLIC_LEXYCORPUS_MCP_URL || null
+  const apiBaseUrl = getLexyCorpusApiUrl()
+  const mcpUrl = getLexyCorpusMcpUrl()
   return <CorpusHome apiBaseUrl={apiBaseUrl} mcpUrl={mcpUrl} />
 }

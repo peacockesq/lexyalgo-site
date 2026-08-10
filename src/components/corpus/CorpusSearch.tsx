@@ -73,12 +73,13 @@ export function CorpusSearch({
 
   const visible = useMemo(() => {
     if (liveResults) return liveResults;
+    if (apiBaseUrl && loading && !liveError) return [];
     const needle = query.trim().toLowerCase();
     if (!needle) return results;
     return results.filter((result) =>
       `${result.title} ${result.citation} ${result.body} ${result.snippet} ${result.jurisdiction}`.toLowerCase().includes(needle),
     );
-  }, [liveResults, query, results]);
+  }, [apiBaseUrl, liveError, liveResults, loading, query, results]);
 
   return (
     <div>
@@ -107,7 +108,12 @@ export function CorpusSearch({
         <p className="text-xs text-slate-500">All grades shown · {liveResults ? "Live service" : `Data as of ${dataAsOf}`}</p>
       </div>
 
-      {visible.length > 0 ? (
+      {loading && apiBaseUrl && !liveResults && !liveError ? (
+        <div className="mt-6 border-y border-slate-200 py-14 text-center">
+          <h2 className="font-serif text-2xl font-semibold text-slate-950">Searching the live corpus…</h2>
+          <p className="mt-2 text-sm text-slate-600">Connecting to published statutes, constitutions, and judicial opinions.</p>
+        </div>
+      ) : visible.length > 0 ? (
         <ul className="mt-5" aria-label="Corpus search results">{visible.map((result) => <SearchResultRow key={result.slug} result={result} />)}</ul>
       ) : (
         <div className="mt-6 border-y border-slate-200 py-14 text-center">
