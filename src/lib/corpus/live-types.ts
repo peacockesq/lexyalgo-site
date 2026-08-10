@@ -32,6 +32,17 @@ export type LiveSearchResponse = {
   results: LiveSearchRow[];
 };
 
+export type LiveManifest = {
+  contract_version: string;
+  policy_version: string;
+  default_grades: Grade[];
+  defective_records_discoverable: boolean;
+  authority_count: number;
+  data_as_of: string;
+  grade_counts: Partial<Record<Grade, number>>;
+  artifact_storage: string;
+};
+
 export type LiveAuthorityResponse = {
   contract_version: string;
   record: {

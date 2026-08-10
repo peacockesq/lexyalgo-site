@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { CorpusSearch } from "@/components/corpus/CorpusSearch";
-import { getCorpusBundle, listSearchResults } from "@/lib/corpus";
+import { getCorpusBundle, getLexyCorpusApiUrl, listSearchResults } from "@/lib/corpus";
 
 export const metadata: Metadata = {
   title: "Search Primary Law | LexyCorpus",
@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function CorpusSearchPage() {
   const bundle = getCorpusBundle();
-  const apiBaseUrl = process.env.NEXT_PUBLIC_LEXYCORPUS_API_URL?.replace(/\/$/, "") || null;
+  const apiBaseUrl = getLexyCorpusApiUrl();
   return (
     <div className="min-h-screen bg-white px-4 py-10 sm:px-6 sm:py-14">
       <div className="mx-auto max-w-5xl">
