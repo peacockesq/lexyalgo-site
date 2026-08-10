@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { CORPUS_JURISDICTIONS, listCorpusEntries, type Grade, type LiveManifest, type LiveSearchResponse, type LiveSearchRow } from "@/lib/corpus";
+import { atlasLoginUrl } from "@/lib/shared-auth-links";
 import { GradeBadge } from "./GradeBadge";
 
 type HomeRecord = {
@@ -39,6 +40,11 @@ export function CorpusHome({ apiBaseUrl, mcpUrl }: { apiBaseUrl: string; mcpUrl:
   const [manifest, setManifest] = useState<LiveManifest | null>(null);
   const [records, setRecords] = useState<HomeRecord[]>([]);
   const [liveError, setLiveError] = useState<string | null>(null);
+  const [researchMode, setResearchMode] = useState<"search" | "ask">("search");
+
+  useEffect(() => {
+    if (new URLSearchParams(window.location.search).get("mode") === "ask") setResearchMode("ask");
+  }, []);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -88,22 +94,39 @@ export function CorpusHome({ apiBaseUrl, mcpUrl }: { apiBaseUrl: string; mcpUrl:
               </dl>
             </div>
 
-          <form action="/corpus/search/" method="get" className="order-2 rounded-3xl border border-slate-200 bg-white p-4 shadow-xl shadow-slate-900/5 sm:p-6 lg:order-3 lg:col-span-2">
-            <label htmlFor="corpus-home-query" className="text-sm font-semibold text-slate-800">Search the live corpus</label>
-            <div className="mt-3 flex flex-col gap-3 sm:flex-row">
-              <div className="flex min-w-0 flex-1 items-center gap-3 rounded-xl border border-slate-300 bg-white px-4 focus-within:border-slate-600 focus-within:ring-2 focus-within:ring-slate-100">
-                <SearchIcon />
-                <input id="corpus-home-query" name="q" type="search" placeholder="Citation, case name, code section, court, or phrase" className="min-w-0 flex-1 bg-transparent py-4 text-base outline-none placeholder:text-slate-400" />
+          <div className="order-2 rounded-3xl border border-slate-200 bg-white p-4 shadow-xl shadow-slate-900/5 sm:p-6 lg:order-3 lg:col-span-2">
+            <div className="inline-flex rounded-xl bg-slate-100 p-1" role="tablist" aria-label="Research mode">
+              <button type="button" role="tab" aria-selected={researchMode === "search"} onClick={() => setResearchMode("search")} className={`rounded-lg px-4 py-2 text-sm font-semibold transition ${researchMode === "search" ? "bg-white text-slate-900 shadow-sm" : "text-slate-500 hover:text-slate-800"}`}>Search law</button>
+              <button type="button" role="tab" aria-selected={researchMode === "ask"} onClick={() => setResearchMode("ask")} className={`flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-semibold transition ${researchMode === "ask" ? "bg-white text-slate-900 shadow-sm" : "text-slate-500 hover:text-slate-800"}`}>Ask a question <span className="rounded-full bg-[color:var(--color-ember-light)] px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide text-[color:var(--color-primary)]">Beta</span></button>
+            </div>
+            {researchMode === "search" ? (
+              <form action="/corpus/search/" method="get" className="mt-5" role="tabpanel">
+                <label htmlFor="corpus-home-query" className="text-sm font-semibold text-slate-800">Search the live corpus</label>
+                <div className="mt-3 flex flex-col gap-3 sm:flex-row">
+                  <div className="flex min-w-0 flex-1 items-center gap-3 rounded-xl border border-slate-300 bg-white px-4 focus-within:border-slate-600 focus-within:ring-2 focus-within:ring-slate-100">
+                    <SearchIcon />
+                    <input id="corpus-home-query" name="q" type="search" placeholder="Citation, case name, code section, court, or phrase" className="min-w-0 flex-1 bg-transparent py-4 text-base outline-none placeholder:text-slate-400" />
+                  </div>
+                  <button type="submit" className="rounded-xl bg-[color:var(--color-brand-primary-container)] px-6 py-4 text-sm font-semibold text-white transition hover:bg-[color:var(--color-brand-primary)]">Search primary law</button>
+                </div>
+                <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+                  <FilterSelect label="Jurisdiction" name="jurisdiction" defaultValue="" options={[["", "All jurisdictions"], ...CORPUS_JURISDICTIONS]} />
+                  <FilterSelect label="Material type" name="authority_type" defaultValue="" options={[["", "All primary law"], ["opinion", "Judicial opinions"], ["statute", "Statutes"], ["constitution", "Constitutions"]]} />
+                  <FilterSelect label="Source class" name="source_class" defaultValue="primary" options={[["primary", "Primary law"], ["secondary", "Secondary — coming later"]]} disabledOptions={["secondary"]} />
+                  <FilterSelect label="Practice area" name="practice_area" defaultValue="" options={[["", "Coming later"]]} disabled />
+                </div>
+              </form>
+            ) : (
+              <div className="mt-5" role="tabpanel">
+                <label htmlFor="corpus-home-question" className="text-sm font-semibold text-slate-800">Ask LexyCorpus</label>
+                <textarea id="corpus-home-question" rows={3} placeholder="Ask a legal research question in ordinary language…" className="mt-3 w-full resize-y rounded-xl border border-slate-300 bg-white px-4 py-3 text-base leading-7 text-slate-900 outline-none placeholder:text-slate-400 focus:border-slate-600 focus:ring-2 focus:ring-slate-100" />
+                <div className="mt-3 flex flex-col justify-between gap-3 sm:flex-row sm:items-center">
+                  <p className="max-w-2xl text-xs leading-5 text-slate-500">Account required. Beta plan: five completed answers per month for free users. Answers will use LexyCorpus authorities, cite their sources, and preserve grade and defect warnings.</p>
+                  <a href={atlasLoginUrl("https://lexyalgo.com/corpus/?mode=ask")} className="shrink-0 rounded-xl bg-[color:var(--color-brand-primary-container)] px-5 py-3 text-center text-sm font-semibold text-white transition hover:bg-[color:var(--color-brand-primary)]">Sign in for beta access</a>
+                </div>
               </div>
-              <button type="submit" className="rounded-xl bg-[color:var(--color-brand-primary-container)] px-6 py-4 text-sm font-semibold text-white transition hover:bg-[color:var(--color-brand-primary)]">Search primary law</button>
-            </div>
-            <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
-              <FilterSelect label="Jurisdiction" name="jurisdiction" defaultValue="" options={[["", "All jurisdictions"], ...CORPUS_JURISDICTIONS]} />
-              <FilterSelect label="Material type" name="authority_type" defaultValue="" options={[["", "All primary law"], ["opinion", "Judicial opinions"], ["statute", "Statutes"], ["constitution", "Constitutions"]]} />
-              <FilterSelect label="Source class" name="source_class" defaultValue="primary" options={[["primary", "Primary law"], ["secondary", "Secondary — coming later"]]} disabledOptions={["secondary"]} />
-              <FilterSelect label="Practice area" name="practice_area" defaultValue="" options={[["", "Coming later"]]} disabled />
-            </div>
-          </form>
+            )}
+          </div>
           </div>
           {liveError && <p className="mt-4 border-l-4 border-amber-600 bg-amber-50 p-4 text-sm font-semibold text-amber-950" role="alert">Live service unavailable ({liveError}). Showing the reviewed fallback records below.</p>}
         </div>
