@@ -25,7 +25,7 @@ const productGroups = [
   {
     label: 'Legal professional tools',
     items: [
-      { name: 'LexyCorpus', href: '/corpus', color: '#861B00', badge: 'Preview' },
+      { name: 'LexyCorpus', href: '/corpus', color: '#861B00', badge: 'Live' },
       { name: 'LexySign', href: 'https://sign.lexyalgo.com', color: '#D46B0F', badge: '$5/mo' },
     ],
   },
