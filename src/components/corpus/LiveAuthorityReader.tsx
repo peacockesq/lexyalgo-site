@@ -78,12 +78,8 @@ export function LiveAuthorityReader({ apiBaseUrl }: { apiBaseUrl: string | null 
         <h2 id="verification-heading" className="font-serif text-2xl font-semibold text-slate-950">Verification</h2>
         <p className={`mt-3 font-semibold ${warning ? "text-red-900" : "text-slate-800"}`}>{authority.verification.reason}</p>
         <dl className="mt-5 grid gap-4 text-sm sm:grid-cols-2">
-          <Detail label="Reason code" value={authority.verification.reason_code} />
-          <Detail label="Policy" value={authority.verification.policy_version} />
           <Detail label="Officially verified" value={authority.verification.verified_at || "Pending"} />
-          <Detail label="Version" value={authority.version.version_id} />
           <Detail label="Decision date" value={authority.version.decision_date || "Not reported"} />
-          <Detail label="Normalized text SHA-256" value={authority.version.normalized_text_sha256} mono />
         </dl>
       </section>
 
@@ -93,22 +89,40 @@ export function LiveAuthorityReader({ apiBaseUrl }: { apiBaseUrl: string | null 
       </section>
 
       <section className="border-t border-slate-300 py-8" aria-labelledby="proof-heading">
-        <h2 id="proof-heading" className="font-serif text-2xl font-semibold text-slate-950">Integrity proof</h2>
+        <h2 id="proof-heading" className="font-serif text-2xl font-semibold text-slate-950">Source details</h2>
+        <p className="mt-2 max-w-2xl text-sm leading-6 text-slate-600">See when the source copy was checked and, if needed, inspect the technical verification record.</p>
         {proof ? (
           <div className="mt-5 space-y-5 text-sm text-slate-700">
             {proof.artifacts.map((artifact) => (
-              <dl key={artifact.object_uri} className="grid gap-3 border-l-2 border-slate-300 pl-4 sm:grid-cols-2">
-                <Detail label="Artifact" value={artifact.kind} />
-                <Detail label="Bytes" value={artifact.byte_length.toLocaleString()} />
-                <Detail label="SHA-256" value={artifact.sha256} mono />
-                <Detail label="Verified by" value={artifact.verification_method} />
+              <dl key={artifact.object_uri} className="grid gap-3 rounded-xl border border-slate-200 bg-slate-50 p-4 sm:grid-cols-2">
+                <Detail label="Source copy" value="Preserved" />
+                <Detail label="Checked" value={artifact.verified_at || "Not reported"} />
               </dl>
             ))}
-            <details>
-              <summary className="cursor-pointer font-semibold text-slate-900">Source snapshot provenance</summary>
-              <pre className="mt-3 overflow-x-auto whitespace-pre-wrap bg-slate-50 p-4 font-mono text-xs leading-5">{JSON.stringify(proof.source_snapshot || {}, null, 2)}</pre>
+            <details className="rounded-xl border border-slate-200 p-4">
+              <summary className="cursor-pointer font-semibold text-slate-900">Technical verification record</summary>
+              <div className="mt-4 space-y-5">
+                <dl className="grid gap-4 sm:grid-cols-2">
+                  <Detail label="Version" value={authority.version.version_id} mono />
+                  <Detail label="Reason code" value={authority.verification.reason_code} mono />
+                  <Detail label="Policy" value={authority.verification.policy_version} mono />
+                  <Detail label="Text SHA-256" value={authority.version.normalized_text_sha256} mono />
+                </dl>
+                {proof.artifacts.map((artifact) => (
+                  <dl key={`${artifact.object_uri}-technical`} className="grid gap-4 border-t border-slate-200 pt-4 sm:grid-cols-2">
+                    <Detail label="Artifact type" value={artifact.kind} />
+                    <Detail label="Bytes" value={artifact.byte_length.toLocaleString()} />
+                    <Detail label="Artifact SHA-256" value={artifact.sha256} mono />
+                    <Detail label="Verification method" value={artifact.verification_method} />
+                  </dl>
+                ))}
+                <details>
+                  <summary className="cursor-pointer font-semibold text-slate-900">Source snapshot data</summary>
+                  <pre className="mt-3 overflow-x-auto whitespace-pre-wrap bg-slate-50 p-4 font-mono text-xs leading-5">{JSON.stringify(proof.source_snapshot || {}, null, 2)}</pre>
+                </details>
+                <a href={`${apiBaseUrl}/v1/authorities/${encodeURIComponent(slug)}`} className="inline-block font-semibold underline underline-offset-4">Open API record</a>
+              </div>
             </details>
-            <a href={`${apiBaseUrl}/v1/authorities/${encodeURIComponent(slug)}`} className="inline-block font-semibold underline underline-offset-4">Open canonical API response</a>
           </div>
         ) : <p className="mt-3 text-sm text-slate-600">Loading proof…</p>}
       </section>

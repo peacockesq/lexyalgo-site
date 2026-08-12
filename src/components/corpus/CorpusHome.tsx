@@ -80,7 +80,7 @@ export function CorpusHome({ apiBaseUrl, mcpUrl }: { apiBaseUrl: string; mcpUrl:
                 <span className="inline-flex items-center gap-2 text-xs font-semibold text-slate-500"><span className="h-2 w-2 rounded-full bg-emerald-500" /> Live public corpus</span>
               </div>
               <h1 className="mt-6 max-w-4xl text-balance text-5xl font-semibold leading-[1.02] tracking-tight text-slate-950 sm:text-6xl lg:text-7xl">Primary law, with its source attached.</h1>
-              <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">Search published judicial opinions, statutes, and constitutions across federal and state jurisdictions. Every result includes its verification grade, canonical version, source link, and integrity record.</p>
+              <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">Search published judicial opinions, statutes, and constitutions across federal and state jurisdictions. Every result includes its citation, source link, and a clear verification grade.</p>
             </div>
             <div className="order-3 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm lg:order-2">
               <p className="text-xs font-bold uppercase tracking-[0.16em] text-slate-400">Coverage now</p>
@@ -156,9 +156,9 @@ export function CorpusHome({ apiBaseUrl, mcpUrl }: { apiBaseUrl: string; mcpUrl:
             </div>
             <ol className="grid gap-4 sm:grid-cols-2">
               <FreshnessStep number="1" title="Acquire a lawful baseline" text="CourtListener bulk case law and the Open US Law national statute/constitution snapshot establish broad public coverage." links={[["CourtListener bulk data", "https://www.courtlistener.com/api/bulk-info/"], ["Open US Law", "https://github.com/vaquill/open-law"]]} />
-              <FreshnessStep number="2" title="Preserve the exact source" text="Raw hashes, retrieval facts, parser versions, normalized hashes, and immutable object locations become the proof record." />
+              <FreshnessStep number="2" title="Keep the source copy" text="We preserve the material used to publish each record so the text can be checked again when a publisher changes it." />
               <FreshnessStep number="3" title="Compare with official publishers" text="Official court and legislature sources are checked jurisdiction by jurisdiction. A clean diff can move a record from C to A." links={[["U.S. Supreme Court", "https://www.supremecourt.gov/opinions/opinions.aspx"], ["GovInfo", "https://www.govinfo.gov/developers"], ["Connecticut opinions", "https://www.jud.ct.gov/external/supapp/Cases.htm"]]} />
-              <FreshnessStep number="4" title="Monitor changes and defects" text="Publisher indexes, release dates, correction windows, and content hashes drive rechecks. Suspected and confirmed defects remain visible as D or F." />
+              <FreshnessStep number="4" title="Monitor changes and defects" text="Publisher updates, release dates, and corrections drive rechecks. Suspected and confirmed defects remain visible as D or F." />
             </ol>
           </div>
           <div className="mt-8 rounded-2xl border border-slate-200 bg-white p-5 text-sm leading-6 text-slate-600">

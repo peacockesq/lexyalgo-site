@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const citation = entry.response.record.citation_aliases[0]?.display_value ?? "";
   return {
     title: `${title} | LexyCorpus`,
-    description: `${citation}. Primary law with explicit source, verification grade, limitations, and integrity hashes.`,
+    description: `${citation}. Read the primary law, source information, and LexyCorpus verification grade.`,
   };
 }
 

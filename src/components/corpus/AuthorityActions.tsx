@@ -38,9 +38,14 @@ export function AuthorityActions({
       <button type="button" onClick={copyText} className="rounded-md bg-slate-900 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-500 focus:ring-offset-2">{copied ? "Copied" : "Copy primary text"}</button>
       <button type="button" onClick={downloadText} className="rounded-md border border-slate-300 bg-white px-4 py-2.5 text-sm font-semibold text-slate-800 transition hover:border-slate-500 hover:bg-slate-50">Download text</button>
       {sourceUrl && <a href={sourceUrl} target="_blank" rel="noreferrer" className="rounded-md border border-slate-300 bg-white px-4 py-2.5 text-sm font-semibold text-slate-800 transition hover:border-slate-500 hover:bg-slate-50">View official source</a>}
-      <a href={apiRoute} className="rounded-md border border-slate-300 bg-white px-4 py-2.5 text-sm font-semibold text-slate-800 transition hover:border-slate-500 hover:bg-slate-50">Authority JSON</a>
-      <a href={proofRoute} className="rounded-md border border-slate-300 bg-white px-4 py-2.5 text-sm font-semibold text-slate-800 transition hover:border-slate-500 hover:bg-slate-50">Proof bundle</a>
       <a href="#verification" className="px-2 py-2.5 text-sm font-semibold text-slate-700 underline decoration-slate-300 underline-offset-4 hover:decoration-slate-800">Verification details</a>
+      <details className="w-full pt-2 text-sm">
+        <summary className="cursor-pointer font-semibold text-slate-600">Developer data</summary>
+        <div className="mt-3 flex flex-wrap gap-3">
+          <a href={apiRoute} className="rounded-md border border-slate-300 bg-white px-4 py-2.5 font-semibold text-slate-800 transition hover:border-slate-500 hover:bg-slate-50">Authority JSON</a>
+          <a href={proofRoute} className="rounded-md border border-slate-300 bg-white px-4 py-2.5 font-semibold text-slate-800 transition hover:border-slate-500 hover:bg-slate-50">Proof bundle</a>
+        </div>
+      </details>
     </section>
   );
 }

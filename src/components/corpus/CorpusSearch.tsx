@@ -63,10 +63,10 @@ export function CorpusSearch({
             ? "Do not rely without official verification or correction."
             : null,
           source_url: row.source_url,
-          snippet_label: "Live canonical record",
+          snippet_label: "Published primary law",
           snippet: row.decision_date
-            ? `Decision date: ${row.decision_date}. Open the authority to read its primary text and proof.`
-            : "Open the authority to read its primary text and proof.",
+            ? `Decision date: ${row.decision_date}. Open the authority to read the full text and source information.`
+            : "Open the authority to read the full text and source information.",
           fixture: false,
         })));
         setLiveError(null);
