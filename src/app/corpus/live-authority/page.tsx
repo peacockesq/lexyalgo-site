@@ -5,7 +5,7 @@ import { getLexyCorpusApiUrl } from "@/lib/corpus";
 
 export const metadata: Metadata = {
   title: "Live Primary Law | LexyCorpus",
-  description: "Read primary law with its citation, source, currentness information, and LexyCorpus verification grade.",
+  description: "Read a LexyCorpus authority with its citation, issuing body, relevant date, and clear verification status.",
 };
 
 export default function LiveAuthorityPage() {

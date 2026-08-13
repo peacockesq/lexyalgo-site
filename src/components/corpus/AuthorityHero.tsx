@@ -16,7 +16,10 @@ export function AuthorityHero({ vm }: { vm: AuthorityViewModel }) {
         {vm.title}
       </h1>
       <p className="mt-5 font-mono text-base font-semibold text-slate-700">{vm.citation}</p>
-      <p className="mt-3 text-sm text-slate-600">{response.record.body} · {vm.statusLabel}</p>
+      <dl className="mt-5 grid gap-4 text-sm text-slate-700 sm:grid-cols-2">
+        <div><dt className="text-xs font-bold uppercase tracking-wide text-slate-500">Issuing body</dt><dd className="mt-1 font-semibold">{response.record.issuing_body || response.record.body || "Not reported"}</dd></div>
+        <div><dt className="text-xs font-bold uppercase tracking-wide text-slate-500">Relevant date</dt><dd className="mt-1 font-semibold">{response.version.decision_date || response.version.effective_date || response.version.publication_date || "Not reported"}</dd></div>
+      </dl>
       {vm.fixtureNotice && (
         <p className="mt-6 border-l-4 border-amber-500 bg-amber-50 px-4 py-3 text-sm font-semibold text-amber-950">
           {vm.fixtureNotice}

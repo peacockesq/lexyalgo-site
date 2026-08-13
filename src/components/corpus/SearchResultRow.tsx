@@ -10,7 +10,7 @@ export function SearchResultRow({ result }: { result: SearchResult }) {
         <div className="flex flex-col gap-5 sm:flex-row sm:items-start sm:justify-between">
           <div className="min-w-0 max-w-3xl">
             <div className="flex flex-wrap items-center gap-2 text-xs font-semibold uppercase tracking-wide text-slate-500">
-              <span>{result.authority_type}</span><span aria-hidden="true">·</span><span>{result.jurisdiction}</span><span aria-hidden="true">·</span><span className="capitalize">{(result.status || "current").replaceAll("_", " ")}</span>
+              <span>{humanCategory(result.category, result.authority_type)}</span><span aria-hidden="true">·</span><span>{result.jurisdiction}</span>
             </div>
             <h2 className="mt-3 font-serif text-2xl font-semibold leading-tight text-slate-950">
               <Link href={result.route} className="underline decoration-transparent underline-offset-4 transition hover:decoration-slate-400">{result.title}</Link>
@@ -25,12 +25,16 @@ export function SearchResultRow({ result }: { result: SearchResult }) {
           <p className="mt-2 line-clamp-3 font-serif text-sm leading-6 text-slate-700">{result.snippet}</p>
         </div>
         <div className="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-xs text-slate-600">
-          <span className={warning ? "font-bold text-red-900" : ""}>{result.reason}</span>
-          <span>Verified: {result.verified_at ?? "not official"}</span>
           {result.limitation && <span className="font-semibold text-amber-800">{result.limitation}</span>}
+          {result.passage_locator && <a href={`${result.route}#${result.passage_locator.replace(/^#/, "")}`} className="font-semibold text-slate-800 underline underline-offset-4">Open matching passage</a>}
           {result.source_url && <a href={result.source_url} target="_blank" rel="noreferrer" className="font-semibold text-slate-800 underline underline-offset-4">Official source</a>}
         </div>
       </article>
     </li>
   );
+}
+
+function humanCategory(category: string | undefined, authorityType: string) {
+  const value = category || ({ opinion: "judicial", statute: "statutory", constitution: "constitutional" } as Record<string, string>)[authorityType] || authorityType;
+  return ({ judicial: "Judicial opinion", statutory: "Statute", constitutional: "Constitution", administrative: "Administrative & agency material" } as Record<string, string>)[value] || value.replaceAll("_", " ");
 }

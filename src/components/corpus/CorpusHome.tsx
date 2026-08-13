@@ -18,11 +18,11 @@ type HomeRecord = {
 };
 
 const gradeGuide: Array<{ grade: Grade; label: string; detail: string }> = [
-  { grade: "A", label: "Official match", detail: "Clean official-source diff, verified within 365 days." },
-  { grade: "B", label: "Stale official match", detail: "Previously A; official verification is now older than 365 days." },
-  { grade: "C", label: "Lawful baseline", detail: "Usable public primary law awaiting official-source verification." },
-  { grade: "D", label: "Suspected issue", detail: "Still searchable, ranked lower, with a conspicuous warning." },
-  { grade: "F", label: "Confirmed defect", detail: "Still searchable, ranked last, with a do-not-rely warning." },
+  { grade: "A", label: "Verified against official source", detail: "The text has been checked against an official court or government publication." },
+  { grade: "B", label: "Previously verified; recheck due", detail: "An official-source check exists, but it is due to be refreshed." },
+  { grade: "C", label: "Public-source import; verification pending", detail: "The text came from a public legal dataset and has not yet been checked against official records." },
+  { grade: "D", label: "Potential problem; verify before relying", detail: "A suspected issue remains unresolved and is shown with a prominent warning." },
+  { grade: "F", label: "Known problem; do not rely", detail: "A material problem is confirmed; the record remains visible for transparency." },
 ];
 
 export function CorpusHome({ apiBaseUrl, mcpUrl }: { apiBaseUrl: string; mcpUrl: string }) {
@@ -79,8 +79,8 @@ export function CorpusHome({ apiBaseUrl, mcpUrl }: { apiBaseUrl: string; mcpUrl:
                 <span className="rounded-full bg-[color:var(--color-ember-light)] px-3 py-1 text-xs font-bold uppercase tracking-[0.16em] text-[color:var(--color-primary)]">LexyCorpus</span>
                 <span className="inline-flex items-center gap-2 text-xs font-semibold text-slate-500"><span className="h-2 w-2 rounded-full bg-emerald-500" /> Live public corpus</span>
               </div>
-              <h1 className="mt-6 max-w-4xl text-balance text-5xl font-semibold leading-[1.02] tracking-tight text-slate-950 sm:text-6xl lg:text-7xl">Primary law, with its source attached.</h1>
-              <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">Search published judicial opinions, statutes, and constitutions across federal and state jurisdictions. Every result includes its citation, source link, and a clear verification grade.</p>
+              <h1 className="mt-6 max-w-4xl text-balance text-5xl font-semibold leading-[1.02] tracking-tight text-slate-950 sm:text-6xl lg:text-7xl">The law belongs to everyone.</h1>
+              <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">LexyCorpus is free legal research for attorneys, self-represented people, and anyone who needs to understand the law. Search primary law without putting basic access behind a paywall.</p>
             </div>
             <div className="order-3 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm lg:order-2">
               <p className="text-xs font-bold uppercase tracking-[0.16em] text-slate-400">Coverage now</p>
@@ -111,7 +111,7 @@ export function CorpusHome({ apiBaseUrl, mcpUrl }: { apiBaseUrl: string; mcpUrl:
                 </div>
                 <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
                   <FilterSelect label="Jurisdiction" name="jurisdiction" defaultValue="" options={[["", "All jurisdictions"], ...CORPUS_JURISDICTIONS]} />
-                  <FilterSelect label="Material type" name="authority_type" defaultValue="" options={[["", "All primary law"], ["opinion", "Judicial opinions"], ["statute", "Statutes"], ["constitution", "Constitutions"]]} />
+                  <FilterSelect label="Material type" name="category" defaultValue="" options={[["", "All primary law"], ["judicial", "Judicial opinions"], ["statutory", "Statutes"], ["constitutional", "Constitutions"], ["administrative", "Administrative & agency"]]} />
                   <FilterSelect label="Source class" name="source_class" defaultValue="primary" options={[["primary", "Primary law"], ["secondary", "Secondary — coming later"]]} disabledOptions={["secondary"]} />
                   <FilterSelect label="Practice area" name="practice_area" defaultValue="" options={[["", "Coming later"]]} disabled />
                 </div>
@@ -135,12 +135,13 @@ export function CorpusHome({ apiBaseUrl, mcpUrl }: { apiBaseUrl: string; mcpUrl:
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8" aria-labelledby="coverage-heading">
         <div className="max-w-3xl">
           <p className="text-xs font-bold uppercase tracking-[0.18em] text-[color:var(--color-primary)]">What is covered</p>
-          <h2 id="coverage-heading" className="mt-3 text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl">A national primary-law baseline.</h2>
-          <p className="mt-5 text-base leading-7 text-slate-600">The current corpus covers federal, all 50 states, the District of Columbia, and Puerto Rico. Coverage is not the same as official verification: baseline records publish as grade C until the text is matched against the responsible government publisher.</p>
+          <h2 id="coverage-heading" className="mt-3 text-4xl font-semibold tracking-tight text-slate-950 sm:text-5xl">Public law, built to be useful.</h2>
+          <p className="mt-5 text-base leading-7 text-slate-600">The current corpus covers federal, all 50 states, the District of Columbia, and Puerto Rico. We started with broad public legal data so research could begin now while official-source verification proceeds jurisdiction by jurisdiction.</p>
         </div>
-        <div className="mt-9 grid gap-4 md:grid-cols-3">
+        <div className="mt-9 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           <CoverageCard title="Judicial opinions" text="Federal and state opinions with court, decision date, citations, primary text, and the source used for the baseline." status="Live" />
           <CoverageCard title="Statutes and constitutions" text="Section-level text across the national Open US Law snapshot, with canonical identifiers and publisher links preserved." status="Live" />
+          <CoverageCard title="Administrative materials" text="Agency opinions, administrative decisions, regulations, rules, and ethics opinions are classified separately as coverage expands." status="Growing" />
           <CoverageCard title="Secondary sources" text="Practice guides, commentary, headnotes, and proprietary editorial content are not part of the current product." status="Later" muted />
         </div>
       </section>
@@ -149,20 +150,17 @@ export function CorpusHome({ apiBaseUrl, mcpUrl }: { apiBaseUrl: string; mcpUrl:
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
           <div className="grid gap-12 lg:grid-cols-[.8fr_1.2fr]">
             <div>
-              <p className="text-xs font-bold uppercase tracking-[0.18em] text-[color:var(--color-primary)]">How currentness is checked</p>
-              <h2 className="mt-3 text-4xl font-semibold tracking-tight text-slate-950">Baseline first. Official verification next.</h2>
-              <p className="mt-5 text-base leading-7 text-slate-600">We keep acquisition, normalization, and verification separate. That lets us publish lawful usable law now without pretending every record has already been checked against its official publisher.</p>
+              <p className="text-xs font-bold uppercase tracking-[0.18em] text-[color:var(--color-primary)]">How we are building it</p>
+              <h2 className="mt-3 text-4xl font-semibold tracking-tight text-slate-950">Launch broadly. Verify carefully. Keep improving.</h2>
+              <p className="mt-5 text-base leading-7 text-slate-600">CourtListener and Open US Law made broad public legal data available. That lets people research now while we compare the text with official court, legislature, and government publications.</p>
               <Link href="https://github.com/peacockesq/corpus/blob/main/data/source_registry/v1/source-registry.json" className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-[color:var(--color-primary)] underline underline-offset-4">View the national source registry <ArrowIcon /></Link>
             </div>
             <ol className="grid gap-4 sm:grid-cols-2">
-              <FreshnessStep number="1" title="Acquire a lawful baseline" text="CourtListener bulk case law and the Open US Law national statute/constitution snapshot establish broad public coverage." links={[["CourtListener bulk data", "https://www.courtlistener.com/api/bulk-info/"], ["Open US Law", "https://github.com/vaquill/open-law"]]} />
+              <FreshnessStep number="1" title="Start with public legal data" text="CourtListener case law and Open US Law statutes and constitutions provide broad public coverage now." links={[["CourtListener bulk data", "https://www.courtlistener.com/api/bulk-info/"], ["Open US Law", "https://github.com/vaquill/open-law"]]} />
               <FreshnessStep number="2" title="Keep the source copy" text="We preserve the material used to publish each record so the text can be checked again when a publisher changes it." />
               <FreshnessStep number="3" title="Compare with official publishers" text="Official court and legislature sources are checked jurisdiction by jurisdiction. A clean diff can move a record from C to A." links={[["U.S. Supreme Court", "https://www.supremecourt.gov/opinions/opinions.aspx"], ["GovInfo", "https://www.govinfo.gov/developers"], ["Connecticut opinions", "https://www.jud.ct.gov/external/supapp/Cases.htm"]]} />
               <FreshnessStep number="4" title="Monitor changes and defects" text="Publisher updates, release dates, and corrections drive rechecks. Suspected and confirmed defects remain visible as D or F." />
             </ol>
-          </div>
-          <div className="mt-8 rounded-2xl border border-slate-200 bg-white p-5 text-sm leading-6 text-slate-600">
-            <span className="font-semibold text-slate-900">A note on links:</span> the registry tracks 270 source definitions across 53 jurisdictions, including official court, legislature, code, and federal publication endpoints. A listed source is not automatically approved for automated collection; access methods are reviewed separately and fail closed.
           </div>
         </div>
       </section>
@@ -182,14 +180,14 @@ export function CorpusHome({ apiBaseUrl, mcpUrl }: { apiBaseUrl: string; mcpUrl:
 
       <section className="border-y border-slate-200 bg-[color:var(--color-surface)]">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
-          <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end"><div><p className="text-xs font-bold uppercase tracking-[0.18em] text-[color:var(--color-primary)]">Live records</p><h2 className="mt-3 text-4xl font-semibold tracking-tight text-slate-950">From the public index.</h2></div><Link href="/corpus/search/" className="text-sm font-semibold text-slate-800 underline underline-offset-4">Search all authorities</Link></div>
+          <div className="flex flex-col justify-between gap-4 sm:flex-row sm:items-end"><div><p className="text-xs font-bold uppercase tracking-[0.18em] text-[color:var(--color-primary)]">Start researching</p><h2 className="mt-3 text-4xl font-semibold tracking-tight text-slate-950">Explore published authorities.</h2></div><Link href="/corpus/search/" className="text-sm font-semibold text-slate-800 underline underline-offset-4">Search all authorities</Link></div>
           {records.length ? <ul className="mt-8 grid gap-4 md:grid-cols-3">{records.slice(0, 3).map((record) => <AuthorityCard key={record.slug} record={record} />)}</ul> : <div className="mt-8 grid gap-4 md:grid-cols-3" role="status">{[0, 1, 2].map((key) => <div key={key} className="h-64 animate-pulse rounded-3xl bg-white" />)}</div>}
         </div>
       </section>
 
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
         <div className="rounded-3xl bg-[color:var(--color-brand-primary)] px-6 py-10 text-white sm:px-10 sm:py-12 lg:flex lg:items-center lg:justify-between lg:gap-10">
-          <div><p className="text-xs font-bold uppercase tracking-[0.18em] text-[color:var(--color-brand-on-primary-container)]">For developers and agents</p><h2 className="mt-3 text-3xl font-semibold">The same contract on the web, API, and MCP.</h2><p className="mt-3 max-w-2xl text-sm leading-6 text-slate-200">Canonical IDs, versions, citations, grades, reasons, defects, and proof bundles mean the same thing in every interface.</p></div>
+          <div><p className="text-xs font-bold uppercase tracking-[0.18em] text-[color:var(--color-brand-on-primary-container)]">For developers and agents</p><h2 className="mt-3 text-3xl font-semibold">Build legal tools on open law.</h2><p className="mt-3 max-w-2xl text-sm leading-6 text-slate-200">The API and remote MCP expose the same authorities, citations, versions, verification grades, and warnings used by the research website.</p></div>
           <div className="mt-7 flex shrink-0 flex-wrap gap-3 lg:mt-0"><a href={`${apiBaseUrl}/v1/manifest`} className="rounded-xl bg-white px-5 py-3 text-sm font-semibold text-slate-900">API manifest</a><a href={mcpUrl} className="rounded-xl border border-white/30 px-5 py-3 text-sm font-semibold text-white">Remote MCP</a></div>
         </div>
       </section>

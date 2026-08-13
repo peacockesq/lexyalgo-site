@@ -14,6 +14,8 @@ export type LiveSearchRow = {
   jurisdiction: string;
   body: string;
   authority_type: string;
+  category?: "judicial" | "statutory" | "constitutional" | "administrative" | string;
+  issuing_body?: string | null;
   grade: Grade;
   reason_code: string;
   reason: string;
@@ -23,6 +25,14 @@ export type LiveSearchRow = {
   decision_date?: string | null;
   warning?: LiveWarning | null;
   canonical_path?: string;
+  match?: {
+    field?: string | null;
+    snippet?: string | null;
+    passage_locator?: string | null;
+  } | null;
+  snippet?: string | null;
+  match_field?: string | null;
+  passage_locator?: string | null;
 };
 
 export type LiveSearchResponse = {
@@ -31,6 +41,46 @@ export type LiveSearchResponse = {
   query: string;
   grades: Grade[];
   results: LiveSearchRow[];
+  page?: number;
+  page_size?: number;
+  total?: number;
+  total_is_exact?: boolean;
+  total_pages?: number;
+  pages?: number;
+  has_previous?: boolean;
+  has_next?: boolean;
+  next_page?: number | null;
+  previous_page?: number | null;
+  facets?: Record<string, Array<{ value: string; count: number }> | Record<string, number>>;
+  facets_are_exact?: boolean;
+  facet_count_unit?: "authorities" | "indexed_passages" | string;
+  search_scope?: "full_text" | "title_and_citation_only" | string;
+  search_mode?: "full_text" | "hybrid" | "metadata" | string;
+  semantic_search?: "enabled" | "disabled" | "unavailable" | string;
+  degraded_reason?: string | null;
+  search_available?: boolean;
+  limitation?: string | null;
+};
+
+export type AuthorityStructure = {
+  collection?: string | null;
+  code_name?: string | null;
+  title_number?: string | null;
+  title_name?: string | null;
+  chapter?: string | null;
+  chapter_name?: string | null;
+  section_number?: string | null;
+  breadcrumb?: string[] | string | null;
+  display_path?: string | null;
+};
+
+export type AuthorityParagraph = {
+  id?: string | null;
+  ordinal?: number | null;
+  label?: string | null;
+  text: string;
+  pinpoint?: string | null;
+  page?: string | number | null;
 };
 
 export type LiveManifest = {
@@ -50,7 +100,10 @@ export type LiveAuthorityResponse = {
     record_id: string;
     jurisdiction: string;
     authority_type: string;
+    category?: "judicial" | "statutory" | "constitutional" | "administrative" | string;
     body: string;
+    issuing_body?: string | null;
+    structure?: AuthorityStructure | null;
     title: string;
     citation_aliases: CitationAlias[];
   };
@@ -59,6 +112,11 @@ export type LiveAuthorityResponse = {
     primary_text: string;
     normalized_text_sha256: string;
     decision_date?: string | null;
+    publication_date?: string | null;
+    effective_date?: string | null;
+    current_through?: string | null;
+    paragraphs?: AuthorityParagraph[] | null;
+    structure?: AuthorityStructure | null;
     status?: string;
   };
   verification: {

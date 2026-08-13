@@ -1,17 +1,17 @@
 import type { AuthorityResponse, CorpusEntry, Grade, ProofBundle } from "./contract-types";
 
 export const gradeLabels: Record<Grade, string> = {
-  A: "Officially verified",
-  B: "Previously verified — stale",
-  C: "Lawful baseline — verification pending",
-  D: "Warning — suspected issue",
-  F: "Warning — confirmed material defect",
+  A: "Verified against official source",
+  B: "Previously verified; recheck due",
+  C: "Public-source import; official verification pending",
+  D: "Potential problem; verify before relying",
+  F: "Known problem; do not rely",
 };
 
 export const gradeDescriptions: Record<Grade, string> = {
-  A: "Official diff match, clean, with no unresolved defect, verified within 365 days.",
-  B: "This rendition previously qualified for A, but its verification is older than 365 days.",
-  C: "Lawful usable public-primary-law baseline awaiting official diff verification.",
+  A: "This text has been checked against an official court or government source.",
+  B: "This text was checked against an official source, but that check is due to be refreshed.",
+  C: "This public-source text has not yet been checked against the responsible official publisher.",
   D: "A suspected issue or user report remains unresolved. Verify against the official publisher before use.",
   F: "A material defect is confirmed. The rendition remains discoverable for transparency but should not be relied on.",
 };
@@ -38,7 +38,7 @@ export function buildAuthorityViewModel(entry: CorpusEntry): AuthorityViewModel 
   const finality = (response.version.finality_status || "unknown").replaceAll("_", " ");
   const status = (response.version.status || "unknown").replaceAll("_", " ");
   const warning = grade === "C"
-    ? "Official verification pending. Confirm this lawful baseline against the official publisher before relying on it."
+    ? "This public-source text has not yet been checked against the responsible official publisher."
     : grade === "D"
       ? "Warning: a suspected issue or user report is unresolved. Do not rely on this rendition without official verification."
       : grade === "F"
