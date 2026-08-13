@@ -1,28 +1,54 @@
 "use client";
 
 import Link from "next/link";
-import { useSearchParams } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
-import type { LiveAuthorityResponse, LiveProofBundle } from "@/lib/corpus";
+import type { LiveAuthorityResponse, LivePathResponse, LiveProofBundle } from "@/lib/corpus";
 import { GradeBadge } from "./GradeBadge";
 
 export function LiveAuthorityReader({ apiBaseUrl }: { apiBaseUrl: string | null }) {
-  const slug = useSearchParams().get("slug") || "";
+  const querySlug = useSearchParams().get("slug") || "";
+  const pathname = usePathname();
+  const canonicalRequestPath = /^\/corpus\/(cases|statutes|constitutions)\//.test(pathname) ? pathname : "";
   const [authority, setAuthority] = useState<LiveAuthorityResponse | null>(null);
+  const [resolvedSlug, setResolvedSlug] = useState("");
   const [proof, setProof] = useState<LiveProofBundle | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    if (!apiBaseUrl || !slug) return;
+    if (!apiBaseUrl || (!querySlug && !canonicalRequestPath)) return;
     const controller = new AbortController();
     (async () => {
       try {
+        setAuthority(null);
+        setProof(null);
+        setError(null);
+        let slug = querySlug;
+        if (canonicalRequestPath) {
+          const encodedPath = canonicalRequestPath.split("/").filter(Boolean).map(encodeURIComponent).join("/");
+          const pathResponse = await fetch(`${apiBaseUrl}/v1/paths/${encodedPath}`, {
+            headers: { Accept: "application/json" }, signal: controller.signal,
+          });
+          if (!pathResponse.ok) throw new Error(pathResponse.status === 404 ? "Authority not found." : `LexyCorpus path service returned ${pathResponse.status}.`);
+          const resolved = (await pathResponse.json()) as LivePathResponse;
+          slug = resolved.authority.slug;
+          if (resolved.redirect_required && resolved.canonical_path !== pathname) {
+            window.location.replace(resolved.canonical_path);
+            return;
+          }
+        }
         const response = await fetch(`${apiBaseUrl}/v1/authorities/${encodeURIComponent(slug)}`, {
           headers: { Accept: "application/json" }, signal: controller.signal,
         });
         if (!response.ok) throw new Error(response.status === 404 ? "Authority not found." : `LexyCorpus API returned ${response.status}.`);
         const value = (await response.json()) as LiveAuthorityResponse;
+        setResolvedSlug(slug);
         setAuthority(value);
+        if (!canonicalRequestPath && value.canonical_path) {
+          window.history.replaceState(window.history.state, "", value.canonical_path);
+        }
+        const canonicalPath = value.canonical_path || canonicalRequestPath;
+        if (canonicalPath) setCanonicalDocumentMetadata(value, canonicalPath);
         const proofResponse = await fetch(`${apiBaseUrl}/v1/proof-bundles/${encodeURIComponent(value.version.version_id)}`, {
           headers: { Accept: "application/json" }, signal: controller.signal,
         });
@@ -34,10 +60,10 @@ export function LiveAuthorityReader({ apiBaseUrl }: { apiBaseUrl: string | null 
       }
     })();
     return () => controller.abort();
-  }, [apiBaseUrl, slug]);
+  }, [apiBaseUrl, canonicalRequestPath, pathname, querySlug]);
 
   if (!apiBaseUrl) return <Unavailable message="This build has no live LexyCorpus API endpoint configured." />;
-  if (!slug) return <Unavailable message="No authority was selected." />;
+  if (!querySlug && !canonicalRequestPath) return <Unavailable message="No authority was selected." />;
   if (error) return <Unavailable message={error} />;
   if (!authority) return <p className="py-20 text-center text-sm font-semibold text-slate-600" role="status">Loading the live canonical authority…</p>;
 
@@ -47,7 +73,7 @@ export function LiveAuthorityReader({ apiBaseUrl }: { apiBaseUrl: string | null 
       <nav aria-label="Breadcrumb" className="mb-8 text-sm text-slate-500">
         <Link href="/corpus/" className="hover:text-slate-900">LexyCorpus</Link> <span aria-hidden="true">/</span>{" "}
         <Link href="/corpus/search/" className="hover:text-slate-900">Search</Link> <span aria-hidden="true">/</span>{" "}
-        <span aria-current="page" className="text-slate-700">Live authority</span>
+        <span aria-current="page" className="text-slate-700">{authority.record.title}</span>
       </nav>
 
       {warning && (
@@ -120,7 +146,7 @@ export function LiveAuthorityReader({ apiBaseUrl }: { apiBaseUrl: string | null 
                   <summary className="cursor-pointer font-semibold text-slate-900">Source snapshot data</summary>
                   <pre className="mt-3 overflow-x-auto whitespace-pre-wrap bg-slate-50 p-4 font-mono text-xs leading-5">{JSON.stringify(proof.source_snapshot || {}, null, 2)}</pre>
                 </details>
-                <a href={`${apiBaseUrl}/v1/authorities/${encodeURIComponent(slug)}`} className="inline-block font-semibold underline underline-offset-4">Open API record</a>
+                <a href={`${apiBaseUrl}/v1/authorities/${encodeURIComponent(resolvedSlug)}`} className="inline-block font-semibold underline underline-offset-4">Open API record</a>
               </div>
             </details>
           </div>
@@ -128,6 +154,17 @@ export function LiveAuthorityReader({ apiBaseUrl }: { apiBaseUrl: string | null 
       </section>
     </article>
   );
+}
+
+function setCanonicalDocumentMetadata(authority: LiveAuthorityResponse, canonicalPath: string) {
+  document.title = `${authority.record.title} | LexyCorpus`;
+  let canonical = document.querySelector<HTMLLinkElement>('link[rel="canonical"]');
+  if (!canonical) {
+    canonical = document.createElement("link");
+    canonical.rel = "canonical";
+    document.head.appendChild(canonical);
+  }
+  canonical.href = new URL(canonicalPath, window.location.origin).href;
 }
 
 function Detail({ label, value, mono = false }: { label: string; value: string; mono?: boolean }) {

@@ -46,7 +46,7 @@ export function CorpusSearch({
         const payload = (await response.json()) as LiveSearchResponse;
         setLiveResults(payload.results.map((row) => ({
           slug: row.slug,
-          route: `/corpus/live-authority/?slug=${encodeURIComponent(row.slug)}`,
+          route: row.canonical_path || `/corpus/live-authority/?slug=${encodeURIComponent(row.slug)}`,
           api_route: `${apiBaseUrl}/v1/authorities/${encodeURIComponent(row.slug)}`,
           title: row.title,
           citation: row.citation || row.title,

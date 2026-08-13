@@ -22,27 +22,7 @@ LABEL org.opencontainers.image.title="LexyAlgo static site"
 LABEL org.opencontainers.image.description="Static Next.js export served by nginx for lexyalgo.com."
 
 COPY --from=builder /app/out /usr/share/nginx/html
-COPY <<'NGINX' /etc/nginx/conf.d/default.conf
-server {
-    listen 3000;
-    server_name _;
-
-    root /usr/share/nginx/html;
-    index index.html;
-
-    location = /healthz {
-        access_log off;
-        add_header Content-Type text/plain;
-        return 200 'ok';
-    }
-
-    location / {
-        try_files $uri $uri.html $uri/index.html =404;
-    }
-
-    error_page 404 /404.html;
-}
-NGINX
+COPY deploy/nginx/default.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 3000
 HEALTHCHECK --interval=30s --timeout=5s --start-period=30s --retries=3 \

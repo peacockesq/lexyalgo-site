@@ -17,6 +17,7 @@
     "sync:corpus": "node scripts/sync-corpus-slice.mjs",
     "migrate:corpus-grade-contract": "node scripts/migrate-corpus-grade-contract.mjs",
     "verify:corpus": "node scripts/verify-corpus-static.mjs",
+    "verify:corpus-canonical-routes": "node scripts/verify-corpus-canonical-routes.mjs",
     "verify:corpus-data": "node scripts/verify-corpus-contract-data.mjs",
     "postinstall": "node scripts/patch-tinacms-vite-define.mjs"
   },
