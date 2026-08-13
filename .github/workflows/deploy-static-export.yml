@@ -127,6 +127,12 @@ jobs:
           name: static-export
           path: out
 
+      - name: Check out deployment configuration
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.build.outputs.deploy_sha }}
+          path: source
+
       - name: Install SSH tooling
         run: sudo apt-get update && sudo apt-get install -y rsync openssh-client
 
@@ -255,6 +261,55 @@ jobs:
           EOF
           fi
 
+      - name: Install canonical LexyCorpus route configuration
+        env:
+          DEPLOY_CONTAINER: ${{ vars.DEPLOY_CONTAINER != '' && vars.DEPLOY_CONTAINER || secrets.DEPLOY_CONTAINER }}
+          DEPLOY_HOST: ${{ vars.DEPLOY_HOST != '' && vars.DEPLOY_HOST || secrets.DEPLOY_HOST }}
+          DEPLOY_PORT: ${{ vars.DEPLOY_PORT != '' && vars.DEPLOY_PORT || secrets.DEPLOY_PORT }}
+          DEPLOY_USER: ${{ vars.DEPLOY_USER != '' && vars.DEPLOY_USER || secrets.DEPLOY_USER }}
+          RUN_SUFFIX: ${{ github.run_id }}-${{ github.run_attempt }}
+        shell: bash
+        run: |
+          if [ -z "$DEPLOY_CONTAINER" ]; then
+            echo "Canonical LexyCorpus routes require the configured nginx container target." >&2
+            exit 1
+          fi
+
+          port="$DEPLOY_PORT"
+          [ -n "$port" ] || port=22
+          remote_config="/tmp/lexyalgo-nginx-$RUN_SUFFIX.conf"
+
+          scp -i ~/.ssh/id_ed25519 -P "$port" source/deploy/nginx/default.conf \
+            "$DEPLOY_USER@$DEPLOY_HOST:$remote_config"
+
+          ssh -i ~/.ssh/id_ed25519 -p "$port" "$DEPLOY_USER@$DEPLOY_HOST" \
+            "DEPLOY_CONTAINER='$DEPLOY_CONTAINER' REMOTE_CONFIG='$remote_config' RUN_SUFFIX='$RUN_SUFFIX' /bin/sh" <<'EOF'
+          set -e
+          docker inspect "$DEPLOY_CONTAINER" >/dev/null
+          target=/etc/nginx/conf.d/default.conf
+          candidate=/etc/nginx/conf.d/default.conf.candidate
+          backup="/etc/nginx/conf.d/default.conf.previous-$RUN_SUFFIX"
+
+          docker cp "$REMOTE_CONFIG" "$DEPLOY_CONTAINER:$candidate"
+          if ! docker exec -e TARGET="$target" -e CANDIDATE="$candidate" -e BACKUP="$backup" "$DEPLOY_CONTAINER" sh -lc '
+            set -e
+            cp "$TARGET" "$BACKUP"
+            mv "$CANDIDATE" "$TARGET"
+            if nginx -t && nginx -s reload; then
+              rm -f "$BACKUP"
+            else
+              mv "$BACKUP" "$TARGET"
+              nginx -t
+              nginx -s reload
+              exit 1
+            fi
+          '; then
+            rm -f "$REMOTE_CONFIG"
+            exit 1
+          fi
+          rm -f "$REMOTE_CONFIG"
+          EOF
+
       - name: Verify deployed build metadata
         env:
           DEPLOY_BASE_URL: ${{ vars.DEPLOY_BASE_URL != '' && vars.DEPLOY_BASE_URL || secrets.DEPLOY_BASE_URL }}
@@ -279,3 +334,7 @@ jobs:
               raise SystemExit(f"deploy verification failed: expected {expected}, got {actual}")
           print(json.dumps(payload, indent=2))
           PY
+
+          canonical_url="${DEPLOY_BASE_URL%/}/corpus/cases/florida/1000-friends-of-florida-inc-v-department-of-community-affairs/824-so-2d-989/"
+          curl --fail --silent --show-error "$canonical_url" --output canonical-authority.html
+          grep -q "Live Primary Law" canonical-authority.html

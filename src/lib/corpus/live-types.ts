@@ -22,6 +22,7 @@ export type LiveSearchRow = {
   version_id: string;
   decision_date?: string | null;
   warning?: LiveWarning | null;
+  canonical_path?: string;
 };
 
 export type LiveSearchResponse = {
@@ -71,6 +72,15 @@ export type LiveAuthorityResponse = {
     limitations?: string[];
   };
   warning: LiveWarning | null;
+  canonical_path?: string;
+};
+
+export type LivePathResponse = {
+  contract_version: string;
+  requested_path: string;
+  canonical_path: string;
+  redirect_required: boolean;
+  authority: LiveSearchRow;
 };
 
 export type LiveProofBundle = {
