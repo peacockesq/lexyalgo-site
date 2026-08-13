@@ -10,8 +10,12 @@ function GoogleAnalyticsInner() {
   const searchParams = useSearchParams()
 
   useEffect(() => {
+    if (pathname?.startsWith('/internal/legal-growth-os')) {
+      return
+    }
+
     if (pathname) {
-      pageview(pathname + (searchParams?.toString() ? `?${searchParams.toString()}` : ''))
+      pageview(pathname)
     }
   }, [pathname, searchParams])
 
