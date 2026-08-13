@@ -26,10 +26,10 @@ export function VerificationCard({ vm }: { vm: AuthorityViewModel }) {
       <div className="mt-6 border-t border-slate-200 pt-5">
         <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Official source{vm.sourceArtifacts.length === 1 ? "" : "s"}</p>
         <ul className="mt-2 space-y-2 text-sm">
-          {vm.sourceArtifacts.map((artifact) => (
+          {vm.sourceArtifacts.map((artifact, index) => (
             <li key={artifact.artifact_id} className="flex flex-wrap items-center gap-x-3 gap-y-1">
-              <span className="font-mono text-xs text-slate-600">{artifact.source_id}</span>
-              {artifact.canonical_url && <a href={artifact.canonical_url} className="font-semibold text-slate-900 underline decoration-slate-300 underline-offset-4 hover:decoration-slate-800" target="_blank" rel="noreferrer">Open source</a>}
+              <span className="text-slate-600">Source {index + 1}</span>
+              {artifact.canonical_url && <a href={artifact.canonical_url} className="font-semibold text-slate-900 underline decoration-slate-300 underline-offset-4 hover:decoration-slate-800" target="_blank" rel="noreferrer">Open publisher record</a>}
             </li>
           ))}
         </ul>
