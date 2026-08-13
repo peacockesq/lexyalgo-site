@@ -4,7 +4,7 @@ import { getLexyCorpusApiUrl, getLexyCorpusMcpUrl } from '@/lib/corpus'
 
 export const metadata: Metadata = {
   title: 'LexyCorpus — LexyAlgo',
-  description: 'Search millions of statutes, constitutions, and judicial opinions with citations, source links, and clear verification grades.',
+  description: 'Free legal research for attorneys, self-represented people, and the public, with clear verification grades for every authority.',
 }
 
 export default function CorpusPage() {

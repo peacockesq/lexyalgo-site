@@ -14,7 +14,10 @@ export type AuthorityRecord = {
   record_id: string;
   jurisdiction: string;
   authority_type: "statute" | "opinion" | string;
+  category?: "judicial" | "statutory" | "constitutional" | "administrative" | string;
   body: string;
+  issuing_body?: string | null;
+  structure?: import("./live-types").AuthorityStructure | null;
   canonical_key: Record<string, string>;
   identity_state: string;
   citation_aliases: CitationAlias[];
@@ -44,6 +47,8 @@ export type AuthorityVersion = {
   parser_id: string;
   parser_version: string;
   normalization_warnings: string[];
+  paragraphs?: import("./live-types").AuthorityParagraph[] | null;
+  structure?: import("./live-types").AuthorityStructure | null;
 };
 
 export type Verification = {
@@ -120,6 +125,7 @@ export type SearchResult = {
   jurisdiction: string;
   body: string;
   authority_type: string;
+  category?: string;
   status: string;
   finality_status: string;
   grade: Grade;
@@ -130,6 +136,8 @@ export type SearchResult = {
   source_url: string | null;
   snippet_label: string;
   snippet: string;
+  match_field?: string | null;
+  passage_locator?: string | null;
   fixture: boolean;
 };
 
@@ -144,7 +152,6 @@ export type CorpusEntry = {
   response: AuthorityResponse;
   proof_bundle: ProofBundle;
 };
-
 export type CorpusBundle = {
   contract_version: string;
   policy_version: string;

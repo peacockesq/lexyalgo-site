@@ -15,7 +15,6 @@ export function VerificationCard({ vm }: { vm: AuthorityViewModel }) {
           <p className="mb-2 text-xs font-bold uppercase tracking-[0.18em] text-slate-500">Verification</p>
           <h2 id="verification-heading" className="font-serif text-2xl font-semibold text-slate-950">{vm.gradeLabel}</h2>
           <p className="mt-3 text-sm leading-6 text-slate-700">{vm.gradeDescription}</p>
-          <p className="mt-2 text-sm leading-6 text-slate-600">{verification.reason}</p>
         </div>
         <div className="shrink-0 text-left sm:text-right">
           <GradeBadge grade={verification.grade} />
@@ -24,12 +23,13 @@ export function VerificationCard({ vm }: { vm: AuthorityViewModel }) {
         </div>
       </div>
       <div className="mt-6 border-t border-slate-200 pt-5">
-        <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Official source{vm.sourceArtifacts.length === 1 ? "" : "s"}</p>
+        <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Source record{vm.sourceArtifacts.length === 1 ? "" : "s"}</p>
         <ul className="mt-2 space-y-2 text-sm">
           {vm.sourceArtifacts.map((artifact, index) => (
             <li key={artifact.artifact_id} className="flex flex-wrap items-center gap-x-3 gap-y-1">
-              <span className="text-slate-600">Source {index + 1}</span>
-              {artifact.canonical_url && <a href={artifact.canonical_url} className="font-semibold text-slate-900 underline decoration-slate-300 underline-offset-4 hover:decoration-slate-800" target="_blank" rel="noreferrer">Open publisher record</a>}
+              {artifact.canonical_url
+                ? <a href={artifact.canonical_url} className="font-semibold text-slate-900 underline decoration-slate-300 underline-offset-4 hover:decoration-slate-800" target="_blank" rel="noreferrer">View source record {index + 1}</a>
+                : <span className="text-slate-600">Source link {index + 1} is not yet available.</span>}
             </li>
           ))}
         </ul>
