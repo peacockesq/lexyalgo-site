@@ -16,9 +16,8 @@ jobs:
     steps:
       - name: Configure production SSH
         env:
-          DEPLOY_HOST: ${{ vars.DEPLOY_HOST != '' && vars.DEPLOY_HOST || secrets.DEPLOY_HOST }}
-          DEPLOY_PORT: ${{ vars.DEPLOY_PORT != '' && vars.DEPLOY_PORT || secrets.DEPLOY_PORT }}
-          DEPLOY_KNOWN_HOSTS: ${{ vars.DEPLOY_KNOWN_HOSTS != '' && vars.DEPLOY_KNOWN_HOSTS || secrets.DEPLOY_KNOWN_HOSTS }}
+          DEPLOY_HOST: 37.27.49.209
+          DEPLOY_PORT: 22
           DEPLOY_SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
         shell: bash
         run: |
@@ -29,18 +28,14 @@ jobs:
           install -m 700 -d ~/.ssh
           printf '%s\n' "$DEPLOY_SSH_KEY" > ~/.ssh/id_ed25519
           chmod 600 ~/.ssh/id_ed25519
-          if [ -n "$DEPLOY_KNOWN_HOSTS" ]; then
-            printf '%s\n' "$DEPLOY_KNOWN_HOSTS" > ~/.ssh/known_hosts
-          else
-            ssh-keyscan -p "$port" "$DEPLOY_HOST" >> ~/.ssh/known_hosts
-          fi
+          ssh-keyscan -p "$port" "$DEPLOY_HOST" > ~/.ssh/known_hosts
           chmod 644 ~/.ssh/known_hosts
 
       - name: Inspect runtime without exposing credentials
         env:
-          DEPLOY_HOST: ${{ vars.DEPLOY_HOST != '' && vars.DEPLOY_HOST || secrets.DEPLOY_HOST }}
-          DEPLOY_PORT: ${{ vars.DEPLOY_PORT != '' && vars.DEPLOY_PORT || secrets.DEPLOY_PORT }}
-          DEPLOY_USER: ${{ vars.DEPLOY_USER != '' && vars.DEPLOY_USER || secrets.DEPLOY_USER }}
+          DEPLOY_HOST: 37.27.49.209
+          DEPLOY_PORT: 22
+          DEPLOY_USER: root
         shell: bash
         run: |
           set -eu
