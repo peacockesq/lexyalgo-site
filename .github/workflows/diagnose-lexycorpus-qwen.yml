@@ -1,0 +1,95 @@
+name: Diagnose LexyCorpus Qwen runtime
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/diagnose-lexycorpus-qwen.yml
+
+permissions:
+  contents: read
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: Configure historical Hetzner SSH
+        env:
+          SSH_KEY: ${{ secrets.DEPLOY_SSH_KEY }}
+        shell: bash
+        run: |
+          set -eu
+          test -n "$SSH_KEY"
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -p 22 37.27.49.209 > ~/.ssh/known_hosts
+          chmod 644 ~/.ssh/known_hosts
+
+      - name: Diagnose Qwen services
+        shell: bash
+        run: |
+          set -eu
+          ssh -i ~/.ssh/id_ed25519 root@37.27.49.209 'bash -s' <<'REMOTE'
+          set -u
+          services="lexycorpus-pplx4b-backfill-v2.service lexycorpus-pplx4b-backfill-v3.service lexycorpus-qwen3-8b-backfill-v4.service lexycorpus-statutes-pplx4b-backfill-v3.service lexycorpus-statutes-qwen3-8b-backfill-v4.service"
+          for unit in $services; do
+            echo "== UNIT $unit =="
+            systemctl show "$unit" --no-pager               -p LoadState -p ActiveState -p SubState -p Result -p ExecMainCode -p ExecMainStatus               -p FragmentPath -p ExecStart -p EnvironmentFiles 2>/dev/null |
+              sed -E 's/(token|key|secret)(=| )[^ ;]+/\1=REDACTED/Ig' || true
+            journalctl -u "$unit" --no-pager -n 80 -o short-iso 2>/dev/null |
+              sed -E 's/(Bearer )[A-Za-z0-9._~+\/-]+/\1REDACTED/Ig; s/(token|key|secret)(=|:| )[^ ,;]+/\1=REDACTED/Ig' || true
+          done
+
+          echo "== QWEN CONFIG KEYS =="
+          for file in /opt/lexycorpus/live/secrets/gn100-embedding.env /opt/lexycorpus/live/secrets/qwen-backfill-canary.env.completed; do
+            [ -f "$file" ] || continue
+            echo "FILE=$file MODE=$(stat -c '%a' "$file") OWNER=$(stat -c '%U:%G' "$file")"
+            sed -n -E 's/^[[:space:]]*(export[[:space:]]+)?([A-Za-z_][A-Za-z0-9_]*)=.*/\2/p' "$file"
+          done
+
+          echo "== QWEN SCRIPT CONTRACTS =="
+          for file in             /opt/lexycorpus/bin/run_qwen_embedding_backfill_v4.sh             /opt/lexycorpus/bin/run_qwen_statute_embedding_backfill_v4.sh             /opt/lexycorpus/bin/build_hetzner_qwen_backfill_v4.py             /opt/lexycorpus/bin/embedding_backfill_qwen_v4.py; do
+            [ -f "$file" ] || continue
+            echo "FILE=$file SHA256=$(sha256sum "$file" | cut -d' ' -f1)"
+            grep -nEi 'qwen|model|dimension|endpoint|status|output|prefix|manifest|partition|provider|environment|exec|storage|batch|concurr' "$file" |
+              sed -E 's/(token|key|secret)(=|:| )[^ ,;]+/\1=REDACTED/Ig' |
+              head -240 || true
+          done
+
+          echo "== QWEN STATUS CANDIDATES =="
+          find /opt/lexycorpus /srv/lexycorpus -maxdepth 10 -type f             \( -iname '*qwen*.json' -o -iname '*backfill*status*.json' -o -iname '*status*v4*.json' \)             2>/dev/null | sort |
+          while IFS= read -r status; do
+            echo "STATUS_FILE=$status SIZE=$(stat -c '%s' "$status")"
+            python3 - "$status" <<'PY'
+          import json, pathlib, sys
+          path = pathlib.Path(sys.argv[1])
+          try:
+              value = json.loads(path.read_text())
+          except Exception as exc:
+              print("UNREADABLE", type(exc).__name__)
+              raise SystemExit(0)
+          if not isinstance(value, dict):
+              print("TYPE", type(value).__name__)
+              raise SystemExit(0)
+          allowed = {
+              "updated_at", "status", "model", "profile", "dimensions", "batch_size",
+              "vector_artifact_version", "vector_projection_schema", "input_tokens",
+              "local_input_tokens", "completed_partitions", "completed_chunks",
+              "partition_position", "partition_count", "current_partition",
+              "current_batch", "next_partition", "next_batch", "active_embedding_provider",
+              "request_concurrency", "run_elapsed_seconds", "run_chunks_per_second",
+              "embedding_attempts", "embedding_retries", "embedding_failures",
+              "error", "reason", "message", "receipt_count", "record_count",
+          }
+          clean = {key: value.get(key) for key in sorted(allowed) if key in value}
+          print(json.dumps(clean, indent=2)[:12000])
+          PY
+          done
+
+          echo "== STORAGE HEADROOM =="
+          df -h / /opt/lexycorpus 2>/dev/null || true
+          df -i / /opt/lexycorpus 2>/dev/null || true
+          du -sh /opt/lexycorpus/runs /opt/lexycorpus/bin /opt/lexycorpus/live 2>/dev/null || true
+          REMOTE
