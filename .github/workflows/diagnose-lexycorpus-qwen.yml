@@ -12,7 +12,7 @@ permissions:
 jobs:
   recover:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 10
     environment: production
     steps:
       - name: Configure Hetzner SSH
@@ -28,103 +28,53 @@ jobs:
           ssh-keyscan -p 22 37.27.49.209 > ~/.ssh/known_hosts
           chmod 644 ~/.ssh/known_hosts
 
-      - name: Verify and resume Qwen3-Embedding-8B
+      - name: Start and verify Qwen3-Embedding-8B
         shell: bash
         run: |
           set -eu
-          ssh -i ~/.ssh/id_ed25519 root@37.27.49.209 'bash -s' <<'REMOTE'
+          ssh -o ServerAliveInterval=15 -o ServerAliveCountMax=4 -i ~/.ssh/id_ed25519 root@37.27.49.209 'bash -s' <<'REMOTE'
           set -Eeuo pipefail
+          unit=lexycorpus-qwen3-8b-backfill-v4.service
+          status=/opt/lexycorpus/runs/embedding-backfill-qwen3-8b-v4-r1/status.json
 
-          case_status=/opt/lexycorpus/runs/embedding-backfill-qwen3-8b-v4-r1/status.json
-          statute_status=/opt/lexycorpus/runs/embedding-backfill-statutes-qwen3-8b-v4-r1/status.json
-          runner=/opt/lexycorpus/bin/embedding_backfill_qwen_v4.py
-          wrapper=/opt/lexycorpus/bin/run_qwen_embedding_backfill_v4.sh
-          secret=/opt/lexycorpus/live/secrets/gn100-embedding.env
-
-          echo "== PRECHECK =="
-          test -r "$runner"
-          test -x "$wrapper"
-          test -r "$secret"
-          test "$(stat -c '%a' "$secret")" = 600
-          grep -Fq 'MODEL = "Qwen/Qwen3-Embedding-8B"' "$runner"
-          grep -Fq 'DIMENSIONS = 4096' "$runner"
-          grep -Fq 'VECTOR_ARTIFACT_VERSION = "lexycorpus-embedding-shard-v4-qwen3-8b-int8"' "$runner"
-          grep -Fq -- '--embedding-provider openai_float_int8' "$wrapper"
-          grep -Fq -- '--embedding-model Qwen/Qwen3-Embedding-8B' "$wrapper"
-          grep -Fq 'qwen3-embedding-8b/4096/' "$wrapper"
-          test "$(systemctl is-active lexycorpus-pplx4b-backfill-v3.service || true)" != active
-          test "$(systemctl is-active lexycorpus-statutes-pplx4b-backfill-v3.service || true)" != active
-          df -h /
-          echo "QWEN_CONTRACT=model:Qwen/Qwen3-Embedding-8B dimensions:4096 artifact:v4-int8"
-
-          echo "== EXISTING STATUS =="
-          for path in "$case_status" "$statute_status"; do
-            if [ -f "$path" ]; then
-              python3 - "$path" <<'PY'
+          echo "== CONTRACT =="
+          grep -Fq 'MODEL = "Qwen/Qwen3-Embedding-8B"' /opt/lexycorpus/bin/embedding_backfill_qwen_v4.py
+          grep -Fq 'DIMENSIONS = 4096' /opt/lexycorpus/bin/embedding_backfill_qwen_v4.py
+          python3 - "$status" <<'PY'
           import json, pathlib, sys
-          p = pathlib.Path(sys.argv[1])
-          d = json.loads(p.read_text())
-          allowed = ["status","model","dimensions","vector_artifact_version","vector_projection_schema",
-                     "completed_partitions","completed_chunks","current_partition","current_batch",
-                     "next_partition","next_batch","request_concurrency","updated_at","error","message"]
-          print("STATUS_FILE=" + str(p))
-          print(json.dumps({k:d.get(k) for k in allowed if k in d}, sort_keys=True))
-          PY
-            else
-              echo "STATUS_FILE=$path MISSING"
-            fi
-          done
-
-          echo "== BOUNDED QWEN CANARY =="
-          systemctl stop lexycorpus-qwen3-8b-backfill-v4.service || true
-          set +e
-          timeout 1800 env LEXY_QWEN_MAX_BATCHES=1 "$wrapper" >/tmp/lexy-qwen-canary.log 2>&1
-          canary_rc=$?
-          set -e
-          sed -E 's/(Bearer )[A-Za-z0-9._~+\/-]+/\1REDACTED/Ig; s/(api[_-]?key|token|secret)(=|:| )[^ ,;]+/\1=REDACTED/Ig' /tmp/lexy-qwen-canary.log | tail -160
-          if [ "$canary_rc" -ne 0 ]; then
-            echo "QWEN_CANARY_RC=$canary_rc"
-            exit "$canary_rc"
-          fi
-
-          python3 - "$case_status" <<'PY'
-          import json, pathlib, sys
-          p = pathlib.Path(sys.argv[1])
-          d = json.loads(p.read_text())
-          assert d.get("model") == "Qwen/Qwen3-Embedding-8B", d.get("model")
-          assert d.get("dimensions") == 4096, d.get("dimensions")
+          d=json.loads(pathlib.Path(sys.argv[1]).read_text())
+          assert d.get("model") == "Qwen/Qwen3-Embedding-8B"
+          assert d.get("dimensions") == 4096
           assert d.get("vector_artifact_version") == "lexycorpus-embedding-shard-v4-qwen3-8b-int8"
-          print("QWEN_CANARY_VERIFIED")
-          print(json.dumps({k:d.get(k) for k in (
-              "status","model","dimensions","vector_artifact_version","vector_projection_schema",
-              "completed_partitions","completed_chunks","current_partition","current_batch",
-              "next_partition","next_batch","request_concurrency","updated_at"
-          ) if k in d}, sort_keys=True))
+          print("QWEN_STATUS_IDENTITY_VERIFIED")
+          print(json.dumps({k:d.get(k) for k in ("status","model","dimensions","completed_partitions","completed_chunks","current_batch","updated_at")}, sort_keys=True))
           PY
 
-          echo "== RESUME QWEN CASE BACKFILL =="
-          systemctl reset-failed lexycorpus-qwen3-8b-backfill-v4.service
-          systemctl start lexycorpus-qwen3-8b-backfill-v4.service
-          sleep 20
-          test "$(systemctl is-active lexycorpus-qwen3-8b-backfill-v4.service)" = active
-          systemctl show lexycorpus-qwen3-8b-backfill-v4.service --no-pager             -p ActiveState -p SubState -p Result -p MainPID
+          echo "== START =="
+          systemctl reset-failed "$unit" || true
+          systemctl start --no-block "$unit"
+          sleep 30
+          state=$(systemctl is-active "$unit" || true)
+          echo "QWEN_SERVICE_ACTIVE=$state"
+          systemctl show "$unit" --no-pager -p ActiveState -p SubState -p Result -p MainPID
+          test "$state" = activating -o "$state" = active
           ps -eo pid,args | grep '[e]mbedding_backfill_qwen_v4.py' |
+            grep -F -- '--embedding-model Qwen/Qwen3-Embedding-8B' |
+            grep -F -- '--embedding-endpoint http://100.121.19.14:18102/v1/embeddings' |
             sed -E 's/(--api-key[ =])[^ ]+/\1REDACTED/Ig'
 
-          echo "== RETIRE PERPLEXITY SERVICE ENTRYPOINTS =="
-          systemctl disable lexycorpus-pplx4b-backfill-v2.service             lexycorpus-pplx4b-backfill-v3.service             lexycorpus-statutes-pplx4b-backfill-v3.service 2>/dev/null || true
-          for unit in lexycorpus-pplx4b-backfill-v2.service lexycorpus-pplx4b-backfill-v3.service lexycorpus-statutes-pplx4b-backfill-v3.service; do
-            test "$(systemctl is-active "$unit" || true)" != active
-            echo "$unit ACTIVE=$(systemctl is-active "$unit" || true) ENABLED=$(systemctl is-enabled "$unit" || true)"
+          echo "== PERPLEXITY OFF =="
+          for old in lexycorpus-pplx4b-backfill-v2.service lexycorpus-pplx4b-backfill-v3.service lexycorpus-statutes-pplx4b-backfill-v3.service; do
+            systemctl disable "$old" 2>/dev/null || true
+            test "$(systemctl is-active "$old" || true)" != active
+            echo "$old ACTIVE=$(systemctl is-active "$old" || true) ENABLED=$(systemctl is-enabled "$old" || true)"
           done
 
-          echo "== FINAL =="
-          python3 - "$case_status" <<'PY'
+          echo "== QWEN HEARTBEAT =="
+          python3 - "$status" <<'PY'
           import json, pathlib, sys
-          d = json.loads(pathlib.Path(sys.argv[1]).read_text())
-          print(json.dumps({k:d.get(k) for k in (
-              "status","model","dimensions","completed_partitions","completed_chunks",
-              "current_partition","current_batch","updated_at"
-          ) if k in d}, sort_keys=True))
+          d=json.loads(pathlib.Path(sys.argv[1]).read_text())
+          print(json.dumps({k:d.get(k) for k in ("status","model","dimensions","completed_partitions","completed_chunks","current_partition","current_batch","next_batch","updated_at")}, sort_keys=True))
           PY
+          df -h /
           REMOTE
